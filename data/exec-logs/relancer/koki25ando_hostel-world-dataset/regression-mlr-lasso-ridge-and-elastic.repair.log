@@ -1,0 +1,4892 @@
+['Hostel.csv']
+Traceback (most recent call last):
+  File "regression-mlr-lasso-ridge-and-elastic.py", line 27, in <module>
+    from pandas.tools.plotting import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.tools'
+[Try Solution]: OrderedDict([('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.plotting'), ('line_no', 27)])['Hostel.csv']
+Traceback (most recent call last):
+  File "regression-mlr-lasso-ridge-and-elastic.py", line 29, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.impute.SimpleImputer'), ('line_no', 29)])['Hostel.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 16 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    int64  
+ 1   hostel.name    342 non-null    object 
+ 2   City           342 non-null    object 
+ 3   price.from     342 non-null    int64  
+ 4   Distance       342 non-null    object 
+ 5   summary.score  327 non-null    float64
+ 6   rating.band    327 non-null    object 
+ 7   atmosphere     327 non-null    float64
+ 8   cleanliness    327 non-null    float64
+ 9   facilities     327 non-null    float64
+ 10  location.y     327 non-null    float64
+ 11  security       327 non-null    float64
+ 12  staff          327 non-null    float64
+ 13  valueformoney  327 non-null    float64
+ 14  lon            298 non-null    float64
+ 15  lat            298 non-null    float64
+dtypes: float64(10), int64(2), object(4)
+memory usage: 42.9+ KB
+None
+Index(['Unnamed: 0', 'hostel.name', 'City', 'price.from', 'Distance',
+       'summary.score', 'rating.band', 'atmosphere', 'cleanliness',
+       'facilities', 'location.y', 'security', 'staff', 'valueformoney', 'lon',
+       'lat'],
+      dtype='object')
+(342, 16)
+Tokyo           127
+Osaka           104
+Kyoto            78
+Fukuoka-City     19
+Hiroshima        14
+Name: City, dtype: int64 Superb       182
+Fabulous     106
+Very Good     20
+Good          11
+Rating         8
+Name: rating.band, dtype: int64
+Superb       182
+Fabulous     106
+Very Good     20
+Unknown       15
+Good          11
+Rating         8
+Name: rating.band, dtype: int64
+0      3
+1      3
+2      0
+3      5
+4      3
+      ..
+337    0
+338    0
+339    3
+340    0
+341    0
+Name: rating.band, Length: 342, dtype: int64
+Tokyo           127
+Osaka           104
+Kyoto            78
+Fukuoka-City     19
+Hiroshima        14
+Name: City, dtype: int64
+0      3
+1      0
+2      4
+3      4
+4      4
+      ..
+337    4
+338    4
+339    4
+340    2
+341    4
+Name: City, Length: 342, dtype: int64
+3    182
+0    106
+5     20
+4     15
+1     11
+2      8
+Name: rating.band, dtype: int64
+0        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+1        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+2        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+3        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+4        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+                             ...                        
+337      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+338      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+339      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+340      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+341      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+Name: rating.band, Length: 342, dtype: object
+4    127
+3    104
+2     78
+0     19
+1     14
+Name: City, dtype: int64
+0        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+1        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+2        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+3        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+4        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+                             ...                        
+337      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+338      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+339      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+340      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+341      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+Name: City, Length: 342, dtype: object
+0       2.9km from city centre
+1       0.7km from city centre
+2       7.8km from city centre
+3       8.7km from city centre
+4      10.5km from city centre
+                ...           
+337     2.6km from city centre
+338     2.9km from city centre
+339    17.5km from city centre
+340     2.4km from city centre
+341     5.9km from city centre
+Name: Distance, Length: 342, dtype: object
+0      2.9
+1      2.9
+2      2.9
+3      2.9
+4      2.9
+      ... 
+337    2.9
+338    2.9
+339    2.9
+340    2.9
+341    2.9
+Name: Distance, Length: 342, dtype: object
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    int64  
+ 1   price.from     342 non-null    int64  
+ 2   Distance       342 non-null    object 
+ 3   summary.score  327 non-null    float64
+ 4   atmosphere     327 non-null    float64
+ 5   cleanliness    327 non-null    float64
+ 6   facilities     327 non-null    float64
+ 7   location.y     327 non-null    float64
+ 8   security       327 non-null    float64
+ 9   staff          327 non-null    float64
+ 10  valueformoney  327 non-null    float64
+ 11  lon            298 non-null    float64
+ 12  lat            298 non-null    float64
+dtypes: float64(10), int64(2), object(1)
+memory usage: 34.9+ KB
+None
+[ 171.5       2500.           2.9          9.           8.6
+    9.3          9.           9.           9.2          9.4
+    9.         135.761617    34.9984705]
+[ 171.5       2500.           2.9          9.           8.6
+    9.3          9.           9.           9.2          9.4
+    9.         135.761617    34.9984705]
+     Unnamed: 0  price.from  Distance  ...  valueformoney         lon        lat
+0           1.0      3300.0       2.9  ...            9.4  135.513767  34.682678
+1           2.0      2600.0       2.9  ...            9.5  135.761617  34.998471
+2           3.0      3600.0       2.9  ...            9.0  139.777472  35.697447
+3           4.0      2600.0       2.9  ...            6.5  139.783667  35.712716
+4           5.0      1500.0       2.9  ...            9.5  139.798371  35.727898
+..          ...         ...       ...  ...            ...         ...        ...
+337       338.0      2300.0       2.9  ...            8.3  139.668125  35.702908
+338       339.0      2000.0       2.9  ...            9.4  139.667695  35.706513
+339       340.0      2500.0       2.9  ...            9.6  139.869197  35.752885
+340       341.0      2800.0       2.9  ...            7.3  135.749063  34.997376
+341       342.0      2900.0       2.9  ...            8.5  139.742116  35.655470
+
+[342 rows x 13 columns]
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    float64
+ 1   price.from     342 non-null    float64
+ 2   Distance       342 non-null    float64
+ 3   summary.score  342 non-null    float64
+ 4   atmosphere     342 non-null    float64
+ 5   cleanliness    342 non-null    float64
+ 6   facilities     342 non-null    float64
+ 7   location.y     342 non-null    float64
+ 8   security       342 non-null    float64
+ 9   staff          342 non-null    float64
+ 10  valueformoney  342 non-null    float64
+ 11  lon            342 non-null    float64
+ 12  lat            342 non-null    float64
+dtypes: float64(13)
+memory usage: 34.9 KB
+None
+               Unnamed: 0    price.from  ...           lon           lat
+Unnamed: 0       1.000000  1.031741e-01  ...  5.562738e-02  8.327748e-02
+price.from       0.103174  1.000000e+00  ...  2.584440e-02  8.352990e-03
+Distance         0.000000 -3.066035e-16  ...  5.578646e-14  3.136387e-15
+summary.score   -0.029851 -5.104329e-02  ... -4.909024e-02 -3.272850e-02
+atmosphere      -0.012237 -1.265194e-01  ... -6.376839e-02 -4.396493e-02
+cleanliness     -0.004393  1.209365e-04  ... -3.863780e-02 -2.394328e-02
+facilities      -0.013421  5.492023e-02  ... -3.723883e-02 -2.855332e-02
+location.y      -0.055358 -1.365063e-02  ... -8.844560e-02 -3.214391e-02
+security        -0.018033 -3.104836e-02  ...  1.912188e-02 -3.537907e-03
+staff            0.005457 -4.520943e-02  ... -1.505592e-02 -1.216698e-02
+valueformoney   -0.079691 -1.387923e-01  ... -5.192165e-02 -3.331854e-02
+lon              0.055627  2.584440e-02  ...  1.000000e+00  7.814049e-01
+lat              0.083277  8.352990e-03  ...  7.814049e-01  1.000000e+00
+
+[13 rows x 13 columns]
+*******************UNNAMED: 0*******************
+Unnamed: 0       1.00000000000000000000
+price.from       0.10317408610121550638
+Distance         0.00000000000000000000
+summary.score   -0.02985130001458412979
+atmosphere      -0.01223745215023924054
+cleanliness     -0.00439347271256233015
+facilities      -0.01342100635959121886
+location.y      -0.05535810026652951410
+security        -0.01803345989920592321
+staff            0.00545664349245100853
+valueformoney   -0.07969122051505554694
+lon              0.05562738332366904542
+lat              0.08327748177341673386
+Name: Unnamed: 0, dtype: float64
+*******************PRICE.FROM*******************
+Unnamed: 0       0.10317408610121550638
+price.from       1.00000000000000000000
+Distance        -0.00000000000000030660
+summary.score   -0.05104328591226791473
+atmosphere      -0.12651942854442946307
+cleanliness      0.00012093652281880361
+facilities       0.05492022545891714347
+location.y      -0.01365063068002547210
+security        -0.03104836211797801573
+staff           -0.04520942697791077020
+valueformoney   -0.13879230612995280270
+lon              0.02584439968175308508
+lat              0.00835298957795745090
+Name: price.from, dtype: float64
+*******************DISTANCE*******************
+Unnamed: 0       0.00000000000000000000
+price.from      -0.00000000000000030660
+Distance         1.00000000000000000000
+summary.score    0.00000000000000178498
+atmosphere      -0.00000000000000089042
+cleanliness      0.00000000000000333298
+facilities       0.00000000000000252166
+location.y      -0.00000000000000251469
+security        -0.00000000000000021173
+staff           -0.00000000000000480955
+valueformoney    0.00000000000000351037
+lon              0.00000000000005578646
+lat              0.00000000000000313639
+Name: Distance, dtype: float64
+*******************SUMMARY.SCORE*******************
+Unnamed: 0      -0.02985130001458412979
+price.from      -0.05104328591226791473
+Distance         0.00000000000000178498
+summary.score    1.00000000000000000000
+atmosphere       0.84418935359220104164
+cleanliness      0.84208952121710023420
+facilities       0.89527268911793667083
+location.y       0.63280102230177792677
+security         0.78610119127208732959
+staff            0.82936316293446288306
+valueformoney    0.86574997244867524238
+lon             -0.04909024248220880682
+lat             -0.03272850311800382800
+Name: summary.score, dtype: float64
+*******************ATMOSPHERE*******************
+Unnamed: 0      -0.01223745215023924054
+price.from      -0.12651942854442946307
+Distance        -0.00000000000000089042
+summary.score    0.84418935359220104164
+atmosphere       1.00000000000000000000
+cleanliness      0.63962413986210198136
+facilities       0.70458727856694858271
+location.y       0.47739369021122624037
+security         0.53901951773552336800
+staff            0.68075430205069076273
+valueformoney    0.73207839730696422365
+lon             -0.06376839264454933764
+lat             -0.04396493196755439647
+Name: atmosphere, dtype: float64
+*******************CLEANLINESS*******************
+Unnamed: 0      -0.00439347271256233015
+price.from       0.00012093652281880361
+Distance         0.00000000000000333298
+summary.score    0.84208952121710023420
+atmosphere       0.63962413986210198136
+cleanliness      1.00000000000000000000
+facilities       0.80298726799576281010
+location.y       0.41638382425687564536
+security         0.59314336015070201480
+staff            0.62858553153815344139
+valueformoney    0.68848868854239031467
+lon             -0.03863779978240586971
+lat             -0.02394328437733266382
+Name: cleanliness, dtype: float64
+*******************FACILITIES*******************
+Unnamed: 0      -0.01342100635959121886
+price.from       0.05492022545891714347
+Distance         0.00000000000000252166
+summary.score    0.89527268911793667083
+atmosphere       0.70458727856694858271
+cleanliness      0.80298726799576281010
+facilities       1.00000000000000000000
+location.y       0.48337597481997529592
+security         0.64435972946825836871
+staff            0.68971711354006226546
+valueformoney    0.75244923512469819027
+lon             -0.03723883463526554000
+lat             -0.02855331722490549173
+Name: facilities, dtype: float64
+*******************LOCATION.Y*******************
+Unnamed: 0      -0.05535810026652951410
+price.from      -0.01365063068002547210
+Distance        -0.00000000000000251469
+summary.score    0.63280102230177792677
+atmosphere       0.47739369021122624037
+cleanliness      0.41638382425687564536
+facilities       0.48337597481997529592
+location.y       1.00000000000000000000
+security         0.38123219514228551263
+staff            0.42376774300366792936
+valueformoney    0.46280081821208862713
+lon             -0.08844560194117995211
+lat             -0.03214390784099092208
+Name: location.y, dtype: float64
+*******************SECURITY*******************
+Unnamed: 0      -0.01803345989920592321
+price.from      -0.03104836211797801573
+Distance        -0.00000000000000021173
+summary.score    0.78610119127208732959
+atmosphere       0.53901951773552336800
+cleanliness      0.59314336015070201480
+facilities       0.64435972946825836871
+location.y       0.38123219514228551263
+security         1.00000000000000000000
+staff            0.69135076099875047984
+valueformoney    0.68047376624430488956
+lon              0.01912187607307368545
+lat             -0.00353790678879364754
+Name: security, dtype: float64
+*******************STAFF*******************
+Unnamed: 0       0.00545664349245100853
+price.from      -0.04520942697791077020
+Distance        -0.00000000000000480955
+summary.score    0.82936316293446288306
+atmosphere       0.68075430205069076273
+cleanliness      0.62858553153815344139
+facilities       0.68971711354006226546
+location.y       0.42376774300366792936
+security         0.69135076099875047984
+staff            1.00000000000000000000
+valueformoney    0.63373681536676174098
+lon             -0.01505592118976053009
+lat             -0.01216698078758495297
+Name: staff, dtype: float64
+*******************VALUEFORMONEY*******************
+Unnamed: 0      -0.07969122051505554694
+price.from      -0.13879230612995280270
+Distance         0.00000000000000351037
+summary.score    0.86574997244867524238
+atmosphere       0.73207839730696422365
+cleanliness      0.68848868854239031467
+facilities       0.75244923512469819027
+location.y       0.46280081821208862713
+security         0.68047376624430488956
+staff            0.63373681536676174098
+valueformoney    1.00000000000000000000
+lon             -0.05192165049260891868
+lat             -0.03331853892248575616
+Name: valueformoney, dtype: float64
+*******************LON*******************
+Unnamed: 0       0.05562738332366904542
+price.from       0.02584439968175308508
+Distance         0.00000000000005578646
+summary.score   -0.04909024248220880682
+atmosphere      -0.06376839264454933764
+cleanliness     -0.03863779978240586971
+facilities      -0.03723883463526554000
+location.y      -0.08844560194117995211
+security         0.01912187607307368545
+staff           -0.01505592118976053009
+valueformoney   -0.05192165049260891868
+lon              1.00000000000000000000
+lat              0.78140494710084662522
+Name: lon, dtype: float64
+*******************LAT*******************
+Unnamed: 0       0.08327748177341673386
+price.from       0.00835298957795745090
+Distance         0.00000000000000313639
+summary.score   -0.03272850311800382800
+atmosphere      -0.04396493196755439647
+cleanliness     -0.02394328437733266382
+facilities      -0.02855331722490549173
+location.y      -0.03214390784099092208
+security        -0.00353790678879364754
+staff           -0.01216698078758495297
+valueformoney   -0.03331853892248575616
+lon              0.78140494710084662522
+lat              1.00000000000000000000
+Name: lat, dtype: float64
+[ 8.47095528  8.12017606  9.48681993  9.69773756  8.49811856  9.68280246
+  7.81222502  8.76912992  8.13627554  8.95597156  9.95296116  9.87256835
+  9.9455443   9.44616965  8.44794062  8.02071015  7.70888855  5.70396003
+  9.18247715  9.04660284  9.5247916   8.90387965  6.38340529  8.89161181
+  9.28738083  9.65648462  9.33525176  8.46068557  9.3730519   7.55448114
+  8.69244409  8.85300705  8.76509277  9.7563853   8.70834957  8.97579943
+  8.61175164  6.75124829  9.61243677  8.74603666  9.19204092  8.71653668
+  9.36924854  8.90647047  8.79395904  9.16306139  9.09933604  8.9433006
+  8.20410968  8.30301906  9.40775925  9.04053919  8.29051377  9.48885877
+  4.49699603  9.72671421  9.57184152  9.25790476  9.72379138  8.63237478
+  9.64255898  8.86102831  8.55667803 10.04359783  8.82921484  8.21841568
+  9.53791934  8.85394507  9.81067212]
+Coefficients: 
+ [ 5.79692088 -0.75318907 -0.84303464 -0.77788398 -0.81702776 -0.78491788
+ -0.85624202]
+Intercept: 
+ 0.4018602212389677
+Mean squared error: 0.04
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:80: UserWarning: Attempting to set identical left == right == 2.9 results in singular transformations; automatically expanding.
+  ax.set_xlim(boundaries_list[j])
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:81: UserWarning: Attempting to set identical bottom == top == 2.9 results in singular transformations; automatically expanding.
+  ax.set_ylim(boundaries_list[i])
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:71: UserWarning: Attempting to set identical left == right == 2.9 results in singular transformations; automatically expanding.
+  ax.set_xlim(boundaries_list[i])
+Variance score: 0.96
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[ 8.47095528  8.12017606  9.48681993  9.69773756  8.49811856  9.68280246
+  7.81222502  8.76912992  8.13627554  8.95597156  9.95296116  9.87256835
+  9.9455443   9.44616965  8.44794062  8.02071015  7.70888855  5.70396003
+  9.18247715  9.04660284  9.5247916   8.90387965  6.38340529  8.89161181
+  9.28738083  9.65648462  9.33525176  8.46068557  9.3730519   7.55448114
+  8.69244409  8.85300705  8.76509277  9.7563853   8.70834957  8.97579943
+  8.61175164  6.75124829  9.61243677  8.74603666  9.19204092  8.71653668
+  9.36924854  8.90647047  8.79395904  9.16306139  9.09933604  8.9433006
+  8.20410968  8.30301906  9.40775925  9.04053919  8.29051377  9.48885877
+  4.49699603  9.72671421  9.57184152  9.25790476  9.72379138  8.63237478
+  9.64255898  8.86102831  8.55667803 10.04359783  8.82921484  8.21841568
+  9.53791934  8.85394507  9.81067212]
+Coefficients: 
+ [0.18750412 0.10274188 0.06571571 0.09972328 0.04590411 0.12657801
+ 0.0798526 ]
+Intercept: 
+ 2.638527427245714
+Mean squared error: 0.37
+Variance score: 0.67
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+Traceback (most recent call last):
+  File "regression-mlr-lasso-ridge-and-elastic.py", line 217, in <module>
+    Lasso_regr = linear_model.Lars(fit_intercept=True, fit_path=True, n_nonzero_coefs=1, normalize=True, positive=False, precompute='auto', verbose=False) 
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'positive'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.Lars'), ('action', 'arg_delete'), ('from_name', 'positive'), ('to_name', '*')])['Hostel.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 16 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    int64  
+ 1   hostel.name    342 non-null    object 
+ 2   City           342 non-null    object 
+ 3   price.from     342 non-null    int64  
+ 4   Distance       342 non-null    object 
+ 5   summary.score  327 non-null    float64
+ 6   rating.band    327 non-null    object 
+ 7   atmosphere     327 non-null    float64
+ 8   cleanliness    327 non-null    float64
+ 9   facilities     327 non-null    float64
+ 10  location.y     327 non-null    float64
+ 11  security       327 non-null    float64
+ 12  staff          327 non-null    float64
+ 13  valueformoney  327 non-null    float64
+ 14  lon            298 non-null    float64
+ 15  lat            298 non-null    float64
+dtypes: float64(10), int64(2), object(4)
+memory usage: 42.9+ KB
+None
+Index(['Unnamed: 0', 'hostel.name', 'City', 'price.from', 'Distance',
+       'summary.score', 'rating.band', 'atmosphere', 'cleanliness',
+       'facilities', 'location.y', 'security', 'staff', 'valueformoney', 'lon',
+       'lat'],
+      dtype='object')
+(342, 16)
+Tokyo           127
+Osaka           104
+Kyoto            78
+Fukuoka-City     19
+Hiroshima        14
+Name: City, dtype: int64 Superb       182
+Fabulous     106
+Very Good     20
+Good          11
+Rating         8
+Name: rating.band, dtype: int64
+Superb       182
+Fabulous     106
+Very Good     20
+Unknown       15
+Good          11
+Rating         8
+Name: rating.band, dtype: int64
+0      3
+1      3
+2      0
+3      5
+4      3
+      ..
+337    0
+338    0
+339    3
+340    0
+341    0
+Name: rating.band, Length: 342, dtype: int64
+Tokyo           127
+Osaka           104
+Kyoto            78
+Fukuoka-City     19
+Hiroshima        14
+Name: City, dtype: int64
+0      3
+1      0
+2      4
+3      4
+4      4
+      ..
+337    4
+338    4
+339    4
+340    2
+341    4
+Name: City, Length: 342, dtype: int64
+3    182
+0    106
+5     20
+4     15
+1     11
+2      8
+Name: rating.band, dtype: int64
+0        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+1        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+2        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+3        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+4        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+                             ...                        
+337      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+338      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+339      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+340      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+341      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+Name: rating.band, Length: 342, dtype: object
+4    127
+3    104
+2     78
+0     19
+1     14
+Name: City, dtype: int64
+0        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+1        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+2        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+3        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+4        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+                             ...                        
+337      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+338      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+339      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+340      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+341      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+Name: City, Length: 342, dtype: object
+0       2.9km from city centre
+1       0.7km from city centre
+2       7.8km from city centre
+3       8.7km from city centre
+4      10.5km from city centre
+                ...           
+337     2.6km from city centre
+338     2.9km from city centre
+339    17.5km from city centre
+340     2.4km from city centre
+341     5.9km from city centre
+Name: Distance, Length: 342, dtype: object
+0      2.9
+1      2.9
+2      2.9
+3      2.9
+4      2.9
+      ... 
+337    2.9
+338    2.9
+339    2.9
+340    2.9
+341    2.9
+Name: Distance, Length: 342, dtype: object
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    int64  
+ 1   price.from     342 non-null    int64  
+ 2   Distance       342 non-null    object 
+ 3   summary.score  327 non-null    float64
+ 4   atmosphere     327 non-null    float64
+ 5   cleanliness    327 non-null    float64
+ 6   facilities     327 non-null    float64
+ 7   location.y     327 non-null    float64
+ 8   security       327 non-null    float64
+ 9   staff          327 non-null    float64
+ 10  valueformoney  327 non-null    float64
+ 11  lon            298 non-null    float64
+ 12  lat            298 non-null    float64
+dtypes: float64(10), int64(2), object(1)
+memory usage: 34.9+ KB
+None
+[ 171.5       2500.           2.9          9.           8.6
+    9.3          9.           9.           9.2          9.4
+    9.         135.761617    34.9984705]
+[ 171.5       2500.           2.9          9.           8.6
+    9.3          9.           9.           9.2          9.4
+    9.         135.761617    34.9984705]
+     Unnamed: 0  price.from  Distance  ...  valueformoney         lon        lat
+0           1.0      3300.0       2.9  ...            9.4  135.513767  34.682678
+1           2.0      2600.0       2.9  ...            9.5  135.761617  34.998471
+2           3.0      3600.0       2.9  ...            9.0  139.777472  35.697447
+3           4.0      2600.0       2.9  ...            6.5  139.783667  35.712716
+4           5.0      1500.0       2.9  ...            9.5  139.798371  35.727898
+..          ...         ...       ...  ...            ...         ...        ...
+337       338.0      2300.0       2.9  ...            8.3  139.668125  35.702908
+338       339.0      2000.0       2.9  ...            9.4  139.667695  35.706513
+339       340.0      2500.0       2.9  ...            9.6  139.869197  35.752885
+340       341.0      2800.0       2.9  ...            7.3  135.749063  34.997376
+341       342.0      2900.0       2.9  ...            8.5  139.742116  35.655470
+
+[342 rows x 13 columns]
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    float64
+ 1   price.from     342 non-null    float64
+ 2   Distance       342 non-null    float64
+ 3   summary.score  342 non-null    float64
+ 4   atmosphere     342 non-null    float64
+ 5   cleanliness    342 non-null    float64
+ 6   facilities     342 non-null    float64
+ 7   location.y     342 non-null    float64
+ 8   security       342 non-null    float64
+ 9   staff          342 non-null    float64
+ 10  valueformoney  342 non-null    float64
+ 11  lon            342 non-null    float64
+ 12  lat            342 non-null    float64
+dtypes: float64(13)
+memory usage: 34.9 KB
+None
+               Unnamed: 0    price.from  ...           lon           lat
+Unnamed: 0       1.000000  1.031741e-01  ...  5.562738e-02  8.327748e-02
+price.from       0.103174  1.000000e+00  ...  2.584440e-02  8.352990e-03
+Distance         0.000000 -3.066035e-16  ...  5.578646e-14  3.136387e-15
+summary.score   -0.029851 -5.104329e-02  ... -4.909024e-02 -3.272850e-02
+atmosphere      -0.012237 -1.265194e-01  ... -6.376839e-02 -4.396493e-02
+cleanliness     -0.004393  1.209365e-04  ... -3.863780e-02 -2.394328e-02
+facilities      -0.013421  5.492023e-02  ... -3.723883e-02 -2.855332e-02
+location.y      -0.055358 -1.365063e-02  ... -8.844560e-02 -3.214391e-02
+security        -0.018033 -3.104836e-02  ...  1.912188e-02 -3.537907e-03
+staff            0.005457 -4.520943e-02  ... -1.505592e-02 -1.216698e-02
+valueformoney   -0.079691 -1.387923e-01  ... -5.192165e-02 -3.331854e-02
+lon              0.055627  2.584440e-02  ...  1.000000e+00  7.814049e-01
+lat              0.083277  8.352990e-03  ...  7.814049e-01  1.000000e+00
+
+[13 rows x 13 columns]
+*******************UNNAMED: 0*******************
+Unnamed: 0       1.00000000000000000000
+price.from       0.10317408610121550638
+Distance         0.00000000000000000000
+summary.score   -0.02985130001458412979
+atmosphere      -0.01223745215023924054
+cleanliness     -0.00439347271256233015
+facilities      -0.01342100635959121886
+location.y      -0.05535810026652951410
+security        -0.01803345989920592321
+staff            0.00545664349245100853
+valueformoney   -0.07969122051505554694
+lon              0.05562738332366904542
+lat              0.08327748177341673386
+Name: Unnamed: 0, dtype: float64
+*******************PRICE.FROM*******************
+Unnamed: 0       0.10317408610121550638
+price.from       1.00000000000000000000
+Distance        -0.00000000000000030660
+summary.score   -0.05104328591226791473
+atmosphere      -0.12651942854442946307
+cleanliness      0.00012093652281880361
+facilities       0.05492022545891714347
+location.y      -0.01365063068002547210
+security        -0.03104836211797801573
+staff           -0.04520942697791077020
+valueformoney   -0.13879230612995280270
+lon              0.02584439968175308508
+lat              0.00835298957795745090
+Name: price.from, dtype: float64
+*******************DISTANCE*******************
+Unnamed: 0       0.00000000000000000000
+price.from      -0.00000000000000030660
+Distance         1.00000000000000000000
+summary.score    0.00000000000000178498
+atmosphere      -0.00000000000000089042
+cleanliness      0.00000000000000333298
+facilities       0.00000000000000252166
+location.y      -0.00000000000000251469
+security        -0.00000000000000021173
+staff           -0.00000000000000480955
+valueformoney    0.00000000000000351037
+lon              0.00000000000005578646
+lat              0.00000000000000313639
+Name: Distance, dtype: float64
+*******************SUMMARY.SCORE*******************
+Unnamed: 0      -0.02985130001458412979
+price.from      -0.05104328591226791473
+Distance         0.00000000000000178498
+summary.score    1.00000000000000000000
+atmosphere       0.84418935359220104164
+cleanliness      0.84208952121710023420
+facilities       0.89527268911793667083
+location.y       0.63280102230177792677
+security         0.78610119127208732959
+staff            0.82936316293446288306
+valueformoney    0.86574997244867524238
+lon             -0.04909024248220880682
+lat             -0.03272850311800382800
+Name: summary.score, dtype: float64
+*******************ATMOSPHERE*******************
+Unnamed: 0      -0.01223745215023924054
+price.from      -0.12651942854442946307
+Distance        -0.00000000000000089042
+summary.score    0.84418935359220104164
+atmosphere       1.00000000000000000000
+cleanliness      0.63962413986210198136
+facilities       0.70458727856694858271
+location.y       0.47739369021122624037
+security         0.53901951773552336800
+staff            0.68075430205069076273
+valueformoney    0.73207839730696422365
+lon             -0.06376839264454933764
+lat             -0.04396493196755439647
+Name: atmosphere, dtype: float64
+*******************CLEANLINESS*******************
+Unnamed: 0      -0.00439347271256233015
+price.from       0.00012093652281880361
+Distance         0.00000000000000333298
+summary.score    0.84208952121710023420
+atmosphere       0.63962413986210198136
+cleanliness      1.00000000000000000000
+facilities       0.80298726799576281010
+location.y       0.41638382425687564536
+security         0.59314336015070201480
+staff            0.62858553153815344139
+valueformoney    0.68848868854239031467
+lon             -0.03863779978240586971
+lat             -0.02394328437733266382
+Name: cleanliness, dtype: float64
+*******************FACILITIES*******************
+Unnamed: 0      -0.01342100635959121886
+price.from       0.05492022545891714347
+Distance         0.00000000000000252166
+summary.score    0.89527268911793667083
+atmosphere       0.70458727856694858271
+cleanliness      0.80298726799576281010
+facilities       1.00000000000000000000
+location.y       0.48337597481997529592
+security         0.64435972946825836871
+staff            0.68971711354006226546
+valueformoney    0.75244923512469819027
+lon             -0.03723883463526554000
+lat             -0.02855331722490549173
+Name: facilities, dtype: float64
+*******************LOCATION.Y*******************
+Unnamed: 0      -0.05535810026652951410
+price.from      -0.01365063068002547210
+Distance        -0.00000000000000251469
+summary.score    0.63280102230177792677
+atmosphere       0.47739369021122624037
+cleanliness      0.41638382425687564536
+facilities       0.48337597481997529592
+location.y       1.00000000000000000000
+security         0.38123219514228551263
+staff            0.42376774300366792936
+valueformoney    0.46280081821208862713
+lon             -0.08844560194117995211
+lat             -0.03214390784099092208
+Name: location.y, dtype: float64
+*******************SECURITY*******************
+Unnamed: 0      -0.01803345989920592321
+price.from      -0.03104836211797801573
+Distance        -0.00000000000000021173
+summary.score    0.78610119127208732959
+atmosphere       0.53901951773552336800
+cleanliness      0.59314336015070201480
+facilities       0.64435972946825836871
+location.y       0.38123219514228551263
+security         1.00000000000000000000
+staff            0.69135076099875047984
+valueformoney    0.68047376624430488956
+lon              0.01912187607307368545
+lat             -0.00353790678879364754
+Name: security, dtype: float64
+*******************STAFF*******************
+Unnamed: 0       0.00545664349245100853
+price.from      -0.04520942697791077020
+Distance        -0.00000000000000480955
+summary.score    0.82936316293446288306
+atmosphere       0.68075430205069076273
+cleanliness      0.62858553153815344139
+facilities       0.68971711354006226546
+location.y       0.42376774300366792936
+security         0.69135076099875047984
+staff            1.00000000000000000000
+valueformoney    0.63373681536676174098
+lon             -0.01505592118976053009
+lat             -0.01216698078758495297
+Name: staff, dtype: float64
+*******************VALUEFORMONEY*******************
+Unnamed: 0      -0.07969122051505554694
+price.from      -0.13879230612995280270
+Distance         0.00000000000000351037
+summary.score    0.86574997244867524238
+atmosphere       0.73207839730696422365
+cleanliness      0.68848868854239031467
+facilities       0.75244923512469819027
+location.y       0.46280081821208862713
+security         0.68047376624430488956
+staff            0.63373681536676174098
+valueformoney    1.00000000000000000000
+lon             -0.05192165049260891868
+lat             -0.03331853892248575616
+Name: valueformoney, dtype: float64
+*******************LON*******************
+Unnamed: 0       0.05562738332366904542
+price.from       0.02584439968175308508
+Distance         0.00000000000005578646
+summary.score   -0.04909024248220880682
+atmosphere      -0.06376839264454933764
+cleanliness     -0.03863779978240586971
+facilities      -0.03723883463526554000
+location.y      -0.08844560194117995211
+security         0.01912187607307368545
+staff           -0.01505592118976053009
+valueformoney   -0.05192165049260891868
+lon              1.00000000000000000000
+lat              0.78140494710084662522
+Name: lon, dtype: float64
+*******************LAT*******************
+Unnamed: 0       0.08327748177341673386
+price.from       0.00835298957795745090
+Distance         0.00000000000000313639
+summary.score   -0.03272850311800382800
+atmosphere      -0.04396493196755439647
+cleanliness     -0.02394328437733266382
+facilities      -0.02855331722490549173
+location.y      -0.03214390784099092208
+security        -0.00353790678879364754
+staff           -0.01216698078758495297
+valueformoney   -0.03331853892248575616
+lon              0.78140494710084662522
+lat              1.00000000000000000000
+Name: lat, dtype: float64
+[7.72300267 8.61622093 5.66382479 9.00117826 8.82920687 9.17407203
+ 9.74922127 9.45715995 9.3421564  9.71909757 8.72590311 9.05825127
+ 9.94392316 9.23258785 8.88781981 6.05590455 9.03616866 9.60219768
+ 9.18418491 9.28957411 9.25553613 8.84182357 8.94998854 8.3043154
+ 9.56556397 8.84395193 7.59520226 9.47613787 9.16224962 8.61622093
+ 9.34666545 8.70302183 9.15347949 8.92006363 8.6266156  9.44858617
+ 9.6383973  9.08194099 9.71755767 8.63919017 9.00440204 8.4340173
+ 9.00299311 8.61622093 9.15403741 9.22908926 9.44565134 8.31454123
+ 9.68990469 9.26689176 9.3098068  6.61607803 9.50212824 9.48602339
+ 6.284384   8.61622093 9.63101359 7.93075404 8.98403407 9.16198997
+ 9.21359048 8.99931119 9.64063559 8.66545897 9.38152935 9.12099004
+ 8.93478994 9.4495735  9.30024549]
+Coefficients: 
+ [ 5.83462799 -0.76459096 -0.84266429 -0.79230314 -0.8300192  -0.77148517
+ -0.86988659]
+Intercept: 
+ 0.39232775425936417
+Mean squared error: 0.04
+Variance score: 0.95
+
+**********************SUMMARY.SCORE**********************/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:80: UserWarning: Attempting to set identical left == right == 2.9 results in singular transformations; automatically expanding.
+  ax.set_xlim(boundaries_list[j])
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:81: UserWarning: Attempting to set identical bottom == top == 2.9 results in singular transformations; automatically expanding.
+  ax.set_ylim(boundaries_list[i])
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:71: UserWarning: Attempting to set identical left == right == 2.9 results in singular transformations; automatically expanding.
+  ax.set_xlim(boundaries_list[i])
+
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[7.72300267 8.61622093 5.66382479 9.00117826 8.82920687 9.17407203
+ 9.74922127 9.45715995 9.3421564  9.71909757 8.72590311 9.05825127
+ 9.94392316 9.23258785 8.88781981 6.05590455 9.03616866 9.60219768
+ 9.18418491 9.28957411 9.25553613 8.84182357 8.94998854 8.3043154
+ 9.56556397 8.84395193 7.59520226 9.47613787 9.16224962 8.61622093
+ 9.34666545 8.70302183 9.15347949 8.92006363 8.6266156  9.44858617
+ 9.6383973  9.08194099 9.71755767 8.63919017 9.00440204 8.4340173
+ 9.00299311 8.61622093 9.15403741 9.22908926 9.44565134 8.31454123
+ 9.68990469 9.26689176 9.3098068  6.61607803 9.50212824 9.48602339
+ 6.284384   8.61622093 9.63101359 7.93075404 8.98403407 9.16198997
+ 9.21359048 8.99931119 9.64063559 8.66545897 9.38152935 9.12099004
+ 8.93478994 9.4495735  9.30024549]
+Coefficients: 
+ [0.19737089 0.09194296 0.09580795 0.09376484 0.02464089 0.14637734
+ 0.09265117]
+Intercept: 
+ 2.3272390139398675
+Mean squared error: 0.48
+Variance score: 0.65
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[8.01746642 9.28481006 8.37956461 9.46585915 9.01323642 9.5563837
+ 8.92271188 9.19428551 7.83641733 9.91848188 9.19428551 9.46585915
+ 9.64690824 8.83218733 9.19428551 8.92271188 9.37533461 9.37533461
+ 9.19428551 8.5606137  8.47008915 9.64690824 9.01323642 8.65113824
+ 7.92694188 9.64690824 8.19851551 8.47008915 8.83218733 9.10376097
+ 7.5648437  9.10376097 8.47008915 9.5563837  9.37533461 9.19428551
+ 9.01323642 9.01323642 9.46585915 7.74589279 8.65113824 9.28481006
+ 8.92271188 7.47431915 9.5563837  9.10376097 9.5563837  9.5563837
+ 9.37533461 9.5563837  9.01323642 8.83218733 9.91848188 8.19851551
+ 9.01323642 9.01323642 7.11222097 8.37956461 8.83218733 9.01323642
+ 9.5563837  8.92271188 9.46585915 8.74166279 9.28481006 9.10376097
+ 9.19428551 9.10376097 9.01323642]
+Coefficients: 
+ [0.90524545 0.         0.         0.         0.         0.
+ 0.        ]
+Intercept: 
+ 0.8660273327882138
+Mean squared error: 0.20
+Variance score: 0.53
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[8.51592428 9.14943577 8.72213997 9.08924151 8.91814479 9.14939623
+ 8.88868787 9.05829531 8.31326602 9.34148196 9.02408217 9.08922416
+ 9.11957279 8.88354337 9.01365761 8.83049118 9.3250341  9.02472991
+ 8.9690893  8.70358077 8.73396894 9.18046684 8.96571573 8.67675996
+ 8.35018577 9.17324611 8.72298449 8.56102518 8.82081707 8.9628847
+ 8.41004379 9.01388424 8.76605569 9.21030763 9.06511482 8.95437726
+ 8.83192407 8.96571573 9.0913679  8.1857402  8.77419474 8.97898195
+ 8.76479073 8.26242857 9.13233303 8.9946426  9.06020757 9.15287686
+ 9.14871379 9.16916791 9.00951188 8.88382017 9.34148196 8.6588457
+ 8.89278342 8.96571573 8.36418112 8.72864058 8.86246949 8.91041136
+ 9.20655018 9.31132756 9.11672927 8.73577899 9.20902762 9.07395409
+ 9.1079753  9.02852689 8.8398996 ]
+Coefficients: 
+ [0.02741309 0.1202091  0.         0.16291047 0.         0.02143742
+ 0.        ]
+Intercept: 
+ 6.021781236184368
+Mean squared error: 0.96
+Variance score: -0.03
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[REPAIR EXEC TIME]: 16.354528427124023['Hostel.csv']
+Traceback (most recent call last):
+  File "regression-mlr-lasso-ridge-and-elastic.py", line 27, in <module>
+    from pandas.tools.plotting import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.tools'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.plotting'), ('line_no', 27)])['Hostel.csv']
+Traceback (most recent call last):
+  File "regression-mlr-lasso-ridge-and-elastic.py", line 29, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.impute.SimpleImputer'), ('line_no', 29)])['Hostel.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 16 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    int64  
+ 1   hostel.name    342 non-null    object 
+ 2   City           342 non-null    object 
+ 3   price.from     342 non-null    int64  
+ 4   Distance       342 non-null    object 
+ 5   summary.score  327 non-null    float64
+ 6   rating.band    327 non-null    object 
+ 7   atmosphere     327 non-null    float64
+ 8   cleanliness    327 non-null    float64
+ 9   facilities     327 non-null    float64
+ 10  location.y     327 non-null    float64
+ 11  security       327 non-null    float64
+ 12  staff          327 non-null    float64
+ 13  valueformoney  327 non-null    float64
+ 14  lon            298 non-null    float64
+ 15  lat            298 non-null    float64
+dtypes: float64(10), int64(2), object(4)
+memory usage: 42.9+ KB
+None
+Index(['Unnamed: 0', 'hostel.name', 'City', 'price.from', 'Distance',
+       'summary.score', 'rating.band', 'atmosphere', 'cleanliness',
+       'facilities', 'location.y', 'security', 'staff', 'valueformoney', 'lon',
+       'lat'],
+      dtype='object')
+(342, 16)
+Tokyo           127
+Osaka           104
+Kyoto            78
+Fukuoka-City     19
+Hiroshima        14
+Name: City, dtype: int64 Superb       182
+Fabulous     106
+Very Good     20
+Good          11
+Rating         8
+Name: rating.band, dtype: int64
+Superb       182
+Fabulous     106
+Very Good     20
+Unknown       15
+Good          11
+Rating         8
+Name: rating.band, dtype: int64
+0      3
+1      3
+2      0
+3      5
+4      3
+      ..
+337    0
+338    0
+339    3
+340    0
+341    0
+Name: rating.band, Length: 342, dtype: int64
+Tokyo           127
+Osaka           104
+Kyoto            78
+Fukuoka-City     19
+Hiroshima        14
+Name: City, dtype: int64
+0      3
+1      0
+2      4
+3      4
+4      4
+      ..
+337    4
+338    4
+339    4
+340    2
+341    4
+Name: City, Length: 342, dtype: int64
+3    182
+0    106
+5     20
+4     15
+1     11
+2      8
+Name: rating.band, dtype: int64
+0        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+1        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+2        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+3        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+4        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+                             ...                        
+337      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+338      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+339      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+340      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+341      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+Name: rating.band, Length: 342, dtype: object
+4    127
+3    104
+2     78
+0     19
+1     14
+Name: City, dtype: int64
+0        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+1        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+2        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+3        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+4        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+                             ...                        
+337      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+338      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+339      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+340      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+341      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+Name: City, Length: 342, dtype: object
+0       2.9km from city centre
+1       0.7km from city centre
+2       7.8km from city centre
+3       8.7km from city centre
+4      10.5km from city centre
+                ...           
+337     2.6km from city centre
+338     2.9km from city centre
+339    17.5km from city centre
+340     2.4km from city centre
+341     5.9km from city centre
+Name: Distance, Length: 342, dtype: object
+0      2.9
+1      2.9
+2      2.9
+3      2.9
+4      2.9
+      ... 
+337    2.9
+338    2.9
+339    2.9
+340    2.9
+341    2.9
+Name: Distance, Length: 342, dtype: object
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    int64  
+ 1   price.from     342 non-null    int64  
+ 2   Distance       342 non-null    object 
+ 3   summary.score  327 non-null    float64
+ 4   atmosphere     327 non-null    float64
+ 5   cleanliness    327 non-null    float64
+ 6   facilities     327 non-null    float64
+ 7   location.y     327 non-null    float64
+ 8   security       327 non-null    float64
+ 9   staff          327 non-null    float64
+ 10  valueformoney  327 non-null    float64
+ 11  lon            298 non-null    float64
+ 12  lat            298 non-null    float64
+dtypes: float64(10), int64(2), object(1)
+memory usage: 34.9+ KB
+None
+[ 171.5       2500.           2.9          9.           8.6
+    9.3          9.           9.           9.2          9.4
+    9.         135.761617    34.9984705]
+[ 171.5       2500.           2.9          9.           8.6
+    9.3          9.           9.           9.2          9.4
+    9.         135.761617    34.9984705]
+     Unnamed: 0  price.from  Distance  ...  valueformoney         lon        lat
+0           1.0      3300.0       2.9  ...            9.4  135.513767  34.682678
+1           2.0      2600.0       2.9  ...            9.5  135.761617  34.998471
+2           3.0      3600.0       2.9  ...            9.0  139.777472  35.697447
+3           4.0      2600.0       2.9  ...            6.5  139.783667  35.712716
+4           5.0      1500.0       2.9  ...            9.5  139.798371  35.727898
+..          ...         ...       ...  ...            ...         ...        ...
+337       338.0      2300.0       2.9  ...            8.3  139.668125  35.702908
+338       339.0      2000.0       2.9  ...            9.4  139.667695  35.706513
+339       340.0      2500.0       2.9  ...            9.6  139.869197  35.752885
+340       341.0      2800.0       2.9  ...            7.3  135.749063  34.997376
+341       342.0      2900.0       2.9  ...            8.5  139.742116  35.655470
+
+[342 rows x 13 columns]
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    float64
+ 1   price.from     342 non-null    float64
+ 2   Distance       342 non-null    float64
+ 3   summary.score  342 non-null    float64
+ 4   atmosphere     342 non-null    float64
+ 5   cleanliness    342 non-null    float64
+ 6   facilities     342 non-null    float64
+ 7   location.y     342 non-null    float64
+ 8   security       342 non-null    float64
+ 9   staff          342 non-null    float64
+ 10  valueformoney  342 non-null    float64
+ 11  lon            342 non-null    float64
+ 12  lat            342 non-null    float64
+dtypes: float64(13)
+memory usage: 34.9 KB
+None
+               Unnamed: 0    price.from  ...           lon           lat
+Unnamed: 0       1.000000  1.031741e-01  ...  5.562738e-02  8.327748e-02
+price.from       0.103174  1.000000e+00  ...  2.584440e-02  8.352990e-03
+Distance         0.000000 -3.066035e-16  ...  5.578646e-14  3.136387e-15
+summary.score   -0.029851 -5.104329e-02  ... -4.909024e-02 -3.272850e-02
+atmosphere      -0.012237 -1.265194e-01  ... -6.376839e-02 -4.396493e-02
+cleanliness     -0.004393  1.209365e-04  ... -3.863780e-02 -2.394328e-02
+facilities      -0.013421  5.492023e-02  ... -3.723883e-02 -2.855332e-02
+location.y      -0.055358 -1.365063e-02  ... -8.844560e-02 -3.214391e-02
+security        -0.018033 -3.104836e-02  ...  1.912188e-02 -3.537907e-03
+staff            0.005457 -4.520943e-02  ... -1.505592e-02 -1.216698e-02
+valueformoney   -0.079691 -1.387923e-01  ... -5.192165e-02 -3.331854e-02
+lon              0.055627  2.584440e-02  ...  1.000000e+00  7.814049e-01
+lat              0.083277  8.352990e-03  ...  7.814049e-01  1.000000e+00
+
+[13 rows x 13 columns]
+*******************UNNAMED: 0*******************
+Unnamed: 0       1.00000000000000000000
+price.from       0.10317408610121550638
+Distance         0.00000000000000000000
+summary.score   -0.02985130001458412979
+atmosphere      -0.01223745215023924054
+cleanliness     -0.00439347271256233015
+facilities      -0.01342100635959121886
+location.y      -0.05535810026652951410
+security        -0.01803345989920592321
+staff            0.00545664349245100853
+valueformoney   -0.07969122051505554694
+lon              0.05562738332366904542
+lat              0.08327748177341673386
+Name: Unnamed: 0, dtype: float64
+*******************PRICE.FROM*******************
+Unnamed: 0       0.10317408610121550638
+price.from       1.00000000000000000000
+Distance        -0.00000000000000030660
+summary.score   -0.05104328591226791473
+atmosphere      -0.12651942854442946307
+cleanliness      0.00012093652281880361
+facilities       0.05492022545891714347
+location.y      -0.01365063068002547210
+security        -0.03104836211797801573
+staff           -0.04520942697791077020
+valueformoney   -0.13879230612995280270
+lon              0.02584439968175308508
+lat              0.00835298957795745090
+Name: price.from, dtype: float64
+*******************DISTANCE*******************
+Unnamed: 0       0.00000000000000000000
+price.from      -0.00000000000000030660
+Distance         1.00000000000000000000
+summary.score    0.00000000000000178498
+atmosphere      -0.00000000000000089042
+cleanliness      0.00000000000000333298
+facilities       0.00000000000000252166
+location.y      -0.00000000000000251469
+security        -0.00000000000000021173
+staff           -0.00000000000000480955
+valueformoney    0.00000000000000351037
+lon              0.00000000000005578646
+lat              0.00000000000000313639
+Name: Distance, dtype: float64
+*******************SUMMARY.SCORE*******************
+Unnamed: 0      -0.02985130001458412979
+price.from      -0.05104328591226791473
+Distance         0.00000000000000178498
+summary.score    1.00000000000000000000
+atmosphere       0.84418935359220104164
+cleanliness      0.84208952121710023420
+facilities       0.89527268911793667083
+location.y       0.63280102230177792677
+security         0.78610119127208732959
+staff            0.82936316293446288306
+valueformoney    0.86574997244867524238
+lon             -0.04909024248220880682
+lat             -0.03272850311800382800
+Name: summary.score, dtype: float64
+*******************ATMOSPHERE*******************
+Unnamed: 0      -0.01223745215023924054
+price.from      -0.12651942854442946307
+Distance        -0.00000000000000089042
+summary.score    0.84418935359220104164
+atmosphere       1.00000000000000000000
+cleanliness      0.63962413986210198136
+facilities       0.70458727856694858271
+location.y       0.47739369021122624037
+security         0.53901951773552336800
+staff            0.68075430205069076273
+valueformoney    0.73207839730696422365
+lon             -0.06376839264454933764
+lat             -0.04396493196755439647
+Name: atmosphere, dtype: float64
+*******************CLEANLINESS*******************
+Unnamed: 0      -0.00439347271256233015
+price.from       0.00012093652281880361
+Distance         0.00000000000000333298
+summary.score    0.84208952121710023420
+atmosphere       0.63962413986210198136
+cleanliness      1.00000000000000000000
+facilities       0.80298726799576281010
+location.y       0.41638382425687564536
+security         0.59314336015070201480
+staff            0.62858553153815344139
+valueformoney    0.68848868854239031467
+lon             -0.03863779978240586971
+lat             -0.02394328437733266382
+Name: cleanliness, dtype: float64
+*******************FACILITIES*******************
+Unnamed: 0      -0.01342100635959121886
+price.from       0.05492022545891714347
+Distance         0.00000000000000252166
+summary.score    0.89527268911793667083
+atmosphere       0.70458727856694858271
+cleanliness      0.80298726799576281010
+facilities       1.00000000000000000000
+location.y       0.48337597481997529592
+security         0.64435972946825836871
+staff            0.68971711354006226546
+valueformoney    0.75244923512469819027
+lon             -0.03723883463526554000
+lat             -0.02855331722490549173
+Name: facilities, dtype: float64
+*******************LOCATION.Y*******************
+Unnamed: 0      -0.05535810026652951410
+price.from      -0.01365063068002547210
+Distance        -0.00000000000000251469
+summary.score    0.63280102230177792677
+atmosphere       0.47739369021122624037
+cleanliness      0.41638382425687564536
+facilities       0.48337597481997529592
+location.y       1.00000000000000000000
+security         0.38123219514228551263
+staff            0.42376774300366792936
+valueformoney    0.46280081821208862713
+lon             -0.08844560194117995211
+lat             -0.03214390784099092208
+Name: location.y, dtype: float64
+*******************SECURITY*******************
+Unnamed: 0      -0.01803345989920592321
+price.from      -0.03104836211797801573
+Distance        -0.00000000000000021173
+summary.score    0.78610119127208732959
+atmosphere       0.53901951773552336800
+cleanliness      0.59314336015070201480
+facilities       0.64435972946825836871
+location.y       0.38123219514228551263
+security         1.00000000000000000000
+staff            0.69135076099875047984
+valueformoney    0.68047376624430488956
+lon              0.01912187607307368545
+lat             -0.00353790678879364754
+Name: security, dtype: float64
+*******************STAFF*******************
+Unnamed: 0       0.00545664349245100853
+price.from      -0.04520942697791077020
+Distance        -0.00000000000000480955
+summary.score    0.82936316293446288306
+atmosphere       0.68075430205069076273
+cleanliness      0.62858553153815344139
+facilities       0.68971711354006226546
+location.y       0.42376774300366792936
+security         0.69135076099875047984
+staff            1.00000000000000000000
+valueformoney    0.63373681536676174098
+lon             -0.01505592118976053009
+lat             -0.01216698078758495297
+Name: staff, dtype: float64
+*******************VALUEFORMONEY*******************
+Unnamed: 0      -0.07969122051505554694
+price.from      -0.13879230612995280270
+Distance         0.00000000000000351037
+summary.score    0.86574997244867524238
+atmosphere       0.73207839730696422365
+cleanliness      0.68848868854239031467
+facilities       0.75244923512469819027
+location.y       0.46280081821208862713
+security         0.68047376624430488956
+staff            0.63373681536676174098
+valueformoney    1.00000000000000000000
+lon             -0.05192165049260891868
+lat             -0.03331853892248575616
+Name: valueformoney, dtype: float64
+*******************LON*******************
+Unnamed: 0       0.05562738332366904542
+price.from       0.02584439968175308508
+Distance         0.00000000000005578646
+summary.score   -0.04909024248220880682
+atmosphere      -0.06376839264454933764
+cleanliness     -0.03863779978240586971
+facilities      -0.03723883463526554000
+location.y      -0.08844560194117995211
+security         0.01912187607307368545
+staff           -0.01505592118976053009
+valueformoney   -0.05192165049260891868
+lon              1.00000000000000000000
+lat              0.78140494710084662522
+Name: lon, dtype: float64
+*******************LAT*******************
+Unnamed: 0       0.08327748177341673386
+price.from       0.00835298957795745090
+Distance         0.00000000000000313639
+summary.score   -0.03272850311800382800
+atmosphere      -0.04396493196755439647
+cleanliness     -0.02394328437733266382
+facilities      -0.02855331722490549173
+location.y      -0.03214390784099092208
+security        -0.00353790678879364754
+staff           -0.01216698078758495297
+valueformoney   -0.03331853892248575616
+lon              0.78140494710084662522
+lat              1.00000000000000000000
+Name: lat, dtype: float64
+[ 6.07460761  8.59570926  9.81777668  8.32425633  9.00283443  8.59510886
+  6.75640887  8.59510886  7.95590315  8.89147504  9.18077599  9.34241663
+  8.82713849  8.57923216  9.52710849  8.72725378  8.59510886  9.0002041
+  9.11110196  8.59510886  9.57899985  9.70418614  9.58409775  8.46327994
+  6.82956182  9.72186046  9.43959127  9.28696871  8.82824715  8.59510886
+  9.12551382  8.67022001  7.37105293  9.03710935  8.78678562  8.84016324
+  6.25154732  8.92848891  8.40506098  9.60670685  9.96380512  8.98629191
+  6.65620424  9.16571234  9.19280691  7.39865583  9.05095727  7.18620252
+ 10.03609764  9.03295067  8.46844179  9.06192273  8.17380743  9.1455025
+  9.3552297   9.234287   10.03609764  9.3497361   9.19424498  8.58381501
+  9.27162154  8.30997032 10.03609764  9.16311517  8.59510886  8.25899558
+  8.59510886  8.33996518  3.82785433]
+Coefficients: 
+ [ 6.02317514 -0.79281112 -0.86212284 -0.83371404 -0.85151819 -0.81705935
+ -0.88314183]
+Intercept: 
+ 0.20801992034673766
+Mean squared error: 0.05
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:80: UserWarning: Attempting to set identical left == right == 2.9 results in singular transformations; automatically expanding.
+  ax.set_xlim(boundaries_list[j])
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:81: UserWarning: Attempting to set identical bottom == top == 2.9 results in singular transformations; automatically expanding.
+  ax.set_ylim(boundaries_list[i])
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:71: UserWarning: Attempting to set identical left == right == 2.9 results in singular transformations; automatically expanding.
+  ax.set_xlim(boundaries_list[i])
+Variance score: 0.95
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[ 6.07460761  8.59570926  9.81777668  8.32425633  9.00283443  8.59510886
+  6.75640887  8.59510886  7.95590315  8.89147504  9.18077599  9.34241663
+  8.82713849  8.57923216  9.52710849  8.72725378  8.59510886  9.0002041
+  9.11110196  8.59510886  9.57899985  9.70418614  9.58409775  8.46327994
+  6.82956182  9.72186046  9.43959127  9.28696871  8.82824715  8.59510886
+  9.12551382  8.67022001  7.37105293  9.03710935  8.78678562  8.84016324
+  6.25154732  8.92848891  8.40506098  9.60670685  9.96380512  8.98629191
+  6.65620424  9.16571234  9.19280691  7.39865583  9.05095727  7.18620252
+ 10.03609764  9.03295067  8.46844179  9.06192273  8.17380743  9.1455025
+  9.3552297   9.234287   10.03609764  9.3497361   9.19424498  8.58381501
+  9.27162154  8.30997032 10.03609764  9.16311517  8.59510886  8.25899558
+  8.59510886  8.33996518  3.82785433]
+Coefficients: 
+ [0.20529904 0.11842849 0.08469684 0.10546489 0.04401645 0.11949941
+ 0.06104962]
+Intercept: 
+ 2.4086506466807247
+Mean squared error: 0.36
+Variance score: 0.69
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+Traceback (most recent call last):
+  File "regression-mlr-lasso-ridge-and-elastic.py", line 217, in <module>
+    Lasso_regr = linear_model.Lars(fit_intercept=True, fit_path=True, n_nonzero_coefs=1, normalize=True, positive=False, precompute='auto', verbose=False) 
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'positive'
+[REPAIR EXEC TIME]: 9.476391077041626['Hostel.csv']
+Traceback (most recent call last):
+  File "regression-mlr-lasso-ridge-and-elastic.py", line 27, in <module>
+    from pandas.tools.plotting import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.tools'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.plotting'), ('line_no', 27)])['Hostel.csv']
+Traceback (most recent call last):
+  File "regression-mlr-lasso-ridge-and-elastic.py", line 29, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.impute.SimpleImputer'), ('line_no', 29)])['Hostel.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 16 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    int64  
+ 1   hostel.name    342 non-null    object 
+ 2   City           342 non-null    object 
+ 3   price.from     342 non-null    int64  
+ 4   Distance       342 non-null    object 
+ 5   summary.score  327 non-null    float64
+ 6   rating.band    327 non-null    object 
+ 7   atmosphere     327 non-null    float64
+ 8   cleanliness    327 non-null    float64
+ 9   facilities     327 non-null    float64
+ 10  location.y     327 non-null    float64
+ 11  security       327 non-null    float64
+ 12  staff          327 non-null    float64
+ 13  valueformoney  327 non-null    float64
+ 14  lon            298 non-null    float64
+ 15  lat            298 non-null    float64
+dtypes: float64(10), int64(2), object(4)
+memory usage: 42.9+ KB
+None
+Index(['Unnamed: 0', 'hostel.name', 'City', 'price.from', 'Distance',
+       'summary.score', 'rating.band', 'atmosphere', 'cleanliness',
+       'facilities', 'location.y', 'security', 'staff', 'valueformoney', 'lon',
+       'lat'],
+      dtype='object')
+(342, 16)
+Tokyo           127
+Osaka           104
+Kyoto            78
+Fukuoka-City     19
+Hiroshima        14
+Name: City, dtype: int64 Superb       182
+Fabulous     106
+Very Good     20
+Good          11
+Rating         8
+Name: rating.band, dtype: int64
+Superb       182
+Fabulous     106
+Very Good     20
+Unknown       15
+Good          11
+Rating         8
+Name: rating.band, dtype: int64
+0      3
+1      3
+2      0
+3      5
+4      3
+      ..
+337    0
+338    0
+339    3
+340    0
+341    0
+Name: rating.band, Length: 342, dtype: int64
+Tokyo           127
+Osaka           104
+Kyoto            78
+Fukuoka-City     19
+Hiroshima        14
+Name: City, dtype: int64
+0      3
+1      0
+2      4
+3      4
+4      4
+      ..
+337    4
+338    4
+339    4
+340    2
+341    4
+Name: City, Length: 342, dtype: int64
+3    182
+0    106
+5     20
+4     15
+1     11
+2      8
+Name: rating.band, dtype: int64
+0        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+1        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+2        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+3        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+4        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+                             ...                        
+337      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+338      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+339      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+340      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+341      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+Name: rating.band, Length: 342, dtype: object
+4    127
+3    104
+2     78
+0     19
+1     14
+Name: City, dtype: int64
+0        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+1        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+2        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+3        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+4        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+                             ...                        
+337      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+338      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+339      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+340      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+341      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+Name: City, Length: 342, dtype: object
+0       2.9km from city centre
+1       0.7km from city centre
+2       7.8km from city centre
+3       8.7km from city centre
+4      10.5km from city centre
+                ...           
+337     2.6km from city centre
+338     2.9km from city centre
+339    17.5km from city centre
+340     2.4km from city centre
+341     5.9km from city centre
+Name: Distance, Length: 342, dtype: object
+0      2.9
+1      2.9
+2      2.9
+3      2.9
+4      2.9
+      ... 
+337    2.9
+338    2.9
+339    2.9
+340    2.9
+341    2.9
+Name: Distance, Length: 342, dtype: object
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    int64  
+ 1   price.from     342 non-null    int64  
+ 2   Distance       342 non-null    object 
+ 3   summary.score  327 non-null    float64
+ 4   atmosphere     327 non-null    float64
+ 5   cleanliness    327 non-null    float64
+ 6   facilities     327 non-null    float64
+ 7   location.y     327 non-null    float64
+ 8   security       327 non-null    float64
+ 9   staff          327 non-null    float64
+ 10  valueformoney  327 non-null    float64
+ 11  lon            298 non-null    float64
+ 12  lat            298 non-null    float64
+dtypes: float64(10), int64(2), object(1)
+memory usage: 34.9+ KB
+None
+[ 171.5       2500.           2.9          9.           8.6
+    9.3          9.           9.           9.2          9.4
+    9.         135.761617    34.9984705]
+[ 171.5       2500.           2.9          9.           8.6
+    9.3          9.           9.           9.2          9.4
+    9.         135.761617    34.9984705]
+     Unnamed: 0  price.from  Distance  ...  valueformoney         lon        lat
+0           1.0      3300.0       2.9  ...            9.4  135.513767  34.682678
+1           2.0      2600.0       2.9  ...            9.5  135.761617  34.998471
+2           3.0      3600.0       2.9  ...            9.0  139.777472  35.697447
+3           4.0      2600.0       2.9  ...            6.5  139.783667  35.712716
+4           5.0      1500.0       2.9  ...            9.5  139.798371  35.727898
+..          ...         ...       ...  ...            ...         ...        ...
+337       338.0      2300.0       2.9  ...            8.3  139.668125  35.702908
+338       339.0      2000.0       2.9  ...            9.4  139.667695  35.706513
+339       340.0      2500.0       2.9  ...            9.6  139.869197  35.752885
+340       341.0      2800.0       2.9  ...            7.3  135.749063  34.997376
+341       342.0      2900.0       2.9  ...            8.5  139.742116  35.655470
+
+[342 rows x 13 columns]
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    float64
+ 1   price.from     342 non-null    float64
+ 2   Distance       342 non-null    float64
+ 3   summary.score  342 non-null    float64
+ 4   atmosphere     342 non-null    float64
+ 5   cleanliness    342 non-null    float64
+ 6   facilities     342 non-null    float64
+ 7   location.y     342 non-null    float64
+ 8   security       342 non-null    float64
+ 9   staff          342 non-null    float64
+ 10  valueformoney  342 non-null    float64
+ 11  lon            342 non-null    float64
+ 12  lat            342 non-null    float64
+dtypes: float64(13)
+memory usage: 34.9 KB
+None
+               Unnamed: 0    price.from  ...           lon           lat
+Unnamed: 0       1.000000  1.031741e-01  ...  5.562738e-02  8.327748e-02
+price.from       0.103174  1.000000e+00  ...  2.584440e-02  8.352990e-03
+Distance         0.000000 -3.066035e-16  ...  5.578646e-14  3.136387e-15
+summary.score   -0.029851 -5.104329e-02  ... -4.909024e-02 -3.272850e-02
+atmosphere      -0.012237 -1.265194e-01  ... -6.376839e-02 -4.396493e-02
+cleanliness     -0.004393  1.209365e-04  ... -3.863780e-02 -2.394328e-02
+facilities      -0.013421  5.492023e-02  ... -3.723883e-02 -2.855332e-02
+location.y      -0.055358 -1.365063e-02  ... -8.844560e-02 -3.214391e-02
+security        -0.018033 -3.104836e-02  ...  1.912188e-02 -3.537907e-03
+staff            0.005457 -4.520943e-02  ... -1.505592e-02 -1.216698e-02
+valueformoney   -0.079691 -1.387923e-01  ... -5.192165e-02 -3.331854e-02
+lon              0.055627  2.584440e-02  ...  1.000000e+00  7.814049e-01
+lat              0.083277  8.352990e-03  ...  7.814049e-01  1.000000e+00
+
+[13 rows x 13 columns]
+*******************UNNAMED: 0*******************
+Unnamed: 0       1.00000000000000000000
+price.from       0.10317408610121550638
+Distance         0.00000000000000000000
+summary.score   -0.02985130001458412979
+atmosphere      -0.01223745215023924054
+cleanliness     -0.00439347271256233015
+facilities      -0.01342100635959121886
+location.y      -0.05535810026652951410
+security        -0.01803345989920592321
+staff            0.00545664349245100853
+valueformoney   -0.07969122051505554694
+lon              0.05562738332366904542
+lat              0.08327748177341673386
+Name: Unnamed: 0, dtype: float64
+*******************PRICE.FROM*******************
+Unnamed: 0       0.10317408610121550638
+price.from       1.00000000000000000000
+Distance        -0.00000000000000030660
+summary.score   -0.05104328591226791473
+atmosphere      -0.12651942854442946307
+cleanliness      0.00012093652281880361
+facilities       0.05492022545891714347
+location.y      -0.01365063068002547210
+security        -0.03104836211797801573
+staff           -0.04520942697791077020
+valueformoney   -0.13879230612995280270
+lon              0.02584439968175308508
+lat              0.00835298957795745090
+Name: price.from, dtype: float64
+*******************DISTANCE*******************
+Unnamed: 0       0.00000000000000000000
+price.from      -0.00000000000000030660
+Distance         1.00000000000000000000
+summary.score    0.00000000000000178498
+atmosphere      -0.00000000000000089042
+cleanliness      0.00000000000000333298
+facilities       0.00000000000000252166
+location.y      -0.00000000000000251469
+security        -0.00000000000000021173
+staff           -0.00000000000000480955
+valueformoney    0.00000000000000351037
+lon              0.00000000000005578646
+lat              0.00000000000000313639
+Name: Distance, dtype: float64
+*******************SUMMARY.SCORE*******************
+Unnamed: 0      -0.02985130001458412979
+price.from      -0.05104328591226791473
+Distance         0.00000000000000178498
+summary.score    1.00000000000000000000
+atmosphere       0.84418935359220104164
+cleanliness      0.84208952121710023420
+facilities       0.89527268911793667083
+location.y       0.63280102230177792677
+security         0.78610119127208732959
+staff            0.82936316293446288306
+valueformoney    0.86574997244867524238
+lon             -0.04909024248220880682
+lat             -0.03272850311800382800
+Name: summary.score, dtype: float64
+*******************ATMOSPHERE*******************
+Unnamed: 0      -0.01223745215023924054
+price.from      -0.12651942854442946307
+Distance        -0.00000000000000089042
+summary.score    0.84418935359220104164
+atmosphere       1.00000000000000000000
+cleanliness      0.63962413986210198136
+facilities       0.70458727856694858271
+location.y       0.47739369021122624037
+security         0.53901951773552336800
+staff            0.68075430205069076273
+valueformoney    0.73207839730696422365
+lon             -0.06376839264454933764
+lat             -0.04396493196755439647
+Name: atmosphere, dtype: float64
+*******************CLEANLINESS*******************
+Unnamed: 0      -0.00439347271256233015
+price.from       0.00012093652281880361
+Distance         0.00000000000000333298
+summary.score    0.84208952121710023420
+atmosphere       0.63962413986210198136
+cleanliness      1.00000000000000000000
+facilities       0.80298726799576281010
+location.y       0.41638382425687564536
+security         0.59314336015070201480
+staff            0.62858553153815344139
+valueformoney    0.68848868854239031467
+lon             -0.03863779978240586971
+lat             -0.02394328437733266382
+Name: cleanliness, dtype: float64
+*******************FACILITIES*******************
+Unnamed: 0      -0.01342100635959121886
+price.from       0.05492022545891714347
+Distance         0.00000000000000252166
+summary.score    0.89527268911793667083
+atmosphere       0.70458727856694858271
+cleanliness      0.80298726799576281010
+facilities       1.00000000000000000000
+location.y       0.48337597481997529592
+security         0.64435972946825836871
+staff            0.68971711354006226546
+valueformoney    0.75244923512469819027
+lon             -0.03723883463526554000
+lat             -0.02855331722490549173
+Name: facilities, dtype: float64
+*******************LOCATION.Y*******************
+Unnamed: 0      -0.05535810026652951410
+price.from      -0.01365063068002547210
+Distance        -0.00000000000000251469
+summary.score    0.63280102230177792677
+atmosphere       0.47739369021122624037
+cleanliness      0.41638382425687564536
+facilities       0.48337597481997529592
+location.y       1.00000000000000000000
+security         0.38123219514228551263
+staff            0.42376774300366792936
+valueformoney    0.46280081821208862713
+lon             -0.08844560194117995211
+lat             -0.03214390784099092208
+Name: location.y, dtype: float64
+*******************SECURITY*******************
+Unnamed: 0      -0.01803345989920592321
+price.from      -0.03104836211797801573
+Distance        -0.00000000000000021173
+summary.score    0.78610119127208732959
+atmosphere       0.53901951773552336800
+cleanliness      0.59314336015070201480
+facilities       0.64435972946825836871
+location.y       0.38123219514228551263
+security         1.00000000000000000000
+staff            0.69135076099875047984
+valueformoney    0.68047376624430488956
+lon              0.01912187607307368545
+lat             -0.00353790678879364754
+Name: security, dtype: float64
+*******************STAFF*******************
+Unnamed: 0       0.00545664349245100853
+price.from      -0.04520942697791077020
+Distance        -0.00000000000000480955
+summary.score    0.82936316293446288306
+atmosphere       0.68075430205069076273
+cleanliness      0.62858553153815344139
+facilities       0.68971711354006226546
+location.y       0.42376774300366792936
+security         0.69135076099875047984
+staff            1.00000000000000000000
+valueformoney    0.63373681536676174098
+lon             -0.01505592118976053009
+lat             -0.01216698078758495297
+Name: staff, dtype: float64
+*******************VALUEFORMONEY*******************
+Unnamed: 0      -0.07969122051505554694
+price.from      -0.13879230612995280270
+Distance         0.00000000000000351037
+summary.score    0.86574997244867524238
+atmosphere       0.73207839730696422365
+cleanliness      0.68848868854239031467
+facilities       0.75244923512469819027
+location.y       0.46280081821208862713
+security         0.68047376624430488956
+staff            0.63373681536676174098
+valueformoney    1.00000000000000000000
+lon             -0.05192165049260891868
+lat             -0.03331853892248575616
+Name: valueformoney, dtype: float64
+*******************LON*******************
+Unnamed: 0       0.05562738332366904542
+price.from       0.02584439968175308508
+Distance         0.00000000000005578646
+summary.score   -0.04909024248220880682
+atmosphere      -0.06376839264454933764
+cleanliness     -0.03863779978240586971
+facilities      -0.03723883463526554000
+location.y      -0.08844560194117995211
+security         0.01912187607307368545
+staff           -0.01505592118976053009
+valueformoney   -0.05192165049260891868
+lon              1.00000000000000000000
+lat              0.78140494710084662522
+Name: lon, dtype: float64
+*******************LAT*******************
+Unnamed: 0       0.08327748177341673386
+price.from       0.00835298957795745090
+Distance         0.00000000000000313639
+summary.score   -0.03272850311800382800
+atmosphere      -0.04396493196755439647
+cleanliness     -0.02394328437733266382
+facilities      -0.02855331722490549173
+location.y      -0.03214390784099092208
+security        -0.00353790678879364754
+staff           -0.01216698078758495297
+valueformoney   -0.03331853892248575616
+lon              0.78140494710084662522
+lat              1.00000000000000000000
+Name: lat, dtype: float64
+[10.02991264  9.94176156  8.82123116  9.12972938  9.04195989  9.60745553
+  9.71015464  8.60932231  9.35898339  8.96985708  8.97440198  9.47313531
+  8.28311578  9.55344091  8.60932231  9.06568765  8.99893084  9.59201462
+  9.26684601  9.60955307  8.08717285  8.60661759  9.81425502  8.41590851
+  8.60932231  9.11890483  9.16243843  9.19258346  8.26621724  6.27926669
+  8.9666859   9.35030279  9.53317858  9.23778517  6.40887918  9.16461183
+  8.40580406  7.18483724  9.32854293  9.46399411  9.20392097  9.0020416
+  6.70010496  9.51036985  9.15502495  8.43684845  9.85188029  9.42544487
+  9.02979075  8.12543384  8.6177819   8.12481752  8.83233599  8.4735307
+  9.03476485  9.58400517  8.60932231  9.2624847   6.13513393  8.84000066
+  9.25631988  5.65710606  9.41833994  9.56000372  9.55764161  9.66562936
+  9.44841917  6.58292438  8.78662079]
+Coefficients: 
+ [ 5.89892599 -0.77232182 -0.86243564 -0.80048093 -0.84033081 -0.79039555
+ -0.86708663]
+Intercept: 
+ 0.3711665854074937
+Mean squared error: 0.04
+Variance score: 0.96/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:80: UserWarning: Attempting to set identical left == right == 2.9 results in singular transformations; automatically expanding.
+  ax.set_xlim(boundaries_list[j])
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:81: UserWarning: Attempting to set identical bottom == top == 2.9 results in singular transformations; automatically expanding.
+  ax.set_ylim(boundaries_list[i])
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:71: UserWarning: Attempting to set identical left == right == 2.9 results in singular transformations; automatically expanding.
+  ax.set_xlim(boundaries_list[i])
+
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[10.02991264  9.94176156  8.82123116  9.12972938  9.04195989  9.60745553
+  9.71015464  8.60932231  9.35898339  8.96985708  8.97440198  9.47313531
+  8.28311578  9.55344091  8.60932231  9.06568765  8.99893084  9.59201462
+  9.26684601  9.60955307  8.08717285  8.60661759  9.81425502  8.41590851
+  8.60932231  9.11890483  9.16243843  9.19258346  8.26621724  6.27926669
+  8.9666859   9.35030279  9.53317858  9.23778517  6.40887918  9.16461183
+  8.40580406  7.18483724  9.32854293  9.46399411  9.20392097  9.0020416
+  6.70010496  9.51036985  9.15502495  8.43684845  9.85188029  9.42544487
+  9.02979075  8.12543384  8.6177819   8.12481752  8.83233599  8.4735307
+  9.03476485  9.58400517  8.60932231  9.2624847   6.13513393  8.84000066
+  9.25631988  5.65710606  9.41833994  9.56000372  9.55764161  9.66562936
+  9.44841917  6.58292438  8.78662079]
+Coefficients: 
+ [0.1910347  0.10587789 0.09537679 0.10242871 0.03997484 0.10442433
+ 0.06283141]
+Intercept: 
+ 2.7094005652634126
+Mean squared error: 0.31
+Variance score: 0.70
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+Traceback (most recent call last):
+  File "regression-mlr-lasso-ridge-and-elastic.py", line 217, in <module>
+    Lasso_regr = linear_model.Lars(fit_intercept=True, fit_path=True, n_nonzero_coefs=1, normalize=True, positive=False, precompute='auto', verbose=False) 
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'positive'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.Lars'), ('action', 'arg_delete'), ('from_name', 'positive'), ('to_name', '*')])['Hostel.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 16 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    int64  
+ 1   hostel.name    342 non-null    object 
+ 2   City           342 non-null    object 
+ 3   price.from     342 non-null    int64  
+ 4   Distance       342 non-null    object 
+ 5   summary.score  327 non-null    float64
+ 6   rating.band    327 non-null    object 
+ 7   atmosphere     327 non-null    float64
+ 8   cleanliness    327 non-null    float64
+ 9   facilities     327 non-null    float64
+ 10  location.y     327 non-null    float64
+ 11  security       327 non-null    float64
+ 12  staff          327 non-null    float64
+ 13  valueformoney  327 non-null    float64
+ 14  lon            298 non-null    float64
+ 15  lat            298 non-null    float64
+dtypes: float64(10), int64(2), object(4)
+memory usage: 42.9+ KB
+None
+Index(['Unnamed: 0', 'hostel.name', 'City', 'price.from', 'Distance',
+       'summary.score', 'rating.band', 'atmosphere', 'cleanliness',
+       'facilities', 'location.y', 'security', 'staff', 'valueformoney', 'lon',
+       'lat'],
+      dtype='object')
+(342, 16)
+Tokyo           127
+Osaka           104
+Kyoto            78
+Fukuoka-City     19
+Hiroshima        14
+Name: City, dtype: int64 Superb       182
+Fabulous     106
+Very Good     20
+Good          11
+Rating         8
+Name: rating.band, dtype: int64
+Superb       182
+Fabulous     106
+Very Good     20
+Unknown       15
+Good          11
+Rating         8
+Name: rating.band, dtype: int64
+0      3
+1      3
+2      0
+3      5
+4      3
+      ..
+337    0
+338    0
+339    3
+340    0
+341    0
+Name: rating.band, Length: 342, dtype: int64
+Tokyo           127
+Osaka           104
+Kyoto            78
+Fukuoka-City     19
+Hiroshima        14
+Name: City, dtype: int64
+0      3
+1      0
+2      4
+3      4
+4      4
+      ..
+337    4
+338    4
+339    4
+340    2
+341    4
+Name: City, Length: 342, dtype: int64
+3    182
+0    106
+5     20
+4     15
+1     11
+2      8
+Name: rating.band, dtype: int64
+0        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+1        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+2        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+3        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+4        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+                             ...                        
+337      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+338      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+339      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+340      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+341      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+Name: rating.band, Length: 342, dtype: object
+4    127
+3    104
+2     78
+0     19
+1     14
+Name: City, dtype: int64
+0        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+1        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+2        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+3        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+4        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+                             ...                        
+337      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+338      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+339      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+340      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+341      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+Name: City, Length: 342, dtype: object
+0       2.9km from city centre
+1       0.7km from city centre
+2       7.8km from city centre
+3       8.7km from city centre
+4      10.5km from city centre
+                ...           
+337     2.6km from city centre
+338     2.9km from city centre
+339    17.5km from city centre
+340     2.4km from city centre
+341     5.9km from city centre
+Name: Distance, Length: 342, dtype: object
+0      2.9
+1      2.9
+2      2.9
+3      2.9
+4      2.9
+      ... 
+337    2.9
+338    2.9
+339    2.9
+340    2.9
+341    2.9
+Name: Distance, Length: 342, dtype: object
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    int64  
+ 1   price.from     342 non-null    int64  
+ 2   Distance       342 non-null    object 
+ 3   summary.score  327 non-null    float64
+ 4   atmosphere     327 non-null    float64
+ 5   cleanliness    327 non-null    float64
+ 6   facilities     327 non-null    float64
+ 7   location.y     327 non-null    float64
+ 8   security       327 non-null    float64
+ 9   staff          327 non-null    float64
+ 10  valueformoney  327 non-null    float64
+ 11  lon            298 non-null    float64
+ 12  lat            298 non-null    float64
+dtypes: float64(10), int64(2), object(1)
+memory usage: 34.9+ KB
+None
+[ 171.5       2500.           2.9          9.           8.6
+    9.3          9.           9.           9.2          9.4
+    9.         135.761617    34.9984705]
+[ 171.5       2500.           2.9          9.           8.6
+    9.3          9.           9.           9.2          9.4
+    9.         135.761617    34.9984705]
+     Unnamed: 0  price.from  Distance  ...  valueformoney         lon        lat
+0           1.0      3300.0       2.9  ...            9.4  135.513767  34.682678
+1           2.0      2600.0       2.9  ...            9.5  135.761617  34.998471
+2           3.0      3600.0       2.9  ...            9.0  139.777472  35.697447
+3           4.0      2600.0       2.9  ...            6.5  139.783667  35.712716
+4           5.0      1500.0       2.9  ...            9.5  139.798371  35.727898
+..          ...         ...       ...  ...            ...         ...        ...
+337       338.0      2300.0       2.9  ...            8.3  139.668125  35.702908
+338       339.0      2000.0       2.9  ...            9.4  139.667695  35.706513
+339       340.0      2500.0       2.9  ...            9.6  139.869197  35.752885
+340       341.0      2800.0       2.9  ...            7.3  135.749063  34.997376
+341       342.0      2900.0       2.9  ...            8.5  139.742116  35.655470
+
+[342 rows x 13 columns]
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    float64
+ 1   price.from     342 non-null    float64
+ 2   Distance       342 non-null    float64
+ 3   summary.score  342 non-null    float64
+ 4   atmosphere     342 non-null    float64
+ 5   cleanliness    342 non-null    float64
+ 6   facilities     342 non-null    float64
+ 7   location.y     342 non-null    float64
+ 8   security       342 non-null    float64
+ 9   staff          342 non-null    float64
+ 10  valueformoney  342 non-null    float64
+ 11  lon            342 non-null    float64
+ 12  lat            342 non-null    float64
+dtypes: float64(13)
+memory usage: 34.9 KB
+None
+               Unnamed: 0    price.from  ...           lon           lat
+Unnamed: 0       1.000000  1.031741e-01  ...  5.562738e-02  8.327748e-02
+price.from       0.103174  1.000000e+00  ...  2.584440e-02  8.352990e-03
+Distance         0.000000 -3.066035e-16  ...  5.578646e-14  3.136387e-15
+summary.score   -0.029851 -5.104329e-02  ... -4.909024e-02 -3.272850e-02
+atmosphere      -0.012237 -1.265194e-01  ... -6.376839e-02 -4.396493e-02
+cleanliness     -0.004393  1.209365e-04  ... -3.863780e-02 -2.394328e-02
+facilities      -0.013421  5.492023e-02  ... -3.723883e-02 -2.855332e-02
+location.y      -0.055358 -1.365063e-02  ... -8.844560e-02 -3.214391e-02
+security        -0.018033 -3.104836e-02  ...  1.912188e-02 -3.537907e-03
+staff            0.005457 -4.520943e-02  ... -1.505592e-02 -1.216698e-02
+valueformoney   -0.079691 -1.387923e-01  ... -5.192165e-02 -3.331854e-02
+lon              0.055627  2.584440e-02  ...  1.000000e+00  7.814049e-01
+lat              0.083277  8.352990e-03  ...  7.814049e-01  1.000000e+00
+
+[13 rows x 13 columns]
+*******************UNNAMED: 0*******************
+Unnamed: 0       1.00000000000000000000
+price.from       0.10317408610121550638
+Distance         0.00000000000000000000
+summary.score   -0.02985130001458412979
+atmosphere      -0.01223745215023924054
+cleanliness     -0.00439347271256233015
+facilities      -0.01342100635959121886
+location.y      -0.05535810026652951410
+security        -0.01803345989920592321
+staff            0.00545664349245100853
+valueformoney   -0.07969122051505554694
+lon              0.05562738332366904542
+lat              0.08327748177341673386
+Name: Unnamed: 0, dtype: float64
+*******************PRICE.FROM*******************
+Unnamed: 0       0.10317408610121550638
+price.from       1.00000000000000000000
+Distance        -0.00000000000000030660
+summary.score   -0.05104328591226791473
+atmosphere      -0.12651942854442946307
+cleanliness      0.00012093652281880361
+facilities       0.05492022545891714347
+location.y      -0.01365063068002547210
+security        -0.03104836211797801573
+staff           -0.04520942697791077020
+valueformoney   -0.13879230612995280270
+lon              0.02584439968175308508
+lat              0.00835298957795745090
+Name: price.from, dtype: float64
+*******************DISTANCE*******************
+Unnamed: 0       0.00000000000000000000
+price.from      -0.00000000000000030660
+Distance         1.00000000000000000000
+summary.score    0.00000000000000178498
+atmosphere      -0.00000000000000089042
+cleanliness      0.00000000000000333298
+facilities       0.00000000000000252166
+location.y      -0.00000000000000251469
+security        -0.00000000000000021173
+staff           -0.00000000000000480955
+valueformoney    0.00000000000000351037
+lon              0.00000000000005578646
+lat              0.00000000000000313639
+Name: Distance, dtype: float64
+*******************SUMMARY.SCORE*******************
+Unnamed: 0      -0.02985130001458412979
+price.from      -0.05104328591226791473
+Distance         0.00000000000000178498
+summary.score    1.00000000000000000000
+atmosphere       0.84418935359220104164
+cleanliness      0.84208952121710023420
+facilities       0.89527268911793667083
+location.y       0.63280102230177792677
+security         0.78610119127208732959
+staff            0.82936316293446288306
+valueformoney    0.86574997244867524238
+lon             -0.04909024248220880682
+lat             -0.03272850311800382800
+Name: summary.score, dtype: float64
+*******************ATMOSPHERE*******************
+Unnamed: 0      -0.01223745215023924054
+price.from      -0.12651942854442946307
+Distance        -0.00000000000000089042
+summary.score    0.84418935359220104164
+atmosphere       1.00000000000000000000
+cleanliness      0.63962413986210198136
+facilities       0.70458727856694858271
+location.y       0.47739369021122624037
+security         0.53901951773552336800
+staff            0.68075430205069076273
+valueformoney    0.73207839730696422365
+lon             -0.06376839264454933764
+lat             -0.04396493196755439647
+Name: atmosphere, dtype: float64
+*******************CLEANLINESS*******************
+Unnamed: 0      -0.00439347271256233015
+price.from       0.00012093652281880361
+Distance         0.00000000000000333298
+summary.score    0.84208952121710023420
+atmosphere       0.63962413986210198136
+cleanliness      1.00000000000000000000
+facilities       0.80298726799576281010
+location.y       0.41638382425687564536
+security         0.59314336015070201480
+staff            0.62858553153815344139
+valueformoney    0.68848868854239031467
+lon             -0.03863779978240586971
+lat             -0.02394328437733266382
+Name: cleanliness, dtype: float64
+*******************FACILITIES*******************
+Unnamed: 0      -0.01342100635959121886
+price.from       0.05492022545891714347
+Distance         0.00000000000000252166
+summary.score    0.89527268911793667083
+atmosphere       0.70458727856694858271
+cleanliness      0.80298726799576281010
+facilities       1.00000000000000000000
+location.y       0.48337597481997529592
+security         0.64435972946825836871
+staff            0.68971711354006226546
+valueformoney    0.75244923512469819027
+lon             -0.03723883463526554000
+lat             -0.02855331722490549173
+Name: facilities, dtype: float64
+*******************LOCATION.Y*******************
+Unnamed: 0      -0.05535810026652951410
+price.from      -0.01365063068002547210
+Distance        -0.00000000000000251469
+summary.score    0.63280102230177792677
+atmosphere       0.47739369021122624037
+cleanliness      0.41638382425687564536
+facilities       0.48337597481997529592
+location.y       1.00000000000000000000
+security         0.38123219514228551263
+staff            0.42376774300366792936
+valueformoney    0.46280081821208862713
+lon             -0.08844560194117995211
+lat             -0.03214390784099092208
+Name: location.y, dtype: float64
+*******************SECURITY*******************
+Unnamed: 0      -0.01803345989920592321
+price.from      -0.03104836211797801573
+Distance        -0.00000000000000021173
+summary.score    0.78610119127208732959
+atmosphere       0.53901951773552336800
+cleanliness      0.59314336015070201480
+facilities       0.64435972946825836871
+location.y       0.38123219514228551263
+security         1.00000000000000000000
+staff            0.69135076099875047984
+valueformoney    0.68047376624430488956
+lon              0.01912187607307368545
+lat             -0.00353790678879364754
+Name: security, dtype: float64
+*******************STAFF*******************
+Unnamed: 0       0.00545664349245100853
+price.from      -0.04520942697791077020
+Distance        -0.00000000000000480955
+summary.score    0.82936316293446288306
+atmosphere       0.68075430205069076273
+cleanliness      0.62858553153815344139
+facilities       0.68971711354006226546
+location.y       0.42376774300366792936
+security         0.69135076099875047984
+staff            1.00000000000000000000
+valueformoney    0.63373681536676174098
+lon             -0.01505592118976053009
+lat             -0.01216698078758495297
+Name: staff, dtype: float64
+*******************VALUEFORMONEY*******************
+Unnamed: 0      -0.07969122051505554694
+price.from      -0.13879230612995280270
+Distance         0.00000000000000351037
+summary.score    0.86574997244867524238
+atmosphere       0.73207839730696422365
+cleanliness      0.68848868854239031467
+facilities       0.75244923512469819027
+location.y       0.46280081821208862713
+security         0.68047376624430488956
+staff            0.63373681536676174098
+valueformoney    1.00000000000000000000
+lon             -0.05192165049260891868
+lat             -0.03331853892248575616
+Name: valueformoney, dtype: float64
+*******************LON*******************
+Unnamed: 0       0.05562738332366904542
+price.from       0.02584439968175308508
+Distance         0.00000000000005578646
+summary.score   -0.04909024248220880682
+atmosphere      -0.06376839264454933764
+cleanliness     -0.03863779978240586971
+facilities      -0.03723883463526554000
+location.y      -0.08844560194117995211
+security         0.01912187607307368545
+staff           -0.01505592118976053009
+valueformoney   -0.05192165049260891868
+lon              1.00000000000000000000
+lat              0.78140494710084662522
+Name: lon, dtype: float64
+*******************LAT*******************
+Unnamed: 0       0.08327748177341673386
+price.from       0.00835298957795745090
+Distance         0.00000000000000313639
+summary.score   -0.03272850311800382800
+atmosphere      -0.04396493196755439647
+cleanliness     -0.02394328437733266382
+facilities      -0.02855331722490549173
+location.y      -0.03214390784099092208
+security        -0.00353790678879364754
+staff           -0.01216698078758495297
+valueformoney   -0.03331853892248575616
+lon              0.78140494710084662522
+lat              1.00000000000000000000
+Name: lat, dtype: float64
+[ 8.61913562  9.3556856   9.0696909   9.39354887  9.47881288  8.84527498
+  8.71000098  9.1343473   7.74398196  9.89137565  8.9232367   8.7694353
+  9.16077187  9.60420664  9.88932584  9.48637896 10.04190746  6.576773
+  9.93724252  8.16977278  8.19936984  9.1281147   9.24003368  5.96584183
+  9.00819459  9.25916154  8.98668523  9.36571109  9.06095951  8.88314979
+  8.15537592  9.06254016  9.00640316  8.7909617   9.7096049   8.73274917
+  9.00519818  9.32145673  9.42536101  6.64285504  7.63471437  9.76208784
+  7.37564574  9.52126295  8.29326705  8.60652171  6.71763345  8.63307017
+  9.32909281  6.37104191  9.44939945  9.09040107 10.04190746  9.16582666
+  9.22507411  6.58267087  6.0254738   8.96496835  8.89382888  9.69851074
+  8.25183551  8.71441712  8.43298692  9.21077224  9.16044885  9.19167991
+  9.8086243  10.09710113  9.2933143 ]
+Coefficients: 
+ [ 5.8154489  -0.76634427 -0.83035977 -0.79149019 -0.81399654 -0.76528947
+ -0.86804157]
+Intercept: 
+ 0.24263650841443152
+Mean squared error: 0.04
+Variance score: 0.96/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:80: UserWarning: Attempting to set identical left == right == 2.9 results in singular transformations; automatically expanding.
+  ax.set_xlim(boundaries_list[j])
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:81: UserWarning: Attempting to set identical bottom == top == 2.9 results in singular transformations; automatically expanding.
+  ax.set_ylim(boundaries_list[i])
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:71: UserWarning: Attempting to set identical left == right == 2.9 results in singular transformations; automatically expanding.
+  ax.set_xlim(boundaries_list[i])
+
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[ 8.61913562  9.3556856   9.0696909   9.39354887  9.47881288  8.84527498
+  8.71000098  9.1343473   7.74398196  9.89137565  8.9232367   8.7694353
+  9.16077187  9.60420664  9.88932584  9.48637896 10.04190746  6.576773
+  9.93724252  8.16977278  8.19936984  9.1281147   9.24003368  5.96584183
+  9.00819459  9.25916154  8.98668523  9.36571109  9.06095951  8.88314979
+  8.15537592  9.06254016  9.00640316  8.7909617   9.7096049   8.73274917
+  9.00519818  9.32145673  9.42536101  6.64285504  7.63471437  9.76208784
+  7.37564574  9.52126295  8.29326705  8.60652171  6.71763345  8.63307017
+  9.32909281  6.37104191  9.44939945  9.09040107 10.04190746  9.16582666
+  9.22507411  6.58267087  6.0254738   8.96496835  8.89382888  9.69851074
+  8.25183551  8.71441712  8.43298692  9.21077224  9.16044885  9.19167991
+  9.8086243  10.09710113  9.2933143 ]
+Coefficients: 
+ [0.18546132 0.11956087 0.07097923 0.07442108 0.03610742 0.13228721
+ 0.06893528]
+Intercept: 
+ 2.827033024135667
+Mean squared error: 0.41
+Variance score: 0.67
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[8.68441305 9.35596852 7.8785465  6.80405776 9.02019078 9.02019078
+ 9.02019078 9.02019078 8.68441305 9.02019078 9.02019078 9.08734633
+ 7.94570205 8.61725751 8.7515686  9.42312406 9.15450188 8.7515686
+ 8.95303524 9.02019078 9.42312406 9.49027961 8.01285759 9.15450188
+ 8.41579087 9.15450188 9.35596852 9.08734633 9.02019078 8.81872415
+ 7.13983549 9.15450188 8.34863532 9.08734633 8.55010196 9.42312406
+ 8.81872415 9.28881297 9.28881297 9.08734633 7.54276877 9.02019078
+ 8.7515686  9.08734633 8.7515686  8.88587969 6.26681339 9.35596852
+ 9.35596852 9.08734633 8.61725751 9.49027961 9.22165742 8.95303524
+ 9.02019078 8.95303524 8.55010196 8.95303524 9.02019078 8.34863532
+ 8.61725751 8.88587969 9.08734633 8.88587969 8.34863532 9.02019078
+ 8.7515686  9.22165742 8.95303524]
+Coefficients: 
+ [0.67155546 0.         0.         0.         0.         0.
+ 0.        ]
+Intercept: 
+ 2.976191633554028
+Mean squared error: 0.61
+Variance score: 0.61
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[8.79511855 9.0752314  8.39284546 8.03969046 8.94498585 8.94498585
+ 8.91765449 8.91278821 8.74560776 8.89087756 8.94498585 8.8907429
+ 8.57934686 8.61633185 8.68832074 9.12455488 9.00206457 8.71175646
+ 8.88853755 8.94353249 9.09212187 9.14931033 8.61843176 8.98183576
+ 8.67277854 8.98441738 9.0324946  9.02257245 8.90677827 8.85437375
+ 8.07951889 8.94457372 8.63582942 8.94269557 8.70748374 9.10207727
+ 8.8583571  9.0551565  9.22087789 8.97287935 8.34551234 8.87617538
+ 8.67639849 8.94253634 8.8289361  8.86941224 7.63415466 9.0892866
+ 9.01677152 9.06829559 8.81643123 9.08393365 8.9973788  8.95469024
+ 8.90559026 8.69618383 8.66265551 8.86762226 8.96187748 8.76836591
+ 8.80027222 8.89173308 8.93063232 8.85987391 8.56427507 8.94498585
+ 8.5751917  9.07759255 8.87939138]
+Coefficients: 
+ [0.01558134 0.08615056 0.02986335 0.09370604 0.         0.04304792
+ 0.        ]
+Intercept: 
+ 6.546734627594891
+Mean squared error: 1.41
+Variance score: -0.04
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[REPAIR EXEC TIME]: 15.167819738388062['Hostel.csv']
+Traceback (most recent call last):
+  File "regression-mlr-lasso-ridge-and-elastic.py", line 27, in <module>
+    from pandas.tools.plotting import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.tools'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.plotting'), ('line_no', 27)])['Hostel.csv']
+Traceback (most recent call last):
+  File "regression-mlr-lasso-ridge-and-elastic.py", line 29, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.impute.SimpleImputer'), ('line_no', 29)])['Hostel.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 16 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    int64  
+ 1   hostel.name    342 non-null    object 
+ 2   City           342 non-null    object 
+ 3   price.from     342 non-null    int64  
+ 4   Distance       342 non-null    object 
+ 5   summary.score  327 non-null    float64
+ 6   rating.band    327 non-null    object 
+ 7   atmosphere     327 non-null    float64
+ 8   cleanliness    327 non-null    float64
+ 9   facilities     327 non-null    float64
+ 10  location.y     327 non-null    float64
+ 11  security       327 non-null    float64
+ 12  staff          327 non-null    float64
+ 13  valueformoney  327 non-null    float64
+ 14  lon            298 non-null    float64
+ 15  lat            298 non-null    float64
+dtypes: float64(10), int64(2), object(4)
+memory usage: 42.9+ KB
+None
+Index(['Unnamed: 0', 'hostel.name', 'City', 'price.from', 'Distance',
+       'summary.score', 'rating.band', 'atmosphere', 'cleanliness',
+       'facilities', 'location.y', 'security', 'staff', 'valueformoney', 'lon',
+       'lat'],
+      dtype='object')
+(342, 16)
+Tokyo           127
+Osaka           104
+Kyoto            78
+Fukuoka-City     19
+Hiroshima        14
+Name: City, dtype: int64 Superb       182
+Fabulous     106
+Very Good     20
+Good          11
+Rating         8
+Name: rating.band, dtype: int64
+Superb       182
+Fabulous     106
+Very Good     20
+Unknown       15
+Good          11
+Rating         8
+Name: rating.band, dtype: int64
+0      3
+1      3
+2      0
+3      5
+4      3
+      ..
+337    0
+338    0
+339    3
+340    0
+341    0
+Name: rating.band, Length: 342, dtype: int64
+Tokyo           127
+Osaka           104
+Kyoto            78
+Fukuoka-City     19
+Hiroshima        14
+Name: City, dtype: int64
+0      3
+1      0
+2      4
+3      4
+4      4
+      ..
+337    4
+338    4
+339    4
+340    2
+341    4
+Name: City, Length: 342, dtype: int64
+3    182
+0    106
+5     20
+4     15
+1     11
+2      8
+Name: rating.band, dtype: int64
+0        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+1        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+2        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+3        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+4        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+                             ...                        
+337      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+338      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+339      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+340      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+341      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+Name: rating.band, Length: 342, dtype: object
+4    127
+3    104
+2     78
+0     19
+1     14
+Name: City, dtype: int64
+0        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+1        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+2        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+3        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+4        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+                             ...                        
+337      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+338      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+339      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+340      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+341      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+Name: City, Length: 342, dtype: object
+0       2.9km from city centre
+1       0.7km from city centre
+2       7.8km from city centre
+3       8.7km from city centre
+4      10.5km from city centre
+                ...           
+337     2.6km from city centre
+338     2.9km from city centre
+339    17.5km from city centre
+340     2.4km from city centre
+341     5.9km from city centre
+Name: Distance, Length: 342, dtype: object
+0      2.9
+1      2.9
+2      2.9
+3      2.9
+4      2.9
+      ... 
+337    2.9
+338    2.9
+339    2.9
+340    2.9
+341    2.9
+Name: Distance, Length: 342, dtype: object
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    int64  
+ 1   price.from     342 non-null    int64  
+ 2   Distance       342 non-null    object 
+ 3   summary.score  327 non-null    float64
+ 4   atmosphere     327 non-null    float64
+ 5   cleanliness    327 non-null    float64
+ 6   facilities     327 non-null    float64
+ 7   location.y     327 non-null    float64
+ 8   security       327 non-null    float64
+ 9   staff          327 non-null    float64
+ 10  valueformoney  327 non-null    float64
+ 11  lon            298 non-null    float64
+ 12  lat            298 non-null    float64
+dtypes: float64(10), int64(2), object(1)
+memory usage: 34.9+ KB
+None
+[ 171.5       2500.           2.9          9.           8.6
+    9.3          9.           9.           9.2          9.4
+    9.         135.761617    34.9984705]
+[ 171.5       2500.           2.9          9.           8.6
+    9.3          9.           9.           9.2          9.4
+    9.         135.761617    34.9984705]
+     Unnamed: 0  price.from  Distance  ...  valueformoney         lon        lat
+0           1.0      3300.0       2.9  ...            9.4  135.513767  34.682678
+1           2.0      2600.0       2.9  ...            9.5  135.761617  34.998471
+2           3.0      3600.0       2.9  ...            9.0  139.777472  35.697447
+3           4.0      2600.0       2.9  ...            6.5  139.783667  35.712716
+4           5.0      1500.0       2.9  ...            9.5  139.798371  35.727898
+..          ...         ...       ...  ...            ...         ...        ...
+337       338.0      2300.0       2.9  ...            8.3  139.668125  35.702908
+338       339.0      2000.0       2.9  ...            9.4  139.667695  35.706513
+339       340.0      2500.0       2.9  ...            9.6  139.869197  35.752885
+340       341.0      2800.0       2.9  ...            7.3  135.749063  34.997376
+341       342.0      2900.0       2.9  ...            8.5  139.742116  35.655470
+
+[342 rows x 13 columns]
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    float64
+ 1   price.from     342 non-null    float64
+ 2   Distance       342 non-null    float64
+ 3   summary.score  342 non-null    float64
+ 4   atmosphere     342 non-null    float64
+ 5   cleanliness    342 non-null    float64
+ 6   facilities     342 non-null    float64
+ 7   location.y     342 non-null    float64
+ 8   security       342 non-null    float64
+ 9   staff          342 non-null    float64
+ 10  valueformoney  342 non-null    float64
+ 11  lon            342 non-null    float64
+ 12  lat            342 non-null    float64
+dtypes: float64(13)
+memory usage: 34.9 KB
+None
+               Unnamed: 0    price.from  ...           lon           lat
+Unnamed: 0       1.000000  1.031741e-01  ...  5.562738e-02  8.327748e-02
+price.from       0.103174  1.000000e+00  ...  2.584440e-02  8.352990e-03
+Distance         0.000000 -3.066035e-16  ...  5.578646e-14  3.136387e-15
+summary.score   -0.029851 -5.104329e-02  ... -4.909024e-02 -3.272850e-02
+atmosphere      -0.012237 -1.265194e-01  ... -6.376839e-02 -4.396493e-02
+cleanliness     -0.004393  1.209365e-04  ... -3.863780e-02 -2.394328e-02
+facilities      -0.013421  5.492023e-02  ... -3.723883e-02 -2.855332e-02
+location.y      -0.055358 -1.365063e-02  ... -8.844560e-02 -3.214391e-02
+security        -0.018033 -3.104836e-02  ...  1.912188e-02 -3.537907e-03
+staff            0.005457 -4.520943e-02  ... -1.505592e-02 -1.216698e-02
+valueformoney   -0.079691 -1.387923e-01  ... -5.192165e-02 -3.331854e-02
+lon              0.055627  2.584440e-02  ...  1.000000e+00  7.814049e-01
+lat              0.083277  8.352990e-03  ...  7.814049e-01  1.000000e+00
+
+[13 rows x 13 columns]
+*******************UNNAMED: 0*******************
+Unnamed: 0       1.00000000000000000000
+price.from       0.10317408610121550638
+Distance         0.00000000000000000000
+summary.score   -0.02985130001458412979
+atmosphere      -0.01223745215023924054
+cleanliness     -0.00439347271256233015
+facilities      -0.01342100635959121886
+location.y      -0.05535810026652951410
+security        -0.01803345989920592321
+staff            0.00545664349245100853
+valueformoney   -0.07969122051505554694
+lon              0.05562738332366904542
+lat              0.08327748177341673386
+Name: Unnamed: 0, dtype: float64
+*******************PRICE.FROM*******************
+Unnamed: 0       0.10317408610121550638
+price.from       1.00000000000000000000
+Distance        -0.00000000000000030660
+summary.score   -0.05104328591226791473
+atmosphere      -0.12651942854442946307
+cleanliness      0.00012093652281880361
+facilities       0.05492022545891714347
+location.y      -0.01365063068002547210
+security        -0.03104836211797801573
+staff           -0.04520942697791077020
+valueformoney   -0.13879230612995280270
+lon              0.02584439968175308508
+lat              0.00835298957795745090
+Name: price.from, dtype: float64
+*******************DISTANCE*******************
+Unnamed: 0       0.00000000000000000000
+price.from      -0.00000000000000030660
+Distance         1.00000000000000000000
+summary.score    0.00000000000000178498
+atmosphere      -0.00000000000000089042
+cleanliness      0.00000000000000333298
+facilities       0.00000000000000252166
+location.y      -0.00000000000000251469
+security        -0.00000000000000021173
+staff           -0.00000000000000480955
+valueformoney    0.00000000000000351037
+lon              0.00000000000005578646
+lat              0.00000000000000313639
+Name: Distance, dtype: float64
+*******************SUMMARY.SCORE*******************
+Unnamed: 0      -0.02985130001458412979
+price.from      -0.05104328591226791473
+Distance         0.00000000000000178498
+summary.score    1.00000000000000000000
+atmosphere       0.84418935359220104164
+cleanliness      0.84208952121710023420
+facilities       0.89527268911793667083
+location.y       0.63280102230177792677
+security         0.78610119127208732959
+staff            0.82936316293446288306
+valueformoney    0.86574997244867524238
+lon             -0.04909024248220880682
+lat             -0.03272850311800382800
+Name: summary.score, dtype: float64
+*******************ATMOSPHERE*******************
+Unnamed: 0      -0.01223745215023924054
+price.from      -0.12651942854442946307
+Distance        -0.00000000000000089042
+summary.score    0.84418935359220104164
+atmosphere       1.00000000000000000000
+cleanliness      0.63962413986210198136
+facilities       0.70458727856694858271
+location.y       0.47739369021122624037
+security         0.53901951773552336800
+staff            0.68075430205069076273
+valueformoney    0.73207839730696422365
+lon             -0.06376839264454933764
+lat             -0.04396493196755439647
+Name: atmosphere, dtype: float64
+*******************CLEANLINESS*******************
+Unnamed: 0      -0.00439347271256233015
+price.from       0.00012093652281880361
+Distance         0.00000000000000333298
+summary.score    0.84208952121710023420
+atmosphere       0.63962413986210198136
+cleanliness      1.00000000000000000000
+facilities       0.80298726799576281010
+location.y       0.41638382425687564536
+security         0.59314336015070201480
+staff            0.62858553153815344139
+valueformoney    0.68848868854239031467
+lon             -0.03863779978240586971
+lat             -0.02394328437733266382
+Name: cleanliness, dtype: float64
+*******************FACILITIES*******************
+Unnamed: 0      -0.01342100635959121886
+price.from       0.05492022545891714347
+Distance         0.00000000000000252166
+summary.score    0.89527268911793667083
+atmosphere       0.70458727856694858271
+cleanliness      0.80298726799576281010
+facilities       1.00000000000000000000
+location.y       0.48337597481997529592
+security         0.64435972946825836871
+staff            0.68971711354006226546
+valueformoney    0.75244923512469819027
+lon             -0.03723883463526554000
+lat             -0.02855331722490549173
+Name: facilities, dtype: float64
+*******************LOCATION.Y*******************
+Unnamed: 0      -0.05535810026652951410
+price.from      -0.01365063068002547210
+Distance        -0.00000000000000251469
+summary.score    0.63280102230177792677
+atmosphere       0.47739369021122624037
+cleanliness      0.41638382425687564536
+facilities       0.48337597481997529592
+location.y       1.00000000000000000000
+security         0.38123219514228551263
+staff            0.42376774300366792936
+valueformoney    0.46280081821208862713
+lon             -0.08844560194117995211
+lat             -0.03214390784099092208
+Name: location.y, dtype: float64
+*******************SECURITY*******************
+Unnamed: 0      -0.01803345989920592321
+price.from      -0.03104836211797801573
+Distance        -0.00000000000000021173
+summary.score    0.78610119127208732959
+atmosphere       0.53901951773552336800
+cleanliness      0.59314336015070201480
+facilities       0.64435972946825836871
+location.y       0.38123219514228551263
+security         1.00000000000000000000
+staff            0.69135076099875047984
+valueformoney    0.68047376624430488956
+lon              0.01912187607307368545
+lat             -0.00353790678879364754
+Name: security, dtype: float64
+*******************STAFF*******************
+Unnamed: 0       0.00545664349245100853
+price.from      -0.04520942697791077020
+Distance        -0.00000000000000480955
+summary.score    0.82936316293446288306
+atmosphere       0.68075430205069076273
+cleanliness      0.62858553153815344139
+facilities       0.68971711354006226546
+location.y       0.42376774300366792936
+security         0.69135076099875047984
+staff            1.00000000000000000000
+valueformoney    0.63373681536676174098
+lon             -0.01505592118976053009
+lat             -0.01216698078758495297
+Name: staff, dtype: float64
+*******************VALUEFORMONEY*******************
+Unnamed: 0      -0.07969122051505554694
+price.from      -0.13879230612995280270
+Distance         0.00000000000000351037
+summary.score    0.86574997244867524238
+atmosphere       0.73207839730696422365
+cleanliness      0.68848868854239031467
+facilities       0.75244923512469819027
+location.y       0.46280081821208862713
+security         0.68047376624430488956
+staff            0.63373681536676174098
+valueformoney    1.00000000000000000000
+lon             -0.05192165049260891868
+lat             -0.03331853892248575616
+Name: valueformoney, dtype: float64
+*******************LON*******************
+Unnamed: 0       0.05562738332366904542
+price.from       0.02584439968175308508
+Distance         0.00000000000005578646
+summary.score   -0.04909024248220880682
+atmosphere      -0.06376839264454933764
+cleanliness     -0.03863779978240586971
+facilities      -0.03723883463526554000
+location.y      -0.08844560194117995211
+security         0.01912187607307368545
+staff           -0.01505592118976053009
+valueformoney   -0.05192165049260891868
+lon              1.00000000000000000000
+lat              0.78140494710084662522
+Name: lon, dtype: float64
+*******************LAT*******************
+Unnamed: 0       0.08327748177341673386
+price.from       0.00835298957795745090
+Distance         0.00000000000000313639
+summary.score   -0.03272850311800382800
+atmosphere      -0.04396493196755439647
+cleanliness     -0.02394328437733266382
+facilities      -0.02855331722490549173
+location.y      -0.03214390784099092208
+security        -0.00353790678879364754
+staff           -0.01216698078758495297
+valueformoney   -0.03331853892248575616
+lon              0.78140494710084662522
+lat              1.00000000000000000000
+Name: lat, dtype: float64
+[10.05907852  9.23406684  8.91775614  9.34851214  8.61559312  9.03263015
+  8.75733428  8.20172262  8.74898178  9.08180217  8.33818662  9.00463344
+ 10.04455979  9.03350163  9.44530318  9.36653104  9.88706198  9.35169891
+  9.16367208 10.04455979  8.29246465  9.30388035  9.60171827  8.64294702
+  9.45563041  9.22351726  6.89188474  8.11046054  7.37546264  9.45615867
+  9.00893635 10.05036058  8.82798704  9.31941062  8.77813358  8.76635311
+  8.07850158  8.61559312  9.25118081 10.04455979  8.59781149  9.0923979
+  9.64136061 10.04455979  9.88796763  8.94565663  9.17488669  8.43410039
+  8.42286386  9.27938147  9.23091435  9.84005129  8.47809194  6.71026493
+  6.34165185  7.43132905  9.02956084  8.28606416  9.0689522   6.27042706
+  9.13380492  8.70718662  8.18611883  9.16314172  8.83658565  8.15158059
+  8.51505636  9.26802309  8.61559312]
+Coefficients: 
+ [ 5.88929384 -0.77103605 -0.84751519 -0.79728805 -0.83670922 -0.79091832
+ -0.86814024]
+Intercept: 
+ 0.2676920441706443
+Mean squared error: 0.04
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:80: UserWarning: Attempting to set identical left == right == 2.9 results in singular transformations; automatically expanding.
+  ax.set_xlim(boundaries_list[j])
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:81: UserWarning: Attempting to set identical bottom == top == 2.9 results in singular transformations; automatically expanding.
+  ax.set_ylim(boundaries_list[i])
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:71: UserWarning: Attempting to set identical left == right == 2.9 results in singular transformations; automatically expanding.
+  ax.set_xlim(boundaries_list[i])
+Variance score: 0.94
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[10.05907852  9.23406684  8.91775614  9.34851214  8.61559312  9.03263015
+  8.75733428  8.20172262  8.74898178  9.08180217  8.33818662  9.00463344
+ 10.04455979  9.03350163  9.44530318  9.36653104  9.88706198  9.35169891
+  9.16367208 10.04455979  8.29246465  9.30388035  9.60171827  8.64294702
+  9.45563041  9.22351726  6.89188474  8.11046054  7.37546264  9.45615867
+  9.00893635 10.05036058  8.82798704  9.31941062  8.77813358  8.76635311
+  8.07850158  8.61559312  9.25118081 10.04455979  8.59781149  9.0923979
+  9.64136061 10.04455979  9.88796763  8.94565663  9.17488669  8.43410039
+  8.42286386  9.27938147  9.23091435  9.84005129  8.47809194  6.71026493
+  6.34165185  7.43132905  9.02956084  8.28606416  9.0689522   6.27042706
+  9.13380492  8.70718662  8.18611883  9.16314172  8.83658565  8.15158059
+  8.51505636  9.26802309  8.61559312]
+Coefficients: 
+ [0.19218962 0.10685507 0.08766613 0.11056383 0.04390047 0.12564403
+ 0.06113032]
+Intercept: 
+ 2.463267981788734
+Mean squared error: 0.23
+Variance score: 0.57
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+Traceback (most recent call last):
+  File "regression-mlr-lasso-ridge-and-elastic.py", line 217, in <module>
+    Lasso_regr = linear_model.Lars(fit_intercept=True, fit_path=True, n_nonzero_coefs=1, normalize=True, positive=False, precompute='auto', verbose=False) 
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'positive'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.Lars'), ('action', 'arg_delete'), ('from_name', 'positive'), ('to_name', '*')])['Hostel.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 16 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    int64  
+ 1   hostel.name    342 non-null    object 
+ 2   City           342 non-null    object 
+ 3   price.from     342 non-null    int64  
+ 4   Distance       342 non-null    object 
+ 5   summary.score  327 non-null    float64
+ 6   rating.band    327 non-null    object 
+ 7   atmosphere     327 non-null    float64
+ 8   cleanliness    327 non-null    float64
+ 9   facilities     327 non-null    float64
+ 10  location.y     327 non-null    float64
+ 11  security       327 non-null    float64
+ 12  staff          327 non-null    float64
+ 13  valueformoney  327 non-null    float64
+ 14  lon            298 non-null    float64
+ 15  lat            298 non-null    float64
+dtypes: float64(10), int64(2), object(4)
+memory usage: 42.9+ KB
+None
+Index(['Unnamed: 0', 'hostel.name', 'City', 'price.from', 'Distance',
+       'summary.score', 'rating.band', 'atmosphere', 'cleanliness',
+       'facilities', 'location.y', 'security', 'staff', 'valueformoney', 'lon',
+       'lat'],
+      dtype='object')
+(342, 16)
+Tokyo           127
+Osaka           104
+Kyoto            78
+Fukuoka-City     19
+Hiroshima        14
+Name: City, dtype: int64 Superb       182
+Fabulous     106
+Very Good     20
+Good          11
+Rating         8
+Name: rating.band, dtype: int64
+Superb       182
+Fabulous     106
+Very Good     20
+Unknown       15
+Good          11
+Rating         8
+Name: rating.band, dtype: int64
+0      3
+1      3
+2      0
+3      5
+4      3
+      ..
+337    0
+338    0
+339    3
+340    0
+341    0
+Name: rating.band, Length: 342, dtype: int64
+Tokyo           127
+Osaka           104
+Kyoto            78
+Fukuoka-City     19
+Hiroshima        14
+Name: City, dtype: int64
+0      3
+1      0
+2      4
+3      4
+4      4
+      ..
+337    4
+338    4
+339    4
+340    2
+341    4
+Name: City, Length: 342, dtype: int64
+3    182
+0    106
+5     20
+4     15
+1     11
+2      8
+Name: rating.band, dtype: int64
+0        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+1        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+2        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+3        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+4        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+                             ...                        
+337      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+338      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+339      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+340      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+341      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+Name: rating.band, Length: 342, dtype: object
+4    127
+3    104
+2     78
+0     19
+1     14
+Name: City, dtype: int64
+0        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+1        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+2        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+3        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+4        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+                             ...                        
+337      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+338      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+339      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+340      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+341      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+Name: City, Length: 342, dtype: object
+0       2.9km from city centre
+1       0.7km from city centre
+2       7.8km from city centre
+3       8.7km from city centre
+4      10.5km from city centre
+                ...           
+337     2.6km from city centre
+338     2.9km from city centre
+339    17.5km from city centre
+340     2.4km from city centre
+341     5.9km from city centre
+Name: Distance, Length: 342, dtype: object
+0      2.9
+1      2.9
+2      2.9
+3      2.9
+4      2.9
+      ... 
+337    2.9
+338    2.9
+339    2.9
+340    2.9
+341    2.9
+Name: Distance, Length: 342, dtype: object
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    int64  
+ 1   price.from     342 non-null    int64  
+ 2   Distance       342 non-null    object 
+ 3   summary.score  327 non-null    float64
+ 4   atmosphere     327 non-null    float64
+ 5   cleanliness    327 non-null    float64
+ 6   facilities     327 non-null    float64
+ 7   location.y     327 non-null    float64
+ 8   security       327 non-null    float64
+ 9   staff          327 non-null    float64
+ 10  valueformoney  327 non-null    float64
+ 11  lon            298 non-null    float64
+ 12  lat            298 non-null    float64
+dtypes: float64(10), int64(2), object(1)
+memory usage: 34.9+ KB
+None
+[ 171.5       2500.           2.9          9.           8.6
+    9.3          9.           9.           9.2          9.4
+    9.         135.761617    34.9984705]
+[ 171.5       2500.           2.9          9.           8.6
+    9.3          9.           9.           9.2          9.4
+    9.         135.761617    34.9984705]
+     Unnamed: 0  price.from  Distance  ...  valueformoney         lon        lat
+0           1.0      3300.0       2.9  ...            9.4  135.513767  34.682678
+1           2.0      2600.0       2.9  ...            9.5  135.761617  34.998471
+2           3.0      3600.0       2.9  ...            9.0  139.777472  35.697447
+3           4.0      2600.0       2.9  ...            6.5  139.783667  35.712716
+4           5.0      1500.0       2.9  ...            9.5  139.798371  35.727898
+..          ...         ...       ...  ...            ...         ...        ...
+337       338.0      2300.0       2.9  ...            8.3  139.668125  35.702908
+338       339.0      2000.0       2.9  ...            9.4  139.667695  35.706513
+339       340.0      2500.0       2.9  ...            9.6  139.869197  35.752885
+340       341.0      2800.0       2.9  ...            7.3  135.749063  34.997376
+341       342.0      2900.0       2.9  ...            8.5  139.742116  35.655470
+
+[342 rows x 13 columns]
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    float64
+ 1   price.from     342 non-null    float64
+ 2   Distance       342 non-null    float64
+ 3   summary.score  342 non-null    float64
+ 4   atmosphere     342 non-null    float64
+ 5   cleanliness    342 non-null    float64
+ 6   facilities     342 non-null    float64
+ 7   location.y     342 non-null    float64
+ 8   security       342 non-null    float64
+ 9   staff          342 non-null    float64
+ 10  valueformoney  342 non-null    float64
+ 11  lon            342 non-null    float64
+ 12  lat            342 non-null    float64
+dtypes: float64(13)
+memory usage: 34.9 KB
+None
+               Unnamed: 0    price.from  ...           lon           lat
+Unnamed: 0       1.000000  1.031741e-01  ...  5.562738e-02  8.327748e-02
+price.from       0.103174  1.000000e+00  ...  2.584440e-02  8.352990e-03
+Distance         0.000000 -3.066035e-16  ...  5.578646e-14  3.136387e-15
+summary.score   -0.029851 -5.104329e-02  ... -4.909024e-02 -3.272850e-02
+atmosphere      -0.012237 -1.265194e-01  ... -6.376839e-02 -4.396493e-02
+cleanliness     -0.004393  1.209365e-04  ... -3.863780e-02 -2.394328e-02
+facilities      -0.013421  5.492023e-02  ... -3.723883e-02 -2.855332e-02
+location.y      -0.055358 -1.365063e-02  ... -8.844560e-02 -3.214391e-02
+security        -0.018033 -3.104836e-02  ...  1.912188e-02 -3.537907e-03
+staff            0.005457 -4.520943e-02  ... -1.505592e-02 -1.216698e-02
+valueformoney   -0.079691 -1.387923e-01  ... -5.192165e-02 -3.331854e-02
+lon              0.055627  2.584440e-02  ...  1.000000e+00  7.814049e-01
+lat              0.083277  8.352990e-03  ...  7.814049e-01  1.000000e+00
+
+[13 rows x 13 columns]
+*******************UNNAMED: 0*******************
+Unnamed: 0       1.00000000000000000000
+price.from       0.10317408610121550638
+Distance         0.00000000000000000000
+summary.score   -0.02985130001458412979
+atmosphere      -0.01223745215023924054
+cleanliness     -0.00439347271256233015
+facilities      -0.01342100635959121886
+location.y      -0.05535810026652951410
+security        -0.01803345989920592321
+staff            0.00545664349245100853
+valueformoney   -0.07969122051505554694
+lon              0.05562738332366904542
+lat              0.08327748177341673386
+Name: Unnamed: 0, dtype: float64
+*******************PRICE.FROM*******************
+Unnamed: 0       0.10317408610121550638
+price.from       1.00000000000000000000
+Distance        -0.00000000000000030660
+summary.score   -0.05104328591226791473
+atmosphere      -0.12651942854442946307
+cleanliness      0.00012093652281880361
+facilities       0.05492022545891714347
+location.y      -0.01365063068002547210
+security        -0.03104836211797801573
+staff           -0.04520942697791077020
+valueformoney   -0.13879230612995280270
+lon              0.02584439968175308508
+lat              0.00835298957795745090
+Name: price.from, dtype: float64
+*******************DISTANCE*******************
+Unnamed: 0       0.00000000000000000000
+price.from      -0.00000000000000030660
+Distance         1.00000000000000000000
+summary.score    0.00000000000000178498
+atmosphere      -0.00000000000000089042
+cleanliness      0.00000000000000333298
+facilities       0.00000000000000252166
+location.y      -0.00000000000000251469
+security        -0.00000000000000021173
+staff           -0.00000000000000480955
+valueformoney    0.00000000000000351037
+lon              0.00000000000005578646
+lat              0.00000000000000313639
+Name: Distance, dtype: float64
+*******************SUMMARY.SCORE*******************
+Unnamed: 0      -0.02985130001458412979
+price.from      -0.05104328591226791473
+Distance         0.00000000000000178498
+summary.score    1.00000000000000000000
+atmosphere       0.84418935359220104164
+cleanliness      0.84208952121710023420
+facilities       0.89527268911793667083
+location.y       0.63280102230177792677
+security         0.78610119127208732959
+staff            0.82936316293446288306
+valueformoney    0.86574997244867524238
+lon             -0.04909024248220880682
+lat             -0.03272850311800382800
+Name: summary.score, dtype: float64
+*******************ATMOSPHERE*******************
+Unnamed: 0      -0.01223745215023924054
+price.from      -0.12651942854442946307
+Distance        -0.00000000000000089042
+summary.score    0.84418935359220104164
+atmosphere       1.00000000000000000000
+cleanliness      0.63962413986210198136
+facilities       0.70458727856694858271
+location.y       0.47739369021122624037
+security         0.53901951773552336800
+staff            0.68075430205069076273
+valueformoney    0.73207839730696422365
+lon             -0.06376839264454933764
+lat             -0.04396493196755439647
+Name: atmosphere, dtype: float64
+*******************CLEANLINESS*******************
+Unnamed: 0      -0.00439347271256233015
+price.from       0.00012093652281880361
+Distance         0.00000000000000333298
+summary.score    0.84208952121710023420
+atmosphere       0.63962413986210198136
+cleanliness      1.00000000000000000000
+facilities       0.80298726799576281010
+location.y       0.41638382425687564536
+security         0.59314336015070201480
+staff            0.62858553153815344139
+valueformoney    0.68848868854239031467
+lon             -0.03863779978240586971
+lat             -0.02394328437733266382
+Name: cleanliness, dtype: float64
+*******************FACILITIES*******************
+Unnamed: 0      -0.01342100635959121886
+price.from       0.05492022545891714347
+Distance         0.00000000000000252166
+summary.score    0.89527268911793667083
+atmosphere       0.70458727856694858271
+cleanliness      0.80298726799576281010
+facilities       1.00000000000000000000
+location.y       0.48337597481997529592
+security         0.64435972946825836871
+staff            0.68971711354006226546
+valueformoney    0.75244923512469819027
+lon             -0.03723883463526554000
+lat             -0.02855331722490549173
+Name: facilities, dtype: float64
+*******************LOCATION.Y*******************
+Unnamed: 0      -0.05535810026652951410
+price.from      -0.01365063068002547210
+Distance        -0.00000000000000251469
+summary.score    0.63280102230177792677
+atmosphere       0.47739369021122624037
+cleanliness      0.41638382425687564536
+facilities       0.48337597481997529592
+location.y       1.00000000000000000000
+security         0.38123219514228551263
+staff            0.42376774300366792936
+valueformoney    0.46280081821208862713
+lon             -0.08844560194117995211
+lat             -0.03214390784099092208
+Name: location.y, dtype: float64
+*******************SECURITY*******************
+Unnamed: 0      -0.01803345989920592321
+price.from      -0.03104836211797801573
+Distance        -0.00000000000000021173
+summary.score    0.78610119127208732959
+atmosphere       0.53901951773552336800
+cleanliness      0.59314336015070201480
+facilities       0.64435972946825836871
+location.y       0.38123219514228551263
+security         1.00000000000000000000
+staff            0.69135076099875047984
+valueformoney    0.68047376624430488956
+lon              0.01912187607307368545
+lat             -0.00353790678879364754
+Name: security, dtype: float64
+*******************STAFF*******************
+Unnamed: 0       0.00545664349245100853
+price.from      -0.04520942697791077020
+Distance        -0.00000000000000480955
+summary.score    0.82936316293446288306
+atmosphere       0.68075430205069076273
+cleanliness      0.62858553153815344139
+facilities       0.68971711354006226546
+location.y       0.42376774300366792936
+security         0.69135076099875047984
+staff            1.00000000000000000000
+valueformoney    0.63373681536676174098
+lon             -0.01505592118976053009
+lat             -0.01216698078758495297
+Name: staff, dtype: float64
+*******************VALUEFORMONEY*******************
+Unnamed: 0      -0.07969122051505554694
+price.from      -0.13879230612995280270
+Distance         0.00000000000000351037
+summary.score    0.86574997244867524238
+atmosphere       0.73207839730696422365
+cleanliness      0.68848868854239031467
+facilities       0.75244923512469819027
+location.y       0.46280081821208862713
+security         0.68047376624430488956
+staff            0.63373681536676174098
+valueformoney    1.00000000000000000000
+lon             -0.05192165049260891868
+lat             -0.03331853892248575616
+Name: valueformoney, dtype: float64
+*******************LON*******************
+Unnamed: 0       0.05562738332366904542
+price.from       0.02584439968175308508
+Distance         0.00000000000005578646
+summary.score   -0.04909024248220880682
+atmosphere      -0.06376839264454933764
+cleanliness     -0.03863779978240586971
+facilities      -0.03723883463526554000
+location.y      -0.08844560194117995211
+security         0.01912187607307368545
+staff           -0.01505592118976053009
+valueformoney   -0.05192165049260891868
+lon              1.00000000000000000000
+lat              0.78140494710084662522
+Name: lon, dtype: float64
+*******************LAT*******************
+Unnamed: 0       0.08327748177341673386
+price.from       0.00835298957795745090
+Distance         0.00000000000000313639
+summary.score   -0.03272850311800382800
+atmosphere      -0.04396493196755439647
+cleanliness     -0.02394328437733266382
+facilities      -0.02855331722490549173
+location.y      -0.03214390784099092208
+security        -0.00353790678879364754
+staff           -0.01216698078758495297
+valueformoney   -0.03331853892248575616
+lon              0.78140494710084662522
+lat              1.00000000000000000000
+Name: lat, dtype: float64
+[ 6.2509146   8.84519537  8.60657398  8.92400083  9.06547641  8.32511703
+  9.77477115  9.98567494  9.96376987  8.61095589  8.72849157  6.82474971
+  5.86920009  8.60657398  8.80873275  8.91540743  9.11187588  8.75751989
+  8.81104286  9.94911329  5.73030781  9.39676218  9.35240987  9.66293845
+  9.28349241  4.14694357  9.8786151   9.19808963  9.65847704  8.8907538
+  8.18047338  7.27249532  9.83694109  6.26767285  9.14571685  8.58335574
+  9.95271582  5.8724781   3.79485175  7.64057783  9.50524106  9.26632716
+  9.20882163  9.36459276  9.32740399  8.84178077  9.38662174  8.27366581
+  9.5974512   8.45061967  8.61495866  9.1373901   9.46011965  9.48690742
+  6.54999399  8.60657398 10.1425242   9.00817562  8.1467406   9.02557823
+  9.1586551   9.65785148  8.47632846  9.40939589  6.78739235  9.04161009
+  9.2436733   8.81011957  8.60657398]
+Coefficients: 
+ [ 6.00200059 -0.78576904 -0.88015763 -0.82162545 -0.85120962 -0.82523234
+ -0.85684935]
+Intercept: 
+ 0.23368534812651554
+Mean squared error: 0.04/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:80: UserWarning: Attempting to set identical left == right == 2.9 results in singular transformations; automatically expanding.
+  ax.set_xlim(boundaries_list[j])
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:81: UserWarning: Attempting to set identical bottom == top == 2.9 results in singular transformations; automatically expanding.
+  ax.set_ylim(boundaries_list[i])
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:71: UserWarning: Attempting to set identical left == right == 2.9 results in singular transformations; automatically expanding.
+  ax.set_xlim(boundaries_list[i])
+
+Variance score: 0.98
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[ 6.2509146   8.84519537  8.60657398  8.92400083  9.06547641  8.32511703
+  9.77477115  9.98567494  9.96376987  8.61095589  8.72849157  6.82474971
+  5.86920009  8.60657398  8.80873275  8.91540743  9.11187588  8.75751989
+  8.81104286  9.94911329  5.73030781  9.39676218  9.35240987  9.66293845
+  9.28349241  4.14694357  9.8786151   9.19808963  9.65847704  8.8907538
+  8.18047338  7.27249532  9.83694109  6.26767285  9.14571685  8.58335574
+  9.95271582  5.8724781   3.79485175  7.64057783  9.50524106  9.26632716
+  9.20882163  9.36459276  9.32740399  8.84178077  9.38662174  8.27366581
+  9.5974512   8.45061967  8.61495866  9.1373901   9.46011965  9.48690742
+  6.54999399  8.60657398 10.1425242   9.00817562  8.1467406   9.02557823
+  9.1586551   9.65785148  8.47632846  9.40939589  6.78739235  9.04161009
+  9.2436733   8.81011957  8.60657398]
+Coefficients: 
+ [0.20345011 0.11121419 0.10514909 0.12420801 0.02982116 0.12410911
+ 0.06928152]
+Intercept: 
+ 2.100533996825864
+Mean squared error: 0.33
+Variance score: 0.61
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[7.5435382  8.96836518 8.43405506 8.96836518 9.05741687 9.05741687
+ 9.05741687 8.8793135  9.14646855 8.70121012 9.41362361 9.94793373
+ 8.16690001 8.96836518 9.32457193 8.96836518 9.85888204 9.05741687
+ 9.23552024 9.23552024 8.96836518 8.8793135  9.14646855 9.5026753
+ 7.89974495 9.05741687 3.80336738 9.41362361 9.14646855 9.23552024
+ 7.72164158 8.43405506 9.05741687 9.94793373 9.32457193 8.8793135
+ 9.41362361 9.5026753  9.85888204 9.32457193 8.79026181 8.96836518
+ 9.41362361 8.70121012 9.59172698 8.79026181 8.16690001 9.05741687
+ 8.61215844 7.63258989 9.32457193 9.05741687 9.5026753  8.96836518
+ 9.59172698 9.41362361 8.43405506 9.32457193 7.81069326 9.68077867
+ 9.05741687 7.36543483 8.79026181 9.94793373 9.05741687 9.5026753
+ 8.79026181 7.63258989 9.23552024]
+Coefficients: 
+ [0.89051686 0.         0.         0.         0.         0.
+ 0.        ]
+Intercept: 
+ 1.0427651142910088
+Mean squared error: 0.37
+Variance score: 0.69
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[8.31432032 8.49490681 8.65681166 8.8916656  8.96866781 9.02214621
+ 8.86818964 8.89587374 9.07459844 8.73315277 9.03561599 9.34760765
+ 8.42145329 8.85310328 9.02804972 8.88132273 9.34500468 8.96866781
+ 9.02826953 8.96746582 9.02260112 8.77895055 9.00182553 9.08856879
+ 7.83839683 8.86717489 6.77254884 9.18481766 8.84115524 8.9634068
+ 8.56984858 8.70571685 8.99220304 9.34760765 8.96705123 8.8459271
+ 9.22825897 9.12369675 9.34500468 8.98034098 8.82750795 8.74249064
+ 9.10047872 8.48709789 9.23966446 8.71910233 8.70280054 8.94390943
+ 8.64968921 8.60544453 9.03860099 8.96866781 9.10734912 8.79576064
+ 9.17357858 9.09440327 8.69648612 9.07017049 8.45986647 9.11083134
+ 8.89233645 8.67325801 8.7148349  9.34760765 8.96836203 9.1565601
+ 8.68400107 8.36384296 8.92453869]
+Coefficients: 
+ [0.02602974 0.14818691 0.01932121 0.13192358 0.         0.
+ 0.        ]
+Intercept: 
+ 6.09299324966376
+Mean squared error: 1.11
+Variance score: -0.30
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[REPAIR EXEC TIME]: 16.35678482055664['Hostel.csv']
+Traceback (most recent call last):
+  File "regression-mlr-lasso-ridge-and-elastic.py", line 27, in <module>
+    from pandas.tools.plotting import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.tools'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.plotting'), ('line_no', 27)])['Hostel.csv']
+Traceback (most recent call last):
+  File "regression-mlr-lasso-ridge-and-elastic.py", line 29, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.impute.SimpleImputer'), ('line_no', 29)])['Hostel.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 16 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    int64  
+ 1   hostel.name    342 non-null    object 
+ 2   City           342 non-null    object 
+ 3   price.from     342 non-null    int64  
+ 4   Distance       342 non-null    object 
+ 5   summary.score  327 non-null    float64
+ 6   rating.band    327 non-null    object 
+ 7   atmosphere     327 non-null    float64
+ 8   cleanliness    327 non-null    float64
+ 9   facilities     327 non-null    float64
+ 10  location.y     327 non-null    float64
+ 11  security       327 non-null    float64
+ 12  staff          327 non-null    float64
+ 13  valueformoney  327 non-null    float64
+ 14  lon            298 non-null    float64
+ 15  lat            298 non-null    float64
+dtypes: float64(10), int64(2), object(4)
+memory usage: 42.9+ KB
+None
+Index(['Unnamed: 0', 'hostel.name', 'City', 'price.from', 'Distance',
+       'summary.score', 'rating.band', 'atmosphere', 'cleanliness',
+       'facilities', 'location.y', 'security', 'staff', 'valueformoney', 'lon',
+       'lat'],
+      dtype='object')
+(342, 16)
+Tokyo           127
+Osaka           104
+Kyoto            78
+Fukuoka-City     19
+Hiroshima        14
+Name: City, dtype: int64 Superb       182
+Fabulous     106
+Very Good     20
+Good          11
+Rating         8
+Name: rating.band, dtype: int64
+Superb       182
+Fabulous     106
+Very Good     20
+Unknown       15
+Good          11
+Rating         8
+Name: rating.band, dtype: int64
+0      3
+1      3
+2      0
+3      5
+4      3
+      ..
+337    0
+338    0
+339    3
+340    0
+341    0
+Name: rating.band, Length: 342, dtype: int64
+Tokyo           127
+Osaka           104
+Kyoto            78
+Fukuoka-City     19
+Hiroshima        14
+Name: City, dtype: int64
+0      3
+1      0
+2      4
+3      4
+4      4
+      ..
+337    4
+338    4
+339    4
+340    2
+341    4
+Name: City, Length: 342, dtype: int64
+3    182
+0    106
+5     20
+4     15
+1     11
+2      8
+Name: rating.band, dtype: int64
+0        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+1        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+2        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+3        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+4        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+                             ...                        
+337      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+338      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+339      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+340      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+341      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+Name: rating.band, Length: 342, dtype: object
+4    127
+3    104
+2     78
+0     19
+1     14
+Name: City, dtype: int64
+0        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+1        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+2        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+3        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+4        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+                             ...                        
+337      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+338      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+339      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+340      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+341      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+Name: City, Length: 342, dtype: object
+0       2.9km from city centre
+1       0.7km from city centre
+2       7.8km from city centre
+3       8.7km from city centre
+4      10.5km from city centre
+                ...           
+337     2.6km from city centre
+338     2.9km from city centre
+339    17.5km from city centre
+340     2.4km from city centre
+341     5.9km from city centre
+Name: Distance, Length: 342, dtype: object
+0      2.9
+1      2.9
+2      2.9
+3      2.9
+4      2.9
+      ... 
+337    2.9
+338    2.9
+339    2.9
+340    2.9
+341    2.9
+Name: Distance, Length: 342, dtype: object
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    int64  
+ 1   price.from     342 non-null    int64  
+ 2   Distance       342 non-null    object 
+ 3   summary.score  327 non-null    float64
+ 4   atmosphere     327 non-null    float64
+ 5   cleanliness    327 non-null    float64
+ 6   facilities     327 non-null    float64
+ 7   location.y     327 non-null    float64
+ 8   security       327 non-null    float64
+ 9   staff          327 non-null    float64
+ 10  valueformoney  327 non-null    float64
+ 11  lon            298 non-null    float64
+ 12  lat            298 non-null    float64
+dtypes: float64(10), int64(2), object(1)
+memory usage: 34.9+ KB
+None
+[ 171.5       2500.           2.9          9.           8.6
+    9.3          9.           9.           9.2          9.4
+    9.         135.761617    34.9984705]
+[ 171.5       2500.           2.9          9.           8.6
+    9.3          9.           9.           9.2          9.4
+    9.         135.761617    34.9984705]
+     Unnamed: 0  price.from  Distance  ...  valueformoney         lon        lat
+0           1.0      3300.0       2.9  ...            9.4  135.513767  34.682678
+1           2.0      2600.0       2.9  ...            9.5  135.761617  34.998471
+2           3.0      3600.0       2.9  ...            9.0  139.777472  35.697447
+3           4.0      2600.0       2.9  ...            6.5  139.783667  35.712716
+4           5.0      1500.0       2.9  ...            9.5  139.798371  35.727898
+..          ...         ...       ...  ...            ...         ...        ...
+337       338.0      2300.0       2.9  ...            8.3  139.668125  35.702908
+338       339.0      2000.0       2.9  ...            9.4  139.667695  35.706513
+339       340.0      2500.0       2.9  ...            9.6  139.869197  35.752885
+340       341.0      2800.0       2.9  ...            7.3  135.749063  34.997376
+341       342.0      2900.0       2.9  ...            8.5  139.742116  35.655470
+
+[342 rows x 13 columns]
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    float64
+ 1   price.from     342 non-null    float64
+ 2   Distance       342 non-null    float64
+ 3   summary.score  342 non-null    float64
+ 4   atmosphere     342 non-null    float64
+ 5   cleanliness    342 non-null    float64
+ 6   facilities     342 non-null    float64
+ 7   location.y     342 non-null    float64
+ 8   security       342 non-null    float64
+ 9   staff          342 non-null    float64
+ 10  valueformoney  342 non-null    float64
+ 11  lon            342 non-null    float64
+ 12  lat            342 non-null    float64
+dtypes: float64(13)
+memory usage: 34.9 KB
+None
+               Unnamed: 0    price.from  ...           lon           lat
+Unnamed: 0       1.000000  1.031741e-01  ...  5.562738e-02  8.327748e-02
+price.from       0.103174  1.000000e+00  ...  2.584440e-02  8.352990e-03
+Distance         0.000000 -3.066035e-16  ...  5.578646e-14  3.136387e-15
+summary.score   -0.029851 -5.104329e-02  ... -4.909024e-02 -3.272850e-02
+atmosphere      -0.012237 -1.265194e-01  ... -6.376839e-02 -4.396493e-02
+cleanliness     -0.004393  1.209365e-04  ... -3.863780e-02 -2.394328e-02
+facilities      -0.013421  5.492023e-02  ... -3.723883e-02 -2.855332e-02
+location.y      -0.055358 -1.365063e-02  ... -8.844560e-02 -3.214391e-02
+security        -0.018033 -3.104836e-02  ...  1.912188e-02 -3.537907e-03
+staff            0.005457 -4.520943e-02  ... -1.505592e-02 -1.216698e-02
+valueformoney   -0.079691 -1.387923e-01  ... -5.192165e-02 -3.331854e-02
+lon              0.055627  2.584440e-02  ...  1.000000e+00  7.814049e-01
+lat              0.083277  8.352990e-03  ...  7.814049e-01  1.000000e+00
+
+[13 rows x 13 columns]
+*******************UNNAMED: 0*******************
+Unnamed: 0       1.00000000000000000000
+price.from       0.10317408610121550638
+Distance         0.00000000000000000000
+summary.score   -0.02985130001458412979
+atmosphere      -0.01223745215023924054
+cleanliness     -0.00439347271256233015
+facilities      -0.01342100635959121886
+location.y      -0.05535810026652951410
+security        -0.01803345989920592321
+staff            0.00545664349245100853
+valueformoney   -0.07969122051505554694
+lon              0.05562738332366904542
+lat              0.08327748177341673386
+Name: Unnamed: 0, dtype: float64
+*******************PRICE.FROM*******************
+Unnamed: 0       0.10317408610121550638
+price.from       1.00000000000000000000
+Distance        -0.00000000000000030660
+summary.score   -0.05104328591226791473
+atmosphere      -0.12651942854442946307
+cleanliness      0.00012093652281880361
+facilities       0.05492022545891714347
+location.y      -0.01365063068002547210
+security        -0.03104836211797801573
+staff           -0.04520942697791077020
+valueformoney   -0.13879230612995280270
+lon              0.02584439968175308508
+lat              0.00835298957795745090
+Name: price.from, dtype: float64
+*******************DISTANCE*******************
+Unnamed: 0       0.00000000000000000000
+price.from      -0.00000000000000030660
+Distance         1.00000000000000000000
+summary.score    0.00000000000000178498
+atmosphere      -0.00000000000000089042
+cleanliness      0.00000000000000333298
+facilities       0.00000000000000252166
+location.y      -0.00000000000000251469
+security        -0.00000000000000021173
+staff           -0.00000000000000480955
+valueformoney    0.00000000000000351037
+lon              0.00000000000005578646
+lat              0.00000000000000313639
+Name: Distance, dtype: float64
+*******************SUMMARY.SCORE*******************
+Unnamed: 0      -0.02985130001458412979
+price.from      -0.05104328591226791473
+Distance         0.00000000000000178498
+summary.score    1.00000000000000000000
+atmosphere       0.84418935359220104164
+cleanliness      0.84208952121710023420
+facilities       0.89527268911793667083
+location.y       0.63280102230177792677
+security         0.78610119127208732959
+staff            0.82936316293446288306
+valueformoney    0.86574997244867524238
+lon             -0.04909024248220880682
+lat             -0.03272850311800382800
+Name: summary.score, dtype: float64
+*******************ATMOSPHERE*******************
+Unnamed: 0      -0.01223745215023924054
+price.from      -0.12651942854442946307
+Distance        -0.00000000000000089042
+summary.score    0.84418935359220104164
+atmosphere       1.00000000000000000000
+cleanliness      0.63962413986210198136
+facilities       0.70458727856694858271
+location.y       0.47739369021122624037
+security         0.53901951773552336800
+staff            0.68075430205069076273
+valueformoney    0.73207839730696422365
+lon             -0.06376839264454933764
+lat             -0.04396493196755439647
+Name: atmosphere, dtype: float64
+*******************CLEANLINESS*******************
+Unnamed: 0      -0.00439347271256233015
+price.from       0.00012093652281880361
+Distance         0.00000000000000333298
+summary.score    0.84208952121710023420
+atmosphere       0.63962413986210198136
+cleanliness      1.00000000000000000000
+facilities       0.80298726799576281010
+location.y       0.41638382425687564536
+security         0.59314336015070201480
+staff            0.62858553153815344139
+valueformoney    0.68848868854239031467
+lon             -0.03863779978240586971
+lat             -0.02394328437733266382
+Name: cleanliness, dtype: float64
+*******************FACILITIES*******************
+Unnamed: 0      -0.01342100635959121886
+price.from       0.05492022545891714347
+Distance         0.00000000000000252166
+summary.score    0.89527268911793667083
+atmosphere       0.70458727856694858271
+cleanliness      0.80298726799576281010
+facilities       1.00000000000000000000
+location.y       0.48337597481997529592
+security         0.64435972946825836871
+staff            0.68971711354006226546
+valueformoney    0.75244923512469819027
+lon             -0.03723883463526554000
+lat             -0.02855331722490549173
+Name: facilities, dtype: float64
+*******************LOCATION.Y*******************
+Unnamed: 0      -0.05535810026652951410
+price.from      -0.01365063068002547210
+Distance        -0.00000000000000251469
+summary.score    0.63280102230177792677
+atmosphere       0.47739369021122624037
+cleanliness      0.41638382425687564536
+facilities       0.48337597481997529592
+location.y       1.00000000000000000000
+security         0.38123219514228551263
+staff            0.42376774300366792936
+valueformoney    0.46280081821208862713
+lon             -0.08844560194117995211
+lat             -0.03214390784099092208
+Name: location.y, dtype: float64
+*******************SECURITY*******************
+Unnamed: 0      -0.01803345989920592321
+price.from      -0.03104836211797801573
+Distance        -0.00000000000000021173
+summary.score    0.78610119127208732959
+atmosphere       0.53901951773552336800
+cleanliness      0.59314336015070201480
+facilities       0.64435972946825836871
+location.y       0.38123219514228551263
+security         1.00000000000000000000
+staff            0.69135076099875047984
+valueformoney    0.68047376624430488956
+lon              0.01912187607307368545
+lat             -0.00353790678879364754
+Name: security, dtype: float64
+*******************STAFF*******************
+Unnamed: 0       0.00545664349245100853
+price.from      -0.04520942697791077020
+Distance        -0.00000000000000480955
+summary.score    0.82936316293446288306
+atmosphere       0.68075430205069076273
+cleanliness      0.62858553153815344139
+facilities       0.68971711354006226546
+location.y       0.42376774300366792936
+security         0.69135076099875047984
+staff            1.00000000000000000000
+valueformoney    0.63373681536676174098
+lon             -0.01505592118976053009
+lat             -0.01216698078758495297
+Name: staff, dtype: float64
+*******************VALUEFORMONEY*******************
+Unnamed: 0      -0.07969122051505554694
+price.from      -0.13879230612995280270
+Distance         0.00000000000000351037
+summary.score    0.86574997244867524238
+atmosphere       0.73207839730696422365
+cleanliness      0.68848868854239031467
+facilities       0.75244923512469819027
+location.y       0.46280081821208862713
+security         0.68047376624430488956
+staff            0.63373681536676174098
+valueformoney    1.00000000000000000000
+lon             -0.05192165049260891868
+lat             -0.03331853892248575616
+Name: valueformoney, dtype: float64
+*******************LON*******************
+Unnamed: 0       0.05562738332366904542
+price.from       0.02584439968175308508
+Distance         0.00000000000005578646
+summary.score   -0.04909024248220880682
+atmosphere      -0.06376839264454933764
+cleanliness     -0.03863779978240586971
+facilities      -0.03723883463526554000
+location.y      -0.08844560194117995211
+security         0.01912187607307368545
+staff           -0.01505592118976053009
+valueformoney   -0.05192165049260891868
+lon              1.00000000000000000000
+lat              0.78140494710084662522
+Name: lon, dtype: float64
+*******************LAT*******************
+Unnamed: 0       0.08327748177341673386
+price.from       0.00835298957795745090
+Distance         0.00000000000000313639
+summary.score   -0.03272850311800382800
+atmosphere      -0.04396493196755439647
+cleanliness     -0.02394328437733266382
+facilities      -0.02855331722490549173
+location.y      -0.03214390784099092208
+security        -0.00353790678879364754
+staff           -0.01216698078758495297
+valueformoney   -0.03331853892248575616
+lon              0.78140494710084662522
+lat              1.00000000000000000000
+Name: lat, dtype: float64
+[ 9.57555019  6.91666171  9.12121356  9.11318536  9.35415679  6.68207837
+  9.97651206  9.36852771  9.09269846  9.05687948  9.26219685  8.48194566
+  9.24973875  8.18164334  8.9071003   9.29147257  8.91877694  9.37197593
+  9.30723006  8.33144265  9.56687208  8.82955875  9.26810062  8.24596086
+  9.24358815  9.23682497  8.41677918  9.08262584  9.4973765   9.7127355
+  8.60844342  7.68009465  8.83373876  8.9135879   8.89647126  6.27223039
+  8.61853648  9.37362423  8.69313042  8.18181216  6.59578868  9.03967433
+  8.12798162  8.29178645  8.33544634  9.65367742  8.66911285  9.97217737
+  9.05861873  7.37885108  8.61853648 10.11459147  9.50946926  9.42009074
+  9.54375719  8.81969953  9.64910706  8.46041824 10.04688833  9.59641439
+  5.81026129  5.90780224  6.75872408  8.78848098  6.63108889  9.5965412
+  8.75886347  9.79767383  9.57413948]
+Coefficients: 
+ [ 5.91639181 -0.77793282 -0.86316352 -0.79873464 -0.83790006 -0.79762515
+ -0.8666412 ]
+Intercept: 
+ 0.30294416545699576
+Mean squared error: 0.04
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:80: UserWarning: Attempting to set identical left == right == 2.9 results in singular transformations; automatically expanding.
+  ax.set_xlim(boundaries_list[j])
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:81: UserWarning: Attempting to set identical bottom == top == 2.9 results in singular transformations; automatically expanding.
+  ax.set_ylim(boundaries_list[i])
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:71: UserWarning: Attempting to set identical left == right == 2.9 results in singular transformations; automatically expanding.
+  ax.set_xlim(boundaries_list[i])
+Variance score: 0.96
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[ 9.57555019  6.91666171  9.12121356  9.11318536  9.35415679  6.68207837
+  9.97651206  9.36852771  9.09269846  9.05687948  9.26219685  8.48194566
+  9.24973875  8.18164334  8.9071003   9.29147257  8.91877694  9.37197593
+  9.30723006  8.33144265  9.56687208  8.82955875  9.26810062  8.24596086
+  9.24358815  9.23682497  8.41677918  9.08262584  9.4973765   9.7127355
+  8.60844342  7.68009465  8.83373876  8.9135879   8.89647126  6.27223039
+  8.61853648  9.37362423  8.69313042  8.18181216  6.59578868  9.03967433
+  8.12798162  8.29178645  8.33544634  9.65367742  8.66911285  9.97217737
+  9.05861873  7.37885108  8.61853648 10.11459147  9.50946926  9.42009074
+  9.54375719  8.81969953  9.64910706  8.46041824 10.04688833  9.59641439
+  5.81026129  5.90780224  6.75872408  8.78848098  6.63108889  9.5965412
+  8.75886347  9.79767383  9.57413948]
+Coefficients: 
+ [0.19941331 0.10539824 0.08882218 0.13499544 0.04703537 0.12299608
+ 0.04986148]
+Intercept: 
+ 2.27651133206201
+Mean squared error: 0.25
+Variance score: 0.64
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+Traceback (most recent call last):
+  File "regression-mlr-lasso-ridge-and-elastic.py", line 217, in <module>
+    Lasso_regr = linear_model.Lars(fit_intercept=True, fit_path=True, n_nonzero_coefs=1, normalize=True, positive=False, precompute='auto', verbose=False) 
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'positive'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.Lars'), ('action', 'arg_delete'), ('from_name', 'positive'), ('to_name', '*')])['Hostel.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 16 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    int64  
+ 1   hostel.name    342 non-null    object 
+ 2   City           342 non-null    object 
+ 3   price.from     342 non-null    int64  
+ 4   Distance       342 non-null    object 
+ 5   summary.score  327 non-null    float64
+ 6   rating.band    327 non-null    object 
+ 7   atmosphere     327 non-null    float64
+ 8   cleanliness    327 non-null    float64
+ 9   facilities     327 non-null    float64
+ 10  location.y     327 non-null    float64
+ 11  security       327 non-null    float64
+ 12  staff          327 non-null    float64
+ 13  valueformoney  327 non-null    float64
+ 14  lon            298 non-null    float64
+ 15  lat            298 non-null    float64
+dtypes: float64(10), int64(2), object(4)
+memory usage: 42.9+ KB
+None
+Index(['Unnamed: 0', 'hostel.name', 'City', 'price.from', 'Distance',
+       'summary.score', 'rating.band', 'atmosphere', 'cleanliness',
+       'facilities', 'location.y', 'security', 'staff', 'valueformoney', 'lon',
+       'lat'],
+      dtype='object')
+(342, 16)
+Tokyo           127
+Osaka           104
+Kyoto            78
+Fukuoka-City     19
+Hiroshima        14
+Name: City, dtype: int64 Superb       182
+Fabulous     106
+Very Good     20
+Good          11
+Rating         8
+Name: rating.band, dtype: int64
+Superb       182
+Fabulous     106
+Very Good     20
+Unknown       15
+Good          11
+Rating         8
+Name: rating.band, dtype: int64
+0      3
+1      3
+2      0
+3      5
+4      3
+      ..
+337    0
+338    0
+339    3
+340    0
+341    0
+Name: rating.band, Length: 342, dtype: int64
+Tokyo           127
+Osaka           104
+Kyoto            78
+Fukuoka-City     19
+Hiroshima        14
+Name: City, dtype: int64
+0      3
+1      0
+2      4
+3      4
+4      4
+      ..
+337    4
+338    4
+339    4
+340    2
+341    4
+Name: City, Length: 342, dtype: int64
+3    182
+0    106
+5     20
+4     15
+1     11
+2      8
+Name: rating.band, dtype: int64
+0        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+1        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+2        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+3        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+4        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+                             ...                        
+337      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+338      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+339      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+340      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+341      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+Name: rating.band, Length: 342, dtype: object
+4    127
+3    104
+2     78
+0     19
+1     14
+Name: City, dtype: int64
+0        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+1        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+2        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+3        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+4        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+                             ...                        
+337      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+338      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+339      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+340      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+341      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+Name: City, Length: 342, dtype: object
+0       2.9km from city centre
+1       0.7km from city centre
+2       7.8km from city centre
+3       8.7km from city centre
+4      10.5km from city centre
+                ...           
+337     2.6km from city centre
+338     2.9km from city centre
+339    17.5km from city centre
+340     2.4km from city centre
+341     5.9km from city centre
+Name: Distance, Length: 342, dtype: object
+0      2.9
+1      2.9
+2      2.9
+3      2.9
+4      2.9
+      ... 
+337    2.9
+338    2.9
+339    2.9
+340    2.9
+341    2.9
+Name: Distance, Length: 342, dtype: object
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    int64  
+ 1   price.from     342 non-null    int64  
+ 2   Distance       342 non-null    object 
+ 3   summary.score  327 non-null    float64
+ 4   atmosphere     327 non-null    float64
+ 5   cleanliness    327 non-null    float64
+ 6   facilities     327 non-null    float64
+ 7   location.y     327 non-null    float64
+ 8   security       327 non-null    float64
+ 9   staff          327 non-null    float64
+ 10  valueformoney  327 non-null    float64
+ 11  lon            298 non-null    float64
+ 12  lat            298 non-null    float64
+dtypes: float64(10), int64(2), object(1)
+memory usage: 34.9+ KB
+None
+[ 171.5       2500.           2.9          9.           8.6
+    9.3          9.           9.           9.2          9.4
+    9.         135.761617    34.9984705]
+[ 171.5       2500.           2.9          9.           8.6
+    9.3          9.           9.           9.2          9.4
+    9.         135.761617    34.9984705]
+     Unnamed: 0  price.from  Distance  ...  valueformoney         lon        lat
+0           1.0      3300.0       2.9  ...            9.4  135.513767  34.682678
+1           2.0      2600.0       2.9  ...            9.5  135.761617  34.998471
+2           3.0      3600.0       2.9  ...            9.0  139.777472  35.697447
+3           4.0      2600.0       2.9  ...            6.5  139.783667  35.712716
+4           5.0      1500.0       2.9  ...            9.5  139.798371  35.727898
+..          ...         ...       ...  ...            ...         ...        ...
+337       338.0      2300.0       2.9  ...            8.3  139.668125  35.702908
+338       339.0      2000.0       2.9  ...            9.4  139.667695  35.706513
+339       340.0      2500.0       2.9  ...            9.6  139.869197  35.752885
+340       341.0      2800.0       2.9  ...            7.3  135.749063  34.997376
+341       342.0      2900.0       2.9  ...            8.5  139.742116  35.655470
+
+[342 rows x 13 columns]
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    float64
+ 1   price.from     342 non-null    float64
+ 2   Distance       342 non-null    float64
+ 3   summary.score  342 non-null    float64
+ 4   atmosphere     342 non-null    float64
+ 5   cleanliness    342 non-null    float64
+ 6   facilities     342 non-null    float64
+ 7   location.y     342 non-null    float64
+ 8   security       342 non-null    float64
+ 9   staff          342 non-null    float64
+ 10  valueformoney  342 non-null    float64
+ 11  lon            342 non-null    float64
+ 12  lat            342 non-null    float64
+dtypes: float64(13)
+memory usage: 34.9 KB
+None
+               Unnamed: 0    price.from  ...           lon           lat
+Unnamed: 0       1.000000  1.031741e-01  ...  5.562738e-02  8.327748e-02
+price.from       0.103174  1.000000e+00  ...  2.584440e-02  8.352990e-03
+Distance         0.000000 -3.066035e-16  ...  5.578646e-14  3.136387e-15
+summary.score   -0.029851 -5.104329e-02  ... -4.909024e-02 -3.272850e-02
+atmosphere      -0.012237 -1.265194e-01  ... -6.376839e-02 -4.396493e-02
+cleanliness     -0.004393  1.209365e-04  ... -3.863780e-02 -2.394328e-02
+facilities      -0.013421  5.492023e-02  ... -3.723883e-02 -2.855332e-02
+location.y      -0.055358 -1.365063e-02  ... -8.844560e-02 -3.214391e-02
+security        -0.018033 -3.104836e-02  ...  1.912188e-02 -3.537907e-03
+staff            0.005457 -4.520943e-02  ... -1.505592e-02 -1.216698e-02
+valueformoney   -0.079691 -1.387923e-01  ... -5.192165e-02 -3.331854e-02
+lon              0.055627  2.584440e-02  ...  1.000000e+00  7.814049e-01
+lat              0.083277  8.352990e-03  ...  7.814049e-01  1.000000e+00
+
+[13 rows x 13 columns]
+*******************UNNAMED: 0*******************
+Unnamed: 0       1.00000000000000000000
+price.from       0.10317408610121550638
+Distance         0.00000000000000000000
+summary.score   -0.02985130001458412979
+atmosphere      -0.01223745215023924054
+cleanliness     -0.00439347271256233015
+facilities      -0.01342100635959121886
+location.y      -0.05535810026652951410
+security        -0.01803345989920592321
+staff            0.00545664349245100853
+valueformoney   -0.07969122051505554694
+lon              0.05562738332366904542
+lat              0.08327748177341673386
+Name: Unnamed: 0, dtype: float64
+*******************PRICE.FROM*******************
+Unnamed: 0       0.10317408610121550638
+price.from       1.00000000000000000000
+Distance        -0.00000000000000030660
+summary.score   -0.05104328591226791473
+atmosphere      -0.12651942854442946307
+cleanliness      0.00012093652281880361
+facilities       0.05492022545891714347
+location.y      -0.01365063068002547210
+security        -0.03104836211797801573
+staff           -0.04520942697791077020
+valueformoney   -0.13879230612995280270
+lon              0.02584439968175308508
+lat              0.00835298957795745090
+Name: price.from, dtype: float64
+*******************DISTANCE*******************
+Unnamed: 0       0.00000000000000000000
+price.from      -0.00000000000000030660
+Distance         1.00000000000000000000
+summary.score    0.00000000000000178498
+atmosphere      -0.00000000000000089042
+cleanliness      0.00000000000000333298
+facilities       0.00000000000000252166
+location.y      -0.00000000000000251469
+security        -0.00000000000000021173
+staff           -0.00000000000000480955
+valueformoney    0.00000000000000351037
+lon              0.00000000000005578646
+lat              0.00000000000000313639
+Name: Distance, dtype: float64
+*******************SUMMARY.SCORE*******************
+Unnamed: 0      -0.02985130001458412979
+price.from      -0.05104328591226791473
+Distance         0.00000000000000178498
+summary.score    1.00000000000000000000
+atmosphere       0.84418935359220104164
+cleanliness      0.84208952121710023420
+facilities       0.89527268911793667083
+location.y       0.63280102230177792677
+security         0.78610119127208732959
+staff            0.82936316293446288306
+valueformoney    0.86574997244867524238
+lon             -0.04909024248220880682
+lat             -0.03272850311800382800
+Name: summary.score, dtype: float64
+*******************ATMOSPHERE*******************
+Unnamed: 0      -0.01223745215023924054
+price.from      -0.12651942854442946307
+Distance        -0.00000000000000089042
+summary.score    0.84418935359220104164
+atmosphere       1.00000000000000000000
+cleanliness      0.63962413986210198136
+facilities       0.70458727856694858271
+location.y       0.47739369021122624037
+security         0.53901951773552336800
+staff            0.68075430205069076273
+valueformoney    0.73207839730696422365
+lon             -0.06376839264454933764
+lat             -0.04396493196755439647
+Name: atmosphere, dtype: float64
+*******************CLEANLINESS*******************
+Unnamed: 0      -0.00439347271256233015
+price.from       0.00012093652281880361
+Distance         0.00000000000000333298
+summary.score    0.84208952121710023420
+atmosphere       0.63962413986210198136
+cleanliness      1.00000000000000000000
+facilities       0.80298726799576281010
+location.y       0.41638382425687564536
+security         0.59314336015070201480
+staff            0.62858553153815344139
+valueformoney    0.68848868854239031467
+lon             -0.03863779978240586971
+lat             -0.02394328437733266382
+Name: cleanliness, dtype: float64
+*******************FACILITIES*******************
+Unnamed: 0      -0.01342100635959121886
+price.from       0.05492022545891714347
+Distance         0.00000000000000252166
+summary.score    0.89527268911793667083
+atmosphere       0.70458727856694858271
+cleanliness      0.80298726799576281010
+facilities       1.00000000000000000000
+location.y       0.48337597481997529592
+security         0.64435972946825836871
+staff            0.68971711354006226546
+valueformoney    0.75244923512469819027
+lon             -0.03723883463526554000
+lat             -0.02855331722490549173
+Name: facilities, dtype: float64
+*******************LOCATION.Y*******************
+Unnamed: 0      -0.05535810026652951410
+price.from      -0.01365063068002547210
+Distance        -0.00000000000000251469
+summary.score    0.63280102230177792677
+atmosphere       0.47739369021122624037
+cleanliness      0.41638382425687564536
+facilities       0.48337597481997529592
+location.y       1.00000000000000000000
+security         0.38123219514228551263
+staff            0.42376774300366792936
+valueformoney    0.46280081821208862713
+lon             -0.08844560194117995211
+lat             -0.03214390784099092208
+Name: location.y, dtype: float64
+*******************SECURITY*******************
+Unnamed: 0      -0.01803345989920592321
+price.from      -0.03104836211797801573
+Distance        -0.00000000000000021173
+summary.score    0.78610119127208732959
+atmosphere       0.53901951773552336800
+cleanliness      0.59314336015070201480
+facilities       0.64435972946825836871
+location.y       0.38123219514228551263
+security         1.00000000000000000000
+staff            0.69135076099875047984
+valueformoney    0.68047376624430488956
+lon              0.01912187607307368545
+lat             -0.00353790678879364754
+Name: security, dtype: float64
+*******************STAFF*******************
+Unnamed: 0       0.00545664349245100853
+price.from      -0.04520942697791077020
+Distance        -0.00000000000000480955
+summary.score    0.82936316293446288306
+atmosphere       0.68075430205069076273
+cleanliness      0.62858553153815344139
+facilities       0.68971711354006226546
+location.y       0.42376774300366792936
+security         0.69135076099875047984
+staff            1.00000000000000000000
+valueformoney    0.63373681536676174098
+lon             -0.01505592118976053009
+lat             -0.01216698078758495297
+Name: staff, dtype: float64
+*******************VALUEFORMONEY*******************
+Unnamed: 0      -0.07969122051505554694
+price.from      -0.13879230612995280270
+Distance         0.00000000000000351037
+summary.score    0.86574997244867524238
+atmosphere       0.73207839730696422365
+cleanliness      0.68848868854239031467
+facilities       0.75244923512469819027
+location.y       0.46280081821208862713
+security         0.68047376624430488956
+staff            0.63373681536676174098
+valueformoney    1.00000000000000000000
+lon             -0.05192165049260891868
+lat             -0.03331853892248575616
+Name: valueformoney, dtype: float64
+*******************LON*******************
+Unnamed: 0       0.05562738332366904542
+price.from       0.02584439968175308508
+Distance         0.00000000000005578646
+summary.score   -0.04909024248220880682
+atmosphere      -0.06376839264454933764
+cleanliness     -0.03863779978240586971
+facilities      -0.03723883463526554000
+location.y      -0.08844560194117995211
+security         0.01912187607307368545
+staff           -0.01505592118976053009
+valueformoney   -0.05192165049260891868
+lon              1.00000000000000000000
+lat              0.78140494710084662522
+Name: lon, dtype: float64
+*******************LAT*******************
+Unnamed: 0       0.08327748177341673386
+price.from       0.00835298957795745090
+Distance         0.00000000000000313639
+summary.score   -0.03272850311800382800
+atmosphere      -0.04396493196755439647
+cleanliness     -0.02394328437733266382
+facilities      -0.02855331722490549173
+location.y      -0.03214390784099092208
+security        -0.00353790678879364754
+staff           -0.01216698078758495297
+valueformoney   -0.03331853892248575616
+lon              0.78140494710084662522
+lat              1.00000000000000000000
+Name: lat, dtype: float64
+[10.13328918  9.03878883  9.05963283  8.6421792   9.20439458  8.91494011
+  8.70634849  9.68577819  8.75576288  9.65091636  9.70134796  9.0053643
+  9.78255754  9.389985    9.57388193  9.13490714  9.16890584  8.59564847
+  9.18696634  9.06110192  9.13533723  8.62354083  9.09107975 10.04294578
+  9.82781073  8.6184494   9.82199302  8.81894364  9.61341481  8.6184494
+  9.72411998  8.90918843  8.95723304  8.33502691  8.33939563  9.48120068
+  8.60079425  8.41265784  9.47002675  8.26343189  9.14173459  8.44249084
+  3.91984375  6.71382126  9.36192353  9.63624844  9.00767554  8.4813605
+  9.93725316  9.30202102  9.24609461  4.43513541  8.6071751   7.64556503
+  9.23481532  4.15757466 10.34330727  8.67465077  8.65308072  8.33704465
+  8.89846108  8.67267375  9.56479894  9.15037242  8.89634312  8.93278941
+  9.42921707  9.15155029  8.95031598]
+Coefficients: 
+ [ 5.87096478 -0.75417299 -0.84015519 -0.81057672 -0.83631753 -0.79183506
+ -0.87025878]
+Intercept: 
+ 0.3664608124133295
+Mean squared error: 0.04
+Variance score: 0.97/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:80: UserWarning: Attempting to set identical left == right == 2.9 results in singular transformations; automatically expanding.
+  ax.set_xlim(boundaries_list[j])
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:81: UserWarning: Attempting to set identical bottom == top == 2.9 results in singular transformations; automatically expanding.
+  ax.set_ylim(boundaries_list[i])
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/misc.py:71: UserWarning: Attempting to set identical left == right == 2.9 results in singular transformations; automatically expanding.
+  ax.set_xlim(boundaries_list[i])
+
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[10.13328918  9.03878883  9.05963283  8.6421792   9.20439458  8.91494011
+  8.70634849  9.68577819  8.75576288  9.65091636  9.70134796  9.0053643
+  9.78255754  9.389985    9.57388193  9.13490714  9.16890584  8.59564847
+  9.18696634  9.06110192  9.13533723  8.62354083  9.09107975 10.04294578
+  9.82781073  8.6184494   9.82199302  8.81894364  9.61341481  8.6184494
+  9.72411998  8.90918843  8.95723304  8.33502691  8.33939563  9.48120068
+  8.60079425  8.41265784  9.47002675  8.26343189  9.14173459  8.44249084
+  3.91984375  6.71382126  9.36192353  9.63624844  9.00767554  8.4813605
+  9.93725316  9.30202102  9.24609461  4.43513541  8.6071751   7.64556503
+  9.23481532  4.15757466 10.34330727  8.67465077  8.65308072  8.33704465
+  8.89846108  8.67267375  9.56479894  9.15037242  8.89634312  8.93278941
+  9.42921707  9.15155029  8.95031598]
+Coefficients: 
+ [0.19221362 0.07516864 0.07169308 0.09921565 0.01782536 0.13402708
+ 0.0761582 ]
+Intercept: 
+ 3.0198440249463196
+Mean squared error: 0.67
+Variance score: 0.67
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[9.47186734 7.76111541 7.13083838 9.92206522 6.68064051 9.47186734
+ 8.75155074 9.20174861 8.39139244 9.29178819 9.38182776 9.83202564
+ 9.56190691 9.29178819 8.93162989 8.75155074 8.21131329 9.11170904
+ 9.20174861 9.47186734 7.94119456 9.02166946 9.02166946 8.66151116
+ 9.02166946 9.47186734 9.02166946 8.12127371 9.11170904 9.20174861
+ 9.56190691 9.20174861 8.84159031 8.75155074 8.75155074 9.74198607
+ 8.66151116 9.38182776 9.20174861 8.57147159 9.65194649 3.70933452
+ 9.56190691 9.02166946 9.38182776 7.67107583 8.93162989 8.48143201
+ 8.39139244 9.92206522 8.75155074 9.47186734 9.02166946 9.02166946
+ 8.93162989 9.56190691 9.92206522 8.93162989 9.38182776 9.20174861
+ 9.11170904 9.65194649 9.02166946 9.56190691 9.29178819 9.11170904
+ 9.02166946 9.02166946 9.29178819]
+Coefficients: 
+ [0.90039575 0.         0.         0.         0.         0.
+ 0.        ]
+Intercept: 
+ 0.9181076897704461
+Mean squared error: 0.15
+Variance score: 0.82
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[9.14655609 8.29122866 8.38338996 9.35092534 8.05854948 9.13546712
+ 8.83230388 9.04541691 8.6594736  9.15053713 9.1199053  9.35031103
+ 9.18044026 9.14768156 8.78530919 8.85165    8.7928348  9.04210923
+ 9.06221702 9.15361836 8.36874079 8.97882264 8.98537454 8.1862872
+ 8.98537454 9.17898519 8.98537454 8.45146258 9.05437227 9.11666186
+ 9.22244499 9.04036945 8.91004539 8.78442579 8.89683473 9.205192
+ 8.60301316 9.06730418 8.95030957 8.64002872 9.19046203 6.76801655
+ 9.22799393 8.94437276 9.09318139 8.26358086 8.87621578 8.92826165
+ 8.68451601 9.35092534 8.83633947 9.10572542 8.98537454 8.93076749
+ 9.09212171 9.10903309 9.35092534 9.34416791 9.11116152 9.1247182
+ 9.01942385 9.34908241 8.92690006 9.22194351 9.1658328  8.97254579
+ 9.02721706 8.90572508 9.10803091]
+Coefficients: 
+ [0.00614312 0.1260231  0.02855572 0.16298634 0.         0.
+ 0.        ]
+Intercept: 
+ 6.113842572752976
+Mean squared error: 1.31
+Variance score: -0.16
+
+**********************SUMMARY.SCORE**********************
+
+
+**********************ATMOSPHERE**********************
+
+
+**********************CLEANLINESS**********************
+
+
+**********************FACILITIES**********************
+
+
+**********************LOCATION.Y**********************
+
+
+**********************SECURITY**********************
+
+
+**********************STAFF**********************
+
+[REPAIR EXEC TIME]: 16.626949787139893

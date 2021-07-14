@@ -1,0 +1,265 @@
+['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_delete'), ('from_name', 'ratio'), ('to_name', '*')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  75
+Class 1 numbers:  24
+Class 0 numbers:  67
+Class 1 numbers:  67
+Validation Results
+0.5
+0.0
+
+Test Results
+0.72
+0.42857142857142855
+
+ROC AUC score
+0.6309523809523809
+Confusion matrix, without normalization
+[[15  3]
+ [ 4  3]]
+
+Normalized confusion matrix
+[[0.83 0.17]
+ [0.57 0.43]]
+
+
+
+[REPAIR EXEC TIME]: 6.078901767730713['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_delete'), ('from_name', 'ratio'), ('to_name', '*')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  75
+Class 1 numbers:  24
+Class 0 numbers:  67
+Class 1 numbers:  67
+Validation Results
+0.7
+0.5
+
+Test Results
+0.8
+0.7142857142857143
+
+ROC AUC score
+0.773809523809524
+Confusion matrix, without normalization
+[[15  3]
+ [ 2  5]]
+
+Normalized confusion matrix
+[[0.83 0.17]
+ [0.29 0.71]]
+
+
+
+[REPAIR EXEC TIME]: 6.126532554626465['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_delete'), ('from_name', 'ratio'), ('to_name', '*')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  71
+Class 1 numbers:  28
+Class 0 numbers:  62
+Class 1 numbers:  62
+Validation Results
+0.9
+1.0
+
+Test Results
+0.64
+1.0
+
+ROC AUC score
+0.7954545454545454
+Confusion matrix, without normalization
+[[13  9]
+ [ 0  3]]
+
+Normalized confusion matrix
+[[0.59 0.41]
+ [0.   1.  ]]
+
+
+
+[REPAIR EXEC TIME]: 6.362560272216797

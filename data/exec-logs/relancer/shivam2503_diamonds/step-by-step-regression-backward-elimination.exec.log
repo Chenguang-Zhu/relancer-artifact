@@ -1,0 +1,121 @@
+step-by-step-regression-backward-elimination.py:344: MatplotlibDeprecationWarning: Support for uppercase single-letter colors is deprecated since Matplotlib 3.1 and will be removed in 3.3; please use lowercase instead.
+  plt.scatter(y_train, y_train-y_pred_train, s= 2, c= 'R', alpha=0.8)
+step-by-step-regression-backward-elimination.py:345: MatplotlibDeprecationWarning: Support for uppercase single-letter colors is deprecated since Matplotlib 3.1 and will be removed in 3.3; please use lowercase instead.
+  plt.scatter(y_test, y_test-y_pred_test, s= 2, c= 'B', alpha=0.8)
+['diamonds.csv']
+Total Missing values in 'carat' are 0.
+Total Missing values in 'cut' are 0.
+Total Missing values in 'color' are 0.
+Total Missing values in 'clarity' are 0.
+Total Missing values in 'depth' are 0.
+Total Missing values in 'table' are 0.
+Total Missing values in 'price' are 0.
+Total Missing values in 'x' are 0.
+Total Missing values in 'y' are 0.
+Total Missing values in 'z' are 0.
+
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.921
+Model:                            OLS   Adj. R-squared:                  0.921
+Method:                 Least Squares   F-statistic:                 2.136e+04
+Date:                Fri, 02 Jul 2021   Prob (F-statistic):               0.00
+Time:                        03:21:37   Log-Likelihood:            -3.4116e+05
+No. Observations:               40437   AIC:                         6.824e+05
+Df Residuals:                   40414   BIC:                         6.826e+05
+Df Model:                          22                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2240.0516    140.288     15.968      0.000    1965.084    2515.019
+x1          5.577e+04    286.200    194.866      0.000    5.52e+04    5.63e+04
+x2          3796.6557    441.635      8.597      0.000    2931.042    4662.270
+x3         -1286.3411    173.285     -7.423      0.000   -1625.983    -946.699
+x4         -8759.5319    828.706    -10.570      0.000   -1.04e+04   -7135.249
+x5          1.317e+04    835.290     15.765      0.000    1.15e+04    1.48e+04
+x6         -1.772e+04   1137.631    -15.579      0.000      -2e+04   -1.55e+04
+x7           537.4541     39.276     13.684      0.000     460.472     614.436
+x8           805.2704     38.862     20.721      0.000     729.099     881.442
+x9           752.3700     37.166     20.244      0.000     679.524     825.216
+x10          657.9861     37.971     17.329      0.000     583.563     732.409
+x11         -188.6382     20.411     -9.242      0.000    -228.645    -148.631
+x12         -254.7881     20.649    -12.339      0.000    -295.261    -214.316
+x13         -446.3564     20.193    -22.105      0.000    -485.935    -406.778
+x14         -948.8889     21.460    -44.217      0.000    -990.950    -906.827
+x15        -1436.0252     24.071    -59.658      0.000   -1483.205   -1388.845
+x16        -2350.7733     29.743    -79.037      0.000   -2409.070   -2292.477
+x17        -5040.0186     52.389    -96.203      0.000   -5142.703   -4937.334
+x18        -1341.6212     20.143    -66.604      0.000   -1381.103   -1302.140
+x19        -2290.2362     22.127   -103.504      0.000   -2333.606   -2246.867
+x20         -438.1162     21.462    -20.414      0.000    -480.182    -396.050
+x21         -744.6535     19.908    -37.404      0.000    -783.674    -705.633
+x22          -34.4350     26.442     -1.302      0.193     -86.261      17.391
+==============================================================================
+Omnibus:                    11011.608   Durbin-Watson:                   1.983
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           521387.633
+Skew:                           0.537   Prob(JB):                         0.00
+Kurtosis:                      20.558   Cond. No.                         368.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+MSE for training data is 1116.4907
+MSE for testing data is 1153.1703
+Mean of 'price' for training data is 3916.1771.
+Mean of residual of 'price' for training data is 183.8322.
+Mean of 'price' for testing data is 3975.1074.
+Mean of residual of 'price' for training data is -49.3351.
+Popped column index out of original array is 22 with P-Value 0.1928
+==================================================================================================
+Max P value found less than 0.1 without 0 index...Loop Ends!!
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.921
+Model:                            OLS   Adj. R-squared:                  0.921
+Method:                 Least Squares   F-statistic:                 2.237e+04
+Date:                Fri, 02 Jul 2021   Prob (F-statistic):               0.00
+Time:                        03:21:37   Log-Likelihood:            -3.4116e+05
+No. Observations:               40437   AIC:                         6.824e+05
+Df Residuals:                   40415   BIC:                         6.826e+05
+Df Model:                          21                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2227.8536    139.976     15.916      0.000    1953.497    2502.210
+x1          5.576e+04    286.159    194.871      0.000    5.52e+04    5.63e+04
+x2          3800.2921    441.630      8.605      0.000    2934.688    4665.896
+x3         -1286.8002    173.286     -7.426      0.000   -1626.444    -947.156
+x4         -8757.7743    828.712    -10.568      0.000   -1.04e+04   -7133.479
+x5          1.318e+04    835.264     15.777      0.000    1.15e+04    1.48e+04
+x6         -1.773e+04   1137.625    -15.585      0.000      -2e+04   -1.55e+04
+x7           537.0400     39.275     13.674      0.000     460.060     614.020
+x8           804.7943     38.861     20.710      0.000     728.626     880.963
+x9           751.9147     37.164     20.232      0.000     679.072     824.758
+x10          657.5314     37.969     17.317      0.000     583.111     731.952
+x11         -189.0018     20.410     -9.260      0.000    -229.005    -148.998
+x12         -255.0472     20.648    -12.352      0.000    -295.518    -214.576
+x13         -446.5198     20.193    -22.113      0.000    -486.098    -406.942
+x14         -949.5657     21.454    -44.261      0.000    -991.615    -907.516
+x15        -1436.7840     24.064    -59.706      0.000   -1483.951   -1389.618
+x16        -2351.0858     29.742    -79.049      0.000   -2409.381   -2292.791
+x17        -5028.3914     51.624    -97.405      0.000   -5129.575   -4927.208
+x18        -1329.8093     17.986    -73.936      0.000   -1365.062   -1294.556
+x19        -2278.5541     20.227   -112.647      0.000   -2318.200   -2238.908
+x20         -426.1985     19.413    -21.954      0.000    -464.249    -388.148
+x21         -732.7728     17.695    -41.411      0.000    -767.455    -698.090
+==============================================================================
+Omnibus:                    11015.310   Durbin-Watson:                   1.983
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           521354.675
+Skew:                           0.537   Prob(JB):                         0.00
+Kurtosis:                      20.558   Cond. No.                         368.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Mean of 'price' for training data is 3916.1771.
+Mean of residual of 'price' for training data is 184.8154.
+Mean of 'price' for testing data is 3975.1074.
+Mean of residual of 'price' for training data is -50.7096.

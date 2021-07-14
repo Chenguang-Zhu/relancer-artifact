@@ -1,0 +1,786 @@
+[
+  {
+    "API": "sklearn.preprocessing.Imputer",
+    "params": [
+      {
+        "name": "missing_values",
+        "values": [
+          "'NaN'",
+          "\"NaN\"",
+          "<class 'libcst._nodes.expression.Attribute'>"
+        ]
+      },
+      {
+        "name": "strategy",
+        "values": [
+          "'mean'",
+          "\"mean\"",
+          "\"median\"",
+          "\"most_frequent\"",
+          "'median'",
+          "'most_frequent'"
+        ]
+      },
+      {
+        "name": "axis",
+        "values": [
+          "0",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "API": "sklearn.impute.SimpleImputer",
+    "params": [
+      {
+        "name": "strategy",
+        "values": [
+          "'median'",
+          "'constant'",
+          "'mean'",
+          "'most_frequent'",
+          "<class 'libcst._nodes.expression.Attribute'>",
+          "<class 'libcst._nodes.expression.Name'>",
+          "\"constant\"",
+          "\"most_frequent\"",
+          "\"mean\"",
+          "<class 'libcst._nodes.expression.Subscript'>",
+          "\"median\""
+        ]
+      },
+      {
+        "name": "fill_value",
+        "values": [
+          "'missing'",
+          "<class 'libcst._nodes.expression.Attribute'>",
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.UnaryOperation'>",
+          "\"missing\"",
+          "0",
+          "193841",
+          "123594",
+          "164676",
+          "122640",
+          "163387",
+          "116454",
+          "18725",
+          "\"MISSING\"",
+          "<class 'libcst._nodes.expression.Subscript'>",
+          "'Unknown'",
+          "'MISSING'",
+          "250"
+        ]
+      },
+      {
+        "name": "missing_values",
+        "values": [
+          "<class 'libcst._nodes.expression.Attribute'>",
+          "0",
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.UnaryOperation'>"
+        ]
+      },
+      {
+        "name": "copy",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>"
+        ]
+      },
+      {
+        "name": "add_indicator",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>"
+        ]
+      }
+    ]
+  },
+  {
+    "API": "sklearn.metrics.jaccard_similarity_score",
+    "params": [
+      {
+        "name": "y_true",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Subscript'>",
+          "<class 'libcst._nodes.expression.Call'>"
+        ]
+      },
+      {
+        "name": "y_pred",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Subscript'>",
+          "<class 'libcst._nodes.expression.Attribute'>",
+          "<class 'libcst._nodes.expression.Comparison'>",
+          "<class 'libcst._nodes.expression.Call'>"
+        ]
+      },
+      {
+        "name": "normalize",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>"
+        ]
+      }
+    ]
+  },
+  {
+    "API": "sklearn.learning_curve.learning_curve",
+    "params": [
+      {
+        "name": "estimator",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Call'>"
+        ]
+      },
+      {
+        "name": "X",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Attribute'>"
+        ]
+      },
+      {
+        "name": "y",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Attribute'>"
+        ]
+      },
+      {
+        "name": "cv",
+        "values": [
+          "3",
+          "<class 'libcst._nodes.expression.Name'>",
+          "5",
+          "10"
+        ]
+      },
+      {
+        "name": "train_sizes",
+        "values": [
+          "<class 'libcst._nodes.expression.Call'>",
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.List'>"
+        ]
+      },
+      {
+        "name": "verbose",
+        "values": [
+          "1",
+          "50"
+        ]
+      },
+      {
+        "name": "error_score",
+        "values": [
+          "0"
+        ]
+      },
+      {
+        "name": "exploit_incremental_learning",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>"
+        ]
+      },
+      {
+        "name": "scoring",
+        "values": [
+          "'mean_squared_error'",
+          "'accuracy'"
+        ]
+      },
+      {
+        "name": "n_jobs",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "API": "tensorflow.set_random_seed",
+    "params": [
+      {
+        "name": "seed",
+        "values": [
+          "42",
+          "0",
+          "1",
+          "3000",
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Call'>",
+          "777",
+          "1234",
+          "5",
+          "2",
+          "4",
+          "3",
+          "66",
+          "100"
+        ]
+      }
+    ]
+  },
+  {
+    "API": "tensorflow.compat.v1.set_random_seed",
+    "params": [
+      {
+        "name": "seed",
+        "values": [
+          "42",
+          "0",
+          "1",
+          "3000",
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Call'>",
+          "777",
+          "1234",
+          "5",
+          "2",
+          "4",
+          "3",
+          "66",
+          "100"
+        ]
+      }
+    ]
+  },
+  {
+    "API": "networkx.from_pandas_dataframe",
+    "params": [
+      {
+        "name": "df",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Attribute'>",
+          "<class 'libcst._nodes.expression.Call'>"
+        ]
+      },
+      {
+        "name": "source",
+        "values": [
+          "\"source\"",
+          "'Employee'",
+          "'Source'",
+          "'source'",
+          "0",
+          "'sender'",
+          "'combined'",
+          "'Drug 1'",
+          "'Customer'",
+          "\"User_ID_x\"",
+          "\"From\"",
+          "\"#Sender\"",
+          "'#Employee'",
+          "'from'",
+          "\"level_0\"",
+          "\"start_phone\"",
+          "<class 'libcst._nodes.expression.Subscript'>",
+          "'n1'",
+          "\"country_txt\""
+        ]
+      },
+      {
+        "name": "target",
+        "values": [
+          "'target'",
+          "'Movie'",
+          "'Target'",
+          "'b'",
+          "'recipient'",
+          "'receiver'",
+          "'previousPage'",
+          "'Drug 2'",
+          "'Callee'",
+          "\"User_ID_y\"",
+          "\"To\"",
+          "\"Recipient\"",
+          "'to'",
+          "\"level_1\"",
+          "\"end_phone\"",
+          "<class 'libcst._nodes.expression.Subscript'>",
+          "'n2'",
+          "\"attacktype1\""
+        ]
+      },
+      {
+        "name": "edge_attr",
+        "values": [
+          "'weight'",
+          "<class 'libcst._nodes.expression.List'>",
+          "'gender'",
+          "<class 'libcst._nodes.expression.Name'>",
+          "'Correlation'",
+          "\"targtype1\""
+        ]
+      },
+      {
+        "name": "create_using",
+        "values": [
+          "<class 'libcst._nodes.expression.Call'>"
+        ]
+      }
+    ]
+  },
+  {
+    "API": "networkx.from_pandas_edgelist",
+    "params": [
+      {
+        "name": "df",
+        "values": [
+          "<class 'libcst._nodes.expression.Attribute'>",
+          "<class 'libcst._nodes.expression.Name'>"
+        ]
+      },
+      {
+        "name": "source",
+        "values": [
+          "0",
+          "\"O\"",
+          "\"source\"",
+          "'O'",
+          "'from'",
+          "'src'",
+          "'Id'",
+          "'source'"
+        ]
+      },
+      {
+        "name": "target",
+        "values": [
+          "\"b\"",
+          "\"D\"",
+          "\"target\"",
+          "'b'",
+          "'D'",
+          "'to'",
+          "'dst'",
+          "'modularity_class'",
+          "'target'"
+        ]
+      },
+      {
+        "name": "edge_attr",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.List'>",
+          "\"weight\"",
+          "0",
+          "'weight'",
+          "<class 'libcst._nodes.expression.Subscript'>"
+        ]
+      },
+      {
+        "name": "create_using",
+        "values": [
+          "<class 'libcst._nodes.expression.Call'>",
+          "<class 'libcst._nodes.expression.Attribute'>"
+        ]
+      },
+      {
+        "name": "edge_key",
+        "values": [
+          "\"attr1\"",
+          "\"weight\"",
+          "\"Not_real\""
+        ]
+      }
+    ]
+  },
+  {
+    "API": "statsmodels.formula.api.OLS",
+    "params": [
+      {
+        "name": "endog",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>"
+        ]
+      },
+      {
+        "name": "exog",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>"
+        ]
+      }
+    ]
+  },
+  {
+    "API": "statsmodels.regression.linear_model.OLS",
+    "params": [
+      {
+        "name": "endog",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Attribute'>",
+          "<class 'libcst._nodes.expression.Subscript'>"
+        ]
+      },
+      {
+        "name": "exog",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Attribute'>",
+          "<class 'libcst._nodes.expression.Call'>",
+          "<class 'libcst._nodes.expression.Subscript'>"
+        ]
+      }
+    ]
+  },
+  {
+    "API": "sklearn.model_selection.learning_curve",
+    "params": [
+      {
+        "name": "estimator",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Call'>"
+        ]
+      },
+      {
+        "name": "X",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Subscript'>"
+        ]
+      },
+      {
+        "name": "y",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Subscript'>"
+        ]
+      },
+      {
+        "name": "cv",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "10",
+          "<class 'libcst._nodes.expression.Call'>",
+          "3",
+          "5",
+          "2"
+        ]
+      },
+      {
+        "name": "n_jobs",
+        "values": [
+          "1",
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.UnaryOperation'>"
+        ]
+      },
+      {
+        "name": "train_sizes",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Call'>",
+          "<class 'libcst._nodes.expression.List'>"
+        ]
+      },
+      {
+        "name": "scoring",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "\"f1_micro\"",
+          "'accuracy'",
+          "'mse'",
+          "\"neg_mean_squared_error\""
+        ]
+      },
+      {
+        "name": "shuffle",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>"
+        ]
+      },
+      {
+        "name": "verbose",
+        "values": [
+          "1"
+        ]
+      },
+      {
+        "name": "exploit_incremental_learning",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>"
+        ]
+      },
+      {
+        "name": "groups",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>"
+        ]
+      },
+      {
+        "name": "random_state",
+        "values": [
+          "2",
+          "0",
+          "<class 'libcst._nodes.expression.Name'>"
+        ]
+      }
+    ]
+  },
+  {
+    "API": "sklearn.learning_curve.validation_curve",
+    "params": [
+      {
+        "name": "estimator",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Call'>"
+        ]
+      },
+      {
+        "name": "X",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Attribute'>"
+        ]
+      },
+      {
+        "name": "y",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Attribute'>"
+        ]
+      },
+      {
+        "name": "param_name",
+        "values": [
+          "\"n_estimators\"",
+          "\"max_depth\"",
+          "'polynomialfeatures__degree'",
+          "'clf__C'",
+          "\"alpha\"",
+          "\"C\"",
+          "\"n_neighbors\"",
+          "\"param\"",
+          "'n_estimators'",
+          "'max_depth'",
+          "'gamma'",
+          "\"max_features\"",
+          "<class 'libcst._nodes.expression.Name'>",
+          "'n_neighbors'"
+        ]
+      },
+      {
+        "name": "param_range",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Call'>"
+        ]
+      },
+      {
+        "name": "cv",
+        "values": [
+          "5",
+          "7",
+          "10",
+          "2",
+          "<class 'libcst._nodes.expression.Name'>"
+        ]
+      },
+      {
+        "name": "scoring",
+        "values": [
+          "'mean_squared_error'",
+          "\"neg_mean_squared_error\"",
+          "'accuracy'",
+          "\"accuracy\""
+        ]
+      },
+      {
+        "name": "n_jobs",
+        "values": [
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "API": "sklearn.model_selection.validation_curve",
+    "params": [
+      {
+        "name": "estimator",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Call'>"
+        ]
+      },
+      {
+        "name": "X",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Subscript'>"
+        ]
+      },
+      {
+        "name": "y",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Subscript'>"
+        ]
+      },
+      {
+        "name": "param_name",
+        "values": [
+          "\"n_estimators\"",
+          "\"max_depth\"",
+          "\"gamma\"",
+          "'max_depth'",
+          "'gamma'",
+          "'polynomialfeatures__degree'",
+          "\"alpha\"",
+          "\"polynomialfeatures__degree\"",
+          "\"n_neighbors\"",
+          "<class 'libcst._nodes.expression.Name'>",
+          "'n_estimators'",
+          "'alpha'",
+          "'logisticregression__C'",
+          "'clf__C'",
+          "'C'",
+          "'clf__n_neighbors'",
+          "'clr__C'",
+          "\"max_iter\"",
+          "'min_samples_leaf'",
+          "'max_features'",
+          "\"clf__C\"",
+          "\"smote__k_neighbors\"",
+          "\"min_samples_split\"",
+          "\"learning_rate_init\"",
+          "'sgd_logit__alpha'"
+        ]
+      },
+      {
+        "name": "param_range",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Call'>"
+        ]
+      },
+      {
+        "name": "cv",
+        "values": [
+          "5",
+          "<class 'libcst._nodes.expression.Name'>",
+          "3",
+          "7",
+          "10"
+        ]
+      },
+      {
+        "name": "scoring",
+        "values": [
+          "\"accuracy\"",
+          "'roc_auc'",
+          "'accuracy'",
+          "<class 'libcst._nodes.expression.Name'>",
+          "'neg_mean_squared_error'",
+          "'mean_squared_error'",
+          "'r2'"
+        ]
+      },
+      {
+        "name": "n_jobs",
+        "values": [
+          "<class 'libcst._nodes.expression.UnaryOperation'>",
+          "1",
+          "<class 'libcst._nodes.expression.Name'>"
+        ]
+      }
+    ]
+  },
+  {
+    "API": "sklearn.model_selection.ShuffleSplit",
+    "params": [
+      {
+        "name": "n_splits",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "5",
+          "3",
+          "10",
+          "4",
+          "20",
+          "1",
+          "200",
+          "100",
+          "1000",
+          "6"
+        ]
+      },
+      {
+        "name": "test_size",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "0.2",
+          "0.3",
+          "0.25",
+          "0.1",
+          ".25",
+          ".3",
+          "0.5",
+          "0.30",
+          "0.20",
+          ".5",
+          "2",
+          "<class 'libcst._nodes.expression.Call'>",
+          "11",
+          "10",
+          "8",
+          "0.33",
+          "<class 'libcst._nodes.expression.BinaryOperation'>"
+        ]
+      },
+      {
+        "name": "random_state",
+        "values": [
+          "0",
+          "<class 'libcst._nodes.expression.Name'>",
+          "2020",
+          "1",
+          "100",
+          "21",
+          "20",
+          "42",
+          "10"
+        ]
+      },
+      {
+        "name": "IMPLICIT_0",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>",
+          "<class 'libcst._nodes.expression.Subscript'>"
+        ]
+      },
+      {
+        "name": "IMPLICIT_1",
+        "values": [
+          "<class 'libcst._nodes.expression.Name'>"
+        ]
+      },
+      {
+        "name": "train_size",
+        "values": [
+          ".4",
+          "0.5",
+          "0.8",
+          ".5",
+          "3",
+          "0.7",
+          "<class 'libcst._nodes.expression.Name'>"
+        ]
+      },
+      {
+        "name": "n_split",
+        "values": [
+          "10"
+        ]
+      }
+    ]
+  }
+]

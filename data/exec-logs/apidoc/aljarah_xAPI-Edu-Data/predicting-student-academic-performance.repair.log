@@ -1,0 +1,208 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "predicting-student-academic-performance.py", line 336, in <module>
+    perc = Perceptron(n_iter=100, eta0=0.1, random_state=15)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_iter'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.Perceptron'), ('action', 'arg_delete'), ('from_name', 'n_iter'), ('to_name', '*')])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Minimum Accuracy Score:   0.47222222
+Maximum Accuracy Score:   0.78472222
+Average Accuracy Score:   0.64837500
+Minimum Prediction Misses:   31
+Maximum Prediction Misses:   76
+Average Prediction Misses:   50.63
+RBF Minimum Accuracy Score:   0.63194444
+RBF Maximum Accuracy Score:   0.84722222
+RBF Average Accuracy Score:   0.74437500
+------------------------------------------------
+Linear Minimum Accuracy Score:   0.62500000
+Linear Maximum Accuracy Score:   0.84722222
+Linear Average Accuracy Score:   0.75702083
+------------------------------------------------
+Polynomial Minimum Accuracy Score:   0.32638889
+Polynomial Maximum Accuracy Score:   0.55555556
+Polynomial Average Accuracy Score:   0.44006250
+------------------------------------------------
+Sigmoid Minimum Accuracy Score:   0.60416667
+Sigmoid Maximum Accuracy Score:   0.82638889
+Sigmoid Average Accuracy Score:   0.72824306
+================================================
+RBF Average Prediction Misses:   36.81
+Linear Average Prediction Misses:   34.99
+Polynomial Average Prediction Misses:   80.63
+Sigmoid Average Prediction Misses:   39.13
+3-depth Tree Minimum Accuracy Score:   0.54166667
+3-depth Tree Maximum Accuracy Score:   0.78472222
+3-depth Tree Average Accuracy Score:   0.67802778
+------------------------------------------------
+5-depth Tree Minimum Accuracy Score:   0.54166667
+5-depth Tree Maximum Accuracy Score:   0.83333333
+5-depth Tree Average Accuracy Score:   0.71411806
+[REPAIR EXEC TIME]: 114.00865888595581
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "predicting-student-academic-performance.py", line 336, in <module>
+    perc = Perceptron(n_iter=100, eta0=0.1, random_state=15)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_iter'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.Perceptron'), ('action', 'arg_delete'), ('from_name', 'n_iter'), ('to_name', '*')])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Minimum Accuracy Score:   0.45833333
+Maximum Accuracy Score:   0.79861111
+Average Accuracy Score:   0.64968056
+Minimum Prediction Misses:   29
+Maximum Prediction Misses:   78
+Average Prediction Misses:   50.45
+RBF Minimum Accuracy Score:   0.64583333
+RBF Maximum Accuracy Score:   0.83333333
+RBF Average Accuracy Score:   0.74329861
+------------------------------------------------
+Linear Minimum Accuracy Score:   0.63194444
+Linear Maximum Accuracy Score:   0.84722222
+Linear Average Accuracy Score:   0.75650000
+------------------------------------------------
+Polynomial Minimum Accuracy Score:   0.33333333
+Polynomial Maximum Accuracy Score:   0.54861111
+Polynomial Average Accuracy Score:   0.43954861
+------------------------------------------------
+Sigmoid Minimum Accuracy Score:   0.62500000
+Sigmoid Maximum Accuracy Score:   0.82638889
+Sigmoid Average Accuracy Score:   0.72669444
+================================================
+RBF Average Prediction Misses:   36.97
+Linear Average Prediction Misses:   35.06
+Polynomial Average Prediction Misses:   80.70
+Sigmoid Average Prediction Misses:   39.36
+3-depth Tree Minimum Accuracy Score:   0.54166667
+3-depth Tree Maximum Accuracy Score:   0.81944444
+3-depth Tree Average Accuracy Score:   0.68170833
+------------------------------------------------
+5-depth Tree Minimum Accuracy Score:   0.58333333
+5-depth Tree Maximum Accuracy Score:   0.83333333
+5-depth Tree Average Accuracy Score:   0.71687500
+[REPAIR EXEC TIME]: 143.11669301986694
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "predicting-student-academic-performance.py", line 336, in <module>
+    perc = Perceptron(n_iter=100, eta0=0.1, random_state=15)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_iter'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.Perceptron'), ('action', 'arg_delete'), ('from_name', 'n_iter'), ('to_name', '*')])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Minimum Accuracy Score:   0.46527778
+Maximum Accuracy Score:   0.76388889
+Average Accuracy Score:   0.64629861
+Minimum Prediction Misses:   34
+Maximum Prediction Misses:   77
+Average Prediction Misses:   50.93
+RBF Minimum Accuracy Score:   0.63194444
+RBF Maximum Accuracy Score:   0.84027778
+RBF Average Accuracy Score:   0.74295833
+------------------------------------------------
+Linear Minimum Accuracy Score:   0.65277778
+Linear Maximum Accuracy Score:   0.84722222
+Linear Average Accuracy Score:   0.75606250
+------------------------------------------------
+Polynomial Minimum Accuracy Score:   0.30555556
+Polynomial Maximum Accuracy Score:   0.54166667
+Polynomial Average Accuracy Score:   0.43991667
+------------------------------------------------
+Sigmoid Minimum Accuracy Score:   0.61111111
+Sigmoid Maximum Accuracy Score:   0.84027778
+Sigmoid Average Accuracy Score:   0.72650000
+================================================
+RBF Average Prediction Misses:   37.01
+Linear Average Prediction Misses:   35.13
+Polynomial Average Prediction Misses:   80.65
+Sigmoid Average Prediction Misses:   39.38
+3-depth Tree Minimum Accuracy Score:   0.53472222
+3-depth Tree Maximum Accuracy Score:   0.79861111
+3-depth Tree Average Accuracy Score:   0.68240278
+------------------------------------------------
+5-depth Tree Minimum Accuracy Score:   0.57638889
+5-depth Tree Maximum Accuracy Score:   0.84722222
+5-depth Tree Average Accuracy Score:   0.71843056
+[REPAIR EXEC TIME]: 110.94044303894043

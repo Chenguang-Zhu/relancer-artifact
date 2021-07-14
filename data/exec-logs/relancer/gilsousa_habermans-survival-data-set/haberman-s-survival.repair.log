@@ -1,0 +1,357 @@
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 12, in <module>
+    from pandas.tools.plotting import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.tools'
+[Try Solution]: OrderedDict([('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.plotting'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 15, in <module>
+    from sklearn import cross_validation
+ImportError: cannot import name 'cross_validation'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 15)])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_delete'), ('from_name', 'n'), ('to_name', '*')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold( n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_delete'), ('from_name', 'n_folds'), ('to_name', '*')])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/neural_network/_multilayer_perceptron.py:585: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/neural_network/_multilayer_perceptron.py:585: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/neural_network/_multilayer_perceptron.py:585: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+
+
+LR: 0.738095 (0.062394)
+LDA: 0.728793 (0.060771)
+KNN: 0.714729 (0.058915)
+CART: 0.635327 (0.026443)
+NB: 0.747398 (0.065973)
+SVM: 0.714839 (0.066896)
+NN: 0.742636 (0.070606)
+RFC: 0.644740 (0.028531)
+0.782608695652174
+[[66  6]
+ [14  6]]
+              precision    recall  f1-score   support
+
+           1       0.82      0.92      0.87        72
+           2       0.50      0.30      0.37        20
+
+    accuracy                           0.78        92
+   macro avg       0.66      0.61      0.62        92
+weighted avg       0.75      0.78      0.76        92
+
+    Age  Year os operations  axillary nodes detected
+0    30                  65                        4
+1    34                  64                       10
+2    35                  63                       15
+3    38                  64                        8
+4    40                  66                       40
+5    50                  64                       25
+6    43                  64                       23
+7    45                  64                       40
+8    34                  63                        3
+9    34                  63                       40
+10   46                  64                        3
+11   50                  67                        1
+12   45                  64                        4
+13   38                  65                        2
+14   42                  67                        4
+
+Prediction of data survival status: [1 1 2 1 2 2 2 2 1 2 1 1 1 1 1]
+
+[REPAIR EXEC TIME]: 8.818835496902466Traceback (most recent call last):
+  File "haberman-s-survival.py", line 12, in <module>
+    from pandas.tools.plotting import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.tools'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.plotting'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 15, in <module>
+    from sklearn import cross_validation
+ImportError: cannot import name 'cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 15)])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[REPAIR EXEC TIME]: 4.275273561477661Traceback (most recent call last):
+  File "haberman-s-survival.py", line 12, in <module>
+    from pandas.tools.plotting import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.tools'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.plotting'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 15, in <module>
+    from sklearn import cross_validation
+ImportError: cannot import name 'cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 15)])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_delete'), ('from_name', 'n'), ('to_name', '*')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold( n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_delete'), ('from_name', 'n_folds'), ('to_name', '*')])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/neural_network/_multilayer_perceptron.py:585: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/neural_network/_multilayer_perceptron.py:585: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/neural_network/_multilayer_perceptron.py:585: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+
+
+LR: 0.738095 (0.062394)
+LDA: 0.728793 (0.060771)
+KNN: 0.714729 (0.058915)
+CART: 0.602547 (0.032845)
+NB: 0.747398 (0.065973)
+SVM: 0.714839 (0.066896)
+NN: 0.724031 (0.060960)
+RFC: 0.663455 (0.020088)
+0.782608695652174
+[[66  6]
+ [14  6]]
+              precision    recall  f1-score   support
+
+           1       0.82      0.92      0.87        72
+           2       0.50      0.30      0.37        20
+
+    accuracy                           0.78        92
+   macro avg       0.66      0.61      0.62        92
+weighted avg       0.75      0.78      0.76        92
+
+    Age  Year os operations  axillary nodes detected
+0    30                  65                        4
+1    34                  64                       10
+2    35                  63                       15
+3    38                  64                        8
+4    40                  66                       40
+5    50                  64                       25
+6    43                  64                       23
+7    45                  64                       40
+8    34                  63                        3
+9    34                  63                       40
+10   46                  64                        3
+11   50                  67                        1
+12   45                  64                        4
+13   38                  65                        2
+14   42                  67                        4
+
+Prediction of data survival status: [1 1 2 1 2 2 2 2 1 2 1 1 1 1 1]
+
+[REPAIR EXEC TIME]: 8.770256519317627Traceback (most recent call last):
+  File "haberman-s-survival.py", line 12, in <module>
+    from pandas.tools.plotting import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.tools'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.plotting'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 15, in <module>
+    from sklearn import cross_validation
+ImportError: cannot import name 'cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 15)])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_delete'), ('from_name', 'n'), ('to_name', '*')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold( n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_delete'), ('from_name', 'n_folds'), ('to_name', '*')])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+
+
+LR: 0.738095 (0.062394)
+LDA: 0.728793 (0.060771)
+KNN: 0.714729 (0.058915)
+CART: 0.621595 (0.020917)
+NB: 0.747398 (0.065973)
+SVM: 0.714839 (0.066896)
+NN: 0.752049 (0.049620)
+RFC: 0.649502 (0.015079)
+0.782608695652174
+[[66  6]
+ [14  6]]
+              precision    recall  f1-score   support
+
+           1       0.82      0.92      0.87        72
+           2       0.50      0.30      0.37        20
+
+    accuracy                           0.78        92
+   macro avg       0.66      0.61      0.62        92
+weighted avg       0.75      0.78      0.76        92
+
+    Age  Year os operations  axillary nodes detected
+0    30                  65                        4
+1    34                  64                       10
+2    35                  63                       15
+3    38                  64                        8
+4    40                  66                       40
+5    50                  64                       25
+6    43                  64                       23
+7    45                  64                       40
+8    34                  63                        3
+9    34                  63                       40
+10   46                  64                        3
+11   50                  67                        1
+12   45                  64                        4
+13   38                  65                        2
+14   42                  67                        4
+
+Prediction of data survival status: [1 1 2 1 2 2 2 2 1 2 1 1 1 1 1]
+
+[REPAIR EXEC TIME]: 8.800615310668945Traceback (most recent call last):
+  File "haberman-s-survival.py", line 12, in <module>
+    from pandas.tools.plotting import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.tools'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.plotting'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 15, in <module>
+    from sklearn import cross_validation
+ImportError: cannot import name 'cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 15)])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_delete'), ('from_name', 'n'), ('to_name', '*')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold( n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_delete'), ('from_name', 'n_folds'), ('to_name', '*')])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/neural_network/_multilayer_perceptron.py:585: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/neural_network/_multilayer_perceptron.py:585: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+
+
+LR: 0.738095 (0.062394)
+LDA: 0.728793 (0.060771)
+KNN: 0.714729 (0.058915)
+CART: 0.630786 (0.010751)
+NB: 0.747398 (0.065973)
+SVM: 0.714839 (0.066896)
+NN: 0.751938 (0.086739)
+RFC: 0.668217 (0.017264)
+0.782608695652174
+[[66  6]
+ [14  6]]
+              precision    recall  f1-score   support
+
+           1       0.82      0.92      0.87        72
+           2       0.50      0.30      0.37        20
+
+    accuracy                           0.78        92
+   macro avg       0.66      0.61      0.62        92
+weighted avg       0.75      0.78      0.76        92
+
+    Age  Year os operations  axillary nodes detected
+0    30                  65                        4
+1    34                  64                       10
+2    35                  63                       15
+3    38                  64                        8
+4    40                  66                       40
+5    50                  64                       25
+6    43                  64                       23
+7    45                  64                       40
+8    34                  63                        3
+9    34                  63                       40
+10   46                  64                        3
+11   50                  67                        1
+12   45                  64                        4
+13   38                  65                        2
+14   42                  67                        4
+
+Prediction of data survival status: [1 1 2 1 2 2 2 2 1 2 1 1 1 1 1]
+
+[REPAIR EXEC TIME]: 9.301269769668579

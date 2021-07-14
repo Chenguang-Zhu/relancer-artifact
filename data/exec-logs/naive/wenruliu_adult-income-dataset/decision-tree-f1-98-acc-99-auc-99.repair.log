@@ -1,0 +1,460 @@
+fold: 0 - cp:1 train: 0.8025915525915526 test: f1=0.5211029825548679, acc=0.8008774495466511
+fold: 0 - cp:2 train: 0.822013572013572 test: f1=0.5641025641025641, acc=0.8239836209417959
+fold: 0 - cp:3 train: 0.8245583245583246 test: f1=0.6157062589834051, acc=0.8279613922199474
+fold: 0 - cp:4 train: 0.823914823914824 test: f1=0.6636530238240683, acc=0.8389587598713074
+fold: 0 - cp:5 train: 0.8305838305838306 test: f1=0.6554088369730827, acc=0.8412401286926002
+fold: 0 - cp:6 train: 0.8974493974493973 test: f1=0.7904713114754099, acc=0.9042995027785903
+fold: 0 - cp:7 train: 0.9221949221949222 test: f1=0.8385964912280701, acc=0.924656332260895
+fold: 0 - cp:8 train: 0.9204399204399205 test: f1=0.847610686065471, acc=0.9289265867212635
+fold: 0 - cp:9 train: 0.917017667017667 test: f1=0.8445458000760168, acc=0.9282246270839427
+fold: 0 - cp:10 train: 0.9206154206154206 test: f1=0.8360573296454613, acc=0.9237203860778005
+fold: 0 - cp:11 train: 0.9580554580554581 test: f1=0.9251684017146355, acc=0.9642585551330799
+fold: 0 - cp:12 train: 0.9660699660699661 test: f1=0.9447419668938656, acc=0.9734425270546944
+fold: 0 - cp:13 train: 0.9824207324207324 test: f1=0.9716432380029084, acc=0.9863117870722433
+fold: 0 - cp:14 train: 0.9842634842634843 test: f1=0.9719942056977305, acc=0.9864287803451302
+fold: 0 - cp:15 train: 0.982098982098982 test: f1=0.9729141475211608, acc=0.9868967534366774
+fold: 0 - cp:16 train: 0.9837954837954839 test: f1=0.9775090689238211, acc=0.9891196256215268
+fold: 0 - cp:17 train: 0.9833859833859834 test: f1=0.9721115537848606, acc=0.9864872769815736
+fold: 0 - cp:18 train: 0.9819527319527319 test: f1=0.9723329708831703, acc=0.9866042702544604
+fold: 0 - cp:19 train: 0.9835907335907336 test: f1=0.9718700953760714, acc=0.9863702837086867
+fold: 1 - cp:1 train: 0.8052939466428002 test: f1=0.45678617157490403, acc=0.8014508014508015
+fold: 1 - cp:2 train: 0.8179585488897609 test: f1=0.5678420310296192, acc=0.8207558207558208
+fold: 1 - cp:3 train: 0.8492541434165205 test: f1=0.7114206797165846, acc=0.8594243594243595
+fold: 1 - cp:4 train: 0.8406258535821007 test: f1=0.6951587589037789, acc=0.8522873522873523
+fold: 1 - cp:5 train: 0.840128524382151 test: f1=0.6686098086427577, acc=0.847022347022347
+fold: 1 - cp:6 train: 0.8893829148567101 test: f1=0.7859727942094097, acc=0.8996723996723996
+fold: 1 - cp:7 train: 0.9172272215089248 test: f1=0.8536248272396029, acc=0.9318474318474318
+fold: 1 - cp:8 train: 0.9158234219944561 test: f1=0.8507727387889537, acc=0.9310869310869311
+fold: 1 - cp:9 train: 0.9131908817215322 test: f1=0.850834274244135, acc=0.9304434304434305
+fold: 1 - cp:10 train: 0.914828962062233 test: f1=0.8514097028194055, acc=0.9315549315549315
+fold: 1 - cp:11 train: 0.9561568854678354 test: f1=0.9255345293683951, acc=0.9645489645489645
+fold: 1 - cp:12 train: 0.9638199038058655 test: f1=0.9407606045831302, acc=0.9715689715689716
+fold: 1 - cp:13 train: 0.9751681315497414 test: f1=0.9588442394075513, acc=0.9801684801684801
+fold: 1 - cp:14 train: 0.9807254146865751 test: f1=0.9757693239641386, acc=0.9882999882999883
+fold: 1 - cp:15 train: 0.9794676189446896 test: f1=0.9698736637512149, acc=0.9854919854919855
+fold: 1 - cp:16 train: 0.9769230443364744 test: f1=0.9705314009661836, acc=0.9857259857259857
+fold: 1 - cp:17 train: 0.9793799852000601 test: f1=0.971830985915493, acc=0.9864279864279865
+fold: 1 - cp:18 train: 0.9796432628381622 test: f1=0.9728155339805826, acc=0.9868959868959869
+fold: 1 - cp:19 train: 0.9787656353519713 test: f1=0.970321017565112, acc=0.9856674856674856
+fold: 2 - cp:1 train: 0.8059553059553061 test: f1=0.5574712643678161, acc=0.8108218777420299
+fold: 2 - cp:2 train: 0.812946062946063 test: f1=0.5552350735506201, acc=0.8195963732085405
+fold: 2 - cp:3 train: 0.818854568854569 test: f1=0.6302358551359711, acc=0.8321731500438725
+fold: 2 - cp:4 train: 0.8206095706095706 test: f1=0.6023838221507968, acc=0.826323486399532
+fold: 2 - cp:5 train: 0.8225693225693226 test: f1=0.6711557296767875, acc=0.8428780345130155
+fold: 2 - cp:6 train: 0.8866561366561367 test: f1=0.7843236409608091, acc=0.9002047382275519
+fold: 2 - cp:7 train: 0.9189774189774189 test: f1=0.8507251957386729, acc=0.9319684118163205
+fold: 2 - cp:8 train: 0.9168714168714169 test: f1=0.8432778489116518, acc=0.9284001169932729
+fold: 2 - cp:9 train: 0.9146191646191647 test: f1=0.8510479970234404, acc=0.9297455396314712
+fold: 2 - cp:10 train: 0.9171346671346671 test: f1=0.8408378276683808, acc=0.9257677683533196
+fold: 2 - cp:11 train: 0.9588452088452089 test: f1=0.9196165191740413, acc=0.9617431997660134
+fold: 2 - cp:12 train: 0.9652802152802153 test: f1=0.9468693009118542, acc=0.9744369698742322
+fold: 2 - cp:13 train: 0.982040482040482 test: f1=0.9687461996838137, acc=0.9849663644340451
+fold: 2 - cp:14 train: 0.9847607347607348 test: f1=0.973741794310722, acc=0.9873647265282246
+fold: 2 - cp:15 train: 0.9820697320697321 test: f1=0.9732490272373541, acc=0.987130739982451
+fold: 2 - cp:16 train: 0.9822159822159823 test: f1=0.9716935090287945, acc=0.9864287803451302
+fold: 2 - cp:17 train: 0.9826547326547326 test: f1=0.9716026812918952, acc=0.9863702837086867
+fold: 2 - cp:18 train: 0.9830934830934832 test: f1=0.9729795520934762, acc=0.9870137467095642
+fold: 2 - cp:19 train: 0.9835907335907337 test: f1=0.9727361246348588, acc=0.9868967534366774
+fold: 3 - cp:1 train: 0.8016966994798066 test: f1=0.5059163059163059, acc=0.7996957996957997
+fold: 3 - cp:2 train: 0.8180756242876037 test: f1=0.5477688368690562, acc=0.8191763191763192
+fold: 3 - cp:3 train: 0.8406845760612723 test: f1=0.6631205673758864, acc=0.8443898443898444
+fold: 3 - cp:4 train: 0.8303890140284619 test: f1=0.6235639861074005, acc=0.8351468351468352
+fold: 3 - cp:5 train: 0.8282830529847376 test: f1=0.641543877950189, acc=0.8391833391833392
+fold: 3 - cp:6 train: 0.8901140526666966 test: f1=0.7777062685030248, acc=0.898970398970399
+fold: 3 - cp:7 train: 0.9197425118693252 test: f1=0.8486140724946695, acc=0.9293904293904294
+fold: 3 - cp:8 train: 0.9175782868751985 test: f1=0.8426660059464818, acc=0.9257049257049257
+fold: 3 - cp:9 train: 0.9179875238017494 test: f1=0.8440457170947523, acc=0.9257634257634257
+fold: 3 - cp:10 train: 0.9155893704326086 test: f1=0.8356301678777249, acc=0.9232479232479233
+fold: 3 - cp:11 train: 0.9585257511673048 test: f1=0.9189920098340504, acc=0.9614484614484614
+fold: 3 - cp:12 train: 0.9622112103686741 test: f1=0.9344861178762787, acc=0.9685269685269685
+fold: 3 - cp:13 train: 0.977888384269994 test: f1=0.964960866947622, acc=0.982976482976483
+fold: 3 - cp:14 train: 0.9795846122179767 test: f1=0.972972972972973, acc=0.986954486954487
+fold: 3 - cp:15 train: 0.9801404688512785 test: f1=0.9718924157984009, acc=0.9864279864279865
+fold: 3 - cp:16 train: 0.9790288616622262 test: f1=0.965133171912833, acc=0.9831519831519832
+fold: 3 - cp:17 train: 0.9798186569361113 test: f1=0.9713449579319595, acc=0.9862524862524863
+fold: 3 - cp:18 train: 0.9800526948105328 test: f1=0.9718514923562244, acc=0.9864279864279865
+fold: 3 - cp:19 train: 0.9804621336266166 test: f1=0.9734106840705825, acc=0.9871299871299871
+fold: 0 - cp:16 train: 0.9899577510562235 test: f1=0.9813365442504515, acc=0.9909330213512723
+fold: 1 - cp:16 train: 0.9881377965550862 test: f1=0.9800362976406534, acc=0.9903480549868383
+fold: 2 - cp:16 train: 0.9890152746181344 test: f1=0.985524728588661, acc=0.9929804036267914
+fold: 3 - cp:16 train: 0.9895677608059797 test: f1=0.9740181268882175, acc=0.987423223164668
+fold: 4 - cp:16 train: 0.9878778030549237 test: f1=0.9752265861027191, acc=0.9880081895291021
+fold: 5 - cp:16 train: 0.9902502437439065 test: f1=0.9744835965978129, acc=0.9877157063468851
+fold: 6 - cp:16 train: 0.989697757556061 test: f1=0.9861194930597466, acc=0.9932728868090085
+fold: 7 - cp:16 train: 0.9892102697432564 test: f1=0.9756690997566909, acc=0.988300672711319
+fold: 8 - cp:16 train: 0.9891127721806955 test: f1=0.9775349119611414, acc=0.9891781222579702
+fold: 9 - cp:16 train: 0.9894055499489705 test: f1=0.9747292418772564, acc=0.9877121123464014
+
+
+
+PC8
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Never-worked^2
+	marital-status_Married-AF-spouse
+	workclass_Never-worked
+
+PC9
+Features:
+	workclass_Local-gov workclass_Never-workeddot: graph is too large for cairo-renderer bitmaps. Scaling by 0.370177 to fit
+
+	workclass_Never-worked
+	occupation_Armed-Forces
+	workclass_Without-pay
+
+PC16
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Never-worked
+	workclass_Without-pay
+	marital-status_Married-AF-spouse
+
+PC14
+Features:
+	workclass_Local-gov workclass_Never-worked
+	marital-status_Married-AF-spouse
+	workclass_Never-worked
+	occupation_Armed-Forces
+
+PC4
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Never-worked
+	occupation_Armed-Forces
+	occupation_Adm-clerical
+
+PC5
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Without-pay
+	workclass_Never-worked
+	occupation_Armed-Forces
+
+PC2
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Never-worked
+	relationship_Other-relative
+	occupation_Farming-fishing
+
+PC10
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Never-worked
+	occupation_Armed-Forces
+	workclass_Local-gov
+
+PC3
+Features:
+	workclass_Local-gov workclass_Never-worked
+	occupation_Armed-Forces
+	workclass_Without-pay
+	marital-status_Married-spouse-absent
+
+PC7
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Without-pay
+	workclass_Federal-gov workclass_Local-gov
+	occupation_Armed-Forces
+
+PC15
+Features:
+	workclass_Local-gov workclass_Never-worked
+	race_Amer-Indian-Eskimo
+	workclass_Never-worked
+	marital-status_Married-AF-spouse
+
+PC12
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Without-pay
+	marital-status_Married-spouse-absent
+	marital-status_Married-AF-spouse
+
+PC6
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Never-worked
+	workclass_Without-pay
+	workclass_Local-gov
+
+PC11
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_? workclass_Never-worked
+	occupation_Armed-Forces
+	marital-status_Married-AF-spouse
+
+PC13
+Features:
+	workclass_Local-gov workclass_Never-worked
+	occupation_Armed-Forces
+	workclass_Never-worked
+	workclass_Without-pay
+
+PC1
+Features:
+	workclass_Local-gov workclass_Never-worked
+	occupation_Armed-Forces
+	occupation_Tech-support
+	marital-status_Married-AF-spouse
+
+Normalized confusion matrix
+[[9.99228395e-01 7.71604938e-04]
+ [1.21065375e-03 9.98789346e-01]]
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2592
+           1       1.00      1.00      1.00       826
+
+    accuracy                           1.00      3418
+   macro avg       1.00      1.00      1.00      3418
+weighted avg       1.00      1.00      1.00      3418
+
+Traceback (most recent call last):
+  File "decision-tree-f1-98-acc-99-auc-99.py", line 383, in <module>
+    from sklearn.externals import joblib
+ImportError: cannot import name 'joblib'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.joblib'), ('new_fqn', 'sklearn.experimental'), ('line_no', 383)])fold: 0 - cp:1 train: 0.8075640575640575 test: f1=0.5450068399452804, acc=0.8054401871892366
+fold: 0 - cp:2 train: 0.8183573183573184 test: f1=0.559155130583702, acc=0.8193038900263235
+fold: 0 - cp:3 train: 0.8201415701415701 test: f1=0.6139432350509783, acc=0.8360924246855805
+fold: 0 - cp:4 train: 0.824002574002574 test: f1=0.6543778801843319, acc=0.8376718338695525
+fold: 0 - cp:5 train: 0.8254943254943254 test: f1=0.6620217887002786, acc=0.8439309739689967
+fold: 0 - cp:6 train: 0.8895811395811396 test: f1=0.7969905636317265, acc=0.9068733547821001
+fold: 0 - cp:7 train: 0.9177489177489178 test: f1=0.8361524867457711, acc=0.924071365896461
+fold: 0 - cp:8 train: 0.9183924183924185 test: f1=0.8465530022238695, acc=0.9273471775372916
+fold: 0 - cp:9 train: 0.9164034164034163 test: f1=0.8390011293763332, acc=0.924948815443112
+fold: 0 - cp:10 train: 0.9157599157599158 test: f1=0.8371568258743889, acc=0.9240128692600176
+fold: 0 - cp:11 train: 0.9565344565344565 test: f1=0.9234802147047809, acc=0.9641415618601931
+fold: 0 - cp:12 train: 0.9629109629109629 test: f1=0.9350460494425594, acc=0.9686458028663352
+fold: 0 - cp:13 train: 0.9735872235872237 test: f1=0.9601545520405699, acc=0.9806961099736765
+fold: 0 - cp:14 train: 0.9798467298467298 test: f1=0.971539299987889, acc=0.9862532904357999
+fold: 0 - cp:15 train: 0.9801099801099801 test: f1=0.9755329457364341, acc=0.9881836794384323
+fold: 0 - cp:16 train: 0.9782379782379782 test: f1=0.9754039064383893, acc=0.9880666861655455
+fold: 0 - cp:17 train: 0.9796127296127296 test: f1=0.9739677927109819, acc=0.987423223164668
+fold: 0 - cp:18 train: 0.98010998010998 test: f1=0.9755625453665618, acc=0.9881836794384323
+fold: 0 - cp:19 train: 0.9806072306072307 test: f1=0.9708503974945797, acc=0.9858438139806961
+fold: 1 - cp:1 train: 0.8019888678522277 test: f1=0.5385363144007778, acc=0.8056043056043056
+fold: 1 - cp:2 train: 0.8189236424496135 test: f1=0.5510688836104513, acc=0.8230958230958231
+fold: 1 - cp:3 train: 0.8422345367537226 test: f1=0.7017587012667569, acc=0.8581373581373581
+fold: 1 - cp:4 train: 0.8354198034825082 test: f1=0.6939229249011858, acc=0.855036855036855
+fold: 1 - cp:5 train: 0.8298626264232254 test: f1=0.6632589452686697, acc=0.841991341991342
+fold: 1 - cp:6 train: 0.8986836713497921 test: f1=0.797123391370174, acc=0.905931905931906
+fold: 1 - cp:7 train: 0.9231646044643237 test: f1=0.8569330559295067, acc=0.9316134316134316
+fold: 1 - cp:8 train: 0.9176366603250086 test: f1=0.8433855799373041, acc=0.926933426933427
+fold: 1 - cp:9 train: 0.9181046197307311 test: f1=0.8476738369184592, acc=0.9287469287469288
+fold: 1 - cp:10 train: 0.9183971473980833 test: f1=0.8451903807615231, acc=0.9276939276939277
+fold: 1 - cp:11 train: 0.9587306450900274 test: f1=0.9295426452410382, acc=0.9666549666549666
+fold: 1 - cp:12 train: 0.9657794401886587 test: f1=0.9405313185474043, acc=0.9714519714519715
+fold: 1 - cp:13 train: 0.9820999847029328 test: f1=0.9684848484848485, acc=0.9847899847899848
+fold: 1 - cp:14 train: 0.9830943796198827 test: f1=0.9719353662981411, acc=0.9864864864864865
+fold: 1 - cp:15 train: 0.9826265399791371 test: f1=0.9664608306090327, acc=0.9837954837954838
+fold: 1 - cp:16 train: 0.9836794452201565 test: f1=0.9710548625408744, acc=0.9860184860184861
+fold: 1 - cp:17 train: 0.9818367926112428 test: f1=0.9726524685382382, acc=0.9867789867789868
+fold: 1 - cp:18 train: 0.9830651946059059 test: f1=0.9649358582773365, acc=0.9832104832104832
+fold: 1 - cp:19 train: 0.9826850023972158 test: f1=0.9710688778598232, acc=0.9860184860184861
+fold: 2 - cp:1 train: 0.8055458055458056 test: f1=0.5219957835558678, acc=0.8010529394559813
+fold: 2 - cp:2 train: 0.8236808236808236 test: f1=0.5467775467775469, acc=0.8214682655747294
+fold: 2 - cp:3 train: 0.8254358254358255 test: f1=0.5710157491691952, acc=0.826323486399532
+fold: 2 - cp:4 train: 0.8267520767520767 test: f1=0.5611382836816363, acc=0.8267914594910792
+fold: 2 - cp:5 train: 0.8285363285363286 test: f1=0.6619083395942901, acc=0.8420590816028078
+fold: 2 - cp:6 train: 0.8903123903123903 test: f1=0.7871566537062586, acc=0.9007312079555425
+fold: 2 - cp:7 train: 0.9224289224289224 test: f1=0.8433298862461219, acc=0.9291020766305937
+fold: 2 - cp:8 train: 0.9244764244764245 test: f1=0.8463604963541, acc=0.9297455396314712
+fold: 2 - cp:9 train: 0.9200889200889201 test: f1=0.8418737060041408, acc=0.9285171102661597
+fold: 2 - cp:10 train: 0.9218439218439217 test: f1=0.8324310389275587, acc=0.9239543726235742
+fold: 2 - cp:11 train: 0.958991458991459 test: f1=0.9267633325141312, acc=0.9651360046797309
+fold: 2 - cp:12 train: 0.9606587106587107 test: f1=0.9367613013281345, acc=0.969640245685873
+fold: 2 - cp:13 train: 0.9754007254007253 test: f1=0.960648988981717, acc=0.9809885931558935
+fold: 2 - cp:14 train: 0.9787937287937288 test: f1=0.9654000242806848, acc=0.9833284586136297
+fold: 2 - cp:15 train: 0.9775359775359777 test: f1=0.9691470054446462, acc=0.9850833577069319
+fold: 2 - cp:16 train: 0.9792909792909794 test: f1=0.9661777185113347, acc=0.9836794384322901
+fold: 2 - cp:17 train: 0.9797882297882298 test: f1=0.9678433268858802, acc=0.9844398947060544
+fold: 2 - cp:18 train: 0.9786182286182287 test: f1=0.9683651291958465, acc=0.984673881251828
+fold: 2 - cp:19 train: 0.9793787293787294 test: f1=0.9701204819277107, acc=0.9854928341620357
+fold: 3 - cp:1 train: 0.8036852908460301 test: f1=0.5345858240819812, acc=0.8087048087048087
+fold: 3 - cp:2 train: 0.8143608329324287 test: f1=0.5493587831792425, acc=0.8232128232128232
+fold: 3 - cp:3 train: 0.8228430129167144 test: f1=0.6121540814907523, acc=0.8368433368433369
+fold: 3 - cp:4 train: 0.8316172278210181 test: f1=0.6892039258451472, acc=0.84994734994735
+fold: 3 - cp:5 train: 0.8264405509375092 test: f1=0.6813432835820896, acc=0.8501228501228502
+fold: 3 - cp:6 train: 0.8899677990985899 test: f1=0.7781716890351987, acc=0.8975078975078975
+fold: 3 - cp:7 train: 0.9159404802830166 test: f1=0.8513243378310844, acc=0.9303849303849304
+fold: 3 - cp:8 train: 0.9127521552357771 test: f1=0.8301597444089457, acc=0.9222534222534222
+fold: 3 - cp:9 train: 0.910938896374086 test: f1=0.8361753189339397, acc=0.9241254241254241
+fold: 3 - cp:10 train: 0.9132202617813288 test: f1=0.8490147783251232, acc=0.9282789282789283
+fold: 3 - cp:11 train: 0.9564784681186178 test: f1=0.9249628528974739, acc=0.9645489645489645
+fold: 3 - cp:12 train: 0.9654578472723069 test: f1=0.9395759284226007, acc=0.9711594711594712
+fold: 3 - cp:13 train: 0.9830944651662948 test: f1=0.9744273421403467, acc=0.9876564876564876
+fold: 3 - cp:14 train: 0.9842059115280922 test: f1=0.9752787203102277, acc=0.9880659880659881
+fold: 3 - cp:15 train: 0.9865749962263767 test: f1=0.9765861943467186, acc=0.9887094887094887
+fold: 3 - cp:16 train: 0.9839718736536706 test: f1=0.973530840213696, acc=0.9872469872469872
+fold: 3 - cp:17 train: 0.9823339883587895 test: f1=0.975018190637885, acc=0.987948987948988
+fold: 3 - cp:18 train: 0.9831237665233922 test: f1=0.9764791464597479, acc=0.9886509886509887
+fold: 3 - cp:19 train: 0.9827726566729842 test: f1=0.9768905021173624, acc=0.9888264888264888
+fold: 0 - cp:19 train: 0.9897302567435815 test: f1=0.97128894318876, acc=0.9862532904357999
+fold: 1 - cp:19 train: 0.990510237244069 test: f1=0.9787750151607034, acc=0.9897630886224043
+fold: 2 - cp:19 train: 0.9895027624309393 test: f1=0.9818621523579202, acc=0.9912255045334893
+fold: 3 - cp:19 train: 0.9890152746181344 test: f1=0.9813140446051839, acc=0.9909330213512723
+fold: 4 - cp:19 train: 0.9889827754306143 test: f1=0.9758162031438936, acc=0.988300672711319
+fold: 5 - cp:19 train: 0.9887552811179721 test: f1=0.9769975786924939, acc=0.9888856390757531
+fold: 6 - cp:19 train: 0.9901202469938252 test: f1=0.9817961165048543, acc=0.9912255045334893
+fold: 7 - cp:19 train: 0.9888852778680534 test: f1=0.9860690490611751, acc=0.9932728868090085
+fold: 8 - cp:19 train: 0.9897627559311017 test: f1=0.9855072463768116, acc=0.9929804036267914
+fold: 9 - cp:19 train: 0.9886256011241045 test: f1=0.9752265861027191, acc=0.9880046811000586
+
+
+
+PC8
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Never-worked^2
+	marital-status_Married-AF-spouse
+	workclass_?^2
+
+PC4
+Features:
+	workclass_Local-gov workclass_Never-workeddot: graph is too large for cairo-renderer bitmaps. Scaling by 0.370999 to fit
+
+	workclass_Never-worked
+	occupation_Armed-Forces
+	occupation_Adm-clerical
+
+PC14
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Never-worked
+	occupation_Armed-Forces
+	marital-status_Married-AF-spouse
+
+PC9
+Features:
+	workclass_Local-gov workclass_Never-worked
+	marital-status_Separated
+	workclass_Never-worked
+	occupation_Armed-Forces
+
+PC19
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Never-worked
+	workclass_State-gov
+	workclass_Without-pay
+
+PC2
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Without-pay
+	occupation_Farming-fishing
+	workclass_Never-worked
+
+PC16
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Never-worked
+	occupation_Armed-Forces
+	workclass_Without-pay
+
+PC10
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Never-worked
+	occupation_Armed-Forces
+	marital-status_Married-AF-spouse
+
+PC5
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Without-pay
+	workclass_Never-worked
+	marital-status_Married-AF-spouse
+
+PC3
+Features:
+	workclass_Local-gov workclass_Never-worked
+	occupation_Armed-Forces
+	marital-status_Married-spouse-absent
+	workclass_Without-pay
+
+PC18
+Features:
+	workclass_Local-gov workclass_Never-worked
+	occupation_Armed-Forces
+	workclass_Never-worked
+	workclass_Without-pay
+
+PC17
+Features:
+	workclass_Local-gov workclass_Never-worked
+	marital-status_Married-AF-spouse
+	relationship_Not-in-family
+	occupation_Armed-Forces
+
+PC7
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Never-worked^2
+	workclass_Never-worked
+	workclass_Without-pay
+
+PC15
+Features:
+	workclass_Local-gov workclass_Never-worked
+	marital-status_Married-AF-spouse
+	race_Amer-Indian-Eskimo
+	workclass_Never-worked
+
+PC6
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Never-worked
+	race_Asian-Pac-Islander
+	workclass_Without-pay
+
+PC12
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Without-pay
+	marital-status_Married-AF-spouse
+	workclass_Never-worked
+
+PC13
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Never-worked
+	occupation_Priv-house-serv
+	race_Other
+
+PC11
+Features:
+	workclass_Local-gov workclass_Never-worked
+	workclass_Never-worked
+	occupation_Armed-Forces
+	marital-status_Married-AF-spouse
+
+PC1
+Features:
+	workclass_Local-gov workclass_Never-worked
+	occupation_Armed-Forces
+	workclass_Without-pay
+	marital-status_Married-AF-spouse
+
+Normalized confusion matrix
+[[9.99228395e-01 7.71604938e-04]
+ [4.84261501e-03 9.95157385e-01]]
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2592
+           1       1.00      1.00      1.00       826
+
+    accuracy                           1.00      3418
+   macro avg       1.00      1.00      1.00      3418
+weighted avg       1.00      1.00      1.00      3418
+
+Traceback (most recent call last):
+  File "decision-tree-f1-98-acc-99-auc-99.py", line 386, in <module>
+    sklearn.experimental.dump(best_model, 'lgr.sklearn.experimental')
+AttributeError: module 'sklearn' has no attribute 'experimental'
+[REPAIR EXEC TIME]: 405.1262083053589

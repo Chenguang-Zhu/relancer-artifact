@@ -1,0 +1,10 @@
+
+Traceback (most recent call last):
+  File "fork-of-regression-challenge-day-3.py", line 12, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 12)])
+
+
+
+[REPAIR EXEC TIME]: 3.6793365478515625

@@ -1,0 +1,8 @@
+
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'

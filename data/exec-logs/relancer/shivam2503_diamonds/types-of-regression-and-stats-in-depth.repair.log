@@ -1,0 +1,259 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 53940 entries, 0 to 53939
+Data columns (total 11 columns):
+ #   Column      Non-Null Count  Dtype  
+---  ------      --------------  -----  
+ 0   Unnamed: 0  53940 non-null  int64  
+ 1   carat       53940 non-null  float64
+ 2   cut         53940 non-null  object 
+ 3   color       53940 non-null  object 
+ 4   clarity     53940 non-null  object 
+ 5   depth       53940 non-null  float64
+ 6   table       53940 non-null  float64
+ 7   price       53940 non-null  int64  
+ 8   x           53940 non-null  float64
+ 9   y           53940 non-null  float64
+ 10  z           53940 non-null  float64
+dtypes: float64(6), int64(2), object(3)
+memory usage: 4.5+ MB
+
+
+Number of rows with x == 0: 8 
+Number of rows with y == 0: 7 
+Number of rows with z == 0: 20 
+Number of rows with depth == 0: 0 
+
+
+accuracy: 92.21078518476793%
+Mean absolute error: 731.4415989248854
+Mean squared error: 1222201.224070932
+R Squared: 0.9221078518476793
+Adjusted R Squared: 0.9219872757669482
+accuracy: 92.20342856834277%
+Mean absolute error: 729.9153209546201
+Mean squared error: 1223355.5465300155
+R Squared: 0.9220342856834277
+Adjusted R Squared: 0.9219135957231853
+accuracy: 92.21059025809674%
+Mean absolute error: 731.4437670796449
+Mean squared error: 1222231.8099029798
+R Squared: 0.9221059025809675
+Adjusted R Squared: 0.9219853234827956
+Traceback (most recent call last):
+  File "types-of-regression-and-stats-in-depth.py", line 645, in <module>
+    regressor_ols = smf.OLS(endog = diamond_clean_data_standard.price, exog = X_opt).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('old_fqn', 'statsmodels.formula.api.OLS'), ('new_fqn', 'statsmodels.regression.linear_model.OLS'), ('line_no', 645)])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 53940 entries, 0 to 53939
+Data columns (total 11 columns):
+ #   Column      Non-Null Count  Dtype  
+---  ------      --------------  -----  
+ 0   Unnamed: 0  53940 non-null  int64  
+ 1   carat       53940 non-null  float64
+ 2   cut         53940 non-null  object 
+ 3   color       53940 non-null  object 
+ 4   clarity     53940 non-null  object 
+ 5   depth       53940 non-null  float64
+ 6   table       53940 non-null  float64
+ 7   price       53940 non-null  int64  
+ 8   x           53940 non-null  float64
+ 9   y           53940 non-null  float64
+ 10  z           53940 non-null  float64
+dtypes: float64(6), int64(2), object(3)
+memory usage: 4.5+ MB
+
+
+Number of rows with x == 0: 8 
+Number of rows with y == 0: 7 
+Number of rows with z == 0: 20 
+Number of rows with depth == 0: 0 
+
+
+accuracy: 92.21078518476793%
+Mean absolute error: 731.4415989248854
+Mean squared error: 1222201.224070932
+R Squared: 0.9221078518476793
+Adjusted R Squared: 0.9219872757669482
+accuracy: 92.20342856834277%
+Mean absolute error: 729.9153209546201
+Mean squared error: 1223355.5465300155
+R Squared: 0.9220342856834277
+Adjusted R Squared: 0.9219135957231853
+accuracy: 92.21059025809674%
+Mean absolute error: 731.4437670796449
+Mean squared error: 1222231.8099029798
+R Squared: 0.9221059025809675
+Adjusted R Squared: 0.9219853234827956
+[REPAIR EXEC TIME]: 8.86008334159851<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 53940 entries, 0 to 53939
+Data columns (total 11 columns):
+ #   Column      Non-Null Count  Dtype  
+---  ------      --------------  -----  
+ 0   Unnamed: 0  53940 non-null  int64  
+ 1   carat       53940 non-null  float64
+ 2   cut         53940 non-null  object 
+ 3   color       53940 non-null  object 
+ 4   clarity     53940 non-null  object 
+ 5   depth       53940 non-null  float64
+ 6   table       53940 non-null  float64
+ 7   price       53940 non-null  int64  
+ 8   x           53940 non-null  float64
+ 9   y           53940 non-null  float64
+ 10  z           53940 non-null  float64
+dtypes: float64(6), int64(2), object(3)
+memory usage: 4.5+ MB
+
+
+Number of rows with x == 0: 8 
+Number of rows with y == 0: 7 
+Number of rows with z == 0: 20 
+Number of rows with depth == 0: 0 
+
+
+accuracy: 92.21078518476793%
+Mean absolute error: 731.4415989248854
+Mean squared error: 1222201.224070932
+R Squared: 0.9221078518476793
+Adjusted R Squared: 0.9219872757669482
+accuracy: 92.20342856834277%
+Mean absolute error: 729.9153209546201
+Mean squared error: 1223355.5465300155
+R Squared: 0.9220342856834277
+Adjusted R Squared: 0.9219135957231853
+accuracy: 92.21059025809674%
+Mean absolute error: 731.4437670796449
+Mean squared error: 1222231.8099029798
+R Squared: 0.9221059025809675
+Adjusted R Squared: 0.9219853234827956
+Traceback (most recent call last):
+  File "types-of-regression-and-stats-in-depth.py", line 645, in <module>
+    regressor_ols = smf.OLS(endog = diamond_clean_data_standard.price, exog = X_opt).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'statsmodels.formula.api.OLS'), ('new_fqn', 'statsmodels.regression.linear_model.OLS'), ('line_no', 645)])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 53940 entries, 0 to 53939
+Data columns (total 11 columns):
+ #   Column      Non-Null Count  Dtype  
+---  ------      --------------  -----  
+ 0   Unnamed: 0  53940 non-null  int64  
+ 1   carat       53940 non-null  float64
+ 2   cut         53940 non-null  object 
+ 3   color       53940 non-null  object 
+ 4   clarity     53940 non-null  object 
+ 5   depth       53940 non-null  float64
+ 6   table       53940 non-null  float64
+ 7   price       53940 non-null  int64  
+ 8   x           53940 non-null  float64
+ 9   y           53940 non-null  float64
+ 10  z           53940 non-null  float64
+dtypes: float64(6), int64(2), object(3)
+memory usage: 4.5+ MB
+
+
+Number of rows with x == 0: 8 
+Number of rows with y == 0: 7 
+Number of rows with z == 0: 20 
+Number of rows with depth == 0: 0 
+
+
+accuracy: 92.21078518476793%
+Mean absolute error: 731.4415989248854
+Mean squared error: 1222201.224070932
+R Squared: 0.9221078518476793
+Adjusted R Squared: 0.9219872757669482
+accuracy: 92.20342856834277%
+Mean absolute error: 729.9153209546201
+Mean squared error: 1223355.5465300155
+R Squared: 0.9220342856834277
+Adjusted R Squared: 0.9219135957231853
+accuracy: 92.21059025809674%
+Mean absolute error: 731.4437670796449
+Mean squared error: 1222231.8099029798
+R Squared: 0.9221059025809675
+Adjusted R Squared: 0.9219853234827956
+[REPAIR EXEC TIME]: 9.169808864593506<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 53940 entries, 0 to 53939
+Data columns (total 11 columns):
+ #   Column      Non-Null Count  Dtype  
+---  ------      --------------  -----  
+ 0   Unnamed: 0  53940 non-null  int64  
+ 1   carat       53940 non-null  float64
+ 2   cut         53940 non-null  object 
+ 3   color       53940 non-null  object 
+ 4   clarity     53940 non-null  object 
+ 5   depth       53940 non-null  float64
+ 6   table       53940 non-null  float64
+ 7   price       53940 non-null  int64  
+ 8   x           53940 non-null  float64
+ 9   y           53940 non-null  float64
+ 10  z           53940 non-null  float64
+dtypes: float64(6), int64(2), object(3)
+memory usage: 4.5+ MB
+
+
+Number of rows with x == 0: 8 
+Number of rows with y == 0: 7 
+Number of rows with z == 0: 20 
+Number of rows with depth == 0: 0 
+
+
+accuracy: 92.21078518476793%
+Mean absolute error: 731.4415989248854
+Mean squared error: 1222201.224070932
+R Squared: 0.9221078518476793
+Adjusted R Squared: 0.9219872757669482
+accuracy: 92.20342856834277%
+Mean absolute error: 729.9153209546201
+Mean squared error: 1223355.5465300155
+R Squared: 0.9220342856834277
+Adjusted R Squared: 0.9219135957231853
+accuracy: 92.21059025809674%
+Mean absolute error: 731.4437670796449
+Mean squared error: 1222231.8099029798
+R Squared: 0.9221059025809675
+Adjusted R Squared: 0.9219853234827956
+Traceback (most recent call last):
+  File "types-of-regression-and-stats-in-depth.py", line 645, in <module>
+    regressor_ols = smf.OLS(endog = diamond_clean_data_standard.price, exog = X_opt).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'statsmodels.formula.api.OLS'), ('new_fqn', 'statsmodels.regression.linear_model.OLS'), ('line_no', 645)])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 53940 entries, 0 to 53939
+Data columns (total 11 columns):
+ #   Column      Non-Null Count  Dtype  
+---  ------      --------------  -----  
+ 0   Unnamed: 0  53940 non-null  int64  
+ 1   carat       53940 non-null  float64
+ 2   cut         53940 non-null  object 
+ 3   color       53940 non-null  object 
+ 4   clarity     53940 non-null  object 
+ 5   depth       53940 non-null  float64
+ 6   table       53940 non-null  float64
+ 7   price       53940 non-null  int64  
+ 8   x           53940 non-null  float64
+ 9   y           53940 non-null  float64
+ 10  z           53940 non-null  float64
+dtypes: float64(6), int64(2), object(3)
+memory usage: 4.5+ MB
+
+
+Number of rows with x == 0: 8 
+Number of rows with y == 0: 7 
+Number of rows with z == 0: 20 
+Number of rows with depth == 0: 0 
+
+
+accuracy: 92.21078518476793%
+Mean absolute error: 731.4415989248854
+Mean squared error: 1222201.224070932
+R Squared: 0.9221078518476793
+Adjusted R Squared: 0.9219872757669482
+accuracy: 92.20342856834277%
+Mean absolute error: 729.9153209546201
+Mean squared error: 1223355.5465300155
+R Squared: 0.9220342856834277
+Adjusted R Squared: 0.9219135957231853
+accuracy: 92.21059025809674%
+Mean absolute error: 731.4437670796449
+Mean squared error: 1222231.8099029798
+R Squared: 0.9221059025809675
+Adjusted R Squared: 0.9219853234827956
+[REPAIR EXEC TIME]: 9.058880090713501

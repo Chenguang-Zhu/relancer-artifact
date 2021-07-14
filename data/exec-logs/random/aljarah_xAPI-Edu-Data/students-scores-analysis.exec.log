@@ -1,0 +1,158 @@
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/categorical.py:3666: UserWarning: The `factorplot` function has been renamed to `catplot`. The original name will be removed in a future release. Please update your code. Note that the default `kind` in `factorplot` (`'point'`) has changed `'strip'` in `catplot`.
+  warnings.warn(msg)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/categorical.py:3672: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/core/frame.py:3997: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  errors=errors,
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+xAPI-Edu-Data.csv
+
+       raisedhands  VisITedResources  AnnouncementsView  Discussion
+count   480.000000        480.000000         480.000000  480.000000
+mean     46.775000         54.797917          37.918750   43.283333
+std      30.779223         33.080007          26.611244   27.637735
+min       0.000000          0.000000           0.000000    1.000000
+25%      15.750000         20.000000          14.000000   20.000000
+50%      50.000000         65.000000          33.000000   39.000000
+75%      75.000000         84.000000          58.000000   70.000000
+max     100.000000         99.000000          98.000000   99.000000
+(480, 16)
+ 1) VisITedResources               0.128494
+ 2) raisedhands                    0.115890
+ 3) AnnouncementsView              0.103508
+ 4) StudentAbsenceDays_Above-7     0.077869
+ 5) Discussion                     0.074674
+ 6) StudentAbsenceDays_Under-7     0.072676
+ 7) Relation_Mum                   0.031380
+ 8) Relation_Father                0.029454
+ 9) ParentAnsweringSurvey_No       0.026411
+10) ParentAnsweringSurvey_Yes      0.025430
+11) gender_F                       0.017401
+12) ParentschoolSatisfaction_Bad   0.017162
+13) gender_M                       0.016479
+14) ParentschoolSatisfaction_Good  0.015377
+15) NationalITy_KW                 0.015049
+16) NationalITy_Jordan             0.013333
+17) SectionID_A                    0.012821
+18) SectionID_B                    0.012658
+19) Topic_IT                       0.010894
+20) StageID_lowerlevel             0.010393
+21) StageID_MiddleSchool           0.010272
+22) GradeID_G-02                   0.009433
+23) Semester_S                     0.009408
+24) Semester_F                     0.008916
+25) Topic_French                   0.008220
+26) Topic_Chemistry                0.008182
+27) GradeID_G-08                   0.008057
+28) GradeID_G-07                   0.007723
+29) Topic_Arabic                   0.007487
+30) Topic_English                  0.007021
+31) NationalITy_SaudiArabia        0.006832
+32) Topic_Geology                  0.006520
+33) SectionID_C                    0.005710
+34) GradeID_G-04                   0.005550
+35) Topic_History                  0.005165
+36) NationalITy_Iraq               0.005133
+37) GradeID_G-06                   0.005080
+38) NationalITy_Palestine          0.004764
+39) StageID_HighSchool             0.004399
+40) Topic_Science                  0.004134
+41) Topic_Spanish                  0.003900
+42) Topic_Biology                  0.003747
+43) NationalITy_lebanon            0.003722
+44) Topic_Math                     0.003320
+45) Topic_Quran                    0.002935
+46) GradeID_G-11                   0.002555
+47) NationalITy_Tunis              0.002120
+48) NationalITy_Egypt              0.001931
+49) GradeID_G-12                   0.001859
+50) NationalITy_Syria              0.001770
+51) NationalITy_Iran               0.001631
+52) NationalITy_Lybia              0.001256
+53) NationalITy_USA                0.001088
+54) NationalITy_Morocco            0.001078
+55) GradeID_G-09                   0.000735
+56) GradeID_G-10                   0.000647
+57) NationalITy_venzuela           0.000185
+58) GradeID_G-05                   0.000162
+LR: -0.668673 (0.067942)
+LASSO: -0.661985 (0.050468)
+EN: -0.663328 (0.054669)
+KNN: -0.672891 (0.140459)
+CART: -1.065686 (0.202656)
+SVR: -0.711193 (0.108766)
+ScaledLR: -0.668673 (0.067942)
+ScaledLASSO: -0.715119 (0.053704)
+ScaledEN: -0.715119 (0.053704)
+ScaledKNN: -0.700848 (0.164649)
+ScaledCART: -1.048128 (0.204843)
+ScaledSVR: -0.706310 (0.161411)
+
+Best: -0.663132 using {'alpha': 0.04}
+-0.673893 (0.045331) with: {'alpha': 0.1}
+-0.675793 (0.045277) with: {'alpha': 0.11}
+-0.677836 (0.045130) with: {'alpha': 0.12}
+-0.680090 (0.045153) with: {'alpha': 0.13}
+-0.682610 (0.045314) with: {'alpha': 0.14}
+-0.685481 (0.045699) with: {'alpha': 0.15}
+-0.688651 (0.046429) with: {'alpha': 0.16}
+-0.672008 (0.045675) with: {'alpha': 0.09}
+-0.670047 (0.046416) with: {'alpha': 0.08}
+-0.668079 (0.047464) with: {'alpha': 0.07}
+-0.666390 (0.048643) with: {'alpha': 0.06}
+-0.664865 (0.049878) with: {'alpha': 0.05}
+-0.663132 (0.050851) with: {'alpha': 0.04}
+ScaledAB: -0.624303 (0.064853)
+ScaledGBM: -0.675583 (0.105977)
+ScaledRF: -0.621740 (0.128584)
+ScaledET: -0.629543 (0.138245)
+
+Best: -0.620034 using {'n_estimators': 50}
+-0.620034 (0.067908) with: {'n_estimators': 50}
+-0.620034 (0.067908) with: {'n_estimators': 100}
+-0.620034 (0.067908) with: {'n_estimators': 150}
+-0.620034 (0.067908) with: {'n_estimators': 200}
+-0.620034 (0.067908) with: {'n_estimators': 250}
+-0.620034 (0.067908) with: {'n_estimators': 300}
+-0.620034 (0.067908) with: {'n_estimators': 350}
+-0.620034 (0.067908) with: {'n_estimators': 400}
+0.6632508323338011
+0.7203847178937068

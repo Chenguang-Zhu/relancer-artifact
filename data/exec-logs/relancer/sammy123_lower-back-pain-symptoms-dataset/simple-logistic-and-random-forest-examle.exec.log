@@ -1,0 +1,27 @@
+simple-logistic-and-random-forest-examle.py:69: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X['intercept'] = 1.0  # so we don't need to use sm.add_constant every time
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/discrete/discrete_model.py:1747: RuntimeWarning: overflow encountered in exp
+  return 1/(1+np.exp(-X))
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/discrete/discrete_model.py:1800: RuntimeWarning: divide by zero encountered in log
+  return np.sum(np.log(self.cdf(q*np.dot(X,params))))
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/base/model.py:548: HessianInversionWarning: Inverting hessian failed, no bse or cov_params available
+  'available', HessianInversionWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/base/model.py:548: HessianInversionWarning: Inverting hessian failed, no bse or cov_params available
+  'available', HessianInversionWarning)
+
+Optimization terminated successfully.
+         Current function value: inf
+         Iterations 9
+accuracy = 85.3211009174312%
+number of trees: 10
+accuracy: 78.49462365591397
+number of trees: 30
+accuracy: 82.79569892473118
+number of trees: 50
+accuracy: 80.64516129032258
+number of trees: 100
+accuracy: 80.64516129032258

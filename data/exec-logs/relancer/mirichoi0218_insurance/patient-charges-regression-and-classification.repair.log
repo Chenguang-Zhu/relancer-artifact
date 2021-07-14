@@ -1,0 +1,1858 @@
+Null Values in age : 0
+Null Values in sex : 0
+Null Values in bmi : 0
+Null Values in children : 0
+Null Values in smoker : 0
+Null Values in region : 0
+Null Values in charges : 0
+
+
+Traceback (most recent call last):
+  File "patient-charges-regression-and-classification.py", line 228, in <module>
+    ohe = OneHotEncoder(categorical_features=categorical_features , sparse=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'categorical_features'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.OneHotEncoder'), ('action', 'arg_delete'), ('from_name', 'categorical_features'), ('to_name', '*')])Null Values in age : 0
+Null Values in sex : 0
+Null Values in bmi : 0
+Null Values in children : 0
+Null Values in smoker : 0
+Null Values in region : 0
+Null Values in charges : 0
+
+
+   smoker_no  smoker_yes       bmi  ...  sex_female  region_southwest  sex_male
+0   0.349601    0.270302  0.205446  ...    0.003581          0.003435  0.003305
+
+[1 rows x 11 columns]
+The accuracy score is 0.9364829985411289
+The precision score is 0.8464570440392005
+ N-Estmators  10
+ Accuracy  0.9615384615384616
+ Precision Score  0.8484848484848485
+ N-Estmators  20
+ Accuracy  0.9615384615384616
+ Precision Score  0.8484848484848485
+ N-Estmators  30
+ Accuracy  0.9615384615384616
+ Precision Score  0.8484848484848485
+ N-Estmators  50
+ Accuracy  0.9615384615384616
+ Precision Score  0.8484848484848485
+ N-Estmators  100
+ Accuracy  0.9638009049773756
+ Precision Score  0.8571428571428571
+ N-Estmators  150
+ Accuracy  0.9615384615384616
+ Precision Score  0.8556701030927835
+ N-Estmators  200
+ Accuracy  0.9638009049773756
+ Precision Score  0.8645833333333334
+ N-Estmators  500
+ Accuracy  0.9638009049773756
+ Precision Score  0.8723404255319149
+ N-Estmators  1000
+ Accuracy  0.9638009049773756
+ Precision Score  0.8723404255319149
+ N-Estmators  1500
+ Accuracy  0.9638009049773756
+ Precision Score  0.8723404255319149
+ N-Estmators  2000
+ Accuracy  0.9638009049773756
+ Precision Score  0.8723404255319149
+ N-Estmators  2500
+ Accuracy  0.9638009049773756
+ Precision Score  0.8723404255319149
+ N-Estmators  3000
+ Accuracy  0.9638009049773756
+ Precision Score  0.8723404255319149
+ N-Estmators  5000
+ Accuracy  0.9705882352941176
+ Precision Score  0.9010989010989011
+ The value n_estimators is  5000  with Accuracy  0.9705882352941176  with Precision  0.9010989010989011
+ min-samples-split  50
+ Accuracy Score  0.9683257918552036
+ Precision Score  0.8913043478260869
+ min-samples-split  75
+ Accuracy Score  0.9638009049773756
+ Precision Score  0.8723404255319149
+ min-samples-split  80
+ Accuracy Score  0.9660633484162896
+ Precision Score  0.8736842105263158
+ min-samples-split  90
+ Accuracy Score  0.9615384615384616
+ Precision Score  0.8709677419354839
+ min-samples-split  100
+ Accuracy Score  0.9615384615384616
+ Precision Score  0.8709677419354839
+ min-samples-split  150
+ Accuracy Score  0.9638009049773756
+ Precision Score  0.8723404255319149
+ min-samples-split  200
+ Accuracy Score  0.9638009049773756
+ Precision Score  0.8888888888888888
+ min-samples-split  250
+ Accuracy Score  0.9660633484162896
+ Precision Score  0.8817204301075269
+ min-samples-split  500
+ Accuracy Score  0.9570135746606335
+ Precision Score  0.8681318681318682
+ min-samples-split is  50  with Accuracy  0.9683257918552036  with Precision  0.8913043478260869
+ min_samples_leaf  10
+ Accuracy  0.9683257918552036
+ Prescision Score  0.8829787234042553
+ min_samples_leaf  20
+ Accuracy  0.9660633484162896
+ Prescision Score  0.8817204301075269
+ min_samples_leaf  25
+ Accuracy  0.9705882352941176
+ Prescision Score  0.8842105263157894
+ min_samples_leaf  30
+ Accuracy  0.9638009049773756
+ Prescision Score  0.8804347826086957
+ min_samples_leaf  35
+ Accuracy  0.9705882352941176
+ Prescision Score  0.8762886597938144
+ min_samples_leaf  38
+ Accuracy  0.9683257918552036
+ Prescision Score  0.875
+ min_samples_leaf  32
+ Accuracy  0.9660633484162896
+ Prescision Score  0.8736842105263158
+ min_samples_leaf  40
+ Accuracy  0.9683257918552036
+ Prescision Score  0.8829787234042553
+ min_samples_leaf  50
+ Accuracy  0.9683257918552036
+ Prescision Score  0.875
+ min_samples_leaf  75
+ Accuracy  0.9683257918552036
+ Prescision Score  0.8829787234042553
+ min_samples_leaf  80
+ Accuracy  0.9638009049773756
+ Prescision Score  0.8723404255319149
+ min_samples_leaf  90
+ Accuracy  0.9728506787330317
+ Prescision Score  0.8936170212765957
+ min_samples_leaf  100
+ Accuracy  0.9683257918552036
+ Prescision Score  0.8913043478260869
+ min_samples_leaf  150
+ Accuracy  0.9434389140271493
+ Prescision Score  0.8426966292134831
+ min_samples_leaf  200
+ Accuracy  0.9389140271493213
+ Prescision Score  0.8172043010752689
+ min_samples_leaf  250
+ Accuracy  0.918552036199095
+ Prescision Score  0.7450980392156863
+ min_samples_leaf  500
+ Accuracy  0.8054298642533937
+ Prescision Score  0.0
+ min_samples_leaf is  90  with R2  0.9728506787330317  with Prescision  0.8936170212765957
+ max_depth  10
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  20
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  25
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  30
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  35
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  38
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  32
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  40
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  50
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  75
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  80
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  90
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  100
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  150
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  200
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  250
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  500
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  1000
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  2000
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth is  10  with Accuracy  0.9705882352941176  with Precision  0.8842105263157894
+ max_leaf_nodes  2
+ Accuracy Score  0.9457013574660633
+ Precision Score  0.8369565217391305
+ max_leaf_nodes  3
+ Accuracy Score  0.9592760180995475
+ Precision Score  0.8695652173913043
+ max_leaf_nodes  4
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  5
+ Accuracy Score  0.9728506787330317
+ Precision Score  0.8936170212765957
+ max_leaf_nodes  6
+ Accuracy Score  0.9683257918552036
+ Precision Score  0.875
+ max_leaf_nodes  8
+ Accuracy Score  0.9683257918552036
+ Precision Score  0.8829787234042553
+ max_leaf_nodes  9
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  10
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  20
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  25
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  30
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  35
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  38
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  32
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  40
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  50
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  75
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  80
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  90
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  100
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  150
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  200
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  250
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  400
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes is  10  with Accuracy  0.9728506787330317  with Precision  0.8936170212765957
+ learning_rate  0.1
+ accuracy Score  0.9728506787330317
+ precision Score  0.8936170212765957
+ learning_rate  0.2
+ accuracy Score  0.9728506787330317
+ precision Score  0.9021739130434783
+ learning_rate  0.30000000000000004
+ accuracy Score  0.9660633484162896
+ precision Score  0.8736842105263158
+ learning_rate  0.4
+ accuracy Score  0.9592760180995475
+ precision Score  0.8695652173913043
+ learning_rate  0.5
+ accuracy Score  0.9570135746606335
+ precision Score  0.8681318681318682
+ learning_rate  0.6000000000000001
+ accuracy Score  0.9547511312217195
+ precision Score  0.8666666666666667
+ learning_rate  0.7000000000000001
+ accuracy Score  0.9502262443438914
+ precision Score  0.872093023255814
+ learning_rate  0.8
+ accuracy Score  0.9502262443438914
+ precision Score  0.8636363636363636
+ learning_rate  0.9
+ accuracy Score  0.9502262443438914
+ precision Score  0.872093023255814
+ learning_rate  1.0
+ accuracy Score  0.9457013574660633
+ precision Score  0.8690476190476191
+ learning_rate  1.1
+ accuracy Score  0.9502262443438914
+ precision Score  0.872093023255814
+ learning_rate  1.2000000000000002
+ accuracy Score  0.9457013574660633
+ precision Score  0.8690476190476191
+ learning_rate  1.3
+ accuracy Score  0.9411764705882353
+ precision Score  0.8571428571428571
+ learning_rate  1.4000000000000001
+ accuracy Score  0.9366515837104072
+ precision Score  0.967741935483871
+ learning_rate  1.5
+ accuracy Score  0.9230769230769231
+ precision Score  0.9814814814814815
+ learning_rate  1.6
+ accuracy Score  0.9389140271493213
+ precision Score  0.7657657657657657
+ learning_rate  1.7000000000000002
+ accuracy Score  0.9117647058823529
+ precision Score  0.7008547008547008
+ learning_rate  1.8
+ accuracy Score  0.9095022624434389
+ precision Score  0.6949152542372882
+ learning_rate  1.9000000000000001
+ accuracy Score  0.8461538461538461
+ precision Score  0.5616438356164384
+ learning_rate  2.0
+ accuracy Score  0.9343891402714932
+ precision Score  0.7614678899082569
+ learning_rates is  1.5  with accuracy  0.9230769230769231  with precision  0.9814814814814815
+ max_-features  2
+ accuracy Score  0.5633484162895928
+ precision Score  0.20441988950276244
+ max_-features  3
+ accuracy Score  0.5475113122171946
+ precision Score  0.203125
+ max_-features  4
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ max_-features  5
+ accuracy Score  0.7126696832579186
+ precision Score  0.3969849246231156
+ max_-features  6
+ accuracy Score  0.6538461538461539
+ precision Score  0.3149171270718232
+ max_-features  7
+ accuracy Score  0.4479638009049774
+ precision Score  0.2606060606060606
+ max_-features  8
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ max_-features  9
+ accuracy Score  0.9230769230769231
+ precision Score  0.9814814814814815
+ max-features  9  with accuracy  0.9230769230769231  with precision  0.9814814814814815
+ N-Estmators  10
+ Accuracy Score  0.9479638009049773
+ Precision Score  0.8705882352941177
+ N-Estmators  20
+ Accuracy Score  0.9592760180995475
+ Precision Score  0.8541666666666666
+ N-Estmators  30
+ Accuracy Score  0.9570135746606335
+ Precision Score  0.8681318681318682
+ N-Estmators  50
+ Accuracy Score  0.9524886877828054
+ Precision Score  0.8651685393258427
+ N-Estmators  100
+ Accuracy Score  0.9524886877828054
+ Precision Score  0.8651685393258427
+ N-Estmators  150
+ Accuracy Score  0.9524886877828054
+ Precision Score  0.8735632183908046
+ N-Estmators  200
+ Accuracy Score  0.9524886877828054
+ Precision Score  0.8823529411764706
+ N-Estmators  500
+ Accuracy Score  0.9524886877828054
+ Precision Score  0.8735632183908046
+ N-Estmators  1000
+ Accuracy Score  0.9502262443438914
+ Precision Score  0.8636363636363636
+ The value n_estimators is  200  with Accuracy  0.9524886877828054  with Precision  0.8823529411764706
+ learning-rate  0.1
+ accuracy Score  0.9615384615384616
+ precision Score  0.8556701030927835
+ learning-rate  0.2
+ accuracy Score  0.9638009049773756
+ precision Score  0.8804347826086957
+ learning-rate  0.30000000000000004
+ accuracy Score  0.9615384615384616
+ precision Score  0.8791208791208791
+ learning-rate  0.4
+ accuracy Score  0.9592760180995475
+ precision Score  0.8695652173913043
+ learning-rate  0.5
+ accuracy Score  0.9570135746606335
+ precision Score  0.8764044943820225
+ learning-rate  0.6000000000000001
+ accuracy Score  0.9547511312217195
+ precision Score  0.8666666666666667
+ learning-rate  0.7000000000000001
+ accuracy Score  0.9547511312217195
+ precision Score  0.875
+ learning-rate  0.8
+ accuracy Score  0.9547511312217195
+ precision Score  0.8666666666666667
+ learning-rate  0.9
+ accuracy Score  0.9547511312217195
+ precision Score  0.875
+ learning-rate  1.0
+ accuracy Score  0.9524886877828054
+ precision Score  0.8823529411764706
+ learning-rate  1.1
+ accuracy Score  0.9524886877828054
+ precision Score  0.8735632183908046
+ learning-rate  1.2000000000000002
+ accuracy Score  0.9502262443438914
+ precision Score  0.8555555555555555
+ learning-rate  1.3
+ accuracy Score  0.9524886877828054
+ precision Score  0.8651685393258427
+ learning-rate  1.4000000000000001
+ accuracy Score  0.9457013574660633
+ precision Score  0.8522727272727273
+ learning-rate  1.5
+ accuracy Score  0.9615384615384616
+ precision Score  0.8791208791208791
+ learning-rate  1.6
+ accuracy Score  0.9411764705882353
+ precision Score  0.8409090909090909
+ learning-rate  1.7000000000000002
+ accuracy Score  0.9524886877828054
+ precision Score  0.8651685393258427
+ learning-rate  1.8
+ accuracy Score  0.9457013574660633
+ precision Score  0.8369565217391305
+ learning-rate  1.9000000000000001
+ accuracy Score  0.9343891402714932
+ precision Score  0.8275862068965517
+ learning-rate  2.0
+ accuracy Score  0.7420814479638009
+ precision Score  0.18181818181818182
+ learning-rate  2.1
+ accuracy Score  0.7398190045248869
+ precision Score  0.17777777777777778
+ learning-rate  2.2
+ accuracy Score  0.7398190045248869
+ precision Score  0.17777777777777778
+ learning-rate  2.3000000000000003
+ accuracy Score  0.7398190045248869
+ precision Score  0.17777777777777778
+ learning-rate  2.4000000000000004
+ accuracy Score  0.7398190045248869
+ precision Score  0.17777777777777778
+ learning-rate  2.5
+ accuracy Score  0.8076923076923077
+ precision Score  0.6666666666666666
+ learning-rate  2.6
+ accuracy Score  0.8076923076923077
+ precision Score  0.6666666666666666
+ learning-rate  2.7
+ accuracy Score  0.8054298642533937
+ precision Score  0.5
+ learning-rate  2.8000000000000003
+ accuracy Score  0.8054298642533937
+ precision Score  0.5
+ learning-rate  2.9000000000000004
+ accuracy Score  0.8054298642533937
+ precision Score  0.5
+ learning-rate  3.0
+ accuracy Score  0.8054298642533937
+ precision Score  0.5
+ learning-rate  3.1
+ accuracy Score  0.8054298642533937
+ precision Score  0.5
+ learning-rate  3.2
+ accuracy Score  0.8054298642533937
+ precision Score  0.5
+ learning-rate  3.3000000000000003
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  3.4000000000000004
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  3.5
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  3.6
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  3.7
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  3.8000000000000003
+ accuracy Score  0.19457013574660634
+ precision Score  0.19457013574660634
+ learning-rate  3.9000000000000004
+ accuracy Score  0.19457013574660634
+ precision Score  0.19457013574660634
+ learning-rate  4.0
+ accuracy Score  0.19457013574660634
+ precision Score  0.19457013574660634
+ learning-rate  4.1000000000000005
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  4.2
+ accuracy Score  0.06561085972850679
+ precision Score  0.006042296072507553
+ learning-rate  4.3
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  4.4
+ accuracy Score  0.8009049773755657
+ precision Score  0.0
+ learning-rate  4.5
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  4.6000000000000005
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  4.7
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  4.800000000000001
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  4.9
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  5.0
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  1.0  with accuracy  0.9524886877828054  with precision  0.8823529411764706
+ C  2
+ precision Score  0.9457013574660633
+ Precision Score  0.7818181818181819
+ C  8
+ precision Score  0.9095022624434389
+ Precision Score  0.8026315789473685
+ C  10
+ precision Score  0.920814479638009
+ Precision Score  0.8
+ C  12
+ precision Score  0.9457013574660633
+ Precision Score  0.803921568627451
+ C  15
+ precision Score  0.8054298642533937
+ Precision Score  0.0
+ C  20
+ precision Score  0.9457013574660633
+ Precision Score  0.7818181818181819
+ C  25
+ precision Score  0.9004524886877828
+ Precision Score  0.85
+ C  28
+ precision Score  0.9321266968325792
+ Precision Score  0.7413793103448276
+ C  30
+ precision Score  0.9321266968325792
+ Precision Score  0.7413793103448276
+ C  35
+ precision Score  0.916289592760181
+ Precision Score  0.9803921568627451
+ C  50
+ precision Score  0.9411764705882353
+ Precision Score  0.8
+ C  55
+ precision Score  0.9004524886877828
+ Precision Score  0.85
+ C  60
+ precision Score  0.9366515837104072
+ Precision Score  0.7543859649122807
+ C  70
+ precision Score  0.9049773755656109
+ Precision Score  0.8928571428571429
+ C  75
+ precision Score  0.9366515837104072
+ Precision Score  0.7543859649122807
+ C  80
+ precision Score  0.9343891402714932
+ Precision Score  0.7478260869565218
+ C  100
+ precision Score  0.8054298642533937
+ Precision Score  0.0
+ C  150
+ precision Score  0.9389140271493213
+ Precision Score  0.7610619469026548
+ C  125
+ precision Score  0.9524886877828054
+ Precision Score  0.8037383177570093
+ C  175
+ precision Score  0.9027149321266968
+ Precision Score  0.8771929824561403
+ C  200
+ precision Score  0.9027149321266968
+ Precision Score  0.864406779661017
+ C  250
+ precision Score  0.9389140271493213
+ Precision Score  0.7610619469026548
+ C  300
+ precision Score  0.9366515837104072
+ Precision Score  0.7543859649122807
+ Penalty(C)  35  with accuracy  0.916289592760181  with Precision  0.9803921568627451
+[REPAIR EXEC TIME]: 574.5926556587219Null Values in age : 0
+Null Values in sex : 0
+Null Values in bmi : 0
+Null Values in children : 0
+Null Values in smoker : 0
+Null Values in region : 0
+Null Values in charges : 0
+
+
+Traceback (most recent call last):
+  File "patient-charges-regression-and-classification.py", line 228, in <module>
+    ohe = OneHotEncoder(categorical_features=categorical_features , sparse=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'categorical_features'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.OneHotEncoder'), ('action', 'arg_delete'), ('from_name', 'categorical_features'), ('to_name', '*')])Null Values in age : 0
+Null Values in sex : 0
+Null Values in bmi : 0
+Null Values in children : 0
+Null Values in smoker : 0
+Null Values in region : 0
+Null Values in charges : 0
+
+
+   smoker_no  smoker_yes       bmi  ...  sex_female  region_southwest  sex_male
+0   0.349601    0.270302  0.205446  ...    0.003581          0.003435  0.003305
+
+[1 rows x 11 columns]
+The accuracy score is 0.9364829985411289
+The precision score is 0.8464570440392005
+ N-Estmators  10
+ Accuracy  0.9615384615384616
+ Precision Score  0.8484848484848485
+ N-Estmators  20
+ Accuracy  0.9615384615384616
+ Precision Score  0.8484848484848485
+ N-Estmators  30
+ Accuracy  0.9615384615384616
+ Precision Score  0.8484848484848485
+ N-Estmators  50
+ Accuracy  0.9615384615384616
+ Precision Score  0.8484848484848485
+ N-Estmators  100
+ Accuracy  0.9638009049773756
+ Precision Score  0.8571428571428571
+ N-Estmators  150
+ Accuracy  0.9615384615384616
+ Precision Score  0.8556701030927835
+ N-Estmators  200
+ Accuracy  0.9638009049773756
+ Precision Score  0.8645833333333334
+ N-Estmators  500
+ Accuracy  0.9638009049773756
+ Precision Score  0.8723404255319149
+ N-Estmators  1000
+ Accuracy  0.9638009049773756
+ Precision Score  0.8723404255319149
+ N-Estmators  1500
+ Accuracy  0.9638009049773756
+ Precision Score  0.8723404255319149
+ N-Estmators  2000
+ Accuracy  0.9638009049773756
+ Precision Score  0.8723404255319149
+ N-Estmators  2500
+ Accuracy  0.9638009049773756
+ Precision Score  0.8723404255319149
+ N-Estmators  3000
+ Accuracy  0.9638009049773756
+ Precision Score  0.8723404255319149
+ N-Estmators  5000
+ Accuracy  0.9705882352941176
+ Precision Score  0.9010989010989011
+ The value n_estimators is  5000  with Accuracy  0.9705882352941176  with Precision  0.9010989010989011
+ min-samples-split  50
+ Accuracy Score  0.9683257918552036
+ Precision Score  0.8913043478260869
+ min-samples-split  75
+ Accuracy Score  0.9638009049773756
+ Precision Score  0.8723404255319149
+ min-samples-split  80
+ Accuracy Score  0.9660633484162896
+ Precision Score  0.8736842105263158
+ min-samples-split  90
+ Accuracy Score  0.9615384615384616
+ Precision Score  0.8709677419354839
+ min-samples-split  100
+ Accuracy Score  0.9615384615384616
+ Precision Score  0.8709677419354839
+ min-samples-split  150
+ Accuracy Score  0.9638009049773756
+ Precision Score  0.8723404255319149
+ min-samples-split  200
+ Accuracy Score  0.9638009049773756
+ Precision Score  0.8888888888888888
+ min-samples-split  250
+ Accuracy Score  0.9660633484162896
+ Precision Score  0.8817204301075269
+ min-samples-split  500
+ Accuracy Score  0.9570135746606335
+ Precision Score  0.8681318681318682
+ min-samples-split is  50  with Accuracy  0.9683257918552036  with Precision  0.8913043478260869
+ min_samples_leaf  10
+ Accuracy  0.9683257918552036
+ Prescision Score  0.8829787234042553
+ min_samples_leaf  20
+ Accuracy  0.9660633484162896
+ Prescision Score  0.8817204301075269
+ min_samples_leaf  25
+ Accuracy  0.9705882352941176
+ Prescision Score  0.8842105263157894
+ min_samples_leaf  30
+ Accuracy  0.9638009049773756
+ Prescision Score  0.8804347826086957
+ min_samples_leaf  35
+ Accuracy  0.9705882352941176
+ Prescision Score  0.8762886597938144
+ min_samples_leaf  38
+ Accuracy  0.9683257918552036
+ Prescision Score  0.875
+ min_samples_leaf  32
+ Accuracy  0.9660633484162896
+ Prescision Score  0.8736842105263158
+ min_samples_leaf  40
+ Accuracy  0.9683257918552036
+ Prescision Score  0.8829787234042553
+ min_samples_leaf  50
+ Accuracy  0.9683257918552036
+ Prescision Score  0.875
+ min_samples_leaf  75
+ Accuracy  0.9683257918552036
+ Prescision Score  0.8829787234042553
+ min_samples_leaf  80
+ Accuracy  0.9638009049773756
+ Prescision Score  0.8723404255319149
+ min_samples_leaf  90
+ Accuracy  0.9728506787330317
+ Prescision Score  0.8936170212765957
+ min_samples_leaf  100
+ Accuracy  0.9683257918552036
+ Prescision Score  0.8913043478260869
+ min_samples_leaf  150
+ Accuracy  0.9434389140271493
+ Prescision Score  0.8426966292134831
+ min_samples_leaf  200
+ Accuracy  0.9389140271493213
+ Prescision Score  0.8172043010752689
+ min_samples_leaf  250
+ Accuracy  0.918552036199095
+ Prescision Score  0.7450980392156863
+ min_samples_leaf  500
+ Accuracy  0.8054298642533937
+ Prescision Score  0.0
+ min_samples_leaf is  90  with R2  0.9728506787330317  with Prescision  0.8936170212765957
+ max_depth  10
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  20
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  25
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  30
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  35
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  38
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  32
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  40
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  50
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  75
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  80
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  90
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  100
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  150
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  200
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  250
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  500
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  1000
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  2000
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth is  10  with Accuracy  0.9705882352941176  with Precision  0.8842105263157894
+ max_leaf_nodes  2
+ Accuracy Score  0.9457013574660633
+ Precision Score  0.8369565217391305
+ max_leaf_nodes  3
+ Accuracy Score  0.9592760180995475
+ Precision Score  0.8695652173913043
+ max_leaf_nodes  4
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  5
+ Accuracy Score  0.9728506787330317
+ Precision Score  0.8936170212765957
+ max_leaf_nodes  6
+ Accuracy Score  0.9683257918552036
+ Precision Score  0.875
+ max_leaf_nodes  8
+ Accuracy Score  0.9683257918552036
+ Precision Score  0.8829787234042553
+ max_leaf_nodes  9
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  10
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  20
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  25
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  30
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  35
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  38
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  32
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  40
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  50
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  75
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  80
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  90
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  100
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  150
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  200
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  250
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  400
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes is  10  with Accuracy  0.9728506787330317  with Precision  0.8936170212765957
+ learning_rate  0.1
+ accuracy Score  0.9728506787330317
+ precision Score  0.8936170212765957
+ learning_rate  0.2
+ accuracy Score  0.9728506787330317
+ precision Score  0.9021739130434783
+ learning_rate  0.30000000000000004
+ accuracy Score  0.9660633484162896
+ precision Score  0.8736842105263158
+ learning_rate  0.4
+ accuracy Score  0.9592760180995475
+ precision Score  0.8695652173913043
+ learning_rate  0.5
+ accuracy Score  0.9570135746606335
+ precision Score  0.8681318681318682
+ learning_rate  0.6000000000000001
+ accuracy Score  0.9547511312217195
+ precision Score  0.8666666666666667
+ learning_rate  0.7000000000000001
+ accuracy Score  0.9502262443438914
+ precision Score  0.872093023255814
+ learning_rate  0.8
+ accuracy Score  0.9502262443438914
+ precision Score  0.8636363636363636
+ learning_rate  0.9
+ accuracy Score  0.9502262443438914
+ precision Score  0.872093023255814
+ learning_rate  1.0
+ accuracy Score  0.9457013574660633
+ precision Score  0.8690476190476191
+ learning_rate  1.1
+ accuracy Score  0.9502262443438914
+ precision Score  0.872093023255814
+ learning_rate  1.2000000000000002
+ accuracy Score  0.9457013574660633
+ precision Score  0.8690476190476191
+ learning_rate  1.3
+ accuracy Score  0.9411764705882353
+ precision Score  0.8571428571428571
+ learning_rate  1.4000000000000001
+ accuracy Score  0.9366515837104072
+ precision Score  0.967741935483871
+ learning_rate  1.5
+ accuracy Score  0.9230769230769231
+ precision Score  0.9814814814814815
+ learning_rate  1.6
+ accuracy Score  0.9389140271493213
+ precision Score  0.7657657657657657
+ learning_rate  1.7000000000000002
+ accuracy Score  0.9117647058823529
+ precision Score  0.7008547008547008
+ learning_rate  1.8
+ accuracy Score  0.9095022624434389
+ precision Score  0.6949152542372882
+ learning_rate  1.9000000000000001
+ accuracy Score  0.8461538461538461
+ precision Score  0.5616438356164384
+ learning_rate  2.0
+ accuracy Score  0.9343891402714932
+ precision Score  0.7614678899082569
+ learning_rates is  1.5  with accuracy  0.9230769230769231  with precision  0.9814814814814815
+ max_-features  2
+ accuracy Score  0.5633484162895928
+ precision Score  0.20441988950276244
+ max_-features  3
+ accuracy Score  0.5475113122171946
+ precision Score  0.203125
+ max_-features  4
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ max_-features  5
+ accuracy Score  0.7126696832579186
+ precision Score  0.3969849246231156
+ max_-features  6
+ accuracy Score  0.6538461538461539
+ precision Score  0.3149171270718232
+ max_-features  7
+ accuracy Score  0.4479638009049774
+ precision Score  0.2606060606060606
+ max_-features  8
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ max_-features  9
+ accuracy Score  0.9230769230769231
+ precision Score  0.9814814814814815
+ max-features  9  with accuracy  0.9230769230769231  with precision  0.9814814814814815
+ N-Estmators  10
+ Accuracy Score  0.9479638009049773
+ Precision Score  0.8705882352941177
+ N-Estmators  20
+ Accuracy Score  0.9592760180995475
+ Precision Score  0.8541666666666666
+ N-Estmators  30
+ Accuracy Score  0.9570135746606335
+ Precision Score  0.8681318681318682
+ N-Estmators  50
+ Accuracy Score  0.9524886877828054
+ Precision Score  0.8651685393258427
+ N-Estmators  100
+ Accuracy Score  0.9524886877828054
+ Precision Score  0.8651685393258427
+ N-Estmators  150
+ Accuracy Score  0.9524886877828054
+ Precision Score  0.8735632183908046
+ N-Estmators  200
+ Accuracy Score  0.9524886877828054
+ Precision Score  0.8823529411764706
+ N-Estmators  500
+ Accuracy Score  0.9524886877828054
+ Precision Score  0.8735632183908046
+ N-Estmators  1000
+ Accuracy Score  0.9502262443438914
+ Precision Score  0.8636363636363636
+ The value n_estimators is  200  with Accuracy  0.9524886877828054  with Precision  0.8823529411764706
+ learning-rate  0.1
+ accuracy Score  0.9615384615384616
+ precision Score  0.8556701030927835
+ learning-rate  0.2
+ accuracy Score  0.9638009049773756
+ precision Score  0.8804347826086957
+ learning-rate  0.30000000000000004
+ accuracy Score  0.9615384615384616
+ precision Score  0.8791208791208791
+ learning-rate  0.4
+ accuracy Score  0.9592760180995475
+ precision Score  0.8695652173913043
+ learning-rate  0.5
+ accuracy Score  0.9570135746606335
+ precision Score  0.8764044943820225
+ learning-rate  0.6000000000000001
+ accuracy Score  0.9547511312217195
+ precision Score  0.8666666666666667
+ learning-rate  0.7000000000000001
+ accuracy Score  0.9547511312217195
+ precision Score  0.875
+ learning-rate  0.8
+ accuracy Score  0.9547511312217195
+ precision Score  0.8666666666666667
+ learning-rate  0.9
+ accuracy Score  0.9547511312217195
+ precision Score  0.875
+ learning-rate  1.0
+ accuracy Score  0.9524886877828054
+ precision Score  0.8823529411764706
+ learning-rate  1.1
+ accuracy Score  0.9524886877828054
+ precision Score  0.8735632183908046
+ learning-rate  1.2000000000000002
+ accuracy Score  0.9502262443438914
+ precision Score  0.8555555555555555
+ learning-rate  1.3
+ accuracy Score  0.9524886877828054
+ precision Score  0.8651685393258427
+ learning-rate  1.4000000000000001
+ accuracy Score  0.9457013574660633
+ precision Score  0.8522727272727273
+ learning-rate  1.5
+ accuracy Score  0.9615384615384616
+ precision Score  0.8791208791208791
+ learning-rate  1.6
+ accuracy Score  0.9411764705882353
+ precision Score  0.8409090909090909
+ learning-rate  1.7000000000000002
+ accuracy Score  0.9524886877828054
+ precision Score  0.8651685393258427
+ learning-rate  1.8
+ accuracy Score  0.9457013574660633
+ precision Score  0.8369565217391305
+ learning-rate  1.9000000000000001
+ accuracy Score  0.9343891402714932
+ precision Score  0.8275862068965517
+ learning-rate  2.0
+ accuracy Score  0.7420814479638009
+ precision Score  0.18181818181818182
+ learning-rate  2.1
+ accuracy Score  0.7398190045248869
+ precision Score  0.17777777777777778
+ learning-rate  2.2
+ accuracy Score  0.7398190045248869
+ precision Score  0.17777777777777778
+ learning-rate  2.3000000000000003
+ accuracy Score  0.7398190045248869
+ precision Score  0.17777777777777778
+ learning-rate  2.4000000000000004
+ accuracy Score  0.7398190045248869
+ precision Score  0.17777777777777778
+ learning-rate  2.5
+ accuracy Score  0.8076923076923077
+ precision Score  0.6666666666666666
+ learning-rate  2.6
+ accuracy Score  0.8076923076923077
+ precision Score  0.6666666666666666
+ learning-rate  2.7
+ accuracy Score  0.8054298642533937
+ precision Score  0.5
+ learning-rate  2.8000000000000003
+ accuracy Score  0.8054298642533937
+ precision Score  0.5
+ learning-rate  2.9000000000000004
+ accuracy Score  0.8054298642533937
+ precision Score  0.5
+ learning-rate  3.0
+ accuracy Score  0.8054298642533937
+ precision Score  0.5
+ learning-rate  3.1
+ accuracy Score  0.8054298642533937
+ precision Score  0.5
+ learning-rate  3.2
+ accuracy Score  0.8054298642533937
+ precision Score  0.5
+ learning-rate  3.3000000000000003
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  3.4000000000000004
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  3.5
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  3.6
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  3.7
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  3.8000000000000003
+ accuracy Score  0.19457013574660634
+ precision Score  0.19457013574660634
+ learning-rate  3.9000000000000004
+ accuracy Score  0.19457013574660634
+ precision Score  0.19457013574660634
+ learning-rate  4.0
+ accuracy Score  0.19457013574660634
+ precision Score  0.19457013574660634
+ learning-rate  4.1000000000000005
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  4.2
+ accuracy Score  0.06561085972850679
+ precision Score  0.006042296072507553
+ learning-rate  4.3
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  4.4
+ accuracy Score  0.8009049773755657
+ precision Score  0.0
+ learning-rate  4.5
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  4.6000000000000005
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  4.7
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  4.800000000000001
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  4.9
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  5.0
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  1.0  with accuracy  0.9524886877828054  with precision  0.8823529411764706
+ C  2
+ precision Score  0.9389140271493213
+ Precision Score  0.8041237113402062
+ C  8
+ precision Score  0.9457013574660633
+ Precision Score  0.7818181818181819
+ C  10
+ precision Score  0.9457013574660633
+ Precision Score  0.7818181818181819
+ C  12
+ precision Score  0.8054298642533937
+ Precision Score  0.0
+ C  15
+ precision Score  0.9072398190045249
+ Precision Score  0.9090909090909091
+ C  20
+ precision Score  0.9027149321266968
+ Precision Score  0.8412698412698413
+ C  25
+ precision Score  0.9343891402714932
+ Precision Score  0.7478260869565218
+ C  28
+ precision Score  0.9004524886877828
+ Precision Score  0.85
+ C  30
+ precision Score  0.9457013574660633
+ Precision Score  0.7818181818181819
+ C  35
+ precision Score  0.9457013574660633
+ Precision Score  0.7818181818181819
+ C  50
+ precision Score  0.9389140271493213
+ Precision Score  0.7610619469026548
+ C  55
+ precision Score  0.9343891402714932
+ Precision Score  0.7478260869565218
+ C  60
+ precision Score  0.9434389140271493
+ Precision Score  0.7747747747747747
+ C  70
+ precision Score  0.9027149321266968
+ Precision Score  0.8412698412698413
+ C  75
+ precision Score  0.9366515837104072
+ Precision Score  0.7543859649122807
+ C  80
+ precision Score  0.9343891402714932
+ Precision Score  0.7478260869565218
+ C  100
+ precision Score  0.9479638009049773
+ Precision Score  0.7889908256880734
+ C  150
+ precision Score  0.9479638009049773
+ Precision Score  0.7889908256880734
+ C  125
+ precision Score  0.9389140271493213
+ Precision Score  0.7610619469026548
+ C  175
+ precision Score  0.920814479638009
+ Precision Score  0.8
+ C  200
+ precision Score  0.9457013574660633
+ Precision Score  0.7818181818181819
+ C  250
+ precision Score  0.9524886877828054
+ Precision Score  0.8037383177570093
+ C  300
+ precision Score  0.9366515837104072
+ Precision Score  0.7543859649122807
+ Penalty(C)  15  with accuracy  0.9072398190045249  with Precision  0.9090909090909091
+[REPAIR EXEC TIME]: 578.7660450935364Null Values in age : 0
+Null Values in sex : 0
+Null Values in bmi : 0
+Null Values in children : 0
+Null Values in smoker : 0
+Null Values in region : 0
+Null Values in charges : 0
+
+
+Traceback (most recent call last):
+  File "patient-charges-regression-and-classification.py", line 228, in <module>
+    ohe = OneHotEncoder(categorical_features=categorical_features , sparse=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'categorical_features'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.OneHotEncoder'), ('action', 'arg_delete'), ('from_name', 'categorical_features'), ('to_name', '*')])Null Values in age : 0
+Null Values in sex : 0
+Null Values in bmi : 0
+Null Values in children : 0
+Null Values in smoker : 0
+Null Values in region : 0
+Null Values in charges : 0
+
+
+   smoker_no  smoker_yes       bmi  ...  sex_female  region_southwest  sex_male
+0   0.349601    0.270302  0.205446  ...    0.003581          0.003435  0.003305
+
+[1 rows x 11 columns]
+The accuracy score is 0.9364829985411289
+The precision score is 0.8464570440392005
+ N-Estmators  10
+ Accuracy  0.9615384615384616
+ Precision Score  0.8484848484848485
+ N-Estmators  20
+ Accuracy  0.9615384615384616
+ Precision Score  0.8484848484848485
+ N-Estmators  30
+ Accuracy  0.9615384615384616
+ Precision Score  0.8484848484848485
+ N-Estmators  50
+ Accuracy  0.9615384615384616
+ Precision Score  0.8484848484848485
+ N-Estmators  100
+ Accuracy  0.9638009049773756
+ Precision Score  0.8571428571428571
+ N-Estmators  150
+ Accuracy  0.9615384615384616
+ Precision Score  0.8556701030927835
+ N-Estmators  200
+ Accuracy  0.9638009049773756
+ Precision Score  0.8645833333333334
+ N-Estmators  500
+ Accuracy  0.9638009049773756
+ Precision Score  0.8723404255319149
+ N-Estmators  1000
+ Accuracy  0.9638009049773756
+ Precision Score  0.8723404255319149
+ N-Estmators  1500
+ Accuracy  0.9638009049773756
+ Precision Score  0.8723404255319149
+ N-Estmators  2000
+ Accuracy  0.9638009049773756
+ Precision Score  0.8723404255319149
+ N-Estmators  2500
+ Accuracy  0.9638009049773756
+ Precision Score  0.8723404255319149
+ N-Estmators  3000
+ Accuracy  0.9638009049773756
+ Precision Score  0.8723404255319149
+ N-Estmators  5000
+ Accuracy  0.9705882352941176
+ Precision Score  0.9010989010989011
+ The value n_estimators is  5000  with Accuracy  0.9705882352941176  with Precision  0.9010989010989011
+ min-samples-split  50
+ Accuracy Score  0.9683257918552036
+ Precision Score  0.8913043478260869
+ min-samples-split  75
+ Accuracy Score  0.9638009049773756
+ Precision Score  0.8723404255319149
+ min-samples-split  80
+ Accuracy Score  0.9660633484162896
+ Precision Score  0.8736842105263158
+ min-samples-split  90
+ Accuracy Score  0.9615384615384616
+ Precision Score  0.8709677419354839
+ min-samples-split  100
+ Accuracy Score  0.9615384615384616
+ Precision Score  0.8709677419354839
+ min-samples-split  150
+ Accuracy Score  0.9638009049773756
+ Precision Score  0.8723404255319149
+ min-samples-split  200
+ Accuracy Score  0.9638009049773756
+ Precision Score  0.8888888888888888
+ min-samples-split  250
+ Accuracy Score  0.9660633484162896
+ Precision Score  0.8817204301075269
+ min-samples-split  500
+ Accuracy Score  0.9570135746606335
+ Precision Score  0.8681318681318682
+ min-samples-split is  50  with Accuracy  0.9683257918552036  with Precision  0.8913043478260869
+ min_samples_leaf  10
+ Accuracy  0.9683257918552036
+ Prescision Score  0.8829787234042553
+ min_samples_leaf  20
+ Accuracy  0.9660633484162896
+ Prescision Score  0.8817204301075269
+ min_samples_leaf  25
+ Accuracy  0.9705882352941176
+ Prescision Score  0.8842105263157894
+ min_samples_leaf  30
+ Accuracy  0.9638009049773756
+ Prescision Score  0.8804347826086957
+ min_samples_leaf  35
+ Accuracy  0.9705882352941176
+ Prescision Score  0.8762886597938144
+ min_samples_leaf  38
+ Accuracy  0.9683257918552036
+ Prescision Score  0.875
+ min_samples_leaf  32
+ Accuracy  0.9660633484162896
+ Prescision Score  0.8736842105263158
+ min_samples_leaf  40
+ Accuracy  0.9683257918552036
+ Prescision Score  0.8829787234042553
+ min_samples_leaf  50
+ Accuracy  0.9683257918552036
+ Prescision Score  0.875
+ min_samples_leaf  75
+ Accuracy  0.9683257918552036
+ Prescision Score  0.8829787234042553
+ min_samples_leaf  80
+ Accuracy  0.9638009049773756
+ Prescision Score  0.8723404255319149
+ min_samples_leaf  90
+ Accuracy  0.9728506787330317
+ Prescision Score  0.8936170212765957
+ min_samples_leaf  100
+ Accuracy  0.9683257918552036
+ Prescision Score  0.8913043478260869
+ min_samples_leaf  150
+ Accuracy  0.9434389140271493
+ Prescision Score  0.8426966292134831
+ min_samples_leaf  200
+ Accuracy  0.9389140271493213
+ Prescision Score  0.8172043010752689
+ min_samples_leaf  250
+ Accuracy  0.918552036199095
+ Prescision Score  0.7450980392156863
+ min_samples_leaf  500
+ Accuracy  0.8054298642533937
+ Prescision Score  0.0
+ min_samples_leaf is  90  with R2  0.9728506787330317  with Prescision  0.8936170212765957
+ max_depth  10
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  20
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  25
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  30
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  35
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  38
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  32
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  40
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  50
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  75
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  80
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  90
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  100
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  150
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  200
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  250
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  500
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  1000
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth  2000
+ Accuracy  0.9705882352941176
+ Precision  0.8842105263157894
+ max_depth is  10  with Accuracy  0.9705882352941176  with Precision  0.8842105263157894
+ max_leaf_nodes  2
+ Accuracy Score  0.9457013574660633
+ Precision Score  0.8369565217391305
+ max_leaf_nodes  3
+ Accuracy Score  0.9592760180995475
+ Precision Score  0.8695652173913043
+ max_leaf_nodes  4
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  5
+ Accuracy Score  0.9728506787330317
+ Precision Score  0.8936170212765957
+ max_leaf_nodes  6
+ Accuracy Score  0.9683257918552036
+ Precision Score  0.875
+ max_leaf_nodes  8
+ Accuracy Score  0.9683257918552036
+ Precision Score  0.8829787234042553
+ max_leaf_nodes  9
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  10
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  20
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  25
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  30
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  35
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  38
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  32
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  40
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  50
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  75
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  80
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  90
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  100
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  150
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  200
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  250
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes  400
+ Accuracy Score  0.9705882352941176
+ Precision Score  0.8842105263157894
+ max_leaf_nodes is  10  with Accuracy  0.9728506787330317  with Precision  0.8936170212765957
+ learning_rate  0.1
+ accuracy Score  0.9728506787330317
+ precision Score  0.8936170212765957
+ learning_rate  0.2
+ accuracy Score  0.9728506787330317
+ precision Score  0.9021739130434783
+ learning_rate  0.30000000000000004
+ accuracy Score  0.9660633484162896
+ precision Score  0.8736842105263158
+ learning_rate  0.4
+ accuracy Score  0.9592760180995475
+ precision Score  0.8695652173913043
+ learning_rate  0.5
+ accuracy Score  0.9570135746606335
+ precision Score  0.8681318681318682
+ learning_rate  0.6000000000000001
+ accuracy Score  0.9547511312217195
+ precision Score  0.8666666666666667
+ learning_rate  0.7000000000000001
+ accuracy Score  0.9502262443438914
+ precision Score  0.872093023255814
+ learning_rate  0.8
+ accuracy Score  0.9502262443438914
+ precision Score  0.8636363636363636
+ learning_rate  0.9
+ accuracy Score  0.9502262443438914
+ precision Score  0.872093023255814
+ learning_rate  1.0
+ accuracy Score  0.9457013574660633
+ precision Score  0.8690476190476191
+ learning_rate  1.1
+ accuracy Score  0.9502262443438914
+ precision Score  0.872093023255814
+ learning_rate  1.2000000000000002
+ accuracy Score  0.9457013574660633
+ precision Score  0.8690476190476191
+ learning_rate  1.3
+ accuracy Score  0.9411764705882353
+ precision Score  0.8571428571428571
+ learning_rate  1.4000000000000001
+ accuracy Score  0.9366515837104072
+ precision Score  0.967741935483871
+ learning_rate  1.5
+ accuracy Score  0.9230769230769231
+ precision Score  0.9814814814814815
+ learning_rate  1.6
+ accuracy Score  0.9389140271493213
+ precision Score  0.7657657657657657
+ learning_rate  1.7000000000000002
+ accuracy Score  0.9117647058823529
+ precision Score  0.7008547008547008
+ learning_rate  1.8
+ accuracy Score  0.9095022624434389
+ precision Score  0.6949152542372882
+ learning_rate  1.9000000000000001
+ accuracy Score  0.8461538461538461
+ precision Score  0.5616438356164384
+ learning_rate  2.0
+ accuracy Score  0.9343891402714932
+ precision Score  0.7614678899082569
+ learning_rates is  1.5  with accuracy  0.9230769230769231  with precision  0.9814814814814815
+ max_-features  2
+ accuracy Score  0.5633484162895928
+ precision Score  0.20441988950276244
+ max_-features  3
+ accuracy Score  0.5475113122171946
+ precision Score  0.203125
+ max_-features  4
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ max_-features  5
+ accuracy Score  0.7126696832579186
+ precision Score  0.3969849246231156
+ max_-features  6
+ accuracy Score  0.6538461538461539
+ precision Score  0.3149171270718232
+ max_-features  7
+ accuracy Score  0.4479638009049774
+ precision Score  0.2606060606060606
+ max_-features  8
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ max_-features  9
+ accuracy Score  0.9230769230769231
+ precision Score  0.9814814814814815
+ max-features  9  with accuracy  0.9230769230769231  with precision  0.9814814814814815
+ N-Estmators  10
+ Accuracy Score  0.9479638009049773
+ Precision Score  0.8705882352941177
+ N-Estmators  20
+ Accuracy Score  0.9592760180995475
+ Precision Score  0.8541666666666666
+ N-Estmators  30
+ Accuracy Score  0.9570135746606335
+ Precision Score  0.8681318681318682
+ N-Estmators  50
+ Accuracy Score  0.9524886877828054
+ Precision Score  0.8651685393258427
+ N-Estmators  100
+ Accuracy Score  0.9524886877828054
+ Precision Score  0.8651685393258427
+ N-Estmators  150
+ Accuracy Score  0.9524886877828054
+ Precision Score  0.8735632183908046
+ N-Estmators  200
+ Accuracy Score  0.9524886877828054
+ Precision Score  0.8823529411764706
+ N-Estmators  500
+ Accuracy Score  0.9524886877828054
+ Precision Score  0.8735632183908046
+ N-Estmators  1000
+ Accuracy Score  0.9502262443438914
+ Precision Score  0.8636363636363636
+ The value n_estimators is  200  with Accuracy  0.9524886877828054  with Precision  0.8823529411764706
+ learning-rate  0.1
+ accuracy Score  0.9615384615384616
+ precision Score  0.8556701030927835
+ learning-rate  0.2
+ accuracy Score  0.9638009049773756
+ precision Score  0.8804347826086957
+ learning-rate  0.30000000000000004
+ accuracy Score  0.9615384615384616
+ precision Score  0.8791208791208791
+ learning-rate  0.4
+ accuracy Score  0.9592760180995475
+ precision Score  0.8695652173913043
+ learning-rate  0.5
+ accuracy Score  0.9570135746606335
+ precision Score  0.8764044943820225
+ learning-rate  0.6000000000000001
+ accuracy Score  0.9547511312217195
+ precision Score  0.8666666666666667
+ learning-rate  0.7000000000000001
+ accuracy Score  0.9547511312217195
+ precision Score  0.875
+ learning-rate  0.8
+ accuracy Score  0.9547511312217195
+ precision Score  0.8666666666666667
+ learning-rate  0.9
+ accuracy Score  0.9547511312217195
+ precision Score  0.875
+ learning-rate  1.0
+ accuracy Score  0.9524886877828054
+ precision Score  0.8823529411764706
+ learning-rate  1.1
+ accuracy Score  0.9524886877828054
+ precision Score  0.8735632183908046
+ learning-rate  1.2000000000000002
+ accuracy Score  0.9502262443438914
+ precision Score  0.8555555555555555
+ learning-rate  1.3
+ accuracy Score  0.9524886877828054
+ precision Score  0.8651685393258427
+ learning-rate  1.4000000000000001
+ accuracy Score  0.9457013574660633
+ precision Score  0.8522727272727273
+ learning-rate  1.5
+ accuracy Score  0.9615384615384616
+ precision Score  0.8791208791208791
+ learning-rate  1.6
+ accuracy Score  0.9411764705882353
+ precision Score  0.8409090909090909
+ learning-rate  1.7000000000000002
+ accuracy Score  0.9524886877828054
+ precision Score  0.8651685393258427
+ learning-rate  1.8
+ accuracy Score  0.9457013574660633
+ precision Score  0.8369565217391305
+ learning-rate  1.9000000000000001
+ accuracy Score  0.9343891402714932
+ precision Score  0.8275862068965517
+ learning-rate  2.0
+ accuracy Score  0.7420814479638009
+ precision Score  0.18181818181818182
+ learning-rate  2.1
+ accuracy Score  0.7398190045248869
+ precision Score  0.17777777777777778
+ learning-rate  2.2
+ accuracy Score  0.7398190045248869
+ precision Score  0.17777777777777778
+ learning-rate  2.3000000000000003
+ accuracy Score  0.7398190045248869
+ precision Score  0.17777777777777778
+ learning-rate  2.4000000000000004
+ accuracy Score  0.7398190045248869
+ precision Score  0.17777777777777778
+ learning-rate  2.5
+ accuracy Score  0.8076923076923077
+ precision Score  0.6666666666666666
+ learning-rate  2.6
+ accuracy Score  0.8076923076923077
+ precision Score  0.6666666666666666
+ learning-rate  2.7
+ accuracy Score  0.8054298642533937
+ precision Score  0.5
+ learning-rate  2.8000000000000003
+ accuracy Score  0.8054298642533937
+ precision Score  0.5
+ learning-rate  2.9000000000000004
+ accuracy Score  0.8054298642533937
+ precision Score  0.5
+ learning-rate  3.0
+ accuracy Score  0.8054298642533937
+ precision Score  0.5
+ learning-rate  3.1
+ accuracy Score  0.8054298642533937
+ precision Score  0.5
+ learning-rate  3.2
+ accuracy Score  0.8054298642533937
+ precision Score  0.5
+ learning-rate  3.3000000000000003
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  3.4000000000000004
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  3.5
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  3.6
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  3.7
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  3.8000000000000003
+ accuracy Score  0.19457013574660634
+ precision Score  0.19457013574660634
+ learning-rate  3.9000000000000004
+ accuracy Score  0.19457013574660634
+ precision Score  0.19457013574660634
+ learning-rate  4.0
+ accuracy Score  0.19457013574660634
+ precision Score  0.19457013574660634
+ learning-rate  4.1000000000000005
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  4.2
+ accuracy Score  0.06561085972850679
+ precision Score  0.006042296072507553
+ learning-rate  4.3
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  4.4
+ accuracy Score  0.8009049773755657
+ precision Score  0.0
+ learning-rate  4.5
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  4.6000000000000005
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  4.7
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  4.800000000000001
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  4.9
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  5.0
+ accuracy Score  0.8054298642533937
+ precision Score  0.0
+ learning-rate  1.0  with accuracy  0.9524886877828054  with precision  0.8823529411764706
+ C  2
+ precision Score  0.9457013574660633
+ Precision Score  0.7818181818181819
+ C  8
+ precision Score  0.9524886877828054
+ Precision Score  0.8037383177570093
+ C  10
+ precision Score  0.9027149321266968
+ Precision Score  0.8412698412698413
+ C  12
+ precision Score  0.8054298642533937
+ Precision Score  0.0
+ C  15
+ precision Score  0.9479638009049773
+ Precision Score  0.7889908256880734
+ C  20
+ precision Score  0.9457013574660633
+ Precision Score  0.803921568627451
+ C  25
+ precision Score  0.9457013574660633
+ Precision Score  0.7818181818181819
+ C  28
+ precision Score  0.9027149321266968
+ Precision Score  0.7945205479452054
+ C  30
+ precision Score  0.9434389140271493
+ Precision Score  0.801980198019802
+ C  35
+ precision Score  0.9479638009049773
+ Precision Score  0.7889908256880734
+ C  50
+ precision Score  0.9502262443438914
+ Precision Score  0.7962962962962963
+ C  55
+ precision Score  0.9027149321266968
+ Precision Score  0.8412698412698413
+ C  60
+ precision Score  0.8257918552036199
+ Precision Score  1.0
+ C  70
+ precision Score  0.9457013574660633
+ Precision Score  0.803921568627451
+ C  75
+ precision Score  0.8122171945701357
+ Precision Score  1.0
+ C  80
+ precision Score  0.9457013574660633
+ Precision Score  0.7818181818181819
+ C  100
+ precision Score  0.9343891402714932
+ Precision Score  0.7478260869565218
+ C  150
+ precision Score  0.9072398190045249
+ Precision Score  0.8
+ C  125
+ precision Score  0.9343891402714932
+ Precision Score  0.8064516129032258
+ C  175
+ precision Score  0.9457013574660633
+ Precision Score  0.7818181818181819
+ C  200
+ precision Score  0.9027149321266968
+ Precision Score  0.864406779661017
+ C  250
+ precision Score  0.9479638009049773
+ Precision Score  0.7889908256880734
+ C  300
+ precision Score  0.9049773755656109
+ Precision Score  0.84375
+ Penalty(C)  60  with accuracy  0.8257918552036199  with Precision  1.0
+[REPAIR EXEC TIME]: 579.7628335952759

@@ -1,0 +1,4 @@
+  File "linear-model-for-price-prediction.py", line 67
+    imp = SimpleImputer(missing_values='NaN', strategy=""constant"")
+                                                                ^
+SyntaxError: invalid syntax

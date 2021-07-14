@@ -1,0 +1,62 @@
+['housing.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20640 entries, 0 to 20639
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   longitude           20640 non-null  float64
+ 1   latitude            20640 non-null  float64
+ 2   housing_median_age  20640 non-null  float64
+ 3   total_rooms         20640 non-null  float64
+ 4   total_bedrooms      20433 non-null  float64
+ 5   population          20640 non-null  float64
+ 6   households          20640 non-null  float64
+ 7   median_income       20640 non-null  float64
+ 8   median_house_value  20640 non-null  float64
+ 9   ocean_proximity     20640 non-null  object 
+dtypes: float64(9), object(1)
+memory usage: 1.6+ MB
+
+Scores: [69780.31719327 66952.50097983 72003.54776264 69215.24263046
+ 71546.42202842 76037.30462989 71092.44324664 71691.18808038
+ 75674.93557354 70913.93097084]
+Mean: 71490.78330959048
+Standard Deviation: 2601.449423991481
+Scores: [66782.73843989 66960.118071   70347.95244419 74739.57052552
+ 68031.13388938 71193.84183426 64969.63056405 68281.61137997
+ 71552.91566558 67665.10082067]
+Mean: 69052.46136345083
+Standard Deviation: 2731.674001798349
+Scores: [49320.83755848 47451.48302033 50123.96594763 52339.45391134
+ 49689.1619114  53276.87468335 48760.53937396 47949.11165185
+ 53237.82854509 50402.31812242]
+Mean: 50255.157472585626
+Standard Deviation: 1975.243945586748
+64741.11504310749 {'max_features': 2, 'n_estimators': 3}
+55512.03962773347 {'max_features': 2, 'n_estimators': 10}
+53039.11220465177 {'max_features': 2, 'n_estimators': 30}
+60657.3956747569 {'max_features': 4, 'n_estimators': 3}
+52598.28770462768 {'max_features': 4, 'n_estimators': 10}
+50340.285962302 {'max_features': 4, 'n_estimators': 30}
+59081.365306885935 {'max_features': 6, 'n_estimators': 3}
+52067.19414787006 {'max_features': 6, 'n_estimators': 10}
+50375.67139536822 {'max_features': 6, 'n_estimators': 30}
+58844.46448371944 {'max_features': 8, 'n_estimators': 3}
+52043.112898998974 {'max_features': 8, 'n_estimators': 10}
+50115.2746569272 {'max_features': 8, 'n_estimators': 30}
+62163.98993718284 {'bootstrap': False, 'max_features': 2, 'n_estimators': 3}
+54187.03708251772 {'bootstrap': False, 'max_features': 2, 'n_estimators': 10}
+59899.26193632564 {'bootstrap': False, 'max_features': 3, 'n_estimators': 3}
+52824.6558408649 {'bootstrap': False, 'max_features': 3, 'n_estimators': 10}
+58883.007992149076 {'bootstrap': False, 'max_features': 4, 'n_estimators': 3}
+52205.05209627719 {'bootstrap': False, 'max_features': 4, 'n_estimators': 10}
+49150.70756927707 {'max_features': 7, 'n_estimators': 180}
+51389.889203389284 {'max_features': 5, 'n_estimators': 15}
+50796.155224308866 {'max_features': 3, 'n_estimators': 72}
+50835.13360315349 {'max_features': 5, 'n_estimators': 21}
+49280.9449827171 {'max_features': 7, 'n_estimators': 122}
+50774.90662363929 {'max_features': 3, 'n_estimators': 75}
+50682.78888164288 {'max_features': 3, 'n_estimators': 88}
+49608.99608105296 {'max_features': 5, 'n_estimators': 100}
+50473.61930350219 {'max_features': 3, 'n_estimators': 150}
+64429.84143294435 {'max_features': 5, 'n_estimators': 2}

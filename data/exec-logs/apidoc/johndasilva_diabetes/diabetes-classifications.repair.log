@@ -1,0 +1,4372 @@
+../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1').fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'newton-cg')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1',solver="newton-cg").fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver newton-cg supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'lbfgs')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1',solver="lbfgs").fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'liblinear')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77919914]
+Coefs =  [[ 0.12097055  0.03281398 -0.0108749   0.00583698 -0.0016757   0.0769153
+   0.62802335  0.01370454]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.97
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 387, in <module>
+    from plotly.plotly import iplot
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/plotly/plotly/__init__.py", line 4, in <module>
+    _chart_studio_error("plotly")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/_plotly_future_/__init__.py", line 49, in _chart_studio_error
+    submodule=submodule
+ImportError: 
+The plotly.plotly module is deprecated,
+please install the chart-studio package and use the
+chart_studio.plotly module instead. 
+
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'chart_studio.plotly'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78035832]
+Coefs =  [[ 0.12096096  0.03281347 -0.01087496  0.00583703 -0.0016756   0.07693005
+   0.62841292  0.01372095]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.975
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+[REPAIR EXEC TIME]: 112.44888591766357../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1').fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'newton-cg')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1',solver="newton-cg").fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver newton-cg supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'lbfgs')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1',solver="lbfgs").fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'liblinear')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78567682]
+Coefs =  [[ 0.12097068  0.03282874 -0.01086586  0.00583634 -0.00167702  0.07700161
+   0.62857303  0.01372926]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9775
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 387, in <module>
+    from plotly.plotly import iplot
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/plotly/plotly/__init__.py", line 4, in <module>
+    _chart_studio_error("plotly")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/_plotly_future_/__init__.py", line 49, in _chart_studio_error
+    submodule=submodule
+ImportError: 
+The plotly.plotly module is deprecated,
+please install the chart-studio package and use the
+chart_studio.plotly module instead. 
+
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77796537]
+Coefs =  [[ 0.12094566  0.03280803 -0.01087988  0.00583633 -0.00167486  0.07690042
+   0.62805502  0.01371663]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.98
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io import iplot
+ImportError: cannot import name 'iplot'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.show'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77650885]
+Coefs =  [[ 0.12094266  0.0328015  -0.0108785   0.00583178 -0.00167425  0.07688671
+   0.62823273  0.01370927]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.show import iplot
+ModuleNotFoundError: No module named 'plotly.io.show'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.to_json'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78530887]
+Coefs =  [[ 0.12096929  0.03282915 -0.01086849  0.00583899 -0.00167719  0.0769959
+   0.62849175  0.01372777]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.99
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.to_json import iplot
+ModuleNotFoundError: No module named 'plotly.io.to_json'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.to_html'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.7777783]
+Coefs =  [[ 0.1209699   0.03280665 -0.01087948  0.00584031 -0.00167488  0.07689748
+   0.62791812  0.01371488]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.to_html import iplot
+ModuleNotFoundError: No module named 'plotly.io.to_html'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.to_image'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78182865]
+Coefs =  [[ 0.12097093  0.0328197  -0.01086979  0.00583361 -0.00167573  0.07694588
+   0.62843938  0.01371467]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.98
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.to_image import iplot
+ModuleNotFoundError: No module named 'plotly.io.to_image'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.templates'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78517754]
+Coefs =  [[ 0.12097057  0.03282711 -0.01086745  0.00583622 -0.00167679  0.0769951
+   0.62855243  0.01372992]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9875
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.templates import iplot
+ModuleNotFoundError: No module named 'plotly.io.templates'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.bar'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78563991]
+Coefs =  [[ 0.12097544  0.0328299  -0.01086851  0.00583695 -0.0016772   0.07700254
+   0.62857864  0.0137276 ]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.bar import iplot
+ModuleNotFoundError: No module named 'plotly.express.bar'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.box'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78631921]
+Coefs =  [[ 0.12097089  0.03283116 -0.01086534  0.00583667 -0.00167734  0.07700828
+   0.62861274  0.01373068]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9875
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.box import iplot
+ModuleNotFoundError: No module named 'plotly.express.box'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.pie'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78626017]
+Coefs =  [[ 0.120972    0.03283047 -0.01086592  0.00583521 -0.00167719  0.07701218
+   0.6285464   0.0137303 ]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.pie import iplot
+ModuleNotFoundError: No module named 'plotly.express.pie'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.line'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.7852098]
+Coefs =  [[ 0.12097033  0.03282734 -0.0108668   0.00583672 -0.00167688  0.07699434
+   0.6285234   0.01372958]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9825
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.line import iplot
+ModuleNotFoundError: No module named 'plotly.express.line'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.area'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78628396]
+Coefs =  [[ 0.12098184  0.03283132 -0.01086579  0.0058377  -0.00167725  0.07700714
+   0.62857239  0.01372951]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9825
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.area import iplot
+ModuleNotFoundError: No module named 'plotly.express.area'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.data'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78589328]
+Coefs =  [[ 0.12097609  0.03283032 -0.01086676  0.00583752 -0.00167722  0.07700533
+   0.62851505  0.01372691]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.data import iplot
+ImportError: cannot import name 'iplot'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.from_json'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78524777]
+Coefs =  [[ 0.1209715   0.03282842 -0.01086747  0.0058369  -0.00167705  0.0769945
+   0.62857061  0.01372721]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.from_json import iplot
+ModuleNotFoundError: No module named 'plotly.io.from_json'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.read_json'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78157196]
+Coefs =  [[ 0.12095939  0.03281736 -0.01086916  0.0058357  -0.00167583  0.0769417
+   0.62841925  0.01372005]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.read_json import iplot
+ModuleNotFoundError: No module named 'plotly.io.read_json'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.renderers'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77901805]
+Coefs =  [[ 0.120988    0.03281264 -0.01087513  0.0058362  -0.00167511  0.07690547
+   0.62818091  0.0137096 ]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9825
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.renderers import iplot
+ModuleNotFoundError: No module named 'plotly.io.renderers'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.to_templated'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77932552]
+Coefs =  [[ 0.12096436  0.03281379 -0.01087576  0.00583721 -0.00167567  0.07691181
+   0.62815835  0.0137129 ]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9875
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.to_templated import iplot
+ModuleNotFoundError: No module named 'plotly.io.to_templated'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.strip'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77862102]
+Coefs =  [[ 0.12094118  0.03280859 -0.01087239  0.00583458 -0.0016748   0.07690526
+   0.62801478  0.01371481]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.strip import iplot
+ModuleNotFoundError: No module named 'plotly.express.strip'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.write_json'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78628246]
+Coefs =  [[ 0.12097145  0.03283048 -0.01086745  0.00583693 -0.00167719  0.07701362
+   0.62856418  0.01373103]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.98
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.write_json import iplot
+ModuleNotFoundError: No module named 'plotly.io.write_json'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.write_html'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78257056]
+Coefs =  [[ 0.12097241  0.03282092 -0.01087219  0.00583624 -0.00167631  0.07696394
+   0.62856387  0.01371714]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.99
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.write_html import iplot
+ModuleNotFoundError: No module named 'plotly.io.write_html'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.violin'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78465507]
+Coefs =  [[ 0.12098329  0.03282543 -0.01086672  0.00583906 -0.00167671  0.07698543
+   0.6285332   0.01372529]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9825
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.violin import iplot
+ModuleNotFoundError: No module named 'plotly.express.violin'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.funnel'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78592142]
+Coefs =  [[ 0.12097257  0.03282972 -0.01086691  0.00583641 -0.00167714  0.07700593
+   0.62860007  0.01373018]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.funnel import iplot
+ModuleNotFoundError: No module named 'plotly.express.funnel'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.imshow'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78203418]
+Coefs =  [[ 0.12097066  0.0328184  -0.01086835  0.00583499 -0.00167606  0.0769563
+   0.62819986  0.0137155 ]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.imshow import iplot
+ModuleNotFoundError: No module named 'plotly.express.imshow'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.colors'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78594982]
+Coefs =  [[ 0.12097849  0.03282993 -0.01086584  0.00583674 -0.00167724  0.07700495
+   0.62851199  0.01372942]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.colors import iplot
+ImportError: cannot import name 'iplot'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.figure_factory'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78635425]
+Coefs =  [[ 0.12097754  0.03283104 -0.01086608  0.00583611 -0.00167719  0.07701078
+   0.62864239  0.01372971]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.figure_factory import iplot
+ImportError: cannot import name 'iplot'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.write_image'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78505713]
+Coefs =  [[ 0.12097477  0.03282758 -0.01086584  0.00583953 -0.001677    0.07698952
+   0.62853879  0.01372497]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.97
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.write_image import iplot
+ModuleNotFoundError: No module named 'plotly.io.write_image'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.scatter'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77896568]
+Coefs =  [[ 0.12094902  0.03280961 -0.01087293  0.00583676 -0.00167506  0.07690719
+   0.62819805  0.01371625]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.scatter import iplot
+ModuleNotFoundError: No module named 'plotly.express.scatter'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.line_3d'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78547628]
+Coefs =  [[ 0.12096903  0.03282798 -0.01086693  0.00583639 -0.00167693  0.07700056
+   0.62849038  0.01373015]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.line_3d import iplot
+ModuleNotFoundError: No module named 'plotly.express.line_3d'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.treemap'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.7865214]
+Coefs =  [[ 0.12097098  0.03283149 -0.0108655   0.00583628 -0.00167726  0.07701198
+   0.62857269  0.01373268]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.975
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.treemap import iplot
+ModuleNotFoundError: No module named 'plotly.express.treemap'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.line_geo'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78639834]
+Coefs =  [[ 0.12097239  0.03283105 -0.01086651  0.00583745 -0.00167722  0.07701187
+   0.62856756  0.0137315 ]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.99
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.line_geo import iplot
+ModuleNotFoundError: No module named 'plotly.express.line_geo'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.timeline'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78593665]
+Coefs =  [[ 0.12097946  0.03283018 -0.01086698  0.00583633 -0.00167715  0.0770053
+   0.6285994   0.01372863]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9675
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.timeline import iplot
+ModuleNotFoundError: No module named 'plotly.express.timeline'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.sunburst'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77669319]
+Coefs =  [[ 0.12096582  0.03280603 -0.01087969  0.00583597 -0.00167448  0.07687413
+   0.62803194  0.01370989]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.98
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.sunburst import iplot
+ModuleNotFoundError: No module named 'plotly.express.sunburst'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.bar_polar'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78595896]
+Coefs =  [[ 0.12097606  0.03283026 -0.01086584  0.00583701 -0.00167717  0.07700317
+   0.62853291  0.0137295 ]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.98
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.bar_polar import iplot
+ModuleNotFoundError: No module named 'plotly.express.bar_polar'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.histogram'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77887221]
+Coefs =  [[ 0.12095084  0.03281105 -0.0108741   0.00583896 -0.00167527  0.07690555
+   0.62794117  0.01371451]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.98
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.histogram import iplot
+ModuleNotFoundError: No module named 'plotly.express.histogram'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.graph_objects.Bar'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77250564]
+Coefs =  [[ 0.12094008  0.03279461 -0.01088714  0.0058387  -0.00167345  0.07682372
+   0.62736673  0.01370557]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.99
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.graph_objects.Bar import iplot
+ModuleNotFoundError: No module named 'plotly.graph_objects.Bar'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.graph_objects.bar'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1').fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'newton-cg')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1',solver="newton-cg").fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver newton-cg supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'lbfgs')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1',solver="lbfgs").fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'liblinear')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77391754]
+Coefs =  [[ 0.12095667  0.0328018  -0.01088098  0.00583332 -0.00167415  0.07684366
+   0.627551    0.01368825]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9875
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 387, in <module>
+    from plotly.plotly import iplot
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/plotly/plotly/__init__.py", line 4, in <module>
+    _chart_studio_error("plotly")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/_plotly_future_/__init__.py", line 49, in _chart_studio_error
+    submodule=submodule
+ImportError: 
+The plotly.plotly module is deprecated,
+please install the chart-studio package and use the
+chart_studio.plotly module instead. 
+
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78027854]
+Coefs =  [[ 0.1209689   0.03281434 -0.0108742   0.00583444 -0.00167533  0.07693135
+   0.62824261  0.01371485]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io import iplot
+ImportError: cannot import name 'iplot'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.show'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78583059]
+Coefs =  [[ 0.12096974  0.03282958 -0.01086542  0.00583672 -0.00167713  0.07700154
+   0.62855901  0.01372958]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.show import iplot
+ModuleNotFoundError: No module named 'plotly.io.show'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.to_json'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78473042]
+Coefs =  [[ 0.12096628  0.0328258  -0.01086762  0.00583557 -0.00167682  0.07699082
+   0.62855866  0.01372797]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.99
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.to_json import iplot
+ModuleNotFoundError: No module named 'plotly.io.to_json'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.to_html'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78652675]
+Coefs =  [[ 0.12096972  0.03283175 -0.01086613  0.00583703 -0.00167737  0.07701187
+   0.62855794  0.01373342]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.to_html import iplot
+ModuleNotFoundError: No module named 'plotly.io.to_html'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.to_image'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78582484]
+Coefs =  [[ 0.12097057  0.03282896 -0.01086542  0.00583606 -0.00167704  0.07700199
+   0.62858567  0.01373086]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9775
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.to_image import iplot
+ModuleNotFoundError: No module named 'plotly.io.to_image'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.templates'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78608054]
+Coefs =  [[ 0.12098168  0.03283089 -0.01086529  0.00583512 -0.00167721  0.07700642
+   0.62854165  0.01372716]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.templates import iplot
+ModuleNotFoundError: No module named 'plotly.io.templates'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.bar'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77977133]
+Coefs =  [[ 0.12094113  0.03281234 -0.01087556  0.00583686 -0.00167528  0.07692418
+   0.62814745  0.01372093]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.bar import iplot
+ModuleNotFoundError: No module named 'plotly.express.bar'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.box'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78306866]
+Coefs =  [[ 0.12096413  0.03282172 -0.01087038  0.00583528 -0.00167614  0.07696811
+   0.62841444  0.01372293]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9775
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.box import iplot
+ModuleNotFoundError: No module named 'plotly.express.box'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.pie'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77199609]
+Coefs =  [[ 0.12097416  0.03279243 -0.01088964  0.00583204 -0.00167324  0.07683161
+   0.62795873  0.01368754]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9825
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.pie import iplot
+ModuleNotFoundError: No module named 'plotly.express.pie'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.line'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78561228]
+Coefs =  [[ 0.12098177  0.0328302  -0.01086746  0.00583773 -0.00167709  0.07699588
+   0.62852802  0.013729  ]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9825
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.line import iplot
+ModuleNotFoundError: No module named 'plotly.express.line'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.area'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78562679]
+Coefs =  [[ 0.12097783  0.03282841 -0.01086585  0.00583459 -0.00167664  0.07700291
+   0.62847312  0.01372787]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9775
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.area import iplot
+ModuleNotFoundError: No module named 'plotly.express.area'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.data'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78634929]
+Coefs =  [[ 0.12097491  0.03283151 -0.01086437  0.00583726 -0.00167737  0.07700875
+   0.62856085  0.01372801]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9875
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.data import iplot
+ImportError: cannot import name 'iplot'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.from_json'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78581253]
+Coefs =  [[ 0.12098534  0.03283002 -0.01086798  0.00583619 -0.00167706  0.07700332
+   0.62850986  0.01373011]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9875
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.from_json import iplot
+ModuleNotFoundError: No module named 'plotly.io.from_json'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.read_json'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78516732]
+Coefs =  [[ 0.12098078  0.03282756 -0.01086772  0.00583482 -0.00167668  0.07699647
+   0.62851168  0.0137266 ]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.99
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.read_json import iplot
+ModuleNotFoundError: No module named 'plotly.io.read_json'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.renderers'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78617662]
+Coefs =  [[ 0.12097895  0.0328311  -0.01086537  0.00583758 -0.0016773   0.07700601
+   0.62858546  0.01372836]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.renderers import iplot
+ModuleNotFoundError: No module named 'plotly.io.renderers'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.to_templated'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.7805224]
+Coefs =  [[ 0.12094879  0.03281582 -0.01087003  0.00583875 -0.0016756   0.07692174
+   0.6280934   0.01371894]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.to_templated import iplot
+ModuleNotFoundError: No module named 'plotly.io.to_templated'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.strip'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78363528]
+Coefs =  [[ 0.12097432  0.03282185 -0.0108694   0.00583682 -0.00167653  0.07697858
+   0.62845536  0.01372601]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.975
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.strip import iplot
+ModuleNotFoundError: No module named 'plotly.express.strip'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.write_json'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77823912]
+Coefs =  [[ 0.12095683  0.03281033 -0.01087638  0.0058383  -0.00167508  0.07689791
+   0.62804189  0.0137091 ]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.98
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.write_json import iplot
+ModuleNotFoundError: No module named 'plotly.io.write_json'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.write_html'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77856705]
+Coefs =  [[ 0.12094971  0.03280985 -0.01087731  0.00584271 -0.00167535  0.07690512
+   0.62786576  0.01371644]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.98
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.write_html import iplot
+ModuleNotFoundError: No module named 'plotly.io.write_html'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.violin'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77677979]
+Coefs =  [[ 0.12098361  0.03280429 -0.01087868  0.00583455 -0.00167435  0.07688546
+   0.6279375   0.01370538]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.99
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.violin import iplot
+ModuleNotFoundError: No module named 'plotly.express.violin'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.funnel'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77972221]
+Coefs =  [[ 0.12098383  0.03281195 -0.01087127  0.00583216 -0.00167523  0.0769273
+   0.62802792  0.01370859]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.funnel import iplot
+ModuleNotFoundError: No module named 'plotly.express.funnel'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.imshow'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77952895]
+Coefs =  [[ 0.12096392  0.03281124 -0.01087467  0.00583424 -0.00167521  0.07692692
+   0.62798142  0.01371397]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.99
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.imshow import iplot
+ModuleNotFoundError: No module named 'plotly.express.imshow'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.colors'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77568674]
+Coefs =  [[ 0.12095132  0.03280428 -0.01087929  0.0058355  -0.00167457  0.07686486
+   0.62803307  0.01369893]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.colors import iplot
+ImportError: cannot import name 'iplot'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.figure_factory'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77724366]
+Coefs =  [[ 0.12095238  0.03280657 -0.01087914  0.00583659 -0.00167479  0.07689535
+   0.62785735  0.0137062 ]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.figure_factory import iplot
+ImportError: cannot import name 'iplot'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.write_image'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78132661]
+Coefs =  [[ 0.12096294  0.03281767 -0.01087356  0.00583744 -0.00167599  0.07694506
+   0.62826784  0.01371859]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9825
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.write_image import iplot
+ModuleNotFoundError: No module named 'plotly.io.write_image'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.scatter'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78549136]
+Coefs =  [[ 0.12097458  0.03282901 -0.01086883  0.0058361  -0.00167706  0.07700269
+   0.62856877  0.0137275 ]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9775
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.scatter import iplot
+ModuleNotFoundError: No module named 'plotly.express.scatter'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.line_3d'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77968185]
+Coefs =  [[ 0.12096748  0.03281531 -0.01087583  0.00584292 -0.00167581  0.07691451
+   0.62806681  0.01371232]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9775
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.line_3d import iplot
+ModuleNotFoundError: No module named 'plotly.express.line_3d'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.treemap'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78609924]
+Coefs =  [[ 0.12096995  0.03282942 -0.01086662  0.005837   -0.00167705  0.07700865
+   0.62852456  0.01373347]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.99
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.treemap import iplot
+ModuleNotFoundError: No module named 'plotly.express.treemap'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.line_geo'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78011976]
+Coefs =  [[ 0.12095274  0.0328153  -0.01087633  0.00583932 -0.0016757   0.07692241
+   0.6281012   0.01372196]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9775
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.line_geo import iplot
+ModuleNotFoundError: No module named 'plotly.express.line_geo'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.timeline'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77948312]
+Coefs =  [[ 0.12095163  0.03281199 -0.01087945  0.0058364  -0.00167534  0.07692828
+   0.62807268  0.01371739]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.98
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.timeline import iplot
+ModuleNotFoundError: No module named 'plotly.express.timeline'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.sunburst'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78009033]
+Coefs =  [[ 0.1209645   0.03281449 -0.0108761   0.00583781 -0.00167591  0.07692906
+   0.62827533  0.01371544]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9825
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.sunburst import iplot
+ModuleNotFoundError: No module named 'plotly.express.sunburst'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.bar_polar'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.7804238]
+Coefs =  [[ 0.12096322  0.0328161  -0.01087681  0.00584092 -0.00167603  0.07692773
+   0.628406    0.01371763]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9775
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.bar_polar import iplot
+ModuleNotFoundError: No module named 'plotly.express.bar_polar'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.histogram'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78574328]
+Coefs =  [[ 0.12097177  0.0328306  -0.01086714  0.00583752 -0.00167721  0.07699829
+   0.62858999  0.01372902]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.99
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.histogram import iplot
+ModuleNotFoundError: No module named 'plotly.express.histogram'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.graph_objects.Bar'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1').fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'newton-cg')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1',solver="newton-cg").fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver newton-cg supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'lbfgs')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1',solver="lbfgs").fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'liblinear')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.7798827]
+Coefs =  [[ 0.12096321  0.03281373 -0.01087435  0.00583712 -0.00167549  0.07692601
+   0.6280494   0.01371313]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9825
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 387, in <module>
+    from plotly.plotly import iplot
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/plotly/plotly/__init__.py", line 4, in <module>
+    _chart_studio_error("plotly")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/_plotly_future_/__init__.py", line 49, in _chart_studio_error
+    submodule=submodule
+ImportError: 
+The plotly.plotly module is deprecated,
+please install the chart-studio package and use the
+chart_studio.plotly module instead. 
+
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78038219]
+Coefs =  [[ 0.12093959  0.03281359 -0.01086718  0.00583867 -0.00167574  0.07691735
+   0.62837838  0.01372002]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9825
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io import iplot
+ImportError: cannot import name 'iplot'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.show'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.7856224]
+Coefs =  [[ 0.12098105  0.03282872 -0.01086715  0.00583537 -0.00167699  0.07700292
+   0.62853475  0.01372859]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.98
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.show import iplot
+ModuleNotFoundError: No module named 'plotly.io.show'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.to_json'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78622039]
+Coefs =  [[ 0.12097166  0.03283072 -0.01086627  0.00583678 -0.00167721  0.07701056
+   0.62852916  0.01372959]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.98
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.to_json import iplot
+ModuleNotFoundError: No module named 'plotly.io.to_json'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.to_html'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78610753]
+Coefs =  [[ 0.1209763   0.03283016 -0.01086538  0.00583523 -0.00167719  0.07700796
+   0.62862085  0.01372882]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9725
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.to_html import iplot
+ModuleNotFoundError: No module named 'plotly.io.to_html'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.to_image'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78532905]
+Coefs =  [[ 0.12097979  0.03282939 -0.01086688  0.00583611 -0.00167702  0.07699554
+   0.6284667   0.01372532]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.to_image import iplot
+ModuleNotFoundError: No module named 'plotly.io.to_image'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.templates'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77833343]
+Coefs =  [[ 0.12095715  0.03280875 -0.01088154  0.00583455 -0.00167482  0.07690984
+   0.62803542  0.0137189 ]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.templates import iplot
+ModuleNotFoundError: No module named 'plotly.io.templates'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.bar'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77671707]
+Coefs =  [[ 0.1209367   0.0328048  -0.01087971  0.00583612 -0.00167454  0.07688756
+   0.62772237  0.01370998]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.bar import iplot
+ModuleNotFoundError: No module named 'plotly.express.bar'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.box'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77360469]
+Coefs =  [[ 0.12095655  0.03279976 -0.01089201  0.00583603 -0.00167423  0.07685455
+   0.62786052  0.01369274]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.box import iplot
+ModuleNotFoundError: No module named 'plotly.express.box'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.pie'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78572822]
+Coefs =  [[ 0.12096728  0.03282816 -0.01086686  0.00583549 -0.00167691  0.07700398
+   0.62852316  0.01373368]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.975
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.pie import iplot
+ModuleNotFoundError: No module named 'plotly.express.pie'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.line'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78586237]
+Coefs =  [[ 0.12098401  0.03283035 -0.01086617  0.00583603 -0.00167716  0.07700412
+   0.62858956  0.01372486]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.98
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.line import iplot
+ModuleNotFoundError: No module named 'plotly.express.line'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.area'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77750059]
+Coefs =  [[ 0.12097334  0.03280878 -0.01087926  0.00583604 -0.00167501  0.07689952
+   0.62786097  0.01370097]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.99
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.area import iplot
+ModuleNotFoundError: No module named 'plotly.express.area'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.data'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77888156]
+Coefs =  [[ 0.12094995  0.03281072 -0.010873    0.0058346  -0.00167512  0.07690953
+   0.62800438  0.013712  ]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.975
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.data import iplot
+ImportError: cannot import name 'iplot'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.from_json'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.779474]
+Coefs =  [[ 0.12095161  0.03281178 -0.01087667  0.00583349 -0.00167511  0.0769234
+   0.62801005  0.01371972]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.99
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.from_json import iplot
+ModuleNotFoundError: No module named 'plotly.io.from_json'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.read_json'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78583241]
+Coefs =  [[ 0.12098625  0.03282946 -0.01086758  0.00583589 -0.00167693  0.07700574
+   0.6285875   0.01372786]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.read_json import iplot
+ModuleNotFoundError: No module named 'plotly.io.read_json'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.renderers'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78568227]
+Coefs =  [[ 0.12096568  0.03282991 -0.01086714  0.00583663 -0.00167721  0.07699886
+   0.62859028  0.01373068]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.98
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.renderers import iplot
+ModuleNotFoundError: No module named 'plotly.io.renderers'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.to_templated'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.7788567]
+Coefs =  [[ 0.12096663  0.03281343 -0.01087584  0.00583896 -0.00167542  0.07690159
+   0.62814003  0.01370933]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9875
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.to_templated import iplot
+ModuleNotFoundError: No module named 'plotly.io.to_templated'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.strip'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78634366]
+Coefs =  [[ 0.12097096  0.03283068 -0.01086554  0.00583534 -0.00167696  0.07701101
+   0.62859064  0.01373093]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.strip import iplot
+ModuleNotFoundError: No module named 'plotly.express.strip'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.write_json'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77776521]
+Coefs =  [[ 0.12096049  0.03280891 -0.01087703  0.00583847 -0.00167506  0.07689208
+   0.62819638  0.01370528]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.write_json import iplot
+ModuleNotFoundError: No module named 'plotly.io.write_json'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.write_html'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.7847368]
+Coefs =  [[ 0.1209745   0.03282616 -0.01086972  0.0058364  -0.00167689  0.07699257
+   0.62857893  0.01372708]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.write_html import iplot
+ModuleNotFoundError: No module named 'plotly.io.write_html'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.violin'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78577729]
+Coefs =  [[ 0.12097275  0.03282935 -0.01086716  0.00583838 -0.00167705  0.07700188
+   0.62854184  0.01373017]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.98
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.violin import iplot
+ModuleNotFoundError: No module named 'plotly.express.violin'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.funnel'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78548887]
+Coefs =  [[ 0.1209829   0.03282932 -0.01086503  0.00583684 -0.00167712  0.07699478
+   0.62846054  0.01372606]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.99
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.funnel import iplot
+ModuleNotFoundError: No module named 'plotly.express.funnel'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.imshow'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77754028]
+Coefs =  [[ 0.12095091  0.03280933 -0.01087209  0.00583853 -0.00167474  0.07687197
+   0.62786729  0.01371157]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.imshow import iplot
+ModuleNotFoundError: No module named 'plotly.express.imshow'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.colors'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77834529]
+Coefs =  [[ 0.12096667  0.03281019 -0.01087821  0.00583726 -0.00167491  0.07690286
+   0.62800461  0.0137114 ]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.colors import iplot
+ImportError: cannot import name 'iplot'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.figure_factory'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77833502]
+Coefs =  [[ 0.12094288  0.03280694 -0.01087679  0.0058351  -0.00167494  0.07691136
+   0.62792429  0.01371838]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.figure_factory import iplot
+ImportError: cannot import name 'iplot'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.io.write_image'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78617173]
+Coefs =  [[ 0.12097472  0.03283039 -0.01086669  0.00583697 -0.00167722  0.07700924
+   0.62863209  0.01373004]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9925
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.io.write_image import iplot
+ModuleNotFoundError: No module named 'plotly.io.write_image'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.scatter'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78625205]
+Coefs =  [[ 0.12097153  0.03283079 -0.01086654  0.00583622 -0.00167722  0.07700977
+   0.6285431   0.01373235]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9875
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.scatter import iplot
+ModuleNotFoundError: No module named 'plotly.express.scatter'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.line_3d'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.7783592]
+Coefs =  [[ 0.12095504  0.03280776 -0.01087763  0.00583468 -0.00167497  0.07691664
+   0.62793192  0.01371061]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.98
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.line_3d import iplot
+ModuleNotFoundError: No module named 'plotly.express.line_3d'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.treemap'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.7803381]
+Coefs =  [[ 0.12095494  0.03281503 -0.01087103  0.00583767 -0.00167537  0.07691625
+   0.62824202  0.01372115]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.treemap import iplot
+ModuleNotFoundError: No module named 'plotly.express.treemap'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.line_geo'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78537167]
+Coefs =  [[ 0.1209706   0.03282876 -0.01086641  0.00583617 -0.00167703  0.07699712
+   0.6285775   0.01372593]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.98
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.line_geo import iplot
+ModuleNotFoundError: No module named 'plotly.express.line_geo'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.timeline'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78560218]
+Coefs =  [[ 0.12097066  0.03282912 -0.01086743  0.00583458 -0.00167699  0.07700529
+   0.62847914  0.01372763]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.98
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.timeline import iplot
+ModuleNotFoundError: No module named 'plotly.express.timeline'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.sunburst'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.7860079]
+Coefs =  [[ 0.12097783  0.03283017 -0.010866    0.00583749 -0.00167734  0.07700334
+   0.6285891   0.01373062]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.sunburst import iplot
+ModuleNotFoundError: No module named 'plotly.express.sunburst'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.bar_polar'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77084183]
+Coefs =  [[ 0.12098829  0.03279217 -0.01089623  0.00584134 -0.00167349  0.0768099
+   0.62753384  0.01368929]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.98
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.bar_polar import iplot
+ModuleNotFoundError: No module named 'plotly.express.bar_polar'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.express.histogram'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77998675]
+Coefs =  [[ 0.12096042  0.03281166 -0.01087106  0.00583637 -0.00167538  0.07692522
+   0.62832624  0.01371426]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.express.histogram import iplot
+ModuleNotFoundError: No module named 'plotly.express.histogram'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.graph_objects.Bar'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.7779883]
+Coefs =  [[ 0.12094137  0.0328064  -0.01087592  0.0058357  -0.00167473  0.07690253
+   0.62790804  0.01371566]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.graph_objects.Bar import iplot
+ModuleNotFoundError: No module named 'plotly.graph_objects.Bar'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.graph_objects.bar'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77980005]
+Coefs =  [[ 0.12097494  0.03281387 -0.0108726   0.00584146 -0.00167549  0.07691155
+   0.62810435  0.01371542]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9825
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 388, in <module>
+    from plotly.graph_objects.bar import iplot
+ModuleNotFoundError: No module named 'plotly.graph_objects.bar'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'plotly.graph_objects.Pie'), ('line_no', 387)])

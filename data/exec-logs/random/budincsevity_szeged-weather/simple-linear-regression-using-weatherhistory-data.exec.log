@@ -1,0 +1,7 @@
+['weatherHistory.csv']
+Traceback (most recent call last):
+  File "simple-linear-regression-using-weatherhistory-data.py", line 111, in <module>
+    imputerHumidity=SimpleImputer(missing_values='mean',axis=0,verbose="number",copy=True,add_indicator=True,strategy="number",fill_value="'missing'")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'axis'

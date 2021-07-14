@@ -1,0 +1,105 @@
+Traceback (most recent call last):
+  File "prices-prediction-knn-and-decision-tree.py", line 19, in <module>
+    from sklearn.externals.six import StringIO
+ModuleNotFoundError: No module named 'sklearn.externals.six'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.six'), ('new_fqn', 'six'), ('line_no', 19)])(21613, 20)
+
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 21613 entries, 7129300520 to 1523300157
+Data columns (total 20 columns):
+ #   Column         Non-Null Count  Dtype         
+---  ------         --------------  -----         
+ 0   date           21613 non-null  datetime64[ns]
+ 1   price          21613 non-null  float64       
+ 2   bedrooms       21613 non-null  int64         
+ 3   bathrooms      21613 non-null  float64       
+ 4   sqft_living    21613 non-null  int64         
+ 5   sqft_lot       21613 non-null  int64         
+ 6   floors         21613 non-null  float64       
+ 7   waterfront     21613 non-null  int64         
+ 8   view           21613 non-null  int64         
+ 9   condition      21613 non-null  int64         
+ 10  grade          21613 non-null  int64         
+ 11  sqft_above     21613 non-null  int64         
+ 12  sqft_basement  21613 non-null  int64         
+ 13  yr_built       21613 non-null  int64         
+ 14  yr_renovated   21613 non-null  int64         
+ 15  zipcode        21613 non-null  int64         
+ 16  lat            21613 non-null  float64       
+ 17  long           21613 non-null  float64       
+ 18  sqft_living15  21613 non-null  int64         
+ 19  sqft_lot15     21613 non-null  int64         
+dtypes: datetime64[ns](1), float64(5), int64(14)
+memory usage: 3.5 MB
+
+(21613, 20)
+(21613, 20)
+(21611, 20)
+(21611, 20)
+(21610, 20)
+(21610, 20)
+(21608, 20)
+(21608, 20)
+(21595, 20)
+(21595, 20)
+(21592, 20)
+(21592, 20)
+Train rmse: 115251.118
+Test rmse: 147587.021
+Std: 352390.690
+Mean: 538231.569
+Train RMSE: 116595.280
+Test RMSE: 125111.870
+[REPAIR EXEC TIME]: 58.516857385635376Traceback (most recent call last):
+  File "prices-prediction-knn-and-decision-tree.py", line 19, in <module>
+    from sklearn.externals.six import StringIO
+ModuleNotFoundError: No module named 'sklearn.externals.six'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.six'), ('new_fqn', 'six'), ('line_no', 19)])(21613, 20)
+
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 21613 entries, 7129300520 to 1523300157
+Data columns (total 20 columns):
+ #   Column         Non-Null Count  Dtype         
+---  ------         --------------  -----         
+ 0   date           21613 non-null  datetime64[ns]
+ 1   price          21613 non-null  float64       
+ 2   bedrooms       21613 non-null  int64         
+ 3   bathrooms      21613 non-null  float64       
+ 4   sqft_living    21613 non-null  int64         
+ 5   sqft_lot       21613 non-null  int64         
+ 6   floors         21613 non-null  float64       
+ 7   waterfront     21613 non-null  int64         
+ 8   view           21613 non-null  int64         
+ 9   condition      21613 non-null  int64         
+ 10  grade          21613 non-null  int64         
+ 11  sqft_above     21613 non-null  int64         
+ 12  sqft_basement  21613 non-null  int64         
+ 13  yr_built       21613 non-null  int64         
+ 14  yr_renovated   21613 non-null  int64         
+ 15  zipcode        21613 non-null  int64         
+ 16  lat            21613 non-null  float64       
+ 17  long           21613 non-null  float64       
+ 18  sqft_living15  21613 non-null  int64         
+ 19  sqft_lot15     21613 non-null  int64         
+dtypes: datetime64[ns](1), float64(5), int64(14)
+memory usage: 3.5 MB
+
+(21613, 20)
+(21613, 20)
+(21611, 20)
+(21611, 20)
+(21610, 20)
+(21610, 20)
+(21608, 20)
+(21608, 20)
+(21595, 20)
+(21595, 20)
+(21592, 20)
+(21592, 20)
+Train rmse: 115251.118
+Test rmse: 147619.632
+Std: 352390.690
+Mean: 538231.569
+Train RMSE: 116595.280
+Test RMSE: 125111.870
+[REPAIR EXEC TIME]: 58.81829619407654

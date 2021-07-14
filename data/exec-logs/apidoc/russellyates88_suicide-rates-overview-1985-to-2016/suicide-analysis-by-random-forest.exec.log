@@ -1,0 +1,5 @@
+../../../input/russellyates88_suicide-rates-overview-1985-to-2016/master.csv
+Traceback (most recent call last):
+  File "suicide-analysis-by-random-forest.py", line 36, in <module>
+    from sklearn.feature_extraction.image.reconstruct_from_patches_2d import StringIO
+ModuleNotFoundError: No module named 'sklearn.feature_extraction.image.reconstruct_from_patches_2d'; 'sklearn.feature_extraction.image' is not a package

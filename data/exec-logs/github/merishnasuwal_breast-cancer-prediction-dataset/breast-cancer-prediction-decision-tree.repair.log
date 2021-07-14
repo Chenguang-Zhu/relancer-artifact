@@ -1,0 +1,153 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 569 entries, 0 to 568
+Data columns (total 6 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   mean_radius      569 non-null    float64
+ 1   mean_texture     569 non-null    float64
+ 2   mean_perimeter   569 non-null    float64
+ 3   mean_area        569 non-null    float64
+ 4   mean_smoothness  569 non-null    float64
+ 5   diagnosis        569 non-null    int64  
+dtypes: float64(5), int64(1)
+memory usage: 26.8 KB
+
+
+
+best depth =  {'max_depth': 50, 'min_samples_split': 50}
+AUC value on train data =  93.78122577435293
+
+
+
+
+Accuracy=87.719298%
+
+precision=93.333333%
+
+recall=84.848485%
+
+F1-Score=88.888889%
+
+
+Feature: 0, Score: 0.00000
+Feature: 1, Score: 0.03390
+Feature: 2, Score: 0.96610
+Feature: 3, Score: 0.00000
+Feature: 4, Score: 0.00000
+Traceback (most recent call last):
+  File "breast-cancer-prediction-decision-tree.py", line 204, in <module>
+    from sklearn.externals.six import StringIO  
+ModuleNotFoundError: No module named 'sklearn.externals.six'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.six'), ('new_fqn', 'six'), ('line_no', 204)])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 569 entries, 0 to 568
+Data columns (total 6 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   mean_radius      569 non-null    float64
+ 1   mean_texture     569 non-null    float64
+ 2   mean_perimeter   569 non-null    float64
+ 3   mean_area        569 non-null    float64
+ 4   mean_smoothness  569 non-null    float64
+ 5   diagnosis        569 non-null    int64  
+dtypes: float64(5), int64(1)
+memory usage: 26.8 KB
+
+
+
+best depth =  {'max_depth': 50, 'min_samples_split': 100}
+AUC value on train data =  91.7098289858418
+
+
+
+
+Accuracy=92.982456%
+
+precision=90.909091%
+
+recall=98.591549%
+
+F1-Score=94.594595%
+
+
+Feature: 0, Score: 0.00000
+Feature: 1, Score: 0.04068
+Feature: 2, Score: 0.09073
+Feature: 3, Score: 0.86860
+Feature: 4, Score: 0.00000
+[REPAIR EXEC TIME]: 6.401868104934692<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 569 entries, 0 to 568
+Data columns (total 6 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   mean_radius      569 non-null    float64
+ 1   mean_texture     569 non-null    float64
+ 2   mean_perimeter   569 non-null    float64
+ 3   mean_area        569 non-null    float64
+ 4   mean_smoothness  569 non-null    float64
+ 5   diagnosis        569 non-null    int64  
+dtypes: float64(5), int64(1)
+memory usage: 26.8 KB
+
+
+
+best depth =  {'max_depth': 100, 'min_samples_split': 50}
+AUC value on train data =  92.19570056232428
+
+
+
+
+Accuracy=91.228070%
+
+precision=88.000000%
+
+recall=98.507463%
+
+F1-Score=92.957746%
+
+
+Feature: 0, Score: 0.00000
+Feature: 1, Score: 0.03307
+Feature: 2, Score: 0.96693
+Feature: 3, Score: 0.00000
+Feature: 4, Score: 0.00000
+Traceback (most recent call last):
+  File "breast-cancer-prediction-decision-tree.py", line 204, in <module>
+    from sklearn.externals.six import StringIO  
+ModuleNotFoundError: No module named 'sklearn.externals.six'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.six'), ('new_fqn', 'six'), ('line_no', 204)])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 569 entries, 0 to 568
+Data columns (total 6 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   mean_radius      569 non-null    float64
+ 1   mean_texture     569 non-null    float64
+ 2   mean_perimeter   569 non-null    float64
+ 3   mean_area        569 non-null    float64
+ 4   mean_smoothness  569 non-null    float64
+ 5   diagnosis        569 non-null    int64  
+dtypes: float64(5), int64(1)
+memory usage: 26.8 KB
+
+
+
+best depth =  {'max_depth': 5, 'min_samples_split': 50}
+AUC value on train data =  92.32934150632303
+
+
+
+
+Accuracy=85.964912%
+
+precision=92.857143%
+
+recall=85.526316%
+
+F1-Score=89.041096%
+
+
+Feature: 0, Score: 0.00000
+Feature: 1, Score: 0.05020
+Feature: 2, Score: 0.08996
+Feature: 3, Score: 0.85984
+Feature: 4, Score: 0.00000
+[REPAIR EXEC TIME]: 6.561896324157715

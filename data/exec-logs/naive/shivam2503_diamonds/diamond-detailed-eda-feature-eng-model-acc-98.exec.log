@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "diamond-detailed-eda-feature-eng-model-acc-98.py", line 55, in <module>
+    from sklearn.preprocessing import Imputer , Normalizer , scale
+ImportError: cannot import name 'Imputer'

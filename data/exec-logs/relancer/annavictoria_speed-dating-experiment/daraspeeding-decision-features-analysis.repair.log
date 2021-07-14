@@ -1,0 +1,298 @@
+Traceback (most recent call last):
+  File "daraspeeding-decision-features-analysis.py", line 34, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 34)])Speed Dating Data.csv
+
+Top 10 Features with the highest F value
+   Model.Feature_Importances_Based_on_F predictors.columns
+0                               1316.63               like
+1                               1093.92               attr
+2                                533.17             attr_o
+3                                379.04               shar
+4                                366.71            C(race)
+5                                360.49               prob
+6                                327.71        C(samerace)
+7                                247.59             prob_o
+8                                134.75               sinc
+9                                116.37                fun
+
+if the partner are from the same race are more keen to go for a date?
+what are the cross selections from the different races 
+Top 10 Features with the highest F value
+   Model.Feature_Importances_Based_on_F predictors.columns
+0                           3158.150321               attr
+1                           2620.042686               like
+2                            802.125591               prob
+3                            430.722457               sinc
+4                            390.236235                amb
+5                            155.712514               date
+6                            153.864091             attr_o
+7                            141.762974            imprace
+8                            133.352701             go_out
+9                            132.115839               shar
+
+Confusion Matrix
+[[9983 2345]
+ [1850 4977]]
+Accuracy Score
+0.7809971286870269
+Traceback (most recent call last):
+  File "daraspeeding-decision-features-analysis.py", line 260, in <module>
+    from sklearn.externals.six import StringIO
+ModuleNotFoundError: No module named 'sklearn.externals.six'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.externals.six'), ('new_fqn', 'six'), ('line_no', 260)])Speed Dating Data.csv
+
+Top 10 Features with the highest F value
+   Model.Feature_Importances_Based_on_F predictors.columns
+0                               1316.63               like
+1                               1093.92               attr
+2                                533.17             attr_o
+3                                379.04               shar
+4                                366.71            C(race)
+5                                360.49               prob
+6                                327.71        C(samerace)
+7                                247.59             prob_o
+8                                134.75               sinc
+9                                116.37                fun
+
+if the partner are from the same race are more keen to go for a date?
+what are the cross selections from the different races 
+Top 10 Features with the highest F value
+   Model.Feature_Importances_Based_on_F predictors.columns
+0                           3158.150321               attr
+1                           2620.042686               like
+2                            802.125591               prob
+3                            430.722457               sinc
+4                            390.236235                amb
+5                            155.712514               date
+6                            153.864091             attr_o
+7                            141.762974            imprace
+8                            133.352701             go_out
+9                            132.115839               shar
+
+Confusion Matrix
+[[10048  2480]
+ [ 1803  4824]]
+Accuracy Score
+0.7764030279300443
+ROC AUC: 0.75
+
+Confusion Matrix
+[[7683 2053]
+ [1923 7379]]
+Accuracy Score
+0.7911545330391848
+ROC AUC: 0.79
+
+Confusion Matrix
+[[11851     0]
+ [    0  7304]]
+Accuracy Score
+1.0
+AxesSubplot(0.125,0.11;0.775x0.77)
+Confusion Matrix
+[[9606    0]
+ [   0 9432]]
+Accuracy Score
+1.0
+AxesSubplot(0.125,0.11;0.775x0.77)
+[REPAIR EXEC TIME]: 19.132782697677612Traceback (most recent call last):
+  File "daraspeeding-decision-features-analysis.py", line 34, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 34)])Speed Dating Data.csv
+
+Top 10 Features with the highest F value
+   Model.Feature_Importances_Based_on_F predictors.columns
+0                               1316.63               like
+1                               1093.92               attr
+2                                533.17             attr_o
+3                                379.04               shar
+4                                366.71            C(race)
+5                                360.49               prob
+6                                327.71        C(samerace)
+7                                247.59             prob_o
+8                                134.75               sinc
+9                                116.37                fun
+
+if the partner are from the same race are more keen to go for a date?
+what are the cross selections from the different races 
+Top 10 Features with the highest F value
+   Model.Feature_Importances_Based_on_F predictors.columns
+0                           3158.150321               attr
+1                           2620.042686               like
+2                            802.125591               prob
+3                            430.722457               sinc
+4                            390.236235                amb
+5                            155.712514               date
+6                            153.864091             attr_o
+7                            141.762974            imprace
+8                            133.352701             go_out
+9                            132.115839               shar
+
+Confusion Matrix
+[[10237  2775]
+ [ 1574  4569]]
+Accuracy Score
+0.7729574523623075
+Traceback (most recent call last):
+  File "daraspeeding-decision-features-analysis.py", line 260, in <module>
+    from sklearn.externals.six import StringIO
+ModuleNotFoundError: No module named 'sklearn.externals.six'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.six'), ('new_fqn', 'six'), ('line_no', 260)])Speed Dating Data.csv
+
+Top 10 Features with the highest F value
+   Model.Feature_Importances_Based_on_F predictors.columns
+0                               1316.63               like
+1                               1093.92               attr
+2                                533.17             attr_o
+3                                379.04               shar
+4                                366.71            C(race)
+5                                360.49               prob
+6                                327.71        C(samerace)
+7                                247.59             prob_o
+8                                134.75               sinc
+9                                116.37                fun
+
+if the partner are from the same race are more keen to go for a date?
+what are the cross selections from the different races 
+Top 10 Features with the highest F value
+   Model.Feature_Importances_Based_on_F predictors.columns
+0                           3158.150321               attr
+1                           2620.042686               like
+2                            802.125591               prob
+3                            430.722457               sinc
+4                            390.236235                amb
+5                            155.712514               date
+6                            153.864091             attr_o
+7                            141.762974            imprace
+8                            133.352701             go_out
+9                            132.115839               shar
+
+Confusion Matrix
+[[10192  2582]
+ [ 1634  4747]]
+Accuracy Score
+0.7799008091882015
+ROC AUC: 0.75
+
+Confusion Matrix
+[[7733 2043]
+ [1901 7361]]
+Accuracy Score
+0.7928353818678433
+ROC AUC: 0.79
+
+Confusion Matrix
+[[11826     0]
+ [    0  7329]]
+Accuracy Score
+1.0
+AxesSubplot(0.125,0.11;0.775x0.77)
+Confusion Matrix
+[[9634    0]
+ [   0 9404]]
+Accuracy Score
+1.0
+AxesSubplot(0.125,0.11;0.775x0.77)
+[REPAIR EXEC TIME]: 19.072566986083984Traceback (most recent call last):
+  File "daraspeeding-decision-features-analysis.py", line 34, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 34)])Speed Dating Data.csv
+
+Top 10 Features with the highest F value
+   Model.Feature_Importances_Based_on_F predictors.columns
+0                               1316.63               like
+1                               1093.92               attr
+2                                533.17             attr_o
+3                                379.04               shar
+4                                366.71            C(race)
+5                                360.49               prob
+6                                327.71        C(samerace)
+7                                247.59             prob_o
+8                                134.75               sinc
+9                                116.37                fun
+
+if the partner are from the same race are more keen to go for a date?
+what are the cross selections from the different races 
+Top 10 Features with the highest F value
+   Model.Feature_Importances_Based_on_F predictors.columns
+0                           3158.150321               attr
+1                           2620.042686               like
+2                            802.125591               prob
+3                            430.722457               sinc
+4                            390.236235                amb
+5                            155.712514               date
+6                            153.864091             attr_o
+7                            141.762974            imprace
+8                            133.352701             go_out
+9                            132.115839               shar
+
+Confusion Matrix
+[[10002  2333]
+ [ 1926  4894]]
+Accuracy Score
+0.7776559645001305
+Traceback (most recent call last):
+  File "daraspeeding-decision-features-analysis.py", line 260, in <module>
+    from sklearn.externals.six import StringIO
+ModuleNotFoundError: No module named 'sklearn.externals.six'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.six'), ('new_fqn', 'six'), ('line_no', 260)])Speed Dating Data.csv
+
+Top 10 Features with the highest F value
+   Model.Feature_Importances_Based_on_F predictors.columns
+0                               1316.63               like
+1                               1093.92               attr
+2                                533.17             attr_o
+3                                379.04               shar
+4                                366.71            C(race)
+5                                360.49               prob
+6                                327.71        C(samerace)
+7                                247.59             prob_o
+8                                134.75               sinc
+9                                116.37                fun
+
+if the partner are from the same race are more keen to go for a date?
+what are the cross selections from the different races 
+Top 10 Features with the highest F value
+   Model.Feature_Importances_Based_on_F predictors.columns
+0                           3158.150321               attr
+1                           2620.042686               like
+2                            802.125591               prob
+3                            430.722457               sinc
+4                            390.236235                amb
+5                            155.712514               date
+6                            153.864091             attr_o
+7                            141.762974            imprace
+8                            133.352701             go_out
+9                            132.115839               shar
+
+Confusion Matrix
+[[9977 2469]
+ [1870 4839]]
+Accuracy Score
+0.7734795092665101
+ROC AUC: 0.75
+
+Confusion Matrix
+[[7937 2166]
+ [1680 7255]]
+Accuracy Score
+0.7979829814056099
+ROC AUC: 0.80
+
+Confusion Matrix
+[[11847     0]
+ [    0  7308]]
+Accuracy Score
+1.0
+AxesSubplot(0.125,0.11;0.775x0.77)
+Confusion Matrix
+[[9617    0]
+ [   0 9421]]
+Accuracy Score
+1.0
+AxesSubplot(0.125,0.11;0.775x0.77)
+[REPAIR EXEC TIME]: 19.526688814163208

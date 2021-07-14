@@ -1,0 +1,37 @@
+Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.impute.SimpleImputer'), ('line_no', 221)])Best params: {'logisticregression__C': 0.1, 'logisticregression__class_weight': 'balanced'}
+Best AUC: 0.980
+Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 275, in <module>
+    from sklearn.externals import joblib
+ImportError: cannot import name 'joblib'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.externals.joblib'), ('new_fqn', 'joblib'), ('line_no', 275)])Best params: {'logisticregression__C': 0.1, 'logisticregression__class_weight': 'balanced'}
+Best AUC: 0.980
+[REPAIR EXEC TIME]: 10.681756734848022Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.impute.SimpleImputer'), ('line_no', 221)])Best params: {'logisticregression__C': 0.1, 'logisticregression__class_weight': 'balanced'}
+Best AUC: 0.980
+Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 275, in <module>
+    from sklearn.externals import joblib
+ImportError: cannot import name 'joblib'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.joblib'), ('new_fqn', 'joblib'), ('line_no', 275)])Best params: {'logisticregression__C': 0.1, 'logisticregression__class_weight': 'balanced'}
+Best AUC: 0.980
+[REPAIR EXEC TIME]: 10.526468753814697Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.impute.SimpleImputer'), ('line_no', 221)])Best params: {'logisticregression__C': 0.1, 'logisticregression__class_weight': 'balanced'}
+Best AUC: 0.980
+Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 275, in <module>
+    from sklearn.externals import joblib
+ImportError: cannot import name 'joblib'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.joblib'), ('new_fqn', 'joblib'), ('line_no', 275)])Best params: {'logisticregression__C': 0.1, 'logisticregression__class_weight': 'balanced'}
+Best AUC: 0.980
+[REPAIR EXEC TIME]: 10.812957525253296

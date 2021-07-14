@@ -1,0 +1,13 @@
+['Womens Clothing E-Commerce Reviews.csv']
+Traceback (most recent call last):
+  File "customer-feedback-analyzing-system.py", line 112, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 112)])['Womens Clothing E-Commerce Reviews.csv']
+[REPAIR EXEC TIME]: 12.667700052261353['Womens Clothing E-Commerce Reviews.csv']
+Traceback (most recent call last):
+  File "customer-feedback-analyzing-system.py", line 112, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 112)])['Womens Clothing E-Commerce Reviews.csv']
+[REPAIR EXEC TIME]: 12.73688530921936

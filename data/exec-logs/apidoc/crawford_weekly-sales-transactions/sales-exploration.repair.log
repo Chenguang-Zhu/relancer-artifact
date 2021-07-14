@@ -1,0 +1,103 @@
+Sales_Transactions_Dataset_Weekly.csv
+
+               count      mean        std  min    25%   50%    75%   max
+W0             811.0  8.902589  12.067163  0.0  0.000  3.00  12.00  54.0
+W1             811.0  9.129470  12.564766  0.0  0.000  3.00  12.00  53.0
+W2             811.0  9.389642  13.045073  0.0  0.000  3.00  12.00  56.0
+W3             811.0  9.717633  13.553294  0.0  0.000  4.00  13.00  59.0
+W4             811.0  9.574599  13.095765  0.0  0.000  4.00  13.00  61.0
+...              ...       ...        ...  ...    ...   ...    ...   ...
+Normalized 47  811.0  0.314636   0.266029  0.0  0.000  0.31   0.50   1.0
+Normalized 48  811.0  0.338150   0.275690  0.0  0.105  0.33   0.50   1.0
+Normalized 49  811.0  0.358903   0.286665  0.0  0.100  0.33   0.55   1.0
+Normalized 50  811.0  0.373009   0.295197  0.0  0.110  0.35   0.56   1.0
+Normalized 51  811.0  0.427941   0.342360  0.0  0.090  0.43   0.67   1.0
+
+[106 rows x 8 columns]
+  Product_Code  W0  W1  W2  ...  Normalized 48  Normalized 49  Normalized 50  Normalized 51
+0           P1  11  12  10  ...           0.22           0.17           0.11           0.39
+1           P2   7   6   3  ...           0.50           0.10           0.60           0.00
+2           P3   7  11   8  ...           1.00           0.45           0.45           0.36
+3           P4  12   8  13  ...           0.71           0.35           0.29           0.35
+4           P5   8   5  13  ...           0.13           0.53           0.33           0.40
+
+[5 rows x 107 columns]
+<zip object at 0x7f7d876be3c8>
+
+Traceback (most recent call last):
+  File "sales-exploration.py", line 86, in <module>
+    res = sm.OLS(Y,Xr).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'statsmodels.formula.api.OLS'), ('new_fqn', 'statsmodels.formula.api.gls'), ('line_no', 86)])Sales_Transactions_Dataset_Weekly.csv
+
+               count      mean        std  min    25%   50%    75%   max
+W0             811.0  8.902589  12.067163  0.0  0.000  3.00  12.00  54.0
+W1             811.0  9.129470  12.564766  0.0  0.000  3.00  12.00  53.0
+W2             811.0  9.389642  13.045073  0.0  0.000  3.00  12.00  56.0
+W3             811.0  9.717633  13.553294  0.0  0.000  4.00  13.00  59.0
+W4             811.0  9.574599  13.095765  0.0  0.000  4.00  13.00  61.0
+...              ...       ...        ...  ...    ...   ...    ...   ...
+Normalized 47  811.0  0.314636   0.266029  0.0  0.000  0.31   0.50   1.0
+Normalized 48  811.0  0.338150   0.275690  0.0  0.105  0.33   0.50   1.0
+Normalized 49  811.0  0.358903   0.286665  0.0  0.100  0.33   0.55   1.0
+Normalized 50  811.0  0.373009   0.295197  0.0  0.110  0.35   0.56   1.0
+Normalized 51  811.0  0.427941   0.342360  0.0  0.090  0.43   0.67   1.0
+
+[106 rows x 8 columns]
+  Product_Code  W0  W1  W2  ...  Normalized 48  Normalized 49  Normalized 50  Normalized 51
+0           P1  11  12  10  ...           0.22           0.17           0.11           0.39
+1           P2   7   6   3  ...           0.50           0.10           0.60           0.00
+2           P3   7  11   8  ...           1.00           0.45           0.45           0.36
+3           P4  12   8  13  ...           0.71           0.35           0.29           0.35
+4           P5   8   5  13  ...           0.13           0.53           0.33           0.40
+
+[5 rows x 107 columns]
+<zip object at 0x7f815269a3c8>
+
+Traceback (most recent call last):
+  File "sales-exploration.py", line 87, in <module>
+    res = statsmodels.formula.api.gls(Y,Xr).fit()
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/base/model.py", line 169, in from_formula
+    missing=missing)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/formula/formulatools.py", line 68, in handle_formula_data
+    NA_action=na_action)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/patsy/highlevel.py", line 312, in dmatrices
+    raise PatsyError("model is missing required outcome variables")
+patsy.PatsyError: model is missing required outcome variables
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'statsmodels.formula.api.OLS'), ('new_fqn', 'statsmodels.formula.api.wls'), ('line_no', 86)])Sales_Transactions_Dataset_Weekly.csv
+
+               count      mean        std  min    25%   50%    75%   max
+W0             811.0  8.902589  12.067163  0.0  0.000  3.00  12.00  54.0
+W1             811.0  9.129470  12.564766  0.0  0.000  3.00  12.00  53.0
+W2             811.0  9.389642  13.045073  0.0  0.000  3.00  12.00  56.0
+W3             811.0  9.717633  13.553294  0.0  0.000  4.00  13.00  59.0
+W4             811.0  9.574599  13.095765  0.0  0.000  4.00  13.00  61.0
+...              ...       ...        ...  ...    ...   ...    ...   ...
+Normalized 47  811.0  0.314636   0.266029  0.0  0.000  0.31   0.50   1.0
+Normalized 48  811.0  0.338150   0.275690  0.0  0.105  0.33   0.50   1.0
+Normalized 49  811.0  0.358903   0.286665  0.0  0.100  0.33   0.55   1.0
+Normalized 50  811.0  0.373009   0.295197  0.0  0.110  0.35   0.56   1.0
+Normalized 51  811.0  0.427941   0.342360  0.0  0.090  0.43   0.67   1.0
+
+[106 rows x 8 columns]
+  Product_Code  W0  W1  W2  ...  Normalized 48  Normalized 49  Normalized 50  Normalized 51
+0           P1  11  12  10  ...           0.22           0.17           0.11           0.39
+1           P2   7   6   3  ...           0.50           0.10           0.60           0.00
+2           P3   7  11   8  ...           1.00           0.45           0.45           0.36
+3           P4  12   8  13  ...           0.71           0.35           0.29           0.35
+4           P5   8   5  13  ...           0.13           0.53           0.33           0.40
+
+[5 rows x 107 columns]
+<zip object at 0x7f875cce43c8>
+
+Traceback (most recent call last):
+  File "sales-exploration.py", line 87, in <module>
+    res = statsmodels.formula.api.wls(Y,Xr).fit()
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/base/model.py", line 169, in from_formula
+    missing=missing)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/formula/formulatools.py", line 68, in handle_formula_data
+    NA_action=na_action)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/patsy/highlevel.py", line 312, in dmatrices
+    raise PatsyError("model is missing required outcome variables")
+patsy.PatsyError: model is missing required outcome variables
+[REPAIR EXEC TIME]: 7.511339902877808

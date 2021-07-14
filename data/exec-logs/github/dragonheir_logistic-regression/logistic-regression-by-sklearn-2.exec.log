@@ -1,0 +1,31 @@
+['Social_Network_Ads.csv']
+(400, 5)
+     Gender  Age  EstimatedSalary  Purchased
+0      Male   19            19000          0
+1      Male   35            20000          0
+2    Female   26            43000          0
+3    Female   27            57000          0
+4      Male   19            76000          0
+..      ...  ...              ...        ...
+395  Female   46            41000          1
+396    Male   51            23000          1
+397  Female   50            20000          1
+398    Male   36            33000          0
+399  Female   49            36000          1
+
+[400 rows x 4 columns]
+     Age  EstimatedSalary  Purchased  Gender_Female  Gender_Male
+0     19            19000          0              0            1
+1     35            20000          0              0            1
+2     26            43000          0              1            0
+3     27            57000          0              1            0
+4     19            76000          0              0            1
+..   ...              ...        ...            ...          ...
+395   46            41000          1              1            0
+396   51            23000          1              0            1
+397   50            20000          1              1            0
+398   36            33000          0              0            1
+399   49            36000          1              1            0
+
+[400 rows x 5 columns]
+0.7125

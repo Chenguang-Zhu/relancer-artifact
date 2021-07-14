@@ -1,0 +1,14 @@
+voice.csv
+
+Total number ber of people involve in the test: 3168
+Number of Male: 1584
+Number of Female: 1584
+
+[1 1 1 ... 0 0 0]
+96.84542586750788
+97.79179810725552
+96.37223974763407
+
+We got an accuracy of 96.84542586750788 by applying SVM using Linear Kernal 
+We got an accuracy of 97.79179810725552 by applying SVM using RBF Kernal 
+We got an accuracy of 96.37223974763407 by applying SVM using Polynomial Kernal 

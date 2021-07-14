@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "kernel76e4019a08.py", line 9, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 9)])(280, 2)
+(120, 2)
+(280,)
+(120,)
+[REPAIR EXEC TIME]: 1.6954634189605713Traceback (most recent call last):
+  File "kernel76e4019a08.py", line 9, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 9)])(280, 2)
+(120, 2)
+(280,)
+(120,)
+[REPAIR EXEC TIME]: 1.7126939296722412

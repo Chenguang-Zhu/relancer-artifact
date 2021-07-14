@@ -1,0 +1,89 @@
+
+
+
+
+Traceback (most recent call last):
+  File "fifa-2019-regression-model.py", line 355, in <module>
+    regressor_OLS=sm.OLS(endog=y,exog=x).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_rename'), ('from_name', 'formula'), ('to_name', 'data')])
+
+
+
+Traceback (most recent call last):
+  File "fifa-2019-regression-model.py", line 355, in <module>
+    regressor_OLS=sm.OLS(endog=y,exog=x).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_rename'), ('from_name', 'formula'), ('to_name', 'subset')])
+
+
+
+Traceback (most recent call last):
+  File "fifa-2019-regression-model.py", line 355, in <module>
+    regressor_OLS=sm.OLS(endog=y,exog=x).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_rename'), ('from_name', 'formula'), ('to_name', 'drop_cols')])
+
+
+
+Traceback (most recent call last):
+  File "fifa-2019-regression-model.py", line 355, in <module>
+    regressor_OLS=sm.OLS(endog=y,exog=x).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_rename'), ('from_name', 'formula'), ('to_name', 'args')])
+
+
+
+Traceback (most recent call last):
+  File "fifa-2019-regression-model.py", line 355, in <module>
+    regressor_OLS=sm.OLS(endog=y,exog=x).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_rename'), ('from_name', 'formula'), ('to_name', 'kwargs')])
+
+
+
+Traceback (most recent call last):
+  File "fifa-2019-regression-model.py", line 355, in <module>
+    regressor_OLS=sm.OLS(endog=y,exog=x).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_delete'), ('from_name', 'formula'), ('to_name', '*')])
+
+
+
+Traceback (most recent call last):
+  File "fifa-2019-regression-model.py", line 355, in <module>
+    regressor_OLS=sm.OLS(endog=y,exog=x).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_rename'), ('from_name', 'data'), ('to_name', 'formula')])
+
+
+
+Traceback (most recent call last):
+  File "fifa-2019-regression-model.py", line 355, in <module>
+    regressor_OLS=sm.OLS(endog=y,exog=x).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_rename'), ('from_name', 'data'), ('to_name', 'subset')])
+
+
+
+Traceback (most recent call last):
+  File "fifa-2019-regression-model.py", line 355, in <module>
+    regressor_OLS=sm.OLS(endog=y,exog=x).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_rename'), ('from_name', 'data'), ('to_name', 'drop_cols')])
+
+
+
+Traceback (most recent call last):
+  File "fifa-2019-regression-model.py", line 355, in <module>
+    regressor_OLS=sm.OLS(endog=y,exog=x).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_rename'), ('from_name', 'data'), ('to_name', 'args')])
+
+
+
+Traceback (most recent call last):
+  File "fifa-2019-regression-model.py", line 355, in <module>
+    regressor_OLS=sm.OLS(endog=y,exog=x).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[REPAIR EXEC TIME]: 145.62551760673523

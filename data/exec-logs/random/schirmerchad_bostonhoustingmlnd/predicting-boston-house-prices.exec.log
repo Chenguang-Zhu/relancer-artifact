@@ -1,0 +1,23 @@
+
+housing.csv
+
+Statistics for Boston housing dataset:
+
+Minimum price: $454,342.94
+Maximum price: $1,024,800.00
+Mean price: $454,342.94
+Median price $438,900.00
+Standard deviation of prices: $165,171.13
+Model has a coefficient of determination, R^2, of 0.923.
+
+
+Training and testing split was successful.
+
+Traceback (most recent call last):
+  File "predicting-boston-house-prices.py", line 397, in <module>
+    ModelLearning(features, prices)
+  File "predicting-boston-house-prices.py", line 291, in ModelLearning
+    cv = ShuffleSplit(X.shape[0], n_iter = 10, test_size = 0.2, random_state = 0,train_size="1")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_iter'

@@ -1,0 +1,2 @@
+interactive(children=(IntSlider(value=9, continuous_update=False, description='Wave Num.', max=21, min=1), Output()), _dom_classes=('widget-interact',))
+interactive(children=(IntSlider(value=9, continuous_update=False, description='Wave Num.', max=21, min=1), Output()), _dom_classes=('widget-interact',))

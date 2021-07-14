@@ -1,0 +1,971 @@
+Dataline,Play,PlayerLinenumber,ActSceneLine,Player,PlayerLine
+22428,A Comedy of Errors,132.0,,OCTAVIUS CAESAR,ACT I
+66997,A Midsummer nights dream,75.0,,FORD,ACT I
+107908,A Winters Tale,52.0,,VALENTINE,ACT I
+12661,Alls well that ends well,9.0,,KING EDWARD IV,ACT I
+18566,Antony and Cleopatra,52.0,,ROSALIND,ACT I
+15744,As you like it,114.0,,KING,ACT I
+24483,Coriolanus,141.0,,DROMIO OF EPHESUS,ACT I
+28475,Cymbeline,49.0,,AUFIDIUS,ACT I
+32433,Hamlet,138.0,,CYMBELINE,ACT I
+1,Henry IV,,,,ACT I
+36677,Henry V,147.0,5.2.424,PRINCE FORTINBRAS,ACT I
+3206,Henry VI Part 1,8.0,,KING HENRY IV,ACT I
+6189,Henry VI Part 2,13.0,,SUFFOLK,ACT I
+9523,Henry VI Part 3,5.0,,WARWICK,ACT I
+40072,Henry VIII,83.0,,Chorus,ACT I
+46257,Julius Caesar,26.0,,BASTARD,ACT I
+43491,King John,11.0,5.5.97,KING HENRY VIII,ACT I
+49028,King Lear,37.0,,OCTAVIUS,ACT I
+52794,Loves Labours Lost,124.0,,ALBANY,ACT I
+58366,Measure for measure,23.0,,MALCOLM,ACT I
+61364,Merchant of Venice,171.0,,DUKE VINCENTIO,ACT I
+64166,Merry Wives of Windsor,90.0,,GRATIANO,ACT I
+69297,Much Ado about nothing,104.0,5.1.428,PUCK,ACT I
+72001,Othello,59.0,,BENEDICK,ACT I
+75763,Pericles,178.0,,LODOVICO,ACT I
+78404,Richard II,31.0,,GOWER,ACT I
+81341,Richard III,11.0,,HENRY BOLINGBROKE,ACT I
+85282,Romeo and Juliet,7.0,,RICHMOND,ACT I
+88595,Taming of the Shrew,65.0,,PRINCE,SCENE I. Before an alehouse on a heath.
+91401,The Tempest,93.0,,LUCENTIO,ACT I
+93804,Timon of Athens,78.0,5.1.383,PROSPERO,ACT I
+96466,Titus Andronicus,14.0,,ALCIBIADES,ACT I
+99192,Troilus and Cressida,43.0,,LUCIUS,ACT I
+102903,Twelfth Night,9.0,,PANDARUS,ACT I
+105551,Two Gentlemen of Verona,127.0,,Clown,ACT I
+55780,macbeth,405.0,,ADRIANO DE ARMADO,ACT I
+17877,As you like it,2.0,4.2.2,A Lord,"Sir, it was I."
+26518,Coriolanus,117.0,3.1.319,A Patrician,This man has marr'd his fortune.
+88685,Taming of the Shrew,24.0,0.1.82,A Player,So please your lordship to accept our duty.
+97003,Titus Andronicus,1.0,2.1.1,AARON,"Now climbeth Tamora Olympus' top,"
+40183,Henry VIII,15.0,1.1.76,ABERGAVENNY,I cannot tell
+60280,Measure for measure,6.0,4.2.19,ABHORSON,"Do you call, sir?"
+85340,Romeo and Juliet,26.0,1.1.40,ABRAHAM,"Do you bite your thumb at us, sir?"
+100109,Troilus and Cressida,31.0,2.1.53,ACHILLES,"Why, how now, Ajax! wherefore do you thus? How now,"
+15772,As you like it,2.0,1.1.26,ADAM,"Yonder comes my master, your brother."
+92139,The Tempest,23.0,2.1.35,ADRIAN,"Though this island seem to be desert,--"
+22716,A Comedy of Errors,1.0,2.1.1,ADRIANA,"Neither my husband nor the slave return'd,"
+53107,Loves Labours Lost,1.0,1.2.2,ADRIANO DE ARMADO,"Boy, what sign is it when a man of great spirit"
+22431,A Comedy of Errors,1.0,1.1.1,AEGEON,"Proceed, Solinus, to procure my fall"
+24055,A Comedy of Errors,14.0,5.1.41,AEMELIA,"Be quiet, people. Wherefore throng you hither?"
+98518,Titus Andronicus,11.0,4.4.62,AEMILIUS,"Arm, arm, my lord,--Rome never had more cause."
+99330,Troilus and Cressida,30.0,1.1.102,AENEAS,"How now, Prince Troilus! wherefore not afield?"
+26464,Coriolanus,96.0,3.1.268,AEdile,"Peace, peace!"
+99646,Troilus and Cressida,1.0,1.3.1,AGAMEMNON,"Princes,"
+19395,Antony and Cleopatra,45.0,2.2.142,AGRIPPA,"Give me leave, Caesar,--"
+100055,Troilus and Cressida,1.0,2.1.1,AJAX,Thersites!
+49886,King Lear,89.0,1.4.257,ALBANY,"Pray, sir, be patient."
+94096,Timon of Athens,132.0,1.1.280,ALCIBIADES,"Sir, you have saved my longing, and I feed"
+3407,Henry VI Part 1,2.0,1.2.9,ALENCON,They want their porridge and their fat bull-beeves:
+99349,Troilus and Cressida,2.0,1.2.2,ALEXANDER,Queen Hecuba and Helen.
+18650,Antony and Cleopatra,2.0,1.2.6,ALEXAS,Soothsayer!
+38022,Henry V,2.0,3.4.2,ALICE,"Un peu, madame."
+4640,Henry VI Part 1,47.0,3.1.195,ALL,"Welcome, high prince, the mighty Duke of York!"
+91416,The Tempest,5.0,1.1.10,ALONSO,"Good boatswain, have care. Where's the master?"
+16361,As you like it,2.0,2.1.19,AMIENS,"Happy is your grace,"
+102481,Troilus and Cressida,1.0,5.3.1,ANDROMACHE,"When was my lord so much ungently temper'd,"
+23192,A Comedy of Errors,44.0,3.1.99,ANGELO,"Here is neither cheer, sir, nor welcome: we would"
+55987,macbeth,36.0,1.3.104,ANGUS,We are sent
+40753,Henry VIII,10.0,1.4.32,ANNE,"Was he mad, sir?"
+64407,Merry Wives of Windsor,112.0,1.1.230,ANNE PAGE,"The dinner is on the table, my father desires your"
+83780,Richard III,38.0,3.7.224,ANOTHER,"Do, good my lord, lest all the land do rue it."
+108660,A Winters Tale,41.0,2.1.151,ANTIGONUS,"Be certain what you do, sir, lest your justice"
+75812,Pericles,1.0,1.1.1,ANTIOCHUS,"Young prince of Tyre, you have at large received"
+23171,A Comedy of Errors,29.0,3.1.78,ANTIPHOLUS,"Do you hear, you minion? you'll let us in, I hope?"
+61367,Merchant of Venice,1.0,1.1.1,ANTONIO,"In sooth, I know not why I am so sad:"
+46344,Julius Caesar,6.0,1.2.7,ANTONY,"Caesar, my lord?"
+94023,Timon of Athens,80.0,1.1.210,APEMANTUS,"Till I be gentle, stay thou for thy good morrow,"
+2591,Henry IV,1.0,4.4.1,ARCHBISHOP OF YORK,"Hie, good Sir Michael, bear this sealed brief"
+107911,A Winters Tale,1.0,1.1.1,ARCHIDAMUS,"If you shall chance, Camillo, to visit Bohemia, on"
+91706,The Tempest,43.0,1.2.219,ARIEL,"All hail, great master! grave sir, hail! I come"
+53127,Loves Labours Lost,11.0,1.2.22,ARMADO,Pretty and apt.
+62514,Merchant of Venice,3.0,2.9.9,ARRAGON,I am enjoin'd by oath to observe three things:
+47378,Julius Caesar,1.0,2.3.1,ARTEMIDORUS,"'Caesar, beware of Brutus, take heed of Cassius,"
+43793,King John,2.0,2.1.12,ARTHUR,God shall forgive you Coeur-de-lion's death
+30100,Cymbeline,3.0,3.3.11,ARVIRAGUS,"Hail, heaven!"
+56844,macbeth,15.0,3.1.49,ATTENDANT,"They are, my lord, without the palace gate."
+17366,As you like it,2.0,3.3.4,AUDREY,Your features! Lord warrant us! what features!
+24797,Coriolanus,2.0,1.2.4,AUFIDIUS,Is it not yours?
+43800,King John,4.0,2.1.19,AUSTRIA,"Upon thy cheek lay I this zealous kiss,"
+109644,A Winters Tale,1.0,4.3.1,AUTOLYCUS,"When daffodils begin to peer,"
+80716,Richard II,69.0,4.1.327,Abbot,A woeful pageant have we here beheld.
+12028,Henry VI Part 3,31.0,4.7.75,All,Long live Edward the Fourth!
+26035,Coriolanus,45.0,2.3.136,All Citizens,"Amen, amen. God save thee, noble consul!"
+28431,Coriolanus,35.0,5.6.140,All Conspirators,Let him die for't.
+94299,Timon of Athens,41.0,1.2.156,All Ladies,"Most thankfully, my lord."
+94376,Timon of Athens,68.0,1.2.225,All Lords,"O, none so welcome."
+94541,Timon of Athens,26.0,2.2.70,All Servants,"What are we, Apemantus?"
+28361,Coriolanus,16.0,5.6.71,All The Lords,You are most welcome home.
+28432,Coriolanus,36.0,5.6.141,All The People,'Tear him to pieces.' 'Do it presently.' 'He kill'd
+98592,Titus Andronicus,3.0,5.1.17,All the Goths,"And as he saith, so say we all with him."
+88174,Romeo and Juliet,8.0,5.1.61,Apothecary,Who calls so loud?
+18589,Antony and Cleopatra,6.0,1.1.19,Attendant,"News, my good lord, from Rome."
+19622,Antony and Cleopatra,2.0,2.5.3,Attendants,"The music, ho!"
+79530,Richard II,28.0,2.2.131,BAGOT,And that's the wavering commons: for their love
+63186,Merchant of Venice,8.0,3.4.57,BALTHASAR,"Madam, I go with all convenient speed."
+23118,A Comedy of Errors,6.0,3.1.25,BALTHAZAR,"I hold your dainties cheap, sir, and your"
+55921,macbeth,14.0,1.3.40,BANQUO,How far is't call'd to Forres? What are these
+88946,Taming of the Shrew,5.0,1.1.48,BAPTISTA,"Gentlemen, importune me no farther,"
+800,Henry IV,17.0,2.2.50,BARDOLPH,"Case ye, case ye, on with your vizards: there 's"
+60517,Measure for measure,5.0,4.3.24,BARNARDINE,[Within]  A pox o' your throats! Who makes that
+61435,Merchant of Venice,13.0,1.1.68,BASSANIO,"Good signiors both, when shall we laugh? say, when?"
+4959,Henry VI Part 1,6.0,3.4.32,BASSET,"Yes, sir, as well as you dare patronage"
+96477,Titus Andronicus,2.0,1.1.9,BASSIANUS,"Romans, friends, followers, favorers of my right,"
+43547,King John,16.0,1.1.51,BASTARD,"Your faithful subject I, a gentleman"
+3447,Henry VI Part 1,11.0,1.2.46,BASTARD OF ORLEANS,Where's the Prince Dauphin? I have news for him.
+38628,Henry V,39.0,4.1.87,BATES,I think it be: but we have no great cause to desire
+69326,Much Ado about nothing,12.0,1.1.27,BEATRICE,"I pray you, is Signior Mountanto returned from the"
+3209,Henry VI Part 1,1.0,1.1.1,BEDFORD,"Hung be the heavens with black, yield day to night!"
+30090,Cymbeline,1.0,3.3.1,BELARIUS,"A goodly day not to keep house, with such"
+69393,Much Ado about nothing,42.0,1.1.93,BENEDICK,"Were you in doubt, sir, that you asked her?"
+85359,Romeo and Juliet,41.0,1.1.57,BENVOLIO,"Part, fools!"
+32436,Hamlet,1.0,1.1.1,BERNARDO,Who's there?
+12665,Alls well that ends well,2.0,1.1.2,BERTRAM,"And I in going, madam, weep o'er my father's death"
+8480,Henry VI Part 2,1.0,4.2.1,BEVIS,"Come, and get thee a sword, though made of a lath,"
+74379,Othello,79.0,3.4.185,BIANCA,"Save you, friend Cassio!"
+45529,King John,5.0,4.3.18,BIGOT,To-morrow morning let us meet him then.
+89129,Taming of the Shrew,54.0,1.1.226,BIONDELLO,"Where have I been! Nay, how now! where are you?"
+52829,Loves Labours Lost,4.0,1.1.33,BIRON,"I can but say their protestation over,"
+79838,Richard II,4.0,3.2.27,BISHOP OF CARLISLE,"Fear not, my lord: that Power that made you king"
+83298,Richard III,4.0,3.4.6,BISHOP OF ELY,"To-morrow, then, I judge a happy day."
+43927,King John,29.0,2.1.143,BLANCH,"O, well did he become that lion's robe"
+84798,Richard III,4.0,5.2.20,BLUNT,He hath no friends but who are friends for fear.
+6813,Henry VI Part 2,2.0,1.4.3,BOLINGBROKE,"Master Hume, we are therefore provided: will her"
+11350,Henry VI Part 3,37.0,3.3.133,BONA,"Your grant, or your denial, shall be mine:"
+69669,Much Ado about nothing,11.0,1.3.39,BORACHIO,I came yonder from a great supper: the prince your
+7200,Henry VI Part 2,12.0,2.2.64,BOTH,"Long live our sovereign Richard, England's king!"
+67265,A Midsummer nights dream,2.0,1.2.2,BOTTOM,"You were best to call them generally, man by man,"
+77433,Pericles,2.0,4.2.2,BOULT,Sir?
+38088,Henry V,4.0,3.5.10,BOURBON,"Normans, but bastard Normans, Norman bastards!"
+53326,Loves Labours Lost,1.0,2.1.1,BOYET,"Now, madam, summon up your dearest spirits:"
+72088,Othello,15.0,1.1.84,BRABANTIO,What is the reason of this terrible summons?
+81431,Richard III,10.0,1.1.87,BRAKENBURY,"I beseech your graces both to pardon me,"
+40340,Henry VIII,45.0,1.1.230,BRANDON,"Your office, sergeant, execute it."
+24757,Coriolanus,78.0,1.1.265,BRUTUS,He has no equal.
+6361,Henry VI Part 2,24.0,1.1.166,BUCKINGHAM,"Why should he, then, protect our sovereign,"
+3894,Henry VI Part 1,5.0,2.1.20,BURGUNDY,Traitors have never other company.
+79070,Richard II,10.0,1.4.54,BUSHY,"Old John of Gaunt is grievous sick, my lord,"
+95922,Timon of Athens,134.0,4.3.444,Banditti,Where?
+77437,Pericles,4.0,4.2.6,Bawd,We were never so much out of creatures. We have but
+7076,Henry VI Part 2,89.0,2.1.161,Beadle,"I will, my lord. Come on, sirrah, off with your"
+91406,The Tempest,2.0,1.1.3,Boatswain,"Here, master: what cheer?"
+13278,Alls well that ends well,6.0,2.1.24,Both,Our hearts receive your warnings.
+26008,Coriolanus,41.0,2.3.111,Both Citizens,"The gods give you joy, sir, heartily!"
+56924,macbeth,26.0,3.1.126,Both Murderers,"True, my lord."
+26862,Coriolanus,23.0,3.3.52,Both Tribunes,"Well, say. Peace, ho!"
+3669,Henry VI Part 1,1.0,1.4.3,Boy,"Father, I know, and oft have shot at them,"
+8507,Henry VI Part 2,17.0,4.2.27,CADE,"We John Cade, so termed of our supposed father,--"
+46338,Julius Caesar,1.0,1.2.1,CAESAR,Calpurnia!
+58011,macbeth,3.0,5.2.8,CAITHNESS,Who knows if Donalbain be with his brother?
+29898,Cymbeline,2.0,3.1.2,CAIUS LUCIUS,"When Julius Caesar, whose remembrance yet"
+101069,Troilus and Cressida,1.0,3.3.1,CALCHAS,"Now, princes, for the service I have done you,"
+91859,The Tempest,85.0,1.2.371,CALIBAN,[Within]  There's wood enough within.
+46341,Julius Caesar,4.0,1.2.4,CALPURNIA,"Here, my lord."
+37342,Henry V,9.0,2.2.25,CAMBRIDGE,Never was monarch better fear'd and loved
+107915,A Winters Tale,2.0,1.1.5,CAMILLO,"I think, this coming summer, the King of Sicilia"
+20545,Antony and Cleopatra,15.0,3.7.38,CANIDIUS,Why will my lord do so?
+36717,Henry V,1.0,1.1.1,CANTERBURY,"My lord, I'll tell you, that self bill is urged,"
+94437,Timon of Athens,2.0,2.1.15,CAPHIS,"Here, sir, what is your pleasure?"
+42726,Henry VIII,29.0,4.2.125,CAPUCIUS,"Madam, the same, your servant."
+85375,Romeo and Juliet,46.0,1.1.68,CAPULET,"What noise is this? Give me my long sword, ho!"
+6251,Henry VI Part 2,12.0,1.1.58,CARDINAL,"[Reads]  'Item, It is further agreed between them,"
+41201,Henry VIII,33.0,2.2.121,CARDINAL CAMPEIUS,"Your grace must needs deserve all strangers' loves,"
+44547,King John,22.0,3.1.138,CARDINAL PANDULPH,"Hail, you anointed deputies of heaven!"
+40243,Henry VIII,27.0,1.1.135,CARDINAL WOLSEY,"The Duke of Buckingham's surveyor, ha?"
+46339,Julius Caesar,2.0,1.2.2,CASCA,"Peace, ho! Caesar speaks."
+100288,Troilus and Cressida,10.0,2.2.101,CASSANDRA,"[Within]  Cry, Trojans, cry!"
+72246,Othello,9.0,1.2.40,CASSIO,"The duke does greet you, general,"
+46363,Julius Caesar,18.0,1.2.25,CASSIUS,"Fellow, come from the throng, look upon Caesar."
+82134,Richard III,99.0,1.3.325,CATESBY,"Madam, his majesty doth call for you,"
+48869,Julius Caesar,29.0,5.3.100,CATO,He is slain.
+15918,As you like it,1.0,1.2.1,CELIA,"I pray thee, Rosalind, sweet my coz, be merry."
+93184,The Tempest,17.0,4.1.83,CERES,"Hail, many-colour'd messenger, that ne'er"
+77043,Pericles,1.0,3.2.1,CERIMON,"Philemon, ho!"
+3399,Henry VI Part 1,1.0,1.2.1,CHARLES,"Mars his true moving, even as in the heavens"
+18645,Antony and Cleopatra,1.0,1.2.1,CHARMIAN,"Lord Alexas, sweet Alexas, most any thing Alexas,"
+43495,King John,2.0,1.1.2,CHATILLON,"Thus, after greeting, speaks the King of France"
+96607,Titus Andronicus,16.0,1.1.131,CHIRON,Was ever Scythia half so barbarous?
+84730,Richard III,2.0,4.5.7,CHRISTOPHER,"At Pembroke, or at Harford-west, in Wales."
+46678,Julius Caesar,1.0,1.3.1,CICERO,"Good even, Casca: brought you Caesar home?"
+46821,Julius Caesar,28.0,1.3.140,CINNA,To find out you. Who's that? Metellus Cimber?
+48077,Julius Caesar,1.0,3.3.1,CINNA THE POET,"I dreamt to-night that I did feast with Caesar,"
+11010,Henry VI Part 3,5.0,3.2.14,CLARENCE,[Aside to GLOUCESTER]  He knows the game: how true
+58572,Measure for measure,59.0,1.2.104,CLAUDIO,"Fellow, why dost thou show me thus to the world?"
+48591,Julius Caesar,143.0,4.3.338,CLAUDIUS,My lord?
+109097,A Winters Tale,1.0,3.1.1,CLEOMENES,"The climate's delicate, the air most sweet,"
+76185,Pericles,1.0,1.4.1,CLEON,"My Dionyza, shall we rest us here,"
+18584,Antony and Cleopatra,2.0,1.1.15,CLEOPATRA,"If it be love indeed, tell me how much."
+8574,Henry VI Part 2,53.0,4.2.93,CLERK,"Sir, I thank God, I have been so well brought up"
+8936,Henry VI Part 2,3.0,4.8.10,CLIFFORD,"What say ye, countrymen? will ye relent,"
+48932,Julius Caesar,2.0,5.5.2,CLITUS,"Statilius show'd the torch-light, but, my lord,"
+28716,Cymbeline,2.0,1.2.5,CLOTEN,"If my shirt were bloody, then to shift it. Have I hurt him?"
+67989,A Midsummer nights dream,52.0,3.1.154,COBWEB,And I.
+24728,Coriolanus,65.0,1.1.238,COMINIUS,You have fought together.
+69630,Much Ado about nothing,1.0,1.3.1,CONRADE,"What the good-year, my lord! why are you thus out"
+43813,King John,5.0,2.1.32,CONSTANCE,"O, take his mother's thanks, a widow's thanks,"
+49094,King Lear,19.0,1.1.62,CORDELIA,[Aside]  What shall Cordelia do?
+16542,As you like it,9.0,2.4.19,CORIN,That is the way to make her scorn you still.
+25315,Coriolanus,11.0,1.9.75,CORIOLANUS,"I will go wash,"
+28976,Cymbeline,4.0,1.5.6,CORNELIUS,"Pleaseth your highness, ay: here they are, madam:"
+49207,King Lear,49.0,1.1.173,CORNWALL,"Dear sir, forbear."
+52989,Loves Labours Lost,47.0,1.1.189,COSTARD,"Sir, the contempts thereof are as touching me."
+12664,Alls well that ends well,1.0,1.1.1,COUNTESS,"In delivering my son from me, I bury a second husband."
+38626,Henry V,38.0,4.1.85,COURT,"Brother John Bates, is not that the morning which"
+42911,Henry VIII,33.0,5.1.104,CRANMER,[Aside]
+99348,Troilus and Cressida,1.0,1.2.1,CRESSIDA,Who were those went by?
+41970,Henry VIII,34.0,3.2.103,CROMWELL,"To his own hand, in's bedchamber."
+50049,King Lear,2.0,2.1.2,CURAN,"And you, sir. I have been with your father, and"
+102921,Twelfth Night,2.0,1.1.16,CURIO,"Will you go hunt, my lord?"
+90285,Taming of the Shrew,2.0,4.1.12,CURTIS,Who is that calls so coldly?
+28633,Cymbeline,31.0,1.1.147,CYMBELINE,"Thou basest thing, avoid! hence, from my sight!"
+4030,Henry VI Part 1,12.0,2.2.61,Captain,"I do, my lord, and mean accordingly."
+1506,Henry IV,184.0,2.4.494,Carrier,As fat as butter.
+695,Henry IV,21.0,2.1.44,Chamberlain,"[Within]  At hand, quoth pick-purse."
+43072,Henry VIII,1.0,5.3.1,Chancellor,"Speak to the business, master-secretary:"
+82688,Richard III,21.0,2.2.72,Children,"Oh for our father, for our dear lord Clarence!"
+36680,Henry V,1.0,1.0.1,Chorus,"O for a Muse of fire, that would ascend"
+27191,Coriolanus,2.0,4.4.8,Citizen,And you.
+26074,Coriolanus,67.0,2.3.171,Citizens,"No, no, no man saw 'em."
+8568,Henry VI Part 2,50.0,4.2.87,Clerk,Emmanuel.
+12997,Alls well that ends well,4.0,1.3.12,Clown,"'Tis not unknown to you, madam, I am a poor fellow."
+8130,Henry VI Part 2,55.0,3.2.272,Commons,"[Within]  An answer from the king, my"
+37610,Henry V,3.0,2.4.31,Constable,"O peace, Prince Dauphin!"
+23750,A Comedy of Errors,12.0,4.3.48,Courtezan,"Well met, well met, Master Antipholus."
+41400,Henry VIII,5.0,2.4.9,Crier,"Henry King of England,  and c."
+94262,Timon of Athens,33.0,1.2.122,Cupid,"Hail to thee, worthy Timon, and to all"
+48942,Julius Caesar,8.0,5.5.10,DARDANIUS,Shall I do such a deed?
+37594,Henry V,2.0,2.4.15,DAUPHIN,"My most redoubted father,"
+46976,Julius Caesar,29.0,2.1.106,DECIUS BRUTUS,Here lies the east: doth not the day break here?
+101403,Troilus and Cressida,2.0,4.1.2,DEIPHOBUS,It is the Lord AEneas.
+18634,Antony and Cleopatra,16.0,1.1.62,DEMETRIUS,Is Caesar with Antonius prized so slight?
+15832,As you like it,26.0,1.1.83,DENNIS,Calls your worship?
+42897,Henry VIII,26.0,5.1.94,DENNY,"Sir, I have brought my lord the archbishop,"
+81822,Richard III,12.0,1.3.19,DERBY,God make your majesty joyful as you have been!
+21702,Antony and Cleopatra,41.0,4.14.135,DERCETAS,Thy death and fortunes bid thy followers fly.
+72532,Othello,45.0,1.3.196,DESDEMONA,"My noble father,"
+14277,Alls well that ends well,2.0,3.5.3,DIANA,They say the French count has done most honourable service.
+8508,Henry VI Part 2,18.0,4.2.28,DICK,"[Aside]  Or rather, of stealing a cade of herrings."
+21706,Antony and Cleopatra,42.0,4.14.138,DIOMEDES,Where's Antony?
+109100,A Winters Tale,2.0,3.1.4,DION,"I shall report,"
+76188,Pericles,2.0,1.4.4,DIONYZA,"That were to blow at fire in hope to quench it,"
+43035,Henry VIII,6.0,5.2.11,DOCTOR BUTTS,[Aside]  This is a piece of malice. I am glad
+64616,Merry Wives of Windsor,16.0,1.4.39,DOCTOR CAIUS,"Vat is you sing? I do not like des toys. Pray you,"
+70630,Much Ado about nothing,1.0,3.3.1,DOGBERRY,Are you good men and true?
+20771,Antony and Cleopatra,2.0,3.12.3,DOLABELLA,"Caesar, 'tis his schoolmaster:"
+18657,Antony and Cleopatra,7.0,1.2.12,DOMITIUS ENOBARBUS,"Bring in the banquet quickly, wine enough"
+69439,Much Ado about nothing,59.0,1.1.138,DON JOHN,"I thank you: I am not of many words, but I thank"
+69383,Much Ado about nothing,38.0,1.1.83,DON PEDRO,"Good Signior Leonato, you are come to meet your"
+56669,macbeth,35.0,2.3.119,DONALBAIN,What is amiss?
+109968,A Winters Tale,31.0,4.4.190,DORCAS,"Mopsa must be your mistress: marry, garlic,"
+81993,Richard III,59.0,1.3.187,DORSET,No man but prophesied revenge for it.
+22641,A Comedy of Errors,9.0,1.2.47,DROMIO OF EPHESUS,Return'd so soon! rather approach'd too late:
+22609,A Comedy of Errors,3.0,1.2.18,DROMIO OF SYRACUSE,"Many a man would take you at your word,"
+6462,Henry VI Part 2,1.0,1.2.1,DUCHESS,"Why droops my lord, like over-ripen'd corn,"
+80841,Richard II,1.0,5.2.1,DUCHESS OF YORK,"My lord, you told me you would tell the rest,"
+14035,Alls well that ends well,1.0,3.1.1,DUKE,So that from point to point now have you heard
+16052,As you like it,60.0,1.2.132,DUKE FREDERICK,"Come on: since the youth will not be entreated, his"
+78697,Richard II,2.0,1.3.2,DUKE OF AUMERLE,"Yea, at all points, and longs to enter in."
+80442,Richard II,16.0,4.1.61,DUKE OF SURREY,"My Lord Fitzwater, I do remember well"
+72331,Othello,1.0,1.3.1,DUKE OF VENICE,There is no composition in these news
+79088,Richard II,2.0,2.1.3,DUKE OF YORK,"Vex not yourself, nor strive not with your breath,"
+102906,Twelfth Night,1.0,1.1.1,DUKE ORSINO,"If music be the food of love, play on,"
+16343,As you like it,1.0,2.1.1,DUKE SENIOR,"Now, my co-mates and brothers in exile,"
+22433,A Comedy of Errors,2.0,1.1.3,DUKE SOLINUS,"Merchant of Syracuse, plead no more,"
+58369,Measure for measure,1.0,1.1.1,DUKE VINCENTIO,Escalus.
+52981,Loves Labours Lost,42.0,1.1.181,DULL,Which is the duke's own person?
+52824,Loves Labours Lost,3.0,1.1.28,DUMAIN,"My loving lord, Dumain is mortified:"
+55799,macbeth,1.0,1.2.1,DUNCAN,"What bloody man is that? He can report,"
+35518,Hamlet,31.0,4.5.117,Danes,"No, let's come in."
+75872,Pericles,10.0,1.1.59,Daughter,"Of all say'd yet, mayst thou prove prosperous!"
+51753,King Lear,2.0,4.4.12,Doctor,"There is means, madam:"
+2240,Henry IV,2.0,4.1.10,EARL OF DOUGLAS,Thou art the king of honour:
+79739,Richard II,2.0,2.4.5,EARL OF SALISBURY,"Stay yet another day, thou trusty Welshman:"
+336,Henry IV,2.0,1.3.10,EARL OF WORCESTER,"Our house, my sovereign liege, little deserves"
+49525,King Lear,32.0,1.2.145,EDGAR,"How now, brother Edmund! what serious"
+49056,King Lear,9.0,1.1.26,EDMUND,"No, my lord."
+9297,Henry VI Part 2,38.0,5.1.141,EDWARD,"Ay, noble father, if our words will serve."
+67022,A Midsummer nights dream,4.0,1.1.21,EGEUS,"Happy be Theseus, our renowned duke!"
+107350,Two Gentlemen of Verona,1.0,4.3.1,EGLAMOUR,This is the hour that Madam Silvia
+58867,Measure for measure,9.0,2.1.44,ELBOW,"Come, bring them away: if these be good people in"
+44804,King John,5.0,3.3.20,ELINOR,"Farewell, gentle cousin."
+36722,Henry V,2.0,1.1.6,ELY,"But how, my lord, shall we resist it now?"
+72901,Othello,37.0,2.1.120,EMILIA,You have little cause to say so.
+20365,Antony and Cleopatra,2.0,3.5.2,EROS,"There's strange news come, sir."
+38551,Henry V,2.0,4.1.16,ERPINGHAM,"Not so, my liege: this lodging likes me better,"
+58370,Measure for measure,2.0,1.1.2,ESCALUS,My lord.
+76729,Pericles,2.0,2.4.13,ESCANES,'Twas very strange.
+43539,King John,14.0,1.1.44,ESSEX,"My liege, here is the strangest controversy"
+20778,Antony and Cleopatra,4.0,3.12.9,EUPHRONIUS,"Such as I am, I come from Antony:"
+3225,Henry VI Part 1,3.0,1.1.17,EXETER,We mourn in black: why mourn we not in blood?
+81138,Richard II,1.0,5.4.1,EXTON,"Didst thou not mark the king, what words he spake,"
+21923,Antony and Cleopatra,15.0,5.1.61,Egyptian,"A poor Egyptian yet. The queen my mistress,"
+44109,King John,72.0,2.1.320,English Herald,"Rejoice, you men of Angiers, ring your bells:"
+103944,Twelfth Night,2.0,2.5.2,FABIAN,"Nay, I'll come: if I lose a scruple of this sport,"
+115,Henry IV,1.0,1.2.1,FALSTAFF,"Now, Hal, what time of day is it, lad?"
+4786,Henry VI Part 1,36.0,3.2.105,FASTOLFE,Whither away! to save myself by flight:
+64701,Merry Wives of Windsor,49.0,1.4.119,FENTON,[Within]  Who's within there? ho!
+52797,Loves Labours Lost,1.0,1.1.1,FERDINAND,"Let fame, that all hunt after in their lives,"
+94684,Timon of Athens,75.0,2.2.207,FLAMINIUS,"As you have said, my lord."
+46260,Julius Caesar,1.0,1.1.1,FLAVIUS,"Hence! home, you idle creatures get you home:"
+56356,macbeth,2.0,2.1.2,FLEANCE,"The moon is down, I have not heard the clock."
+109777,A Winters Tale,1.0,4.4.1,FLORIZEL,These your unusual weeds to each part of you
+37833,Henry V,7.0,3.2.19,FLUELLEN,"Up to the breach, you dogs! avaunt, you cullions!"
+67302,A Midsummer nights dream,14.0,1.2.39,FLUTE,"Here, Peter Quince."
+64840,Merry Wives of Windsor,22.0,2.1.99,FORD,"Well, I hope it be not so."
+1031,Henry IV,7.0,2.4.38,FRANCIS,"Anon, anon, sir. Look down into the Pomgarnet, Ralph."
+58718,Measure for measure,2.0,1.4.2,FRANCISCA,Are not these large enough?
+32437,Hamlet,2.0,1.1.2,FRANCISCO,"Nay, answer me: stand, and unfold yourself."
+40000,Henry V,67.0,5.2.319,FRENCH KING,"Yes, my lord, you see them perspectively, the cities"
+70957,Much Ado about nothing,2.0,4.1.4,FRIAR FRANCIS,"You come hither, my lord, to marry this lady."
+88207,Romeo and Juliet,1.0,5.2.1,FRIAR JOHN,"Holy Franciscan friar! brother, ho!"
+86349,Romeo and Juliet,1.0,2.3.1,FRIAR LAURENCE,"The grey-eyed morn smiles on the frowning night,"
+60734,Measure for measure,2.0,4.5.11,FRIAR PETER,It shall be speeded well.
+58663,Measure for measure,2.0,1.3.7,FRIAR THOMAS,May your grace speak of it?
+58926,Measure for measure,35.0,2.1.103,FROTH,"No, indeed."
+67370,A Midsummer nights dream,2.0,2.1.2,Fairy,"Over hill, over dale,"
+10707,Henry VI Part 3,4.0,2.5.79,Father,"Thou that so stoutly hast resisted me,"
+26003,Coriolanus,38.0,2.3.106,Fifth Citizen,"We hope to find you our friend, and therefore give"
+36636,Hamlet,143.0,5.2.385,First Ambassador,"The sight is dismal,"
+57425,macbeth,25.0,4.1.78,First Apparition,"Macbeth! Macbeth! Macbeth! beware Macduff,"
+18766,Antony and Cleopatra,68.0,1.2.117,First Attendant,"The man from Sicyon,--is there such an one?"
+95912,Timon of Athens,129.0,4.3.434,First Bandit,Where should he have this gold? It is some poor
+31675,Cymbeline,7.0,5.4.53,First Brother,"When once he was mature for man,"
+31603,Cymbeline,13.0,5.3.93,First Captain,Great Jupiter be praised! Lucius is taken.
+649,Henry IV,1.0,2.1.1,First Carrier,"Heigh-ho! an it be not four by the day, I'll be"
+8757,Henry VI Part 2,2.0,4.5.2,First Citizen,"No, my lord, nor likely to be slain, for they have"
+35902,Hamlet,1.0,5.1.1,First Clown,Is she to be buried in Christian burial that
+46265,Julius Caesar,2.0,1.1.6,First Commoner,"Why, sir, a carpenter."
+28298,Coriolanus,2.0,5.6.10,First Conspirator,How is it with our general?
+45070,King John,2.0,4.1.6,First Executioner,I hope your warrant will bear out the deed.
+76357,Pericles,2.0,2.1.12,First Fisherman,"What, ho, Pilch!"
+4314,Henry VI Part 1,2.0,2.5.18,First Gaoler,"Richard Plantagenet, my lord, will come:"
+8335,Henry VI Part 2,2.0,4.1.15,First Gentleman,"What is my ransom, master? let me know."
+98584,Titus Andronicus,2.0,5.1.9,First Goth,"Brave slip, sprung from the great Andronicus,"
+21691,Antony and Cleopatra,32.0,4.14.125,First Guard,What's the noise?
+78801,Richard II,23.0,1.3.104,First Herald,"Harry of Hereford, Lancaster and Derby,"
+88619,Taming of the Shrew,9.0,0.1.20,First Huntsman,"Why, Belman is as good as he, my lord,"
+10892,Henry VI Part 3,1.0,3.1.1,First Keeper,"Under this thick-grown brake we'll shroud ourselves,"
+76611,Pericles,9.0,2.3.26,First Knight,"Contend not, sir, for we are gentlemen"
+28972,Cymbeline,2.0,1.5.3,First Lady,"I, madam."
+12899,Alls well that ends well,2.0,1.2.4,First Lord,"So 'tis reported, sir."
+22592,A Comedy of Errors,1.0,1.2.1,First Merchant,"Therefore give out you are of Epidamnum,"
+12118,Henry VI Part 3,2.0,5.1.3,First Messenger,"By this at Dunsmore, marching hitherward."
+7851,Henry VI Part 2,3.0,3.2.5,First Murder,Here comes my lord.
+7846,Henry VI Part 2,1.0,3.2.1,First Murderer,"Run to my Lord of Suffolk, let him know"
+73562,Othello,3.0,3.1.5,First Musician,"How, sir, how!"
+7284,Henry VI Part 2,13.0,2.3.59,First Neighbour,"Here, neighbour Horner, I drink to you in a cup of"
+25694,Coriolanus,1.0,2.2.1,First Officer,"Come, come, they are almost here. How many stand"
+107120,Two Gentlemen of Verona,1.0,4.1.1,First Outlaw,"Fellows, stand fast, I see a passenger."
+18297,As you like it,3.0,5.3.6,First Page,"Well met, honest gentleman."
+6576,Henry VI Part 2,1.0,1.3.1,First Petitioner,"My masters, let's stand close: my lord protector"
+77414,Pericles,29.0,4.1.101,First Pirate,"Hold, villain!"
+33979,Hamlet,144.0,2.2.441,First Player,"What speech, my lord?"
+36135,Hamlet,88.0,5.1.224,First Priest,Her obsequies have been as far enlarged
+25052,Coriolanus,1.0,1.5.1,First Roman,This will I carry to Rome.
+35651,Hamlet,4.0,4.6.6,First Sailor,"God bless you, sir."
+40245,Henry VIII,28.0,1.1.137,First Secretary,"Here, so please you."
+24721,Coriolanus,63.0,1.1.231,First Senator,"Marcius, 'tis true that you have lately told us,"
+3877,Henry VI Part 1,2.0,2.1.5,First Sentinel,"Sergeant, you shall."
+19942,Antony and Cleopatra,1.0,2.7.1,First Servant,"Here they'll be, man. Some o' their plants are"
+27218,Coriolanus,1.0,4.5.1,First Servingman,"Wine, wine, wine! What service"
+4678,Henry VI Part 1,2.0,3.2.10,First Soldier,"Our sacks shall be a mean to sack the city,"
+94813,Timon of Athens,2.0,3.2.3,First Stranger,"We know him for no less, though we are but strangers"
+826,Henry IV,33.0,2.2.74,First Traveller,"Come, neighbour: the boy shall lead our horses down"
+30767,Cymbeline,2.0,3.7.11,First Tribune,Is Lucius general of the forces?
+3564,Henry VI Part 1,2.0,1.3.5,First Warder,[Within]  Who's there that knocks so imperiously?
+11691,Henry VI Part 3,1.0,4.3.1,First Watchman,"Come on, my masters, each man take his stand:"
+55783,macbeth,1.0,1.1.1,First Witch,When shall we three meet again
+49711,King Lear,42.0,1.4.90,Fool,Let me hire him too: here's my coxcomb.
+17882,As you like it,4.0,4.2.7,Forester,"Yes, sir."
+25986,Coriolanus,34.0,2.3.89,Fourth Citizen,"You have deserved nobly of your country, and you"
+72830,Othello,17.0,2.1.57,Fourth Gentleman,"The town is empty, on the brow o' the sea"
+13660,Alls well that ends well,48.0,2.3.102,Fourth Lord,"Fair one, I think not so."
+84699,Richard III,174.0,4.4.540,Fourth Messenger,"Sir Thomas Lovel and Lord Marquis Dorset,"
+21163,Antony and Cleopatra,8.0,4.3.9,Fourth Soldier,Here we: and if to-morrow
+44096,King John,71.0,2.1.308,French Herald,"You men of Angiers, open wide your gates,"
+39070,Henry V,2.0,4.4.2,French Soldier,Je pense que vous etes gentilhomme de bonne qualite.
+28809,Cymbeline,3.0,1.4.9,Frenchman,I have seen him in France: we had very many there
+680,Henry IV,12.0,2.1.30,GADSHILL,"Good morrow, carriers. What's o'clock?"
+22000,Antony and Cleopatra,9.0,5.2.40,GALLUS,You see how easily she may be surprised:
+80372,Richard II,24.0,3.4.106,GARDENER,"Poor queen! so that thy state might be no worse,"
+41222,Henry VIII,38.0,2.2.140,GARDINER,[Aside to CARDINAL WOLSEY]
+3736,Henry VI Part 1,8.0,1.4.66,GARGRAVE,"I think, at the north gate, for there stand lords."
+81759,Richard III,87.0,1.2.238,GENTLEMEN,"Towards Chertsey, noble lord?"
+10529,Henry VI Part 3,45.0,2.2.163,GEORGE,"But when we saw our sunshine made thy spring,"
+48569,Julius Caesar,128.0,4.3.318,GHOST,"Thy evil spirit, Brutus."
+3737,Henry VI Part 1,9.0,1.4.67,GLANSDALE,"And I, here, at the bulwark of the bridge."
+1557,Henry IV,3.0,3.1.7,GLENDOWER,"No, here it is."
+3216,Henry VI Part 1,2.0,1.1.8,GLOUCESTER,England ne'er had a king until his time.
+61967,Merchant of Venice,2.0,2.2.32,GOBBO,"Master young man, you, I pray you, which is the way"
+49087,King Lear,18.0,1.1.55,GONERIL,"Sir, I love you more than words can wield the matter,"
+91422,The Tempest,9.0,1.1.16,GONZALO,"Nay, good, be patient."
+38003,Henry V,2.0,3.3.44,GOVERNOR,Our expectation hath this day an end:
+37871,Henry V,11.0,3.2.53,GOWER,"Captain Fluellen, you must come presently to the"
+38896,Henry V,12.0,4.2.38,GRANDPRE,"Why do you stay so long, my lords of France?"
+61443,Merchant of Venice,17.0,1.1.75,GRATIANO,"You look not well, Signior Antonio,"
+79052,Richard II,8.0,1.4.37,GREEN,"Well, he is gone, and with him go these thoughts."
+85301,Romeo and Juliet,2.0,1.1.2,GREGORY,"No, for then we should be colliers."
+88953,Taming of the Shrew,6.0,1.1.55,GREMIO,[Aside]  To cart her rather: she's too rough for me.
+37346,Henry V,10.0,2.2.29,GREY,True: those that were your father's enemies
+41530,Henry VIII,22.0,2.4.137,GRIFFITH,"Madam, you are call'd back."
+89172,Taming of the Shrew,2.0,1.2.6,GRUMIO,"Knock, sir! whom should I knock? is there man has"
+30099,Cymbeline,2.0,3.3.10,GUIDERIUS,"Hail, heaven!"
+33552,Hamlet,4.0,2.2.31,GUILDENSTERN,"But we both obey,"
+40721,Henry VIII,1.0,1.4.1,GUILDFORD,"Ladies, a general welcome from his grace"
+43730,King John,53.0,1.1.232,GURNEY,"Good leave, good Philip."
+22586,A Comedy of Errors,11.0,1.1.156,Gaoler,"I will, my lord."
+80295,Richard II,14.0,3.4.31,Gardener,"Go, bind thou up yon dangling apricocks,"
+43391,Henry VIII,1.0,5.5.1,Garter,"Heaven, from thy endless goodness, send prosperous"
+5201,Henry VI Part 1,2.0,4.2.15,General,"Thou ominous and fearful owl of death,"
+15251,Alls well that ends well,2.0,5.1.9,Gentleman,And you.
+24871,Coriolanus,4.0,1.3.26,Gentlewoman,"Madam, the Lady Valeria is come to visit you."
+33170,Hamlet,2.0,1.5.2,Ghost,Mark me.
+84960,Richard III,38.0,5.3.140,Ghost of CLARENCE,[To KING RICHARD III]
+84974,Richard III,40.0,5.3.152,Ghost of GREY,[To KING RICHARD III]
+84983,Richard III,43.0,5.3.160,Ghost of HASTINGS,[To KING RICHARD III]
+85003,Richard III,45.0,5.3.176,Ghost of LADY ANNE,[To KING RICHARD III]
+84971,Richard III,39.0,5.3.149,Ghost of RIVERS,[To KING RICHARD III]
+84976,Richard III,41.0,5.3.154,Ghost of VAUGHAN,[To KING RICHARD III]
+82620,Richard III,4.0,2.2.5,Girl,"Why do you look on us, and shake your head,"
+81221,Richard II,2.0,5.5.67,Groom,"Hail, royal prince!"
+22260,Antony and Cleopatra,85.0,5.2.279,Guard,Here is a rural fellow
+32701,Hamlet,9.0,1.2.66,HAMLET,"[Aside]  A little more than kin, and less than kind."
+11539,Henry VI Part 3,17.0,4.1.39,HASTINGS,"Why, knows not Montague that of itself"
+57244,macbeth,2.0,3.5.2,HECATE,"Have I not reason, beldams as you are,"
+100195,Troilus and Cressida,2.0,2.2.8,HECTOR,Though no man lesser fears the Greeks than I
+100741,Troilus and Cressida,30.0,3.1.45,HELEN,"Dear lord, you are full of fair words."
+12712,Alls well that ends well,17.0,1.1.49,HELENA,"I do affect a sorrow indeed, but I have it too."
+100221,Troilus and Cressida,4.0,2.2.34,HELENUS,"No marvel, though you bite so sharp at reasons,"
+76041,Pericles,4.0,1.2.38,HELICANUS,"Peace, peace, and give experience tongue."
+78427,Richard II,6.0,1.1.20,HENRY BOLINGBROKE,Many years of happy days befal
+79579,Richard II,5.0,2.3.24,HENRY PERCY,"I had thought, my lord, to have learn'd his health of you."
+84797,Richard III,3.0,5.2.19,HERBERT,I doubt not but his friends will fly to us.
+67055,A Midsummer nights dream,8.0,1.1.54,HERMIA,So is Lysander.
+107994,A Winters Tale,11.0,1.2.36,HERMIONE,"I had thought, sir, to have held my peace until"
+68281,A Midsummer nights dream,46.0,3.2.240,HERNIA,I understand not what you mean by this.
+69331,Much Ado about nothing,15.0,1.1.32,HERO,My cousin means Signior Benedick of Padua.
+67006,A Midsummer nights dream,2.0,1.1.7,HIPPOLYTA,"Four days will quickly steep themselves in night,"
+8482,Henry VI Part 2,2.0,4.2.3,HOLLAND,"They have the more need to sleep now, then."
+54019,Loves Labours Lost,2.0,4.2.3,HOLOFERNES,"The deer was, as you know, sanguis, in blood, ripe"
+32452,Hamlet,13.0,1.1.16,HORATIO,Friends to this ground.
+6773,Henry VI Part 2,56.0,1.3.185,HORNER,"An't shall please your majesty, I never said nor"
+88964,Taming of the Shrew,10.0,1.1.66,HORTENSIA,"From all such devils, good Lord deliver us!"
+88957,Taming of the Shrew,8.0,1.1.59,HORTENSIO,"Mates, maid! how mean you that? no mates for you,"
+94960,Timon of Athens,3.0,3.4.4,HORTENSIUS,Lucius!
+358,Henry IV,6.0,1.3.30,HOTSPUR,"My liege, I did deny no prisoners."
+44818,King John,9.0,3.3.33,HUBERT,I am much bounden to your majesty.
+6534,Henry VI Part 2,12.0,1.2.70,HUME,Jesus preserve your royal majesty!
+18440,As you like it,35.0,5.4.102,HYMEN,"Then is there mirth in heaven,"
+90695,Taming of the Shrew,24.0,4.3.66,Haberdasher,Here is the cap your worship did bespeak.
+7403,Henry VI Part 2,10.0,2.4.71,Herald,"I summon your grace to his majesty's parliament,"
+64474,Merry Wives of Windsor,2.0,1.3.2,Host,What says my bully-rook? speak scholarly and wisely.
+1275,Henry IV,105.0,2.4.271,Hostess,"O Jesu, my lord the prince!"
+11817,Henry VI Part 3,2.0,4.5.14,Huntsman,"This way, my lord, for this way lies the game."
+28801,Cymbeline,1.0,1.4.1,IACHIMO,"Believe it, sir, I have seen him in Britain: he was"
+72007,Othello,2.0,1.1.4,IAGO,"'Sblood, but you will not hear me:"
+9072,Henry VI Part 2,2.0,4.10.17,IDEN,"Lord, who would live turmoiled in the court,"
+28577,Cymbeline,23.0,1.1.97,IMOGEN,O
+18664,Antony and Cleopatra,13.0,1.2.19,IRAS,"No, you shall paint when you are old."
+93167,The Tempest,16.0,4.1.67,IRIS,"Ceres, most bounteous lady, thy rich leas"
+58717,Measure for measure,1.0,1.4.1,ISABELLA,And have you nuns no farther privileges?
+37899,Henry V,19.0,3.2.80,JAMY,"I say gud-day, Captain Fluellen."
+53260,Loves Labours Lost,69.0,1.2.154,JAQUENETTA,Man?
+16635,As you like it,2.0,2.5.9,JAQUES,"More, more, I prithee, more."
+18486,As you like it,44.0,5.4.146,JAQUES DE BOYS,Let me have audience for a word or two:
+62146,Merchant of Venice,1.0,2.3.1,JESSICA,I am sorry thou wilt leave my father so:
+3469,Henry VI Part 1,16.0,1.2.66,JOAN LA PUCELLE,"Reignier, is't thou that thinkest to beguile me?"
+9882,Henry VI Part 3,22.0,1.2.65,JOHN MORTIMER,"She shall not need, we'll meet her in the field."
+78413,Richard II,2.0,1.1.7,JOHN OF GAUNT,"I have, my liege."
+5367,Henry VI Part 1,2.0,4.5.12,JOHN TALBOT,Is my name Talbot? and am I your son?
+90372,Taming of the Shrew,42.0,4.1.97,JOSEPH,"What, Grumio!"
+105704,Two Gentlemen of Verona,1.0,1.2.1,JULIA,"But say, Lucetta, now we are alone,"
+59357,Measure for measure,8.0,2.3.21,JULIET,"I do, and bear the shame most patiently."
+93215,The Tempest,22.0,4.1.113,JUNO,How does my bounteous sister? Go with me
+93818,Timon of Athens,8.0,1.1.12,Jeweller,"Nay, that's most fix'd."
+31717,Cymbeline,17.0,5.4.94,Jupiter,"No more, you petty spirits of region low,"
+59089,Measure for measure,110.0,2.1.261,Justice,"Eleven, sir."
+90232,Taming of the Shrew,73.0,3.2.221,KATARINA,"Gentlemen, forward to the bridal dinner:"
+88955,Taming of the Shrew,7.0,1.1.57,KATHARINA,"I pray you, sir, is it your will"
+38021,Henry V,1.0,3.4.1,KATHARINE,"Alice, tu as ete en Angleterre, et tu parles bien le langage."
+49031,King Lear,1.0,1.1.1,KENT,I thought the king had more affected the Duke of
+12896,Alls well that ends well,1.0,1.2.1,KING,"The Florentines and Senoys are by the ears,"
+32635,Hamlet,1.0,1.2.1,KING CLAUDIUS,Though yet of Hamlet our dear brother's death
+10997,Henry VI Part 3,1.0,3.2.1,KING EDWARD IV,"Brother of Gloucester, at Saint Alban's field"
+4,Henry IV,1.0,1.1.1,KING HENRY IV,"So shaken as we are, so wan with care,"
+36822,Henry V,1.0,1.2.1,KING HENRY V,Where is my gracious Lord of Canterbury?
+4514,Henry VI Part 1,20.0,3.1.75,KING HENRY VI,"Uncles of Gloucester and of Winchester,"
+40382,Henry VIII,1.0,1.2.1,KING HENRY VIII,"My life itself, and the best heart of it,"
+43494,King John,1.0,1.1.1,KING JOHN,"Now, say, Chatillon, what would France with us?"
+49065,King Lear,15.0,1.1.34,KING LEAR,"Attend the lords of France and Burgundy, Gloucester."
+11214,Henry VI Part 3,1.0,3.3.1,KING LEWIS XI,"Fair Queen of England, worthy Margaret,"
+37580,Henry V,1.0,2.4.1,KING OF FRANCE,"Thus comes the English with full power upon us,"
+43818,King John,7.0,2.1.37,KING PHILIP,"Well then, to work: our cannon shall be bent"
+78407,Richard II,1.0,1.1.1,KING RICHARD II,"Old John of Gaunt, time-honour'd Lancaster,"
+83926,Richard III,1.0,4.2.1,KING RICHARD III,Stand all apart Cousin of Buckingham!
+76606,Pericles,5.0,2.3.21,KNIGHTS,We are honour'd much by good Simonides.
+43029,Henry VIII,2.0,5.2.6,Keeper,"Yes, my lord,"
+49660,King Lear,23.0,1.4.47,Knight,"He says, my lord, your daughter is not well."
+76637,Pericles,18.0,2.3.52,Knights,Who can be other in this royal presence?
+87837,Romeo and Juliet,17.0,4.2.38,LADY  CAPULET,We shall be short in our provision:
+81516,Richard III,1.0,1.2.1,LADY ANNE,"Set down, set down your honourable load,"
+85376,Romeo and Juliet,47.0,1.1.69,LADY CAPULET,"A crutch, a crutch! why call you for a sword?"
+43721,King John,49.0,1.1.223,LADY FAULCONBRIDGE,"Where is that slave, thy brother? where is he,"
+11015,Henry VI Part 3,8.0,3.2.19,LADY GREY,"Right gracious lord, I cannot brook delay:"
+56129,macbeth,1.0,1.5.1,LADY MACBETH,'They met me in the day of success: and I have
+57534,macbeth,1.0,4.2.1,LADY MACDUFF,"What had he done, to make him fly the land?"
+85381,Romeo and Juliet,50.0,1.1.73,LADY MONTAGUE,Thou shalt not stir a foot to seek a foe.
+902,Henry IV,2.0,2.3.38,LADY PERCY,"O, my good lord, why are you thus alone?"
+32686,Hamlet,5.0,1.2.51,LAERTES,"My dread lord,"
+12668,Alls well that ends well,3.0,1.1.5,LAFEU,"You shall find of the king a husband, madam, you,"
+2971,Henry IV,2.0,5.4.4,LANCASTER,"Not I, my lord, unless I did bleed too."
+24963,Coriolanus,2.0,1.4.2,LARTIUS,"My horse to yours, no."
+106151,Two Gentlemen of Verona,1.0,2.3.1,LAUNCE,"Nay, 'twill be this hour ere I have done weeping,"
+61935,Merchant of Venice,1.0,2.2.1,LAUNCELOT,Certainly my conscience will serve me to run from
+96636,Titus Andronicus,20.0,1.1.157,LAVINIA,"In peace and honour live Lord Titus long,"
+16008,As you like it,35.0,1.2.89,LE BEAU,"Fair princess, you have lost much good sport."
+49096,King Lear,20.0,1.1.64,LEAR,"Of all these bounds, even from this line to this,"
+55851,macbeth,10.0,1.2.51,LENNOX,What a haste looks through his eyes! So should he look
+62104,Merchant of Venice,48.0,2.2.165,LEONARDO,My best endeavours shall be done herein.
+69300,Much Ado about nothing,1.0,1.1.1,LEONATO,I learn in this letter that Don Peter of Arragon
+77318,Pericles,2.0,4.1.9,LEONINE,"I will do't, but yet she is a goodly creature."
+107968,A Winters Tale,2.0,1.2.10,LEONTES,"Stay your thanks a while,"
+19001,Antony and Cleopatra,2.0,1.4.11,LEPIDUS,I must not think there are
+43782,King John,1.0,2.1.1,LEWIS,"Before Angiers well met, brave Austria."
+47203,Julius Caesar,75.0,2.1.327,LIGARIUS,Vouchsafe good morrow from a feeble tongue.
+41617,Henry VIII,27.0,2.4.223,LINCOLN,"Very well, my liege."
+74664,Othello,104.0,4.1.230,LODOVICO,"Save you, worthy general!"
+52820,Loves Labours Lost,2.0,1.1.24,LONGAVILLE,"I am resolved, 'tis but a three years' fast:"
+79627,Richard II,23.0,2.3.70,LORD BERKELEY,"My Lord of Hereford, my message is to you."
+80415,Richard II,8.0,4.1.34,LORD FITZWATER,"If that thy valour stand on sympathy,"
+32694,Hamlet,7.0,1.2.59,LORD POLONIUS,"He hath, my lord, wrung from me my slow leave"
+79317,Richard II,35.0,2.1.227,LORD ROSS,"And living too, for now his son is duke."
+83223,Richard III,32.0,3.2.94,LORD STANLEY,"They, for their truth, might better wear their heads"
+79318,Richard II,36.0,2.1.228,LORD WILLOUGHBY,"Barely in title, not in revenue."
+85079,Richard III,56.0,5.3.244,LORDS,"Good morrow, Richmond!"
+61439,Merchant of Venice,15.0,1.1.71,LORENZO,"My Lord Bassanio, since you have found Antonio,"
+83405,Richard III,34.0,3.4.106,LOVEL,"Come, come, dispatch, 'tis bootless to exclaim."
+40654,Henry VIII,6.0,1.3.20,LOVELL,"Faith, my lord,"
+23160,A Comedy of Errors,23.0,3.1.67,LUCE,"[Within]  What a coil is there, Dromio? who are those"
+88898,Taming of the Shrew,1.0,1.1.1,LUCENTIO,"Tranio, since for the great desire I had"
+105706,Two Gentlemen of Verona,2.0,1.2.3,LUCETTA,"Ay, madam, so you stumble not unheedfully."
+22719,A Comedy of Errors,2.0,2.1.4,LUCIANA,"Perhaps some merchant hath invited him,"
+34640,Hamlet,79.0,3.2.250,LUCIANUS,"Thoughts black, hands apt, drugs fit, and time agreeing,"
+48176,Julius Caesar,2.0,4.2.2,LUCILIUS,"Give the word, ho! and stand."
+58464,Measure for measure,1.0,1.2.1,LUCIO,If the duke with the other dukes come not to
+46864,Julius Caesar,2.0,2.1.6,LUCIUS,"Call'd you, my lord?"
+94744,Timon of Athens,4.0,3.1.4,LUCULLUS,"[Aside]  One of Lord Timon's men? a gift, I"
+5265,Henry VI Part 1,4.0,4.3.17,LUCY,"Thou princely leader of our English strength,"
+76967,Pericles,39.0,3.5.176,LYCHORIDA,"Here is a thing too young for such a place,"
+67096,A Midsummer nights dream,17.0,1.1.95,LYSANDER,"You have her father's love, Demetrius,"
+77729,Pericles,7.0,4.6.18,LYSIMACHUS,How now! How a dozen of virginities?
+28793,Cymbeline,12.0,1.3.44,Lady,"The queen, madam,"
+4199,Henry VI Part 1,20.0,2.4.61,Lawyer,"Unless my study and my books be false,"
+5634,Henry VI Part 1,13.0,5.1.55,Legate,I will attend upon your lordship's leisure.
+11842,Henry VI Part 3,2.0,4.6.6,Lieutenant,"Subjects may challenge nothing of their sovereigns,"
+69069,A Midsummer nights dream,56.0,5.1.217,Lion,"You, ladies, you, whose gentle hearts do fear"
+31509,Cymbeline,1.0,5.3.1,Lord,Camest thou from where they made the stand?
+78696,Richard II,1.0,1.3.1,Lord Marshal,"My Lord Aumerle, is Harry Hereford arm'd?"
+82931,Richard III,7.0,3.1.18,Lord Mayor,God bless your grace with health and happy days!
+28365,Coriolanus,18.0,5.6.75,Lords,We have.
+55920,macbeth,13.0,1.3.39,MACBETH,So foul and fair a day I have not seen.
+56570,macbeth,2.0,2.3.29,MACDUFF,"Was it so late, friend, ere you went to bed,"
+37903,Henry V,22.0,3.2.84,MACMORRIS,"By Chrish, la! tish ill done: the work ish give"
+55802,macbeth,2.0,1.2.4,MALCOLM,This is the sergeant
+103272,Twelfth Night,34.0,1.5.67,MALVOLIO,"Yes, and shall do till the pangs of death shake him:"
+108105,A Winters Tale,35.0,1.2.147,MAMILLIUS,"Ay, my good lord."
+32453,Hamlet,14.0,1.1.17,MARCELLUS,And liegemen to the Dane.
+24647,Coriolanus,48.0,1.1.159,MARCIUS,"Thanks. What's the matter, you dissentious rogues,"
+97526,Titus Andronicus,8.0,2.4.11,MARCUS,"Who is this? my niece, that flies away so fast!"
+96487,Titus Andronicus,3.0,1.1.18,MARCUS ANDRONICUS,"Princes, that strive by factions and by friends"
+19100,Antony and Cleopatra,10.0,1.5.12,MARDIAN,What's your highness' pleasure?
+102782,Troilus and Cressida,3.0,5.7.13,MARGARELON,"Turn, slave, and fight."
+5732,Henry VI Part 1,10.0,5.3.51,MARGARET,"Margaret my name, and daughter to a king,"
+6838,Henry VI Part 2,8.0,1.4.25,MARGARET JOURDAIN,"Asmath,"
+53367,Loves Labours Lost,7.0,2.1.41,MARIA,"I know him, madam: at a marriage-feast,"
+14284,Alls well that ends well,4.0,3.5.9,MARIANA,"Come, let's return again, and suffice ourselves with"
+77324,Pericles,5.0,4.1.14,MARINA,"No, I will rob Tellus of her weed,"
+18585,Antony and Cleopatra,3.0,1.1.16,MARK ANTONY,There's beggary in the love that can be reckon'd.
+96855,Titus Andronicus,74.0,1.1.363,MARTIUS,"And shall, or him we will accompany."
+46266,Julius Caesar,3.0,1.1.7,MARULLUS,Where is thy leather apron and thy rule?
+19376,Antony and Cleopatra,37.0,2.2.123,MECAENAS,"If it might please you, to enforce no further"
+45991,King John,5.0,5.4.7,MELUN,Lead me to the revolts of England here.
+19204,Antony and Cleopatra,6.0,2.1.20,MENAS,Caesar and Lepidus
+19187,Antony and Cleopatra,2.0,2.1.3,MENECRATES,"Know, worthy Pompey,"
+99863,Troilus and Cressida,13.0,1.3.215,MENELAUS,From Troy.
+24530,Coriolanus,23.0,1.1.43,MENENIUS,"What work's, my countrymen, in hand? where go you"
+58004,macbeth,1.0,5.2.1,MENTEITH,"The English power is near, led on by Malcolm,"
+55557,Loves Labours Lost,358.0,5.2.754,MERCADE,"God save you, madam!"
+85793,Romeo and Juliet,4.0,1.4.13,MERCUTIO,"Nay, gentle Romeo, we must have you dance."
+48435,Julius Caesar,78.0,4.3.192,MESSALA,Myself have letters of the selfsame tenor.
+47020,Julius Caesar,39.0,2.1.150,METELLUS CIMBER,"O, let us have him, for his silver hairs"
+8582,Henry VI Part 2,56.0,4.2.99,MICHAEL,Where's our general?
+91484,The Tempest,1.0,1.2.1,MIRANDA,"If by your art, my dearest father, you have"
+64770,Merry Wives of Windsor,2.0,2.1.31,MISTRESS FORD,"Mistress Page! trust me, I was going to your house."
+58518,Measure for measure,30.0,1.2.54,MISTRESS OVERDONE,"Well, well, there's one yonder arrested and carried"
+64738,Merry Wives of Windsor,1.0,2.1.1,MISTRESS PAGE,"What, have I scaped love-letters in the holiday-"
+64573,Merry Wives of Windsor,1.0,1.4.1,MISTRESS QUICKLY,"What, John Rugby! I pray thee, go to the casement,"
+9539,Henry VI Part 3,4.0,1.1.14,MONTAGUE,"And, brother, here's the Earl of Wiltshire's blood,"
+72770,Othello,1.0,2.1.1,MONTANO,What from the cape can you discern at sea?
+38269,Henry V,30.0,3.6.114,MONTJOY,You know me by my habit.
+109970,A Winters Tale,32.0,4.4.192,MOPSA,"Now, in good time!"
+61883,Merchant of Venice,1.0,2.1.1,MOROCCO,"Mislike me not for my complexion,"
+1551,Henry IV,1.0,3.1.1,MORTIMER,"These promises are fair, the parties sure,"
+53109,Loves Labours Lost,2.0,1.2.4,MOTH,"A great sign, sir, that he will look sad."
+67991,A Midsummer nights dream,54.0,3.1.156,MUSTARDSEED,And I.
+96774,Titus Andronicus,52.0,1.1.290,MUTIUS,"Brothers, help to convey her hence away,"
+102816,Troilus and Cressida,5.0,5.8.16,MYRMIDONS,"The Trojan trumpets sound the like, my lord."
+43301,Henry VIII,3.0,5.4.11,Man,"Pray, sir, be patient: 'tis as much impossible--"
+109405,A Winters Tale,2.0,3.3.3,Mariner,"Ay, my lord: and fear"
+91462,The Tempest,20.0,1.1.50,Mariners,"All lost! to prayers, to prayers! all lost!"
+76609,Pericles,7.0,2.3.24,Marshal,"Sir, yonder is your place."
+8336,Henry VI Part 2,3.0,4.1.16,Master,"A thousand crowns, or else lay down your head."
+3624,Henry VI Part 1,20.0,1.3.62,Mayor,"Fie, lords! that you, being supreme magistrates,"
+93817,Timon of Athens,7.0,1.1.11,Merchant,"O, 'tis a worthy lord."
+2246,Henry IV,4.0,4.1.15,Messenger,These letters come from your father.
+69086,A Midsummer nights dream,63.0,5.1.234,Moonshine,"This lanthorn doth the horned moon present,--"
+31666,Cymbeline,5.0,5.4.44,Mother,"Lucina lent not me her aid,"
+88093,Romeo and Juliet,41.0,4.5.130,Musician,"Marry, sir, because silver hath a sweet sound."
+90370,Taming of the Shrew,40.0,4.1.95,NATHANIEL,"Welcome home, Grumio!"
+61563,Merchant of Venice,34.0,1.1.192,NERISSA,"You would be, sweet madam, if your miseries were in"
+99676,Troilus and Cressida,2.0,1.3.31,NESTOR,"With due observance of thy godlike seat,"
+90373,Taming of the Shrew,43.0,4.1.98,NICHOLAS,Fellow Grumio!
+9545,Henry VI Part 3,7.0,1.1.19,NORFOLK,Such hope have all the line of John of Gaunt!
+340,Henry IV,3.0,1.3.14,NORTHUMBERLAND,My lord.--
+86643,Romeo and Juliet,86.0,2.4.189,NURSE,"Well, sir, my mistress is the sweetest lady--Lord,"
+37191,Henry V,2.0,2.1.2,NYM,"Good morrow, Lieutenant Bardolph."
+11132,Henry VI Part 3,79.0,3.2.134,Nobleman,"My gracious lord, Henry your foe is taken,"
+85666,Romeo and Juliet,2.0,1.3.2,Nurse,"Now, by my maidenhead, at twelve year old,"
+67430,A Midsummer nights dream,7.0,2.1.61,OBERON,"Ill met by moonlight, proud Titania."
+19550,Antony and Cleopatra,2.0,2.3.3,OCTAVIA,All which time
+48118,Julius Caesar,2.0,4.1.2,OCTAVIUS,"Your brother too must die, consent you, Lepidus?"
+18991,Antony and Cleopatra,1.0,1.4.1,OCTAVIUS CAESAR,"You may see, Lepidus, and henceforth know,"
+4035,Henry VI Part 1,1.0,2.3.2,OF AUVERGNE,"Porter, remember what I gave in charge,"
+23095,A Comedy of Errors,1.0,3.1.2,OF EPHESUS,"Good Signior Angelo, you must excuse us all,"
+22601,A Comedy of Errors,2.0,1.2.10,OF SYRACUSE,"Go bear it to the Centaur, where we host,"
+3237,Henry VI Part 1,4.0,1.1.29,OF WINCHESTER,He was a king bless'd of the King of kings.
+15776,As you like it,4.0,1.1.29,OLIVER,"Now, sir! what make you here?"
+103238,Twelfth Night,17.0,1.5.33,OLIVIA,Take the fool away.
+32920,Hamlet,2.0,1.3.5,OPHELIA,Do you doubt that?
+15747,As you like it,1.0,1.1.1,ORLANDO,"As I remember, Adam, it was upon this fashion"
+38334,Henry V,2.0,3.7.2,ORLEANS,"You have an excellent armour, but let my horse have his due."
+36317,Hamlet,21.0,5.2.87,OSRIC,Your lordship is right welcome back to Denmark.
+49577,King Lear,2.0,1.3.2,OSWALD,"Yes, madam."
+72211,Othello,2.0,1.2.6,OTHELLO,'Tis better as it is.
+11299,Henry VI Part 3,22.0,3.3.83,OXFORD,"Then Warwick disannuls great John of Gaunt,"
+3643,Henry VI Part 1,25.0,1.3.80,Officer,All manner of men assembled here in arms this day
+93940,Timon of Athens,43.0,1.1.129,Old Athenian,"Lord Timon, hear me speak."
+41269,Henry VIII,2.0,2.3.12,Old Lady,Hearts of most hard temper
+51472,King Lear,2.0,4.1.13,Old Man,"O, my good lord, I have been your tenant, and"
+652,Henry IV,2.0,2.1.4,Ostler,"[Within]   Anon, anon."
+107853,Two Gentlemen of Verona,37.0,5.4.127,Outlaws,"A prize, a prize, a prize!"
+64233,Merry Wives of Windsor,27.0,1.1.64,PAGE,[Within]  Who's there?
+99232,Troilus and Cressida,2.0,1.1.6,PANDARUS,Will this gear ne'er be mended?
+105859,Two Gentlemen of Verona,2.0,1.3.3,PANTHINO,"'Twas of his nephew Proteus, your son."
+85557,Romeo and Juliet,2.0,1.2.4,PARIS,"Of honourable reckoning are you both,"
+12770,Alls well that ends well,28.0,1.1.103,PAROLLES,"Save you, fair queen!"
+42703,Henry VIII,21.0,4.2.105,PATIENCE,Do you note
+100144,Troilus and Cressida,54.0,2.1.87,PATROCLUS,"Good words, Thersites."
+108748,A Winters Tale,1.0,2.2.1,PAULINA,"The keeper of the prison, call to him,"
+67988,A Midsummer nights dream,51.0,3.1.153,PEASEBLOSSOM,Ready.
+45222,King John,2.0,4.2.3,PEMBROKE,"This 'once again,' but that your highness pleased,"
+109782,A Winters Tale,2.0,4.4.6,PERDITA,"Sir, my gracious lord,"
+75814,Pericles,2.0,1.1.3,PERICLES,"I have, Antiochus, and, with a soul"
+6582,Henry VI Part 2,3.0,1.3.6,PETER,"Here a' comes, methinks, and the queen with him."
+809,Henry IV,22.0,2.2.59,PETO,How many be there of them?
+89167,Taming of the Shrew,1.0,1.2.1,PETRUCHIO,"Verona, for a while I take my leave,"
+17530,As you like it,2.0,3.5.8,PHEBE,I would not be thy executioner:
+28807,Cymbeline,2.0,1.4.7,PHILARIO,You speak of him when he was less furnished than now
+77045,Pericles,2.0,3.2.2,PHILEMON,Doth my lord call?
+90371,Taming of the Shrew,41.0,4.1.96,PHILIP,"How now, Grumio!"
+18569,Antony and Cleopatra,1.0,1.1.1,PHILO,"Nay, but this dotage of our general's"
+68877,A Midsummer nights dream,7.0,5.1.41,PHILOSTRATE,"Here, mighty Theseus."
+94967,Timon of Athens,5.0,3.4.10,PHILOTUS,Good day at once.
+95535,Timon of Athens,7.0,4.3.66,PHRYNIA,Thy lips rot off!
+23872,A Comedy of Errors,25.0,4.4.58,PINCH,Give me your hand and let me feel your pulse.
+48185,Julius Caesar,6.0,4.2.11,PINDARUS,I do not doubt
+28684,Cymbeline,50.0,1.1.194,PISANIO,My lord your son drew on my master.
+37219,Henry V,10.0,2.1.29,PISTOL,"Base tike, call'st thou me host? Now, by this hand,"
+4140,Henry VI Part 1,1.0,2.4.2,PLANTAGENET,"Great lords and gentlemen, what means this silence?"
+222,Henry IV,35.0,1.2.107,POINS,"Good morrow, sweet Hal. What says Monsieur Remorse?"
+107959,A Winters Tale,1.0,1.2.1,POLIXENES,Nine changes of the watery star hath been
+19185,Antony and Cleopatra,1.0,2.1.1,POMPEY,"If the great gods be just, they shall assist"
+59011,Measure for measure,78.0,2.1.187,POMPHEY,"Tapster, a poor widow's tapster."
+47466,Julius Caesar,11.0,3.1.14,POPILIUS,I wish your enterprise to-day may thrive.
+47117,Julius Caesar,61.0,2.1.244,PORTIA,"Brutus, my lord!"
+28570,Cymbeline,21.0,1.1.91,POSTHUMUS LEONATUS,"Please your highness,"
+100188,Troilus and Cressida,1.0,2.2.1,PRIAM,"After so many hours, lives, speeches spent,"
+10427,Henry VI Part 3,7.0,2.2.63,PRINCE,"My gracious father, by your kingly leave,"
+9762,Henry VI Part 3,111.0,1.1.229,PRINCE EDWARD,"Father, you cannot disinherit me:"
+35314,Hamlet,1.0,4.4.1,PRINCE FORTINBRAS,"Go, captain, from me greet the Danish king,"
+116,Henry IV,2.0,1.2.2,PRINCE HENRY,"Thou art so fat-witted, with drinking of old sack"
+53338,Loves Labours Lost,2.0,2.1.13,PRINCESS,"Good Lord Boyet, my beauty, though but mean,"
+21943,Antony and Cleopatra,19.0,5.1.80,PROCULEIUS,"Caesar, I shall."
+91497,The Tempest,2.0,1.2.14,PROSPERO,Be collected:
+105564,Two Gentlemen of Verona,2.0,1.1.11,PROTEUS,"Wilt thou be gone? Sweet Valentine, adieu!"
+47348,Julius Caesar,25.0,2.2.113,PUBLIUS,"Good morrow, Caesar."
+67369,A Midsummer nights dream,1.0,2.1.1,PUCK,"How now, spirit! whither wander you?"
+12850,Alls well that ends well,48.0,1.1.182,Page,"Monsieur Parolles, my lord calls for you."
+93808,Timon of Athens,2.0,1.1.2,Painter,I am glad you're well.
+77432,Pericles,1.0,4.2.1,Pandar,Boult!
+90571,Taming of the Shrew,31.0,4.2.75,Pedant,"God save you, sir!"
+34537,Hamlet,55.0,3.2.150,Player King,Full thirty times hath Phoebus' cart gone round
+34543,Hamlet,56.0,3.2.156,Player Queen,So many journeys may the sun and moon
+88683,Taming of the Shrew,22.0,0.1.80,Players,We thank your honour.
+48374,Julius Caesar,49.0,4.3.138,Poet,"[Within]  Let me go in to see the generals,"
+4037,Henry VI Part 1,2.0,2.3.4,Porter,"Madam, I will."
+7738,Henry VI Part 2,50.0,3.1.284,Post,"Great lords, from Ireland am I come amain,"
+31750,Cymbeline,21.0,5.4.125,Posthumus Leonatus,"[Waking]  Sleep, thou hast been a grandsire, and begot"
+83244,Richard III,39.0,3.2.110,Priest,"Well met, my lord, I am glad to see your honour."
+34529,Hamlet,51.0,3.2.144,Prologue,"For us, and for our tragedy,"
+58574,Measure for measure,60.0,1.2.106,Provost,"I do it not in evil disposition,"
+83230,Richard III,34.0,3.2.99,Pursuivant,The better that your lordship please to ask.
+69019,A Midsummer nights dream,35.0,5.1.172,Pyramus,O grim-look'd night! O night with hue so black!
+28560,Cymbeline,20.0,1.1.81,QUEEN,"No, be assured you shall not find me, daughter,"
+43498,King John,3.0,1.1.5,QUEEN ELINOR,A strange beginning: 'borrow'd majesty!'
+11567,Henry VI Part 3,27.0,4.1.67,QUEEN ELIZABETH,"My lords, before it pleased his majesty"
+32704,Hamlet,12.0,1.2.69,QUEEN GERTRUDE,"Good Hamlet, cast thy nighted colour off,"
+39690,Henry V,3.0,5.2.12,QUEEN ISABEL,"So happy be the issue, brother England,"
+40391,Henry VIII,2.0,1.2.9,QUEEN KATHARINE,"Nay, we must longer kneel: I am a suitor."
+6215,Henry VI Part 2,3.0,1.1.24,QUEEN MARGARET,"Great King of England and my gracious lord,"
+67264,A Midsummer nights dream,1.0,1.2.1,QUINCE,Is all our company here?
+96858,Titus Andronicus,76.0,1.1.366,QUINTUS,He that would vouch it in any place but here.
+38395,Henry V,29.0,3.7.63,RAMBURES,"My lord constable, the armour that I saw in your tent"
+83265,Richard III,1.0,3.3.1,RATCLIFF,"Come, bring forth the prisoners."
+49102,King Lear,21.0,1.1.70,REGAN,"Sir, I am made"
+3411,Henry VI Part 1,3.0,1.2.13,REIGNIER,Let's raise the siege: why live we idly here?
+33387,Hamlet,2.0,2.1.2,REYNALDO,"I will, my lord."
+9298,Henry VI Part 2,39.0,5.1.142,RICHARD,"And if words will not, then our weapons shall."
+84779,Richard III,1.0,5.2.1,RICHMOND,"Fellows in arms, and my most loving friends,"
+11765,Henry VI Part 3,1.0,4.4.1,RIVERS,"Madam, what makes you in this sudden change?"
+43553,King John,18.0,1.1.57,ROBERT,The son and heir to that same Faulconbridge.
+64997,Merry Wives of Windsor,7.0,2.2.30,ROBIN,"Sir, here's a woman would speak with you."
+72004,Othello,1.0,1.1.1,RODERIGO,"Tush! never tell me, I take it much unkindly"
+85465,Romeo and Juliet,64.0,1.1.153,ROMEO,Is the day so young?
+15919,As you like it,2.0,1.2.2,ROSALIND,"Dear Celia, I show more mirth than I am mistress of,"
+53391,Loves Labours Lost,12.0,2.1.65,ROSALINE,Another of these students at that time
+33548,Hamlet,3.0,2.2.27,ROSENCRANTZ,Both your majesties
+55853,macbeth,11.0,1.2.53,ROSS,God save the king!
+64578,Merry Wives of Windsor,2.0,1.4.6,RUGBY,I'll go watch.
+9897,Henry VI Part 3,1.0,1.3.1,RUTLAND,"Ah, whither shall I fly to 'scape their hands?"
+27131,Coriolanus,1.0,4.3.1,Roman,"I know you well, sir, and you know"
+61381,Merchant of Venice,3.0,1.1.15,SALANIO,"Believe me, sir, had I such venture forth,"
+61374,Merchant of Venice,2.0,1.1.8,SALARINO,"Your mind is tossing on the ocean,"
+62980,Merchant of Venice,31.0,3.2.235,SALERIO,"I did, my lord,"
+3692,Henry VI Part 1,3.0,1.4.23,SALISBURY,"Talbot, my life, my joy, again return'd!"
+85300,Romeo and Juliet,1.0,1.1.1,SAMPSON,"Gregory, o' my word, we'll not carry coals."
+40636,Henry VIII,2.0,1.3.3,SANDS,"New customs,"
+96469,Titus Andronicus,1.0,1.1.1,SATURNINUS,"Noble patricians, patrons of my right,"
+8710,Henry VI Part 2,6.0,4.4.20,SAY,"Ay, but I hope your highness shall have his."
+8756,Henry VI Part 2,1.0,4.5.1,SCALES,How now! is Jack Cade slain?
+20638,Antony and Cleopatra,2.0,3.10.5,SCARUS,"Gods and goddesses,"
+37336,Henry V,7.0,2.2.19,SCROOP,"No doubt, my liege, if each man do his best."
+91451,The Tempest,15.0,1.1.40,SEBASTIAN,"A pox o' your throat, you bawling, blasphemous,"
+22139,Antony and Cleopatra,54.0,5.2.168,SELEUCUS,"Here, madam."
+94907,Timon of Athens,1.0,3.3.1,SEMPRONIUS,"Must he needs trouble me in 't,--hum!--'bove"
+94834,Timon of Athens,8.0,3.2.23,SERVILIUS,"See, by good hap, yonder's my lord,"
+58079,macbeth,8.0,5.3.33,SEYTON,What is your gracious pleasure?
+64169,Merry Wives of Windsor,1.0,1.1.1,SHALLOW,"Sir Hugh, persuade me not, I will make a Star-"
+61693,Merchant of Venice,1.0,1.3.1,SHYLOCK,"Three thousand ducats, well."
+24756,Coriolanus,77.0,1.1.264,SICINIUS,Was ever man so proud as is this Marcius?
+20119,Antony and Cleopatra,2.0,3.1.6,SILIUS,"Noble Ventidius,"
+106048,Two Gentlemen of Verona,56.0,2.1.92,SILVIA,"Sir Valentine and servant, to you two thousand."
+16543,As you like it,10.0,2.4.20,SILVIUS,"O Corin, that thou knew'st how I do love her!"
+76515,Pericles,1.0,2.2.3,SIMONIDES,Are the knights ready to begin the triumph?
+6998,Henry VI Part 2,39.0,2.1.85,SIMPCOX,"Born blind, an't please your grace."
+64354,Merry Wives of Windsor,89.0,1.1.178,SIMPLE,"Book of Riddles! why, did you not lend it to Alice"
+103063,Twelfth Night,18.0,1.3.41,SIR ANDREW,"Sir Toby Belch! how now, Sir Toby Belch!"
+64184,Merry Wives of Windsor,8.0,1.1.16,SIR HUGH EVANS,"The dozen white louses do become an old coat well,"
+8596,Henry VI Part 2,62.0,4.2.110,SIR HUMPHREY,"Rebellious hinds, the filth and scum of Kent,"
+2596,Henry IV,2.0,4.4.6,SIR MICHAEL,"My good lord,"
+54017,Loves Labours Lost,1.0,4.2.1,SIR NATHANIEL,"Very reverend sport, truly, and done in the testimony"
+17422,As you like it,20.0,3.3.59,SIR OLIVER MARTEXT,Is there none here to give the woman?
+79904,Richard II,12.0,3.2.91,SIR STEPHEN SCROOP,More health and happiness betide my liege
+103022,Twelfth Night,1.0,1.3.1,SIR TOBY BELCH,"What a plague means my niece, to take the death of"
+399,Henry IV,7.0,1.3.71,SIR WALTER BLUNT,"The circumstance consider'd, good my lord,"
+58124,macbeth,3.0,5.4.4,SIWARD,What wood is this before us?
+64172,Merry Wives of Windsor,2.0,1.1.4,SLENDER,"In the county of Gloucester, justice of peace and"
+88597,Taming of the Shrew,1.0,0.1.1,SLY,"I'll pheeze you, in faith."
+8521,Henry VI Part 2,27.0,4.2.41,SMITH,"[Aside]  But now of late, notable to travel with her"
+67319,A Midsummer nights dream,26.0,1.2.56,SNOUT,"Here, Peter Quince."
+67323,A Midsummer nights dream,28.0,1.2.60,SNUG,"Have you the lion's part written? pray you, if it"
+4150,Henry VI Part 1,5.0,2.4.12,SOMERSET,"Judge you, my Lord of Warwick, then, between us."
+105626,Two Gentlemen of Verona,23.0,1.1.71,SPEED,"Sir Proteus, save you! Saw you my master?"
+7414,Henry VI Part 2,14.0,2.4.81,STANLEY,"So am I given in charge, may't please your grace."
+67316,A Midsummer nights dream,24.0,1.2.53,STARVELING,"Here, Peter Quince."
+63861,Merchant of Venice,10.0,5.1.32,STEPHANO,A friend.
+48990,Julius Caesar,24.0,5.5.54,STRATO,"Give me your hand first. Fare you well, my lord."
+5822,Henry VI Part 1,49.0,5.3.139,SU FFOLK,"Yes, there is remedy enough, my lord:"
+4142,Henry VI Part 1,2.0,2.4.4,SUFFOLK,"Within the Temple-hall we were too loud,"
+41873,Henry VIII,2.0,3.2.7,SURREY,I am joyful
+72345,Othello,6.0,1.3.15,Sailor,"[Within]  What, ho! what, ho! what, ho!"
+5654,Henry VI Part 1,4.0,5.2.8,Scout,"Success unto our valiant general,"
+41399,Henry VIII,4.0,2.4.8,Scribe,"Say, Henry King of England, come into the court."
+83532,Richard III,1.0,3.6.1,Scrivener,"This is the indictment of the good Lord Hastings,"
+57434,macbeth,28.0,4.1.85,Second Apparition,Macbeth! Macbeth! Macbeth!
+18767,Antony and Cleopatra,69.0,1.2.118,Second Attendant,He stays upon your will.
+95916,Timon of Athens,130.0,4.3.438,Second Bandit,It is noised he hath a mass of treasure.
+31692,Cymbeline,10.0,5.4.70,Second Brother,"For this from stiller seats we came,"
+31605,Cymbeline,14.0,5.3.95,Second Captain,"There was a fourth man, in a silly habit,"
+85938,Romeo and Juliet,8.0,1.5.33,Second Capulet,"By'r lady, thirty years."
+657,Henry IV,4.0,2.1.8,Second Carrier,"Peas and beans are as dank here as a dog, and that"
+24495,Coriolanus,9.0,1.1.10,Second Citizen,"One word, good citizens."
+35904,Hamlet,2.0,5.1.3,Second Clown,I tell thee she is: and therefore make her grave
+46269,Julius Caesar,4.0,1.1.10,Second Commoner,"Truly, sir, in respect of a fine workman, I am but,"
+28302,Coriolanus,4.0,5.6.14,Second Conspirator,"Most noble sir,"
+76358,Pericles,3.0,2.1.13,Second Fisherman,"Ha, come and bring away the nets!"
+31622,Cymbeline,2.0,5.4.3,Second Gaoler,"Ay, or a stomach."
+8344,Henry VI Part 2,6.0,4.1.24,Second Gentleman,And so will I and write home for it straight.
+72834,Othello,19.0,2.1.60,Second Gentlemen,They do discharge their shot of courtesy:
+98596,Titus Andronicus,5.0,5.1.20,Second Goth,"Renowned Lucius, from our troops I stray'd"
+21694,Antony and Cleopatra,34.0,4.14.128,Second Guard,The star is fall'n.
+78807,Richard II,24.0,1.3.110,Second Herald,"Here standeth Thomas Mowbray, Duke of Norfolk,"
+88629,Taming of the Shrew,13.0,0.1.30,Second Huntsman,"He breathes, my lord. Were he not warm'd with ale,"
+10896,Henry VI Part 3,2.0,3.1.5,Second Keeper,"I'll stay above the hill, so both may shoot."
+76786,Pericles,3.0,2.5.7,Second Knight,"May we not get access to her, my lord?"
+108516,A Winters Tale,6.0,2.1.9,Second Lady,"And why so, my lord?"
+12914,Alls well that ends well,6.0,1.2.19,Second Lord,It well may serve
+23485,A Comedy of Errors,1.0,4.1.1,Second Merchant,"You know since Pentecost the sum is due,"
+12121,Henry VI Part 3,4.0,5.1.6,Second Messenger,"By this at Daintry, with a puissant troop."
+7848,Henry VI Part 2,2.0,3.2.3,Second Murderer,O that it were to do! What have we done?
+88084,Romeo and Juliet,39.0,4.5.121,Second Musician,"Pray you, put up your dagger, and put out your wit."
+7286,Henry VI Part 2,14.0,2.3.61,Second Neighbour,"And here, neighbour, here's a cup of charneco."
+25696,Coriolanus,2.0,2.2.3,Second Officer,"Three, they say: but 'tis thought of every one"
+107121,Two Gentlemen of Verona,2.0,4.1.2,Second Outlaw,"If there be ten, shrink not, but down with 'em."
+18299,As you like it,5.0,5.3.8,Second Page,We are for you: sit i' the middle.
+26527,Coriolanus,119.0,3.1.327,Second Patrician,I would they were abed!
+6579,Henry VI Part 2,2.0,1.3.4,Second Petitioner,"Marry, the Lord protect him, for he's a good man!"
+77416,Pericles,30.0,4.1.102,Second Pirate,A prize! a prize!
+25053,Coriolanus,2.0,1.5.2,Second Roman,And I this.
+77002,Pericles,48.0,3.5.210,Second Sailor,"But sea-room, an the brine and cloudy billow kiss"
+24824,Coriolanus,5.0,1.2.30,Second Senator,"Noble Aufidius,"
+19945,Antony and Cleopatra,2.0,2.7.4,Second Servant,Lepidus is high-coloured.
+27222,Coriolanus,2.0,4.5.3,Second Servingman,Where's Cotus? my master calls
+14668,Alls well that ends well,40.0,4.1.90,Second Soldier,"Captain, I will."
+94819,Timon of Athens,4.0,3.2.9,Second Stranger,"But believe you this, my lord, that, not long ago,"
+3566,Henry VI Part 1,3.0,1.3.7,Second Warder,"[Within]  Whoe'er he be, you may not be let in."
+11693,Henry VI Part 3,2.0,4.3.3,Second Watchman,"What, will he not to bed?"
+55785,macbeth,2.0,1.1.3,Second Witch,"When the hurlyburly's done,"
+82333,Richard III,49.0,1.4.152,Second murderer,"You shall have wine enough, my lord, anon."
+72400,Othello,26.0,1.3.66,Senator,Dead?
+25879,Coriolanus,39.0,2.2.181,Senators,To Coriolanus come all joy and honour!
+3915,Henry VI Part 1,15.0,2.1.41,Sentinels,Arm! arm! the enemy doth make assault!
+3873,Henry VI Part 1,1.0,2.1.1,Sergeant,"Sirs, take your places and be vigilant:"
+933,Henry IV,4.0,2.3.68,Servant,"He is, my lord, an hour ago."
+7336,Henry VI Part 2,2.0,2.4.6,Servants,"Ten, my lord."
+26033,Coriolanus,44.0,2.3.134,Seventh Citizen,"Therefore let him be consul: the gods give him joy,"
+47959,Julius Caesar,49.0,3.2.170,Several Citizens,Come down.
+71297,Much Ado about nothing,3.0,4.2.3,Sexton,Which be the malefactors?
+110663,A Winters Tale,223.0,4.4.857,Shepard,"So 'tis said, sir, about his son, that should have"
+5895,Henry VI Part 1,2.0,5.4.2,Shepherd,"Ah, Joan, this kills thy father's heart outright!"
+1501,Henry IV,181.0,2.4.489,Sheriff,"First, pardon me, my lord. A hue and cry"
+31653,Cymbeline,4.0,5.4.31,Sicilius Leonatus,"No more, thou thunder-master, show"
+26031,Coriolanus,43.0,2.3.132,Sixth Citizen,"He has done nobly, and cannot go without any honest"
+3960,Henry VI Part 1,32.0,2.1.82,Soldier,I'll be so bold to take what they have left.
+58130,macbeth,6.0,5.4.10,Soldiers,It shall be done.
+95323,Timon of Athens,43.0,3.6.84,Some Others,I know not.
+95322,Timon of Athens,42.0,3.6.83,Some Speak,What does his lordship mean?
+10682,Henry VI Part 3,2.0,2.5.55,Son,Ill blows the wind that profits nobody.
+18651,Antony and Cleopatra,3.0,1.2.7,Soothsayer,Your will?
+6837,Henry VI Part 2,7.0,1.4.24,Spirit,Adsum.
+12987,Alls well that ends well,2.0,1.3.2,Steward,"Madam, the care I have had to even your content, I"
+40532,Henry VIII,21.0,1.2.147,Surveyor,"First, it was usual with him, every day"
+3696,Henry VI Part 1,4.0,1.4.27,TALBOT,The Duke of Bedford had a prisoner
+96579,Titus Andronicus,12.0,1.1.104,TAMORA,"Stay, Roman brethren! Gracious conqueror,"
+20617,Antony and Cleopatra,2.0,3.8.2,TAURUS,My lord?
+76523,Pericles,4.0,2.2.10,THAISA,"It pleaseth you, my royal father, to express"
+75972,Pericles,17.0,1.1.153,THALIARD,Doth your highness call?
+100056,Troilus and Cressida,2.0,2.1.2,THERSITES,"Agamemnon, how if he had boils? full, all over,"
+67000,A Midsummer nights dream,1.0,1.1.1,THESEUS,"Now, fair Hippolyta, our nuptial hour"
+78429,Richard II,7.0,1.1.22,THOMAS MOWBRAY,"Each day still better other's happiness,"
+106223,Two Gentlemen of Verona,10.0,2.4.10,THURIO,Seem you that you are not?
+20809,Antony and Cleopatra,10.0,3.12.38,THYREUS,"Caesar, I go."
+95555,Timon of Athens,19.0,4.3.86,TIMANDRA,"Is this the Athenian minion, whom the world"
+93920,Timon of Athens,37.0,1.1.111,TIMON,"Imprison'd is he, say you?"
+67431,A Midsummer nights dream,8.0,2.1.62,TITANIA,"What, jealous Oberon! Fairies, skip hence:"
+48762,Julius Caesar,2.0,5.3.5,TITINIUS,"O Cassius, Brutus gave the word too early,"
+24740,Coriolanus,70.0,1.1.250,TITUS,"No, Caius Marcius,"
+96544,Titus Andronicus,9.0,1.1.70,TITUS ANDRONICUS,"Hail, Rome, victorious in thy mourning weeds!"
+15971,As you like it,16.0,1.2.53,TOUCHSTONE,"Mistress, you must come away to your father."
+88922,Taming of the Shrew,2.0,1.1.25,TRANIO,"Mi perdonato, gentle master mine,"
+47068,Julius Caesar,48.0,2.1.198,TREBONIUS,"There is no fear in him, let him not die,"
+92500,The Tempest,2.0,2.2.19,TRINCULO,"Here's neither bush nor shrub, to bear off"
+99227,Troilus and Cressida,1.0,1.1.1,TROILUS,"Call here my varlet, I'll unarm again:"
+62695,Merchant of Venice,24.0,3.1.76,TUBAL,"I often came where I did hear of her, but cannot find her."
+85363,Romeo and Juliet,42.0,1.1.59,TYBALT,"What, art thou drawn among these heartless hinds?"
+84005,Richard III,27.0,4.2.73,TYRREL,"James Tyrrel, and your most obedient subject."
+90728,Taming of the Shrew,34.0,4.3.98,Tailor,"You bid me make it orderly and well,"
+828,Henry IV,34.0,2.2.76,Thieves,Stand!
+57451,macbeth,33.0,4.1.100,Third Apparition,"Be lion-mettled, proud, and take no care"
+95917,Timon of Athens,131.0,4.3.439,Third Bandit,Let us make the assay upon him: if he care not
+25893,Coriolanus,3.0,2.3.3,Third Citizen,"We have power in ourselves to do it, but it is a"
+28308,Coriolanus,6.0,5.6.20,Third Conspirator,The people will remain uncertain whilst
+76360,Pericles,5.0,2.1.15,Third Fisherman,"What say you, master?"
+42519,Henry VIII,26.0,4.1.96,Third Gentleman,"Among the crowd i' the Abbey, where a finger"
+98732,Titus Andronicus,31.0,5.1.154,Third Goth,"My lord, there is a messenger from Rome"
+21700,Antony and Cleopatra,40.0,4.14.134,Third Guard,Nor any one.
+76792,Pericles,5.0,2.5.13,Third Knight,"Loath to bid farewell, we take our leaves."
+28450,Coriolanus,45.0,5.6.158,Third Lord,"Tread not upon him. Masters all, be quiet,"
+84684,Richard III,169.0,4.4.527,Third Messenger,"My lord, the army of the Duke of Buckingham--"
+57027,macbeth,2.0,3.3.2,Third Murderer,Macbeth.
+88097,Romeo and Juliet,45.0,4.5.134,Third Musician,"Faith, I know not what to say."
+7287,Henry VI Part 2,15.0,2.3.62,Third Neighbour,"And here's a pot of good double beer, neighbour:"
+107123,Two Gentlemen of Verona,3.0,4.1.3,Third Outlaw,"Stand, sir, and throw us that you have about ye:"
+77417,Pericles,31.0,4.1.103,Third Pirate,"Half-part, mates, half-part."
+25054,Coriolanus,3.0,1.5.3,Third Roman,A murrain on't! I took this for silver.
+95204,Timon of Athens,21.0,3.5.97,Third Senator,What!
+51447,King Lear,51.0,3.7.111,Third Servant,"If she live long,"
+27243,Coriolanus,11.0,4.5.18,Third Servingman,What fellow's this?
+21161,Antony and Cleopatra,7.0,4.3.8,Third Soldier,"And you. Good night, good night."
+94891,Timon of Athens,23.0,3.2.77,Third Stranger,Religion groans at it.
+11699,Henry VI Part 3,5.0,4.3.9,Third Watchman,"But say, I pray, what nobleman is that"
+55787,macbeth,3.0,1.1.5,Third Witch,That will be ere the set of sun.
+69038,A Midsummer nights dream,38.0,5.1.189,Thisbe,"O wall, full often hast thou heard my moans,"
+109551,A Winters Tale,25.0,4.3.142,Time,"I, that please some, try all, both joy and terror"
+6981,Henry VI Part 2,31.0,2.1.69,Townsman,A miracle! a miracle!
+829,Henry IV,35.0,2.2.77,Travellers,Jesus bless us!
+96701,Titus Andronicus,34.0,1.1.221,Tribunes,"To gratify the good Andronicus,"
+9903,Henry VI Part 3,3.0,1.3.6,Tutor,"And I, my lord, will bear him company."
+77939,Pericles,1.0,5.1.4,Tyrian Sailor,[To the Sailor of Mytilene]  Where is lord Helicanus?
+99700,Troilus and Cressida,3.0,1.3.55,ULYSSES,"Agamemnon,"
+69799,Much Ado about nothing,44.0,2.1.96,URSULA,"I know you well enough, you are Signior Antonio."
+102932,Twelfth Night,6.0,1.1.26,VALENTINE,"So please my lord, I might not be admitted,"
+24895,Coriolanus,11.0,1.3.48,VALERIA,"My ladies both, good day to you."
+19219,Antony and Cleopatra,10.0,2.1.34,VARRIUS,This is most certain that I shall deliver:
+48528,Julius Caesar,116.0,4.3.280,VARRO,Calls my lord?
+83271,Richard III,4.0,3.3.7,VAUGHAN,You live that shall cry woe for this after.
+8232,Henry VI Part 2,70.0,3.2.371,VAUX,To signify unto his majesty
+20114,Antony and Cleopatra,1.0,3.1.1,VENTIDIUS,"Now, darting Parthia, art thou struck, and now"
+70631,Much Ado about nothing,2.0,3.3.2,VERGES,"Yea, or else it were pity but they should suffer"
+2322,Henry IV,21.0,4.1.90,VERNON,"Pray God my news be worth a welcome, lord."
+91002,Taming of the Shrew,19.0,4.5.53,VINCENTIO,"Fair sir, and you my merry mistress,"
+102953,Twelfth Night,1.0,1.2.1,VIOLA,"What country, friends, is this?"
+24863,Coriolanus,2.0,1.3.19,VIRGILIA,"But had he died in the business, madam, how then?"
+32674,Hamlet,3.0,1.2.40,VOLTIMAND,In that and all things will we show our duty.
+24845,Coriolanus,1.0,1.3.1,VOLUMNIA,"I pray you, daughter, sing, or express yourself in a"
+48950,Julius Caesar,15.0,5.5.18,VOLUMNIUS,What says my lord?
+1073,Henry IV,35.0,2.4.78,Vintner,"What, standest thou still, and hearest such a"
+27133,Coriolanus,2.0,4.3.3,Volsce,"It is so, sir: truly, I have forgot you."
+4151,Henry VI Part 1,6.0,2.4.13,WARWICK,"Between two hawks, which flies the higher pitch,"
+37,Henry IV,2.0,1.1.34,WESTMORELAND,"My liege, this haste was hot in question,"
+8345,Henry VI Part 2,7.0,4.1.25,WHITMORE,"I lost mine eye in laying the prize aboard,"
+18106,As you like it,6.0,5.1.12,WILLIAM,"Good even, Audrey."
+66089,Merry Wives of Windsor,10.0,4.1.18,WILLIAM PAGE,Two.
+8600,Henry VI Part 2,63.0,4.2.114,WILLIAM STAFFORD,"But angry, wrathful, and inclined to blood,"
+38630,Henry V,40.0,4.1.89,WILLIAMS,"We see yonder the beginning of the day, but I think"
+3575,Henry VI Part 1,6.0,1.3.15,WOODVILE,What noise is this? what traitors have we here?
+2366,Henry IV,29.0,4.1.134,WORCESTER,"Ay, by my faith, that bears a frosty sound."
+69004,A Midsummer nights dream,31.0,5.1.158,Wall,In this same interlude it doth befall
+4682,Henry VI Part 1,3.0,3.2.13,Watch,[Within]  Qui est la?
+70664,Much Ado about nothing,14.0,3.3.35,Watchman,We will rather sleep than talk: we know what
+14275,Alls well that ends well,1.0,3.5.1,Widow,"Nay, come, for if they do approach the city, we"
+6999,Henry VI Part 2,40.0,2.1.86,Wife,"Ay, indeed, was he."
+5065,Henry VI Part 1,20.0,4.1.82,YORK,"This is my servant: hear him, noble prince."
+9370,Henry VI Part 2,61.0,5.1.213,YOUNG CLIFFORD,"And so to arms, victorious father,"
+58234,macbeth,2.0,5.7.5,YOUNG SIWARD,What is thy name?
+97943,Titus Andronicus,4.0,3.2.46,Young LUCIUS,"Good grandsire, leave these bitter deep laments:"
+28105,Coriolanus,22.0,5.3.142,Young MARCIUS,"A' shall not tread on me,"
+85015,Richard III,46.0,5.3.186,of BUCKINGHAM,[To KING RICHARD III]
+84950,Richard III,37.0,5.3.132,of King Henry VI,[To KING RICHARD III]
+84940,Richard III,36.0,5.3.124,of Prince Edward,[To KING RICHARD III]
+84992,Richard III,44.0,5.3.167,of young Princes,[To KING RICHARD III]

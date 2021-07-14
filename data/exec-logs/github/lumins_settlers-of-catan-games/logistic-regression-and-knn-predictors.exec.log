@@ -1,0 +1,7 @@
+
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 233, in <module>
+    kf = KFold(len(catan), n_folds=10, shuffle=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'

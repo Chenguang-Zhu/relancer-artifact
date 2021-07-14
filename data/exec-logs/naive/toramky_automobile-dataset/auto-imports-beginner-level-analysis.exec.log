@@ -1,0 +1,4 @@
+  File "auto-imports-beginner-level-analysis.py", line 162
+    imp = scale(missing_values='NaN', strategy='mean' ,with_mean=True,with_std=True,with_std=True,X=True,axis=True)
+                                                                                   ^
+SyntaxError: keyword argument repeated

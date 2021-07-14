@@ -1,0 +1,15 @@
+Total instances :  2
+Total NaNs:
+Body matrix : (2, 418) Heading matrix : (2, 11)
+[[0 0]
+ [1 0]]
+Traceback (most recent call last):
+  File "fake-news-classifier.py", line 153, in <module>
+    from sklearn.externals import joblib
+ImportError: cannot import name 'joblib'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.joblib'), ('new_fqn', 'joblib'), ('line_no', 153)])Total instances :  2
+Total NaNs:
+Body matrix : (2, 418) Heading matrix : (2, 11)
+[[0 0]
+ [1 0]]
+[REPAIR EXEC TIME]: 3.4070119857788086

@@ -1,0 +1,19 @@
+
+housing.csv
+
+Statistics for Boston housing dataset:
+
+Minimum price: $454,342.94
+Maximum price: $1,024,800.00
+Mean price: $454,342.94
+Median price $438,900.00
+Standard deviation of prices: $165,171.13
+Model has a coefficient of determination, R^2, of 0.923.
+
+
+Training and testing split was successful.
+
+Traceback (most recent call last):
+  File "predicting-boston-house-prices.py", line 282, in <module>
+    import sklearn.learning_curve as curves
+ModuleNotFoundError: No module named 'sklearn.learning_curve'

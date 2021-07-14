@@ -1,0 +1,41 @@
+interactive(children=(IntSlider(value=9, continuous_update=False, description='Wave Num.', max=21, min=1), Output()), _dom_classes=('widget-interact',))
+Traceback (most recent call last):
+  File "does-everyone-like-the-same-people-eda.py", line 613, in <module>
+    tf.logging.set_verbosity(tf.logging.ERROR)
+AttributeError: module 'tensorflow' has no attribute 'logging'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'tensorflow.logging'), ('new_fqn', 'tensorflow.compat.v1.logging'), ('line_no', 613)])interactive(children=(IntSlider(value=9, continuous_update=False, description='Wave Num.', max=21, min=1), Output()), _dom_classes=('widget-interact',))
+Traceback (most recent call last):
+  File "does-everyone-like-the-same-people-eda.py", line 634, in <module>
+    input_func = tf.estimator.inputs.pandas_input_fn(x=X_train,y=Y_train,batch_size=10,num_epochs=100,shuffle=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/util/lazy_loader.py", line 63, in __getattr__
+    return getattr(module, item)
+AttributeError: module 'tensorflow_estimator.python.estimator.api._v2.estimator' has no attribute 'inputs'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'tensorflow.estimator.inputs'), ('new_fqn', 'tensorflow.compat.v1.estimator.inputs'), ('line_no', 634)])interactive(children=(IntSlider(value=9, continuous_update=False, description='Wave Num.', max=21, min=1), Output()), _dom_classes=('widget-interact',))
+interactive(children=(IntSlider(value=9, continuous_update=False, description='Wave Num.', max=21, min=1), Output()), _dom_classes=('widget-interact',))
+[REPAIR EXEC TIME]: 95.52603888511658interactive(children=(IntSlider(value=9, continuous_update=False, description='Wave Num.', max=21, min=1), Output()), _dom_classes=('widget-interact',))
+Traceback (most recent call last):
+  File "does-everyone-like-the-same-people-eda.py", line 613, in <module>
+    tf.logging.set_verbosity(tf.logging.ERROR)
+AttributeError: module 'tensorflow' has no attribute 'logging'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'tensorflow.logging'), ('new_fqn', 'tensorflow.compat.v1.logging'), ('line_no', 613)])interactive(children=(IntSlider(value=9, continuous_update=False, description='Wave Num.', max=21, min=1), Output()), _dom_classes=('widget-interact',))
+Traceback (most recent call last):
+  File "does-everyone-like-the-same-people-eda.py", line 634, in <module>
+    input_func = tf.estimator.inputs.pandas_input_fn(x=X_train,y=Y_train,batch_size=10,num_epochs=100,shuffle=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/util/lazy_loader.py", line 63, in __getattr__
+    return getattr(module, item)
+AttributeError: module 'tensorflow_estimator.python.estimator.api._v2.estimator' has no attribute 'inputs'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'tensorflow.estimator.inputs'), ('new_fqn', 'tensorflow.compat.v1.estimator.inputs'), ('line_no', 634)])interactive(children=(IntSlider(value=9, continuous_update=False, description='Wave Num.', max=21, min=1), Output()), _dom_classes=('widget-interact',))
+interactive(children=(IntSlider(value=9, continuous_update=False, description='Wave Num.', max=21, min=1), Output()), _dom_classes=('widget-interact',))
+[REPAIR EXEC TIME]: 95.82254195213318interactive(children=(IntSlider(value=9, continuous_update=False, description='Wave Num.', max=21, min=1), Output()), _dom_classes=('widget-interact',))
+Traceback (most recent call last):
+  File "does-everyone-like-the-same-people-eda.py", line 613, in <module>
+    tf.logging.set_verbosity(tf.logging.ERROR)
+AttributeError: module 'tensorflow' has no attribute 'logging'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'tensorflow.logging'), ('new_fqn', 'tensorflow.compat.v1.logging'), ('line_no', 613)])interactive(children=(IntSlider(value=9, continuous_update=False, description='Wave Num.', max=21, min=1), Output()), _dom_classes=('widget-interact',))
+Traceback (most recent call last):
+  File "does-everyone-like-the-same-people-eda.py", line 634, in <module>
+    input_func = tf.estimator.inputs.pandas_input_fn(x=X_train,y=Y_train,batch_size=10,num_epochs=100,shuffle=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/util/lazy_loader.py", line 63, in __getattr__
+    return getattr(module, item)
+AttributeError: module 'tensorflow_estimator.python.estimator.api._v2.estimator' has no attribute 'inputs'
+[REPAIR EXEC TIME]: 15.744566440582275

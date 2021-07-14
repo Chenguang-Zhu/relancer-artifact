@@ -1,0 +1,1097 @@
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_ridge.py:190: UserWarning: Singular matrix in solving dual problem. Using least-squares solution instead.
+  warnings.warn("Singular matrix in solving dual problem. Using "
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 8.841890987932857, tolerance: 8.019805785920928
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 10.672535432724544, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 22.141435192776044, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 9.643853220737583, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 6.86892211245322, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 15.619955507647319, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 18.411992330798967, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 20.720497463849824, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 31.17532503093571, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 11.93641440202191, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 29.4721325561477, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 40.29709480080419, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 21.066561700710736, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 32.51104347801811, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 89.52100577758938, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 91.45311594503437, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 43.23006535800232, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 50.097078438006065, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 43.577678515703155, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 117.62758711765764, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 149.10237985414005, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 154.01587109681623, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 256.00216221261053, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 368.1900638648858, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 466.4049215464365, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 506.73633743962546, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 474.3058812720501, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 387.31748012907155, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 414.3398241743489, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 22.13103057486842, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 7.810426585443565, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 34.28352329952031, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 21.376856310133007, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 49.212663543454255, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 68.37519210918981, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 38.74930996586045, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 43.68641602812386, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 55.7204560221453, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 43.22362857500411, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 19.72151988888436, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 72.36725335113078, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 123.62262503863894, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 121.20130149326178, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 128.7997021877036, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 24.424199835430045, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 51.783837324477645, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 89.99031421852487, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 150.18075387672798, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 231.2945124507769, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 292.82951177793984, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 313.7957091801527, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 265.0094919110925, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 189.6887130479554, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 311.7915035016458, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 341.0395465627862, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 303.41379316100756, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 292.340482088337, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 270.6754581413634, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 452.72966991808426, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 448.7988943212422, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 17.423808454965183, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 7.361458656225295, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 8.195322930869224, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 6.700964824574839, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 7.304890114630325, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 26.299865418610352, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 35.102931352328596, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 47.5973595473115, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 92.5591182375556, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 132.5711718968996, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 139.3654604745734, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 157.36149986491364, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 227.9231749678438, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 303.89576165617837, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 375.24896848143, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 420.06440554884466, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 428.27581343574457, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 407.2849264633405, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 375.0331453087638, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 382.59428025547095, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 471.5371067392307, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 450.51921111840875, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 530.7201933067345, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 660.1536285096518, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 257.4325888500716, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 277.84698729197225, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 281.13306001409455, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 8.1723031627007, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 11.790283590842591, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 16.229943118511073, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 14.794193167714184, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 18.275762672548808, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 42.32777403637374, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 88.00803331836505, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 72.34516428133429, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 99.45991163665167, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 129.8876057488269, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 122.20952112516898, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 106.77744013560914, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 104.85682524731601, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 124.84024393077743, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 139.0259202422967, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 146.9223468854907, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 176.67737896813196, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 235.54016059677178, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 219.15027321084108, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 320.028954398088, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 323.84478820192544, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 379.9792214888739, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 356.12760817982235, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 513.4583790354827, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 8.684989679088176, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 9.377127206385921, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 11.697544855280285, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 19.360716158111245, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 23.457041971245417, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 20.91832554526445, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 34.62964123795609, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 44.98529647785654, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 37.57696528581073, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 37.739876945432115, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 24.520376788921567, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 34.53001569265689, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 50.017237753116206, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 91.72166816795288, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 105.02392671410598, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 78.23340889104657, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 80.2528067102412, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 88.70278710678394, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 137.06723676844194, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 105.46626231164373, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 242.65032001647342, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 426.095186500982, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 598.003732326757, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 807.5902652944642, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 76.97853216337535, tolerance: 8.019805785920928
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+camera_dataset.csv
+
+                          count         mean         std  ...     50%     75%     max
+Release date             1037.0  2003.596914    2.718361  ...  2004.0  2006.0  2007.0
+Max resolution           1037.0  2476.071360  758.541004  ...  2560.0  3072.0  5616.0
+Low resolution           1037.0  1775.029894  830.551314  ...  2048.0  2560.0  4992.0
+Effective pixels         1037.0     4.600771    2.841828  ...     4.0     7.0    21.0
+Zoom wide (W)            1037.0    32.958534   10.336950  ...    36.0    38.0    52.0
+Zoom tele (T)            1037.0   121.532305   93.500223  ...   108.0   117.0   518.0
+Normal focus range       1037.0    44.120540   24.140234  ...    50.0    60.0   120.0
+Macro focus range        1036.0     7.756757    8.041841  ...     6.0    10.0    85.0
+Storage included         1035.0    17.460870   27.450732  ...    16.0    20.0   450.0
+Weight (inc. batteries)  1035.0   319.168116  260.517178  ...   226.0   345.0  1860.0
+Dimensions               1035.0   105.373430   24.272349  ...   101.0   115.0   240.0
+Price                    1037.0   457.652845  760.770633  ...   199.0   399.0  7999.0
+
+[12 rows x 8 columns]
+                    Model  Release date  ...  Dimensions   Price
+0        Agfa ePhoto 1680          1998  ...       158.0   179.0
+1        Agfa ePhoto CL18          2000  ...         0.0   179.0
+2        Agfa ePhoto CL30          1999  ...         0.0   269.0
+3  Agfa ePhoto CL30 Clik!          1999  ...       128.0  1299.0
+4        Agfa ePhoto CL45          2001  ...       119.0   179.0
+
+[5 rows x 13 columns]
+                       Model  Release date  Max resolution  ...  Dimensions   Price  group
+0           Agfa ePhoto 1680          1998          1280.0  ...       158.0   179.0      1
+1           Agfa ePhoto CL18          2000           640.0  ...         0.0   179.0      5
+2           Agfa ePhoto CL30          1999          1152.0  ...         0.0   269.0      1
+3     Agfa ePhoto CL30 Clik!          1999          1152.0  ...       128.0  1299.0      3
+4           Agfa ePhoto CL45          2001          1600.0  ...       119.0   179.0      1
+...                      ...           ...             ...  ...         ...     ...    ...
+1032         Toshiba PDR-M65          2001          2048.0  ...       120.0    62.0      1
+1033         Toshiba PDR-M70          2000          2048.0  ...       116.0    62.0      1
+1034         Toshiba PDR-M71          2001          2048.0  ...       107.0    62.0      1
+1035         Toshiba PDR-M81          2001          2400.0  ...       107.0    62.0      1
+1036         Toshiba PDR-T10          2002          1600.0  ...        86.0   129.0      1
+
+[1037 rows x 14 columns]
+              countt   meant        stdt    mint  ...     maxgt      efft       eff2t  clustt
+Release date                                      ...                                        
+1994             1.0  1524.0  183.826005  1524.0  ...  4.859812  0.120621   22.173228       4
+1995             1.0  3060.0  183.826005  3060.0  ...  4.859812  0.060074   11.043137       4
+1996             4.0   784.0  183.826005   640.0  ...  7.437795  0.234472   43.102041       4
+1997            10.0   832.0  290.947876   512.0  ...  7.437795  0.349697  101.743590       4
+1998            32.0  1282.5  387.470540   640.0  ...  7.437795  0.302121  117.063095       4
+
+[5 rows x 19 columns]
+Performing dimensionality reduction using LSA
+Explained variance of the SVD step: 31%
+<zip object at 0x7f7b65bf7348>
+HuberRegressor %error 5.3 rmsle 0.07528492744594158
+Ridge %error 1.7 rmsle 0.028234909522174202
+Lasso %error 7.5 rmsle 0.10172754285167589
+LassoCV %error 5.5 rmsle 0.07544080128330069
+Lars %error 9.9 rmsle 0.1245250156907472
+SGDClassifier %error 4.6 rmsle 0.09827247400659982
+RidgeClassifier %error 2.8 rmsle 0.07575198545244141
+LogisticRegression %error 3.2 rmsle 0.0814804743483316
+OrthogonalMatchingPursuit %error 4.9 rmsle 0.06518711962062307
+<zip object at 0x7f7b7f312308>
+
+Traceback (most recent call last):
+  File "camera-notes.py", line 213, in <module>
+    res = sm.OLS(Y,Xr).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'statsmodels.formula.api.OLS'), ('new_fqn', 'statsmodels.formula.api.gls'), ('line_no', 213)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_ridge.py:190: UserWarning: Singular matrix in solving dual problem. Using least-squares solution instead.
+  warnings.warn("Singular matrix in solving dual problem. Using "
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 7.333463048747944, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 7.721942223024598, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 17.89339527257107, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 7.236808399649817, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 10.345165717229975, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 22.679816841444335, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 20.27208244436406, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 17.059720799526986, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 40.745789415672334, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 54.89470563942814, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 58.06364096413199, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 49.94293940536045, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 51.42471882745849, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 55.37133568142963, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 82.37571467449015, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 162.14414276705793, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 171.12154242349243, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 187.46017507335182, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 156.79843013203026, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 178.08148002335656, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 165.57158254041497, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 157.21135266413603, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 216.6610222835643, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 237.89606902033847, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 346.6760196326795, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 381.30915131449274, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 426.33443311334213, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 6.755108861700137, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 9.036565232177963, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 10.578166925264668, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 8.882279116740392, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 16.97743617780361, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 9.9440559329596, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 10.63401685822464, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 20.728432153278845, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 19.97896565627343, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 20.302046898403205, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 47.4982968885015, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 64.16207084607777, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 80.86419395060511, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 38.623374314283865, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 42.63617050800167, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 54.11859536560587, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 45.08416042141653, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 36.658351101055814, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 53.85563740256475, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 112.61798594508582, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 173.5656375931976, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 225.70563002494418, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 302.550654432629, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 109.03101198324293, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 71.63113917928786, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 94.71777244009536, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 112.47466989841632, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 230.36837248510074, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 268.27492733130566, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 395.5416011116622, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 460.475034980529, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 584.6028580749062, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 624.3709887920832, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 8.682772016036324, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 11.87253147906631, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 18.381829978145106, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 22.645738783090565, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 19.350536750434912, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 27.31731192071493, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 9.9126583653524, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 18.847559437930613, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 22.364284802621114, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 21.378161879039908, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 67.6109167511222, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 142.40153684710276, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 196.04311358451014, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 183.63131910889933, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 59.82893585359125, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 63.92920955681075, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 191.1484515694592, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 217.5330815266152, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 205.87806710079713, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 149.95010137748977, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 166.19023509190083, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 216.84562321126577, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 368.940613178278, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 325.4522357016813, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 337.2359196929792, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 320.6397991434487, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 428.7024898557347, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 448.1107626780595, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 490.57725295212185, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 374.6593725429484, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 367.12562079097097, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 9.382423853512591, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 12.299311688511807, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 10.528702069446808, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 14.191554280587297, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 7.440543446306037, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 9.42505065674959, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 14.309427012902233, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 59.205074778372364, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 68.51542723289276, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 73.24061121744853, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 96.68391756263736, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 172.14268365918542, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 239.17828003074646, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 225.54931578858668, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 193.343392212626, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 165.44555905322704, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 179.62035936870598, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 185.48476830077198, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 362.11785036788206, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 539.2546117870061, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 687.3549710824554, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 740.6580376775582, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 822.6487040925622, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 945.2367552613196, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 1015.1604785630025, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 7.537662437232939, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 11.664190846149722, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 15.79747635887179, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 15.719185307871157, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 13.851303682247817, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 11.710321078840934, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 34.80002096846874, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 47.63205864982592, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 24.447137500981626, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 11.86587543602218, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 16.207833041342383, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 33.2552450572839, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 57.07321877073264, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 67.96372286757469, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 74.03315717869191, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 77.57631094265889, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 87.73319109147633, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 58.89310245304114, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 45.8781649736211, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 64.23368587280675, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 55.78915629829862, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 84.71990436660599, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 101.25224294007785, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 110.92321744902438, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 134.0691836496735, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 172.59329848582456, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 199.88835209015087, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 319.10535956662625, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 425.61597451027774, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 525.8504667771704, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 78.68967558757504, tolerance: 8.019805785920928
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+camera_dataset.csv
+
+                          count         mean         std  ...     50%     75%     max
+Release date             1037.0  2003.596914    2.718361  ...  2004.0  2006.0  2007.0
+Max resolution           1037.0  2476.071360  758.541004  ...  2560.0  3072.0  5616.0
+Low resolution           1037.0  1775.029894  830.551314  ...  2048.0  2560.0  4992.0
+Effective pixels         1037.0     4.600771    2.841828  ...     4.0     7.0    21.0
+Zoom wide (W)            1037.0    32.958534   10.336950  ...    36.0    38.0    52.0
+Zoom tele (T)            1037.0   121.532305   93.500223  ...   108.0   117.0   518.0
+Normal focus range       1037.0    44.120540   24.140234  ...    50.0    60.0   120.0
+Macro focus range        1036.0     7.756757    8.041841  ...     6.0    10.0    85.0
+Storage included         1035.0    17.460870   27.450732  ...    16.0    20.0   450.0
+Weight (inc. batteries)  1035.0   319.168116  260.517178  ...   226.0   345.0  1860.0
+Dimensions               1035.0   105.373430   24.272349  ...   101.0   115.0   240.0
+Price                    1037.0   457.652845  760.770633  ...   199.0   399.0  7999.0
+
+[12 rows x 8 columns]
+                    Model  Release date  ...  Dimensions   Price
+0        Agfa ePhoto 1680          1998  ...       158.0   179.0
+1        Agfa ePhoto CL18          2000  ...         0.0   179.0
+2        Agfa ePhoto CL30          1999  ...         0.0   269.0
+3  Agfa ePhoto CL30 Clik!          1999  ...       128.0  1299.0
+4        Agfa ePhoto CL45          2001  ...       119.0   179.0
+
+[5 rows x 13 columns]
+                       Model  Release date  Max resolution  ...  Dimensions   Price  group
+0           Agfa ePhoto 1680          1998          1280.0  ...       158.0   179.0      1
+1           Agfa ePhoto CL18          2000           640.0  ...         0.0   179.0      5
+2           Agfa ePhoto CL30          1999          1152.0  ...         0.0   269.0      1
+3     Agfa ePhoto CL30 Clik!          1999          1152.0  ...       128.0  1299.0      3
+4           Agfa ePhoto CL45          2001          1600.0  ...       119.0   179.0      1
+...                      ...           ...             ...  ...         ...     ...    ...
+1032         Toshiba PDR-M65          2001          2048.0  ...       120.0    62.0      1
+1033         Toshiba PDR-M70          2000          2048.0  ...       116.0    62.0      1
+1034         Toshiba PDR-M71          2001          2048.0  ...       107.0    62.0      1
+1035         Toshiba PDR-M81          2001          2400.0  ...       107.0    62.0      1
+1036         Toshiba PDR-T10          2002          1600.0  ...        86.0   129.0      1
+
+[1037 rows x 14 columns]
+              countt   meant        stdt    mint  ...     maxgt      efft       eff2t  clustt
+Release date                                      ...                                        
+1994             1.0  1524.0  183.826005  1524.0  ...  4.859812  0.120621   22.173228       4
+1995             1.0  3060.0  183.826005  3060.0  ...  4.859812  0.060074   11.043137       4
+1996             4.0   784.0  183.826005   640.0  ...  7.437795  0.234472   43.102041       4
+1997            10.0   832.0  290.947876   512.0  ...  7.437795  0.349697  101.743590       4
+1998            32.0  1282.5  387.470540   640.0  ...  7.437795  0.302121  117.063095       4
+
+[5 rows x 19 columns]
+Performing dimensionality reduction using LSA
+Explained variance of the SVD step: 31%
+<zip object at 0x7f6d24471ec8>
+HuberRegressor %error 5.6 rmsle 0.077604857093183
+Ridge %error 1.7 rmsle 0.027883638678414976
+Lasso %error 7.7 rmsle 0.1035607920205347
+LassoCV %error 5.4 rmsle 0.07406264973225178
+Lars %error 10.5 rmsle 0.13080562588391634
+SGDClassifier %error 5.1 rmsle 0.09897211017091688
+RidgeClassifier %error 2.8 rmsle 0.07575663524231835
+LogisticRegression %error 3.1 rmsle 0.0781812114107136
+OrthogonalMatchingPursuit %error 4.9 rmsle 0.06600349506804655
+<zip object at 0x7f6d311fa308>
+
+Traceback (most recent call last):
+  File "camera-notes.py", line 214, in <module>
+    res = statsmodels.formula.api.gls(Y,Xr).fit()
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/base/model.py", line 169, in from_formula
+    missing=missing)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/formula/formulatools.py", line 68, in handle_formula_data
+    NA_action=na_action)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/patsy/highlevel.py", line 312, in dmatrices
+    raise PatsyError("model is missing required outcome variables")
+patsy.PatsyError: model is missing required outcome variables
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'statsmodels.formula.api.OLS'), ('new_fqn', 'statsmodels.formula.api.wls'), ('line_no', 213)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_ridge.py:190: UserWarning: Singular matrix in solving dual problem. Using least-squares solution instead.
+  warnings.warn("Singular matrix in solving dual problem. Using "
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 7.486138902806488, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 6.891502960759681, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 18.234006747496096, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 14.427082517297094, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 20.871946106452015, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 15.547725189384437, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 55.59694712529563, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 25.531563621951136, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 25.502521577225707, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 24.918998621526043, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 30.39385967067392, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 20.743591184478646, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 52.782713700364184, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 120.24789019844229, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 140.64294789823816, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 137.80820150140062, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 120.31873565880687, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 100.39156785701653, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 93.13970869230707, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 111.2426260046177, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 99.3886789742619, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 143.94828679603688, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 210.13404642571913, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 249.64036682167898, tolerance: 6.010435705669482
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 7.857460959630771, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 7.085456567894653, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 12.173202400937953, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 11.829306282737889, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 24.66514484590698, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 12.99307974196563, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 14.460770616247828, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 7.69810216237056, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 30.952095564953197, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 48.59289330130014, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 82.13922942498175, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 121.2664233995365, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 118.58095994594441, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 62.705233207554556, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 60.405428144807956, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 110.01583126203514, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 172.22438246123966, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 295.55718485308535, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 247.196488677273, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 280.62595496089943, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 404.22674409234605, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 313.939365137574, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 446.3462248539636, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 636.4755984474305, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 600.4483769606841, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 808.4854516008736, tolerance: 6.287392762364295
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 11.344675035586988, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 13.868155760315858, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 14.32206896880416, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 70.584272379494, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 75.41767219055146, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 64.75406649676006, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 48.985040743807986, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 59.039250639176316, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 64.15723458399589, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 53.34309674347605, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 103.8304539079927, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 145.67761191040518, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 184.58188164464445, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 105.7611099414753, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 151.3875186510777, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 251.26794820402756, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 286.2126398318287, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 273.4557825649026, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 275.42730550665874, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 250.16097868204997, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 255.75766207238303, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 281.72085923027953, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 288.23935671416257, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 295.5697855772396, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 207.84164124931704, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 290.3170861929102, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 348.8572962829221, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 347.65011343109745, tolerance: 6.552282409638554
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 14.414863412541308, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 49.33021483124139, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 25.46619302151157, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 6.703236084471428, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 7.77032223347851, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 14.962331468166667, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 15.164650116646953, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 26.607166036723356, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 34.29165055829435, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 31.732146413782175, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 28.1984655592496, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 28.614597857027547, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 17.898004276639767, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 13.909518555625255, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 16.084172083887097, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 26.225128284308084, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 54.527284357942335, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 51.96425863319382, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 85.22490372766515, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 125.28572260323745, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 126.61483740502626, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 113.41059595836123, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 100.47122011949978, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 225.3943422692928, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 339.00011492463454, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 479.4131902385179, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 704.2451558331641, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 805.0348924250084, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 839.1036139692987, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 929.9510004658396, tolerance: 6.512242891566266
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 9.142859903031422, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 9.042858191771302, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 15.534209532565, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 16.237396949720278, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 23.553469240185223, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 24.605764769416055, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 23.563747024196346, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 23.080439542858585, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 27.381541888762513, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 40.23058008071348, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 31.892224331173566, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 28.43969314162132, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 61.11799019391037, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 118.17088772100396, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 144.7850508243646, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 140.241581002183, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 196.79213044642165, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 152.6468786163423, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 104.97482147948722, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 50.66891382336689, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 51.887294098627535, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 49.134054721531356, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 71.69964009769683, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 232.2628405064861, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 326.7822635070979, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 369.3798721083622, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 437.24172028473185, tolerance: 6.712587469879518
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_coordinate_descent.py:531: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 20.3587509440149, tolerance: 8.019805785920928
+  positive)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+camera_dataset.csv
+
+                          count         mean         std  ...     50%     75%     max
+Release date             1037.0  2003.596914    2.718361  ...  2004.0  2006.0  2007.0
+Max resolution           1037.0  2476.071360  758.541004  ...  2560.0  3072.0  5616.0
+Low resolution           1037.0  1775.029894  830.551314  ...  2048.0  2560.0  4992.0
+Effective pixels         1037.0     4.600771    2.841828  ...     4.0     7.0    21.0
+Zoom wide (W)            1037.0    32.958534   10.336950  ...    36.0    38.0    52.0
+Zoom tele (T)            1037.0   121.532305   93.500223  ...   108.0   117.0   518.0
+Normal focus range       1037.0    44.120540   24.140234  ...    50.0    60.0   120.0
+Macro focus range        1036.0     7.756757    8.041841  ...     6.0    10.0    85.0
+Storage included         1035.0    17.460870   27.450732  ...    16.0    20.0   450.0
+Weight (inc. batteries)  1035.0   319.168116  260.517178  ...   226.0   345.0  1860.0
+Dimensions               1035.0   105.373430   24.272349  ...   101.0   115.0   240.0
+Price                    1037.0   457.652845  760.770633  ...   199.0   399.0  7999.0
+
+[12 rows x 8 columns]
+                    Model  Release date  ...  Dimensions   Price
+0        Agfa ePhoto 1680          1998  ...       158.0   179.0
+1        Agfa ePhoto CL18          2000  ...         0.0   179.0
+2        Agfa ePhoto CL30          1999  ...         0.0   269.0
+3  Agfa ePhoto CL30 Clik!          1999  ...       128.0  1299.0
+4        Agfa ePhoto CL45          2001  ...       119.0   179.0
+
+[5 rows x 13 columns]
+                       Model  Release date  Max resolution  ...  Dimensions   Price  group
+0           Agfa ePhoto 1680          1998          1280.0  ...       158.0   179.0      1
+1           Agfa ePhoto CL18          2000           640.0  ...         0.0   179.0      5
+2           Agfa ePhoto CL30          1999          1152.0  ...         0.0   269.0      1
+3     Agfa ePhoto CL30 Clik!          1999          1152.0  ...       128.0  1299.0      3
+4           Agfa ePhoto CL45          2001          1600.0  ...       119.0   179.0      1
+...                      ...           ...             ...  ...         ...     ...    ...
+1032         Toshiba PDR-M65          2001          2048.0  ...       120.0    62.0      1
+1033         Toshiba PDR-M70          2000          2048.0  ...       116.0    62.0      1
+1034         Toshiba PDR-M71          2001          2048.0  ...       107.0    62.0      1
+1035         Toshiba PDR-M81          2001          2400.0  ...       107.0    62.0      1
+1036         Toshiba PDR-T10          2002          1600.0  ...        86.0   129.0      1
+
+[1037 rows x 14 columns]
+              countt   meant        stdt    mint  ...     maxgt      efft       eff2t  clustt
+Release date                                      ...                                        
+1994             1.0  1524.0  183.826005  1524.0  ...  4.859812  0.120621   22.173228       4
+1995             1.0  3060.0  183.826005  3060.0  ...  4.859812  0.060074   11.043137       4
+1996             4.0   784.0  183.826005   640.0  ...  7.437795  0.234472   43.102041       4
+1997            10.0   832.0  290.947876   512.0  ...  7.437795  0.349697  101.743590       4
+1998            32.0  1282.5  387.470540   640.0  ...  7.437795  0.302121  117.063095       4
+
+[5 rows x 19 columns]
+Performing dimensionality reduction using LSA
+Explained variance of the SVD step: 31%
+<zip object at 0x7f49e6c1cf08>
+HuberRegressor %error 5.4 rmsle 0.07573669898894195
+Ridge %error 1.6 rmsle 0.02688685890873486
+Lasso %error 7.6 rmsle 0.10322438652178799
+LassoCV %error 5.7 rmsle 0.08098881072998666
+Lars %error 10.4 rmsle 0.12962727922944753
+SGDClassifier %error 4.8 rmsle 0.09936919147584762
+RidgeClassifier %error 2.8 rmsle 0.07573533359267819
+LogisticRegression %error 3.1 rmsle 0.07941235913682718
+OrthogonalMatchingPursuit %error 4.9 rmsle 0.0652515633310935
+<zip object at 0x7f4a00343308>
+
+Traceback (most recent call last):
+  File "camera-notes.py", line 214, in <module>
+    res = statsmodels.formula.api.wls(Y,Xr).fit()
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/base/model.py", line 169, in from_formula
+    missing=missing)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/formula/formulatools.py", line 68, in handle_formula_data
+    NA_action=na_action)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/patsy/highlevel.py", line 312, in dmatrices
+    raise PatsyError("model is missing required outcome variables")
+patsy.PatsyError: model is missing required outcome variables
+[REPAIR EXEC TIME]: 384.07244348526

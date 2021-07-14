@@ -1,0 +1,59 @@
+Traceback (most recent call last):
+  File "lower-back-pain-predictive-analysis.py", line 53, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation'), ('line_no', 53)])Traceback (most recent call last):
+  File "lower-back-pain-predictive-analysis.py", line 54, in <module>
+    from sklearn.utils.validation import train_test_split
+ImportError: cannot import name 'train_test_split'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cross_decomposition'), ('line_no', 53)])Traceback (most recent call last):
+  File "lower-back-pain-predictive-analysis.py", line 54, in <module>
+    from sklearn.cross_decomposition import train_test_split
+ImportError: cannot import name 'train_test_split'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_memory'), ('line_no', 53)])Traceback (most recent call last):
+  File "lower-back-pain-predictive-analysis.py", line 54, in <module>
+    from sklearn.utils.validation.check_memory import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_memory'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.column_or_1d'), ('line_no', 53)])Traceback (most recent call last):
+  File "lower-back-pain-predictive-analysis.py", line 54, in <module>
+    from sklearn.utils.validation.column_or_1d import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.column_or_1d'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_is_fitted'), ('line_no', 53)])Traceback (most recent call last):
+  File "lower-back-pain-predictive-analysis.py", line 54, in <module>
+    from sklearn.utils.validation.check_is_fitted import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_is_fitted'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_symmetric'), ('line_no', 53)])Traceback (most recent call last):
+  File "lower-back-pain-predictive-analysis.py", line 54, in <module>
+    from sklearn.utils.validation.check_symmetric import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_symmetric'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cluster.Birch'), ('line_no', 53)])Traceback (most recent call last):
+  File "lower-back-pain-predictive-analysis.py", line 54, in <module>
+    from sklearn.cluster.Birch import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cluster.Birch'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cluster.KMeans'), ('line_no', 53)])Traceback (most recent call last):
+  File "lower-back-pain-predictive-analysis.py", line 54, in <module>
+    from sklearn.cluster.KMeans import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cluster.KMeans'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.has_fit_parameter'), ('line_no', 53)])Traceback (most recent call last):
+  File "lower-back-pain-predictive-analysis.py", line 54, in <module>
+    from sklearn.utils.validation.has_fit_parameter import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.has_fit_parameter'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cross_decomposition.CCA'), ('line_no', 53)])Traceback (most recent call last):
+  File "lower-back-pain-predictive-analysis.py", line 54, in <module>
+    from sklearn.cross_decomposition.CCA import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_decomposition.CCA'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.all_estimators'), ('line_no', 53)])Traceback (most recent call last):
+  File "lower-back-pain-predictive-analysis.py", line 54, in <module>
+    from sklearn.utils.all_estimators import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.all_estimators'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 53)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+Logistic Regression proves to be 80.64516129032258 % accurate here!
+Support Vector Machines proves to be 83.87096774193549 % accurate here!
+[REPAIR EXEC TIME]: 10.738704919815063

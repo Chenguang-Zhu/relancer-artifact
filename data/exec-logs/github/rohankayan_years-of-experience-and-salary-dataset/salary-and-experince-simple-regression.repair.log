@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "salary-and-experince-simple-regression.py", line 20, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 20)])
+
+[REPAIR EXEC TIME]: 2.4436755180358887Traceback (most recent call last):
+  File "salary-and-experince-simple-regression.py", line 20, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 20)])
+
+[REPAIR EXEC TIME]: 2.4695885181427

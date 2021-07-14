@@ -1,0 +1,23 @@
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 53940 entries, 1 to 53940
+Data columns (total 10 columns):
+ #   Column   Non-Null Count  Dtype  
+---  ------   --------------  -----  
+ 0   carat    53940 non-null  float64
+ 1   cut      53940 non-null  object 
+ 2   color    53940 non-null  object 
+ 3   clarity  53940 non-null  object 
+ 4   depth    53940 non-null  float64
+ 5   table    53940 non-null  float64
+ 6   price    53940 non-null  int64  
+ 7   x        53940 non-null  float64
+ 8   y        53940 non-null  float64
+ 9   z        53940 non-null  float64
+dtypes: float64(6), int64(1), object(3)
+memory usage: 4.5+ MB
+(48545, 9)
+(5394, 8)
+Linear regression accuracy:  0.9034011160401548
+Ridge regression accuracy:  0.7740204079824347
+Lasso regression accuracy:  0.7740204079824347
+Elastic net accuracy:  0.8660761392463447

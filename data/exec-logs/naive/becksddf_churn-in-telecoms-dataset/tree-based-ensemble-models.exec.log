@@ -1,0 +1,18 @@
+3333
+51
+Churn rate is: 0.14491449144914492. 
+churn_false/churn_true = 5.900621118012422. churn_false - churn_true = 2367. 
+The data is imbalanced.
+['account length', 'number vmail messages', 'total day minutes', 'total day calls', 'total day charge', 'total eve minutes', 'total eve calls', 'total eve charge', 'total night minutes', 'total night calls', 'total night charge', 'total intl minutes', 'total intl calls', 'total intl charge', 'customer service calls']
+
+{'phone number'}
+
+
+
+
+Traceback (most recent call last):
+  File "tree-based-ensemble-models.py", line 305, in <module>
+    sm = SMOTE(random_state=0, ratio=1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'

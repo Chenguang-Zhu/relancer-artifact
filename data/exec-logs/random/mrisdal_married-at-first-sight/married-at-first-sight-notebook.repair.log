@@ -1,0 +1,970 @@
+../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.metrics.jaccard_similarity_score'), ('new_fqn', 'sklearn.metrics.jaccard_score'), ('line_no', 34)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:73: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:251: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+../../../input/mrisdal_married-at-first-sight/mafs.csv
+
+
+
+
+
+
+
+
+
+
+Precision is 0.5
+Recall is 0.25
+Specificity is 0.9411764705882353
+Accuracy is 0.8095238095238095
+
+
+
+
+
+
+
+
+
+Precision is 1.0
+Recall is 0.25
+Specificity is 1.0
+Accuracy is 0.8571428571428571
+
+
+
+
+
+
+
+
+Jaccard similarity score 0.25
+[REPAIR EXEC TIME]: 5.065070390701294../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize'), ('target_value', 'True')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize'), ('target_value', 'False')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize&sample_weight'), ('target_value', 'True&False')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize&y_true'), ('target_value', 'True&False')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize&y_pred'), ('target_value', 'True&False')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_true'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_true'), ('target_value', "<class 'libcst._nodes.expression.Subscript'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_true'), ('target_value', "<class 'libcst._nodes.expression.Call'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred'), ('target_value', "<class 'libcst._nodes.expression.Subscript'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred'), ('target_value', "<class 'libcst._nodes.expression.Comparison'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred'), ('target_value', "<class 'libcst._nodes.expression.Call'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize&y_pred'), ('target_value', "<class 'libcst._nodes.expression.Name'>&<class 'libcst._nodes.expression.Name'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize&y_pred'), ('target_value', "<class 'libcst._nodes.expression.Subscript'>&<class 'libcst._nodes.expression.Attribute'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize&y_pred'), ('target_value', "<class 'libcst._nodes.expression.Comparison'>&<class 'libcst._nodes.expression.Call'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_true&y_pred'), ('target_value', "<class 'libcst._nodes.expression.Name'>&<class 'libcst._nodes.expression.Subscript'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_true&y_pred'), ('target_value', "<class 'libcst._nodes.expression.Call'>&<class 'libcst._nodes.expression.Name'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_true&y_pred'), ('target_value', "<class 'libcst._nodes.expression.Subscript'>&<class 'libcst._nodes.expression.Attribute'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_true&y_pred'), ('target_value', "<class 'libcst._nodes.expression.Comparison'>&<class 'libcst._nodes.expression.Call'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize&y_true'), ('target_value', "<class 'libcst._nodes.expression.Name'>&<class 'libcst._nodes.expression.Name'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize&y_true'), ('target_value', "<class 'libcst._nodes.expression.Subscript'>&<class 'libcst._nodes.expression.Call'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize&y_true&y_pred'), ('target_value', "<class 'libcst._nodes.expression.Name'>&<class 'libcst._nodes.expression.Name'>&<class 'libcst._nodes.expression.Subscript'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize&y_true&y_pred'), ('target_value', "<class 'libcst._nodes.expression.Call'>&<class 'libcst._nodes.expression.Name'>&<class 'libcst._nodes.expression.Subscript'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize&y_true&y_pred'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>&<class 'libcst._nodes.expression.Comparison'>&<class 'libcst._nodes.expression.Call'>")])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_true'), ('to_name', 'y_pred')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_true'), ('to_name', 'normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_true'), ('to_name', 'sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_delete'), ('from_name', 'y_true'), ('to_name', '*')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred'), ('to_name', 'y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred'), ('to_name', 'normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred'), ('to_name', 'sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_delete'), ('from_name', 'y_pred'), ('to_name', '*')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize'), ('to_name', 'y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize'), ('to_name', 'y_pred')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize'), ('to_name', 'sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_delete'), ('from_name', 'normalize'), ('to_name', '*')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight'), ('to_name', 'y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight'), ('to_name', 'y_pred')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight'), ('to_name', 'normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_delete'), ('from_name', 'sample_weight'), ('to_name', '*')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_pred'), ('to_name', 'normalize&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_pred'), ('to_name', 'normalize&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_pred'), ('to_name', 'y_true&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_pred'), ('to_name', 'y_true&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_pred'), ('to_name', 'y_pred&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_pred'), ('to_name', 'y_pred&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_pred'), ('to_name', 'y_pred&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight'), ('to_name', 'sample_weight&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight'), ('to_name', 'sample_weight&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight'), ('to_name', 'sample_weight&y_pred')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight'), ('to_name', 'y_true&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight'), ('to_name', 'y_true&y_pred')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight'), ('to_name', 'y_pred&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight'), ('to_name', 'y_pred&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true'), ('to_name', 'normalize&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true'), ('to_name', 'normalize&y_pred')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true'), ('to_name', 'y_true&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true'), ('to_name', 'y_true&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true'), ('to_name', 'y_true&y_pred')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true'), ('to_name', 'y_pred&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true'), ('to_name', 'y_pred&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true'), ('to_name', 'sample_weight&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true'), ('to_name', 'sample_weight&y_pred')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true'), ('to_name', 'y_true&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true'), ('to_name', 'y_true&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true'), ('to_name', 'y_true&y_pred')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true'), ('to_name', 'y_pred&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true'), ('to_name', 'y_pred&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_pred'), ('to_name', 'sample_weight&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_pred'), ('to_name', 'sample_weight&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_pred'), ('to_name', 'y_true&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_pred'), ('to_name', 'y_true&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_pred'), ('to_name', 'y_pred&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_pred'), ('to_name', 'y_pred&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_pred'), ('to_name', 'y_pred&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_true&y_pred'), ('to_name', 'normalize&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_true&y_pred'), ('to_name', 'normalize&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_true&y_pred'), ('to_name', 'sample_weight&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_true&y_pred'), ('to_name', 'sample_weight&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_true&y_pred'), ('to_name', 'y_pred&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_true&y_pred'), ('to_name', 'y_pred&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_true&y_pred'), ('to_name', 'y_pred&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'sample_weight&normalize&y_pred')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'sample_weight&y_true&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'sample_weight&y_true&y_pred')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'sample_weight&y_pred&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'y_true&normalize&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'y_true&normalize&y_pred')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'y_true&y_pred&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'y_true&y_pred&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'y_pred&normalize&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'y_pred&y_true&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'y_pred&y_true&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true&y_pred'), ('to_name', 'sample_weight&normalize&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true&y_pred'), ('to_name', 'sample_weight&y_pred&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true&y_pred'), ('to_name', 'sample_weight&y_pred&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true&y_pred'), ('to_name', 'y_true&normalize&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true&y_pred'), ('to_name', 'y_true&sample_weight&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true&y_pred'), ('to_name', 'y_true&y_pred&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true&y_pred'), ('to_name', 'y_true&y_pred&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true&y_pred'), ('to_name', 'y_pred&normalize&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true&y_pred'), ('to_name', 'y_pred&normalize&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true&y_pred'), ('to_name', 'y_pred&sample_weight&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true&y_pred'), ('to_name', 'y_pred&sample_weight&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true&y_pred'), ('to_name', 'normalize&sample_weight&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true&y_pred'), ('to_name', 'normalize&y_pred&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true&y_pred'), ('to_name', 'normalize&y_pred&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true&y_pred'), ('to_name', 'y_true&normalize&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true&y_pred'), ('to_name', 'y_true&sample_weight&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true&y_pred'), ('to_name', 'y_true&y_pred&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true&y_pred'), ('to_name', 'y_true&y_pred&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true&y_pred'), ('to_name', 'y_pred&normalize&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true&y_pred'), ('to_name', 'y_pred&normalize&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true&y_pred'), ('to_name', 'y_pred&sample_weight&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true&y_pred'), ('to_name', 'y_pred&sample_weight&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_pred'), ('to_name', 'sample_weight&normalize&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_pred'), ('to_name', 'sample_weight&y_true&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_pred'), ('to_name', 'sample_weight&y_pred&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_pred'), ('to_name', 'sample_weight&y_pred&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_pred'), ('to_name', 'y_true&normalize&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_pred'), ('to_name', 'y_true&y_pred&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_pred'), ('to_name', 'y_true&y_pred&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_pred'), ('to_name', 'y_pred&normalize&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_pred'), ('to_name', 'y_pred&normalize&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_pred'), ('to_name', 'y_pred&y_true&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_pred'), ('to_name', 'y_pred&y_true&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true&y_pred'), ('to_name', 'sample_weight&normalize&y_pred&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true&y_pred'), ('to_name', 'sample_weight&y_true&y_pred&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true&y_pred'), ('to_name', 'sample_weight&y_pred&normalize&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true&y_pred'), ('to_name', 'y_true&normalize&y_pred&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true&y_pred'), ('to_name', 'y_true&y_pred&normalize&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true&y_pred'), ('to_name', 'y_true&y_pred&sample_weight&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true&y_pred'), ('to_name', 'y_pred&normalize&sample_weight&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true&y_pred'), ('to_name', 'y_pred&y_true&normalize&sample_weight')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true&y_pred'), ('to_name', 'y_pred&y_true&sample_weight&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_true'), ('to_name', 'y_pred')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_true'), ('to_name', 'normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_delete'), ('from_name', 'y_true'), ('to_name', '*')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred'), ('to_name', 'y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred'), ('to_name', 'normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_delete'), ('from_name', 'y_pred'), ('to_name', '*')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize'), ('to_name', 'y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize'), ('to_name', 'y_pred')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_delete'), ('from_name', 'normalize'), ('to_name', '*')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_pred'), ('to_name', 'y_true&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_pred'), ('to_name', 'y_pred&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_pred'), ('to_name', 'y_pred&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_true&y_pred'), ('to_name', 'normalize&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_true&y_pred'), ('to_name', 'y_pred&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_true&y_pred'), ('to_name', 'y_pred&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true'), ('to_name', 'y_true&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true'), ('to_name', 'y_true&y_pred')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true'), ('to_name', 'y_pred&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true&y_pred'), ('to_name', 'y_true&y_pred&normalize')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true&y_pred'), ('to_name', 'y_pred&normalize&y_true')])../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.metrics.jaccard_similarity_score'), ('new_fqn', 'sklearn.metrics.jaccard_score'), ('line_no', 34)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:73: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:251: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+../../../input/mrisdal_married-at-first-sight/mafs.csv
+
+
+
+
+
+
+
+
+
+
+Precision is 0.5
+Recall is 0.25
+Specificity is 0.9411764705882353
+Accuracy is 0.8095238095238095
+
+
+
+
+
+
+
+
+
+Precision is 1.0
+Recall is 0.25
+Specificity is 1.0
+Accuracy is 0.8571428571428571
+
+
+
+
+
+
+
+
+Jaccard similarity score 0.25
+[REPAIR EXEC TIME]: 307.01718401908875

@@ -1,0 +1,175 @@
+['Hostel.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 16 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    int64  
+ 1   hostel.name    342 non-null    object 
+ 2   City           342 non-null    object 
+ 3   price.from     342 non-null    int64  
+ 4   Distance       342 non-null    object 
+ 5   summary.score  327 non-null    float64
+ 6   rating.band    327 non-null    object 
+ 7   atmosphere     327 non-null    float64
+ 8   cleanliness    327 non-null    float64
+ 9   facilities     327 non-null    float64
+ 10  location.y     327 non-null    float64
+ 11  security       327 non-null    float64
+ 12  staff          327 non-null    float64
+ 13  valueformoney  327 non-null    float64
+ 14  lon            298 non-null    float64
+ 15  lat            298 non-null    float64
+dtypes: float64(10), int64(2), object(4)
+memory usage: 42.9+ KB
+None
+Index(['Unnamed: 0', 'hostel.name', 'City', 'price.from', 'Distance',
+       'summary.score', 'rating.band', 'atmosphere', 'cleanliness',
+       'facilities', 'location.y', 'security', 'staff', 'valueformoney', 'lon',
+       'lat'],
+      dtype='object')
+(342, 16)
+Tokyo           127
+Osaka           104
+Kyoto            78
+Fukuoka-City     19
+Hiroshima        14
+Name: City, dtype: int64 Superb       182
+Fabulous     106
+Very Good     20
+Good          11
+Rating         8
+Name: rating.band, dtype: int64
+Superb       182
+Fabulous     106
+Very Good     20
+Unknown       15
+Good          11
+Rating         8
+Name: rating.band, dtype: int64
+0      3
+1      3
+2      0
+3      5
+4      3
+      ..
+337    0
+338    0
+339    3
+340    0
+341    0
+Name: rating.band, Length: 342, dtype: int64
+Tokyo           127
+Osaka           104
+Kyoto            78
+Fukuoka-City     19
+Hiroshima        14
+Name: City, dtype: int64
+0      3
+1      0
+2      4
+3      4
+4      4
+      ..
+337    4
+338    4
+339    4
+340    2
+341    4
+Name: City, Length: 342, dtype: int64
+3    182
+0    106
+5     20
+4     15
+1     11
+2      8
+Name: rating.band, dtype: int64
+0        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+1        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+2        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+3        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+4        (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+                             ...                        
+337      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+338      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+339      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+340      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+341      (0, 3)\t1.0\n  (1, 3)\t1.0\n  (2, 0)\t1.0\n ...
+Name: rating.band, Length: 342, dtype: object
+4    127
+3    104
+2     78
+0     19
+1     14
+Name: City, dtype: int64
+0        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+1        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+2        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+3        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+4        (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+                             ...                        
+337      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+338      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+339      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+340      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+341      (0, 3)\t1.0\n  (1, 0)\t1.0\n  (2, 4)\t1.0\n ...
+Name: City, Length: 342, dtype: object
+0       2.9km from city centre
+1       0.7km from city centre
+2       7.8km from city centre
+3       8.7km from city centre
+4      10.5km from city centre
+                ...           
+337     2.6km from city centre
+338     2.9km from city centre
+339    17.5km from city centre
+340     2.4km from city centre
+341     5.9km from city centre
+Name: Distance, Length: 342, dtype: object
+0      2.9
+1      2.9
+2      2.9
+3      2.9
+4      2.9
+      ... 
+337    2.9
+338    2.9
+339    2.9
+340    2.9
+341    2.9
+Name: Distance, Length: 342, dtype: object
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 13 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Unnamed: 0     342 non-null    int64  
+ 1   price.from     342 non-null    int64  
+ 2   Distance       342 non-null    object 
+ 3   summary.score  327 non-null    float64
+ 4   atmosphere     327 non-null    float64
+ 5   cleanliness    327 non-null    float64
+ 6   facilities     327 non-null    float64
+ 7   location.y     327 non-null    float64
+ 8   security       327 non-null    float64
+ 9   staff          327 non-null    float64
+ 10  valueformoney  327 non-null    float64
+ 11  lon            298 non-null    float64
+ 12  lat            298 non-null    float64
+dtypes: float64(10), int64(2), object(1)
+memory usage: 34.9+ KB
+None
+Traceback (most recent call last):
+  File "regression-mlr-lasso-ridge-and-elastic.py", line 107, in <module>
+    imputer = scale(X="median",copy=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/preprocessing/_data.py", line 143, in scale
+    force_all_finite='allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 599, in check_array
+    array = np.asarray(array, order=order, dtype=dtype)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/numpy/core/_asarray.py", line 85, in asarray
+    return array(a, dtype, copy=False, order=order)
+ValueError: could not convert string to float: 'median'

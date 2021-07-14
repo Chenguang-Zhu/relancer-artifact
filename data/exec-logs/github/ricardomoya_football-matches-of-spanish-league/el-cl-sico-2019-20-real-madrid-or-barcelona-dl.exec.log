@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "el-cl-sico-2019-20-real-madrid-or-barcelona-dl.py", line 95, in <module>
+    subprocess.run(RANDOM_STATE)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/subprocess.py", line 423, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/subprocess.py", line 729, in __init__
+    restore_signals, start_new_session)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/subprocess.py", line 1240, in _execute_child
+    args = list(args)
+TypeError: 'int' object is not iterable

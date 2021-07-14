@@ -1,0 +1,73 @@
+Traceback (most recent call last):
+  File "analysis-and-prediction-of-student-performance.py", line 26, in <module>
+    from sklearn.cross_validation import train_test_split #deprecated, should find another method
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation'), ('line_no', 26)])Traceback (most recent call last):
+  File "analysis-and-prediction-of-student-performance.py", line 27, in <module>
+    from sklearn.utils.validation import train_test_split #deprecated, should find another method
+ImportError: cannot import name 'train_test_split'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cross_decomposition'), ('line_no', 26)])Traceback (most recent call last):
+  File "analysis-and-prediction-of-student-performance.py", line 27, in <module>
+    from sklearn.cross_decomposition import train_test_split #deprecated, should find another method
+ImportError: cannot import name 'train_test_split'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_memory'), ('line_no', 26)])Traceback (most recent call last):
+  File "analysis-and-prediction-of-student-performance.py", line 27, in <module>
+    from sklearn.utils.validation.check_memory import train_test_split #deprecated, should find another method
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_memory'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.column_or_1d'), ('line_no', 26)])Traceback (most recent call last):
+  File "analysis-and-prediction-of-student-performance.py", line 27, in <module>
+    from sklearn.utils.validation.column_or_1d import train_test_split #deprecated, should find another method
+ModuleNotFoundError: No module named 'sklearn.utils.validation.column_or_1d'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_is_fitted'), ('line_no', 26)])Traceback (most recent call last):
+  File "analysis-and-prediction-of-student-performance.py", line 27, in <module>
+    from sklearn.utils.validation.check_is_fitted import train_test_split #deprecated, should find another method
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_is_fitted'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_symmetric'), ('line_no', 26)])Traceback (most recent call last):
+  File "analysis-and-prediction-of-student-performance.py", line 27, in <module>
+    from sklearn.utils.validation.check_symmetric import train_test_split #deprecated, should find another method
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_symmetric'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cluster.Birch'), ('line_no', 26)])Traceback (most recent call last):
+  File "analysis-and-prediction-of-student-performance.py", line 27, in <module>
+    from sklearn.cluster.Birch import train_test_split #deprecated, should find another method
+ModuleNotFoundError: No module named 'sklearn.cluster.Birch'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cluster.KMeans'), ('line_no', 26)])Traceback (most recent call last):
+  File "analysis-and-prediction-of-student-performance.py", line 27, in <module>
+    from sklearn.cluster.KMeans import train_test_split #deprecated, should find another method
+ModuleNotFoundError: No module named 'sklearn.cluster.KMeans'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.has_fit_parameter'), ('line_no', 26)])Traceback (most recent call last):
+  File "analysis-and-prediction-of-student-performance.py", line 27, in <module>
+    from sklearn.utils.validation.has_fit_parameter import train_test_split #deprecated, should find another method
+ModuleNotFoundError: No module named 'sklearn.utils.validation.has_fit_parameter'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cross_decomposition.CCA'), ('line_no', 26)])Traceback (most recent call last):
+  File "analysis-and-prediction-of-student-performance.py", line 27, in <module>
+    from sklearn.cross_decomposition.CCA import train_test_split #deprecated, should find another method
+ModuleNotFoundError: No module named 'sklearn.cross_decomposition.CCA'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.all_estimators'), ('line_no', 26)])Traceback (most recent call last):
+  File "analysis-and-prediction-of-student-performance.py", line 27, in <module>
+    from sklearn.utils.all_estimators import train_test_split #deprecated, should find another method
+ModuleNotFoundError: No module named 'sklearn.utils.all_estimators'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 26)])xAPI-Edu-Data.csv
+
+A    283
+B    167
+C     30
+Name: SectionID, dtype: int64
+KuwaIT         180
+Jordan         176
+Iraq            22
+lebanon         19
+SaudiArabia     16
+USA             16
+Palestine       10
+Egypt            9
+Tunis            9
+Syria            6
+Lybia            6
+Iran             6
+Morocco          4
+venzuela         1
+Name: PlaceofBirth, dtype: int64
+
+(384, 34)
+(96, 34)
+[REPAIR EXEC TIME]: 22.755579710006714

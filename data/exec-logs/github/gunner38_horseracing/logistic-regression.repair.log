@@ -1,0 +1,53 @@
+tips.csv
+
+# of win 7683
+# of lose 7612
+Traceback (most recent call last):
+  File "logistic-regression.py", line 72, in <module>
+    from sklearn import cross_validation
+ImportError: cannot import name 'cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 72)])tips.csv
+
+# of win 7683
+# of lose 7612
+Accuracy of LogisticRegression() Classifier = 63.680941 %
+0.6368094148414515
+0.7163934882128953
+[[965 519]
+ [592 983]]
+              precision    recall  f1-score   support
+
+           0       0.62      0.65      0.63      1484
+           1       0.65      0.62      0.64      1575
+
+    accuracy                           0.64      3059
+   macro avg       0.64      0.64      0.64      3059
+weighted avg       0.64      0.64      0.64      3059
+
+[REPAIR EXEC TIME]: 4.610106706619263tips.csv
+
+# of win 7683
+# of lose 7612
+Traceback (most recent call last):
+  File "logistic-regression.py", line 72, in <module>
+    from sklearn import cross_validation
+ImportError: cannot import name 'cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 72)])tips.csv
+
+# of win 7683
+# of lose 7612
+Accuracy of LogisticRegression() Classifier = 63.680941 %
+0.6368094148414515
+0.7163934882128953
+[[965 519]
+ [592 983]]
+              precision    recall  f1-score   support
+
+           0       0.62      0.65      0.63      1484
+           1       0.65      0.62      0.64      1575
+
+    accuracy                           0.64      3059
+   macro avg       0.64      0.64      0.64      3059
+weighted avg       0.64      0.64      0.64      3059
+
+[REPAIR EXEC TIME]: 4.698893785476685

@@ -1,0 +1,793 @@
+Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 191, in <module>
+    logistic_regression.fit(X, y)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'dualbool')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'l1')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',penalty="l1")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'l1')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',penalty="l1")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'l2')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',penalty="l2")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'elasticnet')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',penalty="elasticnet")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'none')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',penalty="none")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'dualbool'), ('target_value', 'True')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool=True,penalty="l1")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'dualbool'), ('target_value', 'False')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool=False,penalty="l1")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'fit_intercept'), ('target_value', 'True')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',penalty="l1",fit_intercept=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'dualbool')])  File "fighting-off-overly-optimistic-score.py", line 190
+    logistic_regression = LogisticRegression(dualbool='l1',dualbool="l1",fit_intercept=True)
+                                                          ^
+SyntaxError: keyword argument repeated
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'tol')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',tol="l1",fit_intercept=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'dualbool')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',tol="l1",fit_intercept=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'tol')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',tol="l1",fit_intercept=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'C')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',tol="l1",fit_intercept=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'fit_intercept')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',tol="l1",fit_intercept=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'intercept_scaling')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',tol="l1",fit_intercept=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'class_weight')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',tol="l1",fit_intercept=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'random_state')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',tol="l1",fit_intercept=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'solver')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',tol="l1",fit_intercept=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'max_iter')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',tol="l1",fit_intercept=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'multi_class')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',tol="l1",fit_intercept=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'verbose')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',tol="l1",fit_intercept=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'warm_start')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',tol="l1",fit_intercept=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'n_jobs')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',tol="l1",fit_intercept=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'l1_ratio')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',tol="l1",fit_intercept=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_delete'), ('from_name', 'penalty'), ('to_name', '*')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool='l1',tol="l1",fit_intercept=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'dualbool'), ('to_name', 'penalty')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 191, in <module>
+    logistic_regression.fit(X, y)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'l1')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 191, in <module>
+    logistic_regression.fit(X, y)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'l2')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 191, in <module>
+    logistic_regression.fit(X, y)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1335, in fit
+    "positive; got (tol=%r)" % self.tol)
+ValueError: Tolerance for stopping criteria must be positive; got (tol='l1')
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'l1')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 191, in <module>
+    logistic_regression.fit(X, y)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'l1')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 191, in <module>
+    logistic_regression.fit(X, y)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'l2')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 191, in <module>
+    logistic_regression.fit(X, y)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1335, in fit
+    "positive; got (tol=%r)" % self.tol)
+ValueError: Tolerance for stopping criteria must be positive; got (tol='l1')
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'dualbool')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'l1')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=True,penalty="l1")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'dualbool')])  File "fighting-off-overly-optimistic-score.py", line 190
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=True,dualbool="l1")
+                                                                                      ^
+SyntaxError: keyword argument repeated
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'tol')])  File "fighting-off-overly-optimistic-score.py", line 190
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=True,tol="l1")
+                                                                                      ^
+SyntaxError: keyword argument repeated
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_rename'), ('from_name', 'penalty'), ('to_name', 'C')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=True,C="l1")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'l1')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=True,C="l1",penalty="l1")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'l1')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=True,C="l1",penalty="l1")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'l2')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=True,C="l1",penalty="l2")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'elasticnet')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=True,C="l1",penalty="elasticnet")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'none')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=True,C="l1",penalty="none")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'dualbool'), ('target_value', 'True')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool=True,tol="l1",fit_intercept=True,C="l1",penalty="l1")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'dualbool'), ('target_value', 'False')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool=False,tol="l1",fit_intercept=True,C="l1",penalty="l1")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'fit_intercept'), ('target_value', 'True')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=True,C="l1",penalty="l1")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'fit_intercept'), ('target_value', 'False')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=False,C="l1",penalty="l1")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'newton-cg')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=True,C="l1",penalty="l1",solver="newton-cg")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'l1')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=True,C="l1",penalty="l1",solver="newton-cg")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'l2')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=True,C="l1",penalty="l2",solver="newton-cg")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'elasticnet')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=True,C="l1",penalty="elasticnet",solver="newton-cg")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'none')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=True,C="l1",penalty="none",solver="newton-cg")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'dualbool'), ('target_value', 'True')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool=True,tol="l1",fit_intercept=True,C="l1",penalty="l1",solver="newton-cg")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'dualbool'), ('target_value', 'False')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool=False,tol="l1",fit_intercept=True,C="l1",penalty="l1",solver="newton-cg")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'fit_intercept'), ('target_value', 'True')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=True,C="l1",penalty="l1",solver="newton-cg")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'fit_intercept'), ('target_value', 'False')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=False,C="l1",penalty="l1",solver="newton-cg")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'newton-cg')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=True,C="l1",penalty="l1",solver="newton-cg")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'lbfgs')])Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 190, in <module>
+    logistic_regression = LogisticRegression(dualbool="l2",tol="l1",fit_intercept=True,C="l1",penalty="l1",solver="lbfgs")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'dualbool'
+[REPAIR EXEC TIME]: 338.10085797309875

@@ -1,0 +1,17 @@
+['diamonds.csv']
+Total Missing values in 'carat' are 0.
+Total Missing values in 'cut' are 0.
+Total Missing values in 'color' are 0.
+Total Missing values in 'clarity' are 0.
+Total Missing values in 'depth' are 0.
+Total Missing values in 'table' are 0.
+Total Missing values in 'price' are 0.
+Total Missing values in 'x' are 0.
+Total Missing values in 'y' are 0.
+Total Missing values in 'z' are 0.
+
+
+Traceback (most recent call last):
+  File "step-by-step-regression-backward-elimination.py", line 327, in <module>
+    regressor_SLR_OLS = statsmodels.formula.api.gls(endog = y_train, exog = X_train).fit()
+TypeError: from_formula() missing 2 required positional arguments: 'formula' and 'data'

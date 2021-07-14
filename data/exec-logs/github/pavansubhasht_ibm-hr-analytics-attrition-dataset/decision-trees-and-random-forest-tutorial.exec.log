@@ -1,0 +1,191 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1470 entries, 0 to 1469
+Data columns (total 35 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Age                       1470 non-null   int64 
+ 1   Attrition                 1470 non-null   object
+ 2   BusinessTravel            1470 non-null   object
+ 3   DailyRate                 1470 non-null   int64 
+ 4   Department                1470 non-null   object
+ 5   DistanceFromHome          1470 non-null   int64 
+ 6   Education                 1470 non-null   int64 
+ 7   EducationField            1470 non-null   object
+ 8   EmployeeCount             1470 non-null   int64 
+ 9   EmployeeNumber            1470 non-null   int64 
+ 10  EnvironmentSatisfaction   1470 non-null   int64 
+ 11  Gender                    1470 non-null   object
+ 12  HourlyRate                1470 non-null   int64 
+ 13  JobInvolvement            1470 non-null   int64 
+ 14  JobLevel                  1470 non-null   int64 
+ 15  JobRole                   1470 non-null   object
+ 16  JobSatisfaction           1470 non-null   int64 
+ 17  MaritalStatus             1470 non-null   object
+ 18  MonthlyIncome             1470 non-null   int64 
+ 19  MonthlyRate               1470 non-null   int64 
+ 20  NumCompaniesWorked        1470 non-null   int64 
+ 21  Over18                    1470 non-null   object
+ 22  OverTime                  1470 non-null   object
+ 23  PercentSalaryHike         1470 non-null   int64 
+ 24  PerformanceRating         1470 non-null   int64 
+ 25  RelationshipSatisfaction  1470 non-null   int64 
+ 26  StandardHours             1470 non-null   int64 
+ 27  StockOptionLevel          1470 non-null   int64 
+ 28  TotalWorkingYears         1470 non-null   int64 
+ 29  TrainingTimesLastYear     1470 non-null   int64 
+ 30  WorkLifeBalance           1470 non-null   int64 
+ 31  YearsAtCompany            1470 non-null   int64 
+ 32  YearsInCurrentRole        1470 non-null   int64 
+ 33  YearsSinceLastPromotion   1470 non-null   int64 
+ 34  YearsWithCurrManager      1470 non-null   int64 
+dtypes: int64(26), object(9)
+memory usage: 402.1+ KB
+Attrition : ['Yes' 'No']
+====================================
+BusinessTravel : ['Travel_Rarely' 'Travel_Frequently' 'Non-Travel']
+====================================
+Department : ['Sales' 'Research & Development' 'Human Resources']
+====================================
+EducationField : ['Life Sciences' 'Other' 'Medical' 'Marketing' 'Technical Degree'
+ 'Human Resources']
+====================================
+Gender : ['Female' 'Male']
+====================================
+JobRole : ['Sales Executive' 'Research Scientist' 'Laboratory Technician'
+ 'Manufacturing Director' 'Healthcare Representative' 'Manager'
+ 'Sales Representative' 'Research Director' 'Human Resources']
+====================================
+MaritalStatus : ['Single' 'Married' 'Divorced']
+====================================
+OverTime : ['Yes' 'No']
+====================================
+Train Result:
+===========================================
+accuracy score: 1.0000
+
+Classification Report: 
+ 	Precision: 1.0
+	Recall Score: 1.0
+	F1 score: 1.0
+
+Confusion Matrix: 
+ [[853   0]
+ [  0 176]]
+
+Test Result:
+===========================================
+accuracy score: 0.7777777777777778
+
+Classification Report: 
+ 	Precision: 0.2597402597402597
+	Recall Score: 0.32786885245901637
+	F1 score: 0.28985507246376807
+
+Confusion Matrix: 
+ [[323  57]
+ [ 41  20]]
+
+Train Result:
+===========================================
+accuracy score: 0.8882
+
+Classification Report: 
+ 	Precision: 0.7520661157024794
+	Recall Score: 0.5170454545454546
+	F1 score: 0.6127946127946129
+
+Confusion Matrix: 
+ [[823  30]
+ [ 85  91]]
+
+Test Result:
+===========================================
+accuracy score: 0.854875283446712
+
+Classification Report: 
+ 	Precision: 0.46153846153846156
+	Recall Score: 0.29508196721311475
+	F1 score: 0.36000000000000004
+
+Confusion Matrix: 
+ [[359  21]
+ [ 43  18]]
+
+Train Result:
+===========================================
+accuracy score: 1.0000
+
+Classification Report: 
+ 	Precision: 1.0
+	Recall Score: 1.0
+	F1 score: 1.0
+
+Confusion Matrix: 
+ [[853   0]
+ [  0 176]]
+
+Test Result:
+===========================================
+accuracy score: 0.8639455782312925
+
+Classification Report: 
+ 	Precision: 0.5555555555555556
+	Recall Score: 0.08196721311475409
+	F1 score: 0.14285714285714285
+
+Confusion Matrix: 
+ [[376   4]
+ [ 56   5]]
+
+Train Result:
+===========================================
+accuracy score: 1.0000
+
+Classification Report: 
+ 	Precision: 1.0
+	Recall Score: 1.0
+	F1 score: 1.0
+
+Confusion Matrix: 
+ [[853   0]
+ [  0 176]]
+
+Test Result:
+===========================================
+accuracy score: 0.8594104308390023
+
+Classification Report: 
+ 	Precision: 0.45454545454545453
+	Recall Score: 0.08196721311475409
+	F1 score: 0.13888888888888887
+
+Confusion Matrix: 
+ [[374   6]
+ [ 56   5]]
+
+Train Result:
+===========================================
+accuracy score: 1.0000
+
+Classification Report: 
+ 	Precision: 1.0
+	Recall Score: 1.0
+	F1 score: 1.0
+
+Confusion Matrix: 
+ [[853   0]
+ [  0 176]]
+
+Test Result:
+===========================================
+accuracy score: 0.8616780045351474
+
+Classification Report: 
+ 	Precision: 0.5
+	Recall Score: 0.09836065573770492
+	F1 score: 0.1643835616438356
+
+Confusion Matrix: 
+ [[374   6]
+ [ 55   6]]
+

@@ -1,0 +1,136 @@
+   age     sex     bmi  children smoker     region      charges
+0   19  female  27.900         0    yes  southwest  16884.92400
+1   18    male  33.770         1     no  southeast   1725.55230
+2   28    male  33.000         3     no  southeast   4449.46200
+3   33    male  22.705         0     no  northwest  21984.47061
+4   32    male  28.880         0     no  northwest   3866.85520
+5   31  female  25.740         0     no  southeast   3756.62160
+6   46  female  33.440         1     no  southeast   8240.58960
+   age  sex     bmi  children  smoker     region      charges
+0   19    1  27.900         0       1  southwest  16884.92400
+1   18    0  33.770         1       0  southeast   1725.55230
+2   28    0  33.000         3       0  southeast   4449.46200
+3   33    0  22.705         0       0  northwest  21984.47061
+4   32    0  28.880         0       0  northwest   3866.85520
+Traceback (most recent call last):
+  File "python-exploratoryanalysis-decisiontree.py", line 232, in <module>
+    from sklearn.grid_search import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.grid_search'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 232)])   age     sex     bmi  children smoker     region      charges
+0   19  female  27.900         0    yes  southwest  16884.92400
+1   18    male  33.770         1     no  southeast   1725.55230
+2   28    male  33.000         3     no  southeast   4449.46200
+3   33    male  22.705         0     no  northwest  21984.47061
+4   32    male  28.880         0     no  northwest   3866.85520
+5   31  female  25.740         0     no  southeast   3756.62160
+6   46  female  33.440         1     no  southeast   8240.58960
+   age  sex     bmi  children  smoker     region      charges
+0   19    1  27.900         0       1  southwest  16884.92400
+1   18    0  33.770         1       0  southeast   1725.55230
+2   28    0  33.000         3       0  southeast   4449.46200
+3   33    0  22.705         0       0  northwest  21984.47061
+4   32    0  28.880         0       0  northwest   3866.85520
+0.6913935115196502
+          Gini-importance
+smoker           0.737411
+bmi              0.162171
+age              0.100417
+children         0.000000
+
+          Gini-importance
+smoker           0.682463
+bmi              0.184019
+age              0.120120
+children         0.013397
+
+[REPAIR EXEC TIME]: 14.166882276535034   age     sex     bmi  children smoker     region      charges
+0   19  female  27.900         0    yes  southwest  16884.92400
+1   18    male  33.770         1     no  southeast   1725.55230
+2   28    male  33.000         3     no  southeast   4449.46200
+3   33    male  22.705         0     no  northwest  21984.47061
+4   32    male  28.880         0     no  northwest   3866.85520
+5   31  female  25.740         0     no  southeast   3756.62160
+6   46  female  33.440         1     no  southeast   8240.58960
+   age  sex     bmi  children  smoker     region      charges
+0   19    1  27.900         0       1  southwest  16884.92400
+1   18    0  33.770         1       0  southeast   1725.55230
+2   28    0  33.000         3       0  southeast   4449.46200
+3   33    0  22.705         0       0  northwest  21984.47061
+4   32    0  28.880         0       0  northwest   3866.85520
+Traceback (most recent call last):
+  File "python-exploratoryanalysis-decisiontree.py", line 232, in <module>
+    from sklearn.grid_search import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.grid_search'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 232)])   age     sex     bmi  children smoker     region      charges
+0   19  female  27.900         0    yes  southwest  16884.92400
+1   18    male  33.770         1     no  southeast   1725.55230
+2   28    male  33.000         3     no  southeast   4449.46200
+3   33    male  22.705         0     no  northwest  21984.47061
+4   32    male  28.880         0     no  northwest   3866.85520
+5   31  female  25.740         0     no  southeast   3756.62160
+6   46  female  33.440         1     no  southeast   8240.58960
+   age  sex     bmi  children  smoker     region      charges
+0   19    1  27.900         0       1  southwest  16884.92400
+1   18    0  33.770         1       0  southeast   1725.55230
+2   28    0  33.000         3       0  southeast   4449.46200
+3   33    0  22.705         0       0  northwest  21984.47061
+4   32    0  28.880         0       0  northwest   3866.85520
+0.7756238882349524
+          Gini-importance
+smoker           0.733087
+bmi              0.160869
+age              0.099673
+children         0.006371
+
+          Gini-importance
+smoker           0.683426
+bmi              0.175339
+age              0.122806
+children         0.018428
+
+[REPAIR EXEC TIME]: 14.733524799346924   age     sex     bmi  children smoker     region      charges
+0   19  female  27.900         0    yes  southwest  16884.92400
+1   18    male  33.770         1     no  southeast   1725.55230
+2   28    male  33.000         3     no  southeast   4449.46200
+3   33    male  22.705         0     no  northwest  21984.47061
+4   32    male  28.880         0     no  northwest   3866.85520
+5   31  female  25.740         0     no  southeast   3756.62160
+6   46  female  33.440         1     no  southeast   8240.58960
+   age  sex     bmi  children  smoker     region      charges
+0   19    1  27.900         0       1  southwest  16884.92400
+1   18    0  33.770         1       0  southeast   1725.55230
+2   28    0  33.000         3       0  southeast   4449.46200
+3   33    0  22.705         0       0  northwest  21984.47061
+4   32    0  28.880         0       0  northwest   3866.85520
+Traceback (most recent call last):
+  File "python-exploratoryanalysis-decisiontree.py", line 232, in <module>
+    from sklearn.grid_search import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.grid_search'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 232)])   age     sex     bmi  children smoker     region      charges
+0   19  female  27.900         0    yes  southwest  16884.92400
+1   18    male  33.770         1     no  southeast   1725.55230
+2   28    male  33.000         3     no  southeast   4449.46200
+3   33    male  22.705         0     no  northwest  21984.47061
+4   32    male  28.880         0     no  northwest   3866.85520
+5   31  female  25.740         0     no  southeast   3756.62160
+6   46  female  33.440         1     no  southeast   8240.58960
+   age  sex     bmi  children  smoker     region      charges
+0   19    1  27.900         0       1  southwest  16884.92400
+1   18    0  33.770         1       0  southeast   1725.55230
+2   28    0  33.000         3       0  southeast   4449.46200
+3   33    0  22.705         0       0  northwest  21984.47061
+4   32    0  28.880         0       0  northwest   3866.85520
+0.8145128348523861
+          Gini-importance
+smoker           0.723182
+bmi              0.169300
+age              0.107518
+children         0.000000
+
+          Gini-importance
+smoker           0.672539
+bmi              0.183514
+age              0.122126
+children         0.021821
+
+[REPAIR EXEC TIME]: 14.742554187774658

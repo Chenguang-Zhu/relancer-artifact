@@ -1,0 +1,8 @@
+
+
+
+
+Traceback (most recent call last):
+  File "fifa-2019-regression-model.py", line 356, in <module>
+    regressor_OLS=statsmodels.formula.api.gls(endog=y,exog=x).fit()
+TypeError: from_formula() missing 2 required positional arguments: 'formula' and 'data'

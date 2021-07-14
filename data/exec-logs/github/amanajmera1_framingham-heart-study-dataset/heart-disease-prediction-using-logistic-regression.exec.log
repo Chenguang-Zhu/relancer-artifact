@@ -1,0 +1,77 @@
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:71: FutureWarning: Pass threshold=0.1 as keyword args. From version 0.25 passing these as positional arguments will result in an error
+  FutureWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:71: FutureWarning: Pass threshold=0.2 as keyword args. From version 0.25 passing these as positional arguments will result in an error
+  FutureWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:71: FutureWarning: Pass threshold=0.3 as keyword args. From version 0.25 passing these as positional arguments will result in an error
+  FutureWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:71: FutureWarning: Pass threshold=0.4 as keyword args. From version 0.25 passing these as positional arguments will result in an error
+  FutureWarning)
+
+Total number of rows with missing values is  489
+since it is only 12 percent of the entire dataset the rows with missing values are excluded.
+
+
+Optimization terminated successfully.
+         Current function value: 0.377036
+         Iterations 7
+            CI 95%(2.5%)  CI 95%(97.5%)  Odds Ratio  pvalue
+const           0.000043       0.000272    0.000109   0.000
+Sex_male        1.455242       2.198536    1.788687   0.000
+age             1.054483       1.080969    1.067644   0.000
+cigsPerDay      1.011733       1.028128    1.019897   0.000
+totChol         1.000158       1.004394    1.002273   0.035
+sysBP           1.013292       1.021784    1.017529   0.000
+glucose         1.004346       1.010898    1.007617   0.000
+
+The acuuracy of the model = TP+TN/(TP+TN+FP+FN) =  0.8748335552596538 
+ The Missclassification = 1-Accuracy =  0.12516644474034622 
+ Sensitivity or True Positive Rate = TP/(TP+FN) =  0.05434782608695652 
+ Specificity or True Negative Rate = TN/(TN+FP) =  0.9893778452200304 
+ Positive Predictive value = TP/(TP+FP) =  0.4166666666666667 
+ Negative predictive Value = TN/(TN+FN) =  0.8822733423545331 
+ Positive Likelihood Ratio = Sensitivity/(1-Specificity) =  5.116459627329198 
+ Negative likelihood Ratio = (1-Sensitivity)/Specificity =  0.9558048813016804
+With 0.1 threshold the Confusion Matrix is  
+ [[311 348]
+ [ 12  80]] 
+ with 391 correct predictions and 12 Type II errors( False Negatives) 
+
+ Sensitivity:  0.8695652173913043 Specificity:  0.47192716236722304 
+
+
+
+With 0.2 threshold the Confusion Matrix is  
+ [[518 141]
+ [ 43  49]] 
+ with 567 correct predictions and 43 Type II errors( False Negatives) 
+
+ Sensitivity:  0.532608695652174 Specificity:  0.7860394537177542 
+
+
+
+With 0.3 threshold the Confusion Matrix is  
+ [[600  59]
+ [ 64  28]] 
+ with 628 correct predictions and 64 Type II errors( False Negatives) 
+
+ Sensitivity:  0.30434782608695654 Specificity:  0.9104704097116844 
+
+
+
+With 0.4 threshold the Confusion Matrix is  
+ [[640  19]
+ [ 80  12]] 
+ with 652 correct predictions and 80 Type II errors( False Negatives) 
+
+ Sensitivity:  0.13043478260869565 Specificity:  0.9711684370257967 
+
+
+

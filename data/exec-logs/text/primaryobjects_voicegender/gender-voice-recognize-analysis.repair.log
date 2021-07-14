@@ -1,0 +1,531 @@
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+voice.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3168 entries, 0 to 3167
+Data columns (total 21 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   meanfreq  3168 non-null   float64
+ 1   sd        3168 non-null   float64
+ 2   median    3168 non-null   float64
+ 3   Q25       3168 non-null   float64
+ 4   Q75       3168 non-null   float64
+ 5   IQR       3168 non-null   float64
+ 6   skew      3168 non-null   float64
+ 7   kurt      3168 non-null   float64
+ 8   sp.ent    3168 non-null   float64
+ 9   sfm       3168 non-null   float64
+ 10  mode      3168 non-null   float64
+ 11  centroid  3168 non-null   float64
+ 12  meanfun   3168 non-null   float64
+ 13  minfun    3168 non-null   float64
+ 14  maxfun    3168 non-null   float64
+ 15  meandom   3168 non-null   float64
+ 16  mindom    3168 non-null   float64
+ 17  maxdom    3168 non-null   float64
+ 18  dfrange   3168 non-null   float64
+ 19  modindx   3168 non-null   float64
+ 20  label     3168 non-null   object 
+dtypes: float64(20), object(1)
+memory usage: 519.9+ KB
+
+
+
+Traceback (most recent call last):
+  File "gender-voice-recognize-analysis.py", line 154, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation'), ('line_no', 154)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+voice.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3168 entries, 0 to 3167
+Data columns (total 21 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   meanfreq  3168 non-null   float64
+ 1   sd        3168 non-null   float64
+ 2   median    3168 non-null   float64
+ 3   Q25       3168 non-null   float64
+ 4   Q75       3168 non-null   float64
+ 5   IQR       3168 non-null   float64
+ 6   skew      3168 non-null   float64
+ 7   kurt      3168 non-null   float64
+ 8   sp.ent    3168 non-null   float64
+ 9   sfm       3168 non-null   float64
+ 10  mode      3168 non-null   float64
+ 11  centroid  3168 non-null   float64
+ 12  meanfun   3168 non-null   float64
+ 13  minfun    3168 non-null   float64
+ 14  maxfun    3168 non-null   float64
+ 15  meandom   3168 non-null   float64
+ 16  mindom    3168 non-null   float64
+ 17  maxdom    3168 non-null   float64
+ 18  dfrange   3168 non-null   float64
+ 19  modindx   3168 non-null   float64
+ 20  label     3168 non-null   object 
+dtypes: float64(20), object(1)
+memory usage: 519.9+ KB
+
+
+
+Traceback (most recent call last):
+  File "gender-voice-recognize-analysis.py", line 155, in <module>
+    from sklearn.utils.validation import train_test_split
+ImportError: cannot import name 'train_test_split'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cross_decomposition'), ('line_no', 154)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+voice.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3168 entries, 0 to 3167
+Data columns (total 21 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   meanfreq  3168 non-null   float64
+ 1   sd        3168 non-null   float64
+ 2   median    3168 non-null   float64
+ 3   Q25       3168 non-null   float64
+ 4   Q75       3168 non-null   float64
+ 5   IQR       3168 non-null   float64
+ 6   skew      3168 non-null   float64
+ 7   kurt      3168 non-null   float64
+ 8   sp.ent    3168 non-null   float64
+ 9   sfm       3168 non-null   float64
+ 10  mode      3168 non-null   float64
+ 11  centroid  3168 non-null   float64
+ 12  meanfun   3168 non-null   float64
+ 13  minfun    3168 non-null   float64
+ 14  maxfun    3168 non-null   float64
+ 15  meandom   3168 non-null   float64
+ 16  mindom    3168 non-null   float64
+ 17  maxdom    3168 non-null   float64
+ 18  dfrange   3168 non-null   float64
+ 19  modindx   3168 non-null   float64
+ 20  label     3168 non-null   object 
+dtypes: float64(20), object(1)
+memory usage: 519.9+ KB
+
+
+
+Traceback (most recent call last):
+  File "gender-voice-recognize-analysis.py", line 155, in <module>
+    from sklearn.cross_decomposition import train_test_split
+ImportError: cannot import name 'train_test_split'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_memory'), ('line_no', 154)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+voice.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3168 entries, 0 to 3167
+Data columns (total 21 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   meanfreq  3168 non-null   float64
+ 1   sd        3168 non-null   float64
+ 2   median    3168 non-null   float64
+ 3   Q25       3168 non-null   float64
+ 4   Q75       3168 non-null   float64
+ 5   IQR       3168 non-null   float64
+ 6   skew      3168 non-null   float64
+ 7   kurt      3168 non-null   float64
+ 8   sp.ent    3168 non-null   float64
+ 9   sfm       3168 non-null   float64
+ 10  mode      3168 non-null   float64
+ 11  centroid  3168 non-null   float64
+ 12  meanfun   3168 non-null   float64
+ 13  minfun    3168 non-null   float64
+ 14  maxfun    3168 non-null   float64
+ 15  meandom   3168 non-null   float64
+ 16  mindom    3168 non-null   float64
+ 17  maxdom    3168 non-null   float64
+ 18  dfrange   3168 non-null   float64
+ 19  modindx   3168 non-null   float64
+ 20  label     3168 non-null   object 
+dtypes: float64(20), object(1)
+memory usage: 519.9+ KB
+
+
+
+Traceback (most recent call last):
+  File "gender-voice-recognize-analysis.py", line 155, in <module>
+    from sklearn.utils.validation.check_memory import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_memory'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.column_or_1d'), ('line_no', 154)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+voice.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3168 entries, 0 to 3167
+Data columns (total 21 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   meanfreq  3168 non-null   float64
+ 1   sd        3168 non-null   float64
+ 2   median    3168 non-null   float64
+ 3   Q25       3168 non-null   float64
+ 4   Q75       3168 non-null   float64
+ 5   IQR       3168 non-null   float64
+ 6   skew      3168 non-null   float64
+ 7   kurt      3168 non-null   float64
+ 8   sp.ent    3168 non-null   float64
+ 9   sfm       3168 non-null   float64
+ 10  mode      3168 non-null   float64
+ 11  centroid  3168 non-null   float64
+ 12  meanfun   3168 non-null   float64
+ 13  minfun    3168 non-null   float64
+ 14  maxfun    3168 non-null   float64
+ 15  meandom   3168 non-null   float64
+ 16  mindom    3168 non-null   float64
+ 17  maxdom    3168 non-null   float64
+ 18  dfrange   3168 non-null   float64
+ 19  modindx   3168 non-null   float64
+ 20  label     3168 non-null   object 
+dtypes: float64(20), object(1)
+memory usage: 519.9+ KB
+
+
+
+Traceback (most recent call last):
+  File "gender-voice-recognize-analysis.py", line 155, in <module>
+    from sklearn.utils.validation.column_or_1d import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.column_or_1d'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_is_fitted'), ('line_no', 154)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+voice.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3168 entries, 0 to 3167
+Data columns (total 21 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   meanfreq  3168 non-null   float64
+ 1   sd        3168 non-null   float64
+ 2   median    3168 non-null   float64
+ 3   Q25       3168 non-null   float64
+ 4   Q75       3168 non-null   float64
+ 5   IQR       3168 non-null   float64
+ 6   skew      3168 non-null   float64
+ 7   kurt      3168 non-null   float64
+ 8   sp.ent    3168 non-null   float64
+ 9   sfm       3168 non-null   float64
+ 10  mode      3168 non-null   float64
+ 11  centroid  3168 non-null   float64
+ 12  meanfun   3168 non-null   float64
+ 13  minfun    3168 non-null   float64
+ 14  maxfun    3168 non-null   float64
+ 15  meandom   3168 non-null   float64
+ 16  mindom    3168 non-null   float64
+ 17  maxdom    3168 non-null   float64
+ 18  dfrange   3168 non-null   float64
+ 19  modindx   3168 non-null   float64
+ 20  label     3168 non-null   object 
+dtypes: float64(20), object(1)
+memory usage: 519.9+ KB
+
+
+
+Traceback (most recent call last):
+  File "gender-voice-recognize-analysis.py", line 155, in <module>
+    from sklearn.utils.validation.check_is_fitted import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_is_fitted'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_symmetric'), ('line_no', 154)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+voice.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3168 entries, 0 to 3167
+Data columns (total 21 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   meanfreq  3168 non-null   float64
+ 1   sd        3168 non-null   float64
+ 2   median    3168 non-null   float64
+ 3   Q25       3168 non-null   float64
+ 4   Q75       3168 non-null   float64
+ 5   IQR       3168 non-null   float64
+ 6   skew      3168 non-null   float64
+ 7   kurt      3168 non-null   float64
+ 8   sp.ent    3168 non-null   float64
+ 9   sfm       3168 non-null   float64
+ 10  mode      3168 non-null   float64
+ 11  centroid  3168 non-null   float64
+ 12  meanfun   3168 non-null   float64
+ 13  minfun    3168 non-null   float64
+ 14  maxfun    3168 non-null   float64
+ 15  meandom   3168 non-null   float64
+ 16  mindom    3168 non-null   float64
+ 17  maxdom    3168 non-null   float64
+ 18  dfrange   3168 non-null   float64
+ 19  modindx   3168 non-null   float64
+ 20  label     3168 non-null   object 
+dtypes: float64(20), object(1)
+memory usage: 519.9+ KB
+
+
+
+Traceback (most recent call last):
+  File "gender-voice-recognize-analysis.py", line 155, in <module>
+    from sklearn.utils.validation.check_symmetric import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_symmetric'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cluster.Birch'), ('line_no', 154)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+voice.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3168 entries, 0 to 3167
+Data columns (total 21 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   meanfreq  3168 non-null   float64
+ 1   sd        3168 non-null   float64
+ 2   median    3168 non-null   float64
+ 3   Q25       3168 non-null   float64
+ 4   Q75       3168 non-null   float64
+ 5   IQR       3168 non-null   float64
+ 6   skew      3168 non-null   float64
+ 7   kurt      3168 non-null   float64
+ 8   sp.ent    3168 non-null   float64
+ 9   sfm       3168 non-null   float64
+ 10  mode      3168 non-null   float64
+ 11  centroid  3168 non-null   float64
+ 12  meanfun   3168 non-null   float64
+ 13  minfun    3168 non-null   float64
+ 14  maxfun    3168 non-null   float64
+ 15  meandom   3168 non-null   float64
+ 16  mindom    3168 non-null   float64
+ 17  maxdom    3168 non-null   float64
+ 18  dfrange   3168 non-null   float64
+ 19  modindx   3168 non-null   float64
+ 20  label     3168 non-null   object 
+dtypes: float64(20), object(1)
+memory usage: 519.9+ KB
+
+
+
+Traceback (most recent call last):
+  File "gender-voice-recognize-analysis.py", line 155, in <module>
+    from sklearn.cluster.Birch import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cluster.Birch'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cluster.KMeans'), ('line_no', 154)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+voice.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3168 entries, 0 to 3167
+Data columns (total 21 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   meanfreq  3168 non-null   float64
+ 1   sd        3168 non-null   float64
+ 2   median    3168 non-null   float64
+ 3   Q25       3168 non-null   float64
+ 4   Q75       3168 non-null   float64
+ 5   IQR       3168 non-null   float64
+ 6   skew      3168 non-null   float64
+ 7   kurt      3168 non-null   float64
+ 8   sp.ent    3168 non-null   float64
+ 9   sfm       3168 non-null   float64
+ 10  mode      3168 non-null   float64
+ 11  centroid  3168 non-null   float64
+ 12  meanfun   3168 non-null   float64
+ 13  minfun    3168 non-null   float64
+ 14  maxfun    3168 non-null   float64
+ 15  meandom   3168 non-null   float64
+ 16  mindom    3168 non-null   float64
+ 17  maxdom    3168 non-null   float64
+ 18  dfrange   3168 non-null   float64
+ 19  modindx   3168 non-null   float64
+ 20  label     3168 non-null   object 
+dtypes: float64(20), object(1)
+memory usage: 519.9+ KB
+
+
+
+Traceback (most recent call last):
+  File "gender-voice-recognize-analysis.py", line 155, in <module>
+    from sklearn.cluster.KMeans import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cluster.KMeans'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.has_fit_parameter'), ('line_no', 154)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+voice.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3168 entries, 0 to 3167
+Data columns (total 21 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   meanfreq  3168 non-null   float64
+ 1   sd        3168 non-null   float64
+ 2   median    3168 non-null   float64
+ 3   Q25       3168 non-null   float64
+ 4   Q75       3168 non-null   float64
+ 5   IQR       3168 non-null   float64
+ 6   skew      3168 non-null   float64
+ 7   kurt      3168 non-null   float64
+ 8   sp.ent    3168 non-null   float64
+ 9   sfm       3168 non-null   float64
+ 10  mode      3168 non-null   float64
+ 11  centroid  3168 non-null   float64
+ 12  meanfun   3168 non-null   float64
+ 13  minfun    3168 non-null   float64
+ 14  maxfun    3168 non-null   float64
+ 15  meandom   3168 non-null   float64
+ 16  mindom    3168 non-null   float64
+ 17  maxdom    3168 non-null   float64
+ 18  dfrange   3168 non-null   float64
+ 19  modindx   3168 non-null   float64
+ 20  label     3168 non-null   object 
+dtypes: float64(20), object(1)
+memory usage: 519.9+ KB
+
+
+
+Traceback (most recent call last):
+  File "gender-voice-recognize-analysis.py", line 155, in <module>
+    from sklearn.utils.validation.has_fit_parameter import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.has_fit_parameter'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cross_decomposition.CCA'), ('line_no', 154)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+voice.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3168 entries, 0 to 3167
+Data columns (total 21 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   meanfreq  3168 non-null   float64
+ 1   sd        3168 non-null   float64
+ 2   median    3168 non-null   float64
+ 3   Q25       3168 non-null   float64
+ 4   Q75       3168 non-null   float64
+ 5   IQR       3168 non-null   float64
+ 6   skew      3168 non-null   float64
+ 7   kurt      3168 non-null   float64
+ 8   sp.ent    3168 non-null   float64
+ 9   sfm       3168 non-null   float64
+ 10  mode      3168 non-null   float64
+ 11  centroid  3168 non-null   float64
+ 12  meanfun   3168 non-null   float64
+ 13  minfun    3168 non-null   float64
+ 14  maxfun    3168 non-null   float64
+ 15  meandom   3168 non-null   float64
+ 16  mindom    3168 non-null   float64
+ 17  maxdom    3168 non-null   float64
+ 18  dfrange   3168 non-null   float64
+ 19  modindx   3168 non-null   float64
+ 20  label     3168 non-null   object 
+dtypes: float64(20), object(1)
+memory usage: 519.9+ KB
+
+
+
+Traceback (most recent call last):
+  File "gender-voice-recognize-analysis.py", line 155, in <module>
+    from sklearn.cross_decomposition.CCA import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_decomposition.CCA'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.all_estimators'), ('line_no', 154)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+voice.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3168 entries, 0 to 3167
+Data columns (total 21 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   meanfreq  3168 non-null   float64
+ 1   sd        3168 non-null   float64
+ 2   median    3168 non-null   float64
+ 3   Q25       3168 non-null   float64
+ 4   Q75       3168 non-null   float64
+ 5   IQR       3168 non-null   float64
+ 6   skew      3168 non-null   float64
+ 7   kurt      3168 non-null   float64
+ 8   sp.ent    3168 non-null   float64
+ 9   sfm       3168 non-null   float64
+ 10  mode      3168 non-null   float64
+ 11  centroid  3168 non-null   float64
+ 12  meanfun   3168 non-null   float64
+ 13  minfun    3168 non-null   float64
+ 14  maxfun    3168 non-null   float64
+ 15  meandom   3168 non-null   float64
+ 16  mindom    3168 non-null   float64
+ 17  maxdom    3168 non-null   float64
+ 18  dfrange   3168 non-null   float64
+ 19  modindx   3168 non-null   float64
+ 20  label     3168 non-null   object 
+dtypes: float64(20), object(1)
+memory usage: 519.9+ KB
+
+
+
+Traceback (most recent call last):
+  File "gender-voice-recognize-analysis.py", line 155, in <module>
+    from sklearn.utils.all_estimators import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.all_estimators'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 154)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:243: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+voice.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3168 entries, 0 to 3167
+Data columns (total 21 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   meanfreq  3168 non-null   float64
+ 1   sd        3168 non-null   float64
+ 2   median    3168 non-null   float64
+ 3   Q25       3168 non-null   float64
+ 4   Q75       3168 non-null   float64
+ 5   IQR       3168 non-null   float64
+ 6   skew      3168 non-null   float64
+ 7   kurt      3168 non-null   float64
+ 8   sp.ent    3168 non-null   float64
+ 9   sfm       3168 non-null   float64
+ 10  mode      3168 non-null   float64
+ 11  centroid  3168 non-null   float64
+ 12  meanfun   3168 non-null   float64
+ 13  minfun    3168 non-null   float64
+ 14  maxfun    3168 non-null   float64
+ 15  meandom   3168 non-null   float64
+ 16  mindom    3168 non-null   float64
+ 17  maxdom    3168 non-null   float64
+ 18  dfrange   3168 non-null   float64
+ 19  modindx   3168 non-null   float64
+ 20  label     3168 non-null   object 
+dtypes: float64(20), object(1)
+memory usage: 519.9+ KB
+
+
+
+0.9789695057833859
+[REPAIR EXEC TIME]: 28.808523416519165

@@ -1,0 +1,120 @@
+['diamonds.csv']
+Total Missing values in 'carat' are 0.
+Total Missing values in 'cut' are 0.
+Total Missing values in 'color' are 0.
+Total Missing values in 'clarity' are 0.
+Total Missing values in 'depth' are 0.
+Total Missing values in 'table' are 0.
+Total Missing values in 'price' are 0.
+Total Missing values in 'x' are 0.
+Total Missing values in 'y' are 0.
+Total Missing values in 'z' are 0.
+
+
+Traceback (most recent call last):
+  File "step-by-step-regression-backward-elimination.py", line 326, in <module>
+    regressor_SLR_OLS = smf.OLS(endog = y_train, exog = X_train).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_value_update'), ('arg_name', 'endog'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])['diamonds.csv']
+Total Missing values in 'carat' are 0.
+Total Missing values in 'cut' are 0.
+Total Missing values in 'color' are 0.
+Total Missing values in 'clarity' are 0.
+Total Missing values in 'depth' are 0.
+Total Missing values in 'table' are 0.
+Total Missing values in 'price' are 0.
+Total Missing values in 'x' are 0.
+Total Missing values in 'y' are 0.
+Total Missing values in 'z' are 0.
+
+
+Traceback (most recent call last):
+  File "step-by-step-regression-backward-elimination.py", line 326, in <module>
+    regressor_SLR_OLS = smf.OLS(endog = y_train, exog = X_train).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_value_update'), ('arg_name', 'exog'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])['diamonds.csv']
+Total Missing values in 'carat' are 0.
+Total Missing values in 'cut' are 0.
+Total Missing values in 'color' are 0.
+Total Missing values in 'clarity' are 0.
+Total Missing values in 'depth' are 0.
+Total Missing values in 'table' are 0.
+Total Missing values in 'price' are 0.
+Total Missing values in 'x' are 0.
+Total Missing values in 'y' are 0.
+Total Missing values in 'z' are 0.
+
+
+Traceback (most recent call last):
+  File "step-by-step-regression-backward-elimination.py", line 326, in <module>
+    regressor_SLR_OLS = smf.OLS(endog = y_train, exog = X_train).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_value_update'), ('arg_name', 'endog&exog'), ('target_value', "<class 'libcst._nodes.expression.Name'>&<class 'libcst._nodes.expression.Name'>")])['diamonds.csv']
+Total Missing values in 'carat' are 0.
+Total Missing values in 'cut' are 0.
+Total Missing values in 'color' are 0.
+Total Missing values in 'clarity' are 0.
+Total Missing values in 'depth' are 0.
+Total Missing values in 'table' are 0.
+Total Missing values in 'price' are 0.
+Total Missing values in 'x' are 0.
+Total Missing values in 'y' are 0.
+Total Missing values in 'z' are 0.
+
+
+Traceback (most recent call last):
+  File "step-by-step-regression-backward-elimination.py", line 326, in <module>
+    regressor_SLR_OLS = smf.OLS(endog = y_train, exog = X_train).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'statsmodels.formula.api.OLS'), ('new_fqn', 'statsmodels.formula.api.gls'), ('line_no', 326)])['diamonds.csv']
+Total Missing values in 'carat' are 0.
+Total Missing values in 'cut' are 0.
+Total Missing values in 'color' are 0.
+Total Missing values in 'clarity' are 0.
+Total Missing values in 'depth' are 0.
+Total Missing values in 'table' are 0.
+Total Missing values in 'price' are 0.
+Total Missing values in 'x' are 0.
+Total Missing values in 'y' are 0.
+Total Missing values in 'z' are 0.
+
+
+Traceback (most recent call last):
+  File "step-by-step-regression-backward-elimination.py", line 327, in <module>
+    regressor_SLR_OLS = statsmodels.formula.api.gls(endog = y_train, exog = X_train).fit()
+TypeError: from_formula() missing 2 required positional arguments: 'formula' and 'data'
+['diamonds.csv']
+Total Missing values in 'carat' are 0.
+Total Missing values in 'cut' are 0.
+Total Missing values in 'color' are 0.
+Total Missing values in 'clarity' are 0.
+Total Missing values in 'depth' are 0.
+Total Missing values in 'table' are 0.
+Total Missing values in 'price' are 0.
+Total Missing values in 'x' are 0.
+Total Missing values in 'y' are 0.
+Total Missing values in 'z' are 0.
+
+
+Traceback (most recent call last):
+  File "step-by-step-regression-backward-elimination.py", line 326, in <module>
+    regressor_SLR_OLS = smf.OLS(endog = y_train, exog = X_train).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'statsmodels.formula.api.OLS'), ('new_fqn', 'statsmodels.formula.api.gls'), ('line_no', 326)])['diamonds.csv']
+Total Missing values in 'carat' are 0.
+Total Missing values in 'cut' are 0.
+Total Missing values in 'color' are 0.
+Total Missing values in 'clarity' are 0.
+Total Missing values in 'depth' are 0.
+Total Missing values in 'table' are 0.
+Total Missing values in 'price' are 0.
+Total Missing values in 'x' are 0.
+Total Missing values in 'y' are 0.
+Total Missing values in 'z' are 0.
+
+
+Traceback (most recent call last):
+  File "step-by-step-regression-backward-elimination.py", line 327, in <module>
+    regressor_SLR_OLS = statsmodels.formula.api.gls(endog = y_train, exog = X_train).fit()
+TypeError: from_formula() missing 2 required positional arguments: 'formula' and 'data'
+[REPAIR EXEC TIME]: 8.299749612808228

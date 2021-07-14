@@ -1,0 +1,66 @@
+['housing.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20640 entries, 0 to 20639
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   longitude           20640 non-null  float64
+ 1   latitude            20640 non-null  float64
+ 2   housing_median_age  20640 non-null  float64
+ 3   total_rooms         20640 non-null  float64
+ 4   total_bedrooms      20433 non-null  float64
+ 5   population          20640 non-null  float64
+ 6   households          20640 non-null  float64
+ 7   median_income       20640 non-null  float64
+ 8   median_house_value  20640 non-null  float64
+ 9   ocean_proximity     20640 non-null  object 
+dtypes: float64(9), object(1)
+memory usage: 1.6+ MB
+
+Scores: [69004.14055137 65287.80831311 71482.87539697 68807.40426763
+ 70399.09653637 75044.84345816 69782.43554796 71732.581759
+ 75975.60517849 69058.77894259]
+Mean: 70657.55699516476
+Standard Deviation: 2962.204082662465
+Scores: [66782.73843989 66960.118071   70347.95244419 74739.57052552
+ 68031.13388938 71193.84183426 64969.63056405 68281.61137997
+ 71552.91566558 67665.10082067]
+Mean: 69052.46136345083
+Standard Deviation: 2731.674001798349
+Scores: [49465.27556921 47906.31097198 49853.11978771 52432.11479959
+ 49719.18231746 53418.54906915 48851.45108729 47860.38857616
+ 52967.75588794 50074.08168908]
+Mean: 50254.822975556664
+Standard Deviation: 1908.726636670735
+64266.14490528433 {'max_features': 2, 'n_estimators': 3}
+55885.47246194205 {'max_features': 2, 'n_estimators': 10}
+52696.35495990166 {'max_features': 2, 'n_estimators': 30}
+60291.59619514344 {'max_features': 4, 'n_estimators': 3}
+52240.03620256074 {'max_features': 4, 'n_estimators': 10}
+50413.4901712063 {'max_features': 4, 'n_estimators': 30}
+60029.09402474767 {'max_features': 6, 'n_estimators': 3}
+52463.90226597934 {'max_features': 6, 'n_estimators': 10}
+49933.001713414335 {'max_features': 6, 'n_estimators': 30}
+59660.35008341518 {'max_features': 8, 'n_estimators': 3}
+51898.31593868474 {'max_features': 8, 'n_estimators': 10}
+50267.77539363662 {'max_features': 8, 'n_estimators': 30}
+61539.940895539934 {'bootstrap': False, 'max_features': 2, 'n_estimators': 3}
+54536.49081293197 {'bootstrap': False, 'max_features': 2, 'n_estimators': 10}
+59778.844495744 {'bootstrap': False, 'max_features': 3, 'n_estimators': 3}
+52916.21849301498 {'bootstrap': False, 'max_features': 3, 'n_estimators': 10}
+58174.25222191405 {'bootstrap': False, 'max_features': 4, 'n_estimators': 3}
+51775.42797822458 {'bootstrap': False, 'max_features': 4, 'n_estimators': 10}
+49150.70756927707 {'max_features': 7, 'n_estimators': 180}
+51389.889203389284 {'max_features': 5, 'n_estimators': 15}
+50796.155224308866 {'max_features': 3, 'n_estimators': 72}
+50835.13360315349 {'max_features': 5, 'n_estimators': 21}
+49280.9449827171 {'max_features': 7, 'n_estimators': 122}
+50774.90662363929 {'max_features': 3, 'n_estimators': 75}
+50682.78888164288 {'max_features': 3, 'n_estimators': 88}
+49608.99608105296 {'max_features': 5, 'n_estimators': 100}
+50473.61930350219 {'max_features': 3, 'n_estimators': 150}
+64429.84143294435 {'max_features': 5, 'n_estimators': 2}
+Traceback (most recent call last):
+  File "end-to-end-ml-project.py", line 708, in <module>
+    sklearn.experimental.dump(my_model, "my_model.pkl") # DIFF
+AttributeError: module 'sklearn' has no attribute 'experimental'

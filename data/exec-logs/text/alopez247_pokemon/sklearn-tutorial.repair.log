@@ -1,0 +1,101 @@
+Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.preprocessing.scale'), ('line_no', 221)])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 224, in <module>
+    pipeline_PrMale = make_pipeline( PandasSelector(['Pr_Male']), scale(), ) 
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: scale() missing 1 required positional argument: 'X'
+Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.preprocessing.scale'), ('line_no', 221)])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 224, in <module>
+    pipeline_PrMale = make_pipeline( PandasSelector(['Pr_Male']), scale(), ) 
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: scale() missing 1 required positional argument: 'X'
+[REPAIR EXEC TIME]: 6.443173408508301Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.preprocessing.scale'), ('line_no', 221)])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 224, in <module>
+    pipeline_PrMale = make_pipeline( PandasSelector(['Pr_Male']), scale(), ) 
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: scale() missing 1 required positional argument: 'X'
+[REPAIR EXEC TIME]: 6.974059343338013Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.preprocessing.scale'), ('line_no', 221)])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 224, in <module>
+    pipeline_PrMale = make_pipeline( PandasSelector(['Pr_Male']), scale(), ) 
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: scale() missing 1 required positional argument: 'X'
+[REPAIR EXEC TIME]: 6.309051513671875Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.preprocessing.scale'), ('line_no', 221)])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 224, in <module>
+    pipeline_PrMale = make_pipeline( PandasSelector(['Pr_Male']), scale(), ) 
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: scale() missing 1 required positional argument: 'X'
+[REPAIR EXEC TIME]: 3.3455255031585693Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.preprocessing.scale'), ('line_no', 221)])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 224, in <module>
+    pipeline_PrMale = make_pipeline( PandasSelector(['Pr_Male']), scale(), ) 
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: scale() missing 1 required positional argument: 'X'
+[REPAIR EXEC TIME]: 6.313450813293457Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.preprocessing.scale'), ('line_no', 221)])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 224, in <module>
+    pipeline_PrMale = make_pipeline( PandasSelector(['Pr_Male']), scale(), ) 
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: scale() missing 1 required positional argument: 'X'
+[REPAIR EXEC TIME]: 5.634668827056885Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.preprocessing.scale'), ('line_no', 221)])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 224, in <module>
+    pipeline_PrMale = make_pipeline( PandasSelector(['Pr_Male']), scale(), ) 
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: scale() missing 1 required positional argument: 'X'
+[REPAIR EXEC TIME]: 6.178078889846802Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.preprocessing.scale'), ('line_no', 221)])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 224, in <module>
+    pipeline_PrMale = make_pipeline( PandasSelector(['Pr_Male']), scale(), ) 
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: scale() missing 1 required positional argument: 'X'
+[REPAIR EXEC TIME]: 3.598978281021118Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.preprocessing.scale'), ('line_no', 221)])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 224, in <module>
+    pipeline_PrMale = make_pipeline( PandasSelector(['Pr_Male']), scale(), ) 
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: scale() missing 1 required positional argument: 'X'
+[REPAIR EXEC TIME]: 6.345389366149902

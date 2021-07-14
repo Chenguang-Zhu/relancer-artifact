@@ -1,0 +1,117 @@
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/xgboost/sklearn.py:892: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+(3333, 21)
+Index(['state', 'account length', 'area code', 'phone number',
+       'international plan', 'voice mail plan', 'number vmail messages',
+       'total day minutes', 'total day calls', 'total day charge',
+       'total eve minutes', 'total eve calls', 'total eve charge',
+       'total night minutes', 'total night calls', 'total night charge',
+       'total intl minutes', 'total intl calls', 'total intl charge',
+       'customer service calls', 'churn'],
+      dtype='object')
+WV    106
+MN     84
+NY     83
+AL     80
+WI     78
+OR     78
+OH     78
+WY     77
+VA     77
+CT     74
+VT     73
+ID     73
+MI     73
+UT     72
+TX     72
+IN     71
+KS     70
+MD     70
+NC     68
+NJ     68
+MT     68
+WA     66
+CO     66
+NV     66
+MS     65
+RI     65
+MA     65
+AZ     64
+MO     63
+FL     63
+ND     62
+NM     62
+ME     62
+OK     61
+DE     61
+NE     61
+SC     60
+SD     60
+KY     59
+IL     58
+NH     56
+AR     55
+GA     54
+DC     54
+TN     53
+HI     53
+AK     52
+LA     51
+PA     45
+IA     44
+CA     34
+Name: state, dtype: int64
+no     3010
+yes     323
+Name: international plan, dtype: int64
+no     2411
+yes     922
+Name: voice mail plan, dtype: int64
+
+Train accuracy:  1.0
+Test accuracy:  0.952
+Train data accuracy: 1.0
+Test data accuracy: 0.903
+Train accuracy: 0.8598371195885126
+Test accuracy: 0.85
+accuracy_score 0.85
+auc 0.5295330541809414
+[01:59:53] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+accuracy_score 0.954
+auc 0.8669267859408705
+accuracy_score 0.63
+auc 0.5958317472401979
+accuracy_score 0.879
+auc 0.6693788859281816
+accuracy_score 0.87
+auc 0.6054751935033625
+accuracy_score 0.959
+auc 0.8754441060779089
+accuracy_score 0.928
+auc 0.7651313285116101
+accuracy_score 0.922
+auc 0.8341898236264433

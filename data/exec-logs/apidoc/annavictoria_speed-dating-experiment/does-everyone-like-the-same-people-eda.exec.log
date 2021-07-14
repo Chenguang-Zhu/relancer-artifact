@@ -1,0 +1,5 @@
+interactive(children=(IntSlider(value=9, continuous_update=False, description='Wave Num.', max=21, min=1), Output()), _dom_classes=('widget-interact',))
+Traceback (most recent call last):
+  File "does-everyone-like-the-same-people-eda.py", line 614, in <module>
+    tensorflow.fingerprint.set_verbosity(tensorflow.fingerprint.ERROR)
+AttributeError: 'function' object has no attribute 'set_verbosity'

@@ -1,0 +1,21 @@
+
+housing.csv
+
+Statistics for Boston housing dataset:
+
+Minimum price: $454,342.94
+Maximum price: $1,024,800.00
+Mean price: $454,342.94
+Median price $438,900.00
+Standard deviation of prices: $165,171.13
+Model has a coefficient of determination, R^2, of 0.923.
+
+
+Training and testing split was successful.
+
+Traceback (most recent call last):
+  File "predicting-boston-house-prices.py", line 397, in <module>
+    ModelLearning(features, prices)
+  File "predicting-boston-house-prices.py", line 306, in ModelLearning
+    sizes, train_scores, test_scores = sklearn.metrics.roc_curve.learning_curve(regressor, X, y,             cv = cv, train_sizes = train_sizes, scoring = 'r2')
+AttributeError: 'function' object has no attribute 'learning_curve'

@@ -1,0 +1,12 @@
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/categorical.py:3666: UserWarning: The `factorplot` function has been renamed to `catplot`. The original name will be removed in a future release. Please update your code. Note that the default `kind` in `factorplot` (`'point'`) has changed `'strip'` in `catplot`.
+  warnings.warn(msg)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/categorical.py:3672: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+
+LogisticRegression train data score:0.948
+LogisticRegression test data score:0.950
+Average precision score Random Forest Classifier: 1.000
+Traceback (most recent call last):
+  File "explore-avocados-from-all-sides.py", line 191, in <module>
+    trn_train, trn_test, trg_train, trg_test = validation.train_test_split(x, y, test_size=0.25) 
+AttributeError: module 'sklearn.utils.validation' has no attribute 'train_test_split'

@@ -1,0 +1,625 @@
+
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 120, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 120)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 141, in <module>
+    from sklearn.grid_search import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.grid_search'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits'), ('to_name', 'shuffle')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits'), ('to_name', 'random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_delete'), ('from_name', 'n_splits'), ('to_name', '*')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'shuffle'), ('to_name', 'n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'shuffle'), ('to_name', 'random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_delete'), ('from_name', 'shuffle'), ('to_name', '*')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state'), ('to_name', 'n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state'), ('to_name', 'shuffle')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_delete'), ('from_name', 'random_state'), ('to_name', '*')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state&shuffle'), ('to_name', 'n_splits&random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state&shuffle'), ('to_name', 'shuffle&n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state&shuffle'), ('to_name', 'shuffle&random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&random_state'), ('to_name', 'random_state&n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&random_state'), ('to_name', 'random_state&shuffle')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&random_state'), ('to_name', 'shuffle&n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&shuffle'), ('to_name', 'random_state&n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&shuffle'), ('to_name', 'shuffle&n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&shuffle'), ('to_name', 'shuffle&random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&random_state&shuffle'), ('to_name', 'random_state&shuffle&n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&random_state&shuffle'), ('to_name', 'shuffle&n_splits&random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_value_update'), ('arg_name', 'shuffle'), ('target_value', 'True')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5,shuffle=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_value_update'), ('arg_name', 'shuffle'), ('target_value', 'False')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5,shuffle=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_value_update'), ('arg_name', 'random_state&shuffle'), ('target_value', 'True&False')])  File "data-exploration-simple-rf-model.py", line 147
+    cross_validation = StratifiedKFold(y_train, n_folds=5,random_state&shuffle="True&False")
+                                                         ^
+SyntaxError: keyword can't be an expression
+
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 120, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 120)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 141, in <module>
+    from sklearn.grid_search import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.grid_search'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_value_update'), ('arg_name', 'shuffle'), ('target_value', 'True')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5,shuffle=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_value_update'), ('arg_name', 'shuffle'), ('target_value', 'False')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5,shuffle=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_value_update'), ('arg_name', 'random_state&shuffle'), ('target_value', 'True&False')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5,random_state=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_value_update'), ('arg_name', 'n_splits&shuffle'), ('target_value', 'True&False')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5,n_splits=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits'), ('to_name', 'shuffle')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits'), ('to_name', 'random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_delete'), ('from_name', 'n_splits'), ('to_name', '*')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'shuffle'), ('to_name', 'n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'shuffle'), ('to_name', 'random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_delete'), ('from_name', 'shuffle'), ('to_name', '*')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state'), ('to_name', 'n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state'), ('to_name', 'shuffle')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_delete'), ('from_name', 'random_state'), ('to_name', '*')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state&shuffle'), ('to_name', 'n_splits&random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state&shuffle'), ('to_name', 'shuffle&random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state&shuffle'), ('to_name', 'shuffle&n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&shuffle'), ('to_name', 'random_state&n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&shuffle'), ('to_name', 'shuffle&random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&shuffle'), ('to_name', 'shuffle&n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state&n_splits'), ('to_name', 'n_splits&random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state&n_splits'), ('to_name', 'n_splits&shuffle')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state&n_splits'), ('to_name', 'shuffle&random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state&n_splits&shuffle'), ('to_name', 'n_splits&shuffle&random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state&n_splits&shuffle'), ('to_name', 'shuffle&random_state&n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[REPAIR EXEC TIME]: 67.13357090950012
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 120, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 120)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 141, in <module>
+    from sklearn.grid_search import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.grid_search'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits'), ('to_name', 'shuffle')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits'), ('to_name', 'random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_delete'), ('from_name', 'n_splits'), ('to_name', '*')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'shuffle'), ('to_name', 'n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'shuffle'), ('to_name', 'random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_delete'), ('from_name', 'shuffle'), ('to_name', '*')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state'), ('to_name', 'n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state'), ('to_name', 'shuffle')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_delete'), ('from_name', 'random_state'), ('to_name', '*')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&random_state'), ('to_name', 'random_state&n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&random_state'), ('to_name', 'random_state&shuffle')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&random_state'), ('to_name', 'shuffle&n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state&shuffle'), ('to_name', 'n_splits&random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state&shuffle'), ('to_name', 'shuffle&n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state&shuffle'), ('to_name', 'shuffle&random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&shuffle'), ('to_name', 'random_state&n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&shuffle'), ('to_name', 'shuffle&n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&shuffle'), ('to_name', 'shuffle&random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&random_state&shuffle'), ('to_name', 'random_state&shuffle&n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&random_state&shuffle'), ('to_name', 'shuffle&n_splits&random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_value_update'), ('arg_name', 'shuffle'), ('target_value', 'True')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5,shuffle=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_value_update'), ('arg_name', 'shuffle'), ('target_value', 'False')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5,shuffle=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_value_update'), ('arg_name', 'random_state&shuffle'), ('target_value', 'True&False')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5,random_state=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_value_update'), ('arg_name', 'n_splits&shuffle'), ('target_value', 'True&False')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5,n_splits=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[REPAIR EXEC TIME]: 66.69956946372986

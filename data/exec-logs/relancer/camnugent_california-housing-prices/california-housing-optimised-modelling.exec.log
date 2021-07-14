@@ -1,0 +1,119 @@
+the number of rows and colums are(20640, 10)
+
+the columns are - 
+
+longitude.	
+latitude.	
+housing_median_age.	
+total_rooms.	
+total_bedrooms.	
+population.	
+households.	
+median_income.	
+median_house_value.	
+ocean_proximity.	
+
+
+longitude             0
+latitude              0
+housing_median_age    0
+total_rooms           0
+total_bedrooms        0
+population            0
+households            0
+median_income         0
+median_house_value    0
+ocean_proximity       0
+dtype: int64
+longitude             float64
+latitude              float64
+housing_median_age    float64
+total_rooms           float64
+total_bedrooms        float64
+population            float64
+households            float64
+median_income         float64
+median_house_value    float64
+ocean_proximity        object
+dtype: object
+
+
+
+
+
+
+
+
+
+
+
+Linear regression with most co related features
+The cross validated accuracy  - 41.3506511798424
+The corss validated variance is - 1.9235500099556022
+root mean squared error for test data   is 76318.44298565741
+
+
+Linear regression with all features
+The cross validated accuracy  - 63.27590434078364
+The corss validated variance is - 1.8152421769594214
+root mean squared error for test data   is 58680.28133084016
+
+The cross validated accuracy  - 41.35096135301548
+The corss validated variance is - 1.8965677094607387
+root mean squared error for test data   is 76253.76750278792
+
+The cross validated accuracy  - -6.930911544661657e+19
+The corss validated variance is - 2.072394250703351e+20
+root mean squared error for test data   is 15388392632680.383
+
+The cross validated accuracy  - 63.28180454731174
+The corss validated variance is - 1.8048910525748443
+root mean squared error for test data   is 58685.20604947836
+
+The cross validated accuracy  - 15.148033620292273
+The corss validated variance is - 0.5460544261385066
+root mean squared error for test data   is 91407.11085990786
+
+The cross validated accuracy  - 63.36267143046281
+The corss validated variance is - 1.5945979590003305
+root mean squared error for test data   is 58797.98570139772
+
+The cross validated accuracy  - 54.46611295991319
+The corss validated variance is - 3.306044048580084
+mean squared errror is	-/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:2264: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+california-housing-optimised-modelling.py:505: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure(figsize=(15,8))
+california-housing-optimised-modelling.py:633: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure(figsize=(12,7))
+california-housing-optimised-modelling.py:505: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure(figsize=(15,8))
+california-housing-optimised-modelling.py:649: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure(figsize=(12,7))
+california-housing-optimised-modelling.py:505: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure(figsize=(15,8))
+california-housing-optimised-modelling.py:665: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure(figsize=(12,7))
+california-housing-optimised-modelling.py:505: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure(figsize=(15,8))
+california-housing-optimised-modelling.py:679: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure(figsize=(12,7))
+california-housing-optimised-modelling.py:740: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure(figsize=(12,8))
+california-housing-optimised-modelling.py:776: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure(figsize=(12,7))
+california-housing-optimised-modelling.py:816: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure(figsize=(12,7))
+california-housing-optimised-modelling.py:837: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure(figsize=(12,8))
+california-housing-optimised-modelling.py:851: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure(figsize=(12,7))
+california-housing-optimised-modelling.py:876: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure(figsize=(12,8))
+root mean squared error
+46582.22351450629
+0.7798286060777198
+
+rmse value is 45006.89487632194
+r squared value is 0.7944684183913988
+

@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "housepricingknn.py", line 11, in <module>
+    from sklearn.cross_validation import train_test_split as tts
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 11)])(12967, 16)
+(12967,)
+(8646, 16)
+(8646,)
+0.0024288688410825814
+[REPAIR EXEC TIME]: 3.7072834968566895Traceback (most recent call last):
+  File "housepricingknn.py", line 11, in <module>
+    from sklearn.cross_validation import train_test_split as tts
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 11)])(12967, 16)
+(12967,)
+(8646, 16)
+(8646,)
+0.0024288688410825814
+[REPAIR EXEC TIME]: 3.745091199874878

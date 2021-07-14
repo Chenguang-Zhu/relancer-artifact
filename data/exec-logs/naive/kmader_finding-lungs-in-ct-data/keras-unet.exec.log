@@ -1,0 +1,667 @@
+../../../input/kmader_finding-lungs-in-ct-data/.gitignore~
+../../../input/kmader_finding-lungs-in-ct-data/lung_stats.csv
+../../../input/kmader_finding-lungs-in-ct-data/.gitignore
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0101_Z_0196.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0104_Z_0101.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0021_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0140_Z_0230.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0211_Z_0140.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0072_Z_0119.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0000_Z_0142.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0202_Z_0098.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0069_Z_0054.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0085_Z_0237.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0246_Z_0228.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0170_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0029_Z_0059.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0261_Z_0238.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0204_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0022_Z_0131.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0093_Z_0123.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0009_Z_0114.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0142_Z_0145.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0200_Z_0125.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0189_Z_0132.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0018_Z_0069.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0266_Z_0202.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0073_Z_0076.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0128_Z_0130.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0224_Z_0210.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0079_Z_0072.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0134_Z_0137.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0229_Z_0060.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0015_Z_0136.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0163_Z_0138.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0066_Z_0141.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0181_Z_0122.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0241_Z_0124.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0048_Z_0294.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0232_Z_0063.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0245_Z_0318.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0260_Z_0148.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0051_Z_0130.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0217_Z_0078.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0007_Z_0211.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0108_Z_0259.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0158_Z_0164.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0213_Z_0088.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0041_Z_0336.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0074_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0083_Z_0256.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0167_Z_0128.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0133_Z_0070.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0047_Z_0272.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0064_Z_0069.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0225_Z_0069.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0251_Z_0125.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0223_Z_0214.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0100_Z_0062.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0173_Z_0110.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0197_Z_0123.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0255_Z_0061.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0119_Z_0063.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0097_Z_0098.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0174_Z_0054.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0058_Z_0150.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0120_Z_0123.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0262_Z_0064.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0089_Z_0341.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0084_Z_0218.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0017_Z_0061.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0126_Z_0139.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0057_Z_0070.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0026_Z_0140.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0230_Z_0242.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0014_Z_0116.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0235_Z_0058.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0154_Z_0070.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0248_Z_0062.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0263_Z_0093.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0243_Z_0056.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0090_Z_0119.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0129_Z_0104.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0123_Z_0073.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0071_Z_0072.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0236_Z_0122.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0113_Z_0090.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0258_Z_0072.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0019_Z_0088.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0060_Z_0147.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0215_Z_0238.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0264_Z_0080.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0201_Z_0241.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0208_Z_0063.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0025_Z_0112.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0040_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0157_Z_0070.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0153_Z_0065.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0136_Z_0122.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0219_Z_0222.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0121_Z_0245.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0168_Z_0130.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0162_Z_0091.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0130_Z_0140.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0172_Z_0098.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0055_Z_0122.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0124_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0233_Z_0064.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0102_Z_0238.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0092_Z_0258.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0156_Z_0099.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0135_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0061_Z_0064.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0028_Z_0125.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0115_Z_0060.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0008_Z_0065.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0132_Z_0069.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0106_Z_0130.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0012_Z_0167.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0078_Z_0058.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0103_Z_0069.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0145_Z_0059.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0070_Z_0120.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0067_Z_0238.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0218_Z_0231.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0250_Z_0070.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0194_Z_0120.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0004_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0190_Z_0070.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0138_Z_0063.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0239_Z_0365.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0077_Z_0173.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0147_Z_0051.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0231_Z_0140.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0240_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0169_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0109_Z_0134.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0118_Z_0206.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0027_Z_0125.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0112_Z_0085.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0254_Z_0075.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0081_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0127_Z_0064.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0003_Z_0132.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0195_Z_0062.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0214_Z_0120.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0053_Z_0127.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0220_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0076_Z_0230.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0096_Z_0216.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0247_Z_0070.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0117_Z_0235.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0253_Z_0238.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0095_Z_0097.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0038_Z_0148.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0207_Z_0160.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0257_Z_0071.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0252_Z_0064.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0013_Z_0047.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0191_Z_0140.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0099_Z_0069.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0011_Z_0156.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0226_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0016_Z_0208.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0054_Z_0135.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0160_Z_0140.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0259_Z_0073.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0046_Z_0110.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0137_Z_0155.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0052_Z_0108.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0184_Z_0089.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0039_Z_0112.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0050_Z_0085.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0125_Z_0119.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0210_Z_0140.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0111_Z_0078.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0244_Z_0184.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0148_Z_0254.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0209_Z_0267.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0187_Z_0145.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0062_Z_0125.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0144_Z_0224.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0086_Z_0253.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0242_Z_0123.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0193_Z_0060.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0065_Z_0126.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0005_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0001_Z_0146.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0249_Z_0070.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0164_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0216_Z_0057.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0063_Z_0067.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0212_Z_0064.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0178_Z_0127.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0256_Z_0062.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0185_Z_0131.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0227_Z_0181.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0032_Z_0055.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0082_Z_0278.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0020_Z_0070.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0002_Z_0162.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0042_Z_0366.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0059_Z_0150.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0122_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0024_Z_0086.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0110_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0199_Z_0119.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0068_Z_0055.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0203_Z_0079.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0186_Z_0102.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0094_Z_0214.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0031_Z_0232.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0114_Z_0078.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0010_Z_0259.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0043_Z_0097.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0188_Z_0137.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0196_Z_0259.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0033_Z_0278.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0098_Z_0068.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0183_Z_0242.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0165_Z_0145.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0222_Z_0122.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0149_Z_0269.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0139_Z_0056.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0143_Z_0124.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0234_Z_0096.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0151_Z_0140.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0049_Z_0105.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0155_Z_0130.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0175_Z_0165.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0198_Z_0120.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0006_Z_0206.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0228_Z_0097.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0080_Z_0213.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0037_Z_0150.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0146_Z_0122.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0205_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0237_Z_0061.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0030_Z_0302.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0023_Z_0241.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0034_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0179_Z_0130.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0116_Z_0116.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0166_Z_0072.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0221_Z_0081.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0176_Z_0162.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0182_Z_0060.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0045_Z_0131.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0105_Z_0240.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0238_Z_0253.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0035_Z_0224.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0088_Z_0100.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0056_Z_0163.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0141_Z_0128.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0044_Z_0116.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0075_Z_0061.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0161_Z_0075.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0107_Z_0062.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0087_Z_0237.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0206_Z_0062.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0171_Z_0184.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0150_Z_0090.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0180_Z_0086.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0177_Z_0163.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0036_Z_0060.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0265_Z_0063.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0159_Z_0104.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0192_Z_0064.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0152_Z_0133.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0131_Z_0097.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0091_Z_0063.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0101_Z_0196.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0104_Z_0101.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0021_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0140_Z_0230.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0211_Z_0140.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0072_Z_0119.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0000_Z_0142.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0202_Z_0098.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0069_Z_0054.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0085_Z_0237.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0246_Z_0228.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0170_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0029_Z_0059.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0261_Z_0238.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0204_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0022_Z_0131.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0093_Z_0123.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0009_Z_0114.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0142_Z_0145.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0200_Z_0125.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0189_Z_0132.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0018_Z_0069.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0266_Z_0202.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0073_Z_0076.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0128_Z_0130.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0224_Z_0210.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0079_Z_0072.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0134_Z_0137.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0229_Z_0060.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0015_Z_0136.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0163_Z_0138.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0066_Z_0141.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0181_Z_0122.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0241_Z_0124.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0048_Z_0294.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0232_Z_0063.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0245_Z_0318.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0260_Z_0148.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0051_Z_0130.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0217_Z_0078.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0007_Z_0211.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0108_Z_0259.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0158_Z_0164.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0213_Z_0088.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0041_Z_0336.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0074_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0083_Z_0256.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0167_Z_0128.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0133_Z_0070.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0047_Z_0272.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0064_Z_0069.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0225_Z_0069.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0251_Z_0125.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0223_Z_0214.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0100_Z_0062.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0173_Z_0110.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0197_Z_0123.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0255_Z_0061.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0119_Z_0063.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0097_Z_0098.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0174_Z_0054.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0058_Z_0150.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0120_Z_0123.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0262_Z_0064.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0089_Z_0341.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0084_Z_0218.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0017_Z_0061.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0126_Z_0139.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0057_Z_0070.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0026_Z_0140.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0230_Z_0242.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0014_Z_0116.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0235_Z_0058.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0154_Z_0070.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0248_Z_0062.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0263_Z_0093.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0243_Z_0056.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0090_Z_0119.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0129_Z_0104.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0123_Z_0073.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0071_Z_0072.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0236_Z_0122.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0113_Z_0090.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0258_Z_0072.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0019_Z_0088.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0060_Z_0147.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0215_Z_0238.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0264_Z_0080.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0201_Z_0241.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0208_Z_0063.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0025_Z_0112.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0040_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0157_Z_0070.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0153_Z_0065.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0136_Z_0122.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0219_Z_0222.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0121_Z_0245.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0168_Z_0130.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0162_Z_0091.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0130_Z_0140.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0172_Z_0098.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0055_Z_0122.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0124_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0233_Z_0064.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0102_Z_0238.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0092_Z_0258.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0156_Z_0099.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0135_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0061_Z_0064.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0028_Z_0125.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0115_Z_0060.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0008_Z_0065.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0132_Z_0069.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0106_Z_0130.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0012_Z_0167.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0078_Z_0058.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0103_Z_0069.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0145_Z_0059.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0070_Z_0120.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0067_Z_0238.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0218_Z_0231.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0250_Z_0070.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0194_Z_0120.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0004_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0190_Z_0070.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0138_Z_0063.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0239_Z_0365.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0077_Z_0173.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0147_Z_0051.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0231_Z_0140.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0240_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0169_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0109_Z_0134.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0118_Z_0206.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0027_Z_0125.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0112_Z_0085.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0254_Z_0075.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0081_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0127_Z_0064.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0003_Z_0132.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0195_Z_0062.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0214_Z_0120.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0053_Z_0127.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0220_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0076_Z_0230.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0096_Z_0216.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0247_Z_0070.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0117_Z_0235.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0253_Z_0238.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0095_Z_0097.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0038_Z_0148.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0207_Z_0160.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0257_Z_0071.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0252_Z_0064.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0013_Z_0047.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0191_Z_0140.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0099_Z_0069.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0011_Z_0156.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0226_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0016_Z_0208.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0054_Z_0135.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0160_Z_0140.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0259_Z_0073.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0046_Z_0110.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0137_Z_0155.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0052_Z_0108.tif2021-07-07 09:25:48.445192: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-07-07 09:25:48.469592: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-07-07 09:25:48.470243: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55d6ec20e340 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-07 09:25:48.470281: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-07-07 09:25:48.470386: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0184_Z_0089.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0039_Z_0112.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0050_Z_0085.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0125_Z_0119.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0210_Z_0140.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0111_Z_0078.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0244_Z_0184.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0148_Z_0254.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0209_Z_0267.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0187_Z_0145.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0062_Z_0125.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0144_Z_0224.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0086_Z_0253.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0242_Z_0123.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0193_Z_0060.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0065_Z_0126.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0005_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0001_Z_0146.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0249_Z_0070.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0164_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0216_Z_0057.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0063_Z_0067.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0212_Z_0064.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0178_Z_0127.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0256_Z_0062.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0185_Z_0131.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0227_Z_0181.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0032_Z_0055.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0082_Z_0278.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0020_Z_0070.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0002_Z_0162.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0042_Z_0366.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0059_Z_0150.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0122_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0024_Z_0086.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0110_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0199_Z_0119.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0068_Z_0055.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0203_Z_0079.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0186_Z_0102.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0094_Z_0214.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0031_Z_0232.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0114_Z_0078.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0010_Z_0259.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0043_Z_0097.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0188_Z_0137.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0196_Z_0259.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0033_Z_0278.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0098_Z_0068.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0183_Z_0242.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0165_Z_0145.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0222_Z_0122.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0149_Z_0269.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0139_Z_0056.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0143_Z_0124.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0234_Z_0096.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0151_Z_0140.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0049_Z_0105.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0155_Z_0130.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0175_Z_0165.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0198_Z_0120.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0006_Z_0206.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0228_Z_0097.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0080_Z_0213.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0037_Z_0150.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0146_Z_0122.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0205_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0237_Z_0061.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0030_Z_0302.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0023_Z_0241.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0034_Z_0066.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0179_Z_0130.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0116_Z_0116.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0166_Z_0072.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0221_Z_0081.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0176_Z_0162.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0182_Z_0060.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0045_Z_0131.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0105_Z_0240.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0238_Z_0253.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0035_Z_0224.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0088_Z_0100.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0056_Z_0163.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0141_Z_0128.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0044_Z_0116.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0075_Z_0061.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0161_Z_0075.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0107_Z_0062.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0087_Z_0237.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0206_Z_0062.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0171_Z_0184.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0150_Z_0090.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0180_Z_0086.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0177_Z_0163.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0036_Z_0060.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0265_Z_0063.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0159_Z_0104.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0192_Z_0064.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0152_Z_0133.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0131_Z_0097.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0091_Z_0063.tif
+No. of images: 267
+../../../input/kmader_finding-lungs-in-ct-data/2d_images/ID_0101_Z_0196.tif
+../../../input/kmader_finding-lungs-in-ct-data/2d_masks/ID_0101_Z_0196.tif
+(1, 256, 256)
+X_train - len/shape: 240 (240, 256, 256, 1)
+Y_train is (240, 256, 256, 1), min is 0.0, max is 1.0, mean is 0.2317001978556315
+X_test  - len/shape: 27 (27, 256, 256, 1)
+(267, 256, 256, 1)
+Model: "model"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+img (InputLayer)                [(None, 256, 256, 1) 0                                            
+__________________________________________________________________________________________________
+batch_normalization (BatchNorma (None, 256, 256, 1)  4           img[0][0]                        
+__________________________________________________________________________________________________
+conv2d (Conv2D)                 (None, 256, 256, 32) 320         batch_normalization[0][0]        
+__________________________________________________________________________________________________
+conv2d_1 (Conv2D)               (None, 256, 256, 32) 9248        conv2d[0][0]                     
+__________________________________________________________________________________________________
+max_pooling2d (MaxPooling2D)    (None, 128, 128, 32) 0           conv2d_1[0][0]                   
+__________________________________________________________________________________________________
+dropout (Dropout)               (None, 128, 128, 32) 0           max_pooling2d[0][0]              
+__________________________________________________________________________________________________
+conv2d_2 (Conv2D)               (None, 128, 128, 64) 18496       dropout[0][0]                    
+__________________________________________________________________________________________________
+conv2d_3 (Conv2D)               (None, 128, 128, 64) 36928       conv2d_2[0][0]                   
+__________________________________________________________________________________________________
+max_pooling2d_1 (MaxPooling2D)  (None, 64, 64, 64)   0           conv2d_3[0][0]                   
+__________________________________________________________________________________________________
+dropout_1 (Dropout)             (None, 64, 64, 64)   0           max_pooling2d_1[0][0]            
+__________________________________________________________________________________________________
+conv2d_4 (Conv2D)               (None, 64, 64, 128)  73856       dropout_1[0][0]                  
+__________________________________________________________________________________________________
+conv2d_5 (Conv2D)               (None, 64, 64, 128)  147584      conv2d_4[0][0]                   
+__________________________________________________________________________________________________
+max_pooling2d_2 (MaxPooling2D)  (None, 32, 32, 128)  0           conv2d_5[0][0]                   
+__________________________________________________________________________________________________
+dropout_2 (Dropout)             (None, 32, 32, 128)  0           max_pooling2d_2[0][0]            
+__________________________________________________________________________________________________
+conv2d_6 (Conv2D)               (None, 32, 32, 256)  295168      dropout_2[0][0]                  
+__________________________________________________________________________________________________
+conv2d_7 (Conv2D)               (None, 32, 32, 256)  590080      conv2d_6[0][0]                   
+__________________________________________________________________________________________________
+max_pooling2d_3 (MaxPooling2D)  (None, 16, 16, 256)  0           conv2d_7[0][0]                   
+__________________________________________________________________________________________________
+dropout_3 (Dropout)             (None, 16, 16, 256)  0           max_pooling2d_3[0][0]            
+__________________________________________________________________________________________________
+conv2d_8 (Conv2D)               (None, 16, 16, 512)  1180160     dropout_3[0][0]                  
+__________________________________________________________________________________________________
+conv2d_9 (Conv2D)               (None, 16, 16, 512)  2359808     conv2d_8[0][0]                   
+__________________________________________________________________________________________________
+conv2d_transpose (Conv2DTranspo (None, 32, 32, 256)  524544      conv2d_9[0][0]                   
+__________________________________________________________________________________________________
+concatenate (Concatenate)       (None, 32, 32, 512)  0           conv2d_transpose[0][0]           
+                                                                 conv2d_7[0][0]                   
+__________________________________________________________________________________________________
+dropout_4 (Dropout)             (None, 32, 32, 512)  0           concatenate[0][0]                
+__________________________________________________________________________________________________
+conv2d_10 (Conv2D)              (None, 32, 32, 256)  1179904     dropout_4[0][0]                  
+__________________________________________________________________________________________________
+conv2d_11 (Conv2D)              (None, 32, 32, 256)  590080      conv2d_10[0][0]                  
+__________________________________________________________________________________________________
+conv2d_transpose_1 (Conv2DTrans (None, 64, 64, 128)  131200      conv2d_11[0][0]                  
+__________________________________________________________________________________________________
+concatenate_1 (Concatenate)     (None, 64, 64, 256)  0           conv2d_transpose_1[0][0]         
+                                                                 conv2d_5[0][0]                   
+__________________________________________________________________________________________________
+dropout_5 (Dropout)             (None, 64, 64, 256)  0           concatenate_1[0][0]              
+__________________________________________________________________________________________________
+conv2d_12 (Conv2D)              (None, 64, 64, 128)  295040      dropout_5[0][0]                  
+__________________________________________________________________________________________________
+conv2d_13 (Conv2D)              (None, 64, 64, 128)  147584      conv2d_12[0][0]                  
+__________________________________________________________________________________________________
+conv2d_transpose_2 (Conv2DTrans (None, 128, 128, 64) 32832       conv2d_13[0][0]                  
+__________________________________________________________________________________________________
+concatenate_2 (Concatenate)     (None, 128, 128, 128 0           conv2d_transpose_2[0][0]         
+                                                                 conv2d_3[0][0]                   
+__________________________________________________________________________________________________
+dropout_6 (Dropout)             (None, 128, 128, 128 0           concatenate_2[0][0]              
+__________________________________________________________________________________________________
+conv2d_14 (Conv2D)              (None, 128, 128, 64) 73792       dropout_6[0][0]                  
+__________________________________________________________________________________________________
+conv2d_15 (Conv2D)              (None, 128, 128, 64) 36928       conv2d_14[0][0]                  
+__________________________________________________________________________________________________
+conv2d_transpose_3 (Conv2DTrans (None, 256, 256, 32) 8224        conv2d_15[0][0]                  
+__________________________________________________________________________________________________
+concatenate_3 (Concatenate)     (None, 256, 256, 64) 0           conv2d_transpose_3[0][0]         
+                                                                 conv2d_1[0][0]                   
+__________________________________________________________________________________________________
+dropout_7 (Dropout)             (None, 256, 256, 64) 0           concatenate_3[0][0]              
+__________________________________________________________________________________________________
+conv2d_16 (Conv2D)              (None, 256, 256, 32) 18464       dropout_7[0][0]                  
+__________________________________________________________________________________________________
+conv2d_17 (Conv2D)              (None, 256, 256, 32) 9248        conv2d_16[0][0]                  
+__________________________________________________________________________________________________
+conv2d_18 (Conv2D)              (None, 256, 256, 1)  33          conv2d_17[0][0]                  
+==================================================================================================
+Total params: 7,759,525
+Trainable params: 7,759,523
+Non-trainable params: 2
+__________________________________________________________________________________________________
+None
+Epoch 1/24
+ 1/24 [>.............................] - ETA: 0s - loss: 0.7728 - accuracy: 0.3893 2/24 [=>............................] - ETA: 1:09 - loss: 1.1114 - accuracy: 0.5854 3/24 [==>...........................] - ETA: 1:31 - loss: 0.9024 - accuracy: 0.6379 4/24 [====>.........................] - ETA: 1:38 - loss: 0.8276 - accuracy: 0.6306 5/24 [=====>........................] - ETA: 1:39 - loss: 0.7814 - accuracy: 0.6267 6/24 [======>.......................] - ETA: 1:38 - loss: 0.7488 - accuracy: 0.6291 7/24 [=======>......................] - ETA: 1:35 - loss: 0.7254 - accuracy: 0.6306 8/24 [=========>....................] - ETA: 1:31 - loss: 0.7014 - accuracy: 0.6378 9/24 [==========>...................] - ETA: 1:27 - loss: 0.6650 - accuracy: 0.643210/24 [===========>..................] - ETA: 1:22 - loss: 0.6510 - accuracy: 0.646711/24 [============>.................] - ETA: 1:17 - loss: 0.6383 - accuracy: 0.650312/24 [==============>...............] - ETA: 1:11 - loss: 0.6164 - accuracy: 0.652213/24 [===============>..............] - ETA: 1:05 - loss: 0.6087 - accuracy: 0.653514/24 [================>.............] - ETA: 1:00 - loss: 0.6007 - accuracy: 0.655115/24 [=================>............] - ETA: 54s - loss: 0.5944 - accuracy: 0.6552 16/24 [===================>..........] - ETA: 48s - loss: 0.5885 - accuracy: 0.655917/24 [====================>.........] - ETA: 42s - loss: 0.5824 - accuracy: 0.656618/24 [=====================>........] - ETA: 36s - loss: 0.5822 - accuracy: 0.662419/24 [======================>.......] - ETA: 30s - loss: 0.5772 - accuracy: 0.662320/24 [========================>.....] - ETA: 24s - loss: 0.5645 - accuracy: 0.663221/24 [=========================>....] - ETA: 18s - loss: 0.5585 - accuracy: 0.664322/24 [==========================>...] - ETA: 12s - loss: 0.5580 - accuracy: 0.669023/24 [===========================>..] - ETA: 6s - loss: 0.5613 - accuracy: 0.6704 24/24 [==============================] - ETA: 0s - loss: 0.5529 - accuracy: 0.6740
+Epoch 00001: val_loss improved from inf to 0.60285, saving model to model-lung.h5
+24/24 [==============================] - 154s 6s/step - loss: 0.5529 - accuracy: 0.6740 - val_loss: 0.6028 - val_accuracy: 0.7325 - lr: 0.0010
+Epoch 2/24
+ 1/24 [>.............................] - ETA: 0s - loss: 0.2917 - accuracy: 0.7995 2/24 [=>............................] - ETA: 1:09 - loss: 0.3670 - accuracy: 0.7415 3/24 [==>...........................] - ETA: 1:29 - loss: 0.3559 - accuracy: 0.7529 4/24 [====>.........................] - ETA: 1:35 - loss: 0.3389 - accuracy: 0.7338 5/24 [=====>........................] - ETA: 1:37 - loss: 0.3303 - accuracy: 0.7198 6/24 [======>.......................] - ETA: 1:35 - loss: 0.3531 - accuracy: 0.7303 7/24 [=======>......................] - ETA: 1:32 - loss: 0.3489 - accuracy: 0.7244 8/24 [=========>....................] - ETA: 1:30 - loss: 0.3355 - accuracy: 0.7191 9/24 [==========>...................] - ETA: 1:26 - loss: 0.3274 - accuracy: 0.724210/24 [===========>..................] - ETA: 1:22 - loss: 0.3335 - accuracy: 0.721411/24 [============>.................] - ETA: 1:16 - loss: 0.3271 - accuracy: 0.718312/24 [==============>...............] - ETA: 1:11 - loss: 0.3182 - accuracy: 0.725713/24 [===============>..............] - ETA: 1:06 - loss: 0.3106 - accuracy: 0.728214/24 [================>.............] - ETA: 1:00 - loss: 0.3036 - accuracy: 0.739415/24 [=================>............] - ETA: 54s - loss: 0.2980 - accuracy: 0.7427 16/24 [===================>..........] - ETA: 48s - loss: 0.2917 - accuracy: 0.747017/24 [====================>.........] - ETA: 42s - loss: 0.2989 - accuracy: 0.743918/24 [=====================>........] - ETA: 37s - loss: 0.2932 - accuracy: 0.755019/24 [======================>.......] - ETA: 30s - loss: 0.2879 - accuracy: 0.758820/24 [========================>.....] - ETA: 24s - loss: 0.2890 - accuracy: 0.761021/24 [=========================>....] - ETA: 18s - loss: 0.2902 - accuracy: 0.760022/24 [==========================>...] - ETA: 12s - loss: 0.2883 - accuracy: 0.761723/24 [===========================>..] - ETA: 6s - loss: 0.2941 - accuracy: 0.7613 24/24 [==============================] - ETA: 0s - loss: 0.2989 - accuracy: 0.7652
+Epoch 00002: val_loss improved from 0.60285 to 0.56274, saving model to model-lung.h5
+24/24 [==============================] - 155s 6s/step - loss: 0.2989 - accuracy: 0.7652 - val_loss: 0.5627 - val_accuracy: 0.7326 - lr: 0.0010
+Epoch 3/24
+ 1/24 [>.............................] - ETA: 0s - loss: 0.2576 - accuracy: 0.7845 2/24 [=>............................] - ETA: 1:08 - loss: 0.2497 - accuracy: 0.8283 3/24 [==>...........................] - ETA: 1:28 - loss: 0.2374 - accuracy: 0.8484 4/24 [====>.........................] - ETA: 1:35 - loss: 0.2285 - accuracy: 0.8681 5/24 [=====>........................] - ETA: 1:36 - loss: 0.2073 - accuracy: 0.8758 6/24 [======>.......................] - ETA: 1:36 - loss: 0.2267 - accuracy: 0.8793 7/24 [=======>......................] - ETA: 1:33 - loss: 0.2155 - accuracy: 0.8737 8/24 [=========>....................] - ETA: 1:30 - loss: 0.2289 - accuracy: 0.8754 9/24 [==========>...................] - ETA: 1:26 - loss: 0.2343 - accuracy: 0.864110/24 [===========>..................] - ETA: 1:21 - loss: 0.2266 - accuracy: 0.861911/24 [============>.................] - ETA: 1:16 - loss: 0.2251 - accuracy: 0.867712/24 [==============>...............] - ETA: 1:11 - loss: 0.2444 - accuracy: 0.850613/24 [===============>..............] - ETA: 1:05 - loss: 0.2500 - accuracy: 0.851114/24 [================>.............] - ETA: 1:00 - loss: 0.2478 - accuracy: 0.846115/24 [=================>............] - ETA: 54s - loss: 0.2464 - accuracy: 0.8361 16/24 [===================>..........] - ETA: 48s - loss: 0.2643 - accuracy: 0.826217/24 [====================>.........] - ETA: 42s - loss: 0.2722 - accuracy: 0.817618/24 [=====================>........] - ETA: 36s - loss: 0.2744 - accuracy: 0.815719/24 [======================>.......] - ETA: 30s - loss: 0.2725 - accuracy: 0.810020/24 [========================>.....] - ETA: 24s - loss: 0.2806 - accuracy: 0.805521/24 [=========================>....] - ETA: 18s - loss: 0.2836 - accuracy: 0.802522/24 [==========================>...] - ETA: 12s - loss: 0.2823 - accuracy: 0.802123/24 [===========================>..] - ETA: 6s - loss: 0.2906 - accuracy: 0.7998 24/24 [==============================] - ETA: 0s - loss: 0.2876 - accuracy: 0.8022
+Epoch 00003: val_loss improved from 0.56274 to 0.38521, saving model to model-lung.h5
+24/24 [==============================] - 154s 6s/step - loss: 0.2876 - accuracy: 0.8022 - val_loss: 0.3852 - val_accuracy: 0.7552 - lr: 0.0010
+Epoch 4/24
+ 1/24 [>.............................] - ETA: 0s - loss: 0.3360 - accuracy: 0.6837 2/24 [=>............................] - ETA: 1:13 - loss: 0.5089 - accuracy: 0.6875 3/24 [==>...........................] - ETA: 1:34 - loss: 0.4224 - accuracy: 0.7528 4/24 [====>.........................] - ETA: 1:42 - loss: 0.3832 - accuracy: 0.7956 5/24 [=====>........................] - ETA: 1:43 - loss: 0.3623 - accuracy: 0.8165 6/24 [======>.......................] - ETA: 1:41 - loss: 0.3957 - accuracy: 0.7961 7/24 [=======>......................] - ETA: 1:37 - loss: 0.3841 - accuracy: 0.8117 8/24 [=========>....................] - ETA: 1:33 - loss: 0.3699 - accuracy: 0.8118 9/24 [==========>...................] - ETA: 1:29 - loss: 0.3527 - accuracy: 0.826510/24 [===========>..................] - ETA: 1:24 - loss: 0.3685 - accuracy: 0.810411/24 [============>.................] - ETA: 1:18 - loss: 0.3503 - accuracy: 0.822912/24 [==============>...............] - ETA: 1:12 - loss: 0.3606 - accuracy: 0.817613/24 [===============>..............] - ETA: 1:07 - loss: 0.3428 - accuracy: 0.827714/24 [================>.............] - ETA: 1:01 - loss: 0.3258 - accuracy: 0.837815/24 [=================>............] - ETA: 55s - loss: 0.3220 - accuracy: 0.8365 16/24 [===================>..........] - ETA: 49s - loss: 0.3126 - accuracy: 0.843817/24 [====================>.........] - ETA: 43s - loss: 0.3048 - accuracy: 0.849318/24 [=====================>........] - ETA: 37s - loss: 0.3108 - accuracy: 0.839619/24 [======================>.......] - ETA: 31s - loss: 0.3075 - accuracy: 0.833720/24 [========================>.....] - ETA: 25s - loss: 0.3027 - accuracy: 0.827321/24 [=========================>....] - ETA: 18s - loss: 0.2994 - accuracy: 0.828222/24 [==========================>...] - ETA: 12s - loss: 0.2956 - accuracy: 0.828423/24 [===========================>..] - ETA: 6s - loss: 0.3034 - accuracy: 0.8267 24/24 [==============================] - ETA: 0s - loss: 0.3018 - accuracy: 0.8246
+Epoch 00004: val_loss did not improve from 0.38521
+24/24 [==============================] - 155s 6s/step - loss: 0.3018 - accuracy: 0.8246 - val_loss: 0.4444 - val_accuracy: 0.7716 - lr: 0.0010
+Epoch 5/24
+ 1/24 [>.............................] - ETA: 0s - loss: 0.2446 - accuracy: 0.8047 2/24 [=>............................] - ETA: 1:12 - loss: 0.3748 - accuracy: 0.7437 3/24 [==>...........................] - ETA: 1:31 - loss: 0.3435 - accuracy: 0.8025 4/24 [====>.........................] - ETA: 1:38 - loss: 0.3879 - accuracy: 0.7694 5/24 [=====>........................] - ETA: 1:39 - loss: 0.3586 - accuracy: 0.7969 6/24 [======>.......................] - ETA: 1:38 - loss: 0.3857 - accuracy: 0.8002 7/24 [=======>......................] - ETA: 1:34 - loss: 0.3974 - accuracy: 0.7951 8/24 [=========>....................] - ETA: 1:31 - loss: 0.4055 - accuracy: 0.8031 9/24 [==========>...................] - ETA: 1:27 - loss: 0.4017 - accuracy: 0.797110/24 [===========>..................] - ETA: 1:22 - loss: 0.3905 - accuracy: 0.795311/24 [============>.................] - ETA: 1:17 - loss: 0.3940 - accuracy: 0.791712/24 [==============>...............] - ETA: 1:11 - loss: 0.3856 - accuracy: 0.784413/24 [===============>..............] - ETA: 1:06 - loss: 0.3785 - accuracy: 0.786714/24 [================>.............] - ETA: 1:00 - loss: 0.3618 - accuracy: 0.797915/24 [=================>............] - ETA: 55s - loss: 0.3462 - accuracy: 0.8081 16/24 [===================>..........] - ETA: 49s - loss: 0.3364 - accuracy: 0.816317/24 [====================>.........] - ETA: 43s - loss: 0.3948 - accuracy: 0.804818/24 [=====================>........] - ETA: 37s - loss: 0.3909 - accuracy: 0.800019/24 [======================>.......] - ETA: 31s - loss: 0.4262 - accuracy: 0.798120/24 [========================>.....] - ETA: 24s - loss: 0.4313 - accuracy: 0.796421/24 [=========================>....] - ETA: 18s - loss: 0.4253 - accuracy: 0.791222/24 [==========================>...] - ETA: 12s - loss: 0.4286 - accuracy: 0.790023/24 [===========================>..] - ETA: 6s - loss: 0.4221 - accuracy: 0.7909 24/24 [==============================] - ETA: 0s - loss: 0.4192 - accuracy: 0.7920
+Epoch 00005: val_loss did not improve from 0.38521
+24/24 [==============================] - 155s 6s/step - loss: 0.4192 - accuracy: 0.7920 - val_loss: 0.4979 - val_accuracy: 0.7643 - lr: 0.0010
+Epoch 6/24
+ 1/24 [>.............................] - ETA: 0s - loss: 0.3081 - accuracy: 0.8541 2/24 [=>............................] - ETA: 1:15 - loss: 0.3095 - accuracy: 0.8152 3/24 [==>...........................] - ETA: 1:34 - loss: 0.3870 - accuracy: 0.7624 4/24 [====>.........................] - ETA: 1:43 - loss: 0.4301 - accuracy: 0.7503 5/24 [=====>........................] - ETA: 1:41 - loss: 0.4108 - accuracy: 0.7735 6/24 [======>.......................] - ETA: 1:39 - loss: 0.3919 - accuracy: 0.7816 7/24 [=======>......................] - ETA: 1:36 - loss: 0.3843 - accuracy: 0.7900Segmentation fault (core dumped)

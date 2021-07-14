@@ -1,0 +1,1525 @@
+data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize'), ('target_value', 'True')])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize'), ('target_value', 'False')])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize&y_true'), ('target_value', 'True&False')])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize&sample_weight'), ('target_value', 'True&False')])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&normalize'), ('target_value', 'True&False')])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_true'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_true'), ('target_value', "<class 'libcst._nodes.expression.Subscript'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_true'), ('target_value', "<class 'libcst._nodes.expression.Call'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred'), ('target_value', "<class 'libcst._nodes.expression.Subscript'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred'), ('target_value', "<class 'libcst._nodes.expression.Comparison'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred'), ('target_value', "<class 'libcst._nodes.expression.Call'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&normalize'), ('target_value', "<class 'libcst._nodes.expression.Name'>&<class 'libcst._nodes.expression.Subscript'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&normalize'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>&<class 'libcst._nodes.expression.Comparison'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&normalize'), ('target_value', "<class 'libcst._nodes.expression.Call'>&<class 'libcst._nodes.expression.Name'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&y_true'), ('target_value', "<class 'libcst._nodes.expression.Name'>&<class 'libcst._nodes.expression.Subscript'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&y_true'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>&<class 'libcst._nodes.expression.Comparison'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&y_true'), ('target_value', "<class 'libcst._nodes.expression.Call'>&<class 'libcst._nodes.expression.Name'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&y_true'), ('target_value', "<class 'libcst._nodes.expression.Subscript'>&<class 'libcst._nodes.expression.Call'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize&y_true'), ('target_value', "<class 'libcst._nodes.expression.Name'>&<class 'libcst._nodes.expression.Name'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize&y_true'), ('target_value', "<class 'libcst._nodes.expression.Subscript'>&<class 'libcst._nodes.expression.Call'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&normalize&y_true'), ('target_value', "<class 'libcst._nodes.expression.Name'>&<class 'libcst._nodes.expression.Subscript'>&<class 'libcst._nodes.expression.Attribute'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&normalize&y_true'), ('target_value', "<class 'libcst._nodes.expression.Comparison'>&<class 'libcst._nodes.expression.Call'>&<class 'libcst._nodes.expression.Name'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&normalize&y_true'), ('target_value', "<class 'libcst._nodes.expression.Name'>&<class 'libcst._nodes.expression.Subscript'>&<class 'libcst._nodes.expression.Call'>")])data-analysis-student-s-behavior.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:165: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:183: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 436, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.metrics.jaccard_similarity_score'), ('new_fqn', 'sklearn.metrics.jaccard_score'), ('line_no', 436)])data-analysis-student-s-behavior.py:155: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:166: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:184: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 446, in <module>
+    print("KNN Jaccard index: %.2f" % jaccard_score(y_test, knn_yhat))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 736, in jaccard_score
+    pos_label)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 1265, in _check_set_wise_labels
+    % (y_type, average_options))
+ValueError: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_score'), ('action', 'arg_value_update'), ('arg_name', 'average'), ('target_value', 'binary')])data-analysis-student-s-behavior.py:155: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:166: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:184: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 446, in <module>
+    print("KNN Jaccard index: %.2f" % jaccard_score(y_test, knn_yhat,average="binary"))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 736, in jaccard_score
+    pos_label)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 1265, in _check_set_wise_labels
+    % (y_type, average_options))
+ValueError: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_score'), ('action', 'arg_value_update'), ('arg_name', 'average'), ('target_value', 'micro')])data-analysis-student-s-behavior.py:155: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:166: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:184: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+KNN Jaccard index: 0.48
+KNN F1-score: 0.64
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 454, in <module>
+    print("Decision Tree Jaccard index: %.2f" % jaccard_score(y_test, dtree_yhat))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 736, in jaccard_score
+    pos_label)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 1265, in _check_set_wise_labels
+    % (y_type, average_options))
+ValueError: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_score'), ('action', 'arg_value_update'), ('arg_name', 'average'), ('target_value', 'binary')])data-analysis-student-s-behavior.py:155: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:166: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:184: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+KNN Jaccard index: 0.48
+KNN F1-score: 0.64
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 454, in <module>
+    print("Decision Tree Jaccard index: %.2f" % jaccard_score(y_test, dtree_yhat,average="binary"))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 736, in jaccard_score
+    pos_label)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 1265, in _check_set_wise_labels
+    % (y_type, average_options))
+ValueError: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_score'), ('action', 'arg_value_update'), ('arg_name', 'average'), ('target_value', 'micro')])data-analysis-student-s-behavior.py:155: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:166: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:184: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+KNN Jaccard index: 0.48
+KNN F1-score: 0.64
+Decision Tree Jaccard index: 0.42
+Decision Tree F1-score: 0.60
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 462, in <module>
+    print("SVM Jaccard index: %.2f" % jaccard_score(y_test, svm_yhat))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 736, in jaccard_score
+    pos_label)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 1265, in _check_set_wise_labels
+    % (y_type, average_options))
+ValueError: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_score'), ('action', 'arg_rename'), ('from_name', 'y_true'), ('to_name', 'y_pred')])data-analysis-student-s-behavior.py:155: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:166: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:184: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+KNN Jaccard index: 0.48
+KNN F1-score: 0.64
+Decision Tree Jaccard index: 0.42
+Decision Tree F1-score: 0.60
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 462, in <module>
+    print("SVM Jaccard index: %.2f" % jaccard_score(y_test, svm_yhat))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 736, in jaccard_score
+    pos_label)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 1265, in _check_set_wise_labels
+    % (y_type, average_options))
+ValueError: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_score'), ('action', 'arg_rename'), ('from_name', 'y_true'), ('to_name', 'labels')])data-analysis-student-s-behavior.py:155: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:166: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:184: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+KNN Jaccard index: 0.48
+KNN F1-score: 0.64
+Decision Tree Jaccard index: 0.42
+Decision Tree F1-score: 0.60
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 462, in <module>
+    print("SVM Jaccard index: %.2f" % jaccard_score(y_test, svm_yhat))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 736, in jaccard_score
+    pos_label)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 1265, in _check_set_wise_labels
+    % (y_type, average_options))
+ValueError: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_score'), ('action', 'arg_rename'), ('from_name', 'y_true'), ('to_name', 'average')])data-analysis-student-s-behavior.py:155: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:166: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:184: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+KNN Jaccard index: 0.48
+KNN F1-score: 0.64
+Decision Tree Jaccard index: 0.42
+Decision Tree F1-score: 0.60
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 462, in <module>
+    print("SVM Jaccard index: %.2f" % jaccard_score(y_test, svm_yhat))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 736, in jaccard_score
+    pos_label)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 1265, in _check_set_wise_labels
+    % (y_type, average_options))
+ValueError: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_score'), ('action', 'arg_rename'), ('from_name', 'y_true'), ('to_name', 'pos_label')])data-analysis-student-s-behavior.py:155: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:166: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:184: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+KNN Jaccard index: 0.48
+KNN F1-score: 0.64
+Decision Tree Jaccard index: 0.42
+Decision Tree F1-score: 0.60
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 462, in <module>
+    print("SVM Jaccard index: %.2f" % jaccard_score(y_test, svm_yhat))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 736, in jaccard_score
+    pos_label)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 1265, in _check_set_wise_labels
+    % (y_type, average_options))
+ValueError: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_score'), ('action', 'arg_rename'), ('from_name', 'y_true'), ('to_name', 'sample_weight')])data-analysis-student-s-behavior.py:155: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:166: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:184: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+KNN Jaccard index: 0.48
+KNN F1-score: 0.64
+Decision Tree Jaccard index: 0.42
+Decision Tree F1-score: 0.60
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 462, in <module>
+    print("SVM Jaccard index: %.2f" % jaccard_score(y_test, svm_yhat))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 736, in jaccard_score
+    pos_label)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 1265, in _check_set_wise_labels
+    % (y_type, average_options))
+ValueError: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_score'), ('action', 'arg_rename'), ('from_name', 'y_true'), ('to_name', 'zero_division')])data-analysis-student-s-behavior.py:155: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:166: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:184: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+KNN Jaccard index: 0.48
+KNN F1-score: 0.64
+Decision Tree Jaccard index: 0.42
+Decision Tree F1-score: 0.60
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 462, in <module>
+    print("SVM Jaccard index: %.2f" % jaccard_score(y_test, svm_yhat))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 736, in jaccard_score
+    pos_label)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 1265, in _check_set_wise_labels
+    % (y_type, average_options))
+ValueError: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_score'), ('action', 'arg_delete'), ('from_name', 'y_true'), ('to_name', '*')])data-analysis-student-s-behavior.py:155: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:166: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:184: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+KNN Jaccard index: 0.48
+KNN F1-score: 0.64
+Decision Tree Jaccard index: 0.42
+Decision Tree F1-score: 0.60
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 462, in <module>
+    print("SVM Jaccard index: %.2f" % jaccard_score(y_test, svm_yhat))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 736, in jaccard_score
+    pos_label)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 1265, in _check_set_wise_labels
+    % (y_type, average_options))
+ValueError: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_score'), ('action', 'arg_rename'), ('from_name', 'y_pred'), ('to_name', 'y_true')])data-analysis-student-s-behavior.py:155: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:166: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:184: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+KNN Jaccard index: 0.48
+KNN F1-score: 0.64
+Decision Tree Jaccard index: 0.42
+Decision Tree F1-score: 0.60
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 462, in <module>
+    print("SVM Jaccard index: %.2f" % jaccard_score(y_test, svm_yhat))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 736, in jaccard_score
+    pos_label)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 1265, in _check_set_wise_labels
+    % (y_type, average_options))
+ValueError: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_score'), ('action', 'arg_rename'), ('from_name', 'y_pred'), ('to_name', 'labels')])data-analysis-student-s-behavior.py:155: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:166: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:184: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+KNN Jaccard index: 0.48
+KNN F1-score: 0.64
+Decision Tree Jaccard index: 0.42
+Decision Tree F1-score: 0.60
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 462, in <module>
+    print("SVM Jaccard index: %.2f" % jaccard_score(y_test, svm_yhat))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 736, in jaccard_score
+    pos_label)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 1265, in _check_set_wise_labels
+    % (y_type, average_options))
+ValueError: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_score'), ('action', 'arg_rename'), ('from_name', 'y_pred'), ('to_name', 'average')])data-analysis-student-s-behavior.py:155: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['raisedhands'] = pd.cut(df2.raisedhands, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:166: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['VisITedResources'] = pd.cut(df2.VisITedResources, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['AnnouncementsView'] = pd.cut(df2.AnnouncementsView, bins=3, labels=np.arange(3), right=False)
+data-analysis-student-s-behavior.py:184: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df2['Discussion'] = pd.cut(df2.Discussion, bins=3, labels=np.arange(3), right=False)
+
+
+Train set: (384, 4) (384,)
+Test set: (96, 4) (96,)
+The best accuracy was with 0.6458333333333334 with k= 4
+KNN Jaccard index: 0.48
+KNN F1-score: 0.64
+Decision Tree Jaccard index: 0.42
+Decision Tree F1-score: 0.60
+Traceback (most recent call last):
+  File "data-analysis-student-s-behavior.py", line 462, in <module>
+    print("SVM Jaccard index: %.2f" % jaccard_score(y_test, svm_yhat))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 736, in jaccard_score
+    pos_label)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 1265, in _check_set_wise_labels
+    % (y_type, average_options))
+ValueError: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+[REPAIR EXEC TIME]: 125.90436911582947

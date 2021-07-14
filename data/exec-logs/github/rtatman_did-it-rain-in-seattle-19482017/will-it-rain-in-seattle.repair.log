@@ -1,0 +1,565 @@
+Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 24, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.impute.SimpleImputer'), ('line_no', 24)])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 26, in <module>
+    imputer=SimpleImputer(missing_values='NaN', strategy='mean', axis=0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'axis'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_delete'), ('from_name', 'axis'), ('to_name', '*')])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', '0')])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', "<class 'libcst._nodes.expression.UnaryOperation'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'copy'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'add_indicator'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'median'")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='median'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'constant'")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='constant'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'mean'")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='mean'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'most_frequent'")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='most_frequent'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy=<class 'libcst._nodes.expression.Attribute'>
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy=<class 'libcst._nodes.expression.Name'>
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', '"constant"')])  File "will-it-rain-in-seattle.py", line 26
+    imputer=SimpleImputer(missing_values='NaN', strategy=""constant"")
+                                                                  ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 24, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.impute.SimpleImputer'), ('line_no', 24)])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 26, in <module>
+    imputer=SimpleImputer(missing_values='NaN', strategy='mean', axis=0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'axis'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_delete'), ('from_name', 'axis'), ('to_name', '*')])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', '0')])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', "<class 'libcst._nodes.expression.UnaryOperation'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'copy'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'add_indicator'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'median'")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='median'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'constant'")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='constant'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'mean'")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='mean'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'most_frequent'")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='most_frequent'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy=<class 'libcst._nodes.expression.Attribute'>
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy=<class 'libcst._nodes.expression.Name'>
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', '"constant"')])  File "will-it-rain-in-seattle.py", line 26
+    imputer=SimpleImputer(missing_values='NaN', strategy=""constant"")
+                                                                  ^
+SyntaxError: invalid syntax
+[REPAIR EXEC TIME]: 30.77929377555847Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 24, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.impute.SimpleImputer'), ('line_no', 24)])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 26, in <module>
+    imputer=SimpleImputer(missing_values='NaN', strategy='mean', axis=0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'axis'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_delete'), ('from_name', 'axis'), ('to_name', '*')])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', '0')])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', "<class 'libcst._nodes.expression.UnaryOperation'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'copy'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'add_indicator'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'median'")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='median'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'constant'")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='constant'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'mean'")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='mean'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'most_frequent'")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='most_frequent'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy=<class 'libcst._nodes.expression.Attribute'>
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])Traceback (most recent call last):
+  File "will-it-rain-in-seattle.py", line 29, in <module>
+    imputer = imputer.fit(df.iloc[:,1:])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy=<class 'libcst._nodes.expression.Name'>
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', '"constant"')])  File "will-it-rain-in-seattle.py", line 26
+    imputer=SimpleImputer(missing_values='NaN', strategy=""constant"")
+                                                                  ^
+SyntaxError: invalid syntax
+[REPAIR EXEC TIME]: 30.235729932785034

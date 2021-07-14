@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "first-simple-linear-regression.py", line 18, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 18)])
+[REPAIR EXEC TIME]: 2.137089490890503Traceback (most recent call last):
+  File "first-simple-linear-regression.py", line 18, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 18)])
+[REPAIR EXEC TIME]: 2.2075321674346924Traceback (most recent call last):
+  File "first-simple-linear-regression.py", line 18, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 18)])
+[REPAIR EXEC TIME]: 2.2400741577148438

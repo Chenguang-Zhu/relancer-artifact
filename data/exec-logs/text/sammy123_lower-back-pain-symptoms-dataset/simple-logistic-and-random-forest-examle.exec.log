@@ -1,0 +1,17 @@
+simple-logistic-and-random-forest-examle.py:69: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X['intercept'] = 1.0  # so we don't need to use sm.add_constant every time
+
+Traceback (most recent call last):
+  File "simple-logistic-and-random-forest-examle.py", line 72, in <module>
+    model = statsmodels.formula.api.gls(y_train, X_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/base/model.py", line 169, in from_formula
+    missing=missing)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/formula/formulatools.py", line 65, in handle_formula_data
+    NA_action=na_action)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/patsy/highlevel.py", line 312, in dmatrices
+    raise PatsyError("model is missing required outcome variables")
+patsy.PatsyError: model is missing required outcome variables

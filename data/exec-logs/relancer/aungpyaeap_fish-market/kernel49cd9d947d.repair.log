@@ -1,0 +1,25 @@
+
+89.08778355829942 %
+Traceback (most recent call last):
+  File "kernel49cd9d947d.py", line 115, in <module>
+    from sklearn.externals import joblib
+ImportError: cannot import name 'joblib'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.externals.joblib'), ('new_fqn', 'joblib'), ('line_no', 115)])
+89.08778355829942 %
+[REPAIR EXEC TIME]: 3.1399989128112793
+89.08778355829942 %
+Traceback (most recent call last):
+  File "kernel49cd9d947d.py", line 115, in <module>
+    from sklearn.externals import joblib
+ImportError: cannot import name 'joblib'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.joblib'), ('new_fqn', 'joblib'), ('line_no', 115)])
+89.08778355829942 %
+[REPAIR EXEC TIME]: 3.242703914642334
+89.08778355829942 %
+Traceback (most recent call last):
+  File "kernel49cd9d947d.py", line 115, in <module>
+    from sklearn.externals import joblib
+ImportError: cannot import name 'joblib'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.joblib'), ('new_fqn', 'joblib'), ('line_no', 115)])
+89.08778355829942 %
+[REPAIR EXEC TIME]: 3.267421007156372

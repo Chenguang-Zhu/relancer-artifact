@@ -1,0 +1,23 @@
+Percentage M    0.635417
+F    0.364583
+Name: gender, dtype: float64
+
+
+
+
+Traceback (most recent call last):
+  File "exploratory-data-analysis-logistic-and-xgboost.py", line 163, in <module>
+    g = nx.from_pandas_dataframe(data,source='gender',target='PlaceofBirth')
+AttributeError: module 'networkx' has no attribute 'from_pandas_dataframe'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'networkx.from_pandas_dataframe'), ('new_fqn', 'networkx.Graph.add_nodes_from'), ('line_no', 163)])Percentage M    0.635417
+F    0.364583
+Name: gender, dtype: float64
+
+
+
+
+Traceback (most recent call last):
+  File "exploratory-data-analysis-logistic-and-xgboost.py", line 164, in <module>
+    g = networkx.Graph.add_nodes_from(data,source='gender',target='PlaceofBirth')
+TypeError: add_nodes_from() missing 1 required positional argument: 'nodes_for_adding'
+[REPAIR EXEC TIME]: 5.824270248413086

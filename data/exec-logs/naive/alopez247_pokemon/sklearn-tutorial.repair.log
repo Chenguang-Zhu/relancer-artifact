@@ -1,0 +1,243 @@
+Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', 'int')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', 'NaN')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', 'mean')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', 'median')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', 'most_frequent')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'copy'), ('target_value', 'True')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'copy'), ('target_value', 'False')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values&copy'), ('target_value', 'int&NaN')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values&copy'), ('target_value', 'True&False')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values&verbose'), ('target_value', 'int&NaN')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'axis&strategy'), ('target_value', 'mean&median')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values&strategy'), ('target_value', 'int&NaN')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values&strategy'), ('target_value', 'mean&median')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'axis&copy'), ('target_value', 'True&False')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy&verbose'), ('target_value', 'mean&median')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy&copy'), ('target_value', 'mean&median')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy&copy'), ('target_value', 'most_frequent&True')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'verbose&copy'), ('target_value', 'True&False')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'axis&missing_values'), ('target_value', 'int&NaN')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'axis&missing_values&copy'), ('target_value', 'int&NaN&True')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values&strategy&copy'), ('target_value', 'int&NaN&mean')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values&strategy&copy'), ('target_value', 'median&most_frequent&True')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values&verbose&copy'), ('target_value', 'int&NaN&True')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'axis&missing_values&strategy'), ('target_value', 'int&NaN&mean')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'axis&strategy&verbose'), ('target_value', 'mean&median&most_frequent')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'axis&strategy&copy'), ('target_value', 'mean&median&most_frequent')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy&verbose&copy'), ('target_value', 'mean&median&most_frequent')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values&strategy&verbose'), ('target_value', 'int&NaN&mean')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'axis&missing_values&verbose&copy'), ('target_value', 'int&NaN&True&False')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'axis&missing_values&strategy&verbose'), ('target_value', 'int&NaN&mean&median')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values&strategy&verbose&copy'), ('target_value', 'int&NaN&mean&median')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'axis&strategy&verbose&copy'), ('target_value', 'mean&median&most_frequent&True')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'axis&missing_values&strategy&copy'), ('target_value', 'int&NaN&mean&median')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'axis&missing_values&strategy&verbose&copy'), ('target_value', 'int&NaN&mean&median&most_frequent')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', "'NaN'")])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', '"NaN"')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>")])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'mean'")])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', '"mean"')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', '"median"')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', '"most_frequent"')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'median'")])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'most_frequent'")])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'axis'), ('target_value', '0')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'axis'), ('target_value', '1')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values&strategy'), ('target_value', '\'NaN\'&"NaN"')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values&strategy'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>&'mean'")])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values&strategy'), ('target_value', '"mean"&"median"')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values&strategy'), ('target_value', '"most_frequent"&\'median\'')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values&axis'), ('target_value', '\'NaN\'&"NaN"')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values&axis'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>&0")])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy&axis'), ('target_value', '\'mean\'&"mean"')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy&axis'), ('target_value', '"median"&"most_frequent"')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy&axis'), ('target_value', "'median'&'most_frequent'")])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy&axis'), ('target_value', '0&1')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values&strategy&axis'), ('target_value', '\'NaN\'&"NaN"&<class \'libcst._nodes.expression.Attribute\'>')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values&strategy&axis'), ('target_value', '\'mean\'&"mean"&"median"')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('API', 'sklearn.preprocessing.Imputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values&strategy&axis'), ('target_value', '"most_frequent"&\'median\'&\'most_frequent\'')])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 221, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.preprocessing.scale'), ('line_no', 221)])Traceback (most recent call last):
+  File "sklearn-tutorial.py", line 224, in <module>
+    pipeline_PrMale = make_pipeline( PandasSelector(['Pr_Male']), scale(), ) 
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: scale() missing 1 required positional argument: 'X'
+[REPAIR EXEC TIME]: 106.7986147403717

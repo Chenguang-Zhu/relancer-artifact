@@ -1,0 +1,55 @@
+
+
+
+Traceback (most recent call last):
+  File "titanic-logistic-regression-7655.py", line 182, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 182)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.62      0.68      0.65        22
+           1       0.81      0.77      0.79        39
+
+    accuracy                           0.74        61
+   macro avg       0.72      0.73      0.72        61
+weighted avg       0.74      0.74      0.74        61
+
+[REPAIR EXEC TIME]: 4.006457090377808
+
+
+Traceback (most recent call last):
+  File "titanic-logistic-regression-7655.py", line 182, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 182)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.59      0.80      0.68        20
+           1       0.88      0.73      0.80        41
+
+    accuracy                           0.75        61
+   macro avg       0.74      0.77      0.74        61
+weighted avg       0.79      0.75      0.76        61
+
+[REPAIR EXEC TIME]: 4.059994459152222

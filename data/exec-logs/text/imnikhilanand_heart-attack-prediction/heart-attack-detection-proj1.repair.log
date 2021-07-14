@@ -1,0 +1,82 @@
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:73: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+../../../input/imnikhilanand_heart-attack-prediction/data.csv
+Traceback (most recent call last):
+  File "heart-attack-detection-proj1.py", line 117, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.metrics.jaccard_similarity_score'), ('new_fqn', 'sklearn.metrics.jaccard_score'), ('line_no', 117)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:73: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+../../../input/imnikhilanand_heart-attack-prediction/data.csv
+[[13  6]
+ [ 9 31]]
+Confusion matrix, without normalization
+[[13  6]
+ [ 9 31]]
+
+              precision    recall  f1-score   support
+
+           0       0.84      0.78      0.81        40
+           1       0.59      0.68      0.63        19
+
+    accuracy                           0.75        59
+   macro avg       0.71      0.73      0.72        59
+weighted avg       0.76      0.75      0.75        59
+
+294 294
+
+[REPAIR EXEC TIME]: 6.9280149936676025/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:73: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+../../../input/imnikhilanand_heart-attack-prediction/data.csv
+Traceback (most recent call last):
+  File "heart-attack-detection-proj1.py", line 117, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.metrics.jaccard_similarity_score'), ('new_fqn', 'sklearn.metrics.jaccard_score'), ('line_no', 117)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:73: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+../../../input/imnikhilanand_heart-attack-prediction/data.csv
+[[13  6]
+ [ 9 31]]
+Confusion matrix, without normalization
+[[13  6]
+ [ 9 31]]
+
+              precision    recall  f1-score   support
+
+           0       0.84      0.78      0.81        40
+           1       0.59      0.68      0.63        19
+
+    accuracy                           0.75        59
+   macro avg       0.71      0.73      0.72        59
+weighted avg       0.76      0.75      0.75        59
+
+294 294
+
+[REPAIR EXEC TIME]: 3.39349627494812/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:73: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+../../../input/imnikhilanand_heart-attack-prediction/data.csv
+Traceback (most recent call last):
+  File "heart-attack-detection-proj1.py", line 117, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.metrics.jaccard_similarity_score'), ('new_fqn', 'sklearn.metrics.jaccard_score'), ('line_no', 117)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:73: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+../../../input/imnikhilanand_heart-attack-prediction/data.csv
+[[13  6]
+ [ 9 31]]
+Confusion matrix, without normalization
+[[13  6]
+ [ 9 31]]
+
+              precision    recall  f1-score   support
+
+           0       0.84      0.78      0.81        40
+           1       0.59      0.68      0.63        19
+
+    accuracy                           0.75        59
+   macro avg       0.71      0.73      0.72        59
+weighted avg       0.76      0.75      0.75        59
+
+294 294
+
+[REPAIR EXEC TIME]: 3.349900007247925

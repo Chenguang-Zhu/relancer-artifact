@@ -1,0 +1,630 @@
+
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 100, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 100)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/xgboost/sklearn.py:892: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/xgboost/sklearn.py:892: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+[[ 3  0  0  0  0  0]
+ [ 2  2  0  0  0  0]
+ [ 0  0  7  3  0  0]
+ [ 0  0  3 10  2  0]
+ [ 0  0  0  0 28  4]
+ [ 0  0  0  0  0 36]]
+% of right predictions 86.0
+0.8625
+0.043660622991432474
+
+[[ 2  1  0  0  0  0]
+ [ 0  3  1  0  0  0]
+ [ 0  0  7  3  0  0]
+ [ 0  0  4  2  9  0]
+ [ 0  0  3  5 18  6]
+ [ 0  0  0  1  0 35]]
+% of right predictions 67.0
+0.7150000000000001
+0.06344288770224761
+
+[[ 2  1  0  0  0  0]
+ [ 0  4  0  0  0  0]
+ [ 0  0  9  0  1  0]
+ [ 0  0  2 11  2  0]
+ [ 0  0  1  0 29  2]
+ [ 0  0  0  0  2 34]]
+% of right predictions 89.0
+0.825
+0.04183300132670378
+
+[09:16:39] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[[ 3  0  0  0  0  0]
+ [ 0  3  1  0  0  0]
+ [ 0  0  9  1  0  0]
+ [ 0  0  1 12  2  0]
+ [ 0  0  2  1 25  4]
+ [ 0  0  0  0  2 34]]
+% of right predictions 86.0
+[09:16:39] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[09:16:39] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[09:16:39] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[09:16:39] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[09:16:39] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[09:16:40] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[09:16:40] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[09:16:40] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[09:16:40] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[09:16:40] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+0.8474999999999999
+0.03944933459514876
+
+[REPAIR EXEC TIME]: 8.12886643409729
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 100, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.utils.validation import train_test_split
+ImportError: cannot import name 'train_test_split'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cross_decomposition'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.cross_decomposition import train_test_split
+ImportError: cannot import name 'train_test_split'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_memory'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.utils.validation.check_memory import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_memory'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.column_or_1d'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.utils.validation.column_or_1d import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.column_or_1d'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_is_fitted'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.utils.validation.check_is_fitted import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_is_fitted'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_symmetric'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.utils.validation.check_symmetric import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_symmetric'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cluster.Birch'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.cluster.Birch import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cluster.Birch'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cluster.KMeans'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.cluster.KMeans import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cluster.KMeans'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.has_fit_parameter'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.utils.validation.has_fit_parameter import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.has_fit_parameter'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cross_decomposition.CCA'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.cross_decomposition.CCA import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_decomposition.CCA'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.all_estimators'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.utils.all_estimators import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.all_estimators'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 100)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/xgboost/sklearn.py:892: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/xgboost/sklearn.py:892: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+[[ 3  0  0  0  0  0]
+ [ 2  2  0  0  0  0]
+ [ 0  0  7  3  0  0]
+ [ 0  0  3 10  2  0]
+ [ 0  0  0  0 28  4]
+ [ 0  0  0  0  0 36]]
+% of right predictions 86.0
+0.8625
+0.043660622991432474
+
+[[ 2  1  0  0  0  0]
+ [ 0  3  1  0  0  0]
+ [ 0  0  7  3  0  0]
+ [ 0  0  4  2  9  0]
+ [ 0  0  3  5 18  6]
+ [ 0  0  0  1  0 35]]
+% of right predictions 67.0
+0.7150000000000001
+0.06344288770224761
+
+[[ 2  1  0  0  0  0]
+ [ 0  4  0  0  0  0]
+ [ 0  0  9  0  1  0]
+ [ 0  0  2 11  2  0]
+ [ 0  0  1  0 29  2]
+ [ 0  0  0  0  2 34]]
+% of right predictions 89.0
+0.825
+0.04183300132670378
+
+[15:07:41] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[[ 3  0  0  0  0  0]
+ [ 0  3  1  0  0  0]
+ [ 0  0  9  1  0  0]
+ [ 0  0  1 12  2  0]
+ [ 0  0  2  1 25  4]
+ [ 0  0  0  0  2 34]]
+% of right predictions 86.0
+[15:07:41] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[15:07:41] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[15:07:41] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[15:07:41] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[15:07:42] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[15:07:42] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[15:07:42] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[15:07:42] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[15:07:43] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[15:07:44] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+0.8474999999999999
+0.03944933459514876
+
+[REPAIR EXEC TIME]: 40.99345326423645
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 100, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.utils.validation import train_test_split
+ImportError: cannot import name 'train_test_split'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cross_decomposition'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.cross_decomposition import train_test_split
+ImportError: cannot import name 'train_test_split'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_memory'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.utils.validation.check_memory import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_memory'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.column_or_1d'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.utils.validation.column_or_1d import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.column_or_1d'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_is_fitted'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.utils.validation.check_is_fitted import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_is_fitted'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_symmetric'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.utils.validation.check_symmetric import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_symmetric'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cluster.Birch'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.cluster.Birch import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cluster.Birch'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cluster.KMeans'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.cluster.KMeans import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cluster.KMeans'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.has_fit_parameter'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.utils.validation.has_fit_parameter import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.has_fit_parameter'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cross_decomposition.CCA'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.cross_decomposition.CCA import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_decomposition.CCA'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.all_estimators'), ('line_no', 100)])
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+Traceback (most recent call last):
+  File "analysis-and-building-a-model-for-bmi-data.py", line 101, in <module>
+    from sklearn.utils.all_estimators import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.all_estimators'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 100)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/xgboost/sklearn.py:892: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/xgboost/sklearn.py:892: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+['500_Person_Gender_Height_Weight_Index.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   Gender  500 non-null    object 
+ 1   Height  500 non-null    int64  
+ 2   Weight  500 non-null    float64
+ 3   Index   500 non-null    int64  
+dtypes: float64(1), int64(2), object(1)
+memory usage: 15.8+ KB
+[[ 3  0  0  0  0  0]
+ [ 2  2  0  0  0  0]
+ [ 0  0  7  3  0  0]
+ [ 0  0  3 10  2  0]
+ [ 0  0  0  0 28  4]
+ [ 0  0  0  0  0 36]]
+% of right predictions 86.0
+0.8625
+0.043660622991432474
+
+[[ 2  1  0  0  0  0]
+ [ 0  3  1  0  0  0]
+ [ 0  0  7  3  0  0]
+ [ 0  0  4  2  9  0]
+ [ 0  0  3  5 18  6]
+ [ 0  0  0  1  0 35]]
+% of right predictions 67.0
+0.7150000000000001
+0.06344288770224761
+
+[[ 2  1  0  0  0  0]
+ [ 0  4  0  0  0  0]
+ [ 0  0  9  0  1  0]
+ [ 0  0  2 11  2  0]
+ [ 0  0  1  0 29  2]
+ [ 0  0  0  0  2 34]]
+% of right predictions 89.0
+0.825
+0.04183300132670378
+
+[07:51:55] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[[ 3  0  0  0  0  0]
+ [ 0  3  1  0  0  0]
+ [ 0  0  9  1  0  0]
+ [ 0  0  1 12  2  0]
+ [ 0  0  2  1 25  4]
+ [ 0  0  0  0  2 34]]
+% of right predictions 86.0
+[07:51:55] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[07:51:55] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[07:51:55] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[07:51:56] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[07:51:56] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[07:51:56] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[07:51:56] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[07:51:56] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[07:51:56] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[07:51:56] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+0.8474999999999999
+0.03944933459514876
+
+[REPAIR EXEC TIME]: 38.06737565994263

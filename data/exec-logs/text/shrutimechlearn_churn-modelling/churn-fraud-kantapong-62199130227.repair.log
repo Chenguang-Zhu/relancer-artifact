@@ -1,0 +1,1579 @@
+../../../input/shrutimechlearn_churn-modelling/Churn_Modelling.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   RowNumber        10000 non-null  int64  
+ 1   CustomerId       10000 non-null  int64  
+ 2   Surname          10000 non-null  object 
+ 3   CreditScore      10000 non-null  int64  
+ 4   Geography        10000 non-null  object 
+ 5   Gender           10000 non-null  object 
+ 6   Age              10000 non-null  int64  
+ 7   Tenure           10000 non-null  int64  
+ 8   Balance          10000 non-null  float64
+ 9   NumOfProducts    10000 non-null  int64  
+ 10  HasCrCard        10000 non-null  int64  
+ 11  IsActiveMember   10000 non-null  int64  
+ 12  EstimatedSalary  10000 non-null  float64
+ 13  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(9), object(3)
+memory usage: 1.1+ MB
+[[1979   12]
+ [ 438   71]]
+[[1863  128]
+ [ 275  234]]
+[[1941   50]
+ [ 391  118]]
+(10000, 10)
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1.]
+ [0. 1. 0. 0. 1.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]]
+(10000, 11)
+[[619 42 2 0.0 1 1 1 101348.88 0.0 0.0 1.0]
+ [608 41 1 83807.86 1 0 1 112542.58 0.0 1.0 1.0]
+ [502 42 8 159660.8 3 1 0 113931.57 0.0 0.0 1.0]
+ [699 39 1 0.0 2 0 0 93826.63 0.0 0.0 1.0]
+ [850 43 2 125510.82 1 1 1 79084.1 0.0 1.0 1.0]]
+Traceback (most recent call last):
+  File "churn-fraud-kantapong-62199130227.py", line 224, in <module>
+    classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu', input_dim = 11))
+TypeError: __init__() missing 1 required positional argument: 'units'
+[Try Solution]: OrderedDict([('API', 'keras.layers.Dense'), ('action', 'arg_delete'), ('from_name', 'output_dim'), ('to_name', '*')])../../../input/shrutimechlearn_churn-modelling/Churn_Modelling.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   RowNumber        10000 non-null  int64  
+ 1   CustomerId       10000 non-null  int64  
+ 2   Surname          10000 non-null  object 
+ 3   CreditScore      10000 non-null  int64  
+ 4   Geography        10000 non-null  object 
+ 5   Gender           10000 non-null  object 
+ 6   Age              10000 non-null  int64  
+ 7   Tenure           10000 non-null  int64  
+ 8   Balance          10000 non-null  float64
+ 9   NumOfProducts    10000 non-null  int64  
+ 10  HasCrCard        10000 non-null  int64  
+ 11  IsActiveMember   10000 non-null  int64  
+ 12  EstimatedSalary  10000 non-null  float64
+ 13  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(9), object(3)
+memory usage: 1.1+ MB
+[[1979   12]
+ [ 438   71]]
+[[1863  128]
+ [ 275  234]]
+[[1941   50]
+ [ 391  118]]
+(10000, 10)
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1.]
+ [0. 1. 0. 0. 1.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]]
+(10000, 11)
+[[619 42 2 0.0 1 1 1 101348.88 0.0 0.0 1.0]
+ [608 41 1 83807.86 1 0 1 112542.58 0.0 1.0 1.0]
+ [502 42 8 159660.8 3 1 0 113931.57 0.0 0.0 1.0]
+ [699 39 1 0.0 2 0 0 93826.63 0.0 0.0 1.0]
+ [850 43 2 125510.82 1 1 1 79084.1 0.0 1.0 1.0]]
+Traceback (most recent call last):
+  File "churn-fraud-kantapong-62199130227.py", line 224, in <module>
+    classifier.add(Dense( init = 'uniform', activation = 'relu', input_dim = 11))
+TypeError: __init__() missing 1 required positional argument: 'units'
+[Try Solution]: OrderedDict([('API', 'keras.layers.Dense'), ('action', 'arg_rename'), ('from_name', 'output_dim'), ('to_name', 'units')])../../../input/shrutimechlearn_churn-modelling/Churn_Modelling.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   RowNumber        10000 non-null  int64  
+ 1   CustomerId       10000 non-null  int64  
+ 2   Surname          10000 non-null  object 
+ 3   CreditScore      10000 non-null  int64  
+ 4   Geography        10000 non-null  object 
+ 5   Gender           10000 non-null  object 
+ 6   Age              10000 non-null  int64  
+ 7   Tenure           10000 non-null  int64  
+ 8   Balance          10000 non-null  float64
+ 9   NumOfProducts    10000 non-null  int64  
+ 10  HasCrCard        10000 non-null  int64  
+ 11  IsActiveMember   10000 non-null  int64  
+ 12  EstimatedSalary  10000 non-null  float64
+ 13  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(9), object(3)
+memory usage: 1.1+ MB
+[[1979   12]
+ [ 438   71]]
+[[1863  128]
+ [ 275  234]]
+[[1941   50]
+ [ 391  118]]
+(10000, 10)
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1.]
+ [0. 1. 0. 0. 1.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]]
+(10000, 11)
+[[619 42 2 0.0 1 1 1 101348.88 0.0 0.0 1.0]
+ [608 41 1 83807.86 1 0 1 112542.58 0.0 1.0 1.0]
+ [502 42 8 159660.8 3 1 0 113931.57 0.0 0.0 1.0]
+ [699 39 1 0.0 2 0 0 93826.63 0.0 0.0 1.0]
+ [850 43 2 125510.82 1 1 1 79084.1 0.0 1.0 1.0]]
+Traceback (most recent call last):
+  File "churn-fraud-kantapong-62199130227.py", line 224, in <module>
+    classifier.add(Dense(units=6, init = 'uniform', activation = 'relu', input_dim = 11))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/keras/layers/core.py", line 1132, in __init__
+    activity_regularizer=regularizers.get(activity_regularizer), **kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/training/tracking/base.py", line 456, in _method_wrapper
+    result = method(self, *args, **kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/keras/engine/base_layer.py", line 294, in __init__
+    generic_utils.validate_kwargs(kwargs, allowed_kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/keras/utils/generic_utils.py", line 792, in validate_kwargs
+    raise TypeError(error_message, kwarg)
+TypeError: ('Keyword argument not understood:', 'init')
+[Try Solution]: OrderedDict([('API', 'keras.layers.Dense'), ('action', 'arg_delete'), ('from_name', 'init'), ('to_name', '*')])2021-04-22 08:36:06.326033: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-04-22 08:36:06.350807: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-04-22 08:36:06.351481: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x556f5b4ce2a0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-04-22 08:36:06.351513: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-04-22 08:36:06.351613: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+../../../input/shrutimechlearn_churn-modelling/Churn_Modelling.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   RowNumber        10000 non-null  int64  
+ 1   CustomerId       10000 non-null  int64  
+ 2   Surname          10000 non-null  object 
+ 3   CreditScore      10000 non-null  int64  
+ 4   Geography        10000 non-null  object 
+ 5   Gender           10000 non-null  object 
+ 6   Age              10000 non-null  int64  
+ 7   Tenure           10000 non-null  int64  
+ 8   Balance          10000 non-null  float64
+ 9   NumOfProducts    10000 non-null  int64  
+ 10  HasCrCard        10000 non-null  int64  
+ 11  IsActiveMember   10000 non-null  int64  
+ 12  EstimatedSalary  10000 non-null  float64
+ 13  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(9), object(3)
+memory usage: 1.1+ MB
+[[1979   12]
+ [ 438   71]]
+[[1863  128]
+ [ 275  234]]
+[[1941   50]
+ [ 391  118]]
+(10000, 10)
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1.]
+ [0. 1. 0. 0. 1.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]]
+(10000, 11)
+[[619 42 2 0.0 1 1 1 101348.88 0.0 0.0 1.0]
+ [608 41 1 83807.86 1 0 1 112542.58 0.0 1.0 1.0]
+ [502 42 8 159660.8 3 1 0 113931.57 0.0 0.0 1.0]
+ [699 39 1 0.0 2 0 0 93826.63 0.0 0.0 1.0]
+ [850 43 2 125510.82 1 1 1 79084.1 0.0 1.0 1.0]]
+Traceback (most recent call last):
+  File "churn-fraud-kantapong-62199130227.py", line 231, in <module>
+    classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu'))
+TypeError: __init__() missing 1 required positional argument: 'units'
+[Try Solution]: OrderedDict([('API', 'keras.layers.Dense'), ('action', 'arg_delete'), ('from_name', 'output_dim'), ('to_name', '*')])2021-04-22 08:36:11.824076: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-04-22 08:36:11.846939: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-04-22 08:36:11.847411: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5589bb57c060 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-04-22 08:36:11.847441: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-04-22 08:36:11.847550: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+../../../input/shrutimechlearn_churn-modelling/Churn_Modelling.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   RowNumber        10000 non-null  int64  
+ 1   CustomerId       10000 non-null  int64  
+ 2   Surname          10000 non-null  object 
+ 3   CreditScore      10000 non-null  int64  
+ 4   Geography        10000 non-null  object 
+ 5   Gender           10000 non-null  object 
+ 6   Age              10000 non-null  int64  
+ 7   Tenure           10000 non-null  int64  
+ 8   Balance          10000 non-null  float64
+ 9   NumOfProducts    10000 non-null  int64  
+ 10  HasCrCard        10000 non-null  int64  
+ 11  IsActiveMember   10000 non-null  int64  
+ 12  EstimatedSalary  10000 non-null  float64
+ 13  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(9), object(3)
+memory usage: 1.1+ MB
+[[1979   12]
+ [ 438   71]]
+[[1863  128]
+ [ 275  234]]
+[[1941   50]
+ [ 391  118]]
+(10000, 10)
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1.]
+ [0. 1. 0. 0. 1.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]]
+(10000, 11)
+[[619 42 2 0.0 1 1 1 101348.88 0.0 0.0 1.0]
+ [608 41 1 83807.86 1 0 1 112542.58 0.0 1.0 1.0]
+ [502 42 8 159660.8 3 1 0 113931.57 0.0 0.0 1.0]
+ [699 39 1 0.0 2 0 0 93826.63 0.0 0.0 1.0]
+ [850 43 2 125510.82 1 1 1 79084.1 0.0 1.0 1.0]]
+Traceback (most recent call last):
+  File "churn-fraud-kantapong-62199130227.py", line 231, in <module>
+    classifier.add(Dense( init = 'uniform', activation = 'relu'))
+TypeError: __init__() missing 1 required positional argument: 'units'
+[Try Solution]: OrderedDict([('API', 'keras.layers.Dense'), ('action', 'arg_rename'), ('from_name', 'output_dim'), ('to_name', 'units')])2021-04-22 08:36:17.237025: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-04-22 08:36:17.258837: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-04-22 08:36:17.259397: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55a22b864e80 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-04-22 08:36:17.259429: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-04-22 08:36:17.259530: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+../../../input/shrutimechlearn_churn-modelling/Churn_Modelling.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   RowNumber        10000 non-null  int64  
+ 1   CustomerId       10000 non-null  int64  
+ 2   Surname          10000 non-null  object 
+ 3   CreditScore      10000 non-null  int64  
+ 4   Geography        10000 non-null  object 
+ 5   Gender           10000 non-null  object 
+ 6   Age              10000 non-null  int64  
+ 7   Tenure           10000 non-null  int64  
+ 8   Balance          10000 non-null  float64
+ 9   NumOfProducts    10000 non-null  int64  
+ 10  HasCrCard        10000 non-null  int64  
+ 11  IsActiveMember   10000 non-null  int64  
+ 12  EstimatedSalary  10000 non-null  float64
+ 13  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(9), object(3)
+memory usage: 1.1+ MB
+[[1979   12]
+ [ 438   71]]
+[[1863  128]
+ [ 275  234]]
+[[1941   50]
+ [ 391  118]]
+(10000, 10)
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1.]
+ [0. 1. 0. 0. 1.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]]
+(10000, 11)
+[[619 42 2 0.0 1 1 1 101348.88 0.0 0.0 1.0]
+ [608 41 1 83807.86 1 0 1 112542.58 0.0 1.0 1.0]
+ [502 42 8 159660.8 3 1 0 113931.57 0.0 0.0 1.0]
+ [699 39 1 0.0 2 0 0 93826.63 0.0 0.0 1.0]
+ [850 43 2 125510.82 1 1 1 79084.1 0.0 1.0 1.0]]
+Traceback (most recent call last):
+  File "churn-fraud-kantapong-62199130227.py", line 231, in <module>
+    classifier.add(Dense(units=6, init = 'uniform', activation = 'relu'))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/keras/layers/core.py", line 1132, in __init__
+    activity_regularizer=regularizers.get(activity_regularizer), **kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/training/tracking/base.py", line 456, in _method_wrapper
+    result = method(self, *args, **kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/keras/engine/base_layer.py", line 294, in __init__
+    generic_utils.validate_kwargs(kwargs, allowed_kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/keras/utils/generic_utils.py", line 792, in validate_kwargs
+    raise TypeError(error_message, kwarg)
+TypeError: ('Keyword argument not understood:', 'init')
+[Try Solution]: OrderedDict([('API', 'keras.layers.Dense'), ('action', 'arg_delete'), ('from_name', 'init'), ('to_name', '*')])2021-04-22 08:36:22.767387: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-04-22 08:36:22.790885: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-04-22 08:36:22.791760: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x556c2937a6b0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-04-22 08:36:22.791788: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-04-22 08:36:22.791902: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+../../../input/shrutimechlearn_churn-modelling/Churn_Modelling.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   RowNumber        10000 non-null  int64  
+ 1   CustomerId       10000 non-null  int64  
+ 2   Surname          10000 non-null  object 
+ 3   CreditScore      10000 non-null  int64  
+ 4   Geography        10000 non-null  object 
+ 5   Gender           10000 non-null  object 
+ 6   Age              10000 non-null  int64  
+ 7   Tenure           10000 non-null  int64  
+ 8   Balance          10000 non-null  float64
+ 9   NumOfProducts    10000 non-null  int64  
+ 10  HasCrCard        10000 non-null  int64  
+ 11  IsActiveMember   10000 non-null  int64  
+ 12  EstimatedSalary  10000 non-null  float64
+ 13  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(9), object(3)
+memory usage: 1.1+ MB
+[[1979   12]
+ [ 438   71]]
+[[1863  128]
+ [ 275  234]]
+[[1941   50]
+ [ 391  118]]
+(10000, 10)
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1.]
+ [0. 1. 0. 0. 1.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]]
+(10000, 11)
+[[619 42 2 0.0 1 1 1 101348.88 0.0 0.0 1.0]
+ [608 41 1 83807.86 1 0 1 112542.58 0.0 1.0 1.0]
+ [502 42 8 159660.8 3 1 0 113931.57 0.0 0.0 1.0]
+ [699 39 1 0.0 2 0 0 93826.63 0.0 0.0 1.0]
+ [850 43 2 125510.82 1 1 1 79084.1 0.0 1.0 1.0]]
+Traceback (most recent call last):
+  File "churn-fraud-kantapong-62199130227.py", line 238, in <module>
+    classifier.add(Dense(output_dim = 1, init = 'uniform', activation = 'sigmoid'))
+TypeError: __init__() missing 1 required positional argument: 'units'
+[Try Solution]: OrderedDict([('API', 'keras.layers.Dense'), ('action', 'arg_delete'), ('from_name', 'output_dim'), ('to_name', '*')])2021-04-22 08:36:28.168306: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-04-22 08:36:28.190812: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-04-22 08:36:28.191565: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x557425c75090 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-04-22 08:36:28.191594: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-04-22 08:36:28.191672: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+../../../input/shrutimechlearn_churn-modelling/Churn_Modelling.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   RowNumber        10000 non-null  int64  
+ 1   CustomerId       10000 non-null  int64  
+ 2   Surname          10000 non-null  object 
+ 3   CreditScore      10000 non-null  int64  
+ 4   Geography        10000 non-null  object 
+ 5   Gender           10000 non-null  object 
+ 6   Age              10000 non-null  int64  
+ 7   Tenure           10000 non-null  int64  
+ 8   Balance          10000 non-null  float64
+ 9   NumOfProducts    10000 non-null  int64  
+ 10  HasCrCard        10000 non-null  int64  
+ 11  IsActiveMember   10000 non-null  int64  
+ 12  EstimatedSalary  10000 non-null  float64
+ 13  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(9), object(3)
+memory usage: 1.1+ MB
+[[1979   12]
+ [ 438   71]]
+[[1863  128]
+ [ 275  234]]
+[[1941   50]
+ [ 391  118]]
+(10000, 10)
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1.]
+ [0. 1. 0. 0. 1.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]]
+(10000, 11)
+[[619 42 2 0.0 1 1 1 101348.88 0.0 0.0 1.0]
+ [608 41 1 83807.86 1 0 1 112542.58 0.0 1.0 1.0]
+ [502 42 8 159660.8 3 1 0 113931.57 0.0 0.0 1.0]
+ [699 39 1 0.0 2 0 0 93826.63 0.0 0.0 1.0]
+ [850 43 2 125510.82 1 1 1 79084.1 0.0 1.0 1.0]]
+Traceback (most recent call last):
+  File "churn-fraud-kantapong-62199130227.py", line 238, in <module>
+    classifier.add(Dense( init = 'uniform', activation = 'sigmoid'))
+TypeError: __init__() missing 1 required positional argument: 'units'
+[Try Solution]: OrderedDict([('API', 'keras.layers.Dense'), ('action', 'arg_rename'), ('from_name', 'output_dim'), ('to_name', 'units')])2021-04-22 08:36:33.729257: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-04-22 08:36:33.754597: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-04-22 08:36:33.755565: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5613f1ea43a0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-04-22 08:36:33.755596: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-04-22 08:36:33.755774: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+../../../input/shrutimechlearn_churn-modelling/Churn_Modelling.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   RowNumber        10000 non-null  int64  
+ 1   CustomerId       10000 non-null  int64  
+ 2   Surname          10000 non-null  object 
+ 3   CreditScore      10000 non-null  int64  
+ 4   Geography        10000 non-null  object 
+ 5   Gender           10000 non-null  object 
+ 6   Age              10000 non-null  int64  
+ 7   Tenure           10000 non-null  int64  
+ 8   Balance          10000 non-null  float64
+ 9   NumOfProducts    10000 non-null  int64  
+ 10  HasCrCard        10000 non-null  int64  
+ 11  IsActiveMember   10000 non-null  int64  
+ 12  EstimatedSalary  10000 non-null  float64
+ 13  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(9), object(3)
+memory usage: 1.1+ MB
+[[1979   12]
+ [ 438   71]]
+[[1863  128]
+ [ 275  234]]
+[[1941   50]
+ [ 391  118]]
+(10000, 10)
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1.]
+ [0. 1. 0. 0. 1.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]]
+(10000, 11)
+[[619 42 2 0.0 1 1 1 101348.88 0.0 0.0 1.0]
+ [608 41 1 83807.86 1 0 1 112542.58 0.0 1.0 1.0]
+ [502 42 8 159660.8 3 1 0 113931.57 0.0 0.0 1.0]
+ [699 39 1 0.0 2 0 0 93826.63 0.0 0.0 1.0]
+ [850 43 2 125510.82 1 1 1 79084.1 0.0 1.0 1.0]]
+Traceback (most recent call last):
+  File "churn-fraud-kantapong-62199130227.py", line 238, in <module>
+    classifier.add(Dense(units=1, init = 'uniform', activation = 'sigmoid'))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/keras/layers/core.py", line 1132, in __init__
+    activity_regularizer=regularizers.get(activity_regularizer), **kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/training/tracking/base.py", line 456, in _method_wrapper
+    result = method(self, *args, **kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/keras/engine/base_layer.py", line 294, in __init__
+    generic_utils.validate_kwargs(kwargs, allowed_kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/keras/utils/generic_utils.py", line 792, in validate_kwargs
+    raise TypeError(error_message, kwarg)
+TypeError: ('Keyword argument not understood:', 'init')
+[Try Solution]: OrderedDict([('API', 'keras.layers.Dense'), ('action', 'arg_delete'), ('from_name', 'init'), ('to_name', '*')])2021-04-22 08:36:39.145724: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-04-22 08:36:39.170798: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-04-22 08:36:39.171562: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55ad94bd8fd0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-04-22 08:36:39.171592: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-04-22 08:36:39.171707: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+../../../input/shrutimechlearn_churn-modelling/Churn_Modelling.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   RowNumber        10000 non-null  int64  
+ 1   CustomerId       10000 non-null  int64  
+ 2   Surname          10000 non-null  object 
+ 3   CreditScore      10000 non-null  int64  
+ 4   Geography        10000 non-null  object 
+ 5   Gender           10000 non-null  object 
+ 6   Age              10000 non-null  int64  
+ 7   Tenure           10000 non-null  int64  
+ 8   Balance          10000 non-null  float64
+ 9   NumOfProducts    10000 non-null  int64  
+ 10  HasCrCard        10000 non-null  int64  
+ 11  IsActiveMember   10000 non-null  int64  
+ 12  EstimatedSalary  10000 non-null  float64
+ 13  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(9), object(3)
+memory usage: 1.1+ MB
+[[1979   12]
+ [ 438   71]]
+[[1863  128]
+ [ 275  234]]
+[[1941   50]
+ [ 391  118]]
+(10000, 10)
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1.]
+ [0. 1. 0. 0. 1.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]]
+(10000, 11)
+[[619 42 2 0.0 1 1 1 101348.88 0.0 0.0 1.0]
+ [608 41 1 83807.86 1 0 1 112542.58 0.0 1.0 1.0]
+ [502 42 8 159660.8 3 1 0 113931.57 0.0 0.0 1.0]
+ [699 39 1 0.0 2 0 0 93826.63 0.0 0.0 1.0]
+ [850 43 2 125510.82 1 1 1 79084.1 0.0 1.0 1.0]]
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense (Dense)                (None, 6)                 72        
+_________________________________________________________________
+dense_1 (Dense)              (None, 6)                 42        
+_________________________________________________________________
+dense_2 (Dense)              (None, 1)                 7         
+=================================================================
+Total params: 121
+Trainable params: 121
+Non-trainable params: 0
+_________________________________________________________________
+[REPAIR EXEC TIME]: 53.84536814689636../../../input/shrutimechlearn_churn-modelling/Churn_Modelling.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   RowNumber        10000 non-null  int64  
+ 1   CustomerId       10000 non-null  int64  
+ 2   Surname          10000 non-null  object 
+ 3   CreditScore      10000 non-null  int64  
+ 4   Geography        10000 non-null  object 
+ 5   Gender           10000 non-null  object 
+ 6   Age              10000 non-null  int64  
+ 7   Tenure           10000 non-null  int64  
+ 8   Balance          10000 non-null  float64
+ 9   NumOfProducts    10000 non-null  int64  
+ 10  HasCrCard        10000 non-null  int64  
+ 11  IsActiveMember   10000 non-null  int64  
+ 12  EstimatedSalary  10000 non-null  float64
+ 13  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(9), object(3)
+memory usage: 1.1+ MB
+[[1979   12]
+ [ 438   71]]
+[[1863  128]
+ [ 275  234]]
+[[1941   50]
+ [ 391  118]]
+(10000, 10)
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1.]
+ [0. 1. 0. 0. 1.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]]
+(10000, 11)
+[[619 42 2 0.0 1 1 1 101348.88 0.0 0.0 1.0]
+ [608 41 1 83807.86 1 0 1 112542.58 0.0 1.0 1.0]
+ [502 42 8 159660.8 3 1 0 113931.57 0.0 0.0 1.0]
+ [699 39 1 0.0 2 0 0 93826.63 0.0 0.0 1.0]
+ [850 43 2 125510.82 1 1 1 79084.1 0.0 1.0 1.0]]
+Traceback (most recent call last):
+  File "churn-fraud-kantapong-62199130227.py", line 224, in <module>
+    classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu', input_dim = 11))
+TypeError: __init__() missing 1 required positional argument: 'units'
+[Try Solution]: OrderedDict([('API', 'keras.layers.Dense'), ('action', 'arg_delete'), ('from_name', 'output_dim'), ('to_name', '*')])../../../input/shrutimechlearn_churn-modelling/Churn_Modelling.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   RowNumber        10000 non-null  int64  
+ 1   CustomerId       10000 non-null  int64  
+ 2   Surname          10000 non-null  object 
+ 3   CreditScore      10000 non-null  int64  
+ 4   Geography        10000 non-null  object 
+ 5   Gender           10000 non-null  object 
+ 6   Age              10000 non-null  int64  
+ 7   Tenure           10000 non-null  int64  
+ 8   Balance          10000 non-null  float64
+ 9   NumOfProducts    10000 non-null  int64  
+ 10  HasCrCard        10000 non-null  int64  
+ 11  IsActiveMember   10000 non-null  int64  
+ 12  EstimatedSalary  10000 non-null  float64
+ 13  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(9), object(3)
+memory usage: 1.1+ MB
+[[1979   12]
+ [ 438   71]]
+[[1863  128]
+ [ 275  234]]
+[[1941   50]
+ [ 391  118]]
+(10000, 10)
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1.]
+ [0. 1. 0. 0. 1.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]]
+(10000, 11)
+[[619 42 2 0.0 1 1 1 101348.88 0.0 0.0 1.0]
+ [608 41 1 83807.86 1 0 1 112542.58 0.0 1.0 1.0]
+ [502 42 8 159660.8 3 1 0 113931.57 0.0 0.0 1.0]
+ [699 39 1 0.0 2 0 0 93826.63 0.0 0.0 1.0]
+ [850 43 2 125510.82 1 1 1 79084.1 0.0 1.0 1.0]]
+Traceback (most recent call last):
+  File "churn-fraud-kantapong-62199130227.py", line 224, in <module>
+    classifier.add(Dense( init = 'uniform', activation = 'relu', input_dim = 11))
+TypeError: __init__() missing 1 required positional argument: 'units'
+[Try Solution]: OrderedDict([('API', 'keras.layers.Dense'), ('action', 'arg_rename'), ('from_name', 'output_dim'), ('to_name', 'units')])../../../input/shrutimechlearn_churn-modelling/Churn_Modelling.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   RowNumber        10000 non-null  int64  
+ 1   CustomerId       10000 non-null  int64  
+ 2   Surname          10000 non-null  object 
+ 3   CreditScore      10000 non-null  int64  
+ 4   Geography        10000 non-null  object 
+ 5   Gender           10000 non-null  object 
+ 6   Age              10000 non-null  int64  
+ 7   Tenure           10000 non-null  int64  
+ 8   Balance          10000 non-null  float64
+ 9   NumOfProducts    10000 non-null  int64  
+ 10  HasCrCard        10000 non-null  int64  
+ 11  IsActiveMember   10000 non-null  int64  
+ 12  EstimatedSalary  10000 non-null  float64
+ 13  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(9), object(3)
+memory usage: 1.1+ MB
+[[1979   12]
+ [ 438   71]]
+[[1863  128]
+ [ 275  234]]
+[[1941   50]
+ [ 391  118]]
+(10000, 10)
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1.]
+ [0. 1. 0. 0. 1.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]]
+(10000, 11)
+[[619 42 2 0.0 1 1 1 101348.88 0.0 0.0 1.0]
+ [608 41 1 83807.86 1 0 1 112542.58 0.0 1.0 1.0]
+ [502 42 8 159660.8 3 1 0 113931.57 0.0 0.0 1.0]
+ [699 39 1 0.0 2 0 0 93826.63 0.0 0.0 1.0]
+ [850 43 2 125510.82 1 1 1 79084.1 0.0 1.0 1.0]]
+Traceback (most recent call last):
+  File "churn-fraud-kantapong-62199130227.py", line 224, in <module>
+    classifier.add(Dense(units=6, init = 'uniform', activation = 'relu', input_dim = 11))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/keras/layers/core.py", line 1132, in __init__
+    activity_regularizer=regularizers.get(activity_regularizer), **kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/training/tracking/base.py", line 456, in _method_wrapper
+    result = method(self, *args, **kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/keras/engine/base_layer.py", line 294, in __init__
+    generic_utils.validate_kwargs(kwargs, allowed_kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/keras/utils/generic_utils.py", line 792, in validate_kwargs
+    raise TypeError(error_message, kwarg)
+TypeError: ('Keyword argument not understood:', 'init')
+[Try Solution]: OrderedDict([('API', 'keras.layers.Dense'), ('action', 'arg_delete'), ('from_name', 'init'), ('to_name', '*')])2021-07-05 11:50:03.970001: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-07-05 11:50:03.993505: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-07-05 11:50:03.994289: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x557814f91440 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-05 11:50:03.994322: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-07-05 11:50:03.994446: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+../../../input/shrutimechlearn_churn-modelling/Churn_Modelling.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   RowNumber        10000 non-null  int64  
+ 1   CustomerId       10000 non-null  int64  
+ 2   Surname          10000 non-null  object 
+ 3   CreditScore      10000 non-null  int64  
+ 4   Geography        10000 non-null  object 
+ 5   Gender           10000 non-null  object 
+ 6   Age              10000 non-null  int64  
+ 7   Tenure           10000 non-null  int64  
+ 8   Balance          10000 non-null  float64
+ 9   NumOfProducts    10000 non-null  int64  
+ 10  HasCrCard        10000 non-null  int64  
+ 11  IsActiveMember   10000 non-null  int64  
+ 12  EstimatedSalary  10000 non-null  float64
+ 13  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(9), object(3)
+memory usage: 1.1+ MB
+[[1979   12]
+ [ 438   71]]
+[[1863  128]
+ [ 275  234]]
+[[1941   50]
+ [ 391  118]]
+(10000, 10)
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1.]
+ [0. 1. 0. 0. 1.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]]
+(10000, 11)
+[[619 42 2 0.0 1 1 1 101348.88 0.0 0.0 1.0]
+ [608 41 1 83807.86 1 0 1 112542.58 0.0 1.0 1.0]
+ [502 42 8 159660.8 3 1 0 113931.57 0.0 0.0 1.0]
+ [699 39 1 0.0 2 0 0 93826.63 0.0 0.0 1.0]
+ [850 43 2 125510.82 1 1 1 79084.1 0.0 1.0 1.0]]
+Traceback (most recent call last):
+  File "churn-fraud-kantapong-62199130227.py", line 231, in <module>
+    classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu'))
+TypeError: __init__() missing 1 required positional argument: 'units'
+[Try Solution]: OrderedDict([('API', 'keras.layers.Dense'), ('action', 'arg_delete'), ('from_name', 'output_dim'), ('to_name', '*')])2021-07-05 11:50:09.539162: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-07-05 11:50:09.561452: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-07-05 11:50:09.561914: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x562e01aee020 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-05 11:50:09.561943: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-07-05 11:50:09.562029: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+../../../input/shrutimechlearn_churn-modelling/Churn_Modelling.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   RowNumber        10000 non-null  int64  
+ 1   CustomerId       10000 non-null  int64  
+ 2   Surname          10000 non-null  object 
+ 3   CreditScore      10000 non-null  int64  
+ 4   Geography        10000 non-null  object 
+ 5   Gender           10000 non-null  object 
+ 6   Age              10000 non-null  int64  
+ 7   Tenure           10000 non-null  int64  
+ 8   Balance          10000 non-null  float64
+ 9   NumOfProducts    10000 non-null  int64  
+ 10  HasCrCard        10000 non-null  int64  
+ 11  IsActiveMember   10000 non-null  int64  
+ 12  EstimatedSalary  10000 non-null  float64
+ 13  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(9), object(3)
+memory usage: 1.1+ MB
+[[1979   12]
+ [ 438   71]]
+[[1863  128]
+ [ 275  234]]
+[[1941   50]
+ [ 391  118]]
+(10000, 10)
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1.]
+ [0. 1. 0. 0. 1.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]]
+(10000, 11)
+[[619 42 2 0.0 1 1 1 101348.88 0.0 0.0 1.0]
+ [608 41 1 83807.86 1 0 1 112542.58 0.0 1.0 1.0]
+ [502 42 8 159660.8 3 1 0 113931.57 0.0 0.0 1.0]
+ [699 39 1 0.0 2 0 0 93826.63 0.0 0.0 1.0]
+ [850 43 2 125510.82 1 1 1 79084.1 0.0 1.0 1.0]]
+Traceback (most recent call last):
+  File "churn-fraud-kantapong-62199130227.py", line 231, in <module>
+    classifier.add(Dense( init = 'uniform', activation = 'relu'))
+TypeError: __init__() missing 1 required positional argument: 'units'
+[Try Solution]: OrderedDict([('API', 'keras.layers.Dense'), ('action', 'arg_rename'), ('from_name', 'output_dim'), ('to_name', 'units')])2021-07-05 11:50:14.928365: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-07-05 11:50:14.953226: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-07-05 11:50:14.953960: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5610e7c40180 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-05 11:50:14.953993: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-07-05 11:50:14.954102: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+../../../input/shrutimechlearn_churn-modelling/Churn_Modelling.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   RowNumber        10000 non-null  int64  
+ 1   CustomerId       10000 non-null  int64  
+ 2   Surname          10000 non-null  object 
+ 3   CreditScore      10000 non-null  int64  
+ 4   Geography        10000 non-null  object 
+ 5   Gender           10000 non-null  object 
+ 6   Age              10000 non-null  int64  
+ 7   Tenure           10000 non-null  int64  
+ 8   Balance          10000 non-null  float64
+ 9   NumOfProducts    10000 non-null  int64  
+ 10  HasCrCard        10000 non-null  int64  
+ 11  IsActiveMember   10000 non-null  int64  
+ 12  EstimatedSalary  10000 non-null  float64
+ 13  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(9), object(3)
+memory usage: 1.1+ MB
+[[1979   12]
+ [ 438   71]]
+[[1863  128]
+ [ 275  234]]
+[[1941   50]
+ [ 391  118]]
+(10000, 10)
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1.]
+ [0. 1. 0. 0. 1.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]]
+(10000, 11)
+[[619 42 2 0.0 1 1 1 101348.88 0.0 0.0 1.0]
+ [608 41 1 83807.86 1 0 1 112542.58 0.0 1.0 1.0]
+ [502 42 8 159660.8 3 1 0 113931.57 0.0 0.0 1.0]
+ [699 39 1 0.0 2 0 0 93826.63 0.0 0.0 1.0]
+ [850 43 2 125510.82 1 1 1 79084.1 0.0 1.0 1.0]]
+Traceback (most recent call last):
+  File "churn-fraud-kantapong-62199130227.py", line 231, in <module>
+    classifier.add(Dense(units=6, init = 'uniform', activation = 'relu'))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/keras/layers/core.py", line 1132, in __init__
+    activity_regularizer=regularizers.get(activity_regularizer), **kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/training/tracking/base.py", line 456, in _method_wrapper
+    result = method(self, *args, **kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/keras/engine/base_layer.py", line 294, in __init__
+    generic_utils.validate_kwargs(kwargs, allowed_kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/keras/utils/generic_utils.py", line 792, in validate_kwargs
+    raise TypeError(error_message, kwarg)
+TypeError: ('Keyword argument not understood:', 'init')
+[Try Solution]: OrderedDict([('API', 'keras.layers.Dense'), ('action', 'arg_delete'), ('from_name', 'init'), ('to_name', '*')])2021-07-05 11:50:20.364808: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-07-05 11:50:20.389348: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-07-05 11:50:20.390028: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x561242c62fd0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-05 11:50:20.390061: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-07-05 11:50:20.390290: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+../../../input/shrutimechlearn_churn-modelling/Churn_Modelling.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   RowNumber        10000 non-null  int64  
+ 1   CustomerId       10000 non-null  int64  
+ 2   Surname          10000 non-null  object 
+ 3   CreditScore      10000 non-null  int64  
+ 4   Geography        10000 non-null  object 
+ 5   Gender           10000 non-null  object 
+ 6   Age              10000 non-null  int64  
+ 7   Tenure           10000 non-null  int64  
+ 8   Balance          10000 non-null  float64
+ 9   NumOfProducts    10000 non-null  int64  
+ 10  HasCrCard        10000 non-null  int64  
+ 11  IsActiveMember   10000 non-null  int64  
+ 12  EstimatedSalary  10000 non-null  float64
+ 13  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(9), object(3)
+memory usage: 1.1+ MB
+[[1979   12]
+ [ 438   71]]
+[[1863  128]
+ [ 275  234]]
+[[1941   50]
+ [ 391  118]]
+(10000, 10)
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1.]
+ [0. 1. 0. 0. 1.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]]
+(10000, 11)
+[[619 42 2 0.0 1 1 1 101348.88 0.0 0.0 1.0]
+ [608 41 1 83807.86 1 0 1 112542.58 0.0 1.0 1.0]
+ [502 42 8 159660.8 3 1 0 113931.57 0.0 0.0 1.0]
+ [699 39 1 0.0 2 0 0 93826.63 0.0 0.0 1.0]
+ [850 43 2 125510.82 1 1 1 79084.1 0.0 1.0 1.0]]
+Traceback (most recent call last):
+  File "churn-fraud-kantapong-62199130227.py", line 238, in <module>
+    classifier.add(Dense(output_dim = 1, init = 'uniform', activation = 'sigmoid'))
+TypeError: __init__() missing 1 required positional argument: 'units'
+[Try Solution]: OrderedDict([('API', 'keras.layers.Dense'), ('action', 'arg_delete'), ('from_name', 'output_dim'), ('to_name', '*')])2021-07-05 11:50:25.819119: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-07-05 11:50:25.841574: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-07-05 11:50:25.842298: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55843b08c160 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-05 11:50:25.842326: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-07-05 11:50:25.842422: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+../../../input/shrutimechlearn_churn-modelling/Churn_Modelling.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   RowNumber        10000 non-null  int64  
+ 1   CustomerId       10000 non-null  int64  
+ 2   Surname          10000 non-null  object 
+ 3   CreditScore      10000 non-null  int64  
+ 4   Geography        10000 non-null  object 
+ 5   Gender           10000 non-null  object 
+ 6   Age              10000 non-null  int64  
+ 7   Tenure           10000 non-null  int64  
+ 8   Balance          10000 non-null  float64
+ 9   NumOfProducts    10000 non-null  int64  
+ 10  HasCrCard        10000 non-null  int64  
+ 11  IsActiveMember   10000 non-null  int64  
+ 12  EstimatedSalary  10000 non-null  float64
+ 13  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(9), object(3)
+memory usage: 1.1+ MB
+[[1979   12]
+ [ 438   71]]
+[[1863  128]
+ [ 275  234]]
+[[1941   50]
+ [ 391  118]]
+(10000, 10)
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1.]
+ [0. 1. 0. 0. 1.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]]
+(10000, 11)
+[[619 42 2 0.0 1 1 1 101348.88 0.0 0.0 1.0]
+ [608 41 1 83807.86 1 0 1 112542.58 0.0 1.0 1.0]
+ [502 42 8 159660.8 3 1 0 113931.57 0.0 0.0 1.0]
+ [699 39 1 0.0 2 0 0 93826.63 0.0 0.0 1.0]
+ [850 43 2 125510.82 1 1 1 79084.1 0.0 1.0 1.0]]
+Traceback (most recent call last):
+  File "churn-fraud-kantapong-62199130227.py", line 238, in <module>
+    classifier.add(Dense( init = 'uniform', activation = 'sigmoid'))
+TypeError: __init__() missing 1 required positional argument: 'units'
+[Try Solution]: OrderedDict([('API', 'keras.layers.Dense'), ('action', 'arg_rename'), ('from_name', 'output_dim'), ('to_name', 'units')])2021-07-05 11:50:31.254064: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-07-05 11:50:31.277421: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-07-05 11:50:31.278152: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55c899e36160 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-05 11:50:31.278209: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-07-05 11:50:31.278327: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+../../../input/shrutimechlearn_churn-modelling/Churn_Modelling.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   RowNumber        10000 non-null  int64  
+ 1   CustomerId       10000 non-null  int64  
+ 2   Surname          10000 non-null  object 
+ 3   CreditScore      10000 non-null  int64  
+ 4   Geography        10000 non-null  object 
+ 5   Gender           10000 non-null  object 
+ 6   Age              10000 non-null  int64  
+ 7   Tenure           10000 non-null  int64  
+ 8   Balance          10000 non-null  float64
+ 9   NumOfProducts    10000 non-null  int64  
+ 10  HasCrCard        10000 non-null  int64  
+ 11  IsActiveMember   10000 non-null  int64  
+ 12  EstimatedSalary  10000 non-null  float64
+ 13  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(9), object(3)
+memory usage: 1.1+ MB
+[[1979   12]
+ [ 438   71]]
+[[1863  128]
+ [ 275  234]]
+[[1941   50]
+ [ 391  118]]
+(10000, 10)
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1.]
+ [0. 1. 0. 0. 1.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]]
+(10000, 11)
+[[619 42 2 0.0 1 1 1 101348.88 0.0 0.0 1.0]
+ [608 41 1 83807.86 1 0 1 112542.58 0.0 1.0 1.0]
+ [502 42 8 159660.8 3 1 0 113931.57 0.0 0.0 1.0]
+ [699 39 1 0.0 2 0 0 93826.63 0.0 0.0 1.0]
+ [850 43 2 125510.82 1 1 1 79084.1 0.0 1.0 1.0]]
+Traceback (most recent call last):
+  File "churn-fraud-kantapong-62199130227.py", line 238, in <module>
+    classifier.add(Dense(units=1, init = 'uniform', activation = 'sigmoid'))
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/keras/layers/core.py", line 1132, in __init__
+    activity_regularizer=regularizers.get(activity_regularizer), **kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/training/tracking/base.py", line 456, in _method_wrapper
+    result = method(self, *args, **kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/keras/engine/base_layer.py", line 294, in __init__
+    generic_utils.validate_kwargs(kwargs, allowed_kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/keras/utils/generic_utils.py", line 792, in validate_kwargs
+    raise TypeError(error_message, kwarg)
+TypeError: ('Keyword argument not understood:', 'init')
+[Try Solution]: OrderedDict([('API', 'keras.layers.Dense'), ('action', 'arg_delete'), ('from_name', 'init'), ('to_name', '*')])2021-07-05 11:50:36.701674: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-07-05 11:50:36.725536: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-07-05 11:50:36.726284: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x564af6098060 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-05 11:50:36.726320: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-07-05 11:50:36.726419: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+../../../input/shrutimechlearn_churn-modelling/Churn_Modelling.csv
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   RowNumber        10000 non-null  int64  
+ 1   CustomerId       10000 non-null  int64  
+ 2   Surname          10000 non-null  object 
+ 3   CreditScore      10000 non-null  int64  
+ 4   Geography        10000 non-null  object 
+ 5   Gender           10000 non-null  object 
+ 6   Age              10000 non-null  int64  
+ 7   Tenure           10000 non-null  int64  
+ 8   Balance          10000 non-null  float64
+ 9   NumOfProducts    10000 non-null  int64  
+ 10  HasCrCard        10000 non-null  int64  
+ 11  IsActiveMember   10000 non-null  int64  
+ 12  EstimatedSalary  10000 non-null  float64
+ 13  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(9), object(3)
+memory usage: 1.1+ MB
+[[1979   12]
+ [ 438   71]]
+[[1863  128]
+ [ 275  234]]
+[[1941   50]
+ [ 391  118]]
+(10000, 10)
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1.]
+ [0. 1. 0. 0. 1.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+(10000, 5)
+[[1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 1.]
+ [0. 1. 0. 1. 0.]
+ [1. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1.]]
+(10000, 11)
+[[619 42 2 0.0 1 1 1 101348.88 0.0 0.0 1.0]
+ [608 41 1 83807.86 1 0 1 112542.58 0.0 1.0 1.0]
+ [502 42 8 159660.8 3 1 0 113931.57 0.0 0.0 1.0]
+ [699 39 1 0.0 2 0 0 93826.63 0.0 0.0 1.0]
+ [850 43 2 125510.82 1 1 1 79084.1 0.0 1.0 1.0]]
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense (Dense)                (None, 6)                 72        
+_________________________________________________________________
+dense_1 (Dense)              (None, 6)                 42        
+_________________________________________________________________
+dense_2 (Dense)              (None, 1)                 7         
+=================================================================
+Total params: 121
+Trainable params: 121
+Non-trainable params: 0
+_________________________________________________________________
+[REPAIR EXEC TIME]: 54.03735136985779

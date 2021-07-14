@@ -1,0 +1,39 @@
+3333
+51
+Churn rate is: 0.14491449144914492. 
+churn_false/churn_true = 5.900621118012422. churn_false - churn_true = 2367. 
+The data is imbalanced.
+['account length', 'number vmail messages', 'total day minutes', 'total day calls', 'total day charge', 'total eve minutes', 'total eve calls', 'total eve charge', 'total night minutes', 'total night calls', 'total night charge', 'total intl minutes', 'total intl calls', 'total intl charge', 'customer service calls']
+
+{'phone number'}
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.99      0.98       570
+           1       0.91      0.81      0.86        97
+
+    accuracy                           0.96       667
+   macro avg       0.94      0.90      0.92       667
+weighted avg       0.96      0.96      0.96       667
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.99      0.98       570
+           1       0.94      0.77      0.85        97
+
+    accuracy                           0.96       667
+   macro avg       0.95      0.88      0.91       667
+weighted avg       0.96      0.96      0.96       667
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.99      0.98       570
+           1       0.92      0.82      0.87        97
+
+    accuracy                           0.96       667
+   macro avg       0.95      0.91      0.92       667
+weighted avg       0.96      0.96      0.96       667
+

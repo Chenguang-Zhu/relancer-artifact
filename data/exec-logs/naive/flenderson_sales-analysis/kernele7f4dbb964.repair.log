@@ -1,0 +1,4033 @@
+['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'sampling_strategy'), ('to_name', 'random_state')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'sampling_strategy'), ('to_name', 'k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'sampling_strategy'), ('to_name', 'n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_delete'), ('from_name', 'sampling_strategy'), ('to_name', '*')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  76
+Class 1 numbers:  23
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'random_state'), ('to_name', 'sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  75
+Class 1 numbers:  24
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(sampling_strategy=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'random_state'), ('to_name', 'k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  72
+Class 1 numbers:  27
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(k_neighbors=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'random_state'), ('to_name', 'n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  77
+Class 1 numbers:  22
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(n_jobs=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_delete'), ('from_name', 'random_state'), ('to_name', '*')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  75
+Class 1 numbers:  24
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE( ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors'), ('to_name', 'sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  77
+Class 1 numbers:  22
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors'), ('to_name', 'random_state')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  78
+Class 1 numbers:  21
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors'), ('to_name', 'n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  75
+Class 1 numbers:  24
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_delete'), ('from_name', 'k_neighbors'), ('to_name', '*')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  76
+Class 1 numbers:  23
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs'), ('to_name', 'sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs'), ('to_name', 'random_state')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs'), ('to_name', 'k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_delete'), ('from_name', 'n_jobs'), ('to_name', '*')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  72
+Class 1 numbers:  27
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&sampling_strategy'), ('to_name', 'n_jobs&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  78
+Class 1 numbers:  21
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&sampling_strategy'), ('to_name', 'n_jobs&random_state')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  75
+Class 1 numbers:  24
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&sampling_strategy'), ('to_name', 'sampling_strategy&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&sampling_strategy'), ('to_name', 'sampling_strategy&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  76
+Class 1 numbers:  23
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&sampling_strategy'), ('to_name', 'sampling_strategy&random_state')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&sampling_strategy'), ('to_name', 'random_state&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  77
+Class 1 numbers:  22
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&sampling_strategy'), ('to_name', 'random_state&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  71
+Class 1 numbers:  28
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&sampling_strategy'), ('to_name', 'k_neighbors&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&sampling_strategy'), ('to_name', 'k_neighbors&random_state')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&sampling_strategy'), ('to_name', 'sampling_strategy&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&sampling_strategy'), ('to_name', 'sampling_strategy&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  75
+Class 1 numbers:  24
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&sampling_strategy'), ('to_name', 'sampling_strategy&random_state')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  77
+Class 1 numbers:  22
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&sampling_strategy'), ('to_name', 'random_state&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&sampling_strategy'), ('to_name', 'random_state&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&random_state'), ('to_name', 'k_neighbors&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  79
+Class 1 numbers:  20
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&random_state'), ('to_name', 'k_neighbors&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  75
+Class 1 numbers:  24
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&random_state'), ('to_name', 'sampling_strategy&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  77
+Class 1 numbers:  22
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&random_state'), ('to_name', 'sampling_strategy&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  75
+Class 1 numbers:  24
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&random_state'), ('to_name', 'random_state&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&random_state'), ('to_name', 'random_state&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&random_state'), ('to_name', 'random_state&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'sampling_strategy&random_state'), ('to_name', 'k_neighbors&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'sampling_strategy&random_state'), ('to_name', 'k_neighbors&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'sampling_strategy&random_state'), ('to_name', 'n_jobs&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  75
+Class 1 numbers:  24
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'sampling_strategy&random_state'), ('to_name', 'n_jobs&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'sampling_strategy&random_state'), ('to_name', 'random_state&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  69
+Class 1 numbers:  30
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'sampling_strategy&random_state'), ('to_name', 'random_state&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  75
+Class 1 numbers:  24
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'sampling_strategy&random_state'), ('to_name', 'random_state&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  72
+Class 1 numbers:  27
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&random_state'), ('to_name', 'n_jobs&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  76
+Class 1 numbers:  23
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&random_state'), ('to_name', 'n_jobs&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  76
+Class 1 numbers:  23
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&random_state'), ('to_name', 'sampling_strategy&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  75
+Class 1 numbers:  24
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&random_state'), ('to_name', 'sampling_strategy&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&random_state'), ('to_name', 'random_state&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&random_state'), ('to_name', 'random_state&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  75
+Class 1 numbers:  24
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&random_state'), ('to_name', 'random_state&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs'), ('to_name', 'n_jobs&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs'), ('to_name', 'n_jobs&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs'), ('to_name', 'n_jobs&random_state')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs'), ('to_name', 'sampling_strategy&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs'), ('to_name', 'sampling_strategy&random_state')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs'), ('to_name', 'random_state&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs'), ('to_name', 'random_state&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&sampling_strategy'), ('to_name', 'n_jobs&k_neighbors&random_state')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  71
+Class 1 numbers:  28
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&sampling_strategy'), ('to_name', 'n_jobs&sampling_strategy&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  77
+Class 1 numbers:  22
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&sampling_strategy'), ('to_name', 'n_jobs&sampling_strategy&random_state')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  76
+Class 1 numbers:  23
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&sampling_strategy'), ('to_name', 'n_jobs&random_state&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  76
+Class 1 numbers:  23
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&sampling_strategy'), ('to_name', 'sampling_strategy&k_neighbors&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  78
+Class 1 numbers:  21
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&sampling_strategy'), ('to_name', 'sampling_strategy&k_neighbors&random_state')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  77
+Class 1 numbers:  22
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&sampling_strategy'), ('to_name', 'sampling_strategy&random_state&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  75
+Class 1 numbers:  24
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&sampling_strategy'), ('to_name', 'sampling_strategy&random_state&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&sampling_strategy'), ('to_name', 'random_state&k_neighbors&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  71
+Class 1 numbers:  28
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&sampling_strategy'), ('to_name', 'random_state&sampling_strategy&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&sampling_strategy'), ('to_name', 'random_state&sampling_strategy&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  71
+Class 1 numbers:  28
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&random_state'), ('to_name', 'n_jobs&k_neighbors&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  76
+Class 1 numbers:  23
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&random_state'), ('to_name', 'n_jobs&sampling_strategy&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&random_state'), ('to_name', 'n_jobs&random_state&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&random_state'), ('to_name', 'n_jobs&random_state&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  77
+Class 1 numbers:  22
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&random_state'), ('to_name', 'sampling_strategy&k_neighbors&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&random_state'), ('to_name', 'sampling_strategy&random_state&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&random_state'), ('to_name', 'sampling_strategy&random_state&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  75
+Class 1 numbers:  24
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&random_state'), ('to_name', 'random_state&k_neighbors&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  78
+Class 1 numbers:  21
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&random_state'), ('to_name', 'random_state&k_neighbors&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  76
+Class 1 numbers:  23
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&random_state'), ('to_name', 'random_state&sampling_strategy&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&random_state'), ('to_name', 'random_state&sampling_strategy&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  75
+Class 1 numbers:  24
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&sampling_strategy&random_state'), ('to_name', 'k_neighbors&n_jobs&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&sampling_strategy&random_state'), ('to_name', 'k_neighbors&random_state&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  75
+Class 1 numbers:  24
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&sampling_strategy&random_state'), ('to_name', 'k_neighbors&random_state&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&sampling_strategy&random_state'), ('to_name', 'sampling_strategy&k_neighbors&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  72
+Class 1 numbers:  27
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&sampling_strategy&random_state'), ('to_name', 'sampling_strategy&n_jobs&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  75
+Class 1 numbers:  24
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&sampling_strategy&random_state'), ('to_name', 'sampling_strategy&random_state&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&sampling_strategy&random_state'), ('to_name', 'sampling_strategy&random_state&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&sampling_strategy&random_state'), ('to_name', 'random_state&k_neighbors&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  78
+Class 1 numbers:  21
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&sampling_strategy&random_state'), ('to_name', 'random_state&k_neighbors&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  72
+Class 1 numbers:  27
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&sampling_strategy&random_state'), ('to_name', 'random_state&n_jobs&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  72
+Class 1 numbers:  27
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'n_jobs&sampling_strategy&random_state'), ('to_name', 'random_state&n_jobs&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&sampling_strategy&random_state'), ('to_name', 'n_jobs&k_neighbors&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  76
+Class 1 numbers:  23
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&sampling_strategy&random_state'), ('to_name', 'n_jobs&random_state&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  75
+Class 1 numbers:  24
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&sampling_strategy&random_state'), ('to_name', 'n_jobs&random_state&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  71
+Class 1 numbers:  28
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&sampling_strategy&random_state'), ('to_name', 'sampling_strategy&k_neighbors&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  76
+Class 1 numbers:  23
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&sampling_strategy&random_state'), ('to_name', 'sampling_strategy&n_jobs&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&sampling_strategy&random_state'), ('to_name', 'sampling_strategy&random_state&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  77
+Class 1 numbers:  22
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&sampling_strategy&random_state'), ('to_name', 'sampling_strategy&random_state&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  71
+Class 1 numbers:  28
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&sampling_strategy&random_state'), ('to_name', 'random_state&k_neighbors&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&sampling_strategy&random_state'), ('to_name', 'random_state&k_neighbors&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&sampling_strategy&random_state'), ('to_name', 'random_state&n_jobs&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  71
+Class 1 numbers:  28
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&sampling_strategy&random_state'), ('to_name', 'random_state&n_jobs&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&sampling_strategy&random_state'), ('to_name', 'n_jobs&k_neighbors&random_state&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  72
+Class 1 numbers:  27
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&sampling_strategy&random_state'), ('to_name', 'n_jobs&sampling_strategy&random_state&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  72
+Class 1 numbers:  27
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&sampling_strategy&random_state'), ('to_name', 'n_jobs&random_state&k_neighbors&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  72
+Class 1 numbers:  27
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&sampling_strategy&random_state'), ('to_name', 'sampling_strategy&k_neighbors&random_state&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&sampling_strategy&random_state'), ('to_name', 'sampling_strategy&random_state&k_neighbors&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  72
+Class 1 numbers:  27
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&sampling_strategy&random_state'), ('to_name', 'sampling_strategy&random_state&n_jobs&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  73
+Class 1 numbers:  26
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&sampling_strategy&random_state'), ('to_name', 'random_state&k_neighbors&n_jobs&sampling_strategy')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  69
+Class 1 numbers:  30
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&sampling_strategy&random_state'), ('to_name', 'random_state&sampling_strategy&k_neighbors&n_jobs')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  74
+Class 1 numbers:  25
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_rename'), ('from_name', 'k_neighbors&n_jobs&sampling_strategy&random_state'), ('to_name', 'random_state&sampling_strategy&n_jobs&k_neighbors')])['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  75
+Class 1 numbers:  24
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[REPAIR EXEC TIME]: 409.6328835487366

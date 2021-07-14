@@ -1,0 +1,4 @@
+  File "logistic-regression-and-knn-predictors.py", line 233
+    kf = KFold(n_splits=True), n_folds=10, shuffle=False)
+                                                        ^
+SyntaxError: invalid syntax

@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 12, in <module>
+    from pandas.tools.plotting import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.tools'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.plotting'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 15, in <module>
+    from sklearn import cross_validation
+ImportError: cannot import name 'cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 15)])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[REPAIR EXEC TIME]: 4.7214953899383545Traceback (most recent call last):
+  File "haberman-s-survival.py", line 12, in <module>
+    from pandas.tools.plotting import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.tools'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.plotting'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 15, in <module>
+    from sklearn import cross_validation
+ImportError: cannot import name 'cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 15)])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[REPAIR EXEC TIME]: 4.551123380661011

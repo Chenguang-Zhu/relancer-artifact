@@ -1,0 +1,1669 @@
+[
+  {
+    "API": "sklearn.linear_model.LogisticRegression",
+    "params": [
+      {
+        "name": "penalty",
+        "values": [
+          "l1",
+          "l2",
+          "elasticnet",
+          "none"
+        ],
+        "default": [
+          "l2"
+        ],
+        "position": 0
+      },
+      {
+        "name": "dualbool",
+        "values": [
+          "True",
+          "False"
+        ],
+        "default": "False",
+        "position": 1
+      },
+      {
+        "name": "tol",
+        "values": "float"
+      },
+      {
+        "name": "C",
+        "values": "float"
+      },
+      {
+        "name": "fit_intercept",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "intercept_scaling",
+        "values": "float"
+      },
+      {
+        "name": "class_weight",
+        "values": "dict"
+      },
+      {
+        "name": "random_state",
+        "values": "int",
+        "default": "None",
+        "position": 2
+      },
+      {
+        "name": "solver",
+        "values": [
+          "newton-cg",
+          "lbfgs",
+          "liblinear",
+          "sag",
+          "saga"
+        ],
+        "default": "lbfgs",
+        "position": 3
+      },
+      {
+        "name": "max_iter",
+        "values": "int"
+      },
+      {
+        "name": "multi_class",
+        "values": [
+          "auto",
+          "ovr",
+          "multinomial"
+        ]
+      },
+      {
+        "name": "verbose",
+        "values": "int"
+      },
+      {
+        "name": "warm_start",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "n_jobs",
+        "values": "int"
+      },
+      {
+        "name": "l1_ratio",
+        "values": "float"
+      }
+    ]
+  },
+  {
+    "API": "sklearn.metrics.jaccard_score",
+    "params": [
+      {
+        "name": "y_true",
+        "values": "array"
+      },
+      {
+        "name": "y_pred",
+        "values": "array"
+      },
+      {
+        "name": "labels",
+        "values": "array"
+      },
+      {
+        "name": "average",
+        "values": [
+          "None",
+          "binary",
+          "micro",
+          "macro",
+          "samples",
+          "weighted"
+        ],
+        "default": "binary",
+        "position": 0
+      },
+      {
+        "name": "pos_label",
+        "values": "int",
+        "default": 1,
+        "position": 1
+      },
+      {
+        "name": "sample_weight",
+        "values": "array"
+      },
+      {
+        "name": "zero_division",
+        "values": [
+          "warn",
+          "0.0",
+          "1.0"
+        ]
+      }
+    ]
+  },
+  {
+    "API": "sklearn.model_selection.KFold",
+    "params": [
+      {
+        "name": "n_splits",
+        "values": "int",
+        "default": 5,
+        "position": 0
+      },
+      {
+        "name": "shuffle",
+        "values": [
+          "True",
+          "False"
+        ],
+        "default": "False",
+        "position": 1
+      },
+      {
+        "name": "random_state",
+        "values": "int",
+        "default": "None",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "API": "sklearn.model_selection.StratifiedKFold",
+    "params": [
+      {
+        "name": "n_splits",
+        "values": "int",
+        "default": 5,
+        "position": 0
+      },
+      {
+        "name": "shuffle",
+        "values": [
+          "True",
+          "False"
+        ],
+        "default": "False",
+        "position": 1
+      },
+      {
+        "name": "random_state",
+        "values": "int",
+        "default": "None",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "API": "sklearn.preprocessing.OneHotEncoder",
+    "params": [
+      {
+        "name": "categories",
+        "values": "array",
+        "default": "auto",
+        "position": 0
+      },
+      {
+        "name": "drop",
+        "values": [
+          "first",
+          "if_binary"
+        ],
+        "default": "None",
+        "position": 1
+      },
+      {
+        "name": "sparse",
+        "values": [
+          "True",
+          "False"
+        ],
+        "default": "True",
+        "position": 2
+      },
+      {
+        "name": "dtype",
+        "values": "type",
+        "default": "np.float",
+        "position": 3
+      },
+      {
+        "name": "handle_unknown",
+        "values": [
+          "error",
+          "ignore"
+        ],
+        "default": "error",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "API": "sklearn.model_selection.ShuffleSplit",
+    "params": [
+      {
+        "name": "n_splits",
+        "values": "int",
+        "default": 10,
+        "position": 0
+      },
+      {
+        "name": "test_size",
+        "values": "float",
+        "default": "None",
+        "position": 1
+      },
+      {
+        "name": "train_size",
+        "values": "float",
+        "default": "None",
+        "position": 2
+      },
+      {
+        "name": "random_state",
+        "values": "int",
+        "default": "None",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "API": "sklearn.linear_model.Lars",
+    "params": [
+      {
+        "name": "fit_intercept",
+        "values": [
+          "True",
+          "False"
+        ],
+        "default": "True",
+        "position": 0
+      },
+      {
+        "name": "verbose",
+        "values": [
+          "True",
+          "False"
+        ],
+        "default": "False",
+        "position": 1
+      },
+      {
+        "name": "normalize",
+        "values": [
+          "True",
+          "False"
+        ],
+        "default": "True",
+        "position": 2
+      },
+      {
+        "name": "precompute",
+        "values": [
+          "True",
+          "False",
+          "auto"
+        ],
+        "default": "auto",
+        "position": 3
+      },
+      {
+        "name": "n_nonzero_coefs",
+        "values": "int",
+        "default": "500",
+        "position": 4
+      },
+      {
+        "name": "eps",
+        "values": "float",
+        "default": "optional",
+        "position": 5
+      },
+      {
+        "name": "copy_X",
+        "values": [
+          "True",
+          "False"
+        ],
+        "default": "True",
+        "position": 6
+      },
+      {
+        "name": "fit_path",
+        "values": [
+          "True",
+          "False"
+        ],
+        "default": "True",
+        "position": 7
+      },
+      {
+        "name": "jitter",
+        "values": "float",
+        "default": "None",
+        "position": 8
+      },
+      {
+        "name": "random_state",
+        "values": "int",
+        "default": "None",
+        "position": 9
+      }
+    ]
+  },
+  {
+    "API": "sklearn.impute.SimpleImputer",
+    "params": [
+      {
+        "name": "missing_values",
+        "values": [
+          "number",
+          "string",
+          "np.nan",
+          "None"
+        ],
+        "default": "np.nan",
+        "position": 0
+      },
+      {
+        "name": "strategy",
+        "values": "string",
+        "default": "mean",
+        "position": 1
+      },
+      {
+        "name": "fill_values",
+        "values": "string",
+        "default": "None",
+        "position": 2
+      },
+      {
+        "name": "verbose",
+        "values": "int",
+        "default": 0,
+        "position": 3
+      },
+      {
+        "name": "copy",
+        "values": [
+          "True",
+          "False"
+        ],
+        "default": "True",
+        "position": 4
+      },
+      {
+        "name": "add_indicator",
+        "values": [
+          "True",
+          "False"
+        ],
+        "default": "False",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "API": "pandas.to_numeric",
+    "params": [
+      {
+        "name": "arg",
+        "values": "array",
+        "default": "None",
+        "position": 0
+      },
+      {
+        "name": "errors",
+        "values": [
+          "ignore",
+          "raise",
+          "coerce"
+        ],
+        "default": "raise",
+        "position": 1
+      },
+      {
+        "name": "downcast",
+        "values": [
+          "integer",
+          "signed",
+          "unsigned",
+          "float"
+        ],
+        "default": "None",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "API": "PIL.Image.fromarray",
+    "params": [
+      {
+        "name": "obj",
+        "values": "array",
+        "default": "None",
+        "position": 3
+      },
+      {
+        "name": "mode",
+        "values": [
+          "1",
+          "L",
+          "P",
+          "RGB",
+          "RGBA",
+          "CMYK",
+          "YCbCr",
+          "LAB",
+          "HSV",
+          "I",
+          "F"
+        ],
+        "default": "None",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "API": "tensorflow.compat.v1.placeholder",
+    "params": [
+      {
+        "name": "dtype",
+        "values": "",
+        "default": "None",
+        "position": 0
+      },
+      {
+        "name": "shape",
+        "values": "",
+        "default": "None",
+        "position": 1
+      },
+      {
+        "name": "name",
+        "values": "",
+        "default": "None",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "API": "seaborn.lineplot",
+    "params": [
+      {
+        "name": "x",
+        "values": "vector",
+        "default": "None",
+        "position": 0
+      },
+      {
+        "name": "y",
+        "values": "vector",
+        "default": "None",
+        "position": 1
+      },
+      {
+        "name": "hue",
+        "values": "vector",
+        "default": "None",
+        "position": 2
+      },
+      {
+        "name": "size",
+        "values": "vector",
+        "default": "None",
+        "position": 3
+      },
+      {
+        "name": "style",
+        "values": "vector",
+        "default": "None",
+        "position": 4
+      },
+      {
+        "name": "data",
+        "values": [
+          "pandas.DataFrame",
+          "numpy.ndarray",
+          "mapping",
+          "sequence"
+        ],
+        "default": "None",
+        "position": 5
+      },
+      {
+        "name": "palette",
+        "values": [
+          "string",
+          "list",
+          "dict",
+          "matplotlib.colors.Colormap"
+        ],
+        "default": "",
+        "position": 6
+      },
+      {
+        "name": "hue_order",
+        "values": "vector",
+        "default": "None",
+        "position": 7
+      },
+      {
+        "name": "hue_norm",
+        "values": [
+          "tuple",
+          "matplotlib.colors.Normalize"
+        ],
+        "default": "",
+        "position": 8
+      },
+      {
+        "name": "sizes",
+        "values": [
+          "list",
+          "dict",
+          "tuple"
+        ],
+        "default": "None",
+        "position": 9
+      },
+      {
+        "name": "ax",
+        "values": "matplotlib.axes.Axes",
+        "default": "None",
+        "position": 10
+      },
+      {
+        "name": "kwargs",
+        "values": "mappings",
+        "default": "None",
+        "position": 11
+      }
+    ]
+  },
+  {
+    "API": "seaborn.distplot",
+    "params": [
+      {
+        "name": "a",
+        "values": [
+          "Series",
+          "1d-array",
+          "list"
+        ],
+        "default": "None",
+        "position": 0
+      },
+      {
+        "name": "bins",
+        "values": "",
+        "default": "None",
+        "position": 1
+      },
+      {
+        "name": "color",
+        "values": "",
+        "default": "None",
+        "position": 2
+      },
+      {
+        "name": "ax",
+        "values": "",
+        "default": "None",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "API": "tensorflow.keras.backend.set_image_data_format",
+    "params": [
+      {
+        "name": "data_format",
+        "values": [
+          "channels_first",
+          "channels_last"
+        ],
+        "default": "None",
+        "position": 0
+      }
+    ]
+  },
+  {
+    "API": "sklearn.metrics.jaccard_similarity_score",
+    "params": [
+      {
+        "name": "y_true",
+        "values": "array"
+      },
+      {
+        "name": "y_pred",
+        "values": "array"
+      },
+      {
+        "name": "normalize",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "sample_weight",
+        "values": "array"
+      }
+    ]
+  },
+  {
+    "API": "sklearn.preprocessing.Imputer",
+    "params": [
+      {
+        "name": "missing_values",
+        "values": [
+          "int",
+          "NaN"
+        ]
+      },
+      {
+        "name": "strategy",
+        "values": [
+          "mean",
+          "median",
+          "most_frequent"
+        ]
+      },
+      {
+        "name": "axis",
+        "values": "int"
+      },
+      {
+        "name": "verbose",
+        "values": "int"
+      },
+      {
+        "name": "copy",
+        "values": [
+          "True",
+          "False"
+        ]
+      }
+    ]
+  },
+  {
+    "API": "networkx.from_pandas_dataframe",
+    "params": [
+      {
+        "name": "df",
+        "values": "dataframe"
+      },
+      {
+        "name": "source",
+        "values": "int"
+      },
+      {
+        "name": "target",
+        "values": "int"
+      },
+      {
+        "name": "edge_attr",
+        "values": "int"
+      },
+      {
+        "name": "create_using",
+        "values": "graph"
+      }
+    ]
+  },
+  {
+    "API": "statsmodels.formula.api.OLS",
+    "params": [
+      {
+        "name": "formula",
+        "values": "str"
+      },
+      {
+        "name": "data",
+        "values": "array"
+      },
+      {
+        "name": "subset",
+        "values": "array"
+      },
+      {
+        "name": "drop_cols",
+        "values": "array"
+      },
+      {
+        "name": "args",
+        "values": "*"
+      },
+      {
+        "name": "kwargs",
+        "values": "*"
+      }
+    ]
+  },
+  {
+    "API": "sklearn.learning_curve.learning_curve",
+    "params": [
+      {
+        "name": "estimator",
+        "values": "obj"
+      },
+      {
+        "name": "X",
+        "values": "array"
+      },
+      {
+        "name": "y",
+        "values": "array"
+      },
+      {
+        "name": "groups",
+        "values": "array"
+      },
+      {
+        "name": "train_sizes",
+        "values": "array"
+      },
+      {
+        "name": "cv",
+        "values": "int"
+      },
+      {
+        "name": "scoring",
+        "values": "str"
+      },
+      {
+        "name": "exploit_incremental_learning",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "n_jobs",
+        "values": "int"
+      },
+      {
+        "name": "pre_dispatch",
+        "values": "int"
+      },
+      {
+        "name": "verbose",
+        "values": "int"
+      },
+      {
+        "name": "shuffle",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "random_state",
+        "values": "int"
+      },
+      {
+        "name": "error_score",
+        "values": [
+          "raise",
+          "np.nan"
+        ]
+      },
+      {
+        "name": "return_times",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "fit_params",
+        "values": "dict"
+      }
+    ]
+  },
+  {
+    "API": "sklearn.learning_curve.validation_curve",
+    "params": [
+      {
+        "name": "estimator",
+        "values": "obj"
+      },
+      {
+        "name": "X",
+        "values": "array"
+      },
+      {
+        "name": "y",
+        "values": "array"
+      },
+      {
+        "name": "groups",
+        "values": "array"
+      },
+      {
+        "name": "train_sizes",
+        "values": "array"
+      },
+      {
+        "name": "cv",
+        "values": "int"
+      },
+      {
+        "name": "scoring",
+        "values": "str"
+      },
+      {
+        "name": "exploit_incremental_learning",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "n_jobs",
+        "values": "int"
+      },
+      {
+        "name": "pre_dispatch",
+        "values": "int"
+      },
+      {
+        "name": "verbose",
+        "values": "int"
+      },
+      {
+        "name": "shuffle",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "random_state",
+        "values": "int"
+      },
+      {
+        "name": "error_score",
+        "values": [
+          "raise",
+          "np.nan"
+        ]
+      },
+      {
+        "name": "return_times",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "fit_params",
+        "values": "dict"
+      }
+    ]
+  },
+  {
+    "API": "sklearn.linear_model.Perceptron",
+    "params": [
+      {
+        "name": "penalty",
+        "values": [
+          "l2",
+          "l1",
+          "elasticnet"
+        ]
+      },
+      {
+        "name": "alpha",
+        "values": "float"
+      },
+      {
+        "name": "l1_ratio",
+        "values": "float"
+      },
+      {
+        "name": "fit_intercept",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "max_iter",
+        "values": "int"
+      },
+      {
+        "name": "tol",
+        "values": "float"
+      },
+      {
+        "name": "shuffle",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "verbose",
+        "values": "int"
+      },
+      {
+        "name": "eta0",
+        "values": "double"
+      },
+      {
+        "name": "n_jobs",
+        "values": "int"
+      },
+      {
+        "name": "random_state",
+        "values": "int"
+      },
+      {
+        "name": "early_stopping",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "validation_fraction",
+        "values": "float"
+      },
+      {
+        "name": "n_iter_no_change",
+        "values": "int"
+      },
+      {
+        "name": "class_weight",
+        "values": "dict"
+      },
+      {
+        "name": "warm_start",
+        "values": [
+          "True",
+          "False"
+        ]
+      }
+    ]
+  },
+  {
+    "API": "keras.models.Sequential.fit",
+    "params": [
+      {
+        "name": "x",
+        "values": "array"
+      },
+      {
+        "name": "y",
+        "values": "array"
+      },
+      {
+        "name": "batch_size",
+        "values": "int"
+      },
+      {
+        "name": "epochs",
+        "values": "int"
+      },
+      {
+        "name": "verbose",
+        "values": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "callbacks",
+        "values": "list"
+      },
+      {
+        "name": "validation_split",
+        "values": "float"
+      },
+      {
+        "name": "validation_data",
+        "values": "tuple"
+      },
+      {
+        "name": "shuffle",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "class_weight",
+        "values": "dict"
+      },
+      {
+        "name": "sample_weight",
+        "values": "array"
+      },
+      {
+        "name": "initial_epoch",
+        "values": "int"
+      },
+      {
+        "name": "steps_per_epoch",
+        "values": "int"
+      },
+      {
+        "name": "validation_steps",
+        "values": "int"
+      },
+      {
+        "name": "validation_batch_size",
+        "values": "int"
+      },
+      {
+        "name": "validation_freq",
+        "values": "int"
+      },
+      {
+        "name": "max_queue_size",
+        "values": "int"
+      },
+      {
+        "name": "workers",
+        "values": "int"
+      },
+      {
+        "name": "use_multiprocessing",
+        "values": [
+          "True",
+          "False"
+        ]
+      }
+    ]
+  },
+  {
+    "API": "imblearn.over_sampling.SMOTE",
+    "params": [
+      {
+        "name": "sampling_strategy",
+        "values": "float"
+      },
+      {
+        "name": "random_state",
+        "values": "int"
+      },
+      {
+        "name": "k_neighbors",
+        "values": "int"
+      },
+      {
+        "name": "n_jobs",
+        "values": "int"
+      }
+    ]
+  },
+  {
+    "API": "imblearn.combine.SMOTETomek",
+    "params": [
+      {
+        "name": "sampling_strategy",
+        "values": "float"
+      },
+      {
+        "name": "random_state",
+        "values": "int"
+      },
+      {
+        "name": "smote",
+        "values": "object"
+      },
+      {
+        "name": "tomek",
+        "values": "object"
+      },
+      {
+        "name": "n_jobs",
+        "values": "int"
+      }
+    ]
+  },
+  {
+    "API": "sklearn.linear_model.SGDClassifier",
+    "params": [
+      {
+        "name": "loss",
+        "values": "str"
+      },
+      {
+        "name": "penalty",
+        "values": [
+          "l2",
+          "l1",
+          "elasticnet"
+        ]
+      },
+      {
+        "name": "alpha",
+        "values": "float"
+      },
+      {
+        "name": "l1_ratio",
+        "values": "float"
+      },
+      {
+        "name": "fit_intercept",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "max_iter",
+        "values": "int"
+      },
+      {
+        "name": "tol",
+        "values": "float"
+      },
+      {
+        "name": "shuffle",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "verbose",
+        "values": "int"
+      },
+      {
+        "name": "epsilon",
+        "values": "float"
+      },
+      {
+        "name": "n_jobs",
+        "values": "int"
+      },
+      {
+        "name": "random_state",
+        "values": "int"
+      },
+      {
+        "name": "learning_rate",
+        "values": "str"
+      },
+      {
+        "name": "eta0",
+        "values": "double"
+      },
+      {
+        "name": "power_t",
+        "values": "double"
+      },
+      {
+        "name": "early_stopping",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "validation_fraction",
+        "values": "float"
+      },
+      {
+        "name": "n_iter_no_change",
+        "values": "int"
+      },
+      {
+        "name": "class_weight",
+        "values": "dict"
+      },
+      {
+        "name": "warm_start",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "average",
+        "values": [
+          "True",
+          "False"
+        ]
+      }
+    ]
+  },
+  {
+    "API": "sklearn.decomposition.LatentDirichletAllocation",
+    "params": [
+      {
+        "name": "n_components",
+        "values": "int"
+      },
+      {
+        "name": "doc_topic_prior",
+        "values": "float"
+      },
+      {
+        "name": "topic_word_prior",
+        "values": "float"
+      },
+      {
+        "name": "learning_method",
+        "values": [
+          "batch",
+          "online"
+        ]
+      },
+      {
+        "name": "learning_decay",
+        "values": "float"
+      },
+      {
+        "name": "learning_offset",
+        "values": "float"
+      },
+      {
+        "name": "max_iter",
+        "values": "int"
+      },
+      {
+        "name": "batch_size",
+        "values": "int"
+      },
+      {
+        "name": "evaluate_every",
+        "values": "int"
+      },
+      {
+        "name": "total_samples",
+        "values": "int"
+      },
+      {
+        "name": "perp_tol",
+        "values": "float"
+      },
+      {
+        "name": "mean_change_tol",
+        "values": "float"
+      },
+      {
+        "name": "max_doc_update_iter",
+        "values": "int"
+      },
+      {
+        "name": "n_jobs",
+        "values": "int"
+      },
+      {
+        "name": "verbose",
+        "values": "int"
+      },
+      {
+        "name": "random_state",
+        "values": "int"
+      }
+    ]
+  },
+  {
+    "API": "pandas_profiling.ProfileReport",
+    "params": [
+      {
+        "name": "df",
+        "values": "pandas.DataFrame"
+      },
+      {
+        "name": "minimal",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "config_file",
+        "values": "str"
+      },
+      {
+        "name": "lazy",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "sample",
+        "values": "dict"
+      },
+      {
+        "name": "typeset",
+        "values": "VisionsTypeset"
+      },
+      {
+        "name": "summarizer",
+        "values": "BaseSummarizer"
+      }
+    ]
+  },
+  {
+    "API": "pandas.DataFrame.asType",
+    "params": [
+      {
+        "name": "dtype",
+        "values": "type"
+      },
+      {
+        "name": "copy",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "errors",
+        "values": [
+          "raise",
+          "ignore"
+        ]
+      }
+    ]
+  },
+  {
+    "API": "keras.layers.Dense",
+    "params": [
+      {
+        "name": "units",
+        "values": "int"
+      },
+      {
+        "name": "activation",
+        "values": "function"
+      },
+      {
+        "name": "use_bias",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "kernel_initializer",
+        "values": "UNKNOWN"
+      },
+      {
+        "name": "bias_initializer",
+        "values": "UNKNOWN"
+      },
+      {
+        "name": "kernel_regularizer",
+        "values": "function"
+      },
+      {
+        "name": "bias_regularizer",
+        "values": "function"
+      },
+      {
+        "name": "activity_regularizer",
+        "values": "function"
+      },
+      {
+        "name": "kernel_constraint",
+        "values": "function"
+      },
+      {
+        "name": "bias_constraint",
+        "values": "function"
+      }
+    ]
+  },
+  {
+    "API": "sklearn.model_selection.GridSearchCV",
+    "params": [
+      {
+        "name": "estimator",
+        "values": "object"
+      },
+      {
+        "name": "param_grid",
+        "values": "dict"
+      },
+      {
+        "name": "scoring",
+        "values": "str"
+      },
+      {
+        "name": "n_jobs",
+        "values": "int"
+      },
+      {
+        "name": "pre_dispatch",
+        "values": "int"
+      },
+      {
+        "name": "cv",
+        "values": "int"
+      },
+      {
+        "name": "refit",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "verbose",
+        "values": "int"
+      },
+      {
+        "name": "error_score",
+        "values": [
+          "raise",
+          "np.nan"
+        ]
+      },
+      {
+        "name": "return_train_score",
+        "values": [
+          "True",
+          "False"
+        ]
+      }
+    ]
+  },
+  {
+    "API": "tensorflow.compat.v1.train.sdca_optimizer",
+    "params": [
+      {
+        "name": "sparse_example_indices",
+        "values": "list"
+      },
+      {
+        "name": "sparse_feature_indices",
+        "values": "list"
+      },
+      {
+        "name": "sparse_feature_values",
+        "values": "list"
+      },
+      {
+        "name": "dense_features",
+        "values": "list"
+      },
+      {
+        "name": "example_weights",
+        "values": "object"
+      },
+      {
+        "name": "example_labels",
+        "values": "object"
+      },
+      {
+        "name": "sparse_indices",
+        "values": "list"
+      },
+      {
+        "name": "sparse_weights",
+        "values": "list"
+      },
+      {
+        "name": "dense_weights",
+        "values": "list"
+      },
+      {
+        "name": "example_state_data",
+        "values": "object"
+      },
+      {
+        "name": "loss_type",
+        "values": [
+          "logistic_loss",
+          "squared_loss",
+          "hinge_loss",
+          "smooth_hinge_loss",
+          "poisson_loss"
+        ]
+      },
+      {
+        "name": "l1",
+        "values": "float"
+      },
+      {
+        "name": "l2",
+        "values": "float"
+      },
+      {
+        "name": "num_loss_partitions",
+        "values": "int"
+      },
+      {
+        "name": "num_inner_iterations",
+        "values": "int"
+      },
+      {
+        "name": "adaptative",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "name",
+        "values": "UNKNOWN"
+      }
+    ]
+  },
+  {
+    "API": "keras.backend.set_image_data_format",
+    "params": [
+      {
+        "name": "data_format",
+        "values": [
+          "channels_first",
+          "channels_last"
+        ]
+      }
+    ]
+  },
+  {
+    "API": "keras.layers.core.Dense",
+    "params": [
+      {
+        "name": "units",
+        "values": "int"
+      },
+      {
+        "name": "activation",
+        "values": "function"
+      },
+      {
+        "name": "use_bias",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "kernel_initializer",
+        "values": "UNKNOWN"
+      },
+      {
+        "name": "bias_initializer",
+        "values": "UNKNOWN"
+      },
+      {
+        "name": "kernel_regularizer",
+        "values": "function"
+      },
+      {
+        "name": "bias_regularizer",
+        "values": "function"
+      },
+      {
+        "name": "activity_regularizer",
+        "values": "function"
+      },
+      {
+        "name": "kernel_constraint",
+        "values": "function"
+      },
+      {
+        "name": "bias_constraint",
+        "values": "function"
+      }
+    ]
+  },
+  {
+    "API": "keras.layers.Dropout",
+    "params": [
+      {
+        "name": "rate",
+        "values": "float"
+      },
+      {
+        "name": "noise_shape",
+        "values": "object"
+      },
+      {
+        "name": "seed",
+        "values": "int"
+      }
+    ]
+  },
+  {
+    "API": "sklearn.preprocessing.scale",
+    "params": [
+      {
+        "name": "X",
+        "values": "aray"
+      },
+      {
+        "name": "axis",
+        "values": "int"
+      },
+      {
+        "name": "with_mean",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "with_std",
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "copy",
+        "values": [
+          "True",
+          "False"
+        ]
+      }
+    ]
+  }
+]

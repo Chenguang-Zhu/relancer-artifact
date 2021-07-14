@@ -1,0 +1,11 @@
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/core/frame.py:4172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  method=method,
+Traceback (most recent call last):
+  File "behavior-based-on-protein-expression-using-svm.py", line 108, in <module>
+    imputer = scale()
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: scale() missing 1 required positional argument: 'X'

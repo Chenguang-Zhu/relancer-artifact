@@ -1,0 +1,56 @@
+Speed Dating Data.csv
+
+Top 10 Features with the highest F value
+   Model.Feature_Importances_Based_on_F predictors.columns
+0                               1316.63               like
+1                               1093.92               attr
+2                                533.17             attr_o
+3                                379.04               shar
+4                                366.71            C(race)
+5                                360.49               prob
+6                                327.71        C(samerace)
+7                                247.59             prob_o
+8                                134.75               sinc
+9                                116.37                fun
+
+if the partner are from the same race are more keen to go for a date?
+what are the cross selections from the different races 
+Top 10 Features with the highest F value
+   Model.Feature_Importances_Based_on_F predictors.columns
+0                           3158.150321               attr
+1                           2620.042686               like
+2                            802.125591               prob
+3                            430.722457               sinc
+4                            390.236235                amb
+5                            155.712514               date
+6                            153.864091             attr_o
+7                            141.762974            imprace
+8                            133.352701             go_out
+9                            132.115839               shar
+
+Confusion Matrix
+[[10125  2405]
+ [ 1790  4835]]
+Accuracy Score
+0.7809971286870269
+ROC AUC: 0.76
+
+Confusion Matrix
+[[7829 2135]
+ [1805 7269]]
+Accuracy Score
+0.7930454879714256
+ROC AUC: 0.79
+
+Confusion Matrix
+[[11915     6]
+ [    0  7234]]
+Accuracy Score
+0.9996867658574785
+AxesSubplot(0.125,0.11;0.775x0.77)
+Confusion Matrix
+[[9634    0]
+ [   0 9404]]
+Accuracy Score
+1.0
+AxesSubplot(0.125,0.11;0.775x0.77)

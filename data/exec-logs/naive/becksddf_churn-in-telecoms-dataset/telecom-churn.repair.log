@@ -1,0 +1,99 @@
+Traceback (most recent call last):
+  File "telecom-churn.py", line 60, in <module>
+    from sklearn.externals import joblib
+ImportError: cannot import name 'joblib'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.joblib'), ('new_fqn', 'sklearn.experimental'), ('line_no', 60)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+(3333, 21)
+Index(['state', 'account length', 'area code', 'phone number',
+       'international plan', 'voice mail plan', 'number vmail messages',
+       'total day minutes', 'total day calls', 'total day charge',
+       'total eve minutes', 'total eve calls', 'total eve charge',
+       'total night minutes', 'total night calls', 'total night charge',
+       'total intl minutes', 'total intl calls', 'total intl charge',
+       'customer service calls', 'churn'],
+      dtype='object')
+WV    106
+MN     84
+NY     83
+AL     80
+OR     78
+WI     78
+OH     78
+VA     77
+WY     77
+CT     74
+ID     73
+VT     73
+MI     73
+UT     72
+TX     72
+IN     71
+KS     70
+MD     70
+NC     68
+MT     68
+NJ     68
+WA     66
+NV     66
+CO     66
+MS     65
+MA     65
+RI     65
+AZ     64
+FL     63
+MO     63
+NM     62
+ME     62
+ND     62
+NE     61
+OK     61
+DE     61
+SD     60
+SC     60
+KY     59
+IL     58
+NH     56
+AR     55
+GA     54
+DC     54
+HI     53
+TN     53
+AK     52
+LA     51
+PA     45
+IA     44
+CA     34
+Name: state, dtype: int64
+no     3010
+yes     323
+Name: international plan, dtype: int64
+no     2411
+yes     922
+Name: voice mail plan, dtype: int64
+
+Train accuracy:  1.0
+Test accuracy:  0.956
+Train data accuracy: 1.0
+Test data accuracy: 0.898
+Train accuracy: 0.8606943849121304
+Test accuracy: 0.849
+Traceback (most recent call last):
+  File "telecom-churn.py", line 460, in <module>
+    sklearn.experimental.dump(X_train,'X_train.pkl') 
+AttributeError: module 'sklearn' has no attribute 'experimental'
+[REPAIR EXEC TIME]: 7.297040700912476

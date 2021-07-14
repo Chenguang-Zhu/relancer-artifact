@@ -1,0 +1,13 @@
+xAPI-Edu-Data.csv
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "student-peroformance-analysis.py", line 243, in <module>
+    ppn = Perceptron(n_iter=40, eta0=0.1, random_state=0,warm_start=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_iter'

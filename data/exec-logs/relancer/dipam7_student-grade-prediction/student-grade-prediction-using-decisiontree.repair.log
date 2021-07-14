@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "student-grade-prediction-using-decisiontree.py", line 15, in <module>
+    from sklearn.externals.six import StringIO  
+ModuleNotFoundError: No module named 'sklearn.externals.six'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.externals.six'), ('new_fqn', 'six'), ('line_no', 15)])[REPAIR EXEC TIME]: 3.0147368907928467Traceback (most recent call last):
+  File "student-grade-prediction-using-decisiontree.py", line 15, in <module>
+    from sklearn.externals.six import StringIO  
+ModuleNotFoundError: No module named 'sklearn.externals.six'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.six'), ('new_fqn', 'six'), ('line_no', 15)])[REPAIR EXEC TIME]: 3.1436960697174072Traceback (most recent call last):
+  File "student-grade-prediction-using-decisiontree.py", line 15, in <module>
+    from sklearn.externals.six import StringIO  
+ModuleNotFoundError: No module named 'sklearn.externals.six'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.six'), ('new_fqn', 'six'), ('line_no', 15)])[REPAIR EXEC TIME]: 3.152172565460205

@@ -1,0 +1,9 @@
+
+"me" wins 50.0% of all games!
+Best score: 0.79375
+Best parameters: {'max_depth': 4, 'n_estimators': 120}
+Accuracy: 0.775
+Confusion matrix
+[[29  3]
+ [ 6  2]]
+

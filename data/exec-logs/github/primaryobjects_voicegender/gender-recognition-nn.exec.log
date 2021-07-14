@@ -1,0 +1,49 @@
+../../../input/primaryobjects_voicegender/voice.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3168 entries, 0 to 3167
+Data columns (total 21 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   meanfreq  3168 non-null   float64
+ 1   sd        3168 non-null   float64
+ 2   median    3168 non-null   float64
+ 3   Q25       3168 non-null   float64
+ 4   Q75       3168 non-null   float64
+ 5   IQR       3168 non-null   float64
+ 6   skew      3168 non-null   float64
+ 7   kurt      3168 non-null   float64
+ 8   sp.ent    3168 non-null   float64
+ 9   sfm       3168 non-null   float64
+ 10  mode      3168 non-null   float64
+ 11  centroid  3168 non-null   float64
+ 12  meanfun   3168 non-null   float64
+ 13  minfun    3168 non-null   float64
+ 14  maxfun    3168 non-null   float64
+ 15  meandom   3168 non-null   float64
+ 16  mindom    3168 non-null   float64
+ 17  maxdom    3168 non-null   float64
+ 18  dfrange   3168 non-null   float64
+ 19  modindx   3168 non-null   float64
+ 20  label     3168 non-null   object 
+dtypes: float64(20), object(1)
+memory usage: 519.9+ KB
+
+ None
+male      1584
+female    1584
+Name: label, dtype: int64
+
+Mean Accuracy score LR : (78.790680)
+Mean Accuracy score SVC: (90.275326)
+Mean Accuracy score LDA: (95.831969)
+Mean Accuracy score KNN: (55.586491)
+Mean Accuracy score CLF: (95.644092)
+Mean Accuracy score RFC: (90.182885)
+Mean Accuracy score MLP: (92.674200)
+Mean Accuracy score GNB: (82.294553)
+
+Highest Mean Accuracy is for the classifer LDA 95.83196901329713
+Traceback (most recent call last):
+  File "gender-recognition-nn.py", line 293, in <module>
+    classifier.add(Dense(output_dim=16,init='uniform',activation='relu',input_dim=20)) #first layer
+TypeError: __init__() missing 1 required positional argument: 'units'

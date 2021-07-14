@@ -1,0 +1,138 @@
+2021-07-05 05:58:49.922132: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-07-05 05:58:49.930492: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-07-05 05:58:49.930865: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5630d6723730 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-05 05:58:49.930882: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-07-05 05:58:49.931879: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+el-cl-sico-2019-20-real-madrid-or-barcelona-dl.py:385: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_clean['weekday'] = df_clean['date'].dt.dayofweek + 1 # Monday start from 1, not 0
+el-cl-sico-2019-20-real-madrid-or-barcelona-dl.py:399: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_clean['yearday'] = df_clean['date'].dt.dayofyear
+el-cl-sico-2019-20-real-madrid-or-barcelona-dl.py:457: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_clean['season_start'] = df_clean['season'].str.split('-').str[0].astype(int)
+el-cl-sico-2019-20-real-madrid-or-barcelona-dl.py:475: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_clean["home"] = np.random.randint(2, size = df_clean.shape[0])
+el-cl-sico-2019-20-real-madrid-or-barcelona-dl.py:489: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_clean["team_1"] = np.where(df_clean['home'] == 0, df_clean['visitorTeamID'], df_clean['localTeamID'])
+el-cl-sico-2019-20-real-madrid-or-barcelona-dl.py:491: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_clean["team_2"] = np.where(df_clean['home'] == 0, df_clean['localTeamID'] , df_clean['visitorTeamID'])
+el-cl-sico-2019-20-real-madrid-or-barcelona-dl.py:494: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_clean["score_diff2"] = np.where(df_clean['home'] == 0, df_clean['score_diff'] * (-1) , df_clean['score_diff'])
+el-cl-sico-2019-20-real-madrid-or-barcelona-dl.py:497: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_clean["rank_diff2"] = np.where(df_clean['home'] == 0, df_clean['rank_diff'] * (-1) , df_clean['rank_diff'])
+
+1970-71    16
+1971-72    18
+1972-73    18
+1973-74    18
+1974-75    18
+Name: season, dtype: int64
+2013-14    20
+2014-15    20
+2015-16    20
+2016-17    20
+2017-18    20
+Name: season, dtype: int64
+(17169, 6)
+
+{'AD Almeria': 0, 'Alaves': 1, 'Albacete': 2, 'Almeria': 3, 'Atletico de Bilbao': 4, 'Atletico de Madrid': 5, 'Barcelona': 6, 'Betis': 7, 'Burgos': 8, 'CD Malaga': 9, 'Cadiz': 10, 'Castellon': 11, 'Celta de Vigo': 12, 'Compostela': 13, 'Cordoba': 14, 'Deportivo': 15, 'Eibar': 16, 'Elche': 17, 'Espanol': 18, 'Extremadura': 19, 'Getafe': 20, 'Gimnastic de Tarragona': 21, 'Girona': 22, 'Granada': 23, 'Hercules': 24, 'Las Palmas': 25, 'Leganes': 26, 'Levante': 27, 'Lleida': 28, 'Logrones': 29, 'Malaga': 30, 'Mallorca': 31, 'Merida': 32, 'Murcia': 33, 'Numancia': 34, 'Osasuna': 35, 'Oviedo': 36, 'Rayo Vallecano': 37, 'Real Burgos': 38, 'Real Madrid': 39, 'Real Sociedad': 40, 'Recreativo de Huelva': 41, 'Sabadell': 42, 'Salamanca': 43, 'Santander': 44, 'Sevilla': 45, 'Sporting de Gijon': 46, 'Tenerife': 47, 'Valencia': 48, 'Valladolid': 49, 'Villarreal': 50, 'Xerez': 51, 'Zaragoza': 52}
+ 
+{0: 'AD Almeria', 1: 'Alaves', 2: 'Albacete', 3: 'Almeria', 4: 'Atletico de Bilbao', 5: 'Atletico de Madrid', 6: 'Barcelona', 7: 'Betis', 8: 'Burgos', 9: 'CD Malaga', 10: 'Cadiz', 11: 'Castellon', 12: 'Celta de Vigo', 13: 'Compostela', 14: 'Cordoba', 15: 'Deportivo', 16: 'Eibar', 17: 'Elche', 18: 'Espanol', 19: 'Extremadura', 20: 'Getafe', 21: 'Gimnastic de Tarragona', 22: 'Girona', 23: 'Granada', 24: 'Hercules', 25: 'Las Palmas', 26: 'Leganes', 27: 'Levante', 28: 'Lleida', 29: 'Logrones', 30: 'Malaga', 31: 'Mallorca', 32: 'Merida', 33: 'Murcia', 34: 'Numancia', 35: 'Osasuna', 36: 'Oviedo', 37: 'Rayo Vallecano', 38: 'Real Burgos', 39: 'Real Madrid', 40: 'Real Sociedad', 41: 'Recreativo de Huelva', 42: 'Sabadell', 43: 'Salamanca', 44: 'Santander', 45: 'Sevilla', 46: 'Sporting de Gijon', 47: 'Tenerife', 48: 'Valencia', 49: 'Valladolid', 50: 'Villarreal', 51: 'Xerez', 52: 'Zaragoza'}
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 17169 entries, 0 to 17168
+Data columns (total 11 columns):
+ #   Column               Non-Null Count  Dtype  
+---  ------               --------------  -----  
+ 0   season_start         17169 non-null  int64  
+ 1   weekday              17169 non-null  int64  
+ 2   yearday              17169 non-null  int64  
+ 3   team_1               17169 non-null  int64  
+ 4   team_2               17169 non-null  int64  
+ 5   home                 17169 non-null  int64  
+ 6   score_diff           17169 non-null  int64  
+ 7   rank_diff            17169 non-null  int64  
+ 8   season_start_scaled  17169 non-null  float64
+ 9   weekday_scaled       17169 non-null  float64
+ 10  yearday_scaled       17169 non-null  float64
+dtypes: float64(3), int64(8)
+memory usage: 2.2 MB
+Model: "Model"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+Team-1 (InputLayer)             [(None, 1)]          0                                            
+__________________________________________________________________________________________________
+Team-2 (InputLayer)             [(None, 1)]          0                                            
+__________________________________________________________________________________________________
+Team-Strength-Model (Model)     (None, 1)            53          Team-1[0][0]                     
+                                                                 Team-2[0][0]                     
+__________________________________________________________________________________________________
+Home (InputLayer)               [(None, 1)]          0                                            
+__________________________________________________________________________________________________
+Rank (InputLayer)               [(None, 1)]          0                                            
+__________________________________________________________________________________________________
+Season (InputLayer)             [(None, 1)]          0                                            
+__________________________________________________________________________________________________
+Weekday (InputLayer)            [(None, 1)]          0                                            
+__________________________________________________________________________________________________
+Yearday (InputLayer)            [(None, 1)]          0                                            
+__________________________________________________________________________________________________
+Concatenate (Concatenate)       (None, 7)            0           Team-Strength-Model[1][0]        
+                                                                 Team-Strength-Model[2][0]        
+                                                                 Home[0][0]                       
+                                                                 Rank[0][0]                       
+                                                                 Season[0][0]                     
+                                                                 Weekday[0][0]                    
+                                                                 Yearday[0][0]                    
+__________________________________________________________________________________________________
+Dense (Dense)                   (None, 40)           320         Concatenate[0][0]                
+__________________________________________________________________________________________________
+Dropout (Dropout)               (None, 40)           0           Dense[0][0]                      
+__________________________________________________________________________________________________
+Dense2 (Dense)                  (None, 20)           820         Dropout[0][0]                    
+__________________________________________________________________________________________________
+Output (Dense)                  (None, 1)            21          Dense2[0][0]                     
+==================================================================================================
+Total params: 1,214
+Trainable params: 1,214
+Non-trainable params: 0
+__________________________________________________________________________________________________
+
+<function sign_penalty at 0x7fc9731a1378>
+
+
+The winner of the first match on Camp Nou stadium is Barcelona! 
+Score difference is -0.27
+The winner of the second match on Santiago Bernabéu stadium is Barcelona! 
+Score difference is -0.00

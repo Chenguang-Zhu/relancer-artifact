@@ -1,0 +1,235 @@
+Traceback (most recent call last):
+  File "predicting-south-park-dialogues.py", line 20, in <module>
+    from sklearn.grid_search import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.grid_search'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 20)])Traceback (most recent call last):
+  File "predicting-south-park-dialogues.py", line 22, in <module>
+    from sklearn.cross_validation import cross_val_score
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 22)])  Season Episode Character                                               Line
+0     10       1      Stan         You guys, you guys! Chef is going away. \n
+1     10       1      Kyle                        Going away? For how long?\n
+2     10       1      Stan                                         Forever.\n
+3     10       1      Chef                                  I'm sorry boys.\n
+4     10       1      Stan  Chef said he's been bored, so he joining a gro...
+(70896, 4)
+       Season Episode Character     Line
+count   70896   70896     70896    70896
+unique     19      19      3950    64301
+top         2      10   Cartman  What?\n
+freq     6416    5271      9774      361
+Character
+Cartman         9774
+Stan            7680
+Kyle            7099
+Butters         2602
+Randy           2467
+Mr. Garrison    1002
+Chef             917
+Kenny            881
+Sharon           862
+Mr. Mackey       633
+Gerald           626
+Jimmy            597
+Wendy            585
+Liane            582
+Sheila           566
+Jimbo            556
+dtype: int64
+       Character     Line
+count      37429    37429
+unique        16    34196
+top      Cartman  What?\n
+freq        9774      237
+Model accuracy within dataset:  0.40530070266370993
+Model accuracy with cross validation: 0.33332441354344633
+['Cartman']  most likely said it.
+       Character  Likelihood
+1        Cartman    0.916238
+5          Jimmy    0.054017
+4          Jimbo    0.013115
+7           Kyle    0.006765
+9   Mr. Garrison    0.003730
+0        Butters    0.001493
+6          Kenny    0.001316
+14          Stan    0.001206
+15         Wendy    0.000955
+11         Randy    0.000384
+8          Liane    0.000319
+10    Mr. Mackey    0.000175
+12        Sharon    0.000138
+3         Gerald    0.000093
+2           Chef    0.000030
+13        Sheila    0.000026
+         Character                                               Line
+0      Not Cartman         You guys, you guys! Chef is going away. \n
+1      Not Cartman                        Going away? For how long?\n
+2      Not Cartman                                         Forever.\n
+3      Not Cartman                                  I'm sorry boys.\n
+4      Not Cartman  Chef said he's been bored, so he joining a gro...
+...            ...                                                ...
+70891  Not Cartman                       I think you're pushing it.\n
+70892  Not Cartman                                How about twenty?\n
+70893  Not Cartman                           That's not disciprine.\n
+70894  Not Cartman                   Right right. Does vodka count?\n
+70895  Not Cartman                                             Dad!\n
+
+[37429 rows x 2 columns]
+['000', '10', '100', '1000', '102', '104', '105', '106', '10th', '11', '12', '12mm', '12th', '13', '1340s', '13th', '14', '1421', '15', '16', '160', '1621', '167', '17', '1776', '18', '182', '19', '1924', '1956', '1960s', '1972', '1973', '1984', '1999', '20', '200', '2000', '2001', '2004', '2008you', '2009', '2010', '2012', '203', '21', '212', '213', '214', '22']
+[REPAIR EXEC TIME]: 7.831312417984009Traceback (most recent call last):
+  File "predicting-south-park-dialogues.py", line 20, in <module>
+    from sklearn.grid_search import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.grid_search'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 20)])Traceback (most recent call last):
+  File "predicting-south-park-dialogues.py", line 22, in <module>
+    from sklearn.cross_validation import cross_val_score
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 22)])  Season Episode Character                                               Line
+0     10       1      Stan         You guys, you guys! Chef is going away. \n
+1     10       1      Kyle                        Going away? For how long?\n
+2     10       1      Stan                                         Forever.\n
+3     10       1      Chef                                  I'm sorry boys.\n
+4     10       1      Stan  Chef said he's been bored, so he joining a gro...
+(70896, 4)
+       Season Episode Character     Line
+count   70896   70896     70896    70896
+unique     19      19      3950    64301
+top         2      10   Cartman  What?\n
+freq     6416    5271      9774      361
+Character
+Cartman         9774
+Stan            7680
+Kyle            7099
+Butters         2602
+Randy           2467
+Mr. Garrison    1002
+Chef             917
+Kenny            881
+Sharon           862
+Mr. Mackey       633
+Gerald           626
+Jimmy            597
+Wendy            585
+Liane            582
+Sheila           566
+Jimbo            556
+dtype: int64
+       Character     Line
+count      37429    37429
+unique        16    34196
+top      Cartman  What?\n
+freq        9774      237
+Model accuracy within dataset:  0.40530070266370993
+Model accuracy with cross validation: 0.33332441354344633
+['Cartman']  most likely said it.
+       Character  Likelihood
+1        Cartman    0.916238
+5          Jimmy    0.054017
+4          Jimbo    0.013115
+7           Kyle    0.006765
+9   Mr. Garrison    0.003730
+0        Butters    0.001493
+6          Kenny    0.001316
+14          Stan    0.001206
+15         Wendy    0.000955
+11         Randy    0.000384
+8          Liane    0.000319
+10    Mr. Mackey    0.000175
+12        Sharon    0.000138
+3         Gerald    0.000093
+2           Chef    0.000030
+13        Sheila    0.000026
+         Character                                               Line
+0      Not Cartman         You guys, you guys! Chef is going away. \n
+1      Not Cartman                        Going away? For how long?\n
+2      Not Cartman                                         Forever.\n
+3      Not Cartman                                  I'm sorry boys.\n
+4      Not Cartman  Chef said he's been bored, so he joining a gro...
+...            ...                                                ...
+70891  Not Cartman                       I think you're pushing it.\n
+70892  Not Cartman                                How about twenty?\n
+70893  Not Cartman                           That's not disciprine.\n
+70894  Not Cartman                   Right right. Does vodka count?\n
+70895  Not Cartman                                             Dad!\n
+
+[37429 rows x 2 columns]
+['000', '10', '100', '1000', '102', '104', '105', '106', '10th', '11', '12', '12mm', '12th', '13', '1340s', '13th', '14', '1421', '15', '16', '160', '1621', '167', '17', '1776', '18', '182', '19', '1924', '1956', '1960s', '1972', '1973', '1984', '1999', '20', '200', '2000', '2001', '2004', '2008you', '2009', '2010', '2012', '203', '21', '212', '213', '214', '22']
+[REPAIR EXEC TIME]: 7.819619178771973Traceback (most recent call last):
+  File "predicting-south-park-dialogues.py", line 20, in <module>
+    from sklearn.grid_search import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.grid_search'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 20)])Traceback (most recent call last):
+  File "predicting-south-park-dialogues.py", line 22, in <module>
+    from sklearn.cross_validation import cross_val_score
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 22)])  Season Episode Character                                               Line
+0     10       1      Stan         You guys, you guys! Chef is going away. \n
+1     10       1      Kyle                        Going away? For how long?\n
+2     10       1      Stan                                         Forever.\n
+3     10       1      Chef                                  I'm sorry boys.\n
+4     10       1      Stan  Chef said he's been bored, so he joining a gro...
+(70896, 4)
+       Season Episode Character     Line
+count   70896   70896     70896    70896
+unique     19      19      3950    64301
+top         2      10   Cartman  What?\n
+freq     6416    5271      9774      361
+Character
+Cartman         9774
+Stan            7680
+Kyle            7099
+Butters         2602
+Randy           2467
+Mr. Garrison    1002
+Chef             917
+Kenny            881
+Sharon           862
+Mr. Mackey       633
+Gerald           626
+Jimmy            597
+Wendy            585
+Liane            582
+Sheila           566
+Jimbo            556
+dtype: int64
+       Character     Line
+count      37429    37429
+unique        16    34196
+top      Cartman  What?\n
+freq        9774      237
+Model accuracy within dataset:  0.40530070266370993
+Model accuracy with cross validation: 0.33332441354344633
+['Cartman']  most likely said it.
+       Character  Likelihood
+1        Cartman    0.916238
+5          Jimmy    0.054017
+4          Jimbo    0.013115
+7           Kyle    0.006765
+9   Mr. Garrison    0.003730
+0        Butters    0.001493
+6          Kenny    0.001316
+14          Stan    0.001206
+15         Wendy    0.000955
+11         Randy    0.000384
+8          Liane    0.000319
+10    Mr. Mackey    0.000175
+12        Sharon    0.000138
+3         Gerald    0.000093
+2           Chef    0.000030
+13        Sheila    0.000026
+         Character                                               Line
+0      Not Cartman         You guys, you guys! Chef is going away. \n
+1      Not Cartman                        Going away? For how long?\n
+2      Not Cartman                                         Forever.\n
+3      Not Cartman                                  I'm sorry boys.\n
+4      Not Cartman  Chef said he's been bored, so he joining a gro...
+...            ...                                                ...
+70891  Not Cartman                       I think you're pushing it.\n
+70892  Not Cartman                                How about twenty?\n
+70893  Not Cartman                           That's not disciprine.\n
+70894  Not Cartman                   Right right. Does vodka count?\n
+70895  Not Cartman                                             Dad!\n
+
+[37429 rows x 2 columns]
+['000', '10', '100', '1000', '102', '104', '105', '106', '10th', '11', '12', '12mm', '12th', '13', '1340s', '13th', '14', '1421', '15', '16', '160', '1621', '167', '17', '1776', '18', '182', '19', '1924', '1956', '1960s', '1972', '1973', '1984', '1999', '20', '200', '2000', '2001', '2004', '2008you', '2009', '2010', '2012', '203', '21', '212', '213', '214', '22']
+[REPAIR EXEC TIME]: 8.114208459854126

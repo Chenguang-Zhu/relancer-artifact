@@ -1,0 +1,76 @@
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/categorical.py:3666: UserWarning: The `factorplot` function has been renamed to `catplot`. The original name will be removed in a future release. Please update your code. Note that the default `kind` in `factorplot` (`'point'`) has changed `'strip'` in `catplot`.
+  warnings.warn(msg)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/categorical.py:3672: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+
+Traceback (most recent call last):
+  File "explore-avocados-from-all-sides.py", line 116, in <module>
+    from sklearn import cross_validation
+ImportError: cannot import name 'cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 116)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/categorical.py:3666: UserWarning: The `factorplot` function has been renamed to `catplot`. The original name will be removed in a future release. Please update your code. Note that the default `kind` in `factorplot` (`'point'`) has changed `'strip'` in `catplot`.
+  warnings.warn(msg)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/categorical.py:3672: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+
+Traceback (most recent call last):
+  File "explore-avocados-from-all-sides.py", line 136, in <module>
+    logreg =  LogisticRegression(penalty='l1', tol=0.0001).fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'l1')])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/categorical.py:3666: UserWarning: The `factorplot` function has been renamed to `catplot`. The original name will be removed in a future release. Please update your code. Note that the default `kind` in `factorplot` (`'point'`) has changed `'strip'` in `catplot`.
+  warnings.warn(msg)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/categorical.py:3672: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+
+Traceback (most recent call last):
+  File "explore-avocados-from-all-sides.py", line 136, in <module>
+    logreg =  LogisticRegression(penalty="l1", tol=0.0001).fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'l2')])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/categorical.py:3666: UserWarning: The `factorplot` function has been renamed to `catplot`. The original name will be removed in a future release. Please update your code. Note that the default `kind` in `factorplot` (`'point'`) has changed `'strip'` in `catplot`.
+  warnings.warn(msg)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/categorical.py:3672: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+
+LogisticRegression train data score:0.933
+LogisticRegression test data score:0.934
+Average precision score Random Forest Classifier: 1.000
+Traceback (most recent call last):
+  File "explore-avocados-from-all-sides.py", line 205, in <module>
+    logreg_result = log_reg.fit(trn_train, trg_train).predict_proba(trn_test)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'l1')])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/categorical.py:3666: UserWarning: The `factorplot` function has been renamed to `catplot`. The original name will be removed in a future release. Please update your code. Note that the default `kind` in `factorplot` (`'point'`) has changed `'strip'` in `catplot`.
+  warnings.warn(msg)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/categorical.py:3672: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+
+LogisticRegression train data score:0.933
+LogisticRegression test data score:0.934
+Average precision score Random Forest Classifier: 1.000
+Traceback (most recent call last):
+  File "explore-avocados-from-all-sides.py", line 205, in <module>
+    logreg_result = log_reg.fit(trn_train, trg_train).predict_proba(trn_test)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'l2')])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/categorical.py:3666: UserWarning: The `factorplot` function has been renamed to `catplot`. The original name will be removed in a future release. Please update your code. Note that the default `kind` in `factorplot` (`'point'`) has changed `'strip'` in `catplot`.
+  warnings.warn(msg)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/categorical.py:3672: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+
+LogisticRegression train data score:0.933
+LogisticRegression test data score:0.934
+Average precision score Random Forest Classifier: 1.000
+[REPAIR EXEC TIME]: 86.36854553222656

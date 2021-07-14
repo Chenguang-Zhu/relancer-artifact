@@ -1,0 +1,11 @@
+simple-logistic-and-random-forest-examle.py:68: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X['intercept'] = 1.0  # so we don't need to use sm.add_constant every time
+
+Traceback (most recent call last):
+  File "simple-logistic-and-random-forest-examle.py", line 71, in <module>
+    model = sm.Logit(y_train, X_train)
+AttributeError: module 'statsmodels.formula.api' has no attribute 'Logit'

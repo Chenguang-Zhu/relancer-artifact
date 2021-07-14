@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "suicide-rate-analysis-using-decesion-tree.py", line 19, in <module>
+    from sklearn.feature_extraction.image.reconstruct_from_patches_2d import StringIO
+ModuleNotFoundError: No module named 'sklearn.feature_extraction.image.reconstruct_from_patches_2d'; 'sklearn.feature_extraction.image' is not a package

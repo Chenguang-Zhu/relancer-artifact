@@ -1,0 +1,77 @@
+
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 181, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 181)])
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 233, in <module>
+    kf = KFold(len(catan), n_folds=10, shuffle=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_delete'), ('from_name', 'n_folds'), ('to_name', '*')])
+0.775
+[0.705, 0.73, 0.715, 0.75, 0.715, 0.71, 0.705, 0.705, 0.685, 0.725, 0.72, 0.76, 0.76, 0.755, 0.74, 0.755, 0.735, 0.765, 0.755, 0.76, 0.755, 0.745, 0.74, 0.745, 0.745, 0.735, 0.745, 0.745, 0.74, 0.745]
+0.765
+[REPAIR EXEC TIME]: 22.73179817199707
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 181, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 181)])
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 233, in <module>
+    kf = KFold(len(catan), n_folds=10, shuffle=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[REPAIR EXEC TIME]: 3.598346471786499
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 181, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 181)])
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 233, in <module>
+    kf = KFold(len(catan), n_folds=10, shuffle=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_delete'), ('from_name', 'n_folds'), ('to_name', '*')])
+0.775
+[0.705, 0.73, 0.715, 0.75, 0.715, 0.71, 0.705, 0.705, 0.685, 0.725, 0.72, 0.76, 0.76, 0.755, 0.74, 0.755, 0.735, 0.765, 0.755, 0.76, 0.755, 0.745, 0.74, 0.745, 0.745, 0.735, 0.745, 0.745, 0.74, 0.745]
+0.765
+[REPAIR EXEC TIME]: 20.907942295074463
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 181, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 181)])
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 233, in <module>
+    kf = KFold(len(catan), n_folds=10, shuffle=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_delete'), ('from_name', 'n_folds'), ('to_name', '*')])
+0.775
+[0.705, 0.73, 0.715, 0.75, 0.715, 0.71, 0.705, 0.705, 0.685, 0.725, 0.72, 0.76, 0.76, 0.755, 0.74, 0.755, 0.735, 0.765, 0.755, 0.76, 0.755, 0.745, 0.74, 0.745, 0.745, 0.735, 0.745, 0.745, 0.74, 0.745]
+0.765
+[REPAIR EXEC TIME]: 23.83222508430481
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 181, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 181)])
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 233, in <module>
+    kf = KFold(len(catan), n_folds=10, shuffle=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_delete'), ('from_name', 'n_folds'), ('to_name', '*')])
+0.775
+[0.705, 0.73, 0.715, 0.75, 0.715, 0.71, 0.705, 0.705, 0.685, 0.725, 0.72, 0.76, 0.76, 0.755, 0.74, 0.755, 0.735, 0.765, 0.755, 0.76, 0.755, 0.745, 0.74, 0.745, 0.745, 0.735, 0.745, 0.745, 0.74, 0.745]
+0.765
+[REPAIR EXEC TIME]: 23.97058868408203

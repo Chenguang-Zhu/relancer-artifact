@@ -1,0 +1,7 @@
+interactive(children=(IntSlider(value=9, continuous_update=False, description='Wave Num.', max=21, min=1), Output()), _dom_classes=('widget-interact',))
+Traceback (most recent call last):
+  File "does-everyone-like-the-same-people-eda.py", line 634, in <module>
+    input_func = tf.estimator.inputs.pandas_input_fn(x=X_train,y=Y_train,batch_size=10,num_epochs=100,shuffle=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/util/lazy_loader.py", line 63, in __getattr__
+    return getattr(module, item)
+AttributeError: module 'tensorflow_estimator.python.estimator.api._v2.estimator' has no attribute 'inputs'

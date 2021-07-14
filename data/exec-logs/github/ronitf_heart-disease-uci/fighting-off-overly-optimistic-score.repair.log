@@ -1,0 +1,49 @@
+Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 191, in <module>
+    logistic_regression.fit(X, y)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[REPAIR EXEC TIME]: 6.336512088775635Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 191, in <module>
+    logistic_regression.fit(X, y)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[REPAIR EXEC TIME]: 5.543076038360596Null values? False
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "fighting-off-overly-optimistic-score.py", line 191, in <module>
+    logistic_regression.fit(X, y)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[REPAIR EXEC TIME]: 6.14277720451355

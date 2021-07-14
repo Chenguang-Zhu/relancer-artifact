@@ -1,0 +1,11 @@
+['weatherHistory.csv']
+Traceback (most recent call last):
+  File "simple-linear-regression-using-weatherhistory-data.py", line 112, in <module>
+    imputerHumidity=imputerHumidity.fit(humidity) 
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 253, in _validate_input
+    _check_inputs_dtype(X, self.missing_values)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 28, in _check_inputs_dtype
+    .format(X.dtype, type(missing_values)))
+ValueError: 'X' and 'missing_values' types are expected to be both numerical. Got X.dtype=float64 and  type(missing_values)=<class 'str'>.

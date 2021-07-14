@@ -1,0 +1,7 @@
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:73: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+../../../input/imnikhilanand_heart-attack-prediction/data.csv
+Traceback (most recent call last):
+  File "heart-attack-detection-proj1.py", line 117, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'

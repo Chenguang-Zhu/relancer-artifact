@@ -1,0 +1,323 @@
+['candy_production.csv']
+
+Traceback (most recent call last):
+  File "sweet-time-series.py", line 73, in <module>
+    import plotly.plotly as py
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/plotly/plotly/__init__.py", line 4, in <module>
+    _chart_studio_error("plotly")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/_plotly_future_/__init__.py", line 49, in _chart_studio_error
+    submodule=submodule
+ImportError: 
+The plotly.plotly module is deprecated,
+please install the chart-studio package and use the
+chart_studio.plotly module instead. 
+
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'chart_studio.plotly'), ('line_no', 73)])sweet-time-series.py:450: FutureWarning:
+
+the 'freq'' keyword is deprecated, use 'period' instead
+
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/tsa/ar_model.py:691: FutureWarning:
+
+
+statsmodels.tsa.AR has been deprecated in favor of statsmodels.tsa.AutoReg and
+statsmodels.tsa.SARIMAX.
+
+AutoReg adds the ability to specify exogenous variables, include time trends,
+and add seasonal dummies. The AutoReg API differs from AR since the model is
+treated as immutable, and so the entire specification including the lag
+length must be specified when creating the model. This change is too
+substantial to incorporate into the existing AR api. The function
+ar_select_order performs lag length selection for AutoReg models.
+
+AutoReg only estimates parameters using conditional MLE (OLS). Use SARIMAX to
+estimate ARX and related models using full MLE via the Kalman Filter.
+
+To silence this warning and continue using AR until it is removed, use:
+
+import warnings
+warnings.filterwarnings('ignore', 'statsmodels.tsa.ar_model.AR', FutureWarning)
+
+
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/tsa/ar_model.py:691: FutureWarning:
+
+
+statsmodels.tsa.AR has been deprecated in favor of statsmodels.tsa.AutoReg and
+statsmodels.tsa.SARIMAX.
+
+AutoReg adds the ability to specify exogenous variables, include time trends,
+and add seasonal dummies. The AutoReg API differs from AR since the model is
+treated as immutable, and so the entire specification including the lag
+length must be specified when creating the model. This change is too
+substantial to incorporate into the existing AR api. The function
+ar_select_order performs lag length selection for AutoReg models.
+
+AutoReg only estimates parameters using conditional MLE (OLS). Use SARIMAX to
+estimate ARX and related models using full MLE via the Kalman Filter.
+
+To silence this warning and continue using AR until it is removed, use:
+
+import warnings
+warnings.filterwarnings('ignore', 'statsmodels.tsa.ar_model.AR', FutureWarning)
+
+
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/tsa/ar_model.py:691: FutureWarning:
+
+
+statsmodels.tsa.AR has been deprecated in favor of statsmodels.tsa.AutoReg and
+statsmodels.tsa.SARIMAX.
+
+AutoReg adds the ability to specify exogenous variables, include time trends,
+and add seasonal dummies. The AutoReg API differs from AR since the model is
+treated as immutable, and so the entire specification including the lag
+length must be specified when creating the model. This change is too
+substantial to incorporate into the existing AR api. The function
+ar_select_order performs lag length selection for AutoReg models.
+
+AutoReg only estimates parameters using conditional MLE (OLS). Use SARIMAX to
+estimate ARX and related models using full MLE via the Kalman Filter.
+
+To silence this warning and continue using AR until it is removed, use:
+
+import warnings
+warnings.filterwarnings('ignore', 'statsmodels.tsa.ar_model.AR', FutureWarning)
+
+
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/tsa/ar_model.py:691: FutureWarning:
+
+
+statsmodels.tsa.AR has been deprecated in favor of statsmodels.tsa.AutoReg and
+statsmodels.tsa.SARIMAX.
+
+AutoReg adds the ability to specify exogenous variables, include time trends,
+and add seasonal dummies. The AutoReg API differs from AR since the model is
+treated as immutable, and so the entire specification including the lag
+length must be specified when creating the model. This change is too
+substantial to incorporate into the existing AR api. The function
+ar_select_order performs lag length selection for AutoReg models.
+
+AutoReg only estimates parameters using conditional MLE (OLS). Use SARIMAX to
+estimate ARX and related models using full MLE via the Kalman Filter.
+
+To silence this warning and continue using AR until it is removed, use:
+
+import warnings
+warnings.filterwarnings('ignore', 'statsmodels.tsa.ar_model.AR', FutureWarning)
+
+
+sweet-time-series.py:705: MatplotlibDeprecationWarning:
+
+Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+
+sweet-time-series.py:711: MatplotlibDeprecationWarning:
+
+Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+
+sweet-time-series.py:715: MatplotlibDeprecationWarning:
+
+Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/base/model.py:568: ConvergenceWarning:
+
+Maximum Likelihood optimization failed to converge. Check mle_retvals
+
+['candy_production.csv']
+
+{'text/html': '        <script type="text/javascript">\n        window.PlotlyConfig = {MathJaxConfig: \'local\'};\n        if (window.MathJax) {MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}\n        if (typeof require !== \'undefined\') {\n        require.undef("plotly");\n        requirejs.config({\n            paths: {\n                \'plotly\': [\'https://cdn.plot.ly/plotly-latest.min\']\n            }\n        });\n        require([\'plotly\'], function(Plotly) {\n            window._Plotly = Plotly;\n        });\n        }\n        </script>\n        '}
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 548 entries, 0 to 547
+Data columns (total 2 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   observation_date  548 non-null    object 
+ 1   IPG3113N          548 non-null    float64
+dtypes: float64(1), object(1)
+memory usage: 8.7+ KB
+
+
+
+
+
+
+
+
+
+
+
+428 107
+
+Lag by BIC: 13
+>>> Evaluated by rolling forecast
+MSE of order = 18: 25.063
+>>> Evaluated by normal cross validation
+MSE of order = 18: 31.942
+
+
+
+
+
+
+
+
+
+[REPAIR EXEC TIME]: 62.60950684547424['candy_production.csv']
+
+Traceback (most recent call last):
+  File "sweet-time-series.py", line 73, in <module>
+    import plotly.plotly as py
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/plotly/plotly/__init__.py", line 4, in <module>
+    _chart_studio_error("plotly")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/_plotly_future_/__init__.py", line 49, in _chart_studio_error
+    submodule=submodule
+ImportError: 
+The plotly.plotly module is deprecated,
+please install the chart-studio package and use the
+chart_studio.plotly module instead. 
+
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'chart_studio.plotly'), ('line_no', 73)])sweet-time-series.py:450: FutureWarning:
+
+the 'freq'' keyword is deprecated, use 'period' instead
+
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/tsa/ar_model.py:691: FutureWarning:
+
+
+statsmodels.tsa.AR has been deprecated in favor of statsmodels.tsa.AutoReg and
+statsmodels.tsa.SARIMAX.
+
+AutoReg adds the ability to specify exogenous variables, include time trends,
+and add seasonal dummies. The AutoReg API differs from AR since the model is
+treated as immutable, and so the entire specification including the lag
+length must be specified when creating the model. This change is too
+substantial to incorporate into the existing AR api. The function
+ar_select_order performs lag length selection for AutoReg models.
+
+AutoReg only estimates parameters using conditional MLE (OLS). Use SARIMAX to
+estimate ARX and related models using full MLE via the Kalman Filter.
+
+To silence this warning and continue using AR until it is removed, use:
+
+import warnings
+warnings.filterwarnings('ignore', 'statsmodels.tsa.ar_model.AR', FutureWarning)
+
+
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/tsa/ar_model.py:691: FutureWarning:
+
+
+statsmodels.tsa.AR has been deprecated in favor of statsmodels.tsa.AutoReg and
+statsmodels.tsa.SARIMAX.
+
+AutoReg adds the ability to specify exogenous variables, include time trends,
+and add seasonal dummies. The AutoReg API differs from AR since the model is
+treated as immutable, and so the entire specification including the lag
+length must be specified when creating the model. This change is too
+substantial to incorporate into the existing AR api. The function
+ar_select_order performs lag length selection for AutoReg models.
+
+AutoReg only estimates parameters using conditional MLE (OLS). Use SARIMAX to
+estimate ARX and related models using full MLE via the Kalman Filter.
+
+To silence this warning and continue using AR until it is removed, use:
+
+import warnings
+warnings.filterwarnings('ignore', 'statsmodels.tsa.ar_model.AR', FutureWarning)
+
+
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/tsa/ar_model.py:691: FutureWarning:
+
+
+statsmodels.tsa.AR has been deprecated in favor of statsmodels.tsa.AutoReg and
+statsmodels.tsa.SARIMAX.
+
+AutoReg adds the ability to specify exogenous variables, include time trends,
+and add seasonal dummies. The AutoReg API differs from AR since the model is
+treated as immutable, and so the entire specification including the lag
+length must be specified when creating the model. This change is too
+substantial to incorporate into the existing AR api. The function
+ar_select_order performs lag length selection for AutoReg models.
+
+AutoReg only estimates parameters using conditional MLE (OLS). Use SARIMAX to
+estimate ARX and related models using full MLE via the Kalman Filter.
+
+To silence this warning and continue using AR until it is removed, use:
+
+import warnings
+warnings.filterwarnings('ignore', 'statsmodels.tsa.ar_model.AR', FutureWarning)
+
+
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/tsa/ar_model.py:691: FutureWarning:
+
+
+statsmodels.tsa.AR has been deprecated in favor of statsmodels.tsa.AutoReg and
+statsmodels.tsa.SARIMAX.
+
+AutoReg adds the ability to specify exogenous variables, include time trends,
+and add seasonal dummies. The AutoReg API differs from AR since the model is
+treated as immutable, and so the entire specification including the lag
+length must be specified when creating the model. This change is too
+substantial to incorporate into the existing AR api. The function
+ar_select_order performs lag length selection for AutoReg models.
+
+AutoReg only estimates parameters using conditional MLE (OLS). Use SARIMAX to
+estimate ARX and related models using full MLE via the Kalman Filter.
+
+To silence this warning and continue using AR until it is removed, use:
+
+import warnings
+warnings.filterwarnings('ignore', 'statsmodels.tsa.ar_model.AR', FutureWarning)
+
+
+sweet-time-series.py:705: MatplotlibDeprecationWarning:
+
+Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+
+sweet-time-series.py:711: MatplotlibDeprecationWarning:
+
+Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+
+sweet-time-series.py:715: MatplotlibDeprecationWarning:
+
+Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/base/model.py:568: ConvergenceWarning:
+
+Maximum Likelihood optimization failed to converge. Check mle_retvals
+
+['candy_production.csv']
+
+{'text/html': '        <script type="text/javascript">\n        window.PlotlyConfig = {MathJaxConfig: \'local\'};\n        if (window.MathJax) {MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}\n        if (typeof require !== \'undefined\') {\n        require.undef("plotly");\n        requirejs.config({\n            paths: {\n                \'plotly\': [\'https://cdn.plot.ly/plotly-latest.min\']\n            }\n        });\n        require([\'plotly\'], function(Plotly) {\n            window._Plotly = Plotly;\n        });\n        }\n        </script>\n        '}
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 548 entries, 0 to 547
+Data columns (total 2 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   observation_date  548 non-null    object 
+ 1   IPG3113N          548 non-null    float64
+dtypes: float64(1), object(1)
+memory usage: 8.7+ KB
+
+
+
+
+
+
+
+
+
+
+
+428 107
+
+Lag by BIC: 13
+>>> Evaluated by rolling forecast
+MSE of order = 18: 25.063
+>>> Evaluated by normal cross validation
+MSE of order = 18: 31.942
+
+
+
+
+
+
+
+
+
+[REPAIR EXEC TIME]: 62.43110966682434

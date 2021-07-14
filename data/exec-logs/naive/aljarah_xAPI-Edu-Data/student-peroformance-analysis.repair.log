@@ -1,0 +1,144 @@
+xAPI-Edu-Data.csv
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "student-peroformance-analysis.py", line 243, in <module>
+    ppn = Perceptron(n_iter=40, eta0=0.1, random_state=0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_iter'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.Perceptron'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'l2')])xAPI-Edu-Data.csv
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "student-peroformance-analysis.py", line 243, in <module>
+    ppn = Perceptron(n_iter=40, eta0=0.1, random_state=0,penalty="l2")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_iter'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.Perceptron'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'l1')])xAPI-Edu-Data.csv
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "student-peroformance-analysis.py", line 243, in <module>
+    ppn = Perceptron(n_iter=40, eta0=0.1, random_state=0,penalty="l1")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_iter'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.Perceptron'), ('action', 'arg_value_update'), ('arg_name', 'penalty'), ('target_value', 'elasticnet')])xAPI-Edu-Data.csv
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "student-peroformance-analysis.py", line 243, in <module>
+    ppn = Perceptron(n_iter=40, eta0=0.1, random_state=0,penalty="elasticnet")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_iter'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.Perceptron'), ('action', 'arg_value_update'), ('arg_name', 'fit_intercept'), ('target_value', 'True')])xAPI-Edu-Data.csv
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "student-peroformance-analysis.py", line 243, in <module>
+    ppn = Perceptron(n_iter=40, eta0=0.1, random_state=0,fit_intercept=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_iter'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.Perceptron'), ('action', 'arg_value_update'), ('arg_name', 'fit_intercept'), ('target_value', 'False')])xAPI-Edu-Data.csv
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "student-peroformance-analysis.py", line 243, in <module>
+    ppn = Perceptron(n_iter=40, eta0=0.1, random_state=0,fit_intercept=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_iter'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.Perceptron'), ('action', 'arg_value_update'), ('arg_name', 'shuffle'), ('target_value', 'True')])xAPI-Edu-Data.csv
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "student-peroformance-analysis.py", line 243, in <module>
+    ppn = Perceptron(n_iter=40, eta0=0.1, random_state=0,shuffle=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_iter'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.Perceptron'), ('action', 'arg_value_update'), ('arg_name', 'shuffle'), ('target_value', 'False')])xAPI-Edu-Data.csv
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "student-peroformance-analysis.py", line 243, in <module>
+    ppn = Perceptron(n_iter=40, eta0=0.1, random_state=0,shuffle=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_iter'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.Perceptron'), ('action', 'arg_value_update'), ('arg_name', 'early_stopping'), ('target_value', 'True')])xAPI-Edu-Data.csv
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "student-peroformance-analysis.py", line 243, in <module>
+    ppn = Perceptron(n_iter=40, eta0=0.1, random_state=0,early_stopping=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_iter'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.Perceptron'), ('action', 'arg_value_update'), ('arg_name', 'early_stopping'), ('target_value', 'False')])xAPI-Edu-Data.csv
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "student-peroformance-analysis.py", line 243, in <module>
+    ppn = Perceptron(n_iter=40, eta0=0.1, random_state=0,early_stopping=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_iter'
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.Perceptron'), ('action', 'arg_value_update'), ('arg_name', 'warm_start'), ('target_value', 'True')])xAPI-Edu-Data.csv
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "student-peroformance-analysis.py", line 243, in <module>
+    ppn = Perceptron(n_iter=40, eta0=0.1, random_state=0,warm_start=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_iter'
+[REPAIR EXEC TIME]: 59.51953983306885

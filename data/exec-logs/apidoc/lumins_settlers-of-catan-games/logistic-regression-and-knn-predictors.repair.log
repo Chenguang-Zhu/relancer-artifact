@@ -1,0 +1,72 @@
+
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 181, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation'), ('line_no', 181)])
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 182, in <module>
+    from sklearn.utils.validation import train_test_split
+ImportError: cannot import name 'train_test_split'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cross_decomposition'), ('line_no', 181)])
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 182, in <module>
+    from sklearn.cross_decomposition import train_test_split
+ImportError: cannot import name 'train_test_split'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_memory'), ('line_no', 181)])
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 182, in <module>
+    from sklearn.utils.validation.check_memory import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_memory'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.column_or_1d'), ('line_no', 181)])
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 182, in <module>
+    from sklearn.utils.validation.column_or_1d import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.column_or_1d'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_is_fitted'), ('line_no', 181)])
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 182, in <module>
+    from sklearn.utils.validation.check_is_fitted import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_is_fitted'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_symmetric'), ('line_no', 181)])
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 182, in <module>
+    from sklearn.utils.validation.check_symmetric import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_symmetric'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cluster.Birch'), ('line_no', 181)])
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 182, in <module>
+    from sklearn.cluster.Birch import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cluster.Birch'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cluster.KMeans'), ('line_no', 181)])
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 182, in <module>
+    from sklearn.cluster.KMeans import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cluster.KMeans'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.has_fit_parameter'), ('line_no', 181)])
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 182, in <module>
+    from sklearn.utils.validation.has_fit_parameter import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.has_fit_parameter'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cross_decomposition.CCA'), ('line_no', 181)])
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 182, in <module>
+    from sklearn.cross_decomposition.CCA import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_decomposition.CCA'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.all_estimators'), ('line_no', 181)])
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 182, in <module>
+    from sklearn.utils.all_estimators import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.all_estimators'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 181)])
+Traceback (most recent call last):
+  File "logistic-regression-and-knn-predictors.py", line 233, in <module>
+    kf = KFold(len(catan), n_folds=10, shuffle=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_delete'), ('from_name', 'n_folds'), ('to_name', '*')])
+0.775
+[0.705, 0.73, 0.715, 0.75, 0.715, 0.71, 0.705, 0.705, 0.685, 0.725, 0.72, 0.76, 0.76, 0.755, 0.74, 0.755, 0.735, 0.765, 0.755, 0.76, 0.755, 0.745, 0.74, 0.745, 0.745, 0.735, 0.745, 0.745, 0.74, 0.745]
+0.765
+[REPAIR EXEC TIME]: 45.04309844970703

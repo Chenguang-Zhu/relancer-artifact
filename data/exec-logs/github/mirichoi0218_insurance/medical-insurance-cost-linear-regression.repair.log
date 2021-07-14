@@ -1,0 +1,21 @@
+['insurance.csv']
+Traceback (most recent call last):
+  File "medical-insurance-cost-linear-regression.py", line 119, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 119)])['insurance.csv']
+acc :  0.7373901394683846
+intercept :  -12384.992471661275
+coefficient :  [  266.40495906  -287.14772441   321.33148363   644.53813514
+ 23513.44422245]
+[REPAIR EXEC TIME]: 3.59385085105896['insurance.csv']
+Traceback (most recent call last):
+  File "medical-insurance-cost-linear-regression.py", line 119, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 119)])['insurance.csv']
+acc :  0.7092645417084693
+intercept :  -13045.877550966514
+coefficient :  [  253.91247879  -233.09701999   361.51036641   467.44160453
+ 23677.13020918]
+[REPAIR EXEC TIME]: 3.67262601852417

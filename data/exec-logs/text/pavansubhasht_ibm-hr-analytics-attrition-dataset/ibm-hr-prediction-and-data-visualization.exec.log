@@ -1,0 +1,173 @@
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/core.py:1330: MatplotlibDeprecationWarning: Support for uppercase single-letter colors is deprecated since Matplotlib 3.1 and will be removed in 3.3; please use lowercase instead.
+  return ax.bar(x, y, w, bottom=start, log=log, **kwds)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/plotting/_matplotlib/core.py:1330: MatplotlibDeprecationWarning: Using a string of single character colors as a color sequence is deprecated. Use an explicit list instead.
+  return ax.bar(x, y, w, bottom=start, log=log, **kwds)
+ibm-hr-prediction-and-data-visualization.py:385: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Attrition'] = df['Attrition'].astype('int')
+['WA_Fn-UseC_-HR-Employee-Attrition.csv']
+Done
+Age
+False    1470
+Name: Age, dtype: int64
+--------------------
+Attrition
+False    1470
+Name: Attrition, dtype: int64
+--------------------
+BusinessTravel
+False    1470
+Name: BusinessTravel, dtype: int64
+--------------------
+DailyRate
+False    1470
+Name: DailyRate, dtype: int64
+--------------------
+Department
+False    1470
+Name: Department, dtype: int64
+--------------------
+DistanceFromHome
+False    1470
+Name: DistanceFromHome, dtype: int64
+--------------------
+Education
+False    1470
+Name: Education, dtype: int64
+--------------------
+EducationField
+False    1470
+Name: EducationField, dtype: int64
+--------------------
+EmployeeCount
+False    1470
+Name: EmployeeCount, dtype: int64
+--------------------
+EmployeeNumber
+False    1470
+Name: EmployeeNumber, dtype: int64
+--------------------
+EnvironmentSatisfaction
+False    1470
+Name: EnvironmentSatisfaction, dtype: int64
+--------------------
+Gender
+False    1470
+Name: Gender, dtype: int64
+--------------------
+HourlyRate
+False    1470
+Name: HourlyRate, dtype: int64
+--------------------
+JobInvolvement
+False    1470
+Name: JobInvolvement, dtype: int64
+--------------------
+JobLevel
+False    1470
+Name: JobLevel, dtype: int64
+--------------------
+JobRole
+False    1470
+Name: JobRole, dtype: int64
+--------------------
+JobSatisfaction
+False    1470
+Name: JobSatisfaction, dtype: int64
+--------------------
+MaritalStatus
+False    1470
+Name: MaritalStatus, dtype: int64
+--------------------
+MonthlyIncome
+False    1470
+Name: MonthlyIncome, dtype: int64
+--------------------
+MonthlyRate
+False    1470
+Name: MonthlyRate, dtype: int64
+--------------------
+NumCompaniesWorked
+False    1470
+Name: NumCompaniesWorked, dtype: int64
+--------------------
+Over18
+False    1470
+Name: Over18, dtype: int64
+--------------------
+OverTime
+False    1470
+Name: OverTime, dtype: int64
+--------------------
+PercentSalaryHike
+False    1470
+Name: PercentSalaryHike, dtype: int64
+--------------------
+PerformanceRating
+False    1470
+Name: PerformanceRating, dtype: int64
+--------------------
+RelationshipSatisfaction
+False    1470
+Name: RelationshipSatisfaction, dtype: int64
+--------------------
+StandardHours
+False    1470
+Name: StandardHours, dtype: int64
+--------------------
+StockOptionLevel
+False    1470
+Name: StockOptionLevel, dtype: int64
+--------------------
+TotalWorkingYears
+False    1470
+Name: TotalWorkingYears, dtype: int64
+--------------------
+TrainingTimesLastYear
+False    1470
+Name: TrainingTimesLastYear, dtype: int64
+--------------------
+WorkLifeBalance
+False    1470
+Name: WorkLifeBalance, dtype: int64
+--------------------
+YearsAtCompany
+False    1470
+Name: YearsAtCompany, dtype: int64
+--------------------
+YearsInCurrentRole
+False    1470
+Name: YearsInCurrentRole, dtype: int64
+--------------------
+YearsSinceLastPromotion
+False    1470
+Name: YearsSinceLastPromotion, dtype: int64
+--------------------
+YearsWithCurrManager
+False    1470
+Name: YearsWithCurrManager, dtype: int64
+--------------------
+Total Employees in each department :
+[365 349 290 109 110  56  52  18  54  67]
+[ 1009.  2908.  4807.  6706.  8605. 10504. 12403. 14302. 16201. 18100.
+ 19999.]
+
+The Pearson Correlation Coefficient is 0.07792358295570372  with a P-value of P = 0.0027930600802134964
+The Pearson Correlation Coefficient is -0.1592050068657796  with a P-value of P = 8.356308021103691e-10
+The Pearson Correlation Coefficient is -0.03137281964004926  with a P-value of P = 0.2293152033223197
+The Pearson Correlation Coefficient is -0.1033689783379361  with a P-value of P = 7.172338549368422e-05
+The Pearson Correlation Coefficient is -0.1300159567860535  with a P-value of P = 5.677065356745259e-07
+The Pearson Correlation Coefficient is 0.24611799424580438  with a P-value of P = 1.009254033656135e-21
+The Pearson Correlation Coefficient is -0.17106324613622653  with a P-value of P = 4.061878111266784e-11
+The Pearson Correlation Coefficient is -0.03301877514258437  with a P-value of P = 0.20578995916249285
+The Pearson Correlation Coefficient is -0.15619931590162847  with a P-value of P = 1.7369867845240066e-09
+The Pearson Correlation Coefficient is 0.04349373905781361  with a P-value of P = 0.09552526205651818
+The Pearson Correlation Coefficient is -0.16054500426770105  with a P-value of P = 6.003185843640914e-10
+The Pearson Correlation Coefficient is -0.15983958238498872  with a P-value of P = 7.147363985353496e-10
+The Pearson Correlation Coefficient is -0.16910475093102734  with a P-value of P = 6.795384780014698e-11
+The Pearson Correlation Coefficient is -0.029453253175141685  with a P-value of P = 0.2590923641414777
+Train set:   (882, 8) (882,)
+Test set:  (588, 8) (588,)

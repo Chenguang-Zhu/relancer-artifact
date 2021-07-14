@@ -1,0 +1,135 @@
+Traceback (most recent call last):
+  File "predict-missed-appointments-with-80-accuracy.py", line 18, in <module>
+    from sklearn import model_selection, cross_validation, ensemble, preprocessing, svm
+ImportError: cannot import name 'cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 18)])[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:    0.0s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:    0.0s finished
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 115 entries, 0 to 114
+Data columns (total 14 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   PatientId       115 non-null    float64
+ 1   AppointmentID   115 non-null    int64  
+ 2   Gender          115 non-null    object 
+ 3   ScheduledDay    115 non-null    object 
+ 4   AppointmentDay  115 non-null    object 
+ 5   Age             115 non-null    int64  
+ 6   Neighbourhood   115 non-null    object 
+ 7   Scholarship     115 non-null    int64  
+ 8   Hipertension    115 non-null    int64  
+ 9   Diabetes        115 non-null    int64  
+ 10  Alcoholism      115 non-null    int64  
+ 11  Handcap         115 non-null    int64  
+ 12  SMS_received    115 non-null    int64  
+ 13  No-show         115 non-null    object 
+dtypes: float64(1), int64(8), object(5)
+memory usage: 12.7+ KB
+
+Accuracy: 77.27%
+Feature ranking:
+1. feature 4 (0.350324)
+2. feature 8 (0.186353)
+3. feature 9 (0.131648)
+4. feature 0 (0.119122)
+5. feature 10 (0.090828)
+6. feature 7 (0.040502)
+7. feature 6 (0.031780)
+8. feature 1 (0.019835)
+9. feature 5 (0.012252)
+10. feature 3 (0.010662)
+11. feature 2 (0.006694)
+
+Accuracy: 84.85%
+Feature ranking:
+1. feature 9 (0.339963)
+2. feature 0 (0.224625)
+3. feature 8 (0.149087)
+4. feature 10 (0.087142)
+5. feature 7 (0.083824)
+6. feature 6 (0.073921)
+7. feature 2 (0.017485)
+8. feature 1 (0.015954)
+9. feature 3 (0.007999)
+10. feature 5 (0.000000)
+11. feature 4 (0.000000)
+
+Confusion matrix, without normalization
+[[27  2]
+ [ 3  1]]
+
+Normalized confusion matrix
+[[0.93 0.07]
+ [0.75 0.25]]
+
+
+[REPAIR EXEC TIME]: 5.390775203704834Traceback (most recent call last):
+  File "predict-missed-appointments-with-80-accuracy.py", line 18, in <module>
+    from sklearn import model_selection, cross_validation, ensemble, preprocessing, svm
+ImportError: cannot import name 'cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 18)])[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:    0.0s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:    0.0s finished
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 115 entries, 0 to 114
+Data columns (total 14 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   PatientId       115 non-null    float64
+ 1   AppointmentID   115 non-null    int64  
+ 2   Gender          115 non-null    object 
+ 3   ScheduledDay    115 non-null    object 
+ 4   AppointmentDay  115 non-null    object 
+ 5   Age             115 non-null    int64  
+ 6   Neighbourhood   115 non-null    object 
+ 7   Scholarship     115 non-null    int64  
+ 8   Hipertension    115 non-null    int64  
+ 9   Diabetes        115 non-null    int64  
+ 10  Alcoholism      115 non-null    int64  
+ 11  Handcap         115 non-null    int64  
+ 12  SMS_received    115 non-null    int64  
+ 13  No-show         115 non-null    object 
+dtypes: float64(1), int64(8), object(5)
+memory usage: 12.7+ KB
+
+Accuracy: 77.27%
+Feature ranking:
+1. feature 4 (0.274497)
+2. feature 0 (0.161183)
+3. feature 8 (0.160361)
+4. feature 9 (0.151634)
+5. feature 10 (0.127357)
+6. feature 1 (0.037322)
+7. feature 7 (0.035565)
+8. feature 3 (0.020963)
+9. feature 6 (0.012982)
+10. feature 5 (0.012196)
+11. feature 2 (0.005940)
+
+Accuracy: 84.85%
+Feature ranking:
+1. feature 9 (0.241840)
+2. feature 4 (0.171804)
+3. feature 8 (0.101175)
+4. feature 10 (0.093864)
+5. feature 1 (0.091975)
+6. feature 6 (0.076937)
+7. feature 7 (0.067760)
+8. feature 2 (0.054116)
+9. feature 0 (0.043341)
+10. feature 5 (0.031951)
+11. feature 3 (0.025236)
+
+Confusion matrix, without normalization
+[[28  1]
+ [ 4  0]]
+
+Normalized confusion matrix
+[[0.97 0.03]
+ [1.   0.  ]]
+
+
+[REPAIR EXEC TIME]: 4.910996675491333

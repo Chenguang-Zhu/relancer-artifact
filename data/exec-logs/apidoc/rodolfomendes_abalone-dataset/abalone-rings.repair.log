@@ -1,0 +1,711 @@
+(3759, 9)
+(418, 9)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3759 entries, 0 to 3758
+Data columns (total 9 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   Sex             3759 non-null   object 
+ 1   Length          3759 non-null   float64
+ 2   Diameter        3759 non-null   float64
+ 3   Height          3759 non-null   float64
+ 4   Whole weight    3759 non-null   float64
+ 5   Shucked weight  3759 non-null   float64
+ 6   Viscera weight  3759 non-null   float64
+ 7   Shell weight    3759 non-null   float64
+ 8   Rings           3759 non-null   int64  
+dtypes: float64(7), int64(1), object(1)
+memory usage: 264.4+ KB
+(3007, 10)
+(752, 10)
+Traceback (most recent call last):
+  File "abalone-rings.py", line 110, in <module>
+    model = build_nn()
+  File "abalone-rings.py", line 100, in build_nn
+    model = keras.models.Sequential([ keras.layers.Dense(32, 'relu', kernel_initializer=keras.initializers.HeUniform(), activity_regularizer=keras.regularizers.l1_l2(l1=1e-5, l2=1e-6)), keras.layers.Dense(1), ]) 
+AttributeError: module 'tensorflow.keras.initializers' has no attribute 'HeUniform'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'tensorflow.keras.initializers.HeUniform'), ('new_fqn', 'tensorflow.initializers.HeUniform'), ('line_no', 100)])(3759, 9)
+(418, 9)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3759 entries, 0 to 3758
+Data columns (total 9 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   Sex             3759 non-null   object 
+ 1   Length          3759 non-null   float64
+ 2   Diameter        3759 non-null   float64
+ 3   Height          3759 non-null   float64
+ 4   Whole weight    3759 non-null   float64
+ 5   Shucked weight  3759 non-null   float64
+ 6   Viscera weight  3759 non-null   float64
+ 7   Shell weight    3759 non-null   float64
+ 8   Rings           3759 non-null   int64  
+dtypes: float64(7), int64(1), object(1)
+memory usage: 264.4+ KB
+(3007, 10)
+(752, 10)
+Traceback (most recent call last):
+  File "abalone-rings.py", line 111, in <module>
+    model = build_nn()
+  File "abalone-rings.py", line 101, in build_nn
+    model = keras.models.Sequential([ keras.layers.Dense(32, 'relu', kernel_initializer=tensorflow.initializers.HeUniform(), activity_regularizer=keras.regularizers.l1_l2(l1=1e-5, l2=1e-6)), keras.layers.Dense(1), ]) 
+AttributeError: module 'tensorflow.keras.initializers' has no attribute 'HeUniform'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'tensorflow.keras.initializers.HeUniform'), ('new_fqn', 'tensorflow.keras.initializers.he_uniform'), ('line_no', 100)])2021-04-23 07:46:52.275580: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-04-23 07:46:52.299009: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-04-23 07:46:52.299955: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55a0a52265b0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-04-23 07:46:52.299979: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-04-23 07:46:52.300073: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.iter
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.decay
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.learning_rate
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:A checkpoint was restored (e.g. tf.train.Checkpoint.restore or tf.keras.Model.load_weights) but not all checkpointed values were used. See above for specific issues. Use expect_partial() on the load status object, e.g. tf.train.Checkpoint.restore(...).expect_partial(), to silence these warnings, or use assert_consumed() to make the check explicit. See https://www.tensorflow.org/guide/checkpoint#loading_mechanics for details.
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.iter
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.decay
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.learning_rate
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:A checkpoint was restored (e.g. tf.train.Checkpoint.restore or tf.keras.Model.load_weights) but not all checkpointed values were used. See above for specific issues. Use expect_partial() on the load status object, e.g. tf.train.Checkpoint.restore(...).expect_partial(), to silence these warnings, or use assert_consumed() to make the check explicit. See https://www.tensorflow.org/guide/checkpoint#loading_mechanics for details.
+WARNING:tensorflow:Layer dense_12 is casting an input tensor from dtype float64 to the layer's dtype of float32, which is new behavior in TensorFlow 2.  The layer has dtype float32 because it's dtype defaults to floatx.
+
+If you intended to run this layer in float32, you can safely ignore this warning. If in doubt, this warning is likely only an issue if you are porting a TensorFlow 1.X model to TensorFlow 2.
+
+To change all layers to have dtype float64 by default, call `tf.keras.backend.set_floatx('float64')`. To change just this layer, pass dtype='float64' to the layer constructor. If you are the author of this layer, you can disable autocasting by passing autocast=False to the base Layer constructor.
+
+(3759, 9)
+(418, 9)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3759 entries, 0 to 3758
+Data columns (total 9 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   Sex             3759 non-null   object 
+ 1   Length          3759 non-null   float64
+ 2   Diameter        3759 non-null   float64
+ 3   Height          3759 non-null   float64
+ 4   Whole weight    3759 non-null   float64
+ 5   Shucked weight  3759 non-null   float64
+ 6   Viscera weight  3759 non-null   float64
+ 7   Shell weight    3759 non-null   float64
+ 8   Rings           3759 non-null   int64  
+dtypes: float64(7), int64(1), object(1)
+memory usage: 264.4+ KB
+(3007, 10)
+(752, 10)
+Validation MAE 1.51852285861969
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000358 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Fold:  0
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000554 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Fold:  1
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000261 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Fold:  2
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000291 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Fold:  3
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000878 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Fold:  4
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000284 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Validation MAE 1.4930033683776855
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.iter
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.decay
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.learning_rate
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:A checkpoint was restored (e.g. tf.train.Checkpoint.restore or tf.keras.Model.load_weights) but not all checkpointed values were used. See above for specific issues. Use expect_partial() on the load status object, e.g. tf.train.Checkpoint.restore(...).expect_partial(), to silence these warnings, or use assert_consumed() to make the check explicit. See https://www.tensorflow.org/guide/checkpoint#loading_mechanics for details.
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.iter
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.decay
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.learning_rate
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:A checkpoint was restored (e.g. tf.train.Checkpoint.restore or tf.keras.Model.load_weights) but not all checkpointed values were used. See above for specific issues. Use expect_partial() on the load status object, e.g. tf.train.Checkpoint.restore(...).expect_partial(), to silence these warnings, or use assert_consumed() to make the check explicit. See https://www.tensorflow.org/guide/checkpoint#loading_mechanics for details.
+[REPAIR EXEC TIME]: 211.75874209403992(3759, 9)
+(418, 9)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3759 entries, 0 to 3758
+Data columns (total 9 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   Sex             3759 non-null   object 
+ 1   Length          3759 non-null   float64
+ 2   Diameter        3759 non-null   float64
+ 3   Height          3759 non-null   float64
+ 4   Whole weight    3759 non-null   float64
+ 5   Shucked weight  3759 non-null   float64
+ 6   Viscera weight  3759 non-null   float64
+ 7   Shell weight    3759 non-null   float64
+ 8   Rings           3759 non-null   int64  
+dtypes: float64(7), int64(1), object(1)
+memory usage: 264.4+ KB
+(3007, 10)
+(752, 10)
+Traceback (most recent call last):
+  File "abalone-rings.py", line 110, in <module>
+    model = build_nn()
+  File "abalone-rings.py", line 100, in build_nn
+    model = keras.models.Sequential([ keras.layers.Dense(32, 'relu', kernel_initializer=keras.initializers.HeUniform(), activity_regularizer=keras.regularizers.l1_l2(l1=1e-5, l2=1e-6)), keras.layers.Dense(1), ]) 
+AttributeError: module 'tensorflow.keras.initializers' has no attribute 'HeUniform'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'tensorflow.keras.initializers.HeUniform'), ('new_fqn', 'tensorflow.keras.initializers.LecunNormal'), ('line_no', 100)])(3759, 9)
+(418, 9)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3759 entries, 0 to 3758
+Data columns (total 9 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   Sex             3759 non-null   object 
+ 1   Length          3759 non-null   float64
+ 2   Diameter        3759 non-null   float64
+ 3   Height          3759 non-null   float64
+ 4   Whole weight    3759 non-null   float64
+ 5   Shucked weight  3759 non-null   float64
+ 6   Viscera weight  3759 non-null   float64
+ 7   Shell weight    3759 non-null   float64
+ 8   Rings           3759 non-null   int64  
+dtypes: float64(7), int64(1), object(1)
+memory usage: 264.4+ KB
+(3007, 10)
+(752, 10)
+Traceback (most recent call last):
+  File "abalone-rings.py", line 111, in <module>
+    model = build_nn()
+  File "abalone-rings.py", line 101, in build_nn
+    model = keras.models.Sequential([ keras.layers.Dense(32, 'relu', kernel_initializer=tensorflow.keras.initializers.LecunNormal(), activity_regularizer=keras.regularizers.l1_l2(l1=1e-5, l2=1e-6)), keras.layers.Dense(1), ]) 
+AttributeError: module 'tensorflow.keras.initializers' has no attribute 'LecunNormal'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'tensorflow.keras.initializers.HeUniform'), ('new_fqn', 'tensorflow.keras.initializers.HeNormal'), ('line_no', 100)])(3759, 9)
+(418, 9)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3759 entries, 0 to 3758
+Data columns (total 9 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   Sex             3759 non-null   object 
+ 1   Length          3759 non-null   float64
+ 2   Diameter        3759 non-null   float64
+ 3   Height          3759 non-null   float64
+ 4   Whole weight    3759 non-null   float64
+ 5   Shucked weight  3759 non-null   float64
+ 6   Viscera weight  3759 non-null   float64
+ 7   Shell weight    3759 non-null   float64
+ 8   Rings           3759 non-null   int64  
+dtypes: float64(7), int64(1), object(1)
+memory usage: 264.4+ KB
+(3007, 10)
+(752, 10)
+Traceback (most recent call last):
+  File "abalone-rings.py", line 111, in <module>
+    model = build_nn()
+  File "abalone-rings.py", line 101, in build_nn
+    model = keras.models.Sequential([ keras.layers.Dense(32, 'relu', kernel_initializer=tensorflow.keras.initializers.HeNormal(), activity_regularizer=keras.regularizers.l1_l2(l1=1e-5, l2=1e-6)), keras.layers.Dense(1), ]) 
+AttributeError: module 'tensorflow.keras.initializers' has no attribute 'HeNormal'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'tensorflow.keras.initializers.HeUniform'), ('new_fqn', 'tensorflow.keras.initializers.he_normal'), ('line_no', 100)])2021-04-23 12:31:39.163962: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-04-23 12:31:39.186549: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-04-23 12:31:39.187198: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5613100d21e0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-04-23 12:31:39.187229: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-04-23 12:31:39.187358: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.iter
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.decay
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.learning_rate
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:A checkpoint was restored (e.g. tf.train.Checkpoint.restore or tf.keras.Model.load_weights) but not all checkpointed values were used. See above for specific issues. Use expect_partial() on the load status object, e.g. tf.train.Checkpoint.restore(...).expect_partial(), to silence these warnings, or use assert_consumed() to make the check explicit. See https://www.tensorflow.org/guide/checkpoint#loading_mechanics for details.
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.iter
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.decay
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.learning_rate
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:A checkpoint was restored (e.g. tf.train.Checkpoint.restore or tf.keras.Model.load_weights) but not all checkpointed values were used. See above for specific issues. Use expect_partial() on the load status object, e.g. tf.train.Checkpoint.restore(...).expect_partial(), to silence these warnings, or use assert_consumed() to make the check explicit. See https://www.tensorflow.org/guide/checkpoint#loading_mechanics for details.
+WARNING:tensorflow:Layer dense_12 is casting an input tensor from dtype float64 to the layer's dtype of float32, which is new behavior in TensorFlow 2.  The layer has dtype float32 because it's dtype defaults to floatx.
+
+If you intended to run this layer in float32, you can safely ignore this warning. If in doubt, this warning is likely only an issue if you are porting a TensorFlow 1.X model to TensorFlow 2.
+
+To change all layers to have dtype float64 by default, call `tf.keras.backend.set_floatx('float64')`. To change just this layer, pass dtype='float64' to the layer constructor. If you are the author of this layer, you can disable autocasting by passing autocast=False to the base Layer constructor.
+
+(3759, 9)
+(418, 9)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3759 entries, 0 to 3758
+Data columns (total 9 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   Sex             3759 non-null   object 
+ 1   Length          3759 non-null   float64
+ 2   Diameter        3759 non-null   float64
+ 3   Height          3759 non-null   float64
+ 4   Whole weight    3759 non-null   float64
+ 5   Shucked weight  3759 non-null   float64
+ 6   Viscera weight  3759 non-null   float64
+ 7   Shell weight    3759 non-null   float64
+ 8   Rings           3759 non-null   int64  
+dtypes: float64(7), int64(1), object(1)
+memory usage: 264.4+ KB
+(3007, 10)
+(752, 10)
+Validation MAE 1.5223456621170044
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000209 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Fold:  0
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001308 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Fold:  1
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000278 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Fold:  2
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000317 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Fold:  3
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.005483 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Fold:  4
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000623 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Validation MAE 1.4895511865615845
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.iter
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.decay
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.learning_rate
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:A checkpoint was restored (e.g. tf.train.Checkpoint.restore or tf.keras.Model.load_weights) but not all checkpointed values were used. See above for specific issues. Use expect_partial() on the load status object, e.g. tf.train.Checkpoint.restore(...).expect_partial(), to silence these warnings, or use assert_consumed() to make the check explicit. See https://www.tensorflow.org/guide/checkpoint#loading_mechanics for details.
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.iter
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.decay
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.learning_rate
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:A checkpoint was restored (e.g. tf.train.Checkpoint.restore or tf.keras.Model.load_weights) but not all checkpointed values were used. See above for specific issues. Use expect_partial() on the load status object, e.g. tf.train.Checkpoint.restore(...).expect_partial(), to silence these warnings, or use assert_consumed() to make the check explicit. See https://www.tensorflow.org/guide/checkpoint#loading_mechanics for details.
+[REPAIR EXEC TIME]: 345.05385994911194(3759, 9)
+(418, 9)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3759 entries, 0 to 3758
+Data columns (total 9 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   Sex             3759 non-null   object 
+ 1   Length          3759 non-null   float64
+ 2   Diameter        3759 non-null   float64
+ 3   Height          3759 non-null   float64
+ 4   Whole weight    3759 non-null   float64
+ 5   Shucked weight  3759 non-null   float64
+ 6   Viscera weight  3759 non-null   float64
+ 7   Shell weight    3759 non-null   float64
+ 8   Rings           3759 non-null   int64  
+dtypes: float64(7), int64(1), object(1)
+memory usage: 264.4+ KB
+(3007, 10)
+(752, 10)
+Traceback (most recent call last):
+  File "abalone-rings.py", line 110, in <module>
+    model = build_nn()
+  File "abalone-rings.py", line 100, in build_nn
+    model = keras.models.Sequential([ keras.layers.Dense(32, 'relu', kernel_initializer=keras.initializers.HeUniform(), activity_regularizer=keras.regularizers.l1_l2(l1=1e-5, l2=1e-6)), keras.layers.Dense(1), ]) 
+AttributeError: module 'tensorflow.keras.initializers' has no attribute 'HeUniform'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'tensorflow.keras.initializers.HeUniform'), ('new_fqn', 'tensorflow.keras.initializers.LecunNormal'), ('line_no', 100)])(3759, 9)
+(418, 9)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3759 entries, 0 to 3758
+Data columns (total 9 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   Sex             3759 non-null   object 
+ 1   Length          3759 non-null   float64
+ 2   Diameter        3759 non-null   float64
+ 3   Height          3759 non-null   float64
+ 4   Whole weight    3759 non-null   float64
+ 5   Shucked weight  3759 non-null   float64
+ 6   Viscera weight  3759 non-null   float64
+ 7   Shell weight    3759 non-null   float64
+ 8   Rings           3759 non-null   int64  
+dtypes: float64(7), int64(1), object(1)
+memory usage: 264.4+ KB
+(3007, 10)
+(752, 10)
+Traceback (most recent call last):
+  File "abalone-rings.py", line 111, in <module>
+    model = build_nn()
+  File "abalone-rings.py", line 101, in build_nn
+    model = keras.models.Sequential([ keras.layers.Dense(32, 'relu', kernel_initializer=tensorflow.keras.initializers.LecunNormal(), activity_regularizer=keras.regularizers.l1_l2(l1=1e-5, l2=1e-6)), keras.layers.Dense(1), ]) 
+AttributeError: module 'tensorflow.keras.initializers' has no attribute 'LecunNormal'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'tensorflow.keras.initializers.HeUniform'), ('new_fqn', 'tensorflow.keras.initializers.HeNormal'), ('line_no', 100)])(3759, 9)
+(418, 9)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3759 entries, 0 to 3758
+Data columns (total 9 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   Sex             3759 non-null   object 
+ 1   Length          3759 non-null   float64
+ 2   Diameter        3759 non-null   float64
+ 3   Height          3759 non-null   float64
+ 4   Whole weight    3759 non-null   float64
+ 5   Shucked weight  3759 non-null   float64
+ 6   Viscera weight  3759 non-null   float64
+ 7   Shell weight    3759 non-null   float64
+ 8   Rings           3759 non-null   int64  
+dtypes: float64(7), int64(1), object(1)
+memory usage: 264.4+ KB
+(3007, 10)
+(752, 10)
+Traceback (most recent call last):
+  File "abalone-rings.py", line 111, in <module>
+    model = build_nn()
+  File "abalone-rings.py", line 101, in build_nn
+    model = keras.models.Sequential([ keras.layers.Dense(32, 'relu', kernel_initializer=tensorflow.keras.initializers.HeNormal(), activity_regularizer=keras.regularizers.l1_l2(l1=1e-5, l2=1e-6)), keras.layers.Dense(1), ]) 
+AttributeError: module 'tensorflow.keras.initializers' has no attribute 'HeNormal'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'tensorflow.keras.initializers.HeUniform'), ('new_fqn', 'tensorflow.keras.initializers.he_normal'), ('line_no', 100)])2021-07-08 15:18:20.134890: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-07-08 15:18:20.157297: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-07-08 15:18:20.157869: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55858931a1f0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-08 15:18:20.157911: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-07-08 15:18:20.158023: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.iter
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.decay
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.learning_rate
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:A checkpoint was restored (e.g. tf.train.Checkpoint.restore or tf.keras.Model.load_weights) but not all checkpointed values were used. See above for specific issues. Use expect_partial() on the load status object, e.g. tf.train.Checkpoint.restore(...).expect_partial(), to silence these warnings, or use assert_consumed() to make the check explicit. See https://www.tensorflow.org/guide/checkpoint#loading_mechanics for details.
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.iter
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.decay
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.learning_rate
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:A checkpoint was restored (e.g. tf.train.Checkpoint.restore or tf.keras.Model.load_weights) but not all checkpointed values were used. See above for specific issues. Use expect_partial() on the load status object, e.g. tf.train.Checkpoint.restore(...).expect_partial(), to silence these warnings, or use assert_consumed() to make the check explicit. See https://www.tensorflow.org/guide/checkpoint#loading_mechanics for details.
+WARNING:tensorflow:Layer dense_12 is casting an input tensor from dtype float64 to the layer's dtype of float32, which is new behavior in TensorFlow 2.  The layer has dtype float32 because it's dtype defaults to floatx.
+
+If you intended to run this layer in float32, you can safely ignore this warning. If in doubt, this warning is likely only an issue if you are porting a TensorFlow 1.X model to TensorFlow 2.
+
+To change all layers to have dtype float64 by default, call `tf.keras.backend.set_floatx('float64')`. To change just this layer, pass dtype='float64' to the layer constructor. If you are the author of this layer, you can disable autocasting by passing autocast=False to the base Layer constructor.
+
+(3759, 9)
+(418, 9)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3759 entries, 0 to 3758
+Data columns (total 9 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   Sex             3759 non-null   object 
+ 1   Length          3759 non-null   float64
+ 2   Diameter        3759 non-null   float64
+ 3   Height          3759 non-null   float64
+ 4   Whole weight    3759 non-null   float64
+ 5   Shucked weight  3759 non-null   float64
+ 6   Viscera weight  3759 non-null   float64
+ 7   Shell weight    3759 non-null   float64
+ 8   Rings           3759 non-null   int64  
+dtypes: float64(7), int64(1), object(1)
+memory usage: 264.4+ KB
+(3007, 10)
+(752, 10)
+Validation MAE 1.535111427307129
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000550 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Fold:  0
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000640 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Fold:  1
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000277 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Fold:  2
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000767 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Fold:  3
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000293 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Fold:  4
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000273 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Validation MAE 1.4775097370147705
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.iter
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.decay
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.learning_rate
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:A checkpoint was restored (e.g. tf.train.Checkpoint.restore or tf.keras.Model.load_weights) but not all checkpointed values were used. See above for specific issues. Use expect_partial() on the load status object, e.g. tf.train.Checkpoint.restore(...).expect_partial(), to silence these warnings, or use assert_consumed() to make the check explicit. See https://www.tensorflow.org/guide/checkpoint#loading_mechanics for details.
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.iter
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.decay
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.learning_rate
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:A checkpoint was restored (e.g. tf.train.Checkpoint.restore or tf.keras.Model.load_weights) but not all checkpointed values were used. See above for specific issues. Use expect_partial() on the load status object, e.g. tf.train.Checkpoint.restore(...).expect_partial(), to silence these warnings, or use assert_consumed() to make the check explicit. See https://www.tensorflow.org/guide/checkpoint#loading_mechanics for details.
+[REPAIR EXEC TIME]: 203.29723358154297(3759, 9)
+(418, 9)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3759 entries, 0 to 3758
+Data columns (total 9 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   Sex             3759 non-null   object 
+ 1   Length          3759 non-null   float64
+ 2   Diameter        3759 non-null   float64
+ 3   Height          3759 non-null   float64
+ 4   Whole weight    3759 non-null   float64
+ 5   Shucked weight  3759 non-null   float64
+ 6   Viscera weight  3759 non-null   float64
+ 7   Shell weight    3759 non-null   float64
+ 8   Rings           3759 non-null   int64  
+dtypes: float64(7), int64(1), object(1)
+memory usage: 264.4+ KB
+(3007, 10)
+(752, 10)
+Traceback (most recent call last):
+  File "abalone-rings.py", line 110, in <module>
+    model = build_nn()
+  File "abalone-rings.py", line 100, in build_nn
+    model = keras.models.Sequential([ keras.layers.Dense(32, 'relu', kernel_initializer=keras.initializers.HeUniform(), activity_regularizer=keras.regularizers.l1_l2(l1=1e-5, l2=1e-6)), keras.layers.Dense(1), ]) 
+AttributeError: module 'tensorflow.keras.initializers' has no attribute 'HeUniform'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'tensorflow.keras.initializers.HeUniform'), ('new_fqn', 'tensorflow.keras.initializers.LecunNormal'), ('line_no', 100)])(3759, 9)
+(418, 9)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3759 entries, 0 to 3758
+Data columns (total 9 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   Sex             3759 non-null   object 
+ 1   Length          3759 non-null   float64
+ 2   Diameter        3759 non-null   float64
+ 3   Height          3759 non-null   float64
+ 4   Whole weight    3759 non-null   float64
+ 5   Shucked weight  3759 non-null   float64
+ 6   Viscera weight  3759 non-null   float64
+ 7   Shell weight    3759 non-null   float64
+ 8   Rings           3759 non-null   int64  
+dtypes: float64(7), int64(1), object(1)
+memory usage: 264.4+ KB
+(3007, 10)
+(752, 10)
+Traceback (most recent call last):
+  File "abalone-rings.py", line 111, in <module>
+    model = build_nn()
+  File "abalone-rings.py", line 101, in build_nn
+    model = keras.models.Sequential([ keras.layers.Dense(32, 'relu', kernel_initializer=tensorflow.keras.initializers.LecunNormal(), activity_regularizer=keras.regularizers.l1_l2(l1=1e-5, l2=1e-6)), keras.layers.Dense(1), ]) 
+AttributeError: module 'tensorflow.keras.initializers' has no attribute 'LecunNormal'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'tensorflow.keras.initializers.HeUniform'), ('new_fqn', 'tensorflow.keras.initializers.HeNormal'), ('line_no', 100)])(3759, 9)
+(418, 9)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3759 entries, 0 to 3758
+Data columns (total 9 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   Sex             3759 non-null   object 
+ 1   Length          3759 non-null   float64
+ 2   Diameter        3759 non-null   float64
+ 3   Height          3759 non-null   float64
+ 4   Whole weight    3759 non-null   float64
+ 5   Shucked weight  3759 non-null   float64
+ 6   Viscera weight  3759 non-null   float64
+ 7   Shell weight    3759 non-null   float64
+ 8   Rings           3759 non-null   int64  
+dtypes: float64(7), int64(1), object(1)
+memory usage: 264.4+ KB
+(3007, 10)
+(752, 10)
+Traceback (most recent call last):
+  File "abalone-rings.py", line 111, in <module>
+    model = build_nn()
+  File "abalone-rings.py", line 101, in build_nn
+    model = keras.models.Sequential([ keras.layers.Dense(32, 'relu', kernel_initializer=tensorflow.keras.initializers.HeNormal(), activity_regularizer=keras.regularizers.l1_l2(l1=1e-5, l2=1e-6)), keras.layers.Dense(1), ]) 
+AttributeError: module 'tensorflow.keras.initializers' has no attribute 'HeNormal'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'tensorflow.keras.initializers.HeUniform'), ('new_fqn', 'tensorflow.keras.initializers.he_normal'), ('line_no', 100)])2021-07-09 05:28:20.898704: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-07-09 05:28:20.921558: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-07-09 05:28:20.922365: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55e93f0ac590 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-09 05:28:20.922392: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-07-09 05:28:20.922506: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.iter
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.decay
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.learning_rate
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:A checkpoint was restored (e.g. tf.train.Checkpoint.restore or tf.keras.Model.load_weights) but not all checkpointed values were used. See above for specific issues. Use expect_partial() on the load status object, e.g. tf.train.Checkpoint.restore(...).expect_partial(), to silence these warnings, or use assert_consumed() to make the check explicit. See https://www.tensorflow.org/guide/checkpoint#loading_mechanics for details.
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.iter
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.decay
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.learning_rate
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:A checkpoint was restored (e.g. tf.train.Checkpoint.restore or tf.keras.Model.load_weights) but not all checkpointed values were used. See above for specific issues. Use expect_partial() on the load status object, e.g. tf.train.Checkpoint.restore(...).expect_partial(), to silence these warnings, or use assert_consumed() to make the check explicit. See https://www.tensorflow.org/guide/checkpoint#loading_mechanics for details.
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.iter
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.decay
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.learning_rate
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:A checkpoint was restored (e.g. tf.train.Checkpoint.restore or tf.keras.Model.load_weights) but not all checkpointed values were used. See above for specific issues. Use expect_partial() on the load status object, e.g. tf.train.Checkpoint.restore(...).expect_partial(), to silence these warnings, or use assert_consumed() to make the check explicit. See https://www.tensorflow.org/guide/checkpoint#loading_mechanics for details.
+WARNING:tensorflow:Layer dense_12 is casting an input tensor from dtype float64 to the layer's dtype of float32, which is new behavior in TensorFlow 2.  The layer has dtype float32 because it's dtype defaults to floatx.
+
+If you intended to run this layer in float32, you can safely ignore this warning. If in doubt, this warning is likely only an issue if you are porting a TensorFlow 1.X model to TensorFlow 2.
+
+To change all layers to have dtype float64 by default, call `tf.keras.backend.set_floatx('float64')`. To change just this layer, pass dtype='float64' to the layer constructor. If you are the author of this layer, you can disable autocasting by passing autocast=False to the base Layer constructor.
+
+(3759, 9)
+(418, 9)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3759 entries, 0 to 3758
+Data columns (total 9 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   Sex             3759 non-null   object 
+ 1   Length          3759 non-null   float64
+ 2   Diameter        3759 non-null   float64
+ 3   Height          3759 non-null   float64
+ 4   Whole weight    3759 non-null   float64
+ 5   Shucked weight  3759 non-null   float64
+ 6   Viscera weight  3759 non-null   float64
+ 7   Shell weight    3759 non-null   float64
+ 8   Rings           3759 non-null   int64  
+dtypes: float64(7), int64(1), object(1)
+memory usage: 264.4+ KB
+(3007, 10)
+(752, 10)
+Validation MAE 1.5317736864089966
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000834 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Fold:  0
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000612 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Fold:  1
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000571 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Fold:  2
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000722 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Fold:  3
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000277 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Fold:  4
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000542 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+Validation MAE 1.4818058013916016
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.iter
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.decay
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.learning_rate
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:A checkpoint was restored (e.g. tf.train.Checkpoint.restore or tf.keras.Model.load_weights) but not all checkpointed values were used. See above for specific issues. Use expect_partial() on the load status object, e.g. tf.train.Checkpoint.restore(...).expect_partial(), to silence these warnings, or use assert_consumed() to make the check explicit. See https://www.tensorflow.org/guide/checkpoint#loading_mechanics for details.
+[REPAIR EXEC TIME]: 200.7458574771881

@@ -1,0 +1,76 @@
+Traceback (most recent call last):
+  File "suicide-rate-analysis-using-decesion-tree.py", line 18, in <module>
+    from sklearn.externals.six import StringIO
+ModuleNotFoundError: No module named 'sklearn.externals.six'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.externals.six'), ('new_fqn', 'six'), ('line_no', 18)])['master.csv']
+   year  population  suicides/100k pop  gdp_per_capita ($)
+0  1987      312900               6.71                 796
+1  1987      308000               5.19                 796
+2  1987      289700               4.83                 796
+3  1987       21800               4.59                 796
+4  1987      274300               3.28                 796
+0    21
+1    16
+2    14
+3     1
+4     9
+Name: suicides_no, dtype: int64
+(22256, 4) (22256,)
+(5564,) (5564, 4)
+       year  population  suicides/100k pop  gdp_per_capita ($)
+27345  1997      301689              10.28                8012
+13534  1999    17403000              47.92               38164
+11025  2012      150302               0.67                3779
+4248   1991    14774615               5.22                4490
+22960  2007      767209               0.00               16815
+[REPAIR EXEC TIME]: 3.045483112335205Traceback (most recent call last):
+  File "suicide-rate-analysis-using-decesion-tree.py", line 18, in <module>
+    from sklearn.externals.six import StringIO
+ModuleNotFoundError: No module named 'sklearn.externals.six'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.six'), ('new_fqn', 'six'), ('line_no', 18)])['master.csv']
+   year  population  suicides/100k pop  gdp_per_capita ($)
+0  1987      312900               6.71                 796
+1  1987      308000               5.19                 796
+2  1987      289700               4.83                 796
+3  1987       21800               4.59                 796
+4  1987      274300               3.28                 796
+0    21
+1    16
+2    14
+3     1
+4     9
+Name: suicides_no, dtype: int64
+(22256, 4) (22256,)
+(5564,) (5564, 4)
+       year  population  suicides/100k pop  gdp_per_capita ($)
+10072  1989      956800               7.32                8310
+3806   2015     1262327              13.94               42830
+25829  1996      442700              17.17                 608
+16872  2010     5735458               1.08                9991
+9984   2012     3782823               0.29               45142
+[REPAIR EXEC TIME]: 3.122689962387085Traceback (most recent call last):
+  File "suicide-rate-analysis-using-decesion-tree.py", line 18, in <module>
+    from sklearn.externals.six import StringIO
+ModuleNotFoundError: No module named 'sklearn.externals.six'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.six'), ('new_fqn', 'six'), ('line_no', 18)])['master.csv']
+   year  population  suicides/100k pop  gdp_per_capita ($)
+0  1987      312900               6.71                 796
+1  1987      308000               5.19                 796
+2  1987      289700               4.83                 796
+3  1987       21800               4.59                 796
+4  1987      274300               3.28                 796
+0    21
+1    16
+2    14
+3     1
+4     9
+Name: suicides_no, dtype: int64
+(22256, 4) (22256,)
+(5564,) (5564, 4)
+       year  population  suicides/100k pop  gdp_per_capita ($)
+23316  1998     1567615               0.77                3512
+11872  2001       20597               9.71               30850
+10153  1995      679656               0.00               13550
+14401  2008      363431               1.38               43746
+27196  2014     7994948              38.85               58531
+[REPAIR EXEC TIME]: 3.251816749572754

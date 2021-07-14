@@ -1,0 +1,256 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20640 entries, 0 to 20639
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   longitude           20640 non-null  float64
+ 1   latitude            20640 non-null  float64
+ 2   housing_median_age  20640 non-null  float64
+ 3   total_rooms         20640 non-null  float64
+ 4   total_bedrooms      20433 non-null  float64
+ 5   population          20640 non-null  float64
+ 6   households          20640 non-null  float64
+ 7   median_income       20640 non-null  float64
+ 8   median_house_value  20640 non-null  float64
+ 9   ocean_proximity     20640 non-null  object 
+dtypes: float64(9), object(1)
+memory usage: 1.6+ MB
+
+16512 train + 4128 test
+16362 train +  4278 test
+Traceback (most recent call last):
+  File "california-housing-tutorial.py", line 204, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.impute.SimpleImputer'), ('line_no', 204)])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20640 entries, 0 to 20639
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   longitude           20640 non-null  float64
+ 1   latitude            20640 non-null  float64
+ 2   housing_median_age  20640 non-null  float64
+ 3   total_rooms         20640 non-null  float64
+ 4   total_bedrooms      20433 non-null  float64
+ 5   population          20640 non-null  float64
+ 6   households          20640 non-null  float64
+ 7   median_income       20640 non-null  float64
+ 8   median_house_value  20640 non-null  float64
+ 9   ocean_proximity     20640 non-null  object 
+dtypes: float64(9), object(1)
+memory usage: 1.6+ MB
+
+16512 train + 4128 test
+16362 train +  4278 test
+Predictions: [210644.60459286 317768.80697211 210956.43331178  59218.98886849
+ 189747.55849879]
+Labels: [286600.0, 340600.0, 196900.0, 46300.0, 254500.0]
+Scores: [69142.17846418 67022.11707735 70396.95350586 69490.80657776
+ 71854.72738893 74663.3976243  71071.55672593 70995.51432956
+ 77162.97685586 70306.2475642 ]
+Mean: 71210.64761139364
+Standard deviation: 2721.992226673367
+Scores: [66782.73843989 66960.118071   70347.95244419 74739.57052552
+ 68031.13388938 71193.84183426 64969.63056405 68281.61137997
+ 71552.91566558 67665.10082067]
+Mean: 69052.46136345083
+Standard deviation: 2731.674001798349
+Scores: [49699.56819501 47387.66146575 49824.98825213 52590.65301314
+ 49697.47073351 53294.38724194 49030.31146453 47699.65724892
+ 53312.35080448 50278.32432227]
+Mean: 50281.53727416818
+Standard deviation: 2027.056186478974
+Scores: [111389.0681902  119541.25938571 116957.62830414 120447.19932481
+ 117618.15904234 122309.10351544 117634.40230741 121469.713921
+ 120343.01369623 118017.12860651]
+Mean: 118572.66762937943
+Standard deviation: 2936.8775867949425
+63669.11631261028 {'max_features': 2, 'n_estimators': 3}
+55627.099719926795 {'max_features': 2, 'n_estimators': 10}
+53384.57275149205 {'max_features': 2, 'n_estimators': 30}
+60965.950449450494 {'max_features': 4, 'n_estimators': 3}
+52741.04704299915 {'max_features': 4, 'n_estimators': 10}
+50377.40461678399 {'max_features': 4, 'n_estimators': 30}
+58663.93866579625 {'max_features': 6, 'n_estimators': 3}
+52006.19873526564 {'max_features': 6, 'n_estimators': 10}
+50146.51167415009 {'max_features': 6, 'n_estimators': 30}
+57869.25276169646 {'max_features': 8, 'n_estimators': 3}
+51711.127883959234 {'max_features': 8, 'n_estimators': 10}
+49682.273345071546 {'max_features': 8, 'n_estimators': 30}
+62895.06951262424 {'bootstrap': False, 'max_features': 2, 'n_estimators': 3}
+54658.176157539405 {'bootstrap': False, 'max_features': 2, 'n_estimators': 10}
+59470.40652318466 {'bootstrap': False, 'max_features': 3, 'n_estimators': 3}
+52724.9822587892 {'bootstrap': False, 'max_features': 3, 'n_estimators': 10}
+57490.5691951261 {'bootstrap': False, 'max_features': 4, 'n_estimators': 3}
+51009.495668875716 {'bootstrap': False, 'max_features': 4, 'n_estimators': 10}
+[REPAIR EXEC TIME]: 312.08321833610535<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20640 entries, 0 to 20639
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   longitude           20640 non-null  float64
+ 1   latitude            20640 non-null  float64
+ 2   housing_median_age  20640 non-null  float64
+ 3   total_rooms         20640 non-null  float64
+ 4   total_bedrooms      20433 non-null  float64
+ 5   population          20640 non-null  float64
+ 6   households          20640 non-null  float64
+ 7   median_income       20640 non-null  float64
+ 8   median_house_value  20640 non-null  float64
+ 9   ocean_proximity     20640 non-null  object 
+dtypes: float64(9), object(1)
+memory usage: 1.6+ MB
+
+16512 train + 4128 test
+16362 train +  4278 test
+Traceback (most recent call last):
+  File "california-housing-tutorial.py", line 204, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.impute.SimpleImputer'), ('line_no', 204)])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20640 entries, 0 to 20639
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   longitude           20640 non-null  float64
+ 1   latitude            20640 non-null  float64
+ 2   housing_median_age  20640 non-null  float64
+ 3   total_rooms         20640 non-null  float64
+ 4   total_bedrooms      20433 non-null  float64
+ 5   population          20640 non-null  float64
+ 6   households          20640 non-null  float64
+ 7   median_income       20640 non-null  float64
+ 8   median_house_value  20640 non-null  float64
+ 9   ocean_proximity     20640 non-null  object 
+dtypes: float64(9), object(1)
+memory usage: 1.6+ MB
+
+16512 train + 4128 test
+16362 train +  4278 test
+Predictions: [210644.60459286 317768.80697211 210956.43331178  59218.98886849
+ 189747.55849879]
+Labels: [286600.0, 340600.0, 196900.0, 46300.0, 254500.0]
+Scores: [68717.94960193 64952.35715727 70388.76019216 68372.1341826
+ 73017.30061942 74006.90228939 71175.16783409 71297.0907389
+ 77922.1862154  68910.80721819]
+Mean: 70876.06560493683
+Standard deviation: 3382.5838025268395
+Scores: [66782.73843989 66960.118071   70347.95244419 74739.57052552
+ 68031.13388938 71193.84183426 64969.63056405 68281.61137997
+ 71552.91566558 67665.10082067]
+Mean: 69052.46136345083
+Standard deviation: 2731.674001798349
+Scores: [49266.85286844 47405.74574697 49679.05286102 52212.03044777
+ 49564.49382141 53368.60628984 49012.35432367 48001.15466053
+ 53176.11329688 49981.40692965]
+Mean: 50166.78112461777
+Standard deviation: 1964.2206646913442
+Scores: [111389.0681902  119541.25938571 116957.62830414 120447.19932481
+ 117618.15904234 122309.10351544 117634.40230741 121469.713921
+ 120343.01369623 118017.12860651]
+Mean: 118572.66762937943
+Standard deviation: 2936.8775867949425
+63669.11631261028 {'max_features': 2, 'n_estimators': 3}
+55627.099719926795 {'max_features': 2, 'n_estimators': 10}
+53384.57275149205 {'max_features': 2, 'n_estimators': 30}
+60965.950449450494 {'max_features': 4, 'n_estimators': 3}
+52741.04704299915 {'max_features': 4, 'n_estimators': 10}
+50377.40461678399 {'max_features': 4, 'n_estimators': 30}
+58663.93866579625 {'max_features': 6, 'n_estimators': 3}
+52006.19873526564 {'max_features': 6, 'n_estimators': 10}
+50146.51167415009 {'max_features': 6, 'n_estimators': 30}
+57869.25276169646 {'max_features': 8, 'n_estimators': 3}
+51711.127883959234 {'max_features': 8, 'n_estimators': 10}
+49682.273345071546 {'max_features': 8, 'n_estimators': 30}
+62895.06951262424 {'bootstrap': False, 'max_features': 2, 'n_estimators': 3}
+54658.176157539405 {'bootstrap': False, 'max_features': 2, 'n_estimators': 10}
+59470.40652318466 {'bootstrap': False, 'max_features': 3, 'n_estimators': 3}
+52724.9822587892 {'bootstrap': False, 'max_features': 3, 'n_estimators': 10}
+57490.5691951261 {'bootstrap': False, 'max_features': 4, 'n_estimators': 3}
+51009.495668875716 {'bootstrap': False, 'max_features': 4, 'n_estimators': 10}
+[REPAIR EXEC TIME]: 311.58025074005127<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20640 entries, 0 to 20639
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   longitude           20640 non-null  float64
+ 1   latitude            20640 non-null  float64
+ 2   housing_median_age  20640 non-null  float64
+ 3   total_rooms         20640 non-null  float64
+ 4   total_bedrooms      20433 non-null  float64
+ 5   population          20640 non-null  float64
+ 6   households          20640 non-null  float64
+ 7   median_income       20640 non-null  float64
+ 8   median_house_value  20640 non-null  float64
+ 9   ocean_proximity     20640 non-null  object 
+dtypes: float64(9), object(1)
+memory usage: 1.6+ MB
+
+16512 train + 4128 test
+16362 train +  4278 test
+Traceback (most recent call last):
+  File "california-housing-tutorial.py", line 204, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.impute.SimpleImputer'), ('line_no', 204)])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20640 entries, 0 to 20639
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   longitude           20640 non-null  float64
+ 1   latitude            20640 non-null  float64
+ 2   housing_median_age  20640 non-null  float64
+ 3   total_rooms         20640 non-null  float64
+ 4   total_bedrooms      20433 non-null  float64
+ 5   population          20640 non-null  float64
+ 6   households          20640 non-null  float64
+ 7   median_income       20640 non-null  float64
+ 8   median_house_value  20640 non-null  float64
+ 9   ocean_proximity     20640 non-null  object 
+dtypes: float64(9), object(1)
+memory usage: 1.6+ MB
+
+16512 train + 4128 test
+16362 train +  4278 test
+Predictions: [210644.60459286 317768.80697211 210956.43331178  59218.98886849
+ 189747.55849879]
+Labels: [286600.0, 340600.0, 196900.0, 46300.0, 254500.0]
+Scores: [67788.71004973 66658.77132436 71448.43228252 69238.4329439
+ 71347.93386916 73532.54708604 71176.4309583  72262.39290356
+ 77416.78687031 69158.79390737]
+Mean: 71002.92321952406
+Standard deviation: 2918.691216500469
+Scores: [66782.73843989 66960.118071   70347.95244419 74739.57052552
+ 68031.13388938 71193.84183426 64969.63056405 68281.61137997
+ 71552.91566558 67665.10082067]
+Mean: 69052.46136345083
+Standard deviation: 2731.674001798349
+Scores: [49964.81016712 47725.3174661  49885.87885254 52196.25529407
+ 49820.56584326 53577.58411411 48967.2569344  47744.07799359
+ 52892.09417293 50034.80720216]
+Mean: 50280.864804026685
+Standard deviation: 1912.4747533264692
+Scores: [111389.0681902  119541.25938571 116957.62830414 120447.19932481
+ 117618.15904234 122309.10351544 117634.40230741 121469.713921
+ 120343.01369623 118017.12860651]
+Mean: 118572.66762937943
+Standard deviation: 2936.8775867949425
+63669.11631261028 {'max_features': 2, 'n_estimators': 3}
+55627.099719926795 {'max_features': 2, 'n_estimators': 10}
+53384.57275149205 {'max_features': 2, 'n_estimators': 30}
+60965.950449450494 {'max_features': 4, 'n_estimators': 3}
+52741.04704299915 {'max_features': 4, 'n_estimators': 10}
+50377.40461678399 {'max_features': 4, 'n_estimators': 30}
+58663.93866579625 {'max_features': 6, 'n_estimators': 3}
+52006.19873526564 {'max_features': 6, 'n_estimators': 10}
+50146.51167415009 {'max_features': 6, 'n_estimators': 30}
+57869.25276169646 {'max_features': 8, 'n_estimators': 3}
+51711.127883959234 {'max_features': 8, 'n_estimators': 10}
+49682.273345071546 {'max_features': 8, 'n_estimators': 30}
+62895.06951262424 {'bootstrap': False, 'max_features': 2, 'n_estimators': 3}
+54658.176157539405 {'bootstrap': False, 'max_features': 2, 'n_estimators': 10}
+59470.40652318466 {'bootstrap': False, 'max_features': 3, 'n_estimators': 3}
+52724.9822587892 {'bootstrap': False, 'max_features': 3, 'n_estimators': 10}
+57490.5691951261 {'bootstrap': False, 'max_features': 4, 'n_estimators': 3}
+51009.495668875716 {'bootstrap': False, 'max_features': 4, 'n_estimators': 10}
+[REPAIR EXEC TIME]: 322.9767196178436

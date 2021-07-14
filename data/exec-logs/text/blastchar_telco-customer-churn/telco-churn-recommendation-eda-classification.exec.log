@@ -1,0 +1,750 @@
+customerID          0
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        0
+Churn               0
+dtype: int64
+ The data type for the Total Charges Column is: <class 'str'>
+488      
+753      
+936      
+1082     
+1340     
+3331     
+3826     
+4380     
+5218     
+6670     
+6754     
+Name: TotalCharges, dtype: object
+
+   gender  customerID
+0  Female        3483
+1    Male        3549
+
+   SeniorCitizen  customerID
+0              0        5890
+1              1        1142
+
+  Partner  customerID
+0      No        3639
+1     Yes        3393
+
+  Dependents  customerID
+0         No        4933
+1        Yes        2099
+
+  PhoneService  customerID
+0           No         680
+1          Yes        6352
+
+      MultipleLines  customerID
+0                No        3385
+1  No phone service         680
+2               Yes        2967
+
+  InternetService  customerID
+0             DSL        2416
+1     Fiber optic        3096
+2              No        1520
+
+        OnlineSecurity  customerID
+0                   No        3497
+1  No internet service        1520
+2                  Yes        2015
+
+          OnlineBackup  customerID
+0                   No        3087
+1  No internet service        1520
+2                  Yes        2425
+
+      DeviceProtection  customerID
+0                   No        3094
+1  No internet service        1520
+2                  Yes        2418
+
+           TechSupport  customerID
+0                   No        3472
+1  No internet service        1520
+2                  Yes        2040
+
+           StreamingTV  customerID
+0                   No        2809
+1  No internet service        1520
+2                  Yes        2703
+
+       StreamingMovies  customerID
+0                   No        2781
+1  No internet service        1520
+2                  Yes        2731
+
+         Contract  customerID
+0  Month-to-month        3875
+1        One year        1472
+2        Two year        1685
+
+  PaperlessBilling  customerID
+0               No        2864
+1              Yes        4168
+
+               PaymentMethod  customerID
+0  Bank transfer (automatic)        1542
+1    Credit card (automatic)        1521
+2           Electronic check        2365
+3               Mailed check        1604
+[0.7342149715504979, 0.7892473813526444, 0.7892473813526444, 0.7883947045131255, 0.7883928860080176, 0.7892467751842752, 0.7811412938057675, 0.780573920212078, 0.7677760894866157, 0.768629170438381, 0.7592418450148714, 0.7525568181818182, 0.7464446204577783, 0.7377689366998578, 0.7406140889693521, 0.7326516633260054, 0.7279566872494504, 0.734501487133066, 0.7305209815078235, 0.7258239848700375, 0.7272474702573387, 0.7269633793482477, 0.7252578236130868, 0.7278176726367516, 0.7266796925514031, 0.7232675708004656, 0.7258260054312686, 0.7286695412517782, 0.7244019138755982, 0.7244045406051984, 0.7242631013190224, 0.7252572174447175, 0.7229798428811587, 0.7261119148454674, 0.7280995409284883, 0.7309459055347214, 0.7268217380059485, 0.7258253992628992, 0.7271062330272856, 0.728953632160869, 0.7288132031553085, 0.7283864606233027, 0.7283878750161645, 0.7231237068408122, 0.7285278999094789, 0.7282434048881418, 0.727532369390922, 0.7279611324841588, 0.7236912824906245]
+0.7864572277648058
+0.7815596725549332
+tenure 0.5150705587106872
+InternetService_Fiber optic 0.39808657870665376
+OnlineBackup_No internet service 0.054272656190556816
+Contract_Two year 0.016636203265093293
+TotalCharges 0.015934003127008912
+gender 0.0
+DeviceProtection_Yes 0.0
+PaymentMethod_Electronic check 0.0
+PaymentMethod_Credit card (automatic) 0.0
+Contract_One year 0.0
+0.43853820598006643
+
+
+0.9983018467416684
+0.7841447651874193
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  25 tasks      | elapsed:   11.6s
+[Parallel(n_jobs=-1)]: Done 146 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  2.1min finished
+0.8061990077587268
+{'n_estimators': 300, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_depth': 9, 'bootstrap': True}
+0.8571428571428571
+0.7940542869452822
+0.5499058380414312
+
+
+LogisticRegression()
+0.8049246444491616
+0.7987936234381732
+Best Penalty: l2
+Best C: 21.544346900318832
+0.8045001061345787
+0.7987936234381732
+0.5942658557775846
+
+
+[CV] n_estimators=550, min_samples_split=2, min_samples_leaf=4, max_depth=11, bootstrap=False 
+[CV]  n_estimators=550, min_samples_split=2, min_samples_leaf=4, max_depth=11, bootstrap=False, total=   3.5s
+[CV] n_estimators=290, min_samples_split=2, min_samples_leaf=1, max_depth=15, bootstrap=True 
+[CV]  n_estimators=290, min_samples_split=2, min_samples_leaf=1, max_depth=15, bootstrap=True, total=   1.9s
+[CV] n_estimators=290, min_samples_split=2, min_samples_leaf=1, max_depth=15, bootstrap=True 
+[CV]  n_estimators=290, min_samples_split=2, min_samples_leaf=1, max_depth=15, bootstrap=True, total=   2.0s
+[CV] n_estimators=780, min_samples_split=2, min_samples_leaf=4, max_depth=1, bootstrap=False 
+[CV]  n_estimators=780, min_samples_split=2, min_samples_leaf=4, max_depth=1, bootstrap=False, total=   2.6s
+[CV] n_estimators=850, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=False 
+[CV]  n_estimators=850, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=False, total=   6.6s
+[CV] n_estimators=850, min_samples_split=4, min_samples_leaf=1, max_depth=15, bootstrap=True 
+[CV]  n_estimators=850, min_samples_split=4, min_samples_leaf=1, max_depth=15, bootstrap=True, total=   6.7s
+[CV] n_estimators=690, min_samples_split=4, min_samples_leaf=1, max_depth=21, bootstrap=False 
+[CV]  n_estimators=690, min_samples_split=4, min_samples_leaf=1, max_depth=21, bootstrap=False, total=   6.4s
+[CV] n_estimators=750, min_samples_split=2, min_samples_leaf=1, max_depth=7, bootstrap=True 
+[CV]  n_estimators=750, min_samples_split=2, min_samples_leaf=1, max_depth=7, bootstrap=True, total=   4.7s
+[CV] n_estimators=360, min_samples_split=2, min_samples_leaf=2, max_depth=7, bootstrap=True 
+[CV]  n_estimators=360, min_samples_split=2, min_samples_leaf=2, max_depth=7, bootstrap=True, total=   2.3s
+[CV] n_estimators=930, min_samples_split=2, min_samples_leaf=1, max_depth=17, bootstrap=False 
+[CV]  n_estimators=930, min_samples_split=2, min_samples_leaf=1, max_depth=17, bootstrap=False, total=   9.0s
+[CV] n_estimators=350, min_samples_split=8, min_samples_leaf=4, max_depth=23, bootstrap=True 
+[CV]  n_estimators=350, min_samples_split=8, min_samples_leaf=4, max_depth=23, bootstrap=True, total=   2.5s
+[CV] n_estimators=620, min_samples_split=4, min_samples_leaf=4, max_depth=23, bootstrap=True 
+[CV]  n_estimators=620, min_samples_split=4, min_samples_leaf=4, max_depth=23, bootstrap=True, total=   4.4s
+[CV] n_estimators=190, min_samples_split=4, min_samples_leaf=2, max_depth=19, bootstrap=True 
+[CV]  n_estimators=190, min_samples_split=4, min_samples_leaf=2, max_depth=19, bootstrap=True, total=   1.5s
+[CV] n_estimators=280, min_samples_split=2, min_samples_leaf=2, max_depth=1, bootstrap=False 
+[CV]  n_estimators=280, min_samples_split=2, min_samples_leaf=2, max_depth=1, bootstrap=False, total=   1.0s
+[CV] n_estimators=390, min_samples_split=8, min_samples_leaf=4, max_depth=5, bootstrap=True 
+[CV]  n_estimators=390, min_samples_split=8, min_samples_leaf=4, max_depth=5, bootstrap=True, total=   2.2s
+[CV] n_estimators=300, min_samples_split=2, min_samples_leaf=4, max_depth=3, bootstrap=False 
+[CV]  n_estimators=300, min_samples_split=2, min_samples_leaf=4, max_depth=3, bootstrap=False, total=   1.3s
+[CV] n_estimators=100, min_samples_split=8, min_samples_leaf=1, max_depth=19, bootstrap=True 
+[CV]  n_estimators=100, min_samples_split=8, min_samples_leaf=1, max_depth=19, bootstrap=True, total=   0.8s
+[CV] n_estimators=880, min_samples_split=8, min_samples_leaf=1, max_depth=9, bootstrap=False 
+[CV]  n_estimators=880, min_samples_split=8, min_samples_leaf=1, max_depth=9, bootstrap=False, total=   6.5s
+[CV] n_estimators=320, min_samples_split=4, min_samples_leaf=1, max_depth=3, bootstrap=True 
+[CV]  n_estimators=320, min_samples_split=4, min_samples_leaf=1, max_depth=3, bootstrap=True, total=   1.6s
+[CV] n_estimators=150, min_samples_split=4, min_samples_leaf=1, max_depth=1, bootstrap=False 
+[CV]  n_estimators=150, min_samples_split=4, min_samples_leaf=1, max_depth=1, bootstrap=False, total=   0.5s
+[CV] n_estimators=150, min_samples_split=4, min_samples_leaf=1, max_depth=1, bootstrap=False 
+[CV]  n_estimators=150, min_samples_split=4, min_samples_leaf=1, max_depth=1, bootstrap=False, total=   0.5s
+[CV] n_estimators=150, min_samples_split=4, min_samples_leaf=1, max_depth=1, bootstrap=False 
+[CV]  n_estimators=150, min_samples_split=4, min_samples_leaf=1, max_depth=1, bootstrap=False, total=   0.5s
+[CV] n_estimators=530, min_samples_split=2, min_samples_leaf=1, max_depth=7, bootstrap=False 
+[CV]  n_estimators=530, min_samples_split=2, min_samples_leaf=1, max_depth=7, bootstrap=False, total=   3.5s
+[CV] n_estimators=900, min_samples_split=4, min_samples_leaf=4, max_depth=21, bootstrap=True 
+[CV]  n_estimators=900, min_samples_split=4, min_samples_leaf=4, max_depth=21, bootstrap=True, total=   6.5s
+[CV] n_estimators=410, min_samples_split=4, min_samples_leaf=4, max_depth=9, bootstrap=True 
+[CV]  n_estimators=410, min_samples_split=4, min_samples_leaf=4, max_depth=9, bootstrap=True, total=   2.8s
+[CV] n_estimators=160, min_samples_split=8, min_samples_leaf=2, max_depth=19, bootstrap=True 
+[CV]  n_estimators=160, min_samples_split=8, min_samples_leaf=2, max_depth=19, bootstrap=True, total=   1.3s
+[CV] n_estimators=860, min_samples_split=4, min_samples_leaf=4, max_depth=23, bootstrap=False 
+[CV]  n_estimators=860, min_samples_split=4, min_samples_leaf=4, max_depth=23, bootstrap=False, total=   6.9s
+[CV] n_estimators=580, min_samples_split=8, min_samples_leaf=2, max_depth=19, bootstrap=True 
+[CV]  n_estimators=580, min_samples_split=8, min_samples_leaf=2, max_depth=19, bootstrap=True, total=   4.2s
+[CV] n_estimators=810, min_samples_split=2, min_samples_leaf=1, max_depth=17, bootstrap=True 
+[CV]  n_estimators=810, min_samples_split=2, min_samples_leaf=1, max_depth=17, bootstrap=True, total=   6.5s
+[CV] n_estimators=940, min_samples_split=4, min_samples_leaf=4, max_depth=5, bootstrap=True 
+[CV]  n_estimators=940, min_samples_split=4, min_samples_leaf=4, max_depth=5, bootstrap=True, total=   5.1s
+[CV] n_estimators=230, min_samples_split=2, min_samples_leaf=1, max_depth=7, bootstrap=True 
+[CV]  n_estimators=230, min_samples_split=2, min_samples_leaf=1, max_depth=7, bootstrap=True, total=   1.4s
+[CV] n_estimators=120, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=True 
+[CV]  n_estimators=120, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=True, total=   0.9s
+[CV] n_estimators=50, min_samples_split=8, min_samples_leaf=2, max_depth=15, bootstrap=True 
+[CV]  n_estimators=50, min_samples_split=8, min_samples_leaf=2, max_depth=15, bootstrap=True, total=   0.4s
+[CV] n_estimators=50, min_samples_split=8, min_samples_leaf=2, max_depth=15, bootstrap=True 
+[CV]  n_estimators=50, min_samples_split=8, min_samples_leaf=2, max_depth=15, bootstrap=True, total=   0.4s
+[CV] n_estimators=280, min_samples_split=2, min_samples_leaf=4, max_depth=7, bootstrap=False 
+[CV]  n_estimators=280, min_samples_split=2, min_samples_leaf=4, max_depth=7, bootstrap=False, total=   1.8s
+[CV] n_estimators=280, min_samples_split=2, min_samples_leaf=4, max_depth=7, bootstrap=False 
+[CV]  n_estimators=280, min_samples_split=2, min_samples_leaf=4, max_depth=7, bootstrap=False, total=   1.8s
+[CV] n_estimators=940, min_samples_split=4, min_samples_leaf=1, max_depth=5, bootstrap=False 
+[CV]  n_estimators=940, min_samples_split=4, min_samples_leaf=1, max_depth=5, bootstrap=False, total=   5.1s
+[CV] n_estimators=800, min_samples_split=4, min_samples_leaf=4, max_depth=19, bootstrap=False 
+[CV]  n_estimators=800, min_samples_split=4, min_samples_leaf=4, max_depth=19, bootstrap=False, total=   6.4s
+[CV] n_estimators=690, min_samples_split=8, min_samples_leaf=4, max_depth=1, bootstrap=True 
+[CV]  n_estimators=690, min_samples_split=8, min_samples_leaf=4, max_depth=1, bootstrap=True, total=   2.3s
+[CV] n_estimators=850, min_samples_split=2, min_samples_leaf=2, max_depth=3, bootstrap=False 
+[CV]  n_estimators=850, min_samples_split=2, min_samples_leaf=2, max_depth=3, bootstrap=False, total=   3.2s
+[CV] n_estimators=210, min_samples_split=8, min_samples_leaf=4, max_depth=13, bootstrap=False 
+[CV]  n_estimators=210, min_samples_split=8, min_samples_leaf=4, max_depth=13, bootstrap=False, total=   1.5s
+[CV] n_estimators=690, min_samples_split=4, min_samples_leaf=1, max_depth=9, bootstrap=False 
+[CV]  n_estimators=690, min_samples_split=4, min_samples_leaf=1, max_depth=9, bootstrap=False, total=   5.1s
+[CV] n_estimators=30, min_samples_split=8, min_samples_leaf=4, max_depth=3, bootstrap=True 
+[CV]  n_estimators=30, min_samples_split=8, min_samples_leaf=4, max_depth=3, bootstrap=True, total=   0.2s
+[CV] n_estimators=580, min_samples_split=2, min_samples_leaf=4, max_depth=5, bootstrap=True 
+[CV]  n_estimators=580, min_samples_split=2, min_samples_leaf=4, max_depth=5, bootstrap=True, total=   3.3s
+[CV] n_estimators=650, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=True 
+[CV]  n_estimators=650, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=True, total=   4.6s
+[CV] n_estimators=510, min_samples_split=4, min_samples_leaf=2, max_depth=23, bootstrap=False 
+[CV]  n_estimators=510, min_samples_split=4, min_samples_leaf=2, max_depth=23, bootstrap=False, total=   4.6s
+[CV] n_estimators=540, min_samples_split=2, min_samples_leaf=4, max_depth=19, bootstrap=True 
+[CV]  n_estimators=540, min_samples_split=2, min_samples_leaf=4, max_depth=19, bootstrap=True, total=   3.8s
+[CV] n_estimators=340, min_samples_split=8, min_samples_leaf=1, max_depth=19, bootstrap=False 
+[CV]  n_estimators=340, min_samples_split=8, min_samples_leaf=1, max_depth=19, bootstrap=False, total=   2.9s
+[CV] n_estimators=120, min_samples_split=4, min_samples_leaf=2, max_depth=19, bootstrap=False 
+[CV]  n_estimators=120, min_samples_split=4, min_samples_leaf=2, max_depth=19, bootstrap=False, total=   1.1s
+[CV] n_estimators=120, min_samples_split=4, min_samples_leaf=2, max_depth=19, bootstrap=False 
+[CV]  n_estimators=120, min_samples_split=4, min_samples_leaf=2, max_depth=19, bootstrap=False, total=   1.1s
+[CV] n_estimators=360, min_samples_split=2, min_samples_leaf=2, max_depth=7, bootstrap=True 
+[CV]  n_estimators=360, min_samples_split=2, min_samples_leaf=2, max_depth=7, bootstrap=True, total=   2.3s
+[CV] n_estimators=800, min_samples_split=2, min_samples_leaf=2, max_depth=3, bootstrap=True 
+[CV]  n_estimators=800, min_samples_split=2, min_samples_leaf=2, max_depth=3, bootstrap=True, total=   3.8s
+[CV] n_estimators=920, min_samples_split=8, min_samples_leaf=4, max_depth=7, bootstrap=True 
+[CV]  n_estimators=920, min_samples_split=8, min_samples_leaf=4, max_depth=7, bootstrap=True, total=   5.6s
+[CV] n_estimators=490, min_samples_split=8, min_samples_leaf=1, max_depth=9, bootstrap=False 
+[CV]  n_estimators=490, min_samples_split=8, min_samples_leaf=1, max_depth=9, bootstrap=False, total=   3.6s
+[CV] n_estimators=570, min_samples_split=4, min_samples_leaf=2, max_depth=23, bootstrap=True 
+[CV]  n_estimators=570, min_samples_split=4, min_samples_leaf=2, max_depth=23, bootstrap=True, total=   4.4s
+[CV] n_estimators=370, min_samples_split=4, min_samples_leaf=2, max_depth=23, bootstrap=True 
+[CV]  n_estimators=370, min_samples_split=4, min_samples_leaf=2, max_depth=23, bootstrap=True, total=   2.8s
+[CV] n_estimators=330, min_samples_split=8, min_samples_leaf=1, max_depth=15, bootstrap=False 
+[CV]  n_estimators=330, min_samples_split=8, min_samples_leaf=1, max_depth=15, bootstrap=False, total=   2.8s
+[CV] n_estimators=100, min_samples_split=8, min_samples_leaf=1, max_depth=19, bootstrap=True 
+[CV]  n_estimators=100, min_samples_split=8, min_samples_leaf=1, max_depth=19, bootstrap=True, total=   0.8s
+[CV] n_estimators=20, min_samples_split=4, min_samples_leaf=4, max_depth=3, bootstrap=True 
+[CV]  n_estimators=20, min_samples_split=4, min_samples_leaf=4, max_depth=3, bootstrap=True, total=   0.1s
+[CV] n_estimators=830, min_samples_split=2, min_samples_leaf=2, max_depth=9, bootstrap=True 
+[CV]  n_estimators=830, min_samples_split=2, min_samples_leaf=2, max_depth=9, bootstrap=True, total=   5.6s
+[CV] n_estimators=540, min_samples_split=4, min_samples_leaf=4, max_depth=19, bootstrap=False 
+[CV]  n_estimators=540, min_samples_split=4, min_samples_leaf=4, max_depth=19, bootstrap=False, total=   4.4s
+[CV] n_estimators=320, min_samples_split=2, min_samples_leaf=4, max_depth=21, bootstrap=False 
+[CV]  n_estimators=320, min_samples_split=2, min_samples_leaf=4, max_depth=21, bootstrap=False, total=   2.6s
+[CV] n_estimators=220, min_samples_split=8, min_samples_leaf=2, max_depth=5, bootstrap=False 
+[CV]  n_estimators=220, min_samples_split=8, min_samples_leaf=2, max_depth=5, bootstrap=False, total=   1.2s
+[CV] n_estimators=220, min_samples_split=8, min_samples_leaf=2, max_depth=5, bootstrap=False 
+[CV]  n_estimators=220, min_samples_split=8, min_samples_leaf=2, max_depth=5, bootstrap=False, total=   1.2s
+[CV] n_estimators=430, min_samples_split=2, min_samples_leaf=4, max_depth=15, bootstrap=True 
+[CV]  n_estimators=430, min_samples_split=2, min_samples_leaf=4, max_depth=15, bootstrap=True, total=   3.1s
+[CV] n_estimators=630, min_samples_split=4, min_samples_leaf=1, max_depth=1, bootstrap=True 
+[CV]  n_estimators=630, min_samples_split=4, min_samples_leaf=1, max_depth=1, bootstrap=True, total=   2.6s
+[CV] n_estimators=70, min_samples_split=8, min_samples_leaf=2, max_depth=17, bootstrap=True 
+[CV]  n_estimators=70, min_samples_split=8, min_samples_leaf=2, max_depth=17, bootstrap=True, total=   0.5s
+[CV] n_estimators=70, min_samples_split=8, min_samples_leaf=2, max_depth=17, bootstrap=True 
+[CV]  n_estimators=70, min_samples_split=8, min_samples_leaf=2, max_depth=17, bootstrap=True, total=   0.6s
+[CV] n_estimators=370, min_samples_split=2, min_samples_leaf=2, max_depth=15, bootstrap=False 
+[CV]  n_estimators=370, min_samples_split=2, min_samples_leaf=2, max_depth=15, bootstrap=False, total=   3.3s
+[CV] n_estimators=860, min_samples_split=4, min_samples_leaf=4, max_depth=23, bootstrap=False 
+[CV]  n_estimators=860, min_samples_split=4, min_samples_leaf=4, max_depth=23, bootstrap=False, total=   6.9s
+[CV] n_estimators=810, min_samples_split=2, min_samples_leaf=1, max_depth=17, bootstrap=True 
+[CV]  n_estimators=810, min_samples_split=2, min_samples_leaf=1, max_depth=17, bootstrap=True, total=   6.6s
+[CV] n_estimators=800, min_samples_split=4, min_samples_leaf=1, max_depth=13, bootstrap=False 
+[CV]  n_estimators=800, min_samples_split=4, min_samples_leaf=1, max_depth=13, bootstrap=False, total=   6.9s
+[CV] n_estimators=230, min_samples_split=2, min_samples_leaf=1, max_depth=7, bootstrap=True 
+[CV]  n_estimators=230, min_samples_split=2, min_samples_leaf=1, max_depth=7, bootstrap=True, total=   1.4s
+[CV] n_estimators=780, min_samples_split=8, min_samples_leaf=1, max_depth=11, bootstrap=False 
+[CV]  n_estimators=780, min_samples_split=8, min_samples_leaf=1, max_depth=11, bootstrap=False, total=   6.2s
+[CV] n_estimators=970, min_samples_split=8, min_samples_leaf=4, max_depth=7, bootstrap=True 
+[CV]  n_estimators=970, min_samples_split=8, min_samples_leaf=4, max_depth=7, bootstrap=True, total=   5.9s
+[CV] n_estimators=770, min_samples_split=2, min_samples_leaf=2, max_depth=19, bootstrap=True 
+[CV]  n_estimators=770, min_samples_split=2, min_samples_leaf=2, max_depth=19, bootstrap=True, total=   5.4s
+[CV] n_estimators=450, min_samples_split=2, min_samples_leaf=1, max_depth=13, bootstrap=True 
+[CV]  n_estimators=450, min_samples_split=2, min_samples_leaf=1, max_depth=13, bootstrap=True, total=   2.8s
+[CV] n_estimators=850, min_samples_split=2, min_samples_leaf=2, max_depth=3, bootstrap=False 
+[CV]  n_estimators=850, min_samples_split=2, min_samples_leaf=2, max_depth=3, bootstrap=False, total=   3.1s
+[CV] n_estimators=710, min_samples_split=8, min_samples_leaf=4, max_depth=9, bootstrap=True 
+[CV]  n_estimators=710, min_samples_split=8, min_samples_leaf=4, max_depth=9, bootstrap=True, total=   4.3s
+[CV] n_estimators=850, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=False 
+[CV]  n_estimators=850, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=False, total=   6.7s
+[CV] n_estimators=460, min_samples_split=2, min_samples_leaf=4, max_depth=15, bootstrap=False 
+[CV]  n_estimators=460, min_samples_split=2, min_samples_leaf=4, max_depth=15, bootstrap=False, total=   3.7s
+[CV] n_estimators=510, min_samples_split=4, min_samples_leaf=2, max_depth=23, bootstrap=False 
+[CV]  n_estimators=510, min_samples_split=4, min_samples_leaf=2, max_depth=23, bootstrap=False, total=   4.5s
+[CV] n_estimators=540, min_samples_split=2, min_samples_leaf=4, max_depth=19, bootstrap=True 
+[CV]  n_estimators=540, min_samples_split=2, min_samples_leaf=4, max_depth=19, bootstrap=True, total=   3.8s
+[CV] n_estimators=180, min_samples_split=2, min_samples_leaf=4, max_depth=17, bootstrap=False 
+[CV]  n_estimators=180, min_samples_split=2, min_samples_leaf=4, max_depth=17, bootstrap=False, total=   1.5s
+[CV] n_estimators=750, min_samples_split=2, min_samples_leaf=1, max_depth=7, bootstrap=True 
+[CV]  n_estimators=750, min_samples_split=2, min_samples_leaf=1, max_depth=7, bootstrap=True, total=   4.6s
+[CV] n_estimators=190, min_samples_split=4, min_samples_leaf=1, max_depth=5, bootstrap=True 
+[CV]  n_estimators=190, min_samples_split=4, min_samples_leaf=1, max_depth=5, bootstrap=True, total=   1.1s
+[CV] n_estimators=800, min_samples_split=2, min_samples_leaf=2, max_depth=3, bootstrap=True 
+[CV]  n_estimators=800, min_samples_split=2, min_samples_leaf=2, max_depth=3, bootstrap=True, total=   3.8s
+[CV] n_estimators=300, min_samples_split=2, min_samples_leaf=2, max_depth=9, bootstrap=True 
+[CV]  n_estimators=300, min_samples_split=2, min_samples_leaf=2, max_depth=9, bootstrap=True, total=   2.0s
+[CV] n_estimators=300, min_samples_split=2, min_samples_leaf=2, max_depth=9, bootstrap=True 
+[CV]  n_estimators=300, min_samples_split=2, min_samples_leaf=2, max_depth=9, bootstrap=True, total=   2.0s
+[CV] n_estimators=280, min_samples_split=8, min_samples_leaf=4, max_depth=19, bootstrap=True 
+[CV]  n_estimators=280, min_samples_split=8, min_samples_leaf=4, max_depth=19, bootstrap=True, total=   2.0s
+[CV] n_estimators=350, min_samples_split=8, min_samples_leaf=4, max_depth=23, bootstrap=True 
+[CV]  n_estimators=350, min_samples_split=8, min_samples_leaf=4, max_depth=23, bootstrap=True, total=   2.5s
+[CV] n_estimators=620, min_samples_split=4, min_samples_leaf=4, max_depth=23, bootstrap=True 
+[CV]  n_estimators=620, min_samples_split=4, min_samples_leaf=4, max_depth=23, bootstrap=True, total=   4.4s
+[CV] n_estimators=190, min_samples_split=4, min_samples_leaf=2, max_depth=19, bootstrap=True 
+[CV]  n_estimators=190, min_samples_split=4, min_samples_leaf=2, max_depth=19, bootstrap=True, total=   1.4s
+[CV] n_estimators=280, min_samples_split=2, min_samples_leaf=2, max_depth=1, bootstrap=False 
+[CV]  n_estimators=280, min_samples_split=2, min_samples_leaf=2, max_depth=1, bootstrap=False, total=   1.0s
+[CV] n_estimators=470, min_samples_split=2, min_samples_leaf=4, max_depth=11, bootstrap=False 
+[CV]  n_estimators=470, min_samples_split=2, min_samples_leaf=4, max_depth=11, bootstrap=False, total=   3.5s
+[CV] n_estimators=100, min_samples_split=8, min_samples_leaf=1, max_depth=19, bootstrap=True 
+[CV]  n_estimators=100, min_samples_split=8, min_samples_leaf=1, max_depth=19, bootstrap=True, total=   0.8s
+[CV] n_estimators=840, min_samples_split=4, min_samples_leaf=2, max_depth=7, bootstrap=True 
+[CV]  n_estimators=840, min_samples_split=4, min_samples_leaf=2, max_depth=7, bootstrap=True, total=   5.1s
+[CV] n_estimators=830, min_samples_split=2, min_samples_leaf=2, max_depth=9, bootstrap=True 
+[CV]  n_estimators=830, min_samples_split=2, min_samples_leaf=2, max_depth=9, bootstrap=True, total=   5.5s
+[CV] n_estimators=320, min_samples_split=2, min_samples_leaf=4, max_depth=21, bootstrap=False 
+[CV]  n_estimators=320, min_samples_split=2, min_samples_leaf=4, max_depth=21, bootstrap=False, total=   2.6s
+[CV] n_estimators=220, min_samples_split=8, min_samples_leaf=2, max_depth=5, bootstrap=False 
+[CV]  n_estimators=220, min_samples_split=8, min_samples_leaf=2, max_depth=5, bootstrap=False, total=   1.2s
+[CV] n_estimators=430, min_samples_split=2, min_samples_leaf=4, max_depth=15, bootstrap=True 
+[CV]  n_estimators=430, min_samples_split=2, min_samples_leaf=4, max_depth=15, bootstrap=True, total=   3.0s
+[CV] n_estimators=330, min_samples_split=2, min_samples_leaf=2, max_depth=13, bootstrap=True 
+[CV]  n_estimators=330, min_samples_split=2, min_samples_leaf=2, max_depth=13, bootstrap=True, total=   2.4s
+[CV] n_estimators=60, min_samples_split=4, min_samples_leaf=1, max_depth=3, bootstrap=True 
+[CV]  n_estimators=60, min_samples_split=4, min_samples_leaf=1, max_depth=3, bootstrap=True, total=   0.3s
+[CV] n_estimators=510, min_samples_split=8, min_samples_leaf=4, max_depth=1, bootstrap=False 
+[CV]  n_estimators=510, min_samples_split=8, min_samples_leaf=4, max_depth=1, bootstrap=False, total=   1.7s
+[CV] n_estimators=270, min_samples_split=4, min_samples_leaf=1, max_depth=3, bootstrap=True 
+[CV]  n_estimators=270, min_samples_split=4, min_samples_leaf=1, max_depth=3, bootstrap=True, total=   1.3s
+[CV] n_estimators=620, min_samples_split=2, min_samples_leaf=2, max_depth=21, bootstrap=True 
+[CV]  n_estimators=620, min_samples_split=2, min_samples_leaf=2, max_depth=21, bootstrap=True, total=   4.6s
+[CV] n_estimators=580, min_samples_split=4, min_samples_leaf=4, max_depth=23, bootstrap=False 
+[CV]  n_estimators=580, min_samples_split=4, min_samples_leaf=4, max_depth=23, bootstrap=False, total=   4.6s
+[CV] n_estimators=810, min_samples_split=2, min_samples_leaf=1, max_depth=17, bootstrap=True 
+[CV]  n_estimators=810, min_samples_split=2, min_samples_leaf=1, max_depth=17, bootstrap=True, total=   6.4s
+[CV] n_estimators=800, min_samples_split=4, min_samples_leaf=1, max_depth=13, bootstrap=False 
+[CV]  n_estimators=800, min_samples_split=4, min_samples_leaf=1, max_depth=13, bootstrap=False, total=   6.9s
+[CV] n_estimators=480, min_samples_split=8, min_samples_leaf=1, max_depth=5, bootstrap=True 
+[CV]  n_estimators=480, min_samples_split=8, min_samples_leaf=1, max_depth=5, bootstrap=True, total=   2.6s
+[CV] n_estimators=120, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=True 
+[CV]  n_estimators=120, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=True, total=   0.8s
+[CV] n_estimators=950, min_samples_split=2, min_samples_leaf=2, max_depth=1, bootstrap=True 
+[CV]  n_estimators=950, min_samples_split=2, min_samples_leaf=2, max_depth=1, bootstrap=True, total=   3.8s
+[CV] n_estimators=520, min_samples_split=8, min_samples_leaf=2, max_depth=13, bootstrap=True 
+[CV]  n_estimators=520, min_samples_split=8, min_samples_leaf=2, max_depth=13, bootstrap=True, total=   3.7s
+[CV] n_estimators=470, min_samples_split=8, min_samples_leaf=4, max_depth=13, bootstrap=True 
+[CV]  n_estimators=470, min_samples_split=8, min_samples_leaf=4, max_depth=13, bootstrap=True, total=   3.3s
+[CV] n_estimators=770, min_samples_split=2, min_samples_leaf=2, max_depth=19, bootstrap=True 
+[CV]  n_estimators=770, min_samples_split=2, min_samples_leaf=2, max_depth=19, bootstrap=True, total=   5.5s
+[CV] n_estimators=550, min_samples_split=2, min_samples_leaf=4, max_depth=11, bootstrap=False 
+[CV]  n_estimators=550, min_samples_split=2, min_samples_leaf=4, max_depth=11, bootstrap=False, total=   3.5s
+[CV] n_estimators=980, min_samples_split=8, min_samples_leaf=2, max_depth=1, bootstrap=False 
+[CV]  n_estimators=980, min_samples_split=8, min_samples_leaf=2, max_depth=1, bootstrap=False, total=   2.7s
+[CV] n_estimators=710, min_samples_split=8, min_samples_leaf=4, max_depth=9, bootstrap=True 
+[CV]  n_estimators=710, min_samples_split=8, min_samples_leaf=4, max_depth=9, bootstrap=True, total=   4.4s
+[CV] n_estimators=70, min_samples_split=2, min_samples_leaf=2, max_depth=19, bootstrap=True 
+[CV]  n_estimators=70, min_samples_split=2, min_samples_leaf=2, max_depth=19, bootstrap=True, total=   0.5s
+[CV] n_estimators=70, min_samples_split=2, min_samples_leaf=2, max_depth=19, bootstrap=True 
+[CV]  n_estimators=70, min_samples_split=2, min_samples_leaf=2, max_depth=19, bootstrap=True, total=   0.6s
+[CV] n_estimators=70, min_samples_split=2, min_samples_leaf=2, max_depth=19, bootstrap=True 
+[CV]  n_estimators=70, min_samples_split=2, min_samples_leaf=2, max_depth=19, bootstrap=True, total=   0.6s
+[CV] n_estimators=770, min_samples_split=4, min_samples_leaf=4, max_depth=1, bootstrap=True 
+[CV]  n_estimators=770, min_samples_split=4, min_samples_leaf=4, max_depth=1, bootstrap=True, total=   3.2s
+[CV] n_estimators=650, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=True 
+[CV]  n_estimators=650, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=True, total=   4.6s
+[CV] n_estimators=510, min_samples_split=4, min_samples_leaf=2, max_depth=23, bootstrap=False 
+[CV]  n_estimators=510, min_samples_split=4, min_samples_leaf=2, max_depth=23, bootstrap=False, total=   4.5s
+[CV] n_estimators=610, min_samples_split=4, min_samples_leaf=1, max_depth=15, bootstrap=True 
+[CV]  n_estimators=610, min_samples_split=4, min_samples_leaf=1, max_depth=15, bootstrap=True, total=   4.6s
+[CV] n_estimators=180, min_samples_split=2, min_samples_leaf=4, max_depth=17, bootstrap=False 
+[CV]  n_estimators=180, min_samples_split=2, min_samples_leaf=4, max_depth=17, bootstrap=False, total=   1.5s
+[CV] n_estimators=750, min_samples_split=2, min_samples_leaf=1, max_depth=7, bootstrap=True 
+[CV]  n_estimators=750, min_samples_split=2, min_samples_leaf=1, max_depth=7, bootstrap=True, total=   4.6s
+[CV] n_estimators=190, min_samples_split=4, min_samples_leaf=1, max_depth=5, bootstrap=True 
+[CV]  n_estimators=190, min_samples_split=4, min_samples_leaf=1, max_depth=5, bootstrap=True, total=   1.1s
+[CV] n_estimators=930, min_samples_split=2, min_samples_leaf=1, max_depth=17, bootstrap=False 
+[CV]  n_estimators=930, min_samples_split=2, min_samples_leaf=1, max_depth=17, bootstrap=False, total=   8.8s
+[CV] n_estimators=490, min_samples_split=8, min_samples_leaf=1, max_depth=9, bootstrap=False 
+[CV]  n_estimators=490, min_samples_split=8, min_samples_leaf=1, max_depth=9, bootstrap=False, total=   3.6s
+[CV] n_estimators=620, min_samples_split=4, min_samples_leaf=4, max_depth=23, bootstrap=True 
+[CV]  n_estimators=620, min_samples_split=4, min_samples_leaf=4, max_depth=23, bootstrap=True, total=   4.3s
+[CV] n_estimators=190, min_samples_split=4, min_samples_leaf=2, max_depth=19, bootstrap=True 
+[CV]  n_estimators=190, min_samples_split=4, min_samples_leaf=2, max_depth=19, bootstrap=True, total=   1.4s
+[CV] n_estimators=390, min_samples_split=8, min_samples_leaf=4, max_depth=5, bootstrap=True 
+[CV]  n_estimators=390, min_samples_split=8, min_samples_leaf=4, max_depth=5, bootstrap=True, total=   2.1s
+[CV] n_estimators=330, min_samples_split=8, min_samples_leaf=1, max_depth=15, bootstrap=False 
+[CV]  n_estimators=330, min_samples_split=8, min_samples_leaf=1, max_depth=15, bootstrap=False, total=   2.8s
+[CV] n_estimators=880, min_samples_split=8, min_samples_leaf=1, max_depth=9, bootstrap=False 
+[CV]  n_estimators=880, min_samples_split=8, min_samples_leaf=1, max_depth=9, bootstrap=False, total=   6.3s
+[CV] n_estimators=710, min_samples_split=2, min_samples_leaf=1, max_depth=3, bootstrap=False 
+[CV]  n_estimators=710, min_samples_split=2, min_samples_leaf=1, max_depth=3, bootstrap=False, total=   3.1s
+[CV] n_estimators=530, min_samples_split=2, min_samples_leaf=1, max_depth=7, bootstrap=False 
+[CV]  n_estimators=530, min_samples_split=2, min_samples_leaf=1, max_depth=7, bootstrap=False, total=   3.4s
+[CV] n_estimators=900, min_samples_split=4, min_samples_leaf=4, max_depth=21, bootstrap=True 
+[CV]  n_estimators=900, min_samples_split=4, min_samples_leaf=4, max_depth=21, bootstrap=True, total=   6.3s
+[CV] n_estimators=410, min_samples_split=4, min_samples_leaf=4, max_depth=9, bootstrap=True 
+[CV]  n_estimators=410, min_samples_split=4, min_samples_leaf=4, max_depth=9, bootstrap=True, total=   2.7s
+[CV] n_estimators=270, min_samples_split=4, min_samples_leaf=1, max_depth=3, bootstrap=True 
+[CV]  n_estimators=270, min_samples_split=4, min_samples_leaf=1, max_depth=3, bootstrap=True, total=   1.3s
+[CV] n_estimators=370, min_samples_split=2, min_samples_leaf=2, max_depth=15, bootstrap=False 
+[CV]  n_estimators=370, min_samples_split=2, min_samples_leaf=2, max_depth=15, bootstrap=False, total=   3.2s
+[CV] n_estimators=90, min_samples_split=2, min_samples_leaf=4, max_depth=3, bootstrap=False 
+[CV]  n_estimators=90, min_samples_split=2, min_samples_leaf=4, max_depth=3, bootstrap=False, total=   0.4s
+[CV] n_estimators=580, min_samples_split=4, min_samples_leaf=4, max_depth=23, bootstrap=False 
+[CV]  n_estimators=580, min_samples_split=4, min_samples_leaf=4, max_depth=23, bootstrap=False, total=   4.7s
+[CV] n_estimators=580, min_samples_split=8, min_samples_leaf=2, max_depth=19, bootstrap=True 
+[CV]  n_estimators=580, min_samples_split=8, min_samples_leaf=2, max_depth=19, bootstrap=True, total=   4.2s
+[CV] n_estimators=330, min_samples_split=2, min_samples_leaf=4, max_depth=17, bootstrap=False 
+[CV]  n_estimators=330, min_samples_split=2, min_samples_leaf=4, max_depth=17, bootstrap=False, total=   2.7s
+[CV] n_estimators=150, min_samples_split=4, min_samples_leaf=2, max_depth=13, bootstrap=False 
+[CV]  n_estimators=150, min_samples_split=4, min_samples_leaf=2, max_depth=13, bootstrap=False, total=   1.3s
+[CV] n_estimators=870, min_samples_split=8, min_samples_leaf=4, max_depth=17, bootstrap=True 
+[CV]  n_estimators=870, min_samples_split=8, min_samples_leaf=4, max_depth=17, bootstrap=True, total=   6.2s
+[CV] n_estimators=480, min_samples_split=8, min_samples_leaf=1, max_depth=5, bootstrap=True 
+[CV]  n_estimators=480, min_samples_split=8, min_samples_leaf=1, max_depth=5, bootstrap=True, total=   2.7s
+[CV] n_estimators=50, min_samples_split=8, min_samples_leaf=2, max_depth=15, bootstrap=True 
+[CV]  n_estimators=50, min_samples_split=8, min_samples_leaf=2, max_depth=15, bootstrap=True, total=   0.4s
+[CV] n_estimators=950, min_samples_split=2, min_samples_leaf=2, max_depth=1, bootstrap=True 
+[CV]  n_estimators=950, min_samples_split=2, min_samples_leaf=2, max_depth=1, bootstrap=True, total=   3.9s
+[CV] n_estimators=520, min_samples_split=8, min_samples_leaf=2, max_depth=13, bootstrap=True 
+[CV]  n_estimators=520, min_samples_split=8, min_samples_leaf=2, max_depth=13, bootstrap=True, total=   3.8s
+[CV] n_estimators=470, min_samples_split=8, min_samples_leaf=4, max_depth=13, bootstrap=True 
+[CV]  n_estimators=470, min_samples_split=8, min_samples_leaf=4, max_depth=13, bootstrap=True, total=   3.3s
+[CV] n_estimators=770, min_samples_split=2, min_samples_leaf=2, max_depth=19, bootstrap=True 
+[CV]  n_estimators=770, min_samples_split=2, min_samples_leaf=2, max_depth=19, bootstrap=True, total=   5.7s
+[CV] n_estimators=450, min_samples_split=2, min_samples_leaf=1, max_depth=13, bootstrap=True 
+[CV]  n_estimators=450, min_samples_split=2, min_samples_leaf=1, max_depth=13, bootstrap=True, total=   2.8s
+[CV] n_estimators=980, min_samples_split=8, min_samples_leaf=2, max_depth=1, bootstrap=False 
+[CV]  n_estimators=980, min_samples_split=8, min_samples_leaf=2, max_depth=1, bootstrap=False, total=   2.7s
+[CV] n_estimators=210, min_samples_split=8, min_samples_leaf=4, max_depth=13, bootstrap=False 
+[CV]  n_estimators=210, min_samples_split=8, min_samples_leaf=4, max_depth=13, bootstrap=False, total=   1.4s
+[CV] n_estimators=690, min_samples_split=4, min_samples_leaf=1, max_depth=9, bootstrap=False 
+[CV]  n_estimators=690, min_samples_split=4, min_samples_leaf=1, max_depth=9, bootstrap=False, total=   4.9s
+[CV] n_estimators=30, min_samples_split=8, min_samples_leaf=4, max_depth=3, bootstrap=True 
+[CV]  n_estimators=30, min_samples_split=8, min_samples_leaf=4, max_depth=3, bootstrap=True, total=   0.2s
+[CV] n_estimators=770, min_samples_split=4, min_samples_leaf=4, max_depth=1, bootstrap=True 
+[CV]  n_estimators=770, min_samples_split=4, min_samples_leaf=4, max_depth=1, bootstrap=True, total=   3.2s
+[CV] n_estimators=650, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=True 
+[CV]  n_estimators=650, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=True, total=   4.5s
+[CV] n_estimators=460, min_samples_split=2, min_samples_leaf=4, max_depth=15, bootstrap=False 
+[CV]  n_estimators=460, min_samples_split=2, min_samples_leaf=4, max_depth=15, bootstrap=False, total=   3.7s
+[CV] n_estimators=610, min_samples_split=4, min_samples_leaf=1, max_depth=15, bootstrap=True 
+[CV]  n_estimators=610, min_samples_split=4, min_samples_leaf=1, max_depth=15, bootstrap=True, total=   4.7s
+[CV] n_estimators=340, min_samples_split=8, min_samples_leaf=1, max_depth=19, bootstrap=False 
+[CV]  n_estimators=340, min_samples_split=8, min_samples_leaf=1, max_depth=19, bootstrap=False, total=   2.9s
+[CV] n_estimators=910, min_samples_split=4, min_samples_leaf=1, max_depth=1, bootstrap=True 
+[CV]  n_estimators=910, min_samples_split=4, min_samples_leaf=1, max_depth=1, bootstrap=True, total=   3.6s
+[CV] n_estimators=550, min_samples_split=8, min_samples_leaf=2, max_depth=23, bootstrap=False 
+[CV]  n_estimators=550, min_samples_split=8, min_samples_leaf=2, max_depth=23, bootstrap=False, total=   4.6s
+[CV] n_estimators=930, min_samples_split=2, min_samples_leaf=1, max_depth=17, bootstrap=False 
+[CV]  n_estimators=930, min_samples_split=2, min_samples_leaf=1, max_depth=17, bootstrap=False, total=   8.8s
+[CV] n_estimators=810, min_samples_split=4, min_samples_leaf=4, max_depth=19, bootstrap=True 
+[CV]  n_estimators=810, min_samples_split=4, min_samples_leaf=4, max_depth=19, bootstrap=True, total=   5.7s
+[CV] n_estimators=370, min_samples_split=4, min_samples_leaf=2, max_depth=23, bootstrap=True 
+[CV]  n_estimators=370, min_samples_split=4, min_samples_leaf=2, max_depth=23, bootstrap=True, total=   2.8s
+[CV] n_estimators=330, min_samples_split=8, min_samples_leaf=1, max_depth=15, bootstrap=False 
+[CV]  n_estimators=330, min_samples_split=8, min_samples_leaf=1, max_depth=15, bootstrap=False, total=   2.7s
+[CV] n_estimators=880, min_samples_split=8, min_samples_leaf=1, max_depth=9, bootstrap=False 
+[CV]  n_estimators=880, min_samples_split=8, min_samples_leaf=1, max_depth=9, bootstrap=False, total=   6.3s
+[CV] n_estimators=320, min_samples_split=4, min_samples_leaf=1, max_depth=3, bootstrap=True 
+[CV]  n_estimators=320, min_samples_split=4, min_samples_leaf=1, max_depth=3, bootstrap=True, total=   1.5s
+[CV] n_estimators=710, min_samples_split=2, min_samples_leaf=1, max_depth=3, bootstrap=False 
+[CV]  n_estimators=710, min_samples_split=2, min_samples_leaf=1, max_depth=3, bootstrap=False, total=   3.2s
+[CV] n_estimators=700, min_samples_split=8, min_samples_leaf=4, max_depth=17, bootstrap=True 
+[CV]  n_estimators=700, min_samples_split=8, min_samples_leaf=4, max_depth=17, bootstrap=True, total=   4.9s
+[CV] n_estimators=430, min_samples_split=2, min_samples_leaf=4, max_depth=15, bootstrap=True 
+[CV]  n_estimators=430, min_samples_split=2, min_samples_leaf=4, max_depth=15, bootstrap=True, total=   3.0s
+[CV] n_estimators=630, min_samples_split=4, min_samples_leaf=1, max_depth=1, bootstrap=True 
+[CV]  n_estimators=630, min_samples_split=4, min_samples_leaf=1, max_depth=1, bootstrap=True, total=   2.6s
+[CV] n_estimators=70, min_samples_split=8, min_samples_leaf=2, max_depth=17, bootstrap=True 
+[CV]  n_estimators=70, min_samples_split=8, min_samples_leaf=2, max_depth=17, bootstrap=True, total=   0.5s
+[CV] n_estimators=270, min_samples_split=4, min_samples_leaf=1, max_depth=3, bootstrap=True 
+[CV]  n_estimators=270, min_samples_split=4, min_samples_leaf=1, max_depth=3, bootstrap=True, total=   1.4s
+[CV] n_estimators=620, min_samples_split=2, min_samples_leaf=2, max_depth=21, bootstrap=True 
+[CV]  n_estimators=620, min_samples_split=2, min_samples_leaf=2, max_depth=21, bootstrap=True, total=   4.7s
+[CV] n_estimators=950, min_samples_split=2, min_samples_leaf=1, max_depth=15, bootstrap=True 
+[CV]  n_estimators=950, min_samples_split=2, min_samples_leaf=1, max_depth=15, bootstrap=True, total=   7.7s
+[CV] n_estimators=300, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=True 
+[CV]  n_estimators=300, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=True, total=   2.1s
+[CV] n_estimators=150, min_samples_split=4, min_samples_leaf=2, max_depth=13, bootstrap=False 
+[CV]  n_estimators=150, min_samples_split=4, min_samples_leaf=2, max_depth=13, bootstrap=False, total=   1.3s
+[CV] n_estimators=800, min_samples_split=4, min_samples_leaf=1, max_depth=13, bootstrap=False 
+[CV]  n_estimators=800, min_samples_split=4, min_samples_leaf=1, max_depth=13, bootstrap=False, total=   7.0s
+[CV] n_estimators=230, min_samples_split=2, min_samples_leaf=1, max_depth=7, bootstrap=True 
+[CV]  n_estimators=230, min_samples_split=2, min_samples_leaf=1, max_depth=7, bootstrap=True, total=   1.4s
+[CV] n_estimators=780, min_samples_split=8, min_samples_leaf=1, max_depth=11, bootstrap=False 
+[CV]  n_estimators=780, min_samples_split=8, min_samples_leaf=1, max_depth=11, bootstrap=False, total=   6.1s
+[CV] n_estimators=970, min_samples_split=8, min_samples_leaf=4, max_depth=7, bootstrap=True 
+[CV]  n_estimators=970, min_samples_split=8, min_samples_leaf=4, max_depth=7, bootstrap=True, total=   5.8s
+[CV] n_estimators=800, min_samples_split=4, min_samples_leaf=4, max_depth=19, bootstrap=False 
+[CV]  n_estimators=800, min_samples_split=4, min_samples_leaf=4, max_depth=19, bootstrap=False, total=   6.3s
+[CV] n_estimators=690, min_samples_split=8, min_samples_leaf=4, max_depth=1, bootstrap=True 
+[CV]  n_estimators=690, min_samples_split=8, min_samples_leaf=4, max_depth=1, bootstrap=True, total=   2.2s
+[CV] n_estimators=450, min_samples_split=2, min_samples_leaf=1, max_depth=13, bootstrap=True 
+[CV]  n_estimators=450, min_samples_split=2, min_samples_leaf=1, max_depth=13, bootstrap=True, total=   2.9s
+[CV] n_estimators=290, min_samples_split=2, min_samples_leaf=1, max_depth=15, bootstrap=True 
+[CV]  n_estimators=290, min_samples_split=2, min_samples_leaf=1, max_depth=15, bootstrap=True, total=   1.9s
+[CV] n_estimators=690, min_samples_split=4, min_samples_leaf=1, max_depth=9, bootstrap=False 
+[CV]  n_estimators=690, min_samples_split=4, min_samples_leaf=1, max_depth=9, bootstrap=False, total=   4.9s
+[CV] n_estimators=30, min_samples_split=8, min_samples_leaf=4, max_depth=3, bootstrap=True 
+[CV]  n_estimators=30, min_samples_split=8, min_samples_leaf=4, max_depth=3, bootstrap=True, total=   0.2s
+[CV] n_estimators=770, min_samples_split=4, min_samples_leaf=4, max_depth=1, bootstrap=True 
+[CV]  n_estimators=770, min_samples_split=4, min_samples_leaf=4, max_depth=1, bootstrap=True, total=   3.1s
+[CV] n_estimators=580, min_samples_split=2, min_samples_leaf=4, max_depth=5, bootstrap=True 
+[CV]  n_estimators=580, min_samples_split=2, min_samples_leaf=4, max_depth=5, bootstrap=True, total=   3.2s
+[CV] n_estimators=460, min_samples_split=2, min_samples_leaf=4, max_depth=15, bootstrap=False 
+[CV]  n_estimators=460, min_samples_split=2, min_samples_leaf=4, max_depth=15, bootstrap=False, total=   3.7s
+[CV] n_estimators=690, min_samples_split=4, min_samples_leaf=1, max_depth=21, bootstrap=False 
+[CV]  n_estimators=690, min_samples_split=4, min_samples_leaf=1, max_depth=21, bootstrap=False, total=   6.3s
+[CV] n_estimators=340, min_samples_split=8, min_samples_leaf=1, max_depth=19, bootstrap=False 
+[CV]  n_estimators=340, min_samples_split=8, min_samples_leaf=1, max_depth=19, bootstrap=False, total=   2.9s
+[CV] n_estimators=910, min_samples_split=4, min_samples_leaf=1, max_depth=1, bootstrap=True 
+[CV]  n_estimators=910, min_samples_split=4, min_samples_leaf=1, max_depth=1, bootstrap=True, total=   3.7s
+[CV] n_estimators=190, min_samples_split=4, min_samples_leaf=1, max_depth=5, bootstrap=True 
+[CV]  n_estimators=190, min_samples_split=4, min_samples_leaf=1, max_depth=5, bootstrap=True, total=   1.1s
+[CV] n_estimators=800, min_samples_split=2, min_samples_leaf=2, max_depth=3, bootstrap=True 
+[CV]  n_estimators=800, min_samples_split=2, min_samples_leaf=2, max_depth=3, bootstrap=True, total=   3.7s
+[CV] n_estimators=100, min_samples_split=4, min_samples_leaf=4, max_depth=1, bootstrap=False 
+[CV]  n_estimators=100, min_samples_split=4, min_samples_leaf=4, max_depth=1, bootstrap=False, total=   0.4s
+[CV] n_estimators=300, min_samples_split=2, min_samples_leaf=2, max_depth=9, bootstrap=True 
+[CV]  n_estimators=300, min_samples_split=2, min_samples_leaf=2, max_depth=9, bootstrap=True, total=   2.0s
+[CV] n_estimators=280, min_samples_split=8, min_samples_leaf=4, max_depth=19, bootstrap=True 
+[CV]  n_estimators=280, min_samples_split=8, min_samples_leaf=4, max_depth=19, bootstrap=True, total=   1.9s
+[CV] n_estimators=280, min_samples_split=8, min_samples_leaf=4, max_depth=19, bootstrap=True 
+[CV]  n_estimators=280, min_samples_split=8, min_samples_leaf=4, max_depth=19, bootstrap=True, total=   1.9s
+[CV] n_estimators=810, min_samples_split=4, min_samples_leaf=4, max_depth=19, bootstrap=True 
+[CV]  n_estimators=810, min_samples_split=4, min_samples_leaf=4, max_depth=19, bootstrap=True, total=   5.6s
+[CV] n_estimators=570, min_samples_split=4, min_samples_leaf=2, max_depth=23, bootstrap=True 
+[CV]  n_estimators=570, min_samples_split=4, min_samples_leaf=2, max_depth=23, bootstrap=True, total=   4.3s
+[CV] n_estimators=470, min_samples_split=2, min_samples_leaf=4, max_depth=11, bootstrap=False 
+[CV]  n_estimators=470, min_samples_split=2, min_samples_leaf=4, max_depth=11, bootstrap=False, total=   3.6s
+[CV] n_estimators=840, min_samples_split=4, min_samples_leaf=2, max_depth=7, bootstrap=True 
+[CV]  n_estimators=840, min_samples_split=4, min_samples_leaf=2, max_depth=7, bootstrap=True, total=   5.1s
+[CV] n_estimators=540, min_samples_split=4, min_samples_leaf=4, max_depth=19, bootstrap=False 
+[CV]  n_estimators=540, min_samples_split=4, min_samples_leaf=4, max_depth=19, bootstrap=False, total=   4.3s
+[CV] n_estimators=530, min_samples_split=2, min_samples_leaf=1, max_depth=7, bootstrap=False 
+[CV]  n_estimators=530, min_samples_split=2, min_samples_leaf=1, max_depth=7, bootstrap=False, total=   3.3s
+[CV] n_estimators=900, min_samples_split=4, min_samples_leaf=4, max_depth=21, bootstrap=True 
+[CV]  n_estimators=900, min_samples_split=4, min_samples_leaf=4, max_depth=21, bootstrap=True, total=   6.3s
+[CV] n_estimators=410, min_samples_split=4, min_samples_leaf=4, max_depth=9, bootstrap=True 
+[CV]  n_estimators=410, min_samples_split=4, min_samples_leaf=4, max_depth=9, bootstrap=True, total=   2.7s
+[CV] n_estimators=160, min_samples_split=8, min_samples_leaf=2, max_depth=19, bootstrap=True 
+[CV]  n_estimators=160, min_samples_split=8, min_samples_leaf=2, max_depth=19, bootstrap=True, total=   1.3s
+[CV] n_estimators=620, min_samples_split=2, min_samples_leaf=2, max_depth=21, bootstrap=True 
+[CV]  n_estimators=620, min_samples_split=2, min_samples_leaf=2, max_depth=21, bootstrap=True, total=   4.6s
+[CV] n_estimators=950, min_samples_split=2, min_samples_leaf=1, max_depth=15, bootstrap=True 
+[CV]  n_estimators=950, min_samples_split=2, min_samples_leaf=1, max_depth=15, bootstrap=True, total=   7.5s
+[CV] n_estimators=300, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=True 
+[CV]  n_estimators=300, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=True, total=   2.1s
+[CV] n_estimators=330, min_samples_split=2, min_samples_leaf=4, max_depth=17, bootstrap=False 
+[CV]  n_estimators=330, min_samples_split=2, min_samples_leaf=4, max_depth=17, bootstrap=False, total=   2.7s
+[CV] n_estimators=870, min_samples_split=8, min_samples_leaf=4, max_depth=17, bootstrap=True 
+[CV]  n_estimators=870, min_samples_split=8, min_samples_leaf=4, max_depth=17, bootstrap=True, total=   6.0s
+[CV] n_estimators=780, min_samples_split=8, min_samples_leaf=1, max_depth=11, bootstrap=False 
+[CV]  n_estimators=780, min_samples_split=8, min_samples_leaf=1, max_depth=11, bootstrap=False, total=   6.1s
+[CV] n_estimators=940, min_samples_split=4, min_samples_leaf=1, max_depth=5, bootstrap=False 
+[CV]  n_estimators=940, min_samples_split=4, min_samples_leaf=1, max_depth=5, bootstrap=False, total=   5.1s
+[CV] n_estimators=470, min_samples_split=8, min_samples_leaf=4, max_depth=13, bootstrap=True 
+[CV]  n_estimators=470, min_samples_split=8, min_samples_leaf=4, max_depth=13, bootstrap=True, total=   3.3s
+[CV] n_estimators=990, min_samples_split=8, min_samples_leaf=2, max_depth=5, bootstrap=False 
+[CV]  n_estimators=990, min_samples_split=8, min_samples_leaf=2, max_depth=5, bootstrap=False, total=   5.1s
+[CV] n_estimators=550, min_samples_split=2, min_samples_leaf=4, max_depth=11, bootstrap=False 
+[CV]  n_estimators=550, min_samples_split=2, min_samples_leaf=4, max_depth=11, bootstrap=False, total=   3.4s
+[CV] n_estimators=980, min_samples_split=8, min_samples_leaf=2, max_depth=1, bootstrap=False 
+[CV]  n_estimators=980, min_samples_split=8, min_samples_leaf=2, max_depth=1, bootstrap=False, total=   2.7s
+[CV] n_estimators=710, min_samples_split=8, min_samples_leaf=4, max_depth=9, bootstrap=True 
+[CV]  n_estimators=710, min_samples_split=8, min_samples_leaf=4, max_depth=9, bootstrap=True, total=   4.3s
+[CV] n_estimators=850, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=False 
+[CV]  n_estimators=850, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=False, total=   6.5s
+[CV] n_estimators=850, min_samples_split=4, min_samples_leaf=1, max_depth=15, bootstrap=True 
+[CV]  n_estimators=850, min_samples_split=4, min_samples_leaf=1, max_depth=15, bootstrap=True, total=   6.5s
+[CV] n_estimators=610, min_samples_split=4, min_samples_leaf=1, max_depth=15, bootstrap=True 
+[CV]  n_estimators=610, min_samples_split=4, min_samples_leaf=1, max_depth=15, bootstrap=True, total=   4.6s
+[CV] n_estimators=540, min_samples_split=2, min_samples_leaf=4, max_depth=19, bootstrap=True 
+[CV]  n_estimators=540, min_samples_split=2, min_samples_leaf=4, max_depth=19, bootstrap=True, total=   3.8s
+[CV] n_estimators=120, min_samples_split=4, min_samples_leaf=2, max_depth=19, bootstrap=False 
+[CV]  n_estimators=120, min_samples_split=4, min_samples_leaf=2, max_depth=19, bootstrap=False, total=   1.1s
+[CV] n_estimators=360, min_samples_split=2, min_samples_leaf=2, max_depth=7, bootstrap=True 
+[CV]  n_estimators=360, min_samples_split=2, min_samples_leaf=2, max_depth=7, bootstrap=True, total=   2.2s
+[CV] n_estimators=550, min_samples_split=8, min_samples_leaf=2, max_depth=23, bootstrap=False 
+[CV]  n_estimators=550, min_samples_split=8, min_samples_leaf=2, max_depth=23, bootstrap=False, total=   4.6s
+[CV] n_estimators=100, min_samples_split=4, min_samples_leaf=4, max_depth=1, bootstrap=False 
+[CV]  n_estimators=100, min_samples_split=4, min_samples_leaf=4, max_depth=1, bootstrap=False, total=   0.4s
+[CV] n_estimators=920, min_samples_split=8, min_samples_leaf=4, max_depth=7, bootstrap=True 
+[CV]  n_estimators=920, min_samples_split=8, min_samples_leaf=4, max_depth=7, bootstrap=True, total=   5.6s
+[CV] n_estimators=490, min_samples_split=8, min_samples_leaf=1, max_depth=9, bootstrap=False 
+[CV]  n_estimators=490, min_samples_split=8, min_samples_leaf=1, max_depth=9, bootstrap=False, total=   3.6s
+[CV] n_estimators=570, min_samples_split=4, min_samples_leaf=2, max_depth=23, bootstrap=True 
+[CV]  n_estimators=570, min_samples_split=4, min_samples_leaf=2, max_depth=23, bootstrap=True, total=   4.3s
+[CV] n_estimators=370, min_samples_split=4, min_samples_leaf=2, max_depth=23, bootstrap=True 
+[CV]  n_estimators=370, min_samples_split=4, min_samples_leaf=2, max_depth=23, bootstrap=True, total=   2.8s
+[CV] n_estimators=470, min_samples_split=2, min_samples_leaf=4, max_depth=11, bootstrap=False 
+[CV]  n_estimators=470, min_samples_split=2, min_samples_leaf=4, max_depth=11, bootstrap=False, total=   3.6s
+[CV] n_estimators=20, min_samples_split=4, min_samples_leaf=4, max_depth=3, bootstrap=True 
+[CV]  n_estimators=20, min_samples_split=4, min_samples_leaf=4, max_depth=3, bootstrap=True, total=   0.1s
+[CV] n_estimators=20, min_samples_split=4, min_samples_leaf=4, max_depth=3, bootstrap=True 
+[CV]  n_estimators=20, min_samples_split=4, min_samples_leaf=4, max_depth=3, bootstrap=True, total=   0.1s
+[CV] n_estimators=830, min_samples_split=2, min_samples_leaf=2, max_depth=9, bootstrap=True 
+[CV]  n_estimators=830, min_samples_split=2, min_samples_leaf=2, max_depth=9, bootstrap=True, total=   5.6s
+[CV] n_estimators=320, min_samples_split=4, min_samples_leaf=1, max_depth=3, bootstrap=True 
+[CV]  n_estimators=320, min_samples_split=4, min_samples_leaf=1, max_depth=3, bootstrap=True, total=   1.5s
+[CV] n_estimators=710, min_samples_split=2, min_samples_leaf=1, max_depth=3, bootstrap=False 
+[CV]  n_estimators=710, min_samples_split=2, min_samples_leaf=1, max_depth=3, bootstrap=False, total=   3.2s
+[CV] n_estimators=700, min_samples_split=8, min_samples_leaf=4, max_depth=17, bootstrap=True 
+[CV]  n_estimators=700, min_samples_split=8, min_samples_leaf=4, max_depth=17, bootstrap=True, total=   4.9s
+[CV] n_estimators=330, min_samples_split=2, min_samples_leaf=2, max_depth=13, bootstrap=True 
+[CV]  n_estimators=330, min_samples_split=2, min_samples_leaf=2, max_depth=13, bootstrap=True, total=   2.4s
+[CV] n_estimators=630, min_samples_split=4, min_samples_leaf=1, max_depth=1, bootstrap=True 
+[CV]  n_estimators=630, min_samples_split=4, min_samples_leaf=1, max_depth=1, bootstrap=True, total=   2.6s
+[CV] n_estimators=510, min_samples_split=8, min_samples_leaf=4, max_depth=1, bootstrap=False 
+[CV]  n_estimators=510, min_samples_split=8, min_samples_leaf=4, max_depth=1, bootstrap=False, total=   1.8s
+[CV] n_estimators=370, min_samples_split=2, min_samples_leaf=2, max_depth=15, bootstrap=False 
+[CV]  n_estimators=370, min_samples_split=2, min_samples_leaf=2, max_depth=15, bootstrap=False, total=   3.2s
+[CV] n_estimators=90, min_samples_split=2, min_samples_leaf=4, max_depth=3, bootstrap=False 
+[CV]  n_estimators=90, min_samples_split=2, min_samples_leaf=4, max_depth=3, bootstrap=False, total=   0.4s
+[CV] n_estimators=90, min_samples_split=2, min_samples_leaf=4, max_depth=3, bootstrap=False 
+[CV]  n_estimators=90, min_samples_split=2, min_samples_leaf=4, max_depth=3, bootstrap=False, total=   0.4s
+[CV] n_estimators=580, min_samples_split=4, min_samples_leaf=4, max_depth=23, bootstrap=False 
+[CV]  n_estimators=580, min_samples_split=4, min_samples_leaf=4, max_depth=23, bootstrap=False, total=   4.6s
+[CV] n_estimators=580, min_samples_split=8, min_samples_leaf=2, max_depth=19, bootstrap=True 
+[CV]  n_estimators=580, min_samples_split=8, min_samples_leaf=2, max_depth=19, bootstrap=True, total=   4.3s
+[CV] n_estimators=300, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=True 
+[CV]  n_estimators=300, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=True, total=   2.1s
+[CV] n_estimators=330, min_samples_split=2, min_samples_leaf=4, max_depth=17, bootstrap=False 
+[CV]  n_estimators=330, min_samples_split=2, min_samples_leaf=4, max_depth=17, bootstrap=False, total=   2.7s
+[CV] n_estimators=940, min_samples_split=4, min_samples_leaf=4, max_depth=5, bootstrap=True 
+[CV]  n_estimators=940, min_samples_split=4, min_samples_leaf=4, max_depth=5, bootstrap=True, total=   5.1s
+[CV] n_estimators=480, min_samples_split=8, min_samples_leaf=1, max_depth=5, bootstrap=True 
+[CV]  n_estimators=480, min_samples_split=8, min_samples_leaf=1, max_depth=5, bootstrap=True, total=   2.7s
+[CV] n_estimators=120, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=True 
+[CV]  n_estimators=120, min_samples_split=8, min_samples_leaf=4, max_depth=11, bootstrap=True, total=   0.9s
+[CV] n_estimators=950, min_samples_split=2, min_samples_leaf=2, max_depth=1, bootstrap=True 
+[CV]  n_estimators=950, min_samples_split=2, min_samples_leaf=2, max_depth=1, bootstrap=True, total=   3.9s
+[CV] n_estimators=520, min_samples_split=8, min_samples_leaf=2, max_depth=13, bootstrap=True 
+[CV]  n_estimators=520, min_samples_split=8, min_samples_leaf=2, max_depth=13, bootstrap=True, total=   3.7s
+[CV] n_estimators=970, min_samples_split=8, min_samples_leaf=4, max_depth=7, bootstrap=True 
+[CV]  n_estimators=970, min_samples_split=8, min_samples_leaf=4, max_depth=7, bootstrap=True, total=   5.8s
+[CV] n_estimators=990, min_samples_split=8, min_samples_leaf=2, max_depth=5, bootstrap=False 
+[CV]  n_estimators=990, min_samples_split=8, min_samples_leaf=2, max_depth=5, bootstrap=False, total=   4.2s
+[CV] n_estimators=690, min_samples_split=8, min_samples_leaf=4, max_depth=1, bootstrap=True 
+[CV]  n_estimators=690, min_samples_split=8, min_samples_leaf=4, max_depth=1, bootstrap=True, total=   2.3s
+[CV] n_estimators=850, min_samples_split=2, min_samples_leaf=2, max_depth=3, bootstrap=False 
+[CV]  n_estimators=850, min_samples_split=2, min_samples_leaf=2, max_depth=3, bootstrap=False, total=   3.2s
+[CV] n_estimators=210, min_samples_split=8, min_samples_leaf=4, max_depth=13, bootstrap=False 
+[CV]  n_estimators=210, min_samples_split=8, min_samples_leaf=4, max_depth=13, bootstrap=False, total=   1.5s
+[CV] n_estimators=780, min_samples_split=2, min_samples_leaf=4, max_depth=1, bootstrap=False 
+[CV]  n_estimators=780, min_samples_split=2, min_samples_leaf=4, max_depth=1, bootstrap=False, total=   2.6s
+[CV] n_estimators=780, min_samples_split=2, min_samples_leaf=4, max_depth=1, bootstrap=False 
+[CV]  n_estimators=780, min_samples_split=2, min_samples_leaf=4, max_depth=1, bootstrap=False, total=   2.7s
+[CV] n_estimators=580, min_samples_split=2, min_samples_leaf=4, max_depth=5, bootstrap=True 
+[CV]  n_estimators=580, min_samples_split=2, min_samples_leaf=4, max_depth=5, bootstrap=True, total=   3.3s
+[CV] n_estimators=30, min_samples_split=2, min_samples_leaf=4, max_depth=11, bootstrap=True 
+[CV]  n_estimators=30, min_samples_split=2, min_samples_leaf=4, max_depth=11, bootstrap=True, total=   0.2s
+[CV] n_estimators=30, min_samples_split=2, min_samples_leaf=4, max_depth=11, bootstrap=True 
+[CV]  n_estimators=30, min_samples_split=2, min_samples_leaf=4, max_depth=11, bootstrap=True, total=   0.2s
+[CV] n_estimators=30, min_samples_split=2, min_samples_leaf=4, max_depth=11, bootstrap=True 
+[CV]  n_estimators=30, min_samples_split=2, min_samples_leaf=4, max_depth=11, bootstrap=True, total=   0.2s
+[CV] n_estimators=850, min_samples_split=4, min_samples_leaf=1, max_depth=15, bootstrap=True 
+[CV]  n_estimators=850, min_samples_split=4, min_samples_leaf=1, max_depth=15, bootstrap=True, total=   6.6s
+[CV] n_estimators=690, min_samples_split=4, min_samples_leaf=1, max_depth=21, bootstrap=False 
+[CV]  n_estimators=690, min_samples_split=4, min_samples_leaf=1, max_depth=21, bootstrap=False, total=   6.5s
+[CV] n_estimators=180, min_samples_split=2, min_samples_leaf=4, max_depth=17, bootstrap=False 
+[CV]  n_estimators=180, min_samples_split=2, min_samples_leaf=4, max_depth=17, bootstrap=False, total=   1.5s
+[CV] n_estimators=910, min_samples_split=4, min_samples_leaf=1, max_depth=1, bootstrap=True 
+[CV]  n_estimators=910, min_samples_split=4, min_samples_leaf=1, max_depth=1, bootstrap=True, total=   3.7s
+[CV] n_estimators=550, min_samples_split=8, min_samples_leaf=2, max_depth=23, bootstrap=False 
+[CV]  n_estimators=550, min_samples_split=8, min_samples_leaf=2, max_depth=23, bootstrap=False, total=   4.7s
+[CV] n_estimators=100, min_samples_split=4, min_samples_leaf=4, max_depth=1, bootstrap=False 
+[CV]  n_estimators=100, min_samples_split=4, min_samples_leaf=4, max_depth=1, bootstrap=False, total=   0.4s
+[CV] n_estimators=920, min_samples_split=8, min_samples_leaf=4, max_depth=7, bootstrap=True 
+[CV]  n_estimators=920, min_samples_split=8, min_samples_leaf=4, max_depth=7, bootstrap=True, total=   5.7s
+[CV] n_estimators=350, min_samples_split=8, min_samples_leaf=4, max_depth=23, bootstrap=True 
+[CV]  n_estimators=350, min_samples_split=8, min_samples_leaf=4, max_depth=23, bootstrap=True, total=   2.5s
+[CV] n_estimators=810, min_samples_split=4, min_samples_leaf=4, max_depth=19, bootstrap=True 
+[CV]  n_estimators=810, min_samples_split=4, min_samples_leaf=4, max_depth=19, bootstrap=True, total=   5.8s
+[CV] n_estimators=280, min_samples_split=2, min_samples_leaf=2, max_depth=1, bootstrap=False 
+[CV]  n_estimators=280, min_samples_split=2, min_samples_leaf=2, max_depth=1, bootstrap=False, total=   1.0s
+[CV] n_estimators=390, min_samples_split=8, min_samples_leaf=4, max_depth=5, bootstrap=True 
+[CV]  n_estimators=390, min_samples_split=8, min_samples_leaf=4, max_depth=5, bootstrap=True, total=   2.2s
+[CV] n_estimators=300, min_samples_split=2, min_samples_leaf=4, max_depth=3, bootstrap=False 
+[CV]  n_estimators=300, min_samples_split=2, min_samples_leaf=4, max_depth=3, bootstrap=False, total=   1.3s
+[CV] n_estimators=300, min_samples_split=2, min_samples_leaf=4, max_depth=3, bootstrap=False 
+[CV]  n_estimators=300, min_samples_split=2, min_samples_leaf=4, max_depth=3, bootstrap=False, total=   1.4s
+[CV] n_estimators=840, min_samples_split=4, min_samples_leaf=2, max_depth=7, bootstrap=True 
+[CV]  n_estimators=840, min_samples_split=4, min_samples_leaf=2, max_depth=7, bootstrap=True, total=   5.2s
+[CV] n_estimators=540, min_samples_split=4, min_samples_leaf=4, max_depth=19, bootstrap=False 
+[CV]  n_estimators=540, min_samples_split=4, min_samples_leaf=4, max_depth=19, bootstrap=False, total=   4.4s
+[CV] n_estimators=320, min_samples_split=2, min_samples_leaf=4, max_depth=21, bootstrap=False 
+[CV]  n_estimators=320, min_samples_split=2, min_samples_leaf=4, max_depth=21, bootstrap=False, total=   2.6s
+[CV] n_estimators=700, min_samples_split=8, min_samples_leaf=4, max_depth=17, bootstrap=True 
+[CV]  n_estimators=700, min_samples_split=8, min_samples_leaf=4, max_depth=17, bootstrap=True, total=   5.0s
+[CV] n_estimators=330, min_samples_split=2, min_samples_leaf=2, max_depth=13, bootstrap=True 
+[CV]  n_estimators=330, min_samples_split=2, min_samples_leaf=2, max_depth=13, bootstrap=True, total=   2.5s
+[CV] n_estimators=60, min_samples_split=4, min_samples_leaf=1, max_depth=3, bootstrap=True 
+[CV]  n_estimators=60, min_samples_split=4, min_samples_leaf=1, max_depth=3, bootstrap=True, total=   0.3s
+[CV] n_estimators=60, min_samples_split=4, min_samples_leaf=1, max_depth=3, bootstrap=True 
+[CV]  n_estimators=60, min_samples_split=4, min_samples_leaf=1, max_depth=3, bootstrap=True, total=   0.3s
+[CV] n_estimators=510, min_samples_split=8, min_samples_leaf=4, max_depth=1, bootstrap=False 
+[CV]  n_estimators=510, min_samples_split=8, min_samples_leaf=4, max_depth=1, bootstrap=False, total=   1.8s
+[CV] n_estimators=160, min_samples_split=8, min_samples_leaf=2, max_depth=19, bootstrap=True 
+[CV]  n_estimators=160, min_samples_split=8, min_samples_leaf=2, max_depth=19, bootstrap=True, total=   1.2s
+[CV] n_estimators=860, min_samples_split=4, min_samples_leaf=4, max_depth=23, bootstrap=False 
+[CV]  n_estimators=860, min_samples_split=4, min_samples_leaf=4, max_depth=23, bootstrap=False, total=   6.9s
+[CV] n_estimators=950, min_samples_split=2, min_samples_leaf=1, max_depth=15, bootstrap=True 
+[CV]  n_estimators=950, min_samples_split=2, min_samples_leaf=1, max_depth=15, bootstrap=True, total=   7.7s
+[CV] n_estimators=150, min_samples_split=4, min_samples_leaf=2, max_depth=13, bootstrap=False 
+[CV]  n_estimators=150, min_samples_split=4, min_samples_leaf=2, max_depth=13, bootstrap=False, total=   1.3s
+[CV] n_estimators=870, min_samples_split=8, min_samples_leaf=4, max_depth=17, bootstrap=True 
+[CV]  n_estimators=870, min_samples_split=8, min_samples_leaf=4, max_depth=17, bootstrap=True, total=   6.1s
+[CV] n_estimators=940, min_samples_split=4, min_samples_leaf=4, max_depth=5, bootstrap=True 
+[CV]  n_estimators=940, min_samples_split=4, min_samples_leaf=4, max_depth=5, bootstrap=True, total=   5.2s
+[CV] n_estimators=280, min_samples_split=2, min_samples_leaf=4, max_depth=7, bootstrap=False 
+[CV]  n_estimators=280, min_samples_split=2, min_samples_leaf=4, max_depth=7, bootstrap=False, total=   1.8s
+[CV] n_estimators=940, min_samples_split=4, min_samples_leaf=1, max_depth=5, bootstrap=False 
+[CV]  n_estimators=940, min_samples_split=4, min_samples_leaf=1, max_depth=5, bootstrap=False, total=   5.2s
+[CV] n_estimators=800, min_samples_split=4, min_samples_leaf=4, max_depth=19, bootstrap=False 
+[CV]  n_estimators=800, min_samples_split=4, min_samples_leaf=4, max_depth=19, bootstrap=False, total=   6.5s
+[CV] n_estimators=990, min_samples_split=8, min_samples_leaf=2, max_depth=5, bootstrap=False 
+[CV]  n_estimators=990, min_samples_split=8, min_samples_leaf=2, max_depth=5, bootstrap=False, total=   3.3s

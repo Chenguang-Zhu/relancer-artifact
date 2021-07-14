@@ -1,0 +1,220 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 53940 entries, 0 to 53939
+Data columns (total 10 columns):
+ #   Column   Non-Null Count  Dtype  
+---  ------   --------------  -----  
+ 0   carat    53940 non-null  float64
+ 1   cut      53940 non-null  object 
+ 2   color    53940 non-null  object 
+ 3   clarity  53940 non-null  object 
+ 4   depth    53940 non-null  float64
+ 5   table    53940 non-null  float64
+ 6   price    53940 non-null  int64  
+ 7   x        53940 non-null  float64
+ 8   y        53940 non-null  float64
+ 9   z        53940 non-null  float64
+dtypes: float64(6), int64(1), object(3)
+memory usage: 4.1+ MB
+
+
+
+####### Linear Regression #######
+Score : 0.8814
+[0.87116164 0.88350756 0.87757769 0.87635168 0.88384912]
+
+MSE    : 1911398.80 
+MAE    : 926.72 
+RMSE   : 1382.53 
+R2     : 0.88 
+
+###### Lasso Regression ######
+Score : 0.8659
+[0.84325995 0.86900907 0.86386374 0.86539938 0.86976969]
+
+MSE    : 2162331.94 
+MAE    : 909.60 
+RMSE   : 1470.49 
+R2     : 0.87 
+
+###### AdaBoost Regression ######
+Score : 0.9065
+[0.86689803 0.8880537  0.868813   0.90225542 0.88672299]
+
+MSE    : 1506971.61 
+MAE    : 884.50 
+RMSE   : 1227.59 
+R2     : 0.91 
+
+###### Ridge Regression ######
+Score : 0.7537
+[0.74232856 0.75599775 0.74753493 0.75626    0.74960313]
+
+MSE    : 3970442.17 
+MAE    : 1346.18 
+RMSE   : 1992.60 
+R2     : 0.75 
+      Iter       Train Loss   Remaining Time 
+         1    14009477.5296            1.21s
+         2    12437807.7359            1.19s
+         3    11113339.5845            1.17s
+         4     9945244.2308            1.14s
+         5     8973416.9156            1.14s
+         6     8109014.7842            1.13s
+         7     7387120.0500            1.12s
+         8     6753937.9878            1.12s
+         9     6197182.6819            1.10s
+        10     5724689.0901            1.09s
+        20     3200362.4597            0.98s
+        30     2393542.3170            0.84s
+        40     2102586.3335            0.71s
+        50     1923964.9187            0.59s
+        60     1790574.6006            0.47s
+        70     1688380.2826            0.35s
+        80     1609829.0076            0.23s
+        90     1548089.0039            0.12s
+       100     1499127.4566            0.00s
+      Iter       Train Loss   Remaining Time 
+         1    13994442.1962            0.97s
+         2    12429322.7982            0.93s
+         3    11112606.0983            0.90s
+         4     9944843.0686            0.88s
+         5     8977395.9870            0.87s
+         6     8111748.5741            0.86s
+         7     7395490.7272            0.87s
+         8     6765223.5285            0.86s
+         9     6204866.4570            0.85s
+        10     5734465.9748            0.84s
+        20     3206145.1577            0.74s
+        30     2394369.2846            0.65s
+        40     2101114.6326            0.55s
+        50     1921108.4005            0.46s
+        60     1785959.4111            0.37s
+        70     1683385.7302            0.28s
+        80     1604163.5538            0.18s
+        90     1542370.2912            0.09s
+       100     1493476.7608            0.00s
+      Iter       Train Loss   Remaining Time 
+         1    14044115.9884            0.93s
+         2    12472837.6750            0.91s
+         3    11137657.6396            0.90s
+         4     9974212.6419            0.87s
+         5     8994369.5031            0.87s
+         6     8133396.8459            0.86s
+         7     7407925.9669            0.86s
+         8     6764110.5537            0.85s
+         9     6215416.1793            0.84s
+        10     5736700.1166            0.83s
+        20     3210108.0310            0.74s
+        30     2402276.2056            0.65s
+        40     2112221.2275            0.55s
+        50     1934266.1687            0.46s
+        60     1801087.0287            0.37s
+        70     1699719.1554            0.28s
+        80     1621327.8312            0.18s
+        90     1559382.1164            0.09s
+       100     1510393.9635            0.00s
+      Iter       Train Loss   Remaining Time 
+         1    14049930.2441            0.95s
+         2    12464124.5936            0.94s
+         3    11134339.1520            0.91s
+         4     9963572.7604            0.88s
+         5     8988544.3119            0.88s
+         6     8123782.2835            0.87s
+         7     7389901.0249            0.86s
+         8     6746492.7030            0.85s
+         9     6199732.4929            0.84s
+        10     5719212.8946            0.83s
+        20     3190875.3245            0.75s
+        30     2381512.2819            0.65s
+        40     2090340.2810            0.56s
+        50     1911382.9450            0.46s
+        60     1777779.4025            0.37s
+        70     1675708.2272            0.28s
+        80     1597212.1456            0.18s
+        90     1535230.7915            0.09s
+       100     1486232.9351            0.00s
+      Iter       Train Loss   Remaining Time 
+         1    13979667.1721            0.95s
+         2    12410196.9258            0.93s
+         3    11091464.1339            0.92s
+         4     9924417.4531            0.89s
+         5     8957051.8356            0.88s
+         6     8090860.3178            0.87s
+         7     7375141.7273            0.86s
+         8     6738456.6139            0.86s
+         9     6185985.1013            0.85s
+        10     5710402.7142            0.84s
+        20     3187460.0845            0.74s
+        30     2381173.1454            0.65s
+        40     2090773.7598            0.56s
+        50     1911732.9770            0.46s
+        60     1778590.7605            0.37s
+        70     1677144.9024            0.28s
+        80     1598482.5518            0.18s
+        90     1537106.7445            0.09s
+       100     1488486.3117            0.00s
+      Iter       Train Loss   Remaining Time 
+         1    13978748.2331            0.99s
+         2    12405054.9778            0.96s
+         3    11080465.6241            0.97s
+         4     9914747.0919            0.94s
+         5     8945923.9930            0.93s
+         6     8080995.1785            0.92s
+         7     7359121.7076            0.90s
+         8     6730987.4249            0.89s
+         9     6173506.2064            0.88s
+        10     5705021.9472            0.87s
+        20     3193418.0981            0.77s
+        30     2392723.0847            0.66s
+        40     2103994.3744            0.56s
+        50     1925922.2525            0.47s
+        60     1792394.0684            0.38s
+        70     1690611.3128            0.28s
+        80     1611922.8661            0.19s
+        90     1550358.7743            0.09s
+       100     1501582.8989            0.00s
+
+###### Gradient Boosting Regression #######
+Score : 0.9058
+[0.90486253 0.90678932 0.90033344 0.90344783 0.90514653]
+
+MSE    : 1518030.06 
+MAE    : 720.72 
+RMSE   : 1232.08 
+R2     : 0.91 
+
+###### Random Forest ######
+Score : 0.9822
+[0.97955107 0.98081703 0.98162228 0.97730687 0.98141115]
+
+MSE    : 287659.38 
+MAE    : 272.34 
+RMSE   : 536.34 
+R2     : 0.98 
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:    0.0s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:    0.0s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:    9.0s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:    0.0s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:    4.7s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:   45.9s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:    1.1s finished
+Score : 0.9823
+R2     : 0.98 
+
+###### KNeighbours Regression ######
+Score : 0.9590
+[0.95429058 0.95856983 0.95504994 0.94931403 0.95517559]
+
+MSE    : 660416.40 
+MAE    : 424.98 
+RMSE   : 812.66 
+R2     : 0.96 
+Score : 0.9590
+R2     : 0.96 

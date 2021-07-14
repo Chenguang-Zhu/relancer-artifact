@@ -1,0 +1,8 @@
+
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'

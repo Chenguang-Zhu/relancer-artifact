@@ -1,0 +1,72 @@
+../../../input/russellyates88_suicide-rates-overview-1985-to-2016/master.csv
+(27820, 12)
+               year   suicides_no  ...  HDI for year  gdp_per_capita ($)
+count  27820.000000  27820.000000  ...   8364.000000        27820.000000
+mean    2001.258375    242.574407  ...      0.776601        16866.464414
+std        8.469055    902.047917  ...      0.093367        18887.576472
+min     1985.000000      0.000000  ...      0.483000          251.000000
+25%     1995.000000      3.000000  ...      0.713000         3447.000000
+50%     2002.000000     25.000000  ...      0.779000         9372.000000
+75%     2008.000000    131.000000  ...      0.855000        24874.000000
+max     2016.000000  22338.000000  ...      0.944000       126352.000000
+
+[8 rows x 6 columns]
+['Albania' 'Antigua and Barbuda' 'Argentina' 'Armenia' 'Aruba' 'Australia'
+ 'Austria' 'Azerbaijan' 'Bahamas' 'Bahrain' 'Barbados' 'Belarus' 'Belgium'
+ 'Belize' 'Bosnia and Herzegovina' 'Brazil' 'Bulgaria' 'Cabo Verde'
+ 'Canada' 'Chile' 'Colombia' 'Costa Rica' 'Croatia' 'Cuba' 'Cyprus'
+ 'Czech Republic' 'Denmark' 'Dominica' 'Ecuador' 'El Salvador' 'Estonia'
+ 'Fiji' 'Finland' 'France' 'Georgia' 'Germany' 'Greece' 'Grenada'
+ 'Guatemala' 'Guyana' 'Hungary' 'Iceland' 'Ireland' 'Israel' 'Italy'
+ 'Jamaica' 'Japan' 'Kazakhstan' 'Kiribati' 'Kuwait' 'Kyrgyzstan' 'Latvia'
+ 'Lithuania' 'Luxembourg' 'Macau' 'Maldives' 'Malta' 'Mauritius' 'Mexico'
+ 'Mongolia' 'Montenegro' 'Netherlands' 'New Zealand' 'Nicaragua' 'Norway'
+ 'Oman' 'Panama' 'Paraguay' 'Philippines' 'Poland' 'Portugal'
+ 'Puerto Rico' 'Qatar' 'Republic of Korea' 'Romania' 'Russian Federation'
+ 'Saint Kitts and Nevis' 'Saint Lucia' 'Saint Vincent and Grenadines'
+ 'San Marino' 'Serbia' 'Seychelles' 'Singapore' 'Slovakia' 'Slovenia'
+ 'South Africa' 'Spain' 'Sri Lanka' 'Suriname' 'Sweden' 'Switzerland'
+ 'Thailand' 'Trinidad and Tobago' 'Turkey' 'Turkmenistan' 'Ukraine'
+ 'United Arab Emirates' 'United Kingdom' 'United States' 'Uruguay'
+ 'Uzbekistan']
+[1987 1988 1989 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002
+ 2003 2004 2005 2006 2007 2008 2009 2010 1985 1986 1990 1991 2012 2013
+ 2014 2015 2011 2016]
+['15-24 years' '35-54 years' '75+ years' '25-34 years' '55-74 years'
+ '5-14 years']
+['Generation X' 'Silent' 'G.I. Generation' 'Boomers' 'Millenials'
+ 'Generation Z']
+
+
+
+
+
+
+The top 4 countries with highest number of Suicides are:
+['Russian Federation', 'United States', 'Japan', 'France']
+
+
+
+
+
+
+The top 4 countries with highest number of Suicides are: ['Russian Federation', 'United States', 'Japan', 'France']
+
+
+
+
+
+(19474, 7) (19474,)
+(8346,) (8346, 7)
+           year  sex       age  ...  gdp_for_year_usd  gdp_per_capita_usd  generation
+15356 -1.447457 -1.0  0.172535  ...         -0.299391            0.655074    1.262458
+19553 -0.030509  1.0  1.025027  ...         -0.222921           -0.236957    1.262458
+22271  0.441807 -1.0 -0.893081  ...         -0.305907           -0.291491    0.732912
+14068 -1.093220 -1.0 -0.466834  ...         -0.306507           -0.852823   -1.385269
+17735  0.796045 -1.0 -1.319327  ...         -0.214849            0.885176   -0.326179
+
+[5 rows x 7 columns]
+Mean Absolute Error: 0.06145183261677896
+Mean Squared Error: 0.08156425218034248
+Root Mean Squared Error: 0.28559455908742815
+R2 Score: 0.928372194775519

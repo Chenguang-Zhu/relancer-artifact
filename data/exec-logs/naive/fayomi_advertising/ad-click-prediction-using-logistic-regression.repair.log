@@ -1,0 +1,1589 @@
+../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_true'), ('to_name', 'y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_true'), ('to_name', 'normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_true'), ('to_name', 'sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_delete'), ('from_name', 'y_true'), ('to_name', '*')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred'), ('to_name', 'y_true')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred'), ('to_name', 'normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred'), ('to_name', 'sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_delete'), ('from_name', 'y_pred'), ('to_name', '*')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize'), ('to_name', 'y_true')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize'), ('to_name', 'y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize'), ('to_name', 'sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_delete'), ('from_name', 'normalize'), ('to_name', '*')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight'), ('to_name', 'y_true')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight'), ('to_name', 'y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight'), ('to_name', 'normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_delete'), ('from_name', 'sample_weight'), ('to_name', '*')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight'), ('to_name', 'y_pred&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight'), ('to_name', 'y_pred&y_true')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight'), ('to_name', 'sample_weight&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight'), ('to_name', 'sample_weight&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight'), ('to_name', 'sample_weight&y_true')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight'), ('to_name', 'y_true&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight'), ('to_name', 'y_true&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize'), ('to_name', 'normalize&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize'), ('to_name', 'normalize&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize'), ('to_name', 'normalize&y_true')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize'), ('to_name', 'sample_weight&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize'), ('to_name', 'sample_weight&y_true')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize'), ('to_name', 'y_true&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize'), ('to_name', 'y_true&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true'), ('to_name', 'y_pred&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true'), ('to_name', 'y_pred&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true'), ('to_name', 'sample_weight&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true'), ('to_name', 'sample_weight&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true'), ('to_name', 'y_true&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true'), ('to_name', 'y_true&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true'), ('to_name', 'y_true&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true'), ('to_name', 'y_pred&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true'), ('to_name', 'y_pred&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true'), ('to_name', 'normalize&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true'), ('to_name', 'normalize&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true'), ('to_name', 'y_true&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true'), ('to_name', 'y_true&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'sample_weight&y_true'), ('to_name', 'y_true&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&y_true'), ('to_name', 'normalize&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&y_true'), ('to_name', 'normalize&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&y_true'), ('to_name', 'sample_weight&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&y_true'), ('to_name', 'sample_weight&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&y_true'), ('to_name', 'y_true&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&y_true'), ('to_name', 'y_true&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&y_true'), ('to_name', 'y_true&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&sample_weight'), ('to_name', 'normalize&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&sample_weight'), ('to_name', 'normalize&y_true')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&sample_weight'), ('to_name', 'sample_weight&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&sample_weight'), ('to_name', 'sample_weight&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&sample_weight'), ('to_name', 'sample_weight&y_true')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&sample_weight'), ('to_name', 'y_true&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&sample_weight'), ('to_name', 'y_true&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&y_true'), ('to_name', 'normalize&y_pred&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&y_true'), ('to_name', 'normalize&sample_weight&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&y_true'), ('to_name', 'normalize&y_true&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&y_true'), ('to_name', 'normalize&y_true&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&y_true'), ('to_name', 'sample_weight&y_pred&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&y_true'), ('to_name', 'sample_weight&y_true&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&y_true'), ('to_name', 'sample_weight&y_true&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&y_true'), ('to_name', 'y_true&y_pred&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&y_true'), ('to_name', 'y_true&y_pred&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&y_true'), ('to_name', 'y_true&sample_weight&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&y_true'), ('to_name', 'y_true&sample_weight&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'y_pred&normalize&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'y_pred&y_true&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'y_pred&y_true&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'sample_weight&y_pred&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'sample_weight&normalize&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'sample_weight&y_true&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'sample_weight&y_true&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'y_true&y_pred&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'y_true&y_pred&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'y_true&normalize&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&sample_weight&y_true'), ('to_name', 'y_true&normalize&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&sample_weight'), ('to_name', 'normalize&y_pred&y_true')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&sample_weight'), ('to_name', 'normalize&sample_weight&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&sample_weight'), ('to_name', 'normalize&sample_weight&y_true')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&sample_weight'), ('to_name', 'normalize&y_true&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&sample_weight'), ('to_name', 'sample_weight&y_pred&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&sample_weight'), ('to_name', 'sample_weight&y_pred&y_true')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&sample_weight'), ('to_name', 'sample_weight&y_true&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&sample_weight'), ('to_name', 'sample_weight&y_true&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&sample_weight'), ('to_name', 'y_true&y_pred&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&sample_weight'), ('to_name', 'y_true&sample_weight&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&sample_weight'), ('to_name', 'y_true&sample_weight&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&sample_weight&y_true'), ('to_name', 'normalize&y_pred&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&sample_weight&y_true'), ('to_name', 'normalize&y_true&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&sample_weight&y_true'), ('to_name', 'normalize&y_true&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&sample_weight&y_true'), ('to_name', 'sample_weight&y_pred&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&sample_weight&y_true'), ('to_name', 'sample_weight&normalize&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&sample_weight&y_true'), ('to_name', 'sample_weight&y_true&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&sample_weight&y_true'), ('to_name', 'sample_weight&y_true&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&sample_weight&y_true'), ('to_name', 'y_true&y_pred&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&sample_weight&y_true'), ('to_name', 'y_true&y_pred&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&sample_weight&y_true'), ('to_name', 'y_true&normalize&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&sample_weight&y_true'), ('to_name', 'y_true&normalize&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&sample_weight&y_true'), ('to_name', 'normalize&y_pred&y_true&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&sample_weight&y_true'), ('to_name', 'normalize&sample_weight&y_true&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&sample_weight&y_true'), ('to_name', 'normalize&y_true&y_pred&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&sample_weight&y_true'), ('to_name', 'sample_weight&y_pred&y_true&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&sample_weight&y_true'), ('to_name', 'sample_weight&y_true&y_pred&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&sample_weight&y_true'), ('to_name', 'sample_weight&y_true&normalize&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&sample_weight&y_true'), ('to_name', 'y_true&y_pred&normalize&sample_weight')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&sample_weight&y_true'), ('to_name', 'y_true&sample_weight&y_pred&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&sample_weight&y_true'), ('to_name', 'y_true&sample_weight&normalize&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_true'), ('to_name', 'y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_true'), ('to_name', 'normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_delete'), ('from_name', 'y_true'), ('to_name', '*')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred'), ('to_name', 'y_true')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred'), ('to_name', 'normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_delete'), ('from_name', 'y_pred'), ('to_name', '*')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize'), ('to_name', 'y_true')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize'), ('to_name', 'y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_delete'), ('from_name', 'normalize'), ('to_name', '*')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true'), ('to_name', 'y_pred&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true'), ('to_name', 'y_true&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'normalize&y_true'), ('to_name', 'y_true&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize'), ('to_name', 'normalize&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize'), ('to_name', 'normalize&y_true')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize'), ('to_name', 'y_true&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&y_true'), ('to_name', 'normalize&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&y_true'), ('to_name', 'y_true&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&y_true'), ('to_name', 'y_true&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&y_true'), ('to_name', 'normalize&y_true&y_pred')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_rename'), ('from_name', 'y_pred&normalize&y_true'), ('to_name', 'y_true&y_pred&normalize')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize'), ('target_value', 'True')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize'), ('target_value', 'False')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize&sample_weight'), ('target_value', 'True&False')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&normalize'), ('target_value', 'True&False')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize&y_true'), ('target_value', 'True&False')])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_true'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_true'), ('target_value', "<class 'libcst._nodes.expression.Subscript'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_true'), ('target_value', "<class 'libcst._nodes.expression.Call'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred'), ('target_value', "<class 'libcst._nodes.expression.Subscript'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred'), ('target_value', "<class 'libcst._nodes.expression.Comparison'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred'), ('target_value', "<class 'libcst._nodes.expression.Call'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize&y_true'), ('target_value', "<class 'libcst._nodes.expression.Name'>&<class 'libcst._nodes.expression.Name'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'normalize&y_true'), ('target_value', "<class 'libcst._nodes.expression.Subscript'>&<class 'libcst._nodes.expression.Call'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&normalize'), ('target_value', "<class 'libcst._nodes.expression.Name'>&<class 'libcst._nodes.expression.Subscript'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&normalize'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>&<class 'libcst._nodes.expression.Comparison'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&normalize'), ('target_value', "<class 'libcst._nodes.expression.Call'>&<class 'libcst._nodes.expression.Name'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&y_true'), ('target_value', "<class 'libcst._nodes.expression.Name'>&<class 'libcst._nodes.expression.Subscript'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&y_true'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>&<class 'libcst._nodes.expression.Comparison'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&y_true'), ('target_value', "<class 'libcst._nodes.expression.Call'>&<class 'libcst._nodes.expression.Name'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&y_true'), ('target_value', "<class 'libcst._nodes.expression.Subscript'>&<class 'libcst._nodes.expression.Call'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&normalize&y_true'), ('target_value', "<class 'libcst._nodes.expression.Name'>&<class 'libcst._nodes.expression.Subscript'>&<class 'libcst._nodes.expression.Attribute'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&normalize&y_true'), ('target_value', "<class 'libcst._nodes.expression.Comparison'>&<class 'libcst._nodes.expression.Call'>&<class 'libcst._nodes.expression.Name'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('API', 'sklearn.metrics.jaccard_similarity_score'), ('action', 'arg_value_update'), ('arg_name', 'y_pred&normalize&y_true'), ('target_value', "<class 'libcst._nodes.expression.Name'>&<class 'libcst._nodes.expression.Subscript'>&<class 'libcst._nodes.expression.Call'>")])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.metrics.jaccard_similarity_score'), ('new_fqn', 'sklearn.metrics.jaccard_score'), ('line_no', 98)])../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+0.7625
+0.8652482269503545
+[REPAIR EXEC TIME]: 136.16167902946472

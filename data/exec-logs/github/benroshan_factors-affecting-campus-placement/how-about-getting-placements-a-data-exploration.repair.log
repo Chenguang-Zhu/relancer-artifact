@@ -1,0 +1,261 @@
+../../../input/benroshan_factors-affecting-campus-placement/Placement_Data_Full_Class.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 215 entries, 0 to 214
+Data columns (total 15 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   sl_no           215 non-null    int64  
+ 1   gender          215 non-null    object 
+ 2   ssc_p           215 non-null    float64
+ 3   ssc_b           215 non-null    object 
+ 4   hsc_p           215 non-null    float64
+ 5   hsc_b           215 non-null    object 
+ 6   hsc_s           215 non-null    object 
+ 7   degree_p        215 non-null    float64
+ 8   degree_t        215 non-null    object 
+ 9   workex          215 non-null    object 
+ 10  etest_p         215 non-null    float64
+ 11  specialisation  215 non-null    object 
+ 12  mba_p           215 non-null    float64
+ 13  status          215 non-null    object 
+ 14  salary          148 non-null    float64
+dtypes: float64(6), int64(1), object(8)
+memory usage: 25.3+ KB
+
+
+
+Pearsons correlation: 0.511
+0.40837078117656994
+{'salary', 'hsc_p', 'degree_p', 'ssc_p'}
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 215 entries, 0 to 214
+Data columns (total 7 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   gender    215 non-null    object 
+ 1   ssc_p     215 non-null    float64
+ 2   ssc_b     215 non-null    object 
+ 3   hsc_b     215 non-null    object 
+ 4   hsc_p     215 non-null    float64
+ 5   degree_p  215 non-null    float64
+ 6   degree_t  215 non-null    object 
+dtypes: float64(3), object(4)
+memory usage: 11.9+ KB
+gender
+ssc_b
+hsc_b
+degree_t
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 215 entries, 0 to 214
+Data columns (total 8 columns):
+ #   Column     Non-Null Count  Dtype  
+---  ------     --------------  -----  
+ 0   ssc_p      215 non-null    float64
+ 1   hsc_p      215 non-null    float64
+ 2   degree_p   215 non-null    float64
+ 3   F          215 non-null    uint8  
+ 4   Central    215 non-null    uint8  
+ 5   Central    215 non-null    uint8  
+ 6   Comm&Mgmt  215 non-null    uint8  
+ 7   Others     215 non-null    uint8  
+dtypes: float64(3), uint8(5)
+memory usage: 6.2 KB
+0.6976744186046512
+Traceback (most recent call last):
+  File "how-about-getting-placements-a-data-exploration.py", line 361, in <module>
+    from sklearn.externals.six import StringIO  
+ModuleNotFoundError: No module named 'sklearn.externals.six'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.six'), ('new_fqn', 'six'), ('line_no', 361)])../../../input/benroshan_factors-affecting-campus-placement/Placement_Data_Full_Class.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 215 entries, 0 to 214
+Data columns (total 15 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   sl_no           215 non-null    int64  
+ 1   gender          215 non-null    object 
+ 2   ssc_p           215 non-null    float64
+ 3   ssc_b           215 non-null    object 
+ 4   hsc_p           215 non-null    float64
+ 5   hsc_b           215 non-null    object 
+ 6   hsc_s           215 non-null    object 
+ 7   degree_p        215 non-null    float64
+ 8   degree_t        215 non-null    object 
+ 9   workex          215 non-null    object 
+ 10  etest_p         215 non-null    float64
+ 11  specialisation  215 non-null    object 
+ 12  mba_p           215 non-null    float64
+ 13  status          215 non-null    object 
+ 14  salary          148 non-null    float64
+dtypes: float64(6), int64(1), object(8)
+memory usage: 25.3+ KB
+
+
+
+Pearsons correlation: 0.511
+0.40837078117656994
+{'salary', 'degree_p', 'ssc_p', 'hsc_p'}
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 215 entries, 0 to 214
+Data columns (total 7 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   gender    215 non-null    object 
+ 1   ssc_p     215 non-null    float64
+ 2   ssc_b     215 non-null    object 
+ 3   hsc_b     215 non-null    object 
+ 4   hsc_p     215 non-null    float64
+ 5   degree_p  215 non-null    float64
+ 6   degree_t  215 non-null    object 
+dtypes: float64(3), object(4)
+memory usage: 11.9+ KB
+gender
+ssc_b
+hsc_b
+degree_t
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 215 entries, 0 to 214
+Data columns (total 8 columns):
+ #   Column     Non-Null Count  Dtype  
+---  ------     --------------  -----  
+ 0   ssc_p      215 non-null    float64
+ 1   hsc_p      215 non-null    float64
+ 2   degree_p   215 non-null    float64
+ 3   F          215 non-null    uint8  
+ 4   Central    215 non-null    uint8  
+ 5   Central    215 non-null    uint8  
+ 6   Comm&Mgmt  215 non-null    uint8  
+ 7   Others     215 non-null    uint8  
+dtypes: float64(3), uint8(5)
+memory usage: 6.2 KB
+0.7441860465116279
+[REPAIR EXEC TIME]: 7.994891881942749../../../input/benroshan_factors-affecting-campus-placement/Placement_Data_Full_Class.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 215 entries, 0 to 214
+Data columns (total 15 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   sl_no           215 non-null    int64  
+ 1   gender          215 non-null    object 
+ 2   ssc_p           215 non-null    float64
+ 3   ssc_b           215 non-null    object 
+ 4   hsc_p           215 non-null    float64
+ 5   hsc_b           215 non-null    object 
+ 6   hsc_s           215 non-null    object 
+ 7   degree_p        215 non-null    float64
+ 8   degree_t        215 non-null    object 
+ 9   workex          215 non-null    object 
+ 10  etest_p         215 non-null    float64
+ 11  specialisation  215 non-null    object 
+ 12  mba_p           215 non-null    float64
+ 13  status          215 non-null    object 
+ 14  salary          148 non-null    float64
+dtypes: float64(6), int64(1), object(8)
+memory usage: 25.3+ KB
+
+
+
+Pearsons correlation: 0.511
+0.40837078117656994
+{'ssc_p', 'degree_p', 'salary', 'hsc_p'}
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 215 entries, 0 to 214
+Data columns (total 7 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   gender    215 non-null    object 
+ 1   ssc_p     215 non-null    float64
+ 2   ssc_b     215 non-null    object 
+ 3   hsc_b     215 non-null    object 
+ 4   hsc_p     215 non-null    float64
+ 5   degree_p  215 non-null    float64
+ 6   degree_t  215 non-null    object 
+dtypes: float64(3), object(4)
+memory usage: 11.9+ KB
+gender
+ssc_b
+hsc_b
+degree_t
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 215 entries, 0 to 214
+Data columns (total 8 columns):
+ #   Column     Non-Null Count  Dtype  
+---  ------     --------------  -----  
+ 0   ssc_p      215 non-null    float64
+ 1   hsc_p      215 non-null    float64
+ 2   degree_p   215 non-null    float64
+ 3   F          215 non-null    uint8  
+ 4   Central    215 non-null    uint8  
+ 5   Central    215 non-null    uint8  
+ 6   Comm&Mgmt  215 non-null    uint8  
+ 7   Others     215 non-null    uint8  
+dtypes: float64(3), uint8(5)
+memory usage: 6.2 KB
+0.9069767441860465
+Traceback (most recent call last):
+  File "how-about-getting-placements-a-data-exploration.py", line 361, in <module>
+    from sklearn.externals.six import StringIO  
+ModuleNotFoundError: No module named 'sklearn.externals.six'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.six'), ('new_fqn', 'six'), ('line_no', 361)])../../../input/benroshan_factors-affecting-campus-placement/Placement_Data_Full_Class.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 215 entries, 0 to 214
+Data columns (total 15 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   sl_no           215 non-null    int64  
+ 1   gender          215 non-null    object 
+ 2   ssc_p           215 non-null    float64
+ 3   ssc_b           215 non-null    object 
+ 4   hsc_p           215 non-null    float64
+ 5   hsc_b           215 non-null    object 
+ 6   hsc_s           215 non-null    object 
+ 7   degree_p        215 non-null    float64
+ 8   degree_t        215 non-null    object 
+ 9   workex          215 non-null    object 
+ 10  etest_p         215 non-null    float64
+ 11  specialisation  215 non-null    object 
+ 12  mba_p           215 non-null    float64
+ 13  status          215 non-null    object 
+ 14  salary          148 non-null    float64
+dtypes: float64(6), int64(1), object(8)
+memory usage: 25.3+ KB
+
+
+
+Pearsons correlation: 0.511
+0.40837078117656994
+{'degree_p', 'salary', 'ssc_p', 'hsc_p'}
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 215 entries, 0 to 214
+Data columns (total 7 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   gender    215 non-null    object 
+ 1   ssc_p     215 non-null    float64
+ 2   ssc_b     215 non-null    object 
+ 3   hsc_b     215 non-null    object 
+ 4   hsc_p     215 non-null    float64
+ 5   degree_p  215 non-null    float64
+ 6   degree_t  215 non-null    object 
+dtypes: float64(3), object(4)
+memory usage: 11.9+ KB
+gender
+ssc_b
+hsc_b
+degree_t
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 215 entries, 0 to 214
+Data columns (total 8 columns):
+ #   Column     Non-Null Count  Dtype  
+---  ------     --------------  -----  
+ 0   ssc_p      215 non-null    float64
+ 1   hsc_p      215 non-null    float64
+ 2   degree_p   215 non-null    float64
+ 3   F          215 non-null    uint8  
+ 4   Central    215 non-null    uint8  
+ 5   Central    215 non-null    uint8  
+ 6   Comm&Mgmt  215 non-null    uint8  
+ 7   Others     215 non-null    uint8  
+dtypes: float64(3), uint8(5)
+memory usage: 6.2 KB
+0.813953488372093
+[REPAIR EXEC TIME]: 10.014987707138062

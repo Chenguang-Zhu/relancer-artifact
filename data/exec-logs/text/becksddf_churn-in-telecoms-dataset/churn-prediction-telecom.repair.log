@@ -1,0 +1,517 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3333 entries, 0 to 3332
+Data columns (total 21 columns):
+ #   Column                  Non-Null Count  Dtype  
+---  ------                  --------------  -----  
+ 0   state                   3333 non-null   object 
+ 1   account length          3333 non-null   int64  
+ 2   area code               3333 non-null   int64  
+ 3   phone number            3333 non-null   object 
+ 4   international plan      3333 non-null   object 
+ 5   voice mail plan         3333 non-null   object 
+ 6   number vmail messages   3333 non-null   int64  
+ 7   total day minutes       3333 non-null   float64
+ 8   total day calls         3333 non-null   int64  
+ 9   total day charge        3333 non-null   float64
+ 10  total eve minutes       3333 non-null   float64
+ 11  total eve calls         3333 non-null   int64  
+ 12  total eve charge        3333 non-null   float64
+ 13  total night minutes     3333 non-null   float64
+ 14  total night calls       3333 non-null   int64  
+ 15  total night charge      3333 non-null   float64
+ 16  total intl minutes      3333 non-null   float64
+ 17  total intl calls        3333 non-null   int64  
+ 18  total intl charge       3333 non-null   float64
+ 19  customer service calls  3333 non-null   int64  
+ 20  churn                   3333 non-null   bool   
+dtypes: bool(1), float64(8), int64(8), object(4)
+memory usage: 524.2+ KB
+num of pepole who stay: 2850
+num of pepole who churn: 483
+
+Traceback (most recent call last):
+  File "churn-prediction-telecom.py", line 193, in <module>
+    sm = SMOTE(random_state=0, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_delete'), ('from_name', 'ratio'), ('to_name', '*')])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:71: FutureWarning: Pass labels=[1, 0] as keyword args. From version 0.25 passing these as positional arguments will result in an error
+  FutureWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:71: FutureWarning: Pass labels=[1, 0] as keyword args. From version 0.25 passing these as positional arguments will result in an error
+  FutureWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:71: FutureWarning: Pass labels=[1, 0] as keyword args. From version 0.25 passing these as positional arguments will result in an error
+  FutureWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:71: FutureWarning: Pass labels=[1, 0] as keyword args. From version 0.25 passing these as positional arguments will result in an error
+  FutureWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:71: FutureWarning: Pass labels=[1, 0] as keyword args. From version 0.25 passing these as positional arguments will result in an error
+  FutureWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:71: FutureWarning: Pass labels=[1, 0] as keyword args. From version 0.25 passing these as positional arguments will result in an error
+  FutureWarning)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3333 entries, 0 to 3332
+Data columns (total 21 columns):
+ #   Column                  Non-Null Count  Dtype  
+---  ------                  --------------  -----  
+ 0   state                   3333 non-null   object 
+ 1   account length          3333 non-null   int64  
+ 2   area code               3333 non-null   int64  
+ 3   phone number            3333 non-null   object 
+ 4   international plan      3333 non-null   object 
+ 5   voice mail plan         3333 non-null   object 
+ 6   number vmail messages   3333 non-null   int64  
+ 7   total day minutes       3333 non-null   float64
+ 8   total day calls         3333 non-null   int64  
+ 9   total day charge        3333 non-null   float64
+ 10  total eve minutes       3333 non-null   float64
+ 11  total eve calls         3333 non-null   int64  
+ 12  total eve charge        3333 non-null   float64
+ 13  total night minutes     3333 non-null   float64
+ 14  total night calls       3333 non-null   int64  
+ 15  total night charge      3333 non-null   float64
+ 16  total intl minutes      3333 non-null   float64
+ 17  total intl calls        3333 non-null   int64  
+ 18  total intl charge       3333 non-null   float64
+ 19  customer service calls  3333 non-null   int64  
+ 20  churn                   3333 non-null   bool   
+dtypes: bool(1), float64(8), int64(8), object(4)
+memory usage: 524.2+ KB
+num of pepole who stay: 2850
+num of pepole who churn: 483
+
+acc train: 100.0
+acc test: 93.5
+              precision    recall  f1-score   support
+
+           0       0.97      0.96      0.96       862
+           1       0.74      0.80      0.77       138
+
+    accuracy                           0.94      1000
+   macro avg       0.86      0.88      0.87      1000
+weighted avg       0.94      0.94      0.94      1000
+
+
+acc train: 100.0
+acc test: 94.8
+              precision    recall  f1-score   support
+
+           0       0.97      0.97      0.97       862
+           1       0.80      0.83      0.81       138
+
+    accuracy                           0.95      1000
+   macro avg       0.89      0.90      0.89      1000
+weighted avg       0.95      0.95      0.95      1000
+
+
+acc train: 78.52
+acc test: 75.0
+acc train: 94.11
+acc test: 89.4
+acc train: 92.58
+acc test: 89.6
+acc train: 92.58
+acc test: 89.6
+              precision    recall  f1-score   support
+
+           0       0.96      0.92      0.94       862
+           1       0.60      0.73      0.66       138
+
+    accuracy                           0.90      1000
+   macro avg       0.78      0.83      0.80      1000
+weighted avg       0.91      0.90      0.90      1000
+
+
+The optimal number of neighbors is 4 with 87.5%
+
+The optimal number of neighbors is 4 with 87.8%
+
+acc train: 96.3
+acc test: 82.6
+              precision    recall  f1-score   support
+
+           0       0.95      0.85      0.89       862
+           1       0.42      0.70      0.53       138
+
+    accuracy                           0.83      1000
+   macro avg       0.68      0.77      0.71      1000
+weighted avg       0.87      0.83      0.84      1000
+
+
+acc train: 85.77
+acc test: 86.6
+              precision    recall  f1-score   support
+
+           0       0.88      0.98      0.93       862
+           1       0.54      0.18      0.27       138
+
+    accuracy                           0.87      1000
+   macro avg       0.71      0.58      0.60      1000
+weighted avg       0.83      0.87      0.84      1000
+
+
+acc train: 100.0
+acc test: 95.8
+              precision    recall  f1-score   support
+
+           0       0.97      0.98      0.98       862
+           1       0.88      0.80      0.84       138
+
+    accuracy                           0.96      1000
+   macro avg       0.93      0.89      0.91      1000
+weighted avg       0.96      0.96      0.96      1000
+
+
+[REPAIR EXEC TIME]: 30.991299867630005<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3333 entries, 0 to 3332
+Data columns (total 21 columns):
+ #   Column                  Non-Null Count  Dtype  
+---  ------                  --------------  -----  
+ 0   state                   3333 non-null   object 
+ 1   account length          3333 non-null   int64  
+ 2   area code               3333 non-null   int64  
+ 3   phone number            3333 non-null   object 
+ 4   international plan      3333 non-null   object 
+ 5   voice mail plan         3333 non-null   object 
+ 6   number vmail messages   3333 non-null   int64  
+ 7   total day minutes       3333 non-null   float64
+ 8   total day calls         3333 non-null   int64  
+ 9   total day charge        3333 non-null   float64
+ 10  total eve minutes       3333 non-null   float64
+ 11  total eve calls         3333 non-null   int64  
+ 12  total eve charge        3333 non-null   float64
+ 13  total night minutes     3333 non-null   float64
+ 14  total night calls       3333 non-null   int64  
+ 15  total night charge      3333 non-null   float64
+ 16  total intl minutes      3333 non-null   float64
+ 17  total intl calls        3333 non-null   int64  
+ 18  total intl charge       3333 non-null   float64
+ 19  customer service calls  3333 non-null   int64  
+ 20  churn                   3333 non-null   bool   
+dtypes: bool(1), float64(8), int64(8), object(4)
+memory usage: 524.2+ KB
+num of pepole who stay: 2850
+num of pepole who churn: 483
+
+Traceback (most recent call last):
+  File "churn-prediction-telecom.py", line 193, in <module>
+    sm = SMOTE(random_state=0, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'
+[Try Solution]: OrderedDict([('API', 'imblearn.over_sampling.SMOTE'), ('action', 'arg_delete'), ('from_name', 'ratio'), ('to_name', '*')])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:71: FutureWarning: Pass labels=[1, 0] as keyword args. From version 0.25 passing these as positional arguments will result in an error
+  FutureWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:71: FutureWarning: Pass labels=[1, 0] as keyword args. From version 0.25 passing these as positional arguments will result in an error
+  FutureWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:71: FutureWarning: Pass labels=[1, 0] as keyword args. From version 0.25 passing these as positional arguments will result in an error
+  FutureWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/model_selection/_split.py:297: FutureWarning: Setting a random_state has no effect since shuffle is False. This will raise an error in 0.24. You should leave random_state to its default (None), or set shuffle=True.
+  FutureWarning
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:71: FutureWarning: Pass labels=[1, 0] as keyword args. From version 0.25 passing these as positional arguments will result in an error
+  FutureWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:71: FutureWarning: Pass labels=[1, 0] as keyword args. From version 0.25 passing these as positional arguments will result in an error
+  FutureWarning)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:71: FutureWarning: Pass labels=[1, 0] as keyword args. From version 0.25 passing these as positional arguments will result in an error
+  FutureWarning)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3333 entries, 0 to 3332
+Data columns (total 21 columns):
+ #   Column                  Non-Null Count  Dtype  
+---  ------                  --------------  -----  
+ 0   state                   3333 non-null   object 
+ 1   account length          3333 non-null   int64  
+ 2   area code               3333 non-null   int64  
+ 3   phone number            3333 non-null   object 
+ 4   international plan      3333 non-null   object 
+ 5   voice mail plan         3333 non-null   object 
+ 6   number vmail messages   3333 non-null   int64  
+ 7   total day minutes       3333 non-null   float64
+ 8   total day calls         3333 non-null   int64  
+ 9   total day charge        3333 non-null   float64
+ 10  total eve minutes       3333 non-null   float64
+ 11  total eve calls         3333 non-null   int64  
+ 12  total eve charge        3333 non-null   float64
+ 13  total night minutes     3333 non-null   float64
+ 14  total night calls       3333 non-null   int64  
+ 15  total night charge      3333 non-null   float64
+ 16  total intl minutes      3333 non-null   float64
+ 17  total intl calls        3333 non-null   int64  
+ 18  total intl charge       3333 non-null   float64
+ 19  customer service calls  3333 non-null   int64  
+ 20  churn                   3333 non-null   bool   
+dtypes: bool(1), float64(8), int64(8), object(4)
+memory usage: 524.2+ KB
+num of pepole who stay: 2850
+num of pepole who churn: 483
+
+acc train: 100.0
+acc test: 93.5
+              precision    recall  f1-score   support
+
+           0       0.97      0.96      0.96       862
+           1       0.74      0.80      0.77       138
+
+    accuracy                           0.94      1000
+   macro avg       0.86      0.88      0.87      1000
+weighted avg       0.94      0.94      0.94      1000
+
+
+acc train: 100.0
+acc test: 95.0
+              precision    recall  f1-score   support
+
+           0       0.97      0.97      0.97       862
+           1       0.82      0.81      0.82       138
+
+    accuracy                           0.95      1000
+   macro avg       0.90      0.89      0.89      1000
+weighted avg       0.95      0.95      0.95      1000
+
+
+acc train: 78.52
+acc test: 75.0
+acc train: 94.11
+acc test: 89.4
+acc train: 92.58
+acc test: 89.6
+acc train: 92.58
+acc test: 89.6
+              precision    recall  f1-score   support
+
+           0       0.96      0.92      0.94       862
+           1       0.60      0.73      0.66       138
+
+    accuracy                           0.90      1000
+   macro avg       0.78      0.83      0.80      1000
+weighted avg       0.91      0.90      0.90      1000
+
+
+The optimal number of neighbors is 4 with 87.5%
+
+The optimal number of neighbors is 4 with 87.8%
+
+acc train: 96.3
+acc test: 82.6
+              precision    recall  f1-score   support
+
+           0       0.95      0.85      0.89       862
+           1       0.42      0.70      0.53       138
+
+    accuracy                           0.83      1000
+   macro avg       0.68      0.77      0.71      1000
+weighted avg       0.87      0.83      0.84      1000
+
+
+acc train: 85.77
+acc test: 86.6
+              precision    recall  f1-score   support
+
+           0       0.88      0.98      0.93       862
+           1       0.54      0.18      0.27       138
+
+    accuracy                           0.87      1000
+   macro avg       0.71      0.58      0.60      1000
+weighted avg       0.83      0.87      0.84      1000
+
+
+acc train: 100.0
+acc test: 95.8
+              precision    recall  f1-score   support
+
+           0       0.97      0.98      0.98       862
+           1       0.88      0.80      0.84       138
+
+    accuracy                           0.96      1000
+   macro avg       0.93      0.89      0.91      1000
+weighted avg       0.96      0.96      0.96      1000
+
+
+[REPAIR EXEC TIME]: 32.34811091423035

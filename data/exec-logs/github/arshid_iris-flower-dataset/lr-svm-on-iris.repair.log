@@ -1,0 +1,40 @@
+lr-svm-on-iris.py:84: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iris_df['species'] = flower_class.transform(iris_df['species'])
+../../../input/arshid_iris-flower-dataset/IRIS.csv
+Traceback (most recent call last):
+  File "lr-svm-on-iris.py", line 306, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.metrics.jaccard_similarity_score'), ('new_fqn', 'sklearn.metrics.jaccard_score'), ('line_no', 306)])lr-svm-on-iris.py:85: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iris_df['species'] = flower_class.transform(iris_df['species'])
+../../../input/arshid_iris-flower-dataset/IRIS.csv
+Traceback (most recent call last):
+  File "lr-svm-on-iris.py", line 308, in <module>
+    jaccard_score(y_test, yhat)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 736, in jaccard_score
+    pos_label)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/metrics/_classification.py", line 1265, in _check_set_wise_labels
+    % (y_type, average_options))
+ValueError: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+[REPAIR EXEC TIME]: 2.4798383712768555lr-svm-on-iris.py:84: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iris_df['species'] = flower_class.transform(iris_df['species'])
+../../../input/arshid_iris-flower-dataset/IRIS.csv
+Traceback (most recent call last):
+  File "lr-svm-on-iris.py", line 306, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[REPAIR EXEC TIME]: 1.2092864513397217

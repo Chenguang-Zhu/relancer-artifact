@@ -1,0 +1,3199 @@
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 52, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.impute.SimpleImputer'), ('line_no', 52)])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', '0')])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', "<class 'libcst._nodes.expression.UnaryOperation'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'copy'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'add_indicator'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'median'")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='median'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'constant'")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='constant'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'mean'")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='mean'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'most_frequent'")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='most_frequent'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy=<class 'libcst._nodes.expression.Attribute'>
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy=<class 'libcst._nodes.expression.Name'>
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', '"constant"')])  File "auto-imports-beginner-level-analysis.py", line 162
+    imp = SimpleImputer(missing_values='NaN', strategy=""constant"")
+                                                                ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 52, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.impute.SimpleImputer'), ('line_no', 52)])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', '0')])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', "<class 'libcst._nodes.expression.UnaryOperation'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'copy'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'add_indicator'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'median'")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='median'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'constant'")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='constant'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'mean'")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='mean'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'most_frequent'")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='most_frequent'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy=<class 'libcst._nodes.expression.Attribute'>
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy=<class 'libcst._nodes.expression.Name'>
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', '"constant"')])  File "auto-imports-beginner-level-analysis.py", line 162
+    imp = SimpleImputer(missing_values='NaN', strategy=""constant"")
+                                                                ^
+SyntaxError: invalid syntax
+[REPAIR EXEC TIME]: 34.2464804649353Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 52, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.impute.SimpleImputer'), ('line_no', 52)])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', '0')])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'missing_values'), ('target_value', "<class 'libcst._nodes.expression.UnaryOperation'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'copy'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'add_indicator'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 251, in _validate_input
+    raise ve
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 244, in _validate_input
+    copy=self.copy)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'median'")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='median'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'constant'")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='constant'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'mean'")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='mean'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "'most_frequent'")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy='most_frequent'
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "<class 'libcst._nodes.expression.Attribute'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy=<class 'libcst._nodes.expression.Attribute'>
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', "<class 'libcst._nodes.expression.Name'>")])<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 26 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   symboling          205 non-null    int64  
+ 1   normalized-losses  164 non-null    float64
+ 2   make               205 non-null    object 
+ 3   fuel-type          205 non-null    object 
+ 4   aspiration         205 non-null    object 
+ 5   num-of-doors       203 non-null    object 
+ 6   body-style         205 non-null    object 
+ 7   drive-wheels       205 non-null    object 
+ 8   engine-location    205 non-null    object 
+ 9   wheel-base         205 non-null    float64
+ 10  length             205 non-null    float64
+ 11  width              205 non-null    float64
+ 12  height             205 non-null    float64
+ 13  curb-weight        205 non-null    int64  
+ 14  engine-type        205 non-null    object 
+ 15  num-of-cylinders   205 non-null    object 
+ 16  engine-size        205 non-null    int64  
+ 17  fuel-system        205 non-null    object 
+ 18  bore               201 non-null    float64
+ 19  stroke             201 non-null    float64
+ 20  compression-ratio  205 non-null    float64
+ 21  horsepower         203 non-null    float64
+ 22  peak-rpm           203 non-null    float64
+ 23  city-mpg           205 non-null    int64  
+ 24  highway-mpg        205 non-null    int64  
+ 25  price              201 non-null    float64
+dtypes: float64(11), int64(5), object(10)
+memory usage: 41.8+ KB
+Traceback (most recent call last):
+  File "auto-imports-beginner-level-analysis.py", line 163, in <module>
+    df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']] = imp.fit_transform(df_1[['normalized-losses','bore','stroke','horsepower','peak-rpm','price']])
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 277, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/impute/_base.py", line 228, in _validate_input
+    self.strategy))
+ValueError: Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy=<class 'libcst._nodes.expression.Name'>
+[Try Solution]: OrderedDict([('API', 'sklearn.impute.SimpleImputer'), ('action', 'arg_value_update'), ('arg_name', 'strategy'), ('target_value', '"constant"')])  File "auto-imports-beginner-level-analysis.py", line 162
+    imp = SimpleImputer(missing_values='NaN', strategy=""constant"")
+                                                                ^
+SyntaxError: invalid syntax
+[REPAIR EXEC TIME]: 33.296395778656006

@@ -1,0 +1,16 @@
+../../../input/filippoo_deep-learning-az-ann/Churn_Modelling.csv
+Traceback (most recent call last):
+  File "neural-network.py", line 104, in <module>
+    classifier.add(Dense(input_dim=13,output_dim=6,kernel_initializer="uniform",activation='relu'))
+TypeError: __init__() missing 1 required positional argument: 'units'
+[REPAIR EXEC TIME]: 2.79752779006958../../../input/filippoo_deep-learning-az-ann/Churn_Modelling.csv
+Traceback (most recent call last):
+  File "neural-network.py", line 104, in <module>
+    classifier.add(Dense(input_dim=13,output_dim=6,kernel_initializer="uniform",activation='relu'))
+TypeError: __init__() missing 1 required positional argument: 'units'
+[REPAIR EXEC TIME]: 2.762112855911255../../../input/filippoo_deep-learning-az-ann/Churn_Modelling.csv
+Traceback (most recent call last):
+  File "neural-network.py", line 104, in <module>
+    classifier.add(Dense(input_dim=13,output_dim=6,kernel_initializer="uniform",activation='relu'))
+TypeError: __init__() missing 1 required positional argument: 'units'
+[REPAIR EXEC TIME]: 2.7617502212524414

@@ -1,0 +1,559 @@
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+2021-07-04 21:05:56.873370: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-07-04 21:05:56.897451: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-07-04 21:05:56.944849: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55ceccf532b0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-04 21:05:56.944933: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-07-04 21:05:56.945255: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+0.0     559
+1.0     403
+2.0      86
+3.0      35
+4.0      24
+6.0       7
+5.0       7
+8.0       5
+7.0       4
+10.0      4
+9.0       3
+14.0      2
+13.0      1
+12.0      1
+21.0      1
+17.0      1
+Name: approved_conversion, dtype: int64
+1.0    584
+0.0    559
+Name: approved_conversion, dtype: int64
+Dataframe: ../../../input/madislemsalu_facebook-ad-campaign/data.csv
+
+
+INPUT_SHAPE: (857, 11)
+OUTPUT_SHAPE: (857,)
+              precision    recall  f1-score   support
+
+Not Approved       0.54      0.78      0.64       130
+    Approved       0.71      0.44      0.54       156
+
+    accuracy                           0.59       286
+   macro avg       0.62      0.61      0.59       286
+weighted avg       0.63      0.59      0.58       286
+
+              precision    recall  f1-score   support
+
+Not Approved       0.53      0.82      0.64       130
+    Approved       0.72      0.40      0.52       156
+
+    accuracy                           0.59       286
+   macro avg       0.63      0.61      0.58       286
+weighted avg       0.64      0.59      0.58       286
+
+              precision    recall  f1-score   support
+
+Not Approved       0.48      0.51      0.49       130
+    Approved       0.57      0.54      0.56       156
+
+    accuracy                           0.53       286
+   macro avg       0.53      0.53      0.53       286
+weighted avg       0.53      0.53      0.53       286
+
+              precision    recall  f1-score   support
+
+Not Approved       0.51      0.56      0.54       130
+    Approved       0.60      0.56      0.58       156
+
+    accuracy                           0.56       286
+   macro avg       0.56      0.56      0.56       286
+weighted avg       0.56      0.56      0.56       286
+
+              precision    recall  f1-score   support
+
+Not Approved       0.56      0.22      0.31       130
+    Approved       0.57      0.86      0.68       156
+
+    accuracy                           0.57       286
+   macro avg       0.56      0.54      0.50       286
+weighted avg       0.56      0.57      0.51       286
+
+              precision    recall  f1-score   support
+
+Not Approved       0.53      0.80      0.64       130
+    Approved       0.71      0.42      0.53       156
+
+    accuracy                           0.59       286
+   macro avg       0.62      0.61      0.58       286
+weighted avg       0.63      0.59      0.58       286
+
+              precision    recall  f1-score   support
+
+Not Approved       0.50      0.90      0.64       130
+    Approved       0.75      0.25      0.38       156
+
+    accuracy                           0.55       286
+   macro avg       0.62      0.57      0.51       286
+weighted avg       0.64      0.55      0.50       286
+
+Epoch 1/75
+ 1/27 [>.............................] - ETA: 0s - loss: 1.1049 - accuracy: 0.687513/27 [=============>................] - ETA: 0s - loss: 0.8480 - accuracy: 0.524023/27 [========================>.....] - ETA: 0s - loss: 0.7891 - accuracy: 0.525827/27 [==============================] - 0s 5ms/step - loss: 0.7723 - accuracy: 0.5368
+Epoch 2/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5873 - accuracy: 0.781212/27 [============>.................] - ETA: 0s - loss: 0.6676 - accuracy: 0.604223/27 [========================>.....] - ETA: 0s - loss: 0.6879 - accuracy: 0.591027/27 [==============================] - 0s 5ms/step - loss: 0.6871 - accuracy: 0.5928
+Epoch 3/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6760 - accuracy: 0.625012/27 [============>.................] - ETA: 0s - loss: 0.6838 - accuracy: 0.591123/27 [========================>.....] - ETA: 0s - loss: 0.6885 - accuracy: 0.596527/27 [==============================] - 0s 5ms/step - loss: 0.6856 - accuracy: 0.5974
+Epoch 4/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.7995 - accuracy: 0.625012/27 [============>.................] - ETA: 0s - loss: 0.6779 - accuracy: 0.630223/27 [========================>.....] - ETA: 0s - loss: 0.6646 - accuracy: 0.618227/27 [==============================] - 0s 5ms/step - loss: 0.6647 - accuracy: 0.6196
+Epoch 5/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6327 - accuracy: 0.687511/27 [===========>..................] - ETA: 0s - loss: 0.6665 - accuracy: 0.642021/27 [======================>.......] - ETA: 0s - loss: 0.6697 - accuracy: 0.608627/27 [==============================] - 0s 5ms/step - loss: 0.6767 - accuracy: 0.5963
+Epoch 6/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.7169 - accuracy: 0.593811/27 [===========>..................] - ETA: 0s - loss: 0.6833 - accuracy: 0.599421/27 [======================>.......] - ETA: 0s - loss: 0.6667 - accuracy: 0.622027/27 [==============================] - 0s 5ms/step - loss: 0.6664 - accuracy: 0.6184
+Epoch 7/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5599 - accuracy: 0.843811/27 [===========>..................] - ETA: 0s - loss: 0.6294 - accuracy: 0.673321/27 [======================>.......] - ETA: 0s - loss: 0.6528 - accuracy: 0.616127/27 [==============================] - 0s 5ms/step - loss: 0.6571 - accuracy: 0.6208
+Epoch 8/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6467 - accuracy: 0.625011/27 [===========>..................] - ETA: 0s - loss: 0.6625 - accuracy: 0.602321/27 [======================>.......] - ETA: 0s - loss: 0.6637 - accuracy: 0.617627/27 [==============================] - 0s 5ms/step - loss: 0.6615 - accuracy: 0.6266
+Epoch 9/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6189 - accuracy: 0.750011/27 [===========>..................] - ETA: 0s - loss: 0.6497 - accuracy: 0.619320/27 [=====================>........] - ETA: 0s - loss: 0.6576 - accuracy: 0.612527/27 [==============================] - 0s 5ms/step - loss: 0.6498 - accuracy: 0.6184
+Epoch 10/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.7142 - accuracy: 0.531212/27 [============>.................] - ETA: 0s - loss: 0.6329 - accuracy: 0.656222/27 [=======================>......] - ETA: 0s - loss: 0.6610 - accuracy: 0.625027/27 [==============================] - 0s 5ms/step - loss: 0.6619 - accuracy: 0.6278
+Epoch 11/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6583 - accuracy: 0.593810/27 [==========>...................] - ETA: 0s - loss: 0.6554 - accuracy: 0.640618/27 [===================>..........] - ETA: 0s - loss: 0.6613 - accuracy: 0.623327/27 [==============================] - ETA: 0s - loss: 0.6548 - accuracy: 0.632427/27 [==============================] - 0s 6ms/step - loss: 0.6548 - accuracy: 0.6324
+Epoch 12/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6268 - accuracy: 0.625010/27 [==========>...................] - ETA: 0s - loss: 0.6843 - accuracy: 0.578119/27 [====================>.........] - ETA: 0s - loss: 0.6624 - accuracy: 0.608627/27 [==============================] - 0s 6ms/step - loss: 0.6653 - accuracy: 0.6219
+Epoch 13/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6473 - accuracy: 0.6562 8/27 [=======>......................] - ETA: 0s - loss: 0.6830 - accuracy: 0.582017/27 [=================>............] - ETA: 0s - loss: 0.6662 - accuracy: 0.615826/27 [===========================>..] - ETA: 0s - loss: 0.6546 - accuracy: 0.622627/27 [==============================] - 0s 6ms/step - loss: 0.6518 - accuracy: 0.6266
+Epoch 14/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6902 - accuracy: 0.625010/27 [==========>...................] - ETA: 0s - loss: 0.6441 - accuracy: 0.643821/27 [======================>.......] - ETA: 0s - loss: 0.6579 - accuracy: 0.628027/27 [==============================] - 0s 5ms/step - loss: 0.6478 - accuracy: 0.6371
+Epoch 15/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6863 - accuracy: 0.562512/27 [============>.................] - ETA: 0s - loss: 0.6551 - accuracy: 0.630222/27 [=======================>......] - ETA: 0s - loss: 0.6568 - accuracy: 0.626427/27 [==============================] - 0s 5ms/step - loss: 0.6546 - accuracy: 0.6336
+Epoch 16/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6621 - accuracy: 0.656212/27 [============>.................] - ETA: 0s - loss: 0.6601 - accuracy: 0.638023/27 [========================>.....] - ETA: 0s - loss: 0.6546 - accuracy: 0.635927/27 [==============================] - 0s 5ms/step - loss: 0.6469 - accuracy: 0.6406
+Epoch 17/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6218 - accuracy: 0.593810/27 [==========>...................] - ETA: 0s - loss: 0.6580 - accuracy: 0.600021/27 [======================>.......] - ETA: 0s - loss: 0.6460 - accuracy: 0.632427/27 [==============================] - 0s 5ms/step - loss: 0.6479 - accuracy: 0.6348
+Epoch 18/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6455 - accuracy: 0.593812/27 [============>.................] - ETA: 0s - loss: 0.6478 - accuracy: 0.648422/27 [=======================>......] - ETA: 0s - loss: 0.6384 - accuracy: 0.642027/27 [==============================] - 0s 5ms/step - loss: 0.6466 - accuracy: 0.6371
+Epoch 19/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5938 - accuracy: 0.843812/27 [============>.................] - ETA: 0s - loss: 0.6499 - accuracy: 0.661523/27 [========================>.....] - ETA: 0s - loss: 0.6475 - accuracy: 0.644027/27 [==============================] - 0s 5ms/step - loss: 0.6441 - accuracy: 0.6418
+Epoch 20/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6575 - accuracy: 0.812511/27 [===========>..................] - ETA: 0s - loss: 0.6487 - accuracy: 0.656221/27 [======================>.......] - ETA: 0s - loss: 0.6510 - accuracy: 0.639927/27 [==============================] - 0s 5ms/step - loss: 0.6559 - accuracy: 0.6336
+Epoch 21/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5730 - accuracy: 0.812512/27 [============>.................] - ETA: 0s - loss: 0.6134 - accuracy: 0.692723/27 [========================>.....] - ETA: 0s - loss: 0.6372 - accuracy: 0.644027/27 [==============================] - 0s 5ms/step - loss: 0.6426 - accuracy: 0.6371
+Epoch 22/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6252 - accuracy: 0.656212/27 [============>.................] - ETA: 0s - loss: 0.6302 - accuracy: 0.669323/27 [========================>.....] - ETA: 0s - loss: 0.6474 - accuracy: 0.638627/27 [==============================] - 0s 5ms/step - loss: 0.6487 - accuracy: 0.6359
+Epoch 23/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6525 - accuracy: 0.625012/27 [============>.................] - ETA: 0s - loss: 0.6202 - accuracy: 0.666722/27 [=======================>......] - ETA: 0s - loss: 0.6405 - accuracy: 0.625027/27 [==============================] - 0s 5ms/step - loss: 0.6448 - accuracy: 0.6243
+Epoch 24/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6361 - accuracy: 0.625010/27 [==========>...................] - ETA: 0s - loss: 0.6543 - accuracy: 0.625019/27 [====================>.........] - ETA: 0s - loss: 0.6465 - accuracy: 0.641427/27 [==============================] - 0s 5ms/step - loss: 0.6464 - accuracy: 0.6499
+Epoch 25/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5503 - accuracy: 0.7812 9/27 [=========>....................] - ETA: 0s - loss: 0.6509 - accuracy: 0.621518/27 [===================>..........] - ETA: 0s - loss: 0.6547 - accuracy: 0.616327/27 [==============================] - ETA: 0s - loss: 0.6492 - accuracy: 0.626627/27 [==============================] - 0s 6ms/step - loss: 0.6492 - accuracy: 0.6266
+Epoch 26/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6230 - accuracy: 0.656210/27 [==========>...................] - ETA: 0s - loss: 0.6609 - accuracy: 0.615620/27 [=====================>........] - ETA: 0s - loss: 0.6471 - accuracy: 0.632827/27 [==============================] - 0s 5ms/step - loss: 0.6480 - accuracy: 0.6336
+Epoch 27/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.7131 - accuracy: 0.562512/27 [============>.................] - ETA: 0s - loss: 0.6447 - accuracy: 0.622423/27 [========================>.....] - ETA: 0s - loss: 0.6463 - accuracy: 0.618227/27 [==============================] - 0s 5ms/step - loss: 0.6474 - accuracy: 0.6243
+Epoch 28/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5566 - accuracy: 0.718810/27 [==========>...................] - ETA: 0s - loss: 0.6478 - accuracy: 0.634419/27 [====================>.........] - ETA: 0s - loss: 0.6418 - accuracy: 0.648027/27 [==============================] - 0s 5ms/step - loss: 0.6463 - accuracy: 0.6348
+Epoch 29/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.7114 - accuracy: 0.593812/27 [============>.................] - ETA: 0s - loss: 0.6534 - accuracy: 0.622422/27 [=======================>......] - ETA: 0s - loss: 0.6497 - accuracy: 0.616527/27 [==============================] - 0s 5ms/step - loss: 0.6430 - accuracy: 0.6371
+Epoch 30/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6392 - accuracy: 0.656210/27 [==========>...................] - ETA: 0s - loss: 0.6102 - accuracy: 0.659419/27 [====================>.........] - ETA: 0s - loss: 0.6387 - accuracy: 0.631627/27 [==============================] - 0s 6ms/step - loss: 0.6389 - accuracy: 0.6383
+Epoch 31/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6163 - accuracy: 0.687510/27 [==========>...................] - ETA: 0s - loss: 0.6436 - accuracy: 0.625020/27 [=====================>........] - ETA: 0s - loss: 0.6487 - accuracy: 0.620327/27 [==============================] - 0s 5ms/step - loss: 0.6410 - accuracy: 0.6348
+Epoch 32/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5445 - accuracy: 0.718812/27 [============>.................] - ETA: 0s - loss: 0.6263 - accuracy: 0.669322/27 [=======================>......] - ETA: 0s - loss: 0.6443 - accuracy: 0.634927/27 [==============================] - 0s 5ms/step - loss: 0.6408 - accuracy: 0.6324
+Epoch 33/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.7248 - accuracy: 0.500013/27 [=============>................] - ETA: 0s - loss: 0.6240 - accuracy: 0.646623/27 [========================>.....] - ETA: 0s - loss: 0.6308 - accuracy: 0.650827/27 [==============================] - 0s 5ms/step - loss: 0.6410 - accuracy: 0.6441
+Epoch 34/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6692 - accuracy: 0.562512/27 [============>.................] - ETA: 0s - loss: 0.6297 - accuracy: 0.645823/27 [========================>.....] - ETA: 0s - loss: 0.6449 - accuracy: 0.638627/27 [==============================] - 0s 4ms/step - loss: 0.6426 - accuracy: 0.6371
+Epoch 35/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6649 - accuracy: 0.500012/27 [============>.................] - ETA: 0s - loss: 0.6097 - accuracy: 0.690123/27 [========================>.....] - ETA: 0s - loss: 0.6348 - accuracy: 0.646727/27 [==============================] - 0s 5ms/step - loss: 0.6358 - accuracy: 0.6429
+Epoch 36/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6065 - accuracy: 0.687512/27 [============>.................] - ETA: 0s - loss: 0.6291 - accuracy: 0.661523/27 [========================>.....] - ETA: 0s - loss: 0.6419 - accuracy: 0.656227/27 [==============================] - 0s 5ms/step - loss: 0.6458 - accuracy: 0.6488
+Epoch 37/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6402 - accuracy: 0.625012/27 [============>.................] - ETA: 0s - loss: 0.6261 - accuracy: 0.661523/27 [========================>.....] - ETA: 0s - loss: 0.6364 - accuracy: 0.654927/27 [==============================] - 0s 5ms/step - loss: 0.6382 - accuracy: 0.6511
+Epoch 38/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6549 - accuracy: 0.687513/27 [=============>................] - ETA: 0s - loss: 0.6478 - accuracy: 0.625023/27 [========================>.....] - ETA: 0s - loss: 0.6409 - accuracy: 0.639927/27 [==============================] - 0s 5ms/step - loss: 0.6394 - accuracy: 0.6371
+Epoch 39/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5121 - accuracy: 0.843811/27 [===========>..................] - ETA: 0s - loss: 0.6235 - accuracy: 0.673321/27 [======================>.......] - ETA: 0s - loss: 0.6391 - accuracy: 0.641427/27 [==============================] - 0s 5ms/step - loss: 0.6339 - accuracy: 0.6441
+Epoch 40/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.7573 - accuracy: 0.656210/27 [==========>...................] - ETA: 0s - loss: 0.6246 - accuracy: 0.662520/27 [=====================>........] - ETA: 0s - loss: 0.6288 - accuracy: 0.651627/27 [==============================] - 0s 5ms/step - loss: 0.6378 - accuracy: 0.6371
+Epoch 41/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5655 - accuracy: 0.750011/27 [===========>..................] - ETA: 0s - loss: 0.6249 - accuracy: 0.673321/27 [======================>.......] - ETA: 0s - loss: 0.6363 - accuracy: 0.656227/27 [==============================] - 0s 5ms/step - loss: 0.6359 - accuracy: 0.6511
+Epoch 42/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6127 - accuracy: 0.625011/27 [===========>..................] - ETA: 0s - loss: 0.6154 - accuracy: 0.667621/27 [======================>.......] - ETA: 0s - loss: 0.6429 - accuracy: 0.631027/27 [==============================] - 0s 5ms/step - loss: 0.6387 - accuracy: 0.6441
+Epoch 43/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5898 - accuracy: 0.7188 9/27 [=========>....................] - ETA: 0s - loss: 0.6362 - accuracy: 0.656219/27 [====================>.........] - ETA: 0s - loss: 0.6405 - accuracy: 0.653027/27 [==============================] - 0s 5ms/step - loss: 0.6306 - accuracy: 0.6569
+Epoch 44/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5853 - accuracy: 0.687511/27 [===========>..................] - ETA: 0s - loss: 0.6181 - accuracy: 0.622221/27 [======================>.......] - ETA: 0s - loss: 0.6334 - accuracy: 0.631027/27 [==============================] - 0s 5ms/step - loss: 0.6326 - accuracy: 0.6406
+Epoch 45/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5700 - accuracy: 0.718813/27 [=============>................] - ETA: 0s - loss: 0.6091 - accuracy: 0.680324/27 [=========================>....] - ETA: 0s - loss: 0.6257 - accuracy: 0.665427/27 [==============================] - 0s 4ms/step - loss: 0.6305 - accuracy: 0.6558
+Epoch 46/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6581 - accuracy: 0.656211/27 [===========>..................] - ETA: 0s - loss: 0.6121 - accuracy: 0.676121/27 [======================>.......] - ETA: 0s - loss: 0.6319 - accuracy: 0.656224/27 [=========================>....] - ETA: 0s - loss: 0.6301 - accuracy: 0.656227/27 [==============================] - 0s 6ms/step - loss: 0.6291 - accuracy: 0.6523
+Epoch 47/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6336 - accuracy: 0.593812/27 [============>.................] - ETA: 0s - loss: 0.6531 - accuracy: 0.606823/27 [========================>.....] - ETA: 0s - loss: 0.6356 - accuracy: 0.631827/27 [==============================] - 0s 5ms/step - loss: 0.6252 - accuracy: 0.6429
+Epoch 48/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.7881 - accuracy: 0.593812/27 [============>.................] - ETA: 0s - loss: 0.6374 - accuracy: 0.645823/27 [========================>.....] - ETA: 0s - loss: 0.6301 - accuracy: 0.652227/27 [==============================] - 0s 5ms/step - loss: 0.6313 - accuracy: 0.6488
+Epoch 49/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.7338 - accuracy: 0.531211/27 [===========>..................] - ETA: 0s - loss: 0.6207 - accuracy: 0.659119/27 [====================>.........] - ETA: 0s - loss: 0.6303 - accuracy: 0.661227/27 [==============================] - 0s 6ms/step - loss: 0.6341 - accuracy: 0.6616
+Epoch 50/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5634 - accuracy: 0.750011/27 [===========>..................] - ETA: 0s - loss: 0.6373 - accuracy: 0.627823/27 [========================>.....] - ETA: 0s - loss: 0.6364 - accuracy: 0.642727/27 [==============================] - 0s 5ms/step - loss: 0.6298 - accuracy: 0.6418
+Epoch 51/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6363 - accuracy: 0.656213/27 [=============>................] - ETA: 0s - loss: 0.6323 - accuracy: 0.670724/27 [=========================>....] - ETA: 0s - loss: 0.6228 - accuracy: 0.671927/27 [==============================] - 0s 4ms/step - loss: 0.6234 - accuracy: 0.6709
+Epoch 52/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6489 - accuracy: 0.531213/27 [=============>................] - ETA: 0s - loss: 0.6089 - accuracy: 0.665925/27 [==========================>...] - ETA: 0s - loss: 0.6244 - accuracy: 0.653827/27 [==============================] - 0s 4ms/step - loss: 0.6323 - accuracy: 0.6488
+Epoch 53/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5531 - accuracy: 0.750013/27 [=============>................] - ETA: 0s - loss: 0.6270 - accuracy: 0.644225/27 [==========================>...] - ETA: 0s - loss: 0.6205 - accuracy: 0.657527/27 [==============================] - 0s 4ms/step - loss: 0.6244 - accuracy: 0.6511
+Epoch 54/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6653 - accuracy: 0.656213/27 [=============>................] - ETA: 0s - loss: 0.6183 - accuracy: 0.694725/27 [==========================>...] - ETA: 0s - loss: 0.6254 - accuracy: 0.665027/27 [==============================] - 0s 4ms/step - loss: 0.6237 - accuracy: 0.6651
+Epoch 55/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5323 - accuracy: 0.750013/27 [=============>................] - ETA: 0s - loss: 0.6060 - accuracy: 0.637025/27 [==========================>...] - ETA: 0s - loss: 0.6162 - accuracy: 0.652527/27 [==============================] - 0s 4ms/step - loss: 0.6243 - accuracy: 0.6488
+Epoch 56/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5745 - accuracy: 0.718813/27 [=============>................] - ETA: 0s - loss: 0.6179 - accuracy: 0.675525/27 [==========================>...] - ETA: 0s - loss: 0.6185 - accuracy: 0.670027/27 [==============================] - 0s 4ms/step - loss: 0.6202 - accuracy: 0.6674
+Epoch 57/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5518 - accuracy: 0.750013/27 [=============>................] - ETA: 0s - loss: 0.6146 - accuracy: 0.658725/27 [==========================>...] - ETA: 0s - loss: 0.6192 - accuracy: 0.655027/27 [==============================] - 0s 4ms/step - loss: 0.6201 - accuracy: 0.6593
+Epoch 58/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6237 - accuracy: 0.687513/27 [=============>................] - ETA: 0s - loss: 0.6261 - accuracy: 0.663524/27 [=========================>....] - ETA: 0s - loss: 0.6251 - accuracy: 0.665427/27 [==============================] - 0s 4ms/step - loss: 0.6239 - accuracy: 0.6604
+Epoch 59/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6237 - accuracy: 0.593812/27 [============>.................] - ETA: 0s - loss: 0.6153 - accuracy: 0.625023/27 [========================>.....] - ETA: 0s - loss: 0.6160 - accuracy: 0.639927/27 [==============================] - 0s 5ms/step - loss: 0.6202 - accuracy: 0.6453
+Epoch 60/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6733 - accuracy: 0.562512/27 [============>.................] - ETA: 0s - loss: 0.6237 - accuracy: 0.645822/27 [=======================>......] - ETA: 0s - loss: 0.6241 - accuracy: 0.646327/27 [==============================] - 0s 5ms/step - loss: 0.6203 - accuracy: 0.6558
+Epoch 61/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5308 - accuracy: 0.718811/27 [===========>..................] - ETA: 0s - loss: 0.5836 - accuracy: 0.704522/27 [=======================>......] - ETA: 0s - loss: 0.6034 - accuracy: 0.686127/27 [==============================] - 0s 5ms/step - loss: 0.6139 - accuracy: 0.6768
+Epoch 62/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5830 - accuracy: 0.687511/27 [===========>..................] - ETA: 0s - loss: 0.6411 - accuracy: 0.616522/27 [=======================>......] - ETA: 0s - loss: 0.6228 - accuracy: 0.643527/27 [==============================] - 0s 5ms/step - loss: 0.6207 - accuracy: 0.6569
+Epoch 63/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6234 - accuracy: 0.625012/27 [============>.................] - ETA: 0s - loss: 0.6133 - accuracy: 0.664122/27 [=======================>......] - ETA: 0s - loss: 0.6154 - accuracy: 0.673327/27 [==============================] - 0s 5ms/step - loss: 0.6168 - accuracy: 0.6698
+Epoch 64/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.8787 - accuracy: 0.562511/27 [===========>..................] - ETA: 0s - loss: 0.6351 - accuracy: 0.644921/27 [======================>.......] - ETA: 0s - loss: 0.6184 - accuracy: 0.648827/27 [==============================] - 0s 5ms/step - loss: 0.6130 - accuracy: 0.6523
+Epoch 65/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5999 - accuracy: 0.718811/27 [===========>..................] - ETA: 0s - loss: 0.6004 - accuracy: 0.664822/27 [=======================>......] - ETA: 0s - loss: 0.6130 - accuracy: 0.656227/27 [==============================] - 0s 5ms/step - loss: 0.6116 - accuracy: 0.6593
+Epoch 66/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6046 - accuracy: 0.562511/27 [===========>..................] - ETA: 0s - loss: 0.6113 - accuracy: 0.679021/27 [======================>.......] - ETA: 0s - loss: 0.6102 - accuracy: 0.669627/27 [==============================] - 0s 5ms/step - loss: 0.6110 - accuracy: 0.6663
+Epoch 67/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6817 - accuracy: 0.593811/27 [===========>..................] - ETA: 0s - loss: 0.6396 - accuracy: 0.636421/27 [======================>.......] - ETA: 0s - loss: 0.6302 - accuracy: 0.635427/27 [==============================] - 0s 5ms/step - loss: 0.6164 - accuracy: 0.6534
+Epoch 68/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5481 - accuracy: 0.750011/27 [===========>..................] - ETA: 0s - loss: 0.5836 - accuracy: 0.704521/27 [======================>.......] - ETA: 0s - loss: 0.5997 - accuracy: 0.675627/27 [==============================] - 0s 5ms/step - loss: 0.6061 - accuracy: 0.6756
+Epoch 69/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6500 - accuracy: 0.625011/27 [===========>..................] - ETA: 0s - loss: 0.5927 - accuracy: 0.687521/27 [======================>.......] - ETA: 0s - loss: 0.6137 - accuracy: 0.666727/27 [==============================] - 0s 5ms/step - loss: 0.6080 - accuracy: 0.6698
+Epoch 70/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6445 - accuracy: 0.562511/27 [===========>..................] - ETA: 0s - loss: 0.5917 - accuracy: 0.679021/27 [======================>.......] - ETA: 0s - loss: 0.5863 - accuracy: 0.681527/27 [==============================] - 0s 5ms/step - loss: 0.6023 - accuracy: 0.6651
+Epoch 71/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6382 - accuracy: 0.625011/27 [===========>..................] - ETA: 0s - loss: 0.6050 - accuracy: 0.667621/27 [======================>.......] - ETA: 0s - loss: 0.6145 - accuracy: 0.660727/27 [==============================] - 0s 5ms/step - loss: 0.6075 - accuracy: 0.6651
+Epoch 72/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5793 - accuracy: 0.812512/27 [============>.................] - ETA: 0s - loss: 0.5861 - accuracy: 0.695322/27 [=======================>......] - ETA: 0s - loss: 0.5933 - accuracy: 0.671927/27 [==============================] - 0s 5ms/step - loss: 0.5999 - accuracy: 0.6686
+Epoch 73/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6229 - accuracy: 0.687511/27 [===========>..................] - ETA: 0s - loss: 0.6428 - accuracy: 0.619321/27 [======================>.......] - ETA: 0s - loss: 0.6054 - accuracy: 0.668227/27 [==============================] - 0s 5ms/step - loss: 0.6041 - accuracy: 0.6733
+Epoch 74/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.5001 - accuracy: 0.718810/27 [==========>...................] - ETA: 0s - loss: 0.6290 - accuracy: 0.646919/27 [====================>.........] - ETA: 0s - loss: 0.6085 - accuracy: 0.656227/27 [==============================] - 0s 6ms/step - loss: 0.6166 - accuracy: 0.6488
+Epoch 75/75
+ 1/27 [>.............................] - ETA: 0s - loss: 0.6786 - accuracy: 0.531210/27 [==========>...................] - ETA: 0s - loss: 0.6035 - accuracy: 0.643820/27 [=====================>........] - ETA: 0s - loss: 0.5915 - accuracy: 0.671927/27 [==============================] - 0s 5ms/step - loss: 0.5951 - accuracy: 0.6686
+              precision    recall  f1-score   support
+
+         0.0       0.52      0.77      0.62       130
+         1.0       0.68      0.41      0.51       156
+
+    accuracy                           0.57       286
+   macro avg       0.60      0.59      0.57       286
+weighted avg       0.61      0.57      0.56       286
+
+1/9 [==>...........................] - ETA: 0s - loss: 0.8302 - accuracy: 0.40629/9 [==============================] - 0s 3ms/step - loss: 0.6925 - accuracy: 0.5734
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+              precision    recall  f1-score   support
+
+Not Approved       0.52      0.77      0.62       130
+    Approved       0.68      0.41      0.51       156
+
+    accuracy                           0.57       286
+   macro avg       0.60      0.59      0.57       286
+weighted avg       0.61      0.57      0.56       286
+
+              precision    recall  f1-score   support
+
+Not Approved       0.52      0.77      0.62       130
+    Approved       0.68      0.41      0.51       156
+
+    accuracy                           0.57       286
+   macro avg       0.60      0.59      0.57       286
+weighted avg       0.61      0.57      0.56       286
+

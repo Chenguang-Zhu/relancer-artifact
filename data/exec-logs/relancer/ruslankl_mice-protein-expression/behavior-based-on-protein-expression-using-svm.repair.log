@@ -1,0 +1,76 @@
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/core/frame.py:4172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  method=method,
+Traceback (most recent call last):
+  File "behavior-based-on-protein-expression-using-svm.py", line 101, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.impute.SimpleImputer'), ('line_no', 101)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/core/frame.py:4172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  method=method,
+Traceback (most recent call last):
+  File "behavior-based-on-protein-expression-using-svm.py", line 146, in <module>
+    from sklearn.grid_search import RandomizedSearchCV
+ModuleNotFoundError: No module named 'sklearn.grid_search'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 146)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/core/frame.py:4172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  method=method,
+Train score  1.0
+Test score  1.0
+[REPAIR EXEC TIME]: 3.7133262157440186/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/core/frame.py:4172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  method=method,
+Traceback (most recent call last):
+  File "behavior-based-on-protein-expression-using-svm.py", line 101, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.impute.SimpleImputer'), ('line_no', 101)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/core/frame.py:4172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  method=method,
+Traceback (most recent call last):
+  File "behavior-based-on-protein-expression-using-svm.py", line 146, in <module>
+    from sklearn.grid_search import RandomizedSearchCV
+ModuleNotFoundError: No module named 'sklearn.grid_search'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 146)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/core/frame.py:4172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  method=method,
+Train score  1.0
+Test score  1.0
+[REPAIR EXEC TIME]: 3.8798723220825195/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/core/frame.py:4172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  method=method,
+Traceback (most recent call last):
+  File "behavior-based-on-protein-expression-using-svm.py", line 101, in <module>
+    from sklearn.preprocessing import Imputer
+ImportError: cannot import name 'Imputer'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.preprocessing.Imputer'), ('new_fqn', 'sklearn.impute.SimpleImputer'), ('line_no', 101)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/core/frame.py:4172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  method=method,
+Traceback (most recent call last):
+  File "behavior-based-on-protein-expression-using-svm.py", line 146, in <module>
+    from sklearn.grid_search import RandomizedSearchCV
+ModuleNotFoundError: No module named 'sklearn.grid_search'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 146)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/pandas/core/frame.py:4172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  method=method,
+Train score  1.0
+Test score  1.0
+[REPAIR EXEC TIME]: 4.101535320281982

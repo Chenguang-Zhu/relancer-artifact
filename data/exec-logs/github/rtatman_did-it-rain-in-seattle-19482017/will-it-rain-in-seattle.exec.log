@@ -1,0 +1,4 @@
+  File "will-it-rain-in-seattle.py", line 26
+    imputer=SimpleImputer(missing_values='NaN', strategy=""constant"")
+                                                                  ^
+SyntaxError: invalid syntax

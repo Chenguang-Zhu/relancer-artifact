@@ -1,0 +1,190 @@
+../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.metrics.jaccard_similarity_score'), ('new_fqn', 'sklearn.metrics.jaccard_score'), ('line_no', 34)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:73: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:251: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+../../../input/mrisdal_married-at-first-sight/mafs.csv
+
+
+
+
+
+
+
+
+
+
+Precision is 0.5
+Recall is 0.25
+Specificity is 0.9411764705882353
+Accuracy is 0.8095238095238095
+
+
+
+
+
+
+
+
+
+Precision is 1.0
+Recall is 0.25
+Specificity is 1.0
+Accuracy is 0.8571428571428571
+
+
+
+
+
+
+
+
+Jaccard similarity score 0.25
+[REPAIR EXEC TIME]: 4.081936597824097../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.metrics.jaccard_similarity_score'), ('new_fqn', 'sklearn.metrics.jaccard_score'), ('line_no', 34)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py:73: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:213: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+married-at-first-sight-notebook.py:251: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  knnModel.fit(X_train, Y_train)
+../../../input/mrisdal_married-at-first-sight/mafs.csv
+
+
+
+
+
+
+
+
+
+
+Precision is 0.5
+Recall is 0.25
+Specificity is 0.9411764705882353
+Accuracy is 0.8095238095238095
+
+
+
+
+
+
+
+
+
+Precision is 1.0
+Recall is 0.25
+Specificity is 1.0
+Accuracy is 0.8571428571428571
+
+
+
+
+
+
+
+
+Jaccard similarity score 0.25
+[REPAIR EXEC TIME]: 4.35191798210144../../../input/mrisdal_married-at-first-sight/mafs.csv
+Traceback (most recent call last):
+  File "married-at-first-sight-notebook.py", line 34, in <module>
+    from sklearn.metrics import plot_confusion_matrix, jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'
+[REPAIR EXEC TIME]: 2.006268262863159

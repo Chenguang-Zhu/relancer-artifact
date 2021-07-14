@@ -1,0 +1,241 @@
+Formatted Date,Summary,Precip Type,Temperature (C),Apparent Temperature (C),Humidity,Wind Speed (km/h),Wind Bearing (degrees),Visibility (km),Loud Cover,Pressure (millibars),Daily Summary
+2006-11-05 05:00:00.000 +0100,Breezy,rain,6.0888888888888895,1.5722222222222213,0.76,29.0444,289.0,6.3434,0.0,1021.45,Overcast until night and breezy overnight.
+2012-03-18 11:00:00.000 +0100,Breezy and Dry,rain,21.11111111111111,21.11111111111111,0.26,33.81,240.0,9.982,0.0,1021.6,Partly cloudy starting in the afternoon.
+2006-03-13 07:00:00.000 +0100,Breezy and Foggy,snow,-2.1722222222222225,-10.044444444444443,0.9,37.4808,18.0,1.4651,0.0,1014.15,Breezy starting overnight continuing until afternoon and foggy starting in the morning continuing until evening.
+2006-04-12 08:00:00.000 +0200,Breezy and Mostly Cloudy,rain,6.144444444444447,1.4944444444444431,0.93,30.863700000000005,349.0,10.5455,0.0,1004.1,Foggy overnight and breezy in the morning.
+2006-08-31 10:00:00.000 +0200,Breezy and Overcast,rain,15.944444444444445,15.944444444444445,0.68,33.9066,289.0,11.27,0.0,1016.52,Mostly cloudy until night and breezy in the afternoon.
+2006-08-21 00:00:00.000 +0200,Breezy and Partly Cloudy,rain,21.96666666666667,21.96666666666667,0.72,30.8315,310.0,15.826300000000002,0.0,1015.64,Mostly cloudy starting overnight.
+2006-04-18 07:00:00.000 +0200,Clear,rain,8.68888888888889,8.68888888888889,0.93,1.4329,290.0,5.8443000000000005,0.0,1012.96,Partly cloudy until night.
+2007-01-29 13:00:00.000 +0100,Dangerously Windy and Partly Cloudy,rain,8.944444444444445,3.4833333333333347,0.49,63.8526,307.0,11.4471,0.0,1009.05,Mostly cloudy throughout the day and windy starting in the morning continuing until evening.
+2012-04-12 10:00:00.000 +0200,Drizzle,rain,14.716666666666667,14.716666666666667,0.59,24.794,248.0,11.109000000000002,0.0,1002.78,Light rain in the morning.
+2007-07-20 10:00:00.000 +0200,Dry,rain,34.05555555555556,33.005555555555546,0.28,13.8138,179.0,9.982,0.0,1014.03,Partly cloudy starting in the afternoon continuing until evening.
+2012-08-31 14:00:00.000 +0200,Dry and Mostly Cloudy,rain,33.67222222222223,31.38888888888889,0.17,19.8352,149.0,10.3523,0.0,1011.83,Partly cloudy throughout the day.
+2007-04-23 13:00:00.000 +0200,Dry and Partly Cloudy,rain,20.07222222222222,20.07222222222222,0.17,2.8014,310.0,9.982,0.0,1025.13,Partly cloudy starting in the morning continuing until evening.
+2006-04-11 18:00:00.000 +0200,Foggy,rain,10.911111111111113,10.911111111111113,0.86,22.395100000000006,311.0,2.6565,0.0,1004.61,Foggy in the evening.
+2006-08-04 14:00:00.000 +0200,Humid and Mostly Cloudy,rain,20.89444444444445,20.89444444444445,0.82,8.8711,342.0,11.3183,0.0,1005.05,Mostly cloudy until night.
+2010-08-06 13:00:00.000 +0200,Humid and Overcast,rain,24.055555555555557,24.055555555555557,0.89,10.0786,170.0,6.1663000000000014,0.0,1008.56,Partly cloudy throughout the day.
+2006-07-02 15:00:00.000 +0200,Humid and Partly Cloudy,rain,22.66111111111111,22.66111111111111,0.84,15.520400000000002,1.0,11.125100000000002,0.0,1017.99,Mostly cloudy throughout the day.
+2012-04-12 09:00:00.000 +0200,Light Rain,rain,12.011111111111115,12.011111111111115,0.75,12.1716,230.0,11.109000000000002,0.0,1002.7,Light rain in the morning.
+2006-04-01 02:00:00.000 +0200,Mostly Cloudy,rain,9.377777777777778,9.377777777777778,0.89,3.9284,204.0,14.9569,0.0,1015.94,Partly cloudy throughout the day.
+2006-04-10 22:00:00.000 +0200,Overcast,rain,14.422222222222226,14.422222222222226,0.58,20.0123,159.0,15.826300000000002,0.0,1007.85,Mostly cloudy throughout the day.
+2006-04-01 00:00:00.000 +0200,Partly Cloudy,rain,9.472222222222221,7.388888888888887,0.89,14.1197,251.0,15.826300000000002,0.0,1015.13,Partly cloudy throughout the day.
+2016-10-21 23:00:00.000 +0200,Rain,rain,9.738888888888887,9.738888888888887,0.96,4.2826,286.0,4.652900000000002,0.0,1014.1,Rain throughout the day.
+2008-01-28 02:00:00.000 +0100,Windy,rain,4.994444444444445,-0.8666666666666659,0.45,42.53620000000001,340.0,15.826300000000002,0.0,1019.01,Breezy starting overnight continuing until morning and partly cloudy starting in the morning.
+2012-04-29 12:00:00.000 +0200,Windy and Dry,rain,27.222222222222218,26.344444444444452,0.24,40.25,150.0,9.982,0.0,1020.2,Partly cloudy starting in the morning continuing until night and breezy starting in the morning continuing until afternoon.
+2006-07-08 18:00:00.000 +0200,Windy and Foggy,rain,19.633333333333336,19.633333333333336,0.76,45.9333,90.0,2.3506,0.0,1014.92,Partly cloudy starting in the afternoon continuing until night.
+2007-02-01 13:00:00.000 +0100,Windy and Mostly Cloudy,rain,10.050000000000002,10.050000000000002,0.53,47.28570000000001,308.0,11.0768,0.0,1015.3,Partly cloudy starting overnight continuing until evening and breezy starting in the morning continuing until evening.
+2006-03-12 23:00:00.000 +0100,Windy and Overcast,rain,0.5111111111111121,-7.116666666666666,0.66,45.530800000000006,20.0,11.9784,0.0,1012.71,Foggy in the morning and breezy starting in the afternoon continuing until night.
+2006-03-29 17:00:00.000 +0200,Windy and Partly Cloudy,rain,12.1,12.1,0.57,41.699,279.0,11.4471,0.0,1008.47,Partly cloudy throughout the day and breezy starting in the morning continuing until night.
+2006-12-13 02:00:00.000 +0100,Foggy,snow,-0.4833333333333339,-4.15,1.0,11.0929,219.0,0.483,0.0,1031.56,Foggy throughout the day.
+2013-03-14 00:00:00.000 +0100,Overcast,rain,8.244444444444447,7.427777777777778,1.0,6.117999999999999,116.0,9.9015,0.0,996.64,Breezy and foggy starting in the evening.
+2012-12-09 00:00:00.000 +0100,Breezy and Foggy,snow,-3.311111111111112,-10.922222222222222,0.91,31.330600000000004,0.0,1.8354,0.0,1013.0,Breezy and foggy until morning.
+2007-11-11 00:00:00.000 +0100,Overcast,rain,3.8388888888888864,-0.4888888888888883,0.82,20.897800000000004,300.0,14.9569,0.0,1007.16,Breezy and mostly cloudy overnight.
+2007-07-24 00:00:00.000 +0200,Clear,rain,23.86666666666666,23.86666666666666,0.45,10.851400000000002,160.0,15.826300000000002,0.0,1006.45,Breezy and partly cloudy in the afternoon.
+2015-02-06 00:00:00.000 +0100,Overcast,rain,1.6666666666666667,-3.7722222222222217,0.78,25.1965,31.0,15.1823,0.0,1015.57,Breezy in the morning and foggy in the evening.
+2015-01-05 00:00:00.000 +0100,Clear,rain,2.1222222222222222,-3.2500000000000013,0.7,25.76,310.0,0.0,0.0,0.0,Breezy in the morning and mostly cloudy starting in the evening.
+2011-04-13 00:00:00.000 +0200,Windy,rain,12.17222222222222,12.17222222222222,0.57,41.1999,319.0,9.982,0.0,0.0,Breezy in the morning and mostly cloudy starting in the morning.
+2011-08-27 00:00:00.000 +0200,Clear,rain,25.511111111111113,25.511111111111113,0.49,20.2377,160.0,15.826300000000002,0.0,1014.65,Breezy in the morning and partly cloudy starting in the evening continuing until night.
+2013-11-20 00:00:00.000 +0100,Breezy and Mostly Cloudy,rain,8.794444444444443,4.427777777777777,0.71,39.1391,149.0,15.826300000000002,0.0,1007.25,Breezy overnight and mostly cloudy throughout the day.
+2012-05-13 00:00:00.000 +0200,Windy and Mostly Cloudy,rain,15.555555555555555,15.555555555555555,0.72,40.25,320.0,9.982,0.0,1019.1,Breezy overnight and overcast throughout the day.
+2013-03-19 00:00:00.000 +0100,Breezy and Partly Cloudy,rain,5.022222222222221,-0.6333333333333336,0.82,39.5255,142.0,15.8746,0.0,994.92,Breezy overnight and partly cloudy throughout the day.
+2012-10-08 00:00:00.000 +0200,Breezy and Mostly Cloudy,rain,10.972222222222221,10.972222222222221,0.77,31.427200000000006,301.0,15.826300000000002,0.0,1013.75,Breezy overnight and partly cloudy until evening.
+2015-02-08 00:00:00.000 +0100,Partly Cloudy,snow,-3.7111111111111112,-8.122222222222224,0.82,11.4149,250.0,9.9015,0.0,1018.3,Breezy starting in the afternoon continuing until evening and foggy in the evening.
+2014-01-24 00:00:00.000 +0100,Overcast,rain,0.5500000000000012,-2.872222222222223,0.91,10.948,61.0,8.1305,0.0,1019.39,Breezy starting in the afternoon continuing until evening and foggy starting in the evening.
+2012-08-26 00:00:00.000 +0200,Clear,rain,21.86666666666667,21.86666666666667,0.53,6.4239000000000015,31.0,15.826300000000002,0.0,1009.6,Breezy starting in the afternoon continuing until night and mostly cloudy starting in the evening.
+2009-03-23 00:00:00.000 +0100,Breezy and Mostly Cloudy,rain,6.666666666666668,2.0722222222222206,0.6,32.2,320.0,15.134000000000002,0.0,1012.7,Breezy starting in the morning continuing until afternoon and mostly cloudy starting in the morning.
+2009-04-28 00:00:00.000 +0200,Clear,rain,10.555555555555557,10.555555555555557,0.52,17.71,130.0,16.1,0.0,1015.2,Breezy starting in the morning continuing until afternoon and partly cloudy starting in the morning.
+2015-01-04 00:00:00.000 +0100,Clear,rain,2.1722222222222203,-0.9333333333333332,0.73,10.996300000000002,151.0,7.212800000000001,0.0,0.0,Breezy starting in the morning continuing until night.
+2006-03-13 00:00:00.000 +0100,Windy and Overcast,rain,0.0277777777777762,-7.550000000000002,0.72,42.6328,20.0,12.042800000000002,0.0,1012.8,Breezy starting overnight continuing until afternoon and foggy starting in the morning continuing until evening.
+2007-01-19 00:00:00.000 +0100,Breezy and Overcast,rain,10.716666666666663,10.716666666666663,0.68,34.72770000000001,210.0,15.826300000000002,0.0,1005.88,Breezy starting overnight continuing until afternoon and mostly cloudy starting overnight continuing until evening.
+2007-02-26 00:00:00.000 +0100,Breezy and Overcast,rain,1.0888888888888897,-5.072222222222221,0.69,30.429000000000002,150.0,15.826300000000002,0.0,1012.49,Breezy starting overnight continuing until morning and foggy in the evening.
+2009-12-23 00:00:00.000 +0100,Breezy and Overcast,rain,2.7777777777777777,-3.027777777777777,0.79,32.2,140.0,16.1,0.0,1006.3,Breezy starting overnight continuing until morning and foggy overnight.
+2008-01-28 00:00:00.000 +0100,Windy and Partly Cloudy,rain,6.683333333333334,0.8222222222222205,0.69,53.1944,311.0,15.8746,0.0,1015.53,Breezy starting overnight continuing until morning and partly cloudy starting in the morning.
+2006-10-30 00:00:00.000 +0100,Breezy and Partly Cloudy,rain,11.644444444444444,11.644444444444444,0.77,38.7205,309.0,15.826300000000002,0.0,1007.85,Breezy starting overnight continuing until morning and partly cloudy starting overnight continuing until evening.
+2014-12-29 00:00:00.000 +0100,Breezy,snow,-2.2222222222222223,-9.705555555555557,0.74,33.2948,0.0,6.117999999999999,0.0,0.0,Breezy starting overnight continuing until morning.
+2009-10-13 00:00:00.000 +0200,Breezy and Overcast,rain,9.444444444444443,5.938888888888887,0.93,28.98,330.0,6.117999999999999,0.0,1001.3,Breezy until afternoon and mostly cloudy throughout the day.
+2014-05-15 00:00:00.000 +0200,Breezy and Overcast,rain,10.494444444444444,10.494444444444444,0.86,34.4057,330.0,9.982,0.0,1006.26,Breezy until afternoon and overcast throughout the day.
+2013-03-22 00:00:00.000 +0100,Windy and Overcast,rain,2.244444444444444,-4.422222222222223,0.91,40.6042,300.0,11.0446,0.0,1007.62,Breezy until evening and foggy in the morning.
+2006-11-06 00:00:00.000 +0100,Breezy and Mostly Cloudy,rain,7.916666666666668,3.766666666666668,0.82,31.3789,270.0,14.9569,0.0,1016.08,Breezy until morning and mostly cloudy throughout the day.
+2006-07-19 00:00:00.000 +0200,Clear,rain,16.333333333333332,16.333333333333332,0.8,3.0751,280.0,15.826300000000002,0.0,1022.1,Clear throughout the day.
+2016-10-15 00:00:00.000 +0200,Mostly Cloudy,,9.355555555555558,7.427777777777778,0.77,12.8478,97.0,16.1,0.0,1019.89,Drizzle starting in the evening.
+2016-10-16 00:00:00.000 +0200,Drizzle,rain,11.544444444444444,11.544444444444444,0.86,7.357700000000001,151.0,15.504300000000002,0.0,1018.53,Drizzle until morning.
+2009-11-28 00:00:00.000 +0100,Mostly Cloudy,rain,8.888888888888891,8.888888888888891,0.86,0.0,0.0,6.117999999999999,0.0,1014.8,Foggy in the afternoon.
+2006-04-11 00:00:00.000 +0200,Overcast,rain,13.77222222222222,13.77222222222222,0.6,17.0982,160.0,15.826300000000002,0.0,1007.36,Foggy in the evening.
+2006-03-12 00:00:00.000 +0100,Overcast,rain,1.594444444444443,1.594444444444443,0.92,3.5420000000000007,313.0,7.905100000000001,0.0,1007.04,Foggy in the morning and breezy starting in the afternoon continuing until night.
+2006-04-21 00:00:00.000 +0200,Mostly Cloudy,rain,11.527777777777779,11.527777777777779,0.96,3.1556,358.0,4.508,0.0,1016.43,Foggy in the morning.
+2006-04-12 00:00:00.000 +0200,Foggy,rain,8.199999999999998,5.072222222222224,0.96,20.447,341.0,3.1073,0.0,1004.8,Foggy overnight and breezy in the morning.
+2006-02-28 00:00:00.000 +0100,Clear,snow,-4.038888888888889,-4.038888888888889,0.92,4.83,70.0,9.8049,0.0,0.0,Foggy overnight.
+2012-12-08 00:00:00.000 +0100,Overcast,snow,-2.344444444444444,-7.0777777777777775,0.76,14.007,80.0,15.826300000000002,0.0,1013.8,Foggy starting in the afternoon and breezy starting in the afternoon continuing until evening.
+2006-02-08 00:00:00.000 +0100,Overcast,snow,-4.333333333333333,-10.683333333333334,0.83,19.9962,191.0,3.912300000000001,0.0,1015.95,Foggy starting in the afternoon continuing until evening.
+2007-12-11 00:00:00.000 +0100,Overcast,rain,5.0,1.872222222222221,0.89,14.312900000000004,261.0,7.744099999999999,0.0,1006.89,Foggy starting in the afternoon continuing until night.
+2006-12-31 00:00:00.000 +0100,Clear,snow,-3.355555555555555,-7.538888888888887,0.88,10.835300000000002,129.0,5.9731000000000005,0.0,1036.82,Foggy starting in the afternoon.
+2006-12-02 00:00:00.000 +0100,Overcast,rain,6.111111111111112,6.111111111111112,0.96,3.4937,140.0,3.4454,0.0,1034.7,Foggy starting in the evening continuing until night.
+2006-12-11 00:00:00.000 +0100,Clear,rain,1.872222222222221,-0.14999999999999974,0.91,6.8264000000000005,243.0,15.826300000000002,0.0,1033.2,Foggy starting in the evening.
+2010-01-08 00:00:00.000 +0100,Foggy,snow,-0.04999999999999992,-0.04999999999999992,0.96,3.5098000000000003,86.0,2.9624,0.0,1018.37,Foggy starting in the morning continuing until afternoon and breezy starting in the evening.
+2006-01-31 00:00:00.000 +0100,Overcast,snow,-0.06666666666666722,-0.06666666666666722,0.89,3.6708,281.0,5.9248,0.0,1025.6,Foggy starting in the morning continuing until afternoon.
+2014-12-28 00:00:00.000 +0100,Clear,snow,-2.2222222222222223,-7.033333333333332,0.75,14.49,120.0,0.0,0.0,0.0,Foggy starting in the morning continuing until evening and breezy in the evening.
+2006-12-23 00:00:00.000 +0100,Clear,snow,-1.2722222222222217,-5.15,0.92,11.27,270.0,6.117999999999999,0.0,1041.59,Foggy starting in the morning continuing until evening.
+2007-12-21 00:00:00.000 +0100,Overcast,snow,-3.333333333333333,-3.333333333333333,0.85,3.0751,337.0,5.957000000000002,0.0,1039.34,Foggy starting in the morning continuing until night.
+2007-12-29 00:00:00.000 +0100,Overcast,snow,-4.933333333333334,-4.933333333333334,0.88,3.2361,142.0,3.9606,0.0,1038.93,Foggy starting in the morning.
+2010-01-03 00:00:00.000 +0100,Foggy,snow,-1.183333333333333,-7.494444444444443,0.96,25.6956,320.0,1.9159,0.0,1009.66,Foggy starting overnight continuing until afternoon and breezy in the morning.
+2006-12-24 00:00:00.000 +0100,Foggy,rain,1.6944444444444429,1.6944444444444429,0.94,1.8515,279.0,1.932,0.0,1040.81,Foggy starting overnight continuing until afternoon.
+2006-12-03 00:00:00.000 +0100,Foggy,snow,-2.1333333333333333,-2.1333333333333333,1.0,0.0,0.0,0.3381,0.0,1028.01,Foggy starting overnight continuing until evening.
+2010-03-28 00:00:00.000 +0100,Overcast,rain,7.716666666666668,5.816666666666666,0.93,10.5294,214.0,6.2951000000000015,0.0,1009.15,Foggy starting overnight continuing until morning and breezy in the afternoon.
+2009-10-12 00:00:00.000 +0200,Partly Cloudy,rain,8.888888888888891,8.888888888888891,0.93,3.22,220.0,4.025,0.0,1013.8,Foggy starting overnight continuing until morning and breezy starting in the evening continuing until night.
+2009-03-04 00:00:00.000 +0100,Foggy,rain,5.5555555555555545,5.5555555555555545,0.93,3.22,130.0,2.5760000000000005,0.0,1015.6,Foggy starting overnight continuing until morning and breezy starting in the evening.
+2010-02-13 00:00:00.000 +0100,Foggy,rain,0.5111111111111121,-4.666666666666666,0.96,20.6402,350.0,1.4007,0.0,1004.49,Foggy starting overnight continuing until morning and breezy starting in the morning continuing until afternoon.
+2006-04-20 00:00:00.000 +0200,Partly Cloudy,rain,11.827777777777774,11.827777777777774,0.92,3.0268,311.0,15.826300000000002,0.0,1011.68,Foggy starting overnight continuing until morning.
+2006-01-13 00:00:00.000 +0100,Foggy,snow,-0.5777777777777773,-0.5777777777777773,0.92,3.2844,8.0,2.9463000000000004,0.0,1037.15,Foggy starting overnight continuing until night.
+2006-12-28 00:00:00.000 +0100,Foggy,snow,-5.0,-7.899999999999999,0.96,6.3112,169.0,0.805,0.0,1034.7,Foggy starting overnight.
+2006-12-12 00:00:00.000 +0100,Foggy,rain,2.372222222222224,2.372222222222224,0.96,2.5438,21.0,0.16100000000000006,0.0,1029.02,Foggy throughout the day.
+2006-11-24 00:00:00.000 +0100,Foggy,rain,7.200000000000001,5.077777777777778,0.93,11.1895,188.0,2.9785000000000004,0.0,1013.88,Foggy until afternoon.
+2007-12-22 00:00:00.000 +0100,Foggy,snow,-4.466666666666666,-4.466666666666666,0.88,3.3649,190.0,2.9785000000000004,0.0,1038.46,Foggy until evening.
+2006-12-29 00:00:00.000 +0100,Foggy,snow,-4.305555555555555,-4.305555555555555,0.96,3.3005,220.0,0.3220000000000001,0.0,1027.06,Foggy until morning.
+2007-12-19 00:00:00.000 +0100,Foggy,snow,-8.677777777777777,-8.677777777777777,0.84,3.22,270.0,0.6279,0.0,1038.68,Foggy until night.
+2012-04-17 00:00:00.000 +0200,Overcast,,9.155555555555551,6.25,0.81,20.752900000000004,341.0,15.134000000000002,0.0,1007.67,Light rain in the morning and afternoon.
+2012-04-12 00:00:00.000 +0200,Mostly Cloudy,,10.1,10.1,0.61,11.3666,180.0,16.1,0.0,1002.25,Light rain in the morning.
+2016-10-25 00:00:00.000 +0200,Mostly Cloudy,,11.05,11.05,0.85,18.724300000000003,164.0,9.9981,0.0,1023.28,Light rain overnight.
+2016-10-12 00:00:00.000 +0200,Foggy,rain,8.238888888888887,7.355555555555558,0.96,6.3756,349.0,2.0286,0.0,1010.84,Light rain starting overnight.
+2012-04-14 00:00:00.000 +0200,Light Rain,rain,12.611111111111114,12.611111111111114,0.62,5.2647,55.0,16.1,0.0,999.78,Light rain until morning.
+2014-12-27 00:00:00.000 +0100,Clear,snow,-1.1111111111111112,-6.938888888888887,0.68,22.1697,320.0,9.982,0.0,0.0,Mostly cloudy overnight.
+2007-01-18 00:00:00.000 +0100,Clear,rain,1.0888888888888897,-0.9666666666666658,0.92,6.5527000000000015,179.0,5.9248,0.0,1024.77,Mostly cloudy starting in the afternoon continuing until night.
+2006-09-17 00:00:00.000 +0200,Mostly Cloudy,rain,19.283333333333328,19.283333333333328,0.55,10.9319,116.0,15.826300000000002,0.0,1015.25,Mostly cloudy starting in the afternoon.
+2013-12-02 00:00:00.000 +0100,Clear,snow,-2.233333333333333,-4.705555555555555,0.92,6.2951000000000015,202.0,7.1323,0.0,1027.4,Mostly cloudy starting in the evening.
+2009-09-29 00:00:00.000 +0200,Clear,rain,12.777777777777779,12.777777777777779,0.8,0.0,0.0,9.982,0.0,1019.2,Mostly cloudy starting in the morning and breezy in the afternoon.
+2007-04-18 00:00:00.000 +0200,Partly Cloudy,rain,8.994444444444444,8.177777777777777,0.65,6.5527000000000015,212.0,15.826300000000002,0.0,1016.2,Mostly cloudy starting in the morning and breezy in the evening.
+2008-01-05 00:00:00.000 +0100,Clear,snow,-9.05,-14.294444444444444,0.78,10.5616,129.0,11.5437,0.0,1033.99,Mostly cloudy starting in the morning and breezy overnight.
+2012-03-11 00:00:00.000 +0100,Clear,snow,-2.7777777777777777,-2.7777777777777777,0.85,3.22,270.0,6.117999999999999,0.0,1030.4,Mostly cloudy starting in the morning and breezy starting in the afternoon continuing until evening.
+2014-03-15 00:00:00.000 +0100,Clear,rain,5.4944444444444445,3.1500000000000012,0.65,10.5616,161.0,15.826300000000002,0.0,1020.58,Mostly cloudy starting in the morning and windy in the evening.
+2006-09-16 00:00:00.000 +0200,Mostly Cloudy,rain,19.18888888888889,19.18888888888889,0.62,10.8675,97.0,15.826300000000002,0.0,1015.51,Mostly cloudy starting in the morning continuing until afternoon.
+2006-09-29 00:00:00.000 +0200,Clear,rain,13.127777777777776,13.127777777777776,0.93,0.0,0.0,8.1305,0.0,1012.75,Mostly cloudy starting in the morning continuing until evening.
+2009-07-18 00:00:00.000 +0200,Clear,rain,23.88888888888889,23.88888888888889,0.71,11.27,140.0,16.1,0.0,1010.3,Mostly cloudy starting in the morning continuing until night and breezy in the afternoon.
+2006-11-09 00:00:00.000 +0100,Mostly Cloudy,rain,4.01111111111111,4.01111111111111,0.95,3.7030000000000003,259.0,3.9284,0.0,1025.51,Mostly cloudy starting in the morning continuing until night.
+2006-02-07 00:00:00.000 +0100,Clear,snow,-11.083333333333336,-14.755555555555553,0.8,6.021400000000001,331.0,15.7297,0.0,1028.77,Mostly cloudy starting in the morning.
+2006-03-28 00:00:00.000 +0200,Partly Cloudy,rain,10.277777777777779,10.277777777777779,0.82,11.0768,221.0,15.7297,0.0,1012.28,Mostly cloudy starting overnight and breezy in the afternoon.
+2008-04-04 00:00:00.000 +0200,Clear,rain,7.194444444444446,5.072222222222224,0.73,11.1734,0.0,9.9015,0.0,1016.82,Mostly cloudy starting overnight and breezy in the morning.
+2010-03-05 00:00:00.000 +0100,Overcast,rain,2.244444444444444,-2.438888888888889,0.72,20.3665,9.0,6.2951000000000015,0.0,1010.04,Mostly cloudy starting overnight and breezy starting in the afternoon continuing until evening.
+2012-10-07 00:00:00.000 +0200,Clear,rain,13.222222222222221,13.222222222222221,0.81,6.262900000000001,161.0,14.9086,0.0,1016.69,Mostly cloudy starting overnight and breezy starting in the evening.
+2007-07-30 00:00:00.000 +0200,Partly Cloudy,rain,18.338888888888892,18.338888888888892,0.62,0.0,0.0,15.826300000000002,0.0,1009.21,Mostly cloudy starting overnight and breezy starting in the morning continuing until afternoon.
+2006-09-15 00:00:00.000 +0200,Clear,rain,17.07222222222222,17.07222222222222,0.64,14.2807,129.0,9.982,0.0,0.0,Mostly cloudy starting overnight continuing until afternoon.
+2008-11-22 00:00:00.000 +0100,Overcast,rain,5.511111111111113,2.466666666666665,0.82,14.5383,300.0,15.826300000000002,0.0,992.73,Mostly cloudy starting overnight continuing until evening and breezy starting overnight continuing until morning.
+2006-02-27 00:00:00.000 +0100,Overcast,snow,-1.7388888888888885,-6.950000000000001,0.85,17.2109,271.0,4.3631,0.0,1011.24,Mostly cloudy starting overnight continuing until evening.
+2009-08-03 00:00:00.000 +0200,Clear,rain,26.66666666666667,27.216666666666665,0.52,17.71,160.0,16.1,0.0,1012.1,Mostly cloudy starting overnight continuing until morning.
+2010-12-09 00:00:00.000 +0100,Overcast,rain,12.638888888888891,12.638888888888891,0.83,17.404100000000003,190.0,11.9784,0.0,1005.0,Mostly cloudy starting overnight continuing until night and breezy starting in the morning continuing until evening.
+2006-04-26 00:00:00.000 +0200,Clear,rain,13.311111111111114,13.311111111111114,0.82,3.5420000000000007,73.0,15.826300000000002,0.0,1018.44,Mostly cloudy starting overnight continuing until night.
+2006-03-23 00:00:00.000 +0100,Overcast,rain,9.905555555555557,7.855555555555557,0.92,14.6349,10.0,14.812000000000001,0.0,1002.88,Mostly cloudy throughout the day and breezy in the afternoon.
+2006-01-22 00:00:00.000 +0100,Overcast,rain,0.5666666666666684,0.5666666666666684,0.92,3.815700000000001,234.0,11.8013,0.0,1020.35,Mostly cloudy throughout the day and breezy in the evening.
+2006-03-04 00:00:00.000 +0100,Partly Cloudy,rain,4.861111111111111,0.0777777777777781,0.68,27.9013,190.0,15.826300000000002,0.0,1005.03,Mostly cloudy throughout the day and breezy in the morning.
+2007-11-12 00:00:00.000 +0100,Mostly Cloudy,rain,7.1722222222222225,3.0388888888888883,0.71,28.33600000000001,281.0,15.826300000000002,0.0,1003.25,Mostly cloudy throughout the day and breezy overnight.
+2013-02-24 00:00:00.000 +0100,Overcast,rain,6.138888888888888,1.7000000000000013,0.82,28.2555,120.0,15.8746,0.0,1009.34,Mostly cloudy throughout the day and breezy starting in the afternoon continuing until evening.
+2013-12-09 00:00:00.000 +0100,Mostly Cloudy,rain,0.6111111111111119,-1.4722222222222214,0.88,6.44,211.0,16.1,0.0,1028.95,Mostly cloudy throughout the day and breezy starting in the afternoon.
+2012-12-14 00:00:00.000 +0100,Mostly Cloudy,snow,-6.061111111111112,-12.316666666666668,0.75,17.114300000000004,140.0,15.826300000000002,0.0,1025.71,Mostly cloudy throughout the day and breezy starting in the evening continuing until night.
+2008-01-22 00:00:00.000 +0100,Partly Cloudy,rain,2.338888888888889,-0.6666666666666663,0.89,10.706500000000002,182.0,4.9910000000000005,0.0,1013.75,Mostly cloudy throughout the day and breezy starting in the evening.
+2007-11-07 00:00:00.000 +0100,Partly Cloudy,rain,3.338888888888888,0.3888888888888905,0.85,11.382700000000002,203.0,9.9015,0.0,1021.27,Mostly cloudy throughout the day and breezy starting in the morning continuing until afternoon.
+2007-02-03 00:00:00.000 +0100,Partly Cloudy,snow,-3.2222222222222228,-5.711111111111113,0.92,6.0053,211.0,15.826300000000002,0.0,1027.31,Mostly cloudy throughout the day and breezy starting in the morning continuing until evening.
+2009-10-14 00:00:00.000 +0200,Mostly Cloudy,rain,5.5555555555555545,1.6777777777777796,0.7,20.93,300.0,16.1,0.0,1011.2,Mostly cloudy throughout the day and breezy starting in the morning continuing until night.
+2009-12-01 00:00:00.000 +0100,Breezy and Overcast,rain,11.666666666666664,11.666666666666664,0.61,35.42,150.0,16.1,0.0,1006.7,Mostly cloudy throughout the day and breezy starting overnight continuing until afternoon.
+2009-12-25 00:00:00.000 +0100,Mostly Cloudy,rain,11.111111111111109,11.111111111111109,0.77,25.76,160.0,15.134000000000002,0.0,1003.6,Mostly cloudy throughout the day and breezy starting overnight continuing until morning.
+2007-01-29 00:00:00.000 +0100,Overcast,rain,2.7777777777777777,-1.7555555555555555,0.71,20.285999999999998,240.0,15.826300000000002,0.0,1015.02,Mostly cloudy throughout the day and windy starting in the morning continuing until evening.
+2008-01-27 00:00:00.000 +0100,Mostly Cloudy,rain,0.1222222222222216,-2.2277777777777787,0.84,6.9552000000000005,207.0,14.9086,0.0,1025.7,Mostly cloudy throughout the day and windy starting in the morning continuing until night.
+2006-04-10 00:00:00.000 +0200,Partly Cloudy,rain,10.42222222222222,10.42222222222222,0.62,16.985500000000002,150.0,15.826300000000002,0.0,1014.4,Mostly cloudy throughout the day.
+2006-01-10 00:00:00.000 +0100,Mostly Cloudy,snow,-1.2055555555555566,-1.2055555555555566,0.85,3.0751,310.0,9.982,0.0,1033.17,Mostly cloudy until afternoon.
+2015-03-06 00:00:00.000 +0100,Overcast,rain,3.816666666666665,-1.2999999999999998,0.64,28.1267,20.0,16.1,0.0,1026.22,Mostly cloudy until evening and breezy in the afternoon.
+2013-09-03 00:00:00.000 +0200,Partly Cloudy,rain,13.433333333333335,13.433333333333335,0.72,6.6332,258.0,16.1,0.0,1021.88,Mostly cloudy until evening and breezy in the evening.
+2008-03-13 00:00:00.000 +0100,Overcast,rain,9.377777777777778,6.922222222222223,0.8,17.001600000000003,290.0,9.982,0.0,1007.04,Mostly cloudy until evening and breezy starting in the morning continuing until afternoon.
+2015-11-16 00:00:00.000 +0100,Overcast,rain,11.561111111111114,11.561111111111114,0.8,20.7368,271.0,15.826300000000002,0.0,1013.11,Mostly cloudy until evening and breezy starting overnight continuing until morning.
+2010-02-27 00:00:00.000 +0100,Overcast,rain,8.28888888888889,5.277777777777779,0.9,19.5454,140.0,9.6761,0.0,999.56,Mostly cloudy until evening and windy starting in the morning continuing until afternoon.
+2006-04-04 00:00:00.000 +0200,Partly Cloudy,rain,9.533333333333333,8.677777777777777,0.76,7.084000000000001,310.0,15.826300000000002,0.0,1013.49,Mostly cloudy until evening.
+2006-12-21 00:00:00.000 +0100,Overcast,snow,-0.4388888888888885,-2.6166666666666667,0.92,6.262900000000001,172.0,10.0464,0.0,1032.22,Mostly cloudy until morning.
+2006-08-31 00:00:00.000 +0200,Mostly Cloudy,rain,12.222222222222221,12.222222222222221,0.86,11.511500000000002,259.0,14.9086,0.0,1015.16,Mostly cloudy until night and breezy in the afternoon.
+2008-03-02 00:00:00.000 +0100,Partly Cloudy,rain,6.783333333333334,3.1500000000000012,0.64,21.670600000000004,272.0,15.826300000000002,0.0,1003.68,Mostly cloudy until night and breezy in the evening.
+2014-01-30 00:00:00.000 +0100,Partly Cloudy,snow,-5.616666666666666,-11.06111111111111,0.88,13.8782,130.0,9.6761,0.0,1017.68,Mostly cloudy until night and breezy overnight.
+2015-05-10 00:00:00.000 +0200,Partly Cloudy,rain,16.522222222222226,16.522222222222226,0.68,6.2307000000000015,25.0,16.1,0.0,1017.08,Mostly cloudy until night and breezy starting in the afternoon continuing until evening.
+2009-11-30 00:00:00.000 +0100,Mostly Cloudy,rain,5.0,1.8444444444444448,0.96,14.49,140.0,6.117999999999999,0.0,1015.9,Mostly cloudy until night and breezy starting in the afternoon continuing until night.
+2009-03-05 00:00:00.000 +0100,Breezy and Mostly Cloudy,rain,8.333333333333334,4.494444444444446,0.76,28.98,150.0,16.1,0.0,1001.0,Mostly cloudy until night and breezy starting in the afternoon.
+2009-06-11 00:00:00.000 +0200,Overcast,rain,17.777777777777782,17.777777777777782,0.9,14.49,80.0,9.982,0.0,1016.1,Mostly cloudy until night and breezy starting in the evening continuing until night.
+2011-04-12 00:00:00.000 +0200,Mostly Cloudy,rain,8.38888888888889,7.5500000000000025,0.64,6.2951000000000015,192.0,15.826300000000002,0.0,1016.09,Mostly cloudy until night and breezy starting in the evening.
+2006-05-27 00:00:00.000 +0200,Mostly Cloudy,rain,14.955555555555556,14.955555555555556,0.87,3.0589999999999997,351.0,15.8746,0.0,1019.26,Mostly cloudy until night and breezy starting in the morning continuing until afternoon.
+2011-04-08 00:00:00.000 +0200,Overcast,rain,18.850000000000005,18.850000000000005,0.61,19.9801,251.0,15.826300000000002,0.0,1010.63,Mostly cloudy until night and breezy starting in the morning continuing until evening.
+2012-02-16 00:00:00.000 +0100,Mostly Cloudy,snow,0.0,-5.355555555555556,0.85,20.93,250.0,16.1,0.0,1000.7,Mostly cloudy until night and breezy starting overnight continuing until morning.
+2013-01-31 00:00:00.000 +0100,Partly Cloudy,rain,5.538888888888887,1.8166666666666684,0.85,19.5615,191.0,14.9086,0.0,1011.48,Mostly cloudy until night and windy starting in the morning continuing until afternoon.
+2006-04-19 00:00:00.000 +0200,Overcast,rain,14.372222222222224,14.372222222222224,0.75,6.5366,67.0,15.826300000000002,0.0,1011.83,Mostly cloudy until night.
+2016-03-23 00:00:00.000 +0100,Partly Cloudy,rain,2.2055555555555553,2.2055555555555553,0.83,2.9141000000000004,324.0,10.2074,0.0,1009.24,Overcast starting in the afternoon.
+2008-11-21 00:00:00.000 +0100,Clear,rain,7.349999999999998,5.861111111111111,0.71,8.1949,196.0,9.982,0.0,0.0,Overcast starting in the morning.
+2015-10-15 00:00:00.000 +0200,Mostly Cloudy,rain,11.6,11.6,0.87,14.6027,118.0,15.6009,0.0,1015.87,Overcast throughout the day and breezy in the afternoon.
+2009-02-03 00:00:00.000 +0100,Overcast,rain,2.2222222222222223,-2.094444444444444,0.79,17.71,130.0,15.134000000000002,0.0,1015.5,Overcast throughout the day and breezy in the evening.
+2009-02-12 00:00:00.000 +0100,Overcast,rain,1.1111111111111112,-4.550000000000002,0.82,25.76,330.0,16.1,0.0,1005.3,Overcast throughout the day and breezy in the morning.
+2016-02-03 00:00:00.000 +0100,Overcast,rain,7.222222222222222,5.1944444444444455,0.99,10.722600000000002,173.0,8.1305,0.0,1018.23,Overcast throughout the day and breezy overnight.
+2013-03-21 00:00:00.000 +0100,Mostly Cloudy,rain,9.81111111111111,7.538888888888887,0.56,16.3576,109.0,15.826300000000002,0.0,1006.71,Overcast throughout the day and breezy starting in the evening.
+2016-04-24 00:00:00.000 +0200,Overcast,rain,12.8,12.8,0.89,17.0177,250.0,6.5688,0.0,1001.71,Overcast throughout the day and breezy starting in the morning continuing until evening.
+2010-05-17 00:00:00.000 +0200,Overcast,rain,9.422222222222224,6.105555555555558,0.93,26.3718,292.0,6.3434,0.0,1001.85,Overcast throughout the day and breezy starting overnight continuing until afternoon.
+2008-01-06 00:00:00.000 +0100,Overcast,snow,-2.7999999999999994,-9.81111111111111,0.82,27.5471,159.0,6.1663000000000014,0.0,1025.41,Overcast throughout the day and breezy starting overnight continuing until morning.
+2006-04-13 00:00:00.000 +0200,Mostly Cloudy,rain,7.316666666666667,6.211111111111111,0.75,6.6654,326.0,15.8746,0.0,1007.07,Overcast throughout the day.
+2006-06-04 00:00:00.000 +0200,Overcast,rain,11.688888888888886,11.688888888888886,0.96,6.2146,223.0,15.697500000000002,0.0,1013.59,Overcast until evening.
+2014-12-26 00:00:00.000 +0100,Mostly Cloudy,rain,4.949999999999998,1.5277777777777777,0.7,16.180500000000002,290.0,9.982,0.0,1021.8,Overcast until morning.
+2006-11-05 00:00:00.000 +0100,Overcast,rain,1.2055555555555566,-3.3222222222222224,0.96,17.436300000000006,250.0,3.751300000000001,0.0,1023.6,Overcast until night and breezy overnight.
+2006-02-24 00:00:00.000 +0100,Overcast,rain,1.1055555555555567,-3.9444444444444446,0.92,20.865600000000004,30.0,6.117999999999999,0.0,1018.8,Overcast until night.
+2006-01-08 00:00:00.000 +0100,Overcast,snow,-0.044444444444443496,-0.044444444444443496,0.96,3.7030000000000003,41.0,8.05,0.0,1033.65,Partly cloudy in the afternoon.
+2006-10-09 00:00:00.000 +0200,Partly Cloudy,rain,9.394444444444442,8.711111111111112,0.93,6.279,339.0,14.9086,0.0,1023.76,Partly cloudy in the evening.
+2006-02-06 00:00:00.000 +0100,Partly Cloudy,snow,-8.77222222222222,-14.027777777777779,0.76,10.7709,2.0,15.826300000000002,0.0,1027.09,Partly cloudy in the morning.
+2011-03-07 00:00:00.000 +0100,Foggy,snow,-2.2000000000000006,-2.2000000000000006,0.99,3.3488,350.0,1.2236,0.0,1025.97,Partly cloudy overnight and breezy starting in the morning continuing until afternoon.
+2006-07-09 00:00:00.000 +0200,Partly Cloudy,rain,17.38888888888889,17.38888888888889,0.89,3.2039,319.0,14.9569,0.0,1017.41,Partly cloudy overnight.
+2008-08-15 00:00:00.000 +0200,Partly Cloudy,rain,23.711111111111123,23.711111111111123,0.67,6.601,88.0,15.826300000000002,0.0,1011.65,Partly cloudy starting in the afternoon and breezy in the afternoon.
+2006-07-20 00:00:00.000 +0200,Clear,rain,20.12777777777778,20.12777777777778,0.72,3.3488,242.0,9.982,0.0,0.0,Partly cloudy starting in the afternoon continuing until evening.
+2006-08-19 00:00:00.000 +0200,Partly Cloudy,rain,22.600000000000005,22.600000000000005,0.77,6.0536,266.0,15.826300000000002,0.0,1015.69,Partly cloudy starting in the afternoon continuing until night.
+2006-04-09 00:00:00.000 +0200,Clear,rain,6.016666666666667,4.783333333333333,0.74,6.4078,163.0,15.826300000000002,0.0,1018.39,Partly cloudy starting in the afternoon.
+2006-03-08 00:00:00.000 +0100,Partly Cloudy,snow,-2.827777777777777,-7.6722222222222225,0.68,14.023100000000005,342.0,15.826300000000002,0.0,1015.21,Partly cloudy starting in the evening continuing until night.
+2008-05-28 00:00:00.000 +0200,Clear,rain,17.777777777777782,17.777777777777782,0.87,2.8014,171.0,15.826300000000002,0.0,1014.46,Partly cloudy starting in the evening.
+2008-08-08 00:00:00.000 +0200,Partly Cloudy,rain,16.67222222222222,16.67222222222222,0.73,3.0268,350.0,15.826300000000002,0.0,1011.68,Partly cloudy starting in the morning and breezy in the evening.
+2009-08-29 00:00:00.000 +0200,Clear,rain,22.777777777777782,22.777777777777782,0.62,6.44,180.0,16.1,0.0,1013.3,Partly cloudy starting in the morning and breezy starting in the afternoon continuing until evening.
+2013-09-24 00:00:00.000 +0200,Clear,rain,14.955555555555556,14.955555555555556,0.72,25.0677,281.0,16.1,0.0,1014.47,Partly cloudy starting in the morning and breezy starting in the morning continuing until afternoon.
+2006-12-27 00:00:00.000 +0100,Clear,snow,-5.844444444444443,-9.088888888888887,0.92,6.7942,219.0,8.05,0.0,1039.67,Partly cloudy starting in the morning continuing until afternoon.
+2010-10-21 00:00:00.000 +0200,Partly Cloudy,rain,7.022222222222222,4.883333333333333,0.93,11.0768,260.0,9.982,0.0,1013.59,Partly cloudy starting in the morning continuing until evening and breezy in the afternoon.
+2007-09-15 00:00:00.000 +0200,Clear,rain,11.511111111111115,11.511111111111115,0.86,3.0751,197.0,14.9086,0.0,1019.32,Partly cloudy starting in the morning continuing until evening and breezy starting in the afternoon continuing until evening.
+2006-11-10 00:00:00.000 +0100,Clear,rain,6.716666666666669,3.916666666666665,0.82,14.7637,279.0,14.9086,0.0,1023.78,Partly cloudy starting in the morning continuing until evening and breezy starting in the morning continuing until afternoon.
+2006-04-08 00:00:00.000 +0200,Partly Cloudy,rain,3.8000000000000016,2.2888888888888874,0.82,6.2146,270.0,15.7297,0.0,1017.32,Partly cloudy starting in the morning continuing until evening.
+2011-04-10 00:00:00.000 +0200,Clear,rain,8.422222222222219,7.505555555555554,0.48,6.601,5.0,15.826300000000002,0.0,1016.15,Partly cloudy starting in the morning continuing until night and breezy starting in the afternoon continuing until evening.
+2012-04-29 00:00:00.000 +0200,Clear,rain,17.777777777777782,17.777777777777782,0.58,11.27,140.0,16.1,0.0,1021.7,Partly cloudy starting in the morning continuing until night and breezy starting in the morning continuing until afternoon.
+2006-12-08 00:00:00.000 +0100,Partly Cloudy,rain,5.088888888888887,2.4833333333333325,0.93,11.4471,149.0,7.776300000000001,0.0,1017.16,Partly cloudy starting in the morning continuing until night.
+2006-04-25 00:00:00.000 +0200,Clear,rain,12.711111111111114,12.711111111111114,0.89,3.2522,169.0,15.826300000000002,0.0,1020.11,Partly cloudy starting in the morning.
+2006-09-08 00:00:00.000 +0200,Clear,rain,16.666666666666668,16.666666666666668,0.81,10.9158,140.0,15.826300000000002,0.0,1016.58,Partly cloudy starting overnight and breezy in the afternoon.
+2012-05-12 00:00:00.000 +0200,Partly Cloudy,rain,16.666666666666668,16.666666666666668,0.75,0.0,0.0,16.1,0.0,1022.9,Partly cloudy starting overnight and breezy starting in the evening.
+2010-03-15 00:00:00.000 +0100,Clear,rain,0.8333333333333334,-3.166666666666666,0.77,13.9265,232.0,15.826300000000002,0.0,1015.93,Partly cloudy starting overnight and breezy starting in the morning continuing until afternoon.
+2006-09-05 00:00:00.000 +0200,Clear,rain,22.222222222222218,22.222222222222218,0.68,14.49,270.0,9.982,0.0,0.0,Partly cloudy starting overnight continuing until afternoon and breezy in the afternoon.
+2006-12-07 00:00:00.000 +0100,Clear,rain,6.5777777777777775,3.8666666666666667,0.87,13.9587,159.0,9.7566,0.0,1016.47,Partly cloudy starting overnight continuing until afternoon.
+2008-02-16 00:00:00.000 +0100,Partly Cloudy,snow,-6.011111111111112,-10.894444444444444,0.83,11.3988,281.0,14.9086,0.0,1033.96,Partly cloudy starting overnight continuing until evening and breezy in the evening.
+2009-10-30 00:00:00.000 +0100,Overcast,rain,8.333333333333334,6.427777777777778,0.8,11.27,10.0,15.134000000000002,0.0,1022.9,Partly cloudy starting overnight continuing until evening and breezy in the morning.
+2008-12-21 00:00:00.000 +0100,Overcast,rain,3.355555555555555,-0.11111111111111073,0.89,14.1358,242.0,6.3434,0.0,1019.43,Partly cloudy starting overnight continuing until evening and breezy starting in the morning continuing until afternoon.
+2007-02-01 00:00:00.000 +0100,Partly Cloudy,rain,0.5555555555555556,-3.5500000000000003,0.89,14.1519,200.0,15.826300000000002,0.0,1016.37,Partly cloudy starting overnight continuing until evening and breezy starting in the morning continuing until evening.
+2011-04-09 00:00:00.000 +0200,Clear,rain,10.094444444444443,10.094444444444443,0.65,14.296800000000005,221.0,15.826300000000002,0.0,1010.08,Partly cloudy starting overnight continuing until evening and windy starting in the morning continuing until evening.
+2007-12-04 00:00:00.000 +0100,Overcast,rain,5.627777777777778,2.244444444444444,0.86,17.0821,299.0,9.982,0.0,1003.12,Partly cloudy starting overnight continuing until evening.
+2008-11-23 00:00:00.000 +0100,Clear,snow,-1.1333333333333329,-6.26111111111111,0.78,17.5651,279.0,15.8746,0.0,998.55,Partly cloudy starting overnight continuing until morning and breezy starting in the morning continuing until afternoon.
+2006-03-21 00:00:00.000 +0100,Clear,rain,2.055555555555557,-0.9777777777777786,0.89,10.577700000000002,190.0,11.8013,0.0,1010.59,Partly cloudy starting overnight continuing until morning.
+2012-07-16 00:00:00.000 +0200,Partly Cloudy,rain,16.544444444444444,16.544444444444444,0.79,11.0124,329.0,15.826300000000002,0.0,1016.13,Partly cloudy starting overnight continuing until night and breezy in the afternoon.
+2012-02-29 00:00:00.000 +0100,Clear,rain,0.5555555555555556,-3.616666666666668,0.96,14.49,240.0,0.0,0.0,1011.8,Partly cloudy starting overnight continuing until night and breezy in the morning.
+2009-03-18 00:00:00.000 +0100,Clear,rain,5.5555555555555545,1.1722222222222218,0.82,25.76,270.0,0.0,0.0,1020.8,Partly cloudy starting overnight continuing until night and windy starting in the morning continuing until afternoon.
+2006-08-18 00:00:00.000 +0200,Clear,rain,21.550000000000004,21.550000000000004,0.81,6.391700000000001,152.0,15.826300000000002,0.0,1012.66,Partly cloudy starting overnight continuing until night.
+2006-08-01 00:00:00.000 +0200,Partly Cloudy,rain,21.016666666666666,21.016666666666666,0.87,3.22,310.0,15.826300000000002,0.0,1012.02,Partly cloudy starting overnight.
+2016-05-13 00:00:00.000 +0200,Overcast,rain,13.916666666666664,13.916666666666664,0.96,13.2503,257.0,8.05,0.0,998.15,Partly cloudy throughout the day and breezy in the afternoon.
+2008-07-14 00:00:00.000 +0200,Mostly Cloudy,rain,23.711111111111123,23.711111111111123,0.53,3.1395,182.0,15.826300000000002,0.0,1010.84,Partly cloudy throughout the day and breezy in the evening.
+2007-11-08 00:00:00.000 +0100,Overcast,rain,5.622222222222222,2.2388888888888894,0.76,17.0821,212.0,15.8746,0.0,1014.77,Partly cloudy throughout the day and breezy in the morning.
+2007-09-09 00:00:00.000 +0200,Partly Cloudy,rain,12.405555555555555,12.405555555555555,0.83,11.0768,280.0,15.826300000000002,0.0,1014.22,Partly cloudy throughout the day and breezy starting in the afternoon continuing until evening.
+2006-11-13 00:00:00.000 +0100,Partly Cloudy,rain,3.916666666666665,0.5333333333333338,0.85,14.3612,259.0,15.826300000000002,0.0,1011.52,Partly cloudy throughout the day and breezy starting in the morning continuing until afternoon.
+2006-11-02 00:00:00.000 +0100,Overcast,rain,6.111111111111112,3.2388888888888885,0.82,14.312900000000004,271.0,8.1305,0.0,1013.73,Partly cloudy throughout the day and breezy starting in the morning continuing until evening.
+2006-03-29 00:00:00.000 +0200,Partly Cloudy,rain,9.522222222222222,9.522222222222222,0.88,2.6082000000000005,106.0,14.9086,0.0,1004.13,Partly cloudy throughout the day and breezy starting in the morning continuing until night.
+2014-03-17 00:00:00.000 +0100,Breezy and Mostly Cloudy,rain,13.794444444444444,13.794444444444444,0.57,34.5667,309.0,16.1,0.0,1011.61,Partly cloudy throughout the day and windy starting in the morning continuing until afternoon.
+2006-08-27 00:00:00.000 +0200,Partly Cloudy,rain,14.072222222222221,14.072222222222221,0.85,6.2468,318.0,15.826300000000002,0.0,1010.82,Partly cloudy until afternoon.
+2013-10-18 00:00:00.000 +0200,Partly Cloudy,rain,8.155555555555559,5.7222222222222205,0.86,14.49,280.0,16.1,0.0,1015.64,Partly cloudy until evening and breezy in the afternoon.
+2008-12-01 00:00:00.000 +0100,Mostly Cloudy,rain,5.994444444444443,3.1444444444444426,0.87,14.023100000000005,130.0,9.8049,0.0,1013.57,Partly cloudy until evening and breezy in the morning.
+2009-03-10 00:00:00.000 +0100,Breezy and Overcast,rain,5.0,-0.11666666666666715,0.76,32.2,320.0,15.134000000000002,0.0,1008.4,Partly cloudy until evening and breezy overnight.
+2007-01-12 00:00:00.000 +0100,Mostly Cloudy,rain,6.2333333333333325,3.4500000000000006,0.89,13.9104,209.0,11.9784,0.0,1015.5,Partly cloudy until evening and breezy starting in the morning continuing until afternoon.
+2009-04-27 00:00:00.000 +0200,Partly Cloudy,rain,9.444444444444443,7.311111111111108,0.56,14.49,160.0,16.1,0.0,1022.9,Partly cloudy until evening and breezy starting in the morning continuing until evening.
+2006-04-24 00:00:00.000 +0200,Partly Cloudy,rain,11.116666666666665,11.116666666666665,0.95,3.1717,268.0,6.2951000000000015,0.0,1017.04,Partly cloudy until evening.
+2006-08-17 00:00:00.000 +0200,Partly Cloudy,rain,19.355555555555558,19.355555555555558,0.74,11.0124,139.0,15.826300000000002,0.0,1012.6,Partly cloudy until morning.
+2012-05-24 00:00:00.000 +0200,Partly Cloudy,rain,15.555555555555555,15.555555555555555,0.93,6.44,300.0,16.1,0.0,1012.0,Partly cloudy until night and breezy in the afternoon.
+2009-06-13 00:00:00.000 +0200,Partly Cloudy,rain,11.111111111111109,11.111111111111109,0.83,3.22,290.0,16.1,0.0,1019.3,Partly cloudy until night and breezy in the morning.
+2007-03-04 00:00:00.000 +0100,Mostly Cloudy,rain,7.266666666666667,5.155555555555557,0.96,11.2217,250.0,9.982,0.0,1011.05,Partly cloudy until night and breezy starting in the morning continuing until afternoon.
+2006-04-18 00:00:00.000 +0200,Partly Cloudy,rain,9.522222222222222,7.861111111111112,0.88,11.27,280.0,11.9784,0.0,1012.52,Partly cloudy until night.
+2016-10-21 00:00:00.000 +0200,Drizzle,rain,9.494444444444447,7.216666666666669,0.84,15.7458,152.0,15.649200000000002,0.0,1015.75,Rain throughout the day.
+2016-10-26 00:00:00.000 +0200,Light Rain,rain,13.0,13.0,0.87,10.448900000000002,165.0,0.0,0.0,1021.08,Rain until afternoon.
+2016-10-22 00:00:00.000 +0200,Rain,rain,9.288888888888888,8.244444444444447,0.95,7.728,314.0,4.4919,0.0,1014.09,Rain until morning.
+2014-12-21 00:00:00.000 +0100,Clear,rain,4.949999999999998,1.4499999999999995,0.87,16.7279,319.0,3.5420000000000007,0.0,0.0,Windy in the afternoon.

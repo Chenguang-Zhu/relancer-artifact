@@ -1,0 +1,747 @@
+
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 120, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation'), ('line_no', 120)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 121, in <module>
+    from sklearn.utils.validation import train_test_split
+ImportError: cannot import name 'train_test_split'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cross_decomposition'), ('line_no', 120)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 121, in <module>
+    from sklearn.cross_decomposition import train_test_split
+ImportError: cannot import name 'train_test_split'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_memory'), ('line_no', 120)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 121, in <module>
+    from sklearn.utils.validation.check_memory import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_memory'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.column_or_1d'), ('line_no', 120)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 121, in <module>
+    from sklearn.utils.validation.column_or_1d import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.column_or_1d'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_is_fitted'), ('line_no', 120)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 121, in <module>
+    from sklearn.utils.validation.check_is_fitted import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_is_fitted'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_symmetric'), ('line_no', 120)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 121, in <module>
+    from sklearn.utils.validation.check_symmetric import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_symmetric'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cluster.Birch'), ('line_no', 120)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 121, in <module>
+    from sklearn.cluster.Birch import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cluster.Birch'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cluster.KMeans'), ('line_no', 120)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 121, in <module>
+    from sklearn.cluster.KMeans import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cluster.KMeans'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.has_fit_parameter'), ('line_no', 120)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 121, in <module>
+    from sklearn.utils.validation.has_fit_parameter import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.has_fit_parameter'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cross_decomposition.CCA'), ('line_no', 120)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 121, in <module>
+    from sklearn.cross_decomposition.CCA import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_decomposition.CCA'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.all_estimators'), ('line_no', 120)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 121, in <module>
+    from sklearn.utils.all_estimators import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.all_estimators'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 120)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 141, in <module>
+    from sklearn.grid_search import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.grid_search'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.utils.Bunch'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.utils.Bunch import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.utils.Bunch'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.compose'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.compose import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.naive_bayes'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.naive_bayes import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.utils.extmath'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.utils.extmath import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.utils.fixes'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.utils.fixes import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.tree'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.tree import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.utils'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.utils import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.mixture'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.mixture import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.neighbors'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.neighbors import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.multiclass'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.multiclass import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.utils.safe_sqr'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.utils.safe_sqr import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.utils.safe_sqr'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.preprocessing'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.preprocessing import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.utils.shuffle'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.utils.shuffle import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.utils.shuffle'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.semi_supervised'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.semi_supervised import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.utils.check_X_y'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.utils.check_X_y import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.utils.check_X_y'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.utils.safe_mask'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.utils.safe_mask import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.utils.safe_mask'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.svm'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.svm import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.base'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.base import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.dummy'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.dummy import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.impute'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.impute import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.cluster'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.cluster import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.metrics'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.metrics import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.svm.SVC'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.svm.SVC import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.svm.SVC'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.svm.SVR'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.svm.SVR import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.svm.SVR'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.datasets'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.datasets import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.ensemble'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.ensemble import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.isotonic'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.isotonic import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.manifold'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.manifold import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.pipeline'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.pipeline import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.svm.NuSVC'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.svm.NuSVC import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.svm.NuSVC'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.svm.NuSVR'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.svm.NuSVR import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.svm.NuSVR'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.base.clone'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.base.clone import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.base.clone'; 'sklearn.base' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.covariance'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.covariance import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.exceptions'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.exceptions import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.inspection'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.inspection import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.calibration'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.calibration import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.metrics.auc'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.metrics.auc import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.metrics.auc'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.multioutput'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.multioutput import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.utils.validation'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.utils.validation import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.tree.plot_tree'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.tree.plot_tree import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.tree.plot_tree'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.utils.resample'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.utils.resample import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.utils.resample'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.experimental'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.experimental import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.kernel_ridge'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.kernel_ridge import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.linear_model'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.linear_model import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.manifold.MDS'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.manifold.MDS import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.manifold.MDS'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.svm.l1_min_c'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.svm.l1_min_c import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.svm.l1_min_c'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.random_projection'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.random_projection import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.utils.check_array'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.utils.check_array import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.utils.check_array'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.svm.OneClassSVM'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.svm.OneClassSVM import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.svm.OneClassSVM'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.utils.indexable'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.utils.indexable import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.utils.indexable'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.cluster.Birch'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.cluster.Birch import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.cluster.Birch'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.metrics.r2_score'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.metrics.r2_score import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.metrics.r2_score'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.decomposition'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.decomposition import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.manifold.TSNE'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.manifold.TSNE import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.manifold.TSNE'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.svm.LinearSVC'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.svm.LinearSVC import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.svm.LinearSVC'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.svm.LinearSVR'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.svm.LinearSVR import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.svm.LinearSVR'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.gaussian_process'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.gaussian_process import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.neighbors.KDTree'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.neighbors.KDTree import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.neighbors.KDTree'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.tree.export_text'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.tree.export_text import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.tree.export_text'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.utils.deprecated'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.utils.deprecated import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.utils.deprecated'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.utils.multiclass'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.utils.multiclass import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.utils.check_scalar'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.utils.check_scalar import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.utils.check_scalar'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.base.RegressorMixin'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.base.RegressorMixin import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.base.RegressorMixin'; 'sklearn.base' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.utils.parallel_backend'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.utils.parallel_backend import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.utils.parallel_backend'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.cluster.DBSCAN'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.cluster.DBSCAN import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.cluster.DBSCAN'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.cluster.KMeans'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.cluster.KMeans import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.cluster.KMeans'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.cluster.OPTICS'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.cluster.OPTICS import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.cluster.OPTICS'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.cluster.dbscan'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.cluster.dbscan import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.cluster.dbscan'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.covariance.OAS'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.covariance.OAS import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.covariance.OAS'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.covariance.oas'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.covariance.oas import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.covariance.oas'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.neural_network'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.neural_network import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.base.DensityMixin'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.base.DensityMixin import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.base.DensityMixin'; 'sklearn.base' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.feature_selection'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.feature_selection import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.base.is_regressor'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.base.is_regressor import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.base.is_regressor'; 'sklearn.base' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.metrics.dcg_score'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.metrics.dcg_score import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.metrics.dcg_score'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.metrics.roc_curve'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.metrics.roc_curve import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.metrics.roc_curve'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.utils.sparsefuncs'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.utils.sparsefuncs import GridSearchCV
+ImportError: cannot import name 'GridSearchCV'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.utils.murmurhash3_32'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 142, in <module>
+    from sklearn.utils.murmurhash3_32 import GridSearchCV
+ModuleNotFoundError: No module named 'sklearn.utils.murmurhash3_32'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.grid_search'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 141)])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_value_update'), ('arg_name', 'shuffle'), ('target_value', 'True')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5,shuffle=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_value_update'), ('arg_name', 'shuffle'), ('target_value', 'False')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5,shuffle=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_value_update'), ('arg_name', 'shuffle&random_state'), ('target_value', 'True&False')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5,shuffle=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_value_update'), ('arg_name', 'shuffle&n_splits'), ('target_value', 'True&False')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5,shuffle=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits'), ('to_name', 'shuffle')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'n_splits'), ('to_name', 'random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_delete'), ('from_name', 'n_splits'), ('to_name', '*')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'shuffle'), ('to_name', 'n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'shuffle'), ('to_name', 'random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_delete'), ('from_name', 'shuffle'), ('to_name', '*')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state'), ('to_name', 'n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state'), ('to_name', 'shuffle')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_delete'), ('from_name', 'random_state'), ('to_name', '*')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'shuffle&random_state'), ('to_name', 'random_state&shuffle')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'shuffle&random_state'), ('to_name', 'random_state&n_splits')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'shuffle&random_state'), ('to_name', 'n_splits&shuffle')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state&n_splits'), ('to_name', 'shuffle&random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state&n_splits'), ('to_name', 'n_splits&shuffle')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'random_state&n_splits'), ('to_name', 'n_splits&random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'shuffle&n_splits'), ('to_name', 'random_state&shuffle')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'shuffle&n_splits'), ('to_name', 'n_splits&shuffle')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'shuffle&n_splits'), ('to_name', 'n_splits&random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'shuffle&random_state&n_splits'), ('to_name', 'random_state&n_splits&shuffle')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.StratifiedKFold'), ('action', 'arg_rename'), ('from_name', 'shuffle&random_state&n_splits'), ('to_name', 'n_splits&shuffle&random_state')])
+"me" wins 50.0% of all games!
+Traceback (most recent call last):
+  File "data-exploration-simple-rf-model.py", line 147, in <module>
+    cross_validation = StratifiedKFold(y_train, n_folds=5)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_folds'
+[REPAIR EXEC TIME]: 263.02410340309143

@@ -1,0 +1,523 @@
+../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1').fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'newton-cg')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1',solver="newton-cg").fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver newton-cg supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'lbfgs')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1',solver="lbfgs").fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'liblinear')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77793108]
+Coefs =  [[ 0.12096145  0.03280938 -0.0108795   0.00583603 -0.00167506  0.07689922
+   0.62815599  0.01370863]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.99
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 387, in <module>
+    from plotly.plotly import iplot
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/plotly/plotly/__init__.py", line 4, in <module>
+    _chart_studio_error("plotly")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/_plotly_future_/__init__.py", line 49, in _chart_studio_error
+    submodule=submodule
+ImportError: 
+The plotly.plotly module is deprecated,
+please install the chart-studio package and use the
+chart_studio.plotly module instead. 
+
+[Try Solution]: OrderedDict([('old_fqn', 'plotly.plotly'), ('new_fqn', 'chart_studio.plotly'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78568406]
+Coefs =  [[ 0.12098651  0.03282945 -0.01086772  0.00583558 -0.00167694  0.07700341
+   0.62848663  0.01372857]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.98
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+[REPAIR EXEC TIME]: 110.14117479324341../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1').fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'newton-cg')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1',solver="newton-cg").fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver newton-cg supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'lbfgs')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1',solver="lbfgs").fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'liblinear')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78018345]
+Coefs =  [[ 0.12097687  0.03281339 -0.01086887  0.00583542 -0.00167548  0.07692139
+   0.62816923  0.01371481]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 387, in <module>
+    from plotly.plotly import iplot
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/plotly/plotly/__init__.py", line 4, in <module>
+    _chart_studio_error("plotly")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/_plotly_future_/__init__.py", line 49, in _chart_studio_error
+    submodule=submodule
+ImportError: 
+The plotly.plotly module is deprecated,
+please install the chart-studio package and use the
+chart_studio.plotly module instead. 
+
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'chart_studio.plotly'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78646625]
+Coefs =  [[ 0.12097286  0.03283207 -0.01086468  0.00583624 -0.00167737  0.07701048
+   0.62855507  0.01372897]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+[REPAIR EXEC TIME]: 106.79401993751526../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1').fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'newton-cg')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1',solver="newton-cg").fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver newton-cg supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'lbfgs')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 159, in <module>
+    loj_reg = LogisticRegression(penalty='l1',solver="lbfgs").fit(x_train,y_train)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1304, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 443, in _check_solver
+    "got %s penalty." % (solver, penalty))
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+[Try Solution]: OrderedDict([('API', 'sklearn.linear_model.LogisticRegression'), ('action', 'arg_value_update'), ('arg_name', 'solver'), ('target_value', 'liblinear')])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.77964592]
+Coefs =  [[ 0.12096373  0.03281282 -0.01087423  0.00583945 -0.00167557  0.07691863
+   0.62823284  0.01371294]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.9825
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+Traceback (most recent call last):
+  File "diabetes-classifications.py", line 387, in <module>
+    from plotly.plotly import iplot
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/plotly/plotly/__init__.py", line 4, in <module>
+    _chart_studio_error("plotly")
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/_plotly_future_/__init__.py", line 49, in _chart_studio_error
+    submodule=submodule
+ImportError: 
+The plotly.plotly module is deprecated,
+please install the chart-studio package and use the
+chart_studio.plotly module instead. 
+
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'plotly.plotly'), ('new_fqn', 'chart_studio.plotly'), ('line_no', 387)])../../../input/johndasilva_diabetes/diabetes.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               2000 non-null   int64  
+ 1   Glucose                   2000 non-null   int64  
+ 2   BloodPressure             2000 non-null   int64  
+ 3   SkinThickness             2000 non-null   int64  
+ 4   Insulin                   2000 non-null   int64  
+ 5   BMI                       2000 non-null   float64
+ 6   DiabetesPedigreeFunction  2000 non-null   float64
+ 7   Age                       2000 non-null   int64  
+ 8   Outcome                   2000 non-null   int64  
+dtypes: float64(2), int64(7)
+memory usage: 140.8 KB
+satir ve sutun =  (2000, 9)
+Boyut sayisi =  2
+eleman sayisi =  18000
+
+
+
+
+b0 =  [-7.78641762]
+Coefs =  [[ 0.12097893  0.03283135 -0.01086622  0.00583543 -0.00167725  0.07701312
+   0.62862943  0.01372969]]
+Logistic_reg_class_SCORE =  0.7925
+random_forest_class_SCORE =  0.985
+KNN_class_SCORE =  0.815
+SVM_class_SCORE =  0.7825
+NB_class_SCORE =  0.7775
+
+[REPAIR EXEC TIME]: 109.53118085861206

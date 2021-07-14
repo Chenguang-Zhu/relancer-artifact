@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "student-grade-prediction-using-decisiontree.py", line 16, in <module>
+    from sklearn.feature_extraction.image.reconstruct_from_patches_2d import StringIO  
+ModuleNotFoundError: No module named 'sklearn.feature_extraction.image.reconstruct_from_patches_2d'; 'sklearn.feature_extraction.image' is not a package

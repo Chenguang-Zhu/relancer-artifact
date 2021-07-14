@@ -1,0 +1,191 @@
+Traceback (most recent call last):
+  File "abalone-machine-learning-insights.py", line 27, in <module>
+    from sklearn.linear_model import RandomizedLasso,LassoLarsCV
+ImportError: cannot import name 'RandomizedLasso'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.linear_model.RandomizedLasso'), ('new_fqn', 'sklearn.linear_model.PoissonRegressor'), ('line_no', 27)])
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 4177 entries, 0 to 4176
+Data columns (total 9 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   Sex             4177 non-null   object 
+ 1   Length          4177 non-null   float64
+ 2   Diameter        4177 non-null   float64
+ 3   Height          4177 non-null   float64
+ 4   Whole weight    4177 non-null   float64
+ 5   Shucked weight  4177 non-null   float64
+ 6   Viscera weight  4177 non-null   float64
+ 7   Shell weight    4177 non-null   float64
+ 8   Rings           4177 non-null   int64  
+dtypes: float64(7), int64(1), object(1)
+memory usage: 293.8+ KB
+Value Count of Rings Column
+9     689
+10    634
+8     568
+11    487
+7     391
+12    267
+6     259
+13    203
+14    126
+5     115
+15    103
+16     67
+17     58
+4      57
+18     42
+19     32
+20     26
+3      15
+21     14
+23      9
+22      6
+24      2
+27      2
+1       1
+25      1
+2       1
+26      1
+29      1
+Name: Rings, dtype: int64
+
+Percentage of Rings Column
+9     0.164951
+10    0.151784
+8     0.135983
+11    0.116591
+7     0.093608
+12    0.063921
+6     0.062006
+13    0.048599
+14    0.030165
+5     0.027532
+15    0.024659
+16    0.016040
+17    0.013886
+4     0.013646
+18    0.010055
+19    0.007661
+20    0.006225
+3     0.003591
+21    0.003352
+23    0.002155
+22    0.001436
+24    0.000479
+27    0.000479
+1     0.000239
+25    0.000239
+2     0.000239
+26    0.000239
+29    0.000239
+Name: Rings, dtype: float64
+28
+
+Sex Count in Percentage
+M    0.365813
+I    0.321283
+F    0.312904
+Name: Sex, dtype: float64
+
+Sex Count in Numbers
+M    1528
+I    1342
+F    1307
+Name: Sex, dtype: int64
+[REPAIR EXEC TIME]: 19.386717796325684Traceback (most recent call last):
+  File "abalone-machine-learning-insights.py", line 27, in <module>
+    from sklearn.linear_model import RandomizedLasso,LassoLarsCV
+ImportError: cannot import name 'RandomizedLasso'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.linear_model.RandomizedLasso'), ('new_fqn', 'sklearn.linear_model.PoissonRegressor'), ('line_no', 27)])
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 4177 entries, 0 to 4176
+Data columns (total 9 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   Sex             4177 non-null   object 
+ 1   Length          4177 non-null   float64
+ 2   Diameter        4177 non-null   float64
+ 3   Height          4177 non-null   float64
+ 4   Whole weight    4177 non-null   float64
+ 5   Shucked weight  4177 non-null   float64
+ 6   Viscera weight  4177 non-null   float64
+ 7   Shell weight    4177 non-null   float64
+ 8   Rings           4177 non-null   int64  
+dtypes: float64(7), int64(1), object(1)
+memory usage: 293.8+ KB
+Value Count of Rings Column
+9     689
+10    634
+8     568
+11    487
+7     391
+12    267
+6     259
+13    203
+14    126
+5     115
+15    103
+16     67
+17     58
+4      57
+18     42
+19     32
+20     26
+3      15
+21     14
+23      9
+22      6
+24      2
+27      2
+1       1
+25      1
+2       1
+26      1
+29      1
+Name: Rings, dtype: int64
+
+Percentage of Rings Column
+9     0.164951
+10    0.151784
+8     0.135983
+11    0.116591
+7     0.093608
+12    0.063921
+6     0.062006
+13    0.048599
+14    0.030165
+5     0.027532
+15    0.024659
+16    0.016040
+17    0.013886
+4     0.013646
+18    0.010055
+19    0.007661
+20    0.006225
+3     0.003591
+21    0.003352
+23    0.002155
+22    0.001436
+24    0.000479
+27    0.000479
+1     0.000239
+25    0.000239
+2     0.000239
+26    0.000239
+29    0.000239
+Name: Rings, dtype: float64
+28
+
+Sex Count in Percentage
+M    0.365813
+I    0.321283
+F    0.312904
+Name: Sex, dtype: float64
+
+Sex Count in Numbers
+M    1528
+I    1342
+F    1307
+Name: Sex, dtype: int64
+[REPAIR EXEC TIME]: 19.95238733291626

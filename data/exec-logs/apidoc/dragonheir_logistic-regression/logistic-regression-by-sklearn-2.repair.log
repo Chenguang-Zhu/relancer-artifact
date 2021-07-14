@@ -1,0 +1,92 @@
+['Social_Network_Ads.csv']
+Traceback (most recent call last):
+  File "logistic-regression-by-sklearn-2.py", line 27, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation'), ('line_no', 27)])['Social_Network_Ads.csv']
+Traceback (most recent call last):
+  File "logistic-regression-by-sklearn-2.py", line 28, in <module>
+    from sklearn.utils.validation import train_test_split
+ImportError: cannot import name 'train_test_split'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cross_decomposition'), ('line_no', 27)])['Social_Network_Ads.csv']
+Traceback (most recent call last):
+  File "logistic-regression-by-sklearn-2.py", line 28, in <module>
+    from sklearn.cross_decomposition import train_test_split
+ImportError: cannot import name 'train_test_split'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_memory'), ('line_no', 27)])['Social_Network_Ads.csv']
+Traceback (most recent call last):
+  File "logistic-regression-by-sklearn-2.py", line 28, in <module>
+    from sklearn.utils.validation.check_memory import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_memory'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.column_or_1d'), ('line_no', 27)])['Social_Network_Ads.csv']
+Traceback (most recent call last):
+  File "logistic-regression-by-sklearn-2.py", line 28, in <module>
+    from sklearn.utils.validation.column_or_1d import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.column_or_1d'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_is_fitted'), ('line_no', 27)])['Social_Network_Ads.csv']
+Traceback (most recent call last):
+  File "logistic-regression-by-sklearn-2.py", line 28, in <module>
+    from sklearn.utils.validation.check_is_fitted import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_is_fitted'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_symmetric'), ('line_no', 27)])['Social_Network_Ads.csv']
+Traceback (most recent call last):
+  File "logistic-regression-by-sklearn-2.py", line 28, in <module>
+    from sklearn.utils.validation.check_symmetric import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_symmetric'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cluster.Birch'), ('line_no', 27)])['Social_Network_Ads.csv']
+Traceback (most recent call last):
+  File "logistic-regression-by-sklearn-2.py", line 28, in <module>
+    from sklearn.cluster.Birch import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cluster.Birch'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cluster.KMeans'), ('line_no', 27)])['Social_Network_Ads.csv']
+Traceback (most recent call last):
+  File "logistic-regression-by-sklearn-2.py", line 28, in <module>
+    from sklearn.cluster.KMeans import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cluster.KMeans'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.has_fit_parameter'), ('line_no', 27)])['Social_Network_Ads.csv']
+Traceback (most recent call last):
+  File "logistic-regression-by-sklearn-2.py", line 28, in <module>
+    from sklearn.utils.validation.has_fit_parameter import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.has_fit_parameter'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cross_decomposition.CCA'), ('line_no', 27)])['Social_Network_Ads.csv']
+Traceback (most recent call last):
+  File "logistic-regression-by-sklearn-2.py", line 28, in <module>
+    from sklearn.cross_decomposition.CCA import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_decomposition.CCA'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.all_estimators'), ('line_no', 27)])['Social_Network_Ads.csv']
+Traceback (most recent call last):
+  File "logistic-regression-by-sklearn-2.py", line 28, in <module>
+    from sklearn.utils.all_estimators import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.all_estimators'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 27)])['Social_Network_Ads.csv']
+(400, 5)
+     Gender  Age  EstimatedSalary  Purchased
+0      Male   19            19000          0
+1      Male   35            20000          0
+2    Female   26            43000          0
+3    Female   27            57000          0
+4      Male   19            76000          0
+..      ...  ...              ...        ...
+395  Female   46            41000          1
+396    Male   51            23000          1
+397  Female   50            20000          1
+398    Male   36            33000          0
+399  Female   49            36000          1
+
+[400 rows x 4 columns]
+     Age  EstimatedSalary  Purchased  Gender_Female  Gender_Male
+0     19            19000          0              0            1
+1     35            20000          0              0            1
+2     26            43000          0              1            0
+3     27            57000          0              1            0
+4     19            76000          0              0            1
+..   ...              ...        ...            ...          ...
+395   46            41000          1              1            0
+396   51            23000          1              0            1
+397   50            20000          1              1            0
+398   36            33000          0              0            1
+399   49            36000          1              1            0
+
+[400 rows x 5 columns]
+0.6125
+[REPAIR EXEC TIME]: 9.549705743789673

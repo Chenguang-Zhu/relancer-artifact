@@ -1,0 +1,86 @@
+ml-bank-marketing-solution.py:178: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  ax = fig.add_subplot(211)
+ml-bank-marketing-solution.py:180: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  ax = fig.add_subplot(212)
+ml-bank-marketing-solution.py:189: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  ax1 = fig.add_subplot(211)
+ml-bank-marketing-solution.py:191: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  ax2 = fig.add_subplot(212)
+
+
+
+
+
+
+
+
+
+Index(['age', 'job', 'marital', 'education', 'default', 'balance', 'housing',
+       'loan', 'contact', 'month', 'duration', 'campaign', 'pdays', 'previous',
+       'deposit', 'Adult', 'Middle_Aged', 'old', 'primary', 'secondary',
+       'tertiary', 'unknown', 'Neg_Balance', 'No_Balance', 'Pos_Balance',
+       'Not_Contacted', 'Contacted', 't_min', 't_e_min', 'e_min',
+       'pdays_not_contacted', 'months_passed', 'married', 'singles',
+       'divorced'],
+      dtype='object')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Index(['job', 'default', 'housing', 'loan', 'contact', 'month', 'campaign',
+       'Adult', 'Middle_Aged', 'old', 'primary', 'secondary', 'tertiary',
+       'unknown', 'Neg_Balance', 'No_Balance', 'Pos_Balance', 'Not_Contacted',
+       'Contacted', 't_min', 't_e_min', 'e_min', 'pdays_not_contacted',
+       'months_passed', 'married', 'singles', 'divorced'],
+      dtype='object')
+                     Classifier  Accuracy  ...  F1-Score  roc-auc_Score
+0  Gradient Boosting Classifier  0.720555  ...  0.715928       0.724479
+0  Gradient Boosting Classifier  0.722794  ...  0.718171       0.726876
+0  Adaptive Boosting Classifier  0.704433  ...  0.701510       0.704962
+0  Adaptive Boosting Classifier  0.703986  ...  0.700867       0.704727
+0  Linear Discriminant Analysis  0.675325  ...  0.671843       0.675440
+0  Linear Discriminant Analysis  0.681146  ...  0.677389       0.681719
+0           Logistic Regression  0.675773  ...  0.672565       0.675681
+0           Logistic Regression  0.685177  ...  0.681498       0.685829
+0      Random Forest Classifier  0.674429  ...  0.673069       0.673440
+0      Random Forest Classifier  0.676220  ...  0.675085       0.675255
+0           K Nearest Neighbour  0.682938  ...  0.673635       0.691008
+0           K Nearest Neighbour  0.671742  ...  0.660747       0.680795
+
+[12 rows x 6 columns]
+
+
+                     Classifier  Accuracy  ...  F1-Score  roc-auc_Score
+0  Gradient Boosting Classifier  0.720555  ...  0.715928       0.724479
+0  Gradient Boosting Classifier  0.722794  ...  0.718171       0.726876
+0  Adaptive Boosting Classifier  0.704433  ...  0.701510       0.704962
+0  Adaptive Boosting Classifier  0.703986  ...  0.700867       0.704727
+0  Linear Discriminant Analysis  0.675325  ...  0.671843       0.675440
+0  Linear Discriminant Analysis  0.681146  ...  0.677389       0.681719
+0           Logistic Regression  0.675773  ...  0.672565       0.675681
+0           Logistic Regression  0.685177  ...  0.681498       0.685829
+0      Random Forest Classifier  0.674429  ...  0.673069       0.673440
+0      Random Forest Classifier  0.676220  ...  0.675085       0.675255
+0           K Nearest Neighbour  0.682938  ...  0.673635       0.691008
+0           K Nearest Neighbour  0.671742  ...  0.660747       0.680795
+0  Gradient Boosting Classifier  0.711599  ...  0.704292       0.714116
+0  Adaptive Boosting Classifier  0.698164  ...  0.694547       0.696441
+0  Linear Discriminant Analysis  0.674429  ...  0.670093       0.672363
+0           Logistic Regression  0.675773  ...  0.671556       0.673704
+0      Random Forest Classifier  0.650694  ...  0.648120       0.648306
+0           K Nearest Neighbour  0.683386  ...  0.670837       0.689397
+
+[18 rows x 6 columns]
+

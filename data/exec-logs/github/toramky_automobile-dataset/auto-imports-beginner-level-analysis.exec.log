@@ -1,0 +1,4 @@
+  File "auto-imports-beginner-level-analysis.py", line 162
+    imp = SimpleImputer(missing_values='NaN', strategy=""constant"")
+                                                                ^
+SyntaxError: invalid syntax

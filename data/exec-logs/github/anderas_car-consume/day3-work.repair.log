@@ -1,0 +1,377 @@
+
+   distance  consume  speed  temp_inside  ...  rain sun refill liters  refill gas
+0      28.0      5.0     26         21.5  ...     0   0          45.0         E10
+1      12.0      4.2     30         21.5  ...     0   0           NaN         NaN
+2      11.2      5.5     38         21.5  ...     0   0           NaN         NaN
+3      12.9      3.9     36         21.5  ...     0   0           NaN         NaN
+4      18.5      4.5     46         21.5  ...     0   0           NaN         NaN
+
+[5 rows x 12 columns]
+   consume  distance  speed  temp_in  temp_out  gas_type  AC  rain  sun
+0      5.0      28.0     26     21.5        12         1   0     0    0
+1      4.2      12.0     30     21.5        13         1   0     0    0
+2      5.5      11.2     38     21.5        15         1   0     0    0
+3      3.9      12.9     36     21.5        14         1   0     0    0
+4      4.5      18.5     46     21.5        15         1   0     0    0
+
+
+
+
+Empty DataFrame
+Columns: []
+Index: [MSE, RMSE, MAE, RMSE/MAE, R2_fit, R2_pred]
+
+          Linear
+MSE        0.681
+RMSE       0.825
+MAE        0.666
+RMSE/MAE   1.238
+R2_fit     0.230
+R2_pred    0.011
+
+{'alpha': 0.01, 'l1_ratio': 0.8}
+
+          Linear  Linear(ElasticNet)
+MSE        0.681               0.659
+RMSE       0.825               0.812
+MAE        0.666               0.658
+RMSE/MAE   1.238               1.234
+R2_fit     0.230               0.168
+R2_pred    0.011               0.042
+
+
+log10(C) = 0.4
+log10(epsilon) = -0.1
+          Linear  Linear(ElasticNet)  SVR(Linear)
+MSE        0.681               0.659        0.662
+RMSE       0.825               0.812        0.814
+MAE        0.666               0.658        0.652
+RMSE/MAE   1.238               1.234        1.249
+R2_fit     0.230               0.168        0.176
+R2_pred    0.011               0.042        0.038
+
+
+log10(C) = 0.8
+log10(epsilon) = -0.2
+          Linear  Linear(ElasticNet)  SVR(Linear)  SVR(rbf)
+MSE        0.681               0.659        0.662     0.460
+RMSE       0.825               0.812        0.814     0.678
+MAE        0.666               0.658        0.652     0.533
+RMSE/MAE   1.238               1.234        1.249     1.273
+R2_fit     0.230               0.168        0.176     0.405
+R2_pred    0.011               0.042        0.038     0.331
+Traceback (most recent call last):
+  File "day3-work.py", line 456, in <module>
+    from sklearn.externals.six import StringIO
+ModuleNotFoundError: No module named 'sklearn.externals.six'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.six'), ('new_fqn', 'six'), ('line_no', 456)])
+   distance  consume  speed  temp_inside  ...  rain sun refill liters  refill gas
+0      28.0      5.0     26         21.5  ...     0   0          45.0         E10
+1      12.0      4.2     30         21.5  ...     0   0           NaN         NaN
+2      11.2      5.5     38         21.5  ...     0   0           NaN         NaN
+3      12.9      3.9     36         21.5  ...     0   0           NaN         NaN
+4      18.5      4.5     46         21.5  ...     0   0           NaN         NaN
+
+[5 rows x 12 columns]
+   consume  distance  speed  temp_in  temp_out  gas_type  AC  rain  sun
+0      5.0      28.0     26     21.5        12         1   0     0    0
+1      4.2      12.0     30     21.5        13         1   0     0    0
+2      5.5      11.2     38     21.5        15         1   0     0    0
+3      3.9      12.9     36     21.5        14         1   0     0    0
+4      4.5      18.5     46     21.5        15         1   0     0    0
+
+
+
+
+Empty DataFrame
+Columns: []
+Index: [MSE, RMSE, MAE, RMSE/MAE, R2_fit, R2_pred]
+
+          Linear
+MSE        0.681
+RMSE       0.825
+MAE        0.666
+RMSE/MAE   1.238
+R2_fit     0.230
+R2_pred    0.011
+
+{'alpha': 0.01, 'l1_ratio': 0.8}
+
+          Linear  Linear(ElasticNet)
+MSE        0.681               0.659
+RMSE       0.825               0.812
+MAE        0.666               0.658
+RMSE/MAE   1.238               1.234
+R2_fit     0.230               0.168
+R2_pred    0.011               0.042
+
+
+log10(C) = 0.4
+log10(epsilon) = -0.1
+          Linear  Linear(ElasticNet)  SVR(Linear)
+MSE        0.681               0.659        0.662
+RMSE       0.825               0.812        0.814
+MAE        0.666               0.658        0.652
+RMSE/MAE   1.238               1.234        1.249
+R2_fit     0.230               0.168        0.176
+R2_pred    0.011               0.042        0.038
+
+
+log10(C) = 0.8
+log10(epsilon) = -0.2
+          Linear  Linear(ElasticNet)  SVR(Linear)  SVR(rbf)
+MSE        0.681               0.659        0.662     0.460
+RMSE       0.825               0.812        0.814     0.678
+MAE        0.666               0.658        0.652     0.533
+RMSE/MAE   1.238               1.234        1.249     1.273
+R2_fit     0.230               0.168        0.176     0.405
+R2_pred    0.011               0.042        0.038     0.331
+{'max_depth': 3}
+          Linear  Linear(ElasticNet)  SVR(Linear)  SVR(rbf)  DecisionTree
+MSE        0.681               0.659        0.662     0.460         0.781
+RMSE       0.825               0.812        0.814     0.678         0.884
+MAE        0.666               0.658        0.652     0.533         0.609
+RMSE/MAE   1.238               1.234        1.249     1.273         1.451
+R2_fit     0.230               0.168        0.176     0.405         0.489
+R2_pred    0.011               0.042        0.038     0.331        -0.136
+
+2021-07-08 04:54:27.019223: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-07-08 04:54:27.041572: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-07-08 04:54:27.042255: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55cf71da8ca0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-08 04:54:27.042297: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-07-08 04:54:27.042392: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+{'max_depth': 3, 'n_estimators': 100}
+          Linear  Linear(ElasticNet)  SVR(Linear)  SVR(rbf)  DecisionTree  RandomForest
+MSE        0.681               0.659        0.662     0.460         0.781         0.598
+RMSE       0.825               0.812        0.814     0.678         0.884         0.773
+MAE        0.666               0.658        0.652     0.533         0.609         0.573
+RMSE/MAE   1.238               1.234        1.249     1.273         1.451         1.350
+R2_fit     0.230               0.168        0.176     0.405         0.489         0.517
+R2_pred    0.011               0.042        0.038     0.331        -0.136         0.131
+
+{'n_estimators': 10}
+          Linear  Linear(ElasticNet)  ...  RandomForest  Adaboost(Tree)
+MSE        0.681               0.659  ...         0.598           0.676
+RMSE       0.825               0.812  ...         0.773           0.822
+MAE        0.666               0.658  ...         0.573           0.607
+RMSE/MAE   1.238               1.234  ...         1.350           1.354
+R2_fit     0.230               0.168  ...         0.517           0.499
+R2_pred    0.011               0.042  ...         0.131           0.017
+
+[6 rows x 7 columns]
+2.2.0
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense (Dense)                (None, 10)                90        
+_________________________________________________________________
+dense_1 (Dense)              (None, 16)                176       
+_________________________________________________________________
+dense_2 (Dense)              (None, 1)                 17        
+=================================================================
+Total params: 283
+Trainable params: 283
+Non-trainable params: 0
+_________________________________________________________________
+
+          Linear  Linear(ElasticNet)  SVR(Linear)  ...  RandomForest  Adaboost(Tree)     NN
+MSE        0.681               0.659        0.662  ...         0.598           0.676  0.676
+RMSE       0.825               0.812        0.814  ...         0.773           0.822  0.822
+MAE        0.666               0.658        0.652  ...         0.573           0.607  0.607
+RMSE/MAE   1.238               1.234        1.249  ...         1.350           1.354  1.354
+R2_fit     0.230               0.168        0.176  ...         0.517           0.499  0.499
+R2_pred    0.011               0.042        0.038  ...         0.131           0.017  0.017
+
+[6 rows x 8 columns]
+
+
+[REPAIR EXEC TIME]: 37.63845133781433
+   distance  consume  speed  temp_inside  ...  rain sun refill liters  refill gas
+0      28.0      5.0     26         21.5  ...     0   0          45.0         E10
+1      12.0      4.2     30         21.5  ...     0   0           NaN         NaN
+2      11.2      5.5     38         21.5  ...     0   0           NaN         NaN
+3      12.9      3.9     36         21.5  ...     0   0           NaN         NaN
+4      18.5      4.5     46         21.5  ...     0   0           NaN         NaN
+
+[5 rows x 12 columns]
+   consume  distance  speed  temp_in  temp_out  gas_type  AC  rain  sun
+0      5.0      28.0     26     21.5        12         1   0     0    0
+1      4.2      12.0     30     21.5        13         1   0     0    0
+2      5.5      11.2     38     21.5        15         1   0     0    0
+3      3.9      12.9     36     21.5        14         1   0     0    0
+4      4.5      18.5     46     21.5        15         1   0     0    0
+
+
+
+
+Empty DataFrame
+Columns: []
+Index: [MSE, RMSE, MAE, RMSE/MAE, R2_fit, R2_pred]
+
+          Linear
+MSE        0.681
+RMSE       0.825
+MAE        0.666
+RMSE/MAE   1.238
+R2_fit     0.230
+R2_pred    0.011
+
+{'alpha': 0.01, 'l1_ratio': 0.8}
+
+          Linear  Linear(ElasticNet)
+MSE        0.681               0.659
+RMSE       0.825               0.812
+MAE        0.666               0.658
+RMSE/MAE   1.238               1.234
+R2_fit     0.230               0.168
+R2_pred    0.011               0.042
+
+
+log10(C) = 0.4
+log10(epsilon) = -0.1
+          Linear  Linear(ElasticNet)  SVR(Linear)
+MSE        0.681               0.659        0.662
+RMSE       0.825               0.812        0.814
+MAE        0.666               0.658        0.652
+RMSE/MAE   1.238               1.234        1.249
+R2_fit     0.230               0.168        0.176
+R2_pred    0.011               0.042        0.038
+
+
+log10(C) = 0.8
+log10(epsilon) = -0.2
+          Linear  Linear(ElasticNet)  SVR(Linear)  SVR(rbf)
+MSE        0.681               0.659        0.662     0.460
+RMSE       0.825               0.812        0.814     0.678
+MAE        0.666               0.658        0.652     0.533
+RMSE/MAE   1.238               1.234        1.249     1.273
+R2_fit     0.230               0.168        0.176     0.405
+R2_pred    0.011               0.042        0.038     0.331
+Traceback (most recent call last):
+  File "day3-work.py", line 456, in <module>
+    from sklearn.externals.six import StringIO
+ModuleNotFoundError: No module named 'sklearn.externals.six'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.six'), ('new_fqn', 'six'), ('line_no', 456)])
+   distance  consume  speed  temp_inside  ...  rain sun refill liters  refill gas
+0      28.0      5.0     26         21.5  ...     0   0          45.0         E10
+1      12.0      4.2     30         21.5  ...     0   0           NaN         NaN
+2      11.2      5.5     38         21.5  ...     0   0           NaN         NaN
+3      12.9      3.9     36         21.5  ...     0   0           NaN         NaN
+4      18.5      4.5     46         21.5  ...     0   0           NaN         NaN
+
+[5 rows x 12 columns]
+   consume  distance  speed  temp_in  temp_out  gas_type  AC  rain  sun
+0      5.0      28.0     26     21.5        12         1   0     0    0
+1      4.2      12.0     30     21.5        13         1   0     0    0
+2      5.5      11.2     38     21.5        15         1   0     0    0
+3      3.9      12.9     36     21.5        14         1   0     0    0
+4      4.5      18.5     46     21.5        15         1   0     0    0
+
+
+
+
+Empty DataFrame
+Columns: []
+Index: [MSE, RMSE, MAE, RMSE/MAE, R2_fit, R2_pred]
+
+          Linear
+MSE        0.681
+RMSE       0.825
+MAE        0.666
+RMSE/MAE   1.238
+R2_fit     0.230
+R2_pred    0.011
+
+{'alpha': 0.01, 'l1_ratio': 0.8}
+
+          Linear  Linear(ElasticNet)
+MSE        0.681               0.659
+RMSE       0.825               0.812
+MAE        0.666               0.658
+RMSE/MAE   1.238               1.234
+R2_fit     0.230               0.168
+R2_pred    0.011               0.042
+
+
+log10(C) = 0.4
+log10(epsilon) = -0.1
+          Linear  Linear(ElasticNet)  SVR(Linear)
+MSE        0.681               0.659        0.662
+RMSE       0.825               0.812        0.814
+MAE        0.666               0.658        0.652
+RMSE/MAE   1.238               1.234        1.249
+R2_fit     0.230               0.168        0.176
+R2_pred    0.011               0.042        0.038
+
+
+log10(C) = 0.8
+log10(epsilon) = -0.2
+          Linear  Linear(ElasticNet)  SVR(Linear)  SVR(rbf)
+MSE        0.681               0.659        0.662     0.460
+RMSE       0.825               0.812        0.814     0.678
+MAE        0.666               0.658        0.652     0.533
+RMSE/MAE   1.238               1.234        1.249     1.273
+R2_fit     0.230               0.168        0.176     0.405
+R2_pred    0.011               0.042        0.038     0.331
+{'max_depth': 4}
+          Linear  Linear(ElasticNet)  SVR(Linear)  SVR(rbf)  DecisionTree
+MSE        0.681               0.659        0.662     0.460         0.858
+RMSE       0.825               0.812        0.814     0.678         0.926
+MAE        0.666               0.658        0.652     0.533         0.605
+RMSE/MAE   1.238               1.234        1.249     1.273         1.531
+R2_fit     0.230               0.168        0.176     0.405         0.480
+R2_pred    0.011               0.042        0.038     0.331        -0.247
+
+2021-07-08 12:54:34.612463: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-07-08 12:54:34.633171: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2099940000 Hz
+2021-07-08 12:54:34.633601: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x557822dbe130 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-08 12:54:34.633621: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-07-08 12:54:34.633686: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+{'max_depth': 3, 'n_estimators': 100}
+          Linear  Linear(ElasticNet)  SVR(Linear)  SVR(rbf)  DecisionTree  RandomForest
+MSE        0.681               0.659        0.662     0.460         0.858         0.598
+RMSE       0.825               0.812        0.814     0.678         0.926         0.773
+MAE        0.666               0.658        0.652     0.533         0.605         0.573
+RMSE/MAE   1.238               1.234        1.249     1.273         1.531         1.350
+R2_fit     0.230               0.168        0.176     0.405         0.480         0.517
+R2_pred    0.011               0.042        0.038     0.331        -0.247         0.131
+
+{'n_estimators': 10}
+          Linear  Linear(ElasticNet)  ...  RandomForest  Adaboost(Tree)
+MSE        0.681               0.659  ...         0.598           0.676
+RMSE       0.825               0.812  ...         0.773           0.822
+MAE        0.666               0.658  ...         0.573           0.607
+RMSE/MAE   1.238               1.234  ...         1.350           1.354
+R2_fit     0.230               0.168  ...         0.517           0.499
+R2_pred    0.011               0.042  ...         0.131           0.017
+
+[6 rows x 7 columns]
+2.2.0
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense (Dense)                (None, 10)                90        
+_________________________________________________________________
+dense_1 (Dense)              (None, 16)                176       
+_________________________________________________________________
+dense_2 (Dense)              (None, 1)                 17        
+=================================================================
+Total params: 283
+Trainable params: 283
+Non-trainable params: 0
+_________________________________________________________________
+
+          Linear  Linear(ElasticNet)  SVR(Linear)  ...  RandomForest  Adaboost(Tree)     NN
+MSE        0.681               0.659        0.662  ...         0.598           0.676  0.676
+RMSE       0.825               0.812        0.814  ...         0.773           0.822  0.822
+MAE        0.666               0.658        0.652  ...         0.573           0.607  0.607
+RMSE/MAE   1.238               1.234        1.249  ...         1.350           1.354  1.354
+R2_fit     0.230               0.168        0.176  ...         0.517           0.499  0.499
+R2_pred    0.011               0.042        0.038  ...         0.131           0.017  0.017
+
+[6 rows x 8 columns]
+
+
+[REPAIR EXEC TIME]: 38.001394271850586

@@ -1,0 +1,209 @@
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 12, in <module>
+    from pandas.tools.plotting import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.tools'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.plotting'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 15, in <module>
+    from sklearn import cross_validation
+ImportError: cannot import name 'cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 15)])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_value_update'), ('arg_name', 'shuffle'), ('target_value', 'True')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed,shuffle=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_value_update'), ('arg_name', 'shuffle'), ('target_value', 'False')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed,shuffle=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_value_update'), ('arg_name', 'shuffle&random_state'), ('target_value', 'True&False')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed,shuffle=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_value_update'), ('arg_name', 'n_splits&shuffle'), ('target_value', 'True&False')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed,n_splits=True)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_rename'), ('from_name', 'n_splits'), ('to_name', 'shuffle')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_rename'), ('from_name', 'n_splits'), ('to_name', 'random_state')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_delete'), ('from_name', 'n_splits'), ('to_name', '*')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_rename'), ('from_name', 'shuffle'), ('to_name', 'n_splits')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_rename'), ('from_name', 'shuffle'), ('to_name', 'random_state')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_delete'), ('from_name', 'shuffle'), ('to_name', '*')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_rename'), ('from_name', 'random_state'), ('to_name', 'n_splits')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, n_splits=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_rename'), ('from_name', 'random_state'), ('to_name', 'shuffle')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, shuffle=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_delete'), ('from_name', 'random_state'), ('to_name', '*')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_rename'), ('from_name', 'shuffle&random_state'), ('to_name', 'n_splits&shuffle')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_rename'), ('from_name', 'shuffle&random_state'), ('to_name', 'random_state&n_splits')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_rename'), ('from_name', 'shuffle&random_state'), ('to_name', 'random_state&shuffle')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&shuffle'), ('to_name', 'shuffle&n_splits')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&shuffle'), ('to_name', 'shuffle&random_state')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&shuffle'), ('to_name', 'random_state&n_splits')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&random_state'), ('to_name', 'shuffle&n_splits')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&random_state'), ('to_name', 'random_state&n_splits')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&random_state'), ('to_name', 'random_state&shuffle')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&shuffle&random_state'), ('to_name', 'shuffle&random_state&n_splits')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[Try Solution]: OrderedDict([('API', 'sklearn.model_selection.KFold'), ('action', 'arg_rename'), ('from_name', 'n_splits&shuffle&random_state'), ('to_name', 'random_state&n_splits&shuffle')])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 190, in <module>
+    kfold = model_selection.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n'
+[REPAIR EXEC TIME]: 49.12014722824097

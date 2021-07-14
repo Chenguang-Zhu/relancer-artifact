@@ -1,0 +1,15 @@
+Null Values in age : 0
+Null Values in sex : 0
+Null Values in bmi : 0
+Null Values in children : 0
+Null Values in smoker : 0
+Null Values in region : 0
+Null Values in charges : 0
+
+
+Traceback (most recent call last):
+  File "patient-charges-regression-and-classification.py", line 228, in <module>
+    ohe = OneHotEncoder(categorical_features=categorical_features , sparse=False)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'categorical_features'

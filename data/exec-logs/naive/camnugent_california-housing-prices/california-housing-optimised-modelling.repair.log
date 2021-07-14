@@ -1,0 +1,247 @@
+/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:2264: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+california-housing-optimised-modelling.py:504: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure(figsize=(15,8))
+the number of rows and colums are(20640, 10)
+
+the columns are - 
+
+longitude.	
+latitude.	
+housing_median_age.	
+total_rooms.	
+total_bedrooms.	
+population.	
+households.	
+median_income.	
+median_house_value.	
+ocean_proximity.	
+
+
+longitude             0
+latitude              0
+housing_median_age    0
+total_rooms           0
+total_bedrooms        0
+population            0
+households            0
+median_income         0
+median_house_value    0
+ocean_proximity       0
+dtype: int64
+longitude             float64
+latitude              float64
+housing_median_age    float64
+total_rooms           float64
+total_bedrooms        float64
+population            float64
+households            float64
+median_income         float64
+median_house_value    float64
+ocean_proximity        object
+dtype: object
+
+
+
+
+
+
+
+
+
+
+
+Linear regression with most co related features
+The cross validated accuracy  - 41.3506511798424
+The corss validated variance is - 1.9235500099556022
+root mean squared error for test data   is 76318.44298565741
+
+
+Linear regression with all features
+The cross validated accuracy  - 63.27590434078364
+The corss validated variance is - 1.8152421769594214
+root mean squared error for test data   is 58680.28133084016
+
+The cross validated accuracy  - 41.35096135301548
+The corss validated variance is - 1.8965677094607387
+root mean squared error for test data   is 76253.76750278792
+
+The cross validated accuracy  - -6.911906306096283e+19
+The corss validated variance is - 2.0730186957738312e+20
+root mean squared error for test data   is 15388392632680.383
+
+Traceback (most recent call last):
+  File "california-housing-optimised-modelling.py", line 601, in <module>
+    features,regressor=backward_elimination(xtrain_ols,ytrain,0.10)
+  File "california-housing-optimised-modelling.py", line 592, in backward_elimination
+    regressor=sm.OLS(y_dependent,x_ols_array).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'statsmodels.formula.api.OLS'), ('new_fqn', 'statsmodels.formula.api.gls'), ('line_no', 592)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:2264: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+california-housing-optimised-modelling.py:505: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure(figsize=(15,8))
+the number of rows and colums are(20640, 10)
+
+the columns are - 
+
+longitude.	
+latitude.	
+housing_median_age.	
+total_rooms.	
+total_bedrooms.	
+population.	
+households.	
+median_income.	
+median_house_value.	
+ocean_proximity.	
+
+
+longitude             0
+latitude              0
+housing_median_age    0
+total_rooms           0
+total_bedrooms        0
+population            0
+households            0
+median_income         0
+median_house_value    0
+ocean_proximity       0
+dtype: int64
+longitude             float64
+latitude              float64
+housing_median_age    float64
+total_rooms           float64
+total_bedrooms        float64
+population            float64
+households            float64
+median_income         float64
+median_house_value    float64
+ocean_proximity        object
+dtype: object
+
+
+
+
+
+
+
+
+
+
+
+Linear regression with most co related features
+The cross validated accuracy  - 41.3506511798424
+The corss validated variance is - 1.9235500099556022
+root mean squared error for test data   is 76318.44298565741
+
+
+Linear regression with all features
+The cross validated accuracy  - 63.27590434078364
+The corss validated variance is - 1.8152421769594214
+root mean squared error for test data   is 58680.28133084016
+
+The cross validated accuracy  - 41.35096135301548
+The corss validated variance is - 1.8965677094607387
+root mean squared error for test data   is 76253.76750278792
+
+The cross validated accuracy  - -6.005880051923584e+19
+The corss validated variance is - 1.7651148692466362e+20
+root mean squared error for test data   is 4563696235622.479
+
+Traceback (most recent call last):
+  File "california-housing-optimised-modelling.py", line 602, in <module>
+    features,regressor=backward_elimination(xtrain_ols,ytrain,0.10)
+  File "california-housing-optimised-modelling.py", line 593, in backward_elimination
+    regressor=statsmodels.formula.api.gls(y_dependent,x_ols_array).fit()
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/base/model.py", line 169, in from_formula
+    missing=missing)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/formula/formulatools.py", line 68, in handle_formula_data
+    NA_action=na_action)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/patsy/highlevel.py", line 312, in dmatrices
+    raise PatsyError("model is missing required outcome variables")
+patsy.PatsyError: model is missing required outcome variables
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'statsmodels.formula.api.OLS'), ('new_fqn', 'statsmodels.formula.api.wls'), ('line_no', 592)])/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/seaborn/axisgrid.py:2264: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+  warnings.warn(msg, UserWarning)
+california-housing-optimised-modelling.py:505: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure(figsize=(15,8))
+the number of rows and colums are(20640, 10)
+
+the columns are - 
+
+longitude.	
+latitude.	
+housing_median_age.	
+total_rooms.	
+total_bedrooms.	
+population.	
+households.	
+median_income.	
+median_house_value.	
+ocean_proximity.	
+
+
+longitude             0
+latitude              0
+housing_median_age    0
+total_rooms           0
+total_bedrooms        0
+population            0
+households            0
+median_income         0
+median_house_value    0
+ocean_proximity       0
+dtype: int64
+longitude             float64
+latitude              float64
+housing_median_age    float64
+total_rooms           float64
+total_bedrooms        float64
+population            float64
+households            float64
+median_income         float64
+median_house_value    float64
+ocean_proximity        object
+dtype: object
+
+
+
+
+
+
+
+
+
+
+
+Linear regression with most co related features
+The cross validated accuracy  - 41.3506511798424
+The corss validated variance is - 1.9235500099556022
+root mean squared error for test data   is 76318.44298565741
+
+
+Linear regression with all features
+The cross validated accuracy  - 63.27590434078364
+The corss validated variance is - 1.8152421769594214
+root mean squared error for test data   is 58680.28133084016
+
+The cross validated accuracy  - 41.35096135301548
+The corss validated variance is - 1.8965677094607387
+root mean squared error for test data   is 76253.76750278792
+
+The cross validated accuracy  - -6.930911544661657e+19
+The corss validated variance is - 2.072394250703351e+20
+root mean squared error for test data   is 15388392632680.383
+
+Traceback (most recent call last):
+  File "california-housing-optimised-modelling.py", line 602, in <module>
+    features,regressor=backward_elimination(xtrain_ols,ytrain,0.10)
+  File "california-housing-optimised-modelling.py", line 593, in backward_elimination
+    regressor=statsmodels.formula.api.wls(y_dependent,x_ols_array).fit()
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/base/model.py", line 169, in from_formula
+    missing=missing)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/statsmodels/formula/formulatools.py", line 68, in handle_formula_data
+    NA_action=na_action)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/patsy/highlevel.py", line 312, in dmatrices
+    raise PatsyError("model is missing required outcome variables")
+patsy.PatsyError: model is missing required outcome variables
+[REPAIR EXEC TIME]: 48.453917264938354

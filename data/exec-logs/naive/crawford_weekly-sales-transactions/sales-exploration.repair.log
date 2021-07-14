@@ -1,0 +1,331 @@
+Sales_Transactions_Dataset_Weekly.csv
+
+               count      mean        std  min    25%   50%    75%   max
+W0             811.0  8.902589  12.067163  0.0  0.000  3.00  12.00  54.0
+W1             811.0  9.129470  12.564766  0.0  0.000  3.00  12.00  53.0
+W2             811.0  9.389642  13.045073  0.0  0.000  3.00  12.00  56.0
+W3             811.0  9.717633  13.553294  0.0  0.000  4.00  13.00  59.0
+W4             811.0  9.574599  13.095765  0.0  0.000  4.00  13.00  61.0
+...              ...       ...        ...  ...    ...   ...    ...   ...
+Normalized 47  811.0  0.314636   0.266029  0.0  0.000  0.31   0.50   1.0
+Normalized 48  811.0  0.338150   0.275690  0.0  0.105  0.33   0.50   1.0
+Normalized 49  811.0  0.358903   0.286665  0.0  0.100  0.33   0.55   1.0
+Normalized 50  811.0  0.373009   0.295197  0.0  0.110  0.35   0.56   1.0
+Normalized 51  811.0  0.427941   0.342360  0.0  0.090  0.43   0.67   1.0
+
+[106 rows x 8 columns]
+  Product_Code  W0  W1  W2  ...  Normalized 48  Normalized 49  Normalized 50  Normalized 51
+0           P1  11  12  10  ...           0.22           0.17           0.11           0.39
+1           P2   7   6   3  ...           0.50           0.10           0.60           0.00
+2           P3   7  11   8  ...           1.00           0.45           0.45           0.36
+3           P4  12   8  13  ...           0.71           0.35           0.29           0.35
+4           P5   8   5  13  ...           0.13           0.53           0.33           0.40
+
+[5 rows x 107 columns]
+<zip object at 0x7f500bdb72c8>
+
+Traceback (most recent call last):
+  File "sales-exploration.py", line 86, in <module>
+    res = sm.OLS(Y,Xr).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_rename'), ('from_name', 'formula'), ('to_name', 'data')])Sales_Transactions_Dataset_Weekly.csv
+
+               count      mean        std  min    25%   50%    75%   max
+W0             811.0  8.902589  12.067163  0.0  0.000  3.00  12.00  54.0
+W1             811.0  9.129470  12.564766  0.0  0.000  3.00  12.00  53.0
+W2             811.0  9.389642  13.045073  0.0  0.000  3.00  12.00  56.0
+W3             811.0  9.717633  13.553294  0.0  0.000  4.00  13.00  59.0
+W4             811.0  9.574599  13.095765  0.0  0.000  4.00  13.00  61.0
+...              ...       ...        ...  ...    ...   ...    ...   ...
+Normalized 47  811.0  0.314636   0.266029  0.0  0.000  0.31   0.50   1.0
+Normalized 48  811.0  0.338150   0.275690  0.0  0.105  0.33   0.50   1.0
+Normalized 49  811.0  0.358903   0.286665  0.0  0.100  0.33   0.55   1.0
+Normalized 50  811.0  0.373009   0.295197  0.0  0.110  0.35   0.56   1.0
+Normalized 51  811.0  0.427941   0.342360  0.0  0.090  0.43   0.67   1.0
+
+[106 rows x 8 columns]
+  Product_Code  W0  W1  W2  ...  Normalized 48  Normalized 49  Normalized 50  Normalized 51
+0           P1  11  12  10  ...           0.22           0.17           0.11           0.39
+1           P2   7   6   3  ...           0.50           0.10           0.60           0.00
+2           P3   7  11   8  ...           1.00           0.45           0.45           0.36
+3           P4  12   8  13  ...           0.71           0.35           0.29           0.35
+4           P5   8   5  13  ...           0.13           0.53           0.33           0.40
+
+[5 rows x 107 columns]
+<zip object at 0x7f40570182c8>
+
+Traceback (most recent call last):
+  File "sales-exploration.py", line 86, in <module>
+    res = sm.OLS(Y,Xr).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_rename'), ('from_name', 'formula'), ('to_name', 'subset')])Sales_Transactions_Dataset_Weekly.csv
+
+               count      mean        std  min    25%   50%    75%   max
+W0             811.0  8.902589  12.067163  0.0  0.000  3.00  12.00  54.0
+W1             811.0  9.129470  12.564766  0.0  0.000  3.00  12.00  53.0
+W2             811.0  9.389642  13.045073  0.0  0.000  3.00  12.00  56.0
+W3             811.0  9.717633  13.553294  0.0  0.000  4.00  13.00  59.0
+W4             811.0  9.574599  13.095765  0.0  0.000  4.00  13.00  61.0
+...              ...       ...        ...  ...    ...   ...    ...   ...
+Normalized 47  811.0  0.314636   0.266029  0.0  0.000  0.31   0.50   1.0
+Normalized 48  811.0  0.338150   0.275690  0.0  0.105  0.33   0.50   1.0
+Normalized 49  811.0  0.358903   0.286665  0.0  0.100  0.33   0.55   1.0
+Normalized 50  811.0  0.373009   0.295197  0.0  0.110  0.35   0.56   1.0
+Normalized 51  811.0  0.427941   0.342360  0.0  0.090  0.43   0.67   1.0
+
+[106 rows x 8 columns]
+  Product_Code  W0  W1  W2  ...  Normalized 48  Normalized 49  Normalized 50  Normalized 51
+0           P1  11  12  10  ...           0.22           0.17           0.11           0.39
+1           P2   7   6   3  ...           0.50           0.10           0.60           0.00
+2           P3   7  11   8  ...           1.00           0.45           0.45           0.36
+3           P4  12   8  13  ...           0.71           0.35           0.29           0.35
+4           P5   8   5  13  ...           0.13           0.53           0.33           0.40
+
+[5 rows x 107 columns]
+<zip object at 0x7fe04d7bd2c8>
+
+Traceback (most recent call last):
+  File "sales-exploration.py", line 86, in <module>
+    res = sm.OLS(Y,Xr).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_rename'), ('from_name', 'formula'), ('to_name', 'drop_cols')])Sales_Transactions_Dataset_Weekly.csv
+
+               count      mean        std  min    25%   50%    75%   max
+W0             811.0  8.902589  12.067163  0.0  0.000  3.00  12.00  54.0
+W1             811.0  9.129470  12.564766  0.0  0.000  3.00  12.00  53.0
+W2             811.0  9.389642  13.045073  0.0  0.000  3.00  12.00  56.0
+W3             811.0  9.717633  13.553294  0.0  0.000  4.00  13.00  59.0
+W4             811.0  9.574599  13.095765  0.0  0.000  4.00  13.00  61.0
+...              ...       ...        ...  ...    ...   ...    ...   ...
+Normalized 47  811.0  0.314636   0.266029  0.0  0.000  0.31   0.50   1.0
+Normalized 48  811.0  0.338150   0.275690  0.0  0.105  0.33   0.50   1.0
+Normalized 49  811.0  0.358903   0.286665  0.0  0.100  0.33   0.55   1.0
+Normalized 50  811.0  0.373009   0.295197  0.0  0.110  0.35   0.56   1.0
+Normalized 51  811.0  0.427941   0.342360  0.0  0.090  0.43   0.67   1.0
+
+[106 rows x 8 columns]
+  Product_Code  W0  W1  W2  ...  Normalized 48  Normalized 49  Normalized 50  Normalized 51
+0           P1  11  12  10  ...           0.22           0.17           0.11           0.39
+1           P2   7   6   3  ...           0.50           0.10           0.60           0.00
+2           P3   7  11   8  ...           1.00           0.45           0.45           0.36
+3           P4  12   8  13  ...           0.71           0.35           0.29           0.35
+4           P5   8   5  13  ...           0.13           0.53           0.33           0.40
+
+[5 rows x 107 columns]
+<zip object at 0x7faaad7f92c8>
+
+Traceback (most recent call last):
+  File "sales-exploration.py", line 86, in <module>
+    res = sm.OLS(Y,Xr).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_rename'), ('from_name', 'formula'), ('to_name', 'args')])Sales_Transactions_Dataset_Weekly.csv
+
+               count      mean        std  min    25%   50%    75%   max
+W0             811.0  8.902589  12.067163  0.0  0.000  3.00  12.00  54.0
+W1             811.0  9.129470  12.564766  0.0  0.000  3.00  12.00  53.0
+W2             811.0  9.389642  13.045073  0.0  0.000  3.00  12.00  56.0
+W3             811.0  9.717633  13.553294  0.0  0.000  4.00  13.00  59.0
+W4             811.0  9.574599  13.095765  0.0  0.000  4.00  13.00  61.0
+...              ...       ...        ...  ...    ...   ...    ...   ...
+Normalized 47  811.0  0.314636   0.266029  0.0  0.000  0.31   0.50   1.0
+Normalized 48  811.0  0.338150   0.275690  0.0  0.105  0.33   0.50   1.0
+Normalized 49  811.0  0.358903   0.286665  0.0  0.100  0.33   0.55   1.0
+Normalized 50  811.0  0.373009   0.295197  0.0  0.110  0.35   0.56   1.0
+Normalized 51  811.0  0.427941   0.342360  0.0  0.090  0.43   0.67   1.0
+
+[106 rows x 8 columns]
+  Product_Code  W0  W1  W2  ...  Normalized 48  Normalized 49  Normalized 50  Normalized 51
+0           P1  11  12  10  ...           0.22           0.17           0.11           0.39
+1           P2   7   6   3  ...           0.50           0.10           0.60           0.00
+2           P3   7  11   8  ...           1.00           0.45           0.45           0.36
+3           P4  12   8  13  ...           0.71           0.35           0.29           0.35
+4           P5   8   5  13  ...           0.13           0.53           0.33           0.40
+
+[5 rows x 107 columns]
+<zip object at 0x7f7cfc4ab2c8>
+
+Traceback (most recent call last):
+  File "sales-exploration.py", line 86, in <module>
+    res = sm.OLS(Y,Xr).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_rename'), ('from_name', 'formula'), ('to_name', 'kwargs')])Sales_Transactions_Dataset_Weekly.csv
+
+               count      mean        std  min    25%   50%    75%   max
+W0             811.0  8.902589  12.067163  0.0  0.000  3.00  12.00  54.0
+W1             811.0  9.129470  12.564766  0.0  0.000  3.00  12.00  53.0
+W2             811.0  9.389642  13.045073  0.0  0.000  3.00  12.00  56.0
+W3             811.0  9.717633  13.553294  0.0  0.000  4.00  13.00  59.0
+W4             811.0  9.574599  13.095765  0.0  0.000  4.00  13.00  61.0
+...              ...       ...        ...  ...    ...   ...    ...   ...
+Normalized 47  811.0  0.314636   0.266029  0.0  0.000  0.31   0.50   1.0
+Normalized 48  811.0  0.338150   0.275690  0.0  0.105  0.33   0.50   1.0
+Normalized 49  811.0  0.358903   0.286665  0.0  0.100  0.33   0.55   1.0
+Normalized 50  811.0  0.373009   0.295197  0.0  0.110  0.35   0.56   1.0
+Normalized 51  811.0  0.427941   0.342360  0.0  0.090  0.43   0.67   1.0
+
+[106 rows x 8 columns]
+  Product_Code  W0  W1  W2  ...  Normalized 48  Normalized 49  Normalized 50  Normalized 51
+0           P1  11  12  10  ...           0.22           0.17           0.11           0.39
+1           P2   7   6   3  ...           0.50           0.10           0.60           0.00
+2           P3   7  11   8  ...           1.00           0.45           0.45           0.36
+3           P4  12   8  13  ...           0.71           0.35           0.29           0.35
+4           P5   8   5  13  ...           0.13           0.53           0.33           0.40
+
+[5 rows x 107 columns]
+<zip object at 0x7fe18e7bf2c8>
+
+Traceback (most recent call last):
+  File "sales-exploration.py", line 86, in <module>
+    res = sm.OLS(Y,Xr).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_delete'), ('from_name', 'formula'), ('to_name', '*')])Sales_Transactions_Dataset_Weekly.csv
+
+               count      mean        std  min    25%   50%    75%   max
+W0             811.0  8.902589  12.067163  0.0  0.000  3.00  12.00  54.0
+W1             811.0  9.129470  12.564766  0.0  0.000  3.00  12.00  53.0
+W2             811.0  9.389642  13.045073  0.0  0.000  3.00  12.00  56.0
+W3             811.0  9.717633  13.553294  0.0  0.000  4.00  13.00  59.0
+W4             811.0  9.574599  13.095765  0.0  0.000  4.00  13.00  61.0
+...              ...       ...        ...  ...    ...   ...    ...   ...
+Normalized 47  811.0  0.314636   0.266029  0.0  0.000  0.31   0.50   1.0
+Normalized 48  811.0  0.338150   0.275690  0.0  0.105  0.33   0.50   1.0
+Normalized 49  811.0  0.358903   0.286665  0.0  0.100  0.33   0.55   1.0
+Normalized 50  811.0  0.373009   0.295197  0.0  0.110  0.35   0.56   1.0
+Normalized 51  811.0  0.427941   0.342360  0.0  0.090  0.43   0.67   1.0
+
+[106 rows x 8 columns]
+  Product_Code  W0  W1  W2  ...  Normalized 48  Normalized 49  Normalized 50  Normalized 51
+0           P1  11  12  10  ...           0.22           0.17           0.11           0.39
+1           P2   7   6   3  ...           0.50           0.10           0.60           0.00
+2           P3   7  11   8  ...           1.00           0.45           0.45           0.36
+3           P4  12   8  13  ...           0.71           0.35           0.29           0.35
+4           P5   8   5  13  ...           0.13           0.53           0.33           0.40
+
+[5 rows x 107 columns]
+<zip object at 0x7f3691cc62c8>
+
+Traceback (most recent call last):
+  File "sales-exploration.py", line 86, in <module>
+    res = sm.OLS(Y,Xr).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_rename'), ('from_name', 'data'), ('to_name', 'formula')])Sales_Transactions_Dataset_Weekly.csv
+
+               count      mean        std  min    25%   50%    75%   max
+W0             811.0  8.902589  12.067163  0.0  0.000  3.00  12.00  54.0
+W1             811.0  9.129470  12.564766  0.0  0.000  3.00  12.00  53.0
+W2             811.0  9.389642  13.045073  0.0  0.000  3.00  12.00  56.0
+W3             811.0  9.717633  13.553294  0.0  0.000  4.00  13.00  59.0
+W4             811.0  9.574599  13.095765  0.0  0.000  4.00  13.00  61.0
+...              ...       ...        ...  ...    ...   ...    ...   ...
+Normalized 47  811.0  0.314636   0.266029  0.0  0.000  0.31   0.50   1.0
+Normalized 48  811.0  0.338150   0.275690  0.0  0.105  0.33   0.50   1.0
+Normalized 49  811.0  0.358903   0.286665  0.0  0.100  0.33   0.55   1.0
+Normalized 50  811.0  0.373009   0.295197  0.0  0.110  0.35   0.56   1.0
+Normalized 51  811.0  0.427941   0.342360  0.0  0.090  0.43   0.67   1.0
+
+[106 rows x 8 columns]
+  Product_Code  W0  W1  W2  ...  Normalized 48  Normalized 49  Normalized 50  Normalized 51
+0           P1  11  12  10  ...           0.22           0.17           0.11           0.39
+1           P2   7   6   3  ...           0.50           0.10           0.60           0.00
+2           P3   7  11   8  ...           1.00           0.45           0.45           0.36
+3           P4  12   8  13  ...           0.71           0.35           0.29           0.35
+4           P5   8   5  13  ...           0.13           0.53           0.33           0.40
+
+[5 rows x 107 columns]
+<zip object at 0x7ff344ed72c8>
+
+Traceback (most recent call last):
+  File "sales-exploration.py", line 86, in <module>
+    res = sm.OLS(Y,Xr).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_rename'), ('from_name', 'data'), ('to_name', 'subset')])Sales_Transactions_Dataset_Weekly.csv
+
+               count      mean        std  min    25%   50%    75%   max
+W0             811.0  8.902589  12.067163  0.0  0.000  3.00  12.00  54.0
+W1             811.0  9.129470  12.564766  0.0  0.000  3.00  12.00  53.0
+W2             811.0  9.389642  13.045073  0.0  0.000  3.00  12.00  56.0
+W3             811.0  9.717633  13.553294  0.0  0.000  4.00  13.00  59.0
+W4             811.0  9.574599  13.095765  0.0  0.000  4.00  13.00  61.0
+...              ...       ...        ...  ...    ...   ...    ...   ...
+Normalized 47  811.0  0.314636   0.266029  0.0  0.000  0.31   0.50   1.0
+Normalized 48  811.0  0.338150   0.275690  0.0  0.105  0.33   0.50   1.0
+Normalized 49  811.0  0.358903   0.286665  0.0  0.100  0.33   0.55   1.0
+Normalized 50  811.0  0.373009   0.295197  0.0  0.110  0.35   0.56   1.0
+Normalized 51  811.0  0.427941   0.342360  0.0  0.090  0.43   0.67   1.0
+
+[106 rows x 8 columns]
+  Product_Code  W0  W1  W2  ...  Normalized 48  Normalized 49  Normalized 50  Normalized 51
+0           P1  11  12  10  ...           0.22           0.17           0.11           0.39
+1           P2   7   6   3  ...           0.50           0.10           0.60           0.00
+2           P3   7  11   8  ...           1.00           0.45           0.45           0.36
+3           P4  12   8  13  ...           0.71           0.35           0.29           0.35
+4           P5   8   5  13  ...           0.13           0.53           0.33           0.40
+
+[5 rows x 107 columns]
+<zip object at 0x7fc5ccf492c8>
+
+Traceback (most recent call last):
+  File "sales-exploration.py", line 86, in <module>
+    res = sm.OLS(Y,Xr).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_rename'), ('from_name', 'data'), ('to_name', 'drop_cols')])Sales_Transactions_Dataset_Weekly.csv
+
+               count      mean        std  min    25%   50%    75%   max
+W0             811.0  8.902589  12.067163  0.0  0.000  3.00  12.00  54.0
+W1             811.0  9.129470  12.564766  0.0  0.000  3.00  12.00  53.0
+W2             811.0  9.389642  13.045073  0.0  0.000  3.00  12.00  56.0
+W3             811.0  9.717633  13.553294  0.0  0.000  4.00  13.00  59.0
+W4             811.0  9.574599  13.095765  0.0  0.000  4.00  13.00  61.0
+...              ...       ...        ...  ...    ...   ...    ...   ...
+Normalized 47  811.0  0.314636   0.266029  0.0  0.000  0.31   0.50   1.0
+Normalized 48  811.0  0.338150   0.275690  0.0  0.105  0.33   0.50   1.0
+Normalized 49  811.0  0.358903   0.286665  0.0  0.100  0.33   0.55   1.0
+Normalized 50  811.0  0.373009   0.295197  0.0  0.110  0.35   0.56   1.0
+Normalized 51  811.0  0.427941   0.342360  0.0  0.090  0.43   0.67   1.0
+
+[106 rows x 8 columns]
+  Product_Code  W0  W1  W2  ...  Normalized 48  Normalized 49  Normalized 50  Normalized 51
+0           P1  11  12  10  ...           0.22           0.17           0.11           0.39
+1           P2   7   6   3  ...           0.50           0.10           0.60           0.00
+2           P3   7  11   8  ...           1.00           0.45           0.45           0.36
+3           P4  12   8  13  ...           0.71           0.35           0.29           0.35
+4           P5   8   5  13  ...           0.13           0.53           0.33           0.40
+
+[5 rows x 107 columns]
+<zip object at 0x7fbae78a02c8>
+
+Traceback (most recent call last):
+  File "sales-exploration.py", line 86, in <module>
+    res = sm.OLS(Y,Xr).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('API', 'statsmodels.formula.api.OLS'), ('action', 'arg_rename'), ('from_name', 'data'), ('to_name', 'args')])Sales_Transactions_Dataset_Weekly.csv
+
+               count      mean        std  min    25%   50%    75%   max
+W0             811.0  8.902589  12.067163  0.0  0.000  3.00  12.00  54.0
+W1             811.0  9.129470  12.564766  0.0  0.000  3.00  12.00  53.0
+W2             811.0  9.389642  13.045073  0.0  0.000  3.00  12.00  56.0
+W3             811.0  9.717633  13.553294  0.0  0.000  4.00  13.00  59.0
+W4             811.0  9.574599  13.095765  0.0  0.000  4.00  13.00  61.0
+...              ...       ...        ...  ...    ...   ...    ...   ...
+Normalized 47  811.0  0.314636   0.266029  0.0  0.000  0.31   0.50   1.0
+Normalized 48  811.0  0.338150   0.275690  0.0  0.105  0.33   0.50   1.0
+Normalized 49  811.0  0.358903   0.286665  0.0  0.100  0.33   0.55   1.0
+Normalized 50  811.0  0.373009   0.295197  0.0  0.110  0.35   0.56   1.0
+Normalized 51  811.0  0.427941   0.342360  0.0  0.090  0.43   0.67   1.0
+
+[106 rows x 8 columns]
+  Product_Code  W0  W1  W2  ...  Normalized 48  Normalized 49  Normalized 50  Normalized 51
+0           P1  11  12  10  ...           0.22           0.17           0.11           0.39
+1           P2   7   6   3  ...           0.50           0.10           0.60           0.00
+2           P3   7  11   8  ...           1.00           0.45           0.45           0.36
+3           P4  12   8  13  ...           0.71           0.35           0.29           0.35
+4           P5   8   5  13  ...           0.13           0.53           0.33           0.40
+
+[5 rows x 107 columns]
+<zip object at 0x7fbff27922c8>
+
+Traceback (most recent call last):
+  File "sales-exploration.py", line 86, in <module>
+    res = sm.OLS(Y,Xr).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[REPAIR EXEC TIME]: 27.996787548065186

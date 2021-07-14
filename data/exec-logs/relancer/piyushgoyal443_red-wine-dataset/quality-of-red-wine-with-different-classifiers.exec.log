@@ -1,0 +1,77 @@
+../../../input/piyushgoyal443_red-wine-dataset/wineQualityReds.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1599 entries, 0 to 1598
+Data columns (total 13 columns):
+ #   Column                Non-Null Count  Dtype  
+---  ------                --------------  -----  
+ 0   Unnamed: 0            1599 non-null   int64  
+ 1   fixed.acidity         1599 non-null   float64
+ 2   volatile.acidity      1599 non-null   float64
+ 3   citric.acid           1599 non-null   float64
+ 4   residual.sugar        1599 non-null   float64
+ 5   chlorides             1599 non-null   float64
+ 6   free.sulfur.dioxide   1599 non-null   float64
+ 7   total.sulfur.dioxide  1599 non-null   float64
+ 8   density               1599 non-null   float64
+ 9   pH                    1599 non-null   float64
+ 10  sulphates             1599 non-null   float64
+ 11  alcohol               1599 non-null   float64
+ 12  quality               1599 non-null   int64  
+dtypes: float64(11), int64(2)
+memory usage: 162.5 KB
+       Unnamed: 0  fixed.acidity  volatile.acidity  ...  sulphates  alcohol  quality
+count      1599.0         1599.0            1599.0  ...     1599.0   1599.0   1599.0
+mean        800.0            8.0               1.0  ...        1.0     10.0      6.0
+std         462.0            2.0               0.0  ...        0.0      1.0      1.0
+min           1.0            5.0               0.0  ...        0.0      8.0      3.0
+25%         400.0            7.0               0.0  ...        1.0     10.0      5.0
+50%         800.0            8.0               1.0  ...        1.0     10.0      6.0
+75%        1200.0            9.0               1.0  ...        1.0     11.0      6.0
+max        1599.0           16.0               2.0  ...        2.0     15.0      8.0
+
+[8 rows x 13 columns]
+Index([], dtype='object')
+
+
+
+
+X_train (1279, 12) , X_test (320, 12) 
+CV:  0.7474409448818898
+Training set accuracy for Logistic Regression:  0.7529319781078968
+Test set accuracy for Logistic Regression:  0.725
+              precision    recall  f1-score   support
+
+           0       0.78      0.66      0.72       167
+           1       0.68      0.79      0.73       153
+
+    accuracy                           0.73       320
+   macro avg       0.73      0.73      0.72       320
+weighted avg       0.73      0.72      0.72       320
+
+CV:  0.8037709153543308
+Training set accuracy for KNN:  1.0
+Test set accuracy for KNN:  0.728125
+CV:  0.7458538385826772
+Training set accuracy for SVC:  0.7505863956215794
+Test set accuracy for SVC:  0.721875
+CV:  0.7263471948818898
+Training set accuracy for DecisionTree:  0.7724784988272088
+Test set accuracy for DecisionTree:  0.696875
+CV:  0.816283218503937
+Training set:  1.0
+Test set:  0.759375
+                      importance
+alcohol                 0.176341
+sulphates               0.120445
+volatile.acidity        0.099514
+total.sulfur.dioxide    0.090502
+density                 0.080703
+Unnamed: 0              0.077068
+chlorides               0.075742
+fixed.acidity           0.060985
+pH                      0.060075
+citric.acid             0.055822
+free.sulfur.dioxide     0.052826
+residual.sugar          0.049975
+
+

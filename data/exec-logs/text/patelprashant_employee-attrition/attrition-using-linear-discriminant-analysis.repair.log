@@ -1,0 +1,84 @@
+Traceback (most recent call last):
+  File "attrition-using-linear-discriminant-analysis.py", line 212, in <module>
+    from sklearn.cross_validation import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation'), ('line_no', 212)])Traceback (most recent call last):
+  File "attrition-using-linear-discriminant-analysis.py", line 213, in <module>
+    from sklearn.utils.validation import train_test_split
+ImportError: cannot import name 'train_test_split'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cross_decomposition'), ('line_no', 212)])Traceback (most recent call last):
+  File "attrition-using-linear-discriminant-analysis.py", line 213, in <module>
+    from sklearn.cross_decomposition import train_test_split
+ImportError: cannot import name 'train_test_split'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_memory'), ('line_no', 212)])Traceback (most recent call last):
+  File "attrition-using-linear-discriminant-analysis.py", line 213, in <module>
+    from sklearn.utils.validation.check_memory import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_memory'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.column_or_1d'), ('line_no', 212)])Traceback (most recent call last):
+  File "attrition-using-linear-discriminant-analysis.py", line 213, in <module>
+    from sklearn.utils.validation.column_or_1d import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.column_or_1d'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_is_fitted'), ('line_no', 212)])Traceback (most recent call last):
+  File "attrition-using-linear-discriminant-analysis.py", line 213, in <module>
+    from sklearn.utils.validation.check_is_fitted import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_is_fitted'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.check_symmetric'), ('line_no', 212)])Traceback (most recent call last):
+  File "attrition-using-linear-discriminant-analysis.py", line 213, in <module>
+    from sklearn.utils.validation.check_symmetric import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.check_symmetric'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cluster.Birch'), ('line_no', 212)])Traceback (most recent call last):
+  File "attrition-using-linear-discriminant-analysis.py", line 213, in <module>
+    from sklearn.cluster.Birch import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cluster.Birch'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cluster.KMeans'), ('line_no', 212)])Traceback (most recent call last):
+  File "attrition-using-linear-discriminant-analysis.py", line 213, in <module>
+    from sklearn.cluster.KMeans import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cluster.KMeans'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation.has_fit_parameter'), ('line_no', 212)])Traceback (most recent call last):
+  File "attrition-using-linear-discriminant-analysis.py", line 213, in <module>
+    from sklearn.utils.validation.has_fit_parameter import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.validation.has_fit_parameter'; 'sklearn.utils.validation' is not a package
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.cross_decomposition.CCA'), ('line_no', 212)])Traceback (most recent call last):
+  File "attrition-using-linear-discriminant-analysis.py", line 213, in <module>
+    from sklearn.cross_decomposition.CCA import train_test_split
+ModuleNotFoundError: No module named 'sklearn.cross_decomposition.CCA'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.all_estimators'), ('line_no', 212)])Traceback (most recent call last):
+  File "attrition-using-linear-discriminant-analysis.py", line 213, in <module>
+    from sklearn.utils.all_estimators import train_test_split
+ModuleNotFoundError: No module named 'sklearn.utils.all_estimators'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 212)])              precision    recall  f1-score   support
+
+           0       0.90      0.96      0.93       371
+           1       0.70      0.46      0.55        70
+
+    accuracy                           0.88       441
+   macro avg       0.80      0.71      0.74       441
+weighted avg       0.87      0.88      0.87       441
+
+[ True False  True False  True  True False  True False  True False False
+  True  True False False  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True False  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True]
+[ 1  8  1  5  1  1  7  1  6  1  9 10  1  1  3  2  1  1  1  1  1  1  1  1
+  1  1  1  1  1  1  1  1  1  1  4  1  1  1  1  1  1  1  1  1  1  1  1  1
+  1]
+              precision    recall  f1-score   support
+
+           0       0.91      0.96      0.93       371
+           1       0.71      0.49      0.58        70
+
+    accuracy                           0.89       441
+   macro avg       0.81      0.72      0.76       441
+weighted avg       0.88      0.89      0.88       441
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.19      0.31       371
+           1       0.18      0.96      0.31        70
+
+    accuracy                           0.31       441
+   macro avg       0.57      0.57      0.31       441
+weighted avg       0.84      0.31      0.31       441
+
+[REPAIR EXEC TIME]: 18.54507875442505

@@ -1,0 +1,454 @@
+['housing.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20640 entries, 0 to 20639
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   longitude           20640 non-null  float64
+ 1   latitude            20640 non-null  float64
+ 2   housing_median_age  20640 non-null  float64
+ 3   total_rooms         20640 non-null  float64
+ 4   total_bedrooms      20433 non-null  float64
+ 5   population          20640 non-null  float64
+ 6   households          20640 non-null  float64
+ 7   median_income       20640 non-null  float64
+ 8   median_house_value  20640 non-null  float64
+ 9   ocean_proximity     20640 non-null  object 
+dtypes: float64(9), object(1)
+memory usage: 1.6+ MB
+
+Traceback (most recent call last):
+  File "end-to-end-ml-project.py", line 161, in <module>
+    from pandas.tools.plotting import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.tools'
+[Try Solution]: OrderedDict([('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.plotting'), ('line_no', 161)])['housing.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20640 entries, 0 to 20639
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   longitude           20640 non-null  float64
+ 1   latitude            20640 non-null  float64
+ 2   housing_median_age  20640 non-null  float64
+ 3   total_rooms         20640 non-null  float64
+ 4   total_bedrooms      20433 non-null  float64
+ 5   population          20640 non-null  float64
+ 6   households          20640 non-null  float64
+ 7   median_income       20640 non-null  float64
+ 8   median_house_value  20640 non-null  float64
+ 9   ocean_proximity     20640 non-null  object 
+dtypes: float64(9), object(1)
+memory usage: 1.6+ MB
+
+Scores: [68893.40628959 66585.55703464 70997.40803597 70416.40765152
+ 70754.1325128  74913.02328908 70707.76995635 71180.26924068
+ 76161.180233   69750.96551731]
+Mean: 71036.01197609419
+Standard Deviation: 2606.5423053259833
+Scores: [66782.73843989 66960.118071   70347.95244419 74739.57052552
+ 68031.13388938 71193.84183426 64969.63056405 68281.61137997
+ 71552.91566558 67665.10082067]
+Mean: 69052.46136345083
+Standard Deviation: 2731.674001798349
+Scores: [49752.70023273 47915.39740228 49976.96381959 52207.97511423
+ 49698.82986889 53433.01495475 48682.56466184 47852.00799926
+ 53154.95344832 50377.37180244]
+Mean: 50305.177930433245
+Standard Deviation: 1915.019989844055
+64485.2260366694 {'max_features': 2, 'n_estimators': 3}
+55391.64846453139 {'max_features': 2, 'n_estimators': 10}
+53028.01560037804 {'max_features': 2, 'n_estimators': 30}
+60923.626565488405 {'max_features': 4, 'n_estimators': 3}
+53196.59098314174 {'max_features': 4, 'n_estimators': 10}
+50601.147776683065 {'max_features': 4, 'n_estimators': 30}
+59285.36920804937 {'max_features': 6, 'n_estimators': 3}
+52185.25798862839 {'max_features': 6, 'n_estimators': 10}
+50145.59984175093 {'max_features': 6, 'n_estimators': 30}
+58808.65589006474 {'max_features': 8, 'n_estimators': 3}
+52519.14762884895 {'max_features': 8, 'n_estimators': 10}
+49993.792124158754 {'max_features': 8, 'n_estimators': 30}
+62212.17470901804 {'bootstrap': False, 'max_features': 2, 'n_estimators': 3}
+54375.88299019083 {'bootstrap': False, 'max_features': 2, 'n_estimators': 10}
+60414.63288905443 {'bootstrap': False, 'max_features': 3, 'n_estimators': 3}
+52436.76371601749 {'bootstrap': False, 'max_features': 3, 'n_estimators': 10}
+59186.42211541236 {'bootstrap': False, 'max_features': 4, 'n_estimators': 3}
+51832.51270899317 {'bootstrap': False, 'max_features': 4, 'n_estimators': 10}
+49150.70756927707 {'max_features': 7, 'n_estimators': 180}
+51389.889203389284 {'max_features': 5, 'n_estimators': 15}
+50796.155224308866 {'max_features': 3, 'n_estimators': 72}
+50835.13360315349 {'max_features': 5, 'n_estimators': 21}
+49280.9449827171 {'max_features': 7, 'n_estimators': 122}
+50774.90662363929 {'max_features': 3, 'n_estimators': 75}
+50682.78888164288 {'max_features': 3, 'n_estimators': 88}
+49608.99608105296 {'max_features': 5, 'n_estimators': 100}
+50473.61930350219 {'max_features': 3, 'n_estimators': 150}
+64429.84143294435 {'max_features': 5, 'n_estimators': 2}
+Traceback (most recent call last):
+  File "end-to-end-ml-project.py", line 705, in <module>
+    from sklearn.externals import joblib
+ImportError: cannot import name 'joblib'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.externals.joblib'), ('new_fqn', 'joblib'), ('line_no', 705)])['housing.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20640 entries, 0 to 20639
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   longitude           20640 non-null  float64
+ 1   latitude            20640 non-null  float64
+ 2   housing_median_age  20640 non-null  float64
+ 3   total_rooms         20640 non-null  float64
+ 4   total_bedrooms      20433 non-null  float64
+ 5   population          20640 non-null  float64
+ 6   households          20640 non-null  float64
+ 7   median_income       20640 non-null  float64
+ 8   median_house_value  20640 non-null  float64
+ 9   ocean_proximity     20640 non-null  object 
+dtypes: float64(9), object(1)
+memory usage: 1.6+ MB
+
+Scores: [68684.04847068 67940.25421219 71194.53772315 68418.00074071
+ 70494.56065322 74808.62456665 71315.25895504 71399.02942412
+ 76265.44972241 71206.88720217]
+Mean: 71172.66516703252
+Standard Deviation: 2528.2320716354857
+Scores: [66782.73843989 66960.118071   70347.95244419 74739.57052552
+ 68031.13388938 71193.84183426 64969.63056405 68281.61137997
+ 71552.91566558 67665.10082067]
+Mean: 69052.46136345083
+Standard Deviation: 2731.674001798349
+Scores: [49624.66118593 47740.3717244  49838.11261995 52136.76612004
+ 49788.44831184 53633.05827656 48816.65293878 48159.31596451
+ 53190.80630701 50149.35871415]
+Mean: 50307.755216317164
+Standard Deviation: 1926.8495237288557
+63389.49168554757 {'max_features': 2, 'n_estimators': 3}
+55531.580250716754 {'max_features': 2, 'n_estimators': 10}
+52874.99963508819 {'max_features': 2, 'n_estimators': 30}
+61072.48285245473 {'max_features': 4, 'n_estimators': 3}
+53600.55734992001 {'max_features': 4, 'n_estimators': 10}
+50480.0495685596 {'max_features': 4, 'n_estimators': 30}
+60154.8544156198 {'max_features': 6, 'n_estimators': 3}
+52117.09228249026 {'max_features': 6, 'n_estimators': 10}
+50098.04862771333 {'max_features': 6, 'n_estimators': 30}
+59071.78472491654 {'max_features': 8, 'n_estimators': 3}
+51781.66140304805 {'max_features': 8, 'n_estimators': 10}
+50093.13753007973 {'max_features': 8, 'n_estimators': 30}
+62435.78124495735 {'bootstrap': False, 'max_features': 2, 'n_estimators': 3}
+54617.84859719493 {'bootstrap': False, 'max_features': 2, 'n_estimators': 10}
+60238.77872197123 {'bootstrap': False, 'max_features': 3, 'n_estimators': 3}
+53008.3738901864 {'bootstrap': False, 'max_features': 3, 'n_estimators': 10}
+58248.33568870613 {'bootstrap': False, 'max_features': 4, 'n_estimators': 3}
+51799.36318291355 {'bootstrap': False, 'max_features': 4, 'n_estimators': 10}
+49150.70756927707 {'max_features': 7, 'n_estimators': 180}
+51389.889203389284 {'max_features': 5, 'n_estimators': 15}
+50796.155224308866 {'max_features': 3, 'n_estimators': 72}
+50835.13360315349 {'max_features': 5, 'n_estimators': 21}
+49280.9449827171 {'max_features': 7, 'n_estimators': 122}
+50774.90662363929 {'max_features': 3, 'n_estimators': 75}
+50682.78888164288 {'max_features': 3, 'n_estimators': 88}
+49608.99608105296 {'max_features': 5, 'n_estimators': 100}
+50473.61930350219 {'max_features': 3, 'n_estimators': 150}
+64429.84143294435 {'max_features': 5, 'n_estimators': 2}
+[REPAIR EXEC TIME]: 685.5630848407745['housing.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20640 entries, 0 to 20639
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   longitude           20640 non-null  float64
+ 1   latitude            20640 non-null  float64
+ 2   housing_median_age  20640 non-null  float64
+ 3   total_rooms         20640 non-null  float64
+ 4   total_bedrooms      20433 non-null  float64
+ 5   population          20640 non-null  float64
+ 6   households          20640 non-null  float64
+ 7   median_income       20640 non-null  float64
+ 8   median_house_value  20640 non-null  float64
+ 9   ocean_proximity     20640 non-null  object 
+dtypes: float64(9), object(1)
+memory usage: 1.6+ MB
+
+Traceback (most recent call last):
+  File "end-to-end-ml-project.py", line 161, in <module>
+    from pandas.tools.plotting import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.tools'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.plotting'), ('line_no', 161)])['housing.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20640 entries, 0 to 20639
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   longitude           20640 non-null  float64
+ 1   latitude            20640 non-null  float64
+ 2   housing_median_age  20640 non-null  float64
+ 3   total_rooms         20640 non-null  float64
+ 4   total_bedrooms      20433 non-null  float64
+ 5   population          20640 non-null  float64
+ 6   households          20640 non-null  float64
+ 7   median_income       20640 non-null  float64
+ 8   median_house_value  20640 non-null  float64
+ 9   ocean_proximity     20640 non-null  object 
+dtypes: float64(9), object(1)
+memory usage: 1.6+ MB
+
+Scores: [69730.31374778 67464.64287985 71097.4363362  68434.38732583
+ 70405.35720213 75241.98379268 71508.7278458  71223.78010621
+ 75970.67526741 70002.37830896]
+Mean: 71107.96828128569
+Standard Deviation: 2548.448815374919
+Scores: [66782.73843989 66960.118071   70347.95244419 74739.57052552
+ 68031.13388938 71193.84183426 64969.63056405 68281.61137997
+ 71552.91566558 67665.10082067]
+Mean: 69052.46136345083
+Standard Deviation: 2731.674001798349
+Scores: [49474.5614101  47820.00596745 50206.94145196 52073.40013445
+ 49558.14611105 53794.02508123 49065.69836347 47744.41737616
+ 52908.04006647 50137.1413062 ]
+Mean: 50278.23772685329
+Standard Deviation: 1939.6403974060565
+64654.872214786956 {'max_features': 2, 'n_estimators': 3}
+55527.8765578903 {'max_features': 2, 'n_estimators': 10}
+53243.524661852796 {'max_features': 2, 'n_estimators': 30}
+59603.08172428818 {'max_features': 4, 'n_estimators': 3}
+53235.19961128988 {'max_features': 4, 'n_estimators': 10}
+50428.784676432 {'max_features': 4, 'n_estimators': 30}
+58741.51608239809 {'max_features': 6, 'n_estimators': 3}
+52684.89858002728 {'max_features': 6, 'n_estimators': 10}
+49971.9074440291 {'max_features': 6, 'n_estimators': 30}
+59137.96467636031 {'max_features': 8, 'n_estimators': 3}
+52186.01890527759 {'max_features': 8, 'n_estimators': 10}
+49666.73725342478 {'max_features': 8, 'n_estimators': 30}
+62500.59322732177 {'bootstrap': False, 'max_features': 2, 'n_estimators': 3}
+54799.71505252703 {'bootstrap': False, 'max_features': 2, 'n_estimators': 10}
+59840.31483963109 {'bootstrap': False, 'max_features': 3, 'n_estimators': 3}
+52969.47983582305 {'bootstrap': False, 'max_features': 3, 'n_estimators': 10}
+58066.97774071476 {'bootstrap': False, 'max_features': 4, 'n_estimators': 3}
+51718.154298669244 {'bootstrap': False, 'max_features': 4, 'n_estimators': 10}
+49150.70756927707 {'max_features': 7, 'n_estimators': 180}
+51389.889203389284 {'max_features': 5, 'n_estimators': 15}
+50796.155224308866 {'max_features': 3, 'n_estimators': 72}
+50835.13360315349 {'max_features': 5, 'n_estimators': 21}
+49280.9449827171 {'max_features': 7, 'n_estimators': 122}
+50774.90662363929 {'max_features': 3, 'n_estimators': 75}
+50682.78888164288 {'max_features': 3, 'n_estimators': 88}
+49608.99608105296 {'max_features': 5, 'n_estimators': 100}
+50473.61930350219 {'max_features': 3, 'n_estimators': 150}
+64429.84143294435 {'max_features': 5, 'n_estimators': 2}
+Traceback (most recent call last):
+  File "end-to-end-ml-project.py", line 705, in <module>
+    from sklearn.externals import joblib
+ImportError: cannot import name 'joblib'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.joblib'), ('new_fqn', 'joblib'), ('line_no', 705)])['housing.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20640 entries, 0 to 20639
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   longitude           20640 non-null  float64
+ 1   latitude            20640 non-null  float64
+ 2   housing_median_age  20640 non-null  float64
+ 3   total_rooms         20640 non-null  float64
+ 4   total_bedrooms      20433 non-null  float64
+ 5   population          20640 non-null  float64
+ 6   households          20640 non-null  float64
+ 7   median_income       20640 non-null  float64
+ 8   median_house_value  20640 non-null  float64
+ 9   ocean_proximity     20640 non-null  object 
+dtypes: float64(9), object(1)
+memory usage: 1.6+ MB
+
+Scores: [69276.45503045 66632.81390415 72233.85384615 68761.42947235
+ 71039.76268213 75096.42800193 69943.46354961 70863.21406407
+ 77275.82440422 69984.64465686]
+Mean: 71110.78896119162
+Standard Deviation: 2945.9798806895315
+Scores: [66782.73843989 66960.118071   70347.95244419 74739.57052552
+ 68031.13388938 71193.84183426 64969.63056405 68281.61137997
+ 71552.91566558 67665.10082067]
+Mean: 69052.46136345083
+Standard Deviation: 2731.674001798349
+Scores: [49626.89388563 47714.6802785  49919.77548603 52377.49358047
+ 50130.55511102 52901.27298914 48753.08053666 48344.15279223
+ 52721.69928828 50475.48141517]
+Mean: 50296.50853631486
+Standard Deviation: 1746.609008588795
+64200.076744570324 {'max_features': 2, 'n_estimators': 3}
+55673.5468889069 {'max_features': 2, 'n_estimators': 10}
+53302.93602834241 {'max_features': 2, 'n_estimators': 30}
+59598.417354647085 {'max_features': 4, 'n_estimators': 3}
+53127.88448126401 {'max_features': 4, 'n_estimators': 10}
+50437.055965882704 {'max_features': 4, 'n_estimators': 30}
+59403.04751761655 {'max_features': 6, 'n_estimators': 3}
+52301.75719841802 {'max_features': 6, 'n_estimators': 10}
+50002.433549255904 {'max_features': 6, 'n_estimators': 30}
+58422.90462012688 {'max_features': 8, 'n_estimators': 3}
+52178.9764845545 {'max_features': 8, 'n_estimators': 10}
+50422.14974038014 {'max_features': 8, 'n_estimators': 30}
+62772.02995464632 {'bootstrap': False, 'max_features': 2, 'n_estimators': 3}
+54454.84030507546 {'bootstrap': False, 'max_features': 2, 'n_estimators': 10}
+59925.75238050681 {'bootstrap': False, 'max_features': 3, 'n_estimators': 3}
+52854.287292150606 {'bootstrap': False, 'max_features': 3, 'n_estimators': 10}
+58815.705958090184 {'bootstrap': False, 'max_features': 4, 'n_estimators': 3}
+51896.74184375291 {'bootstrap': False, 'max_features': 4, 'n_estimators': 10}
+49150.70756927707 {'max_features': 7, 'n_estimators': 180}
+51389.889203389284 {'max_features': 5, 'n_estimators': 15}
+50796.155224308866 {'max_features': 3, 'n_estimators': 72}
+50835.13360315349 {'max_features': 5, 'n_estimators': 21}
+49280.9449827171 {'max_features': 7, 'n_estimators': 122}
+50774.90662363929 {'max_features': 3, 'n_estimators': 75}
+50682.78888164288 {'max_features': 3, 'n_estimators': 88}
+49608.99608105296 {'max_features': 5, 'n_estimators': 100}
+50473.61930350219 {'max_features': 3, 'n_estimators': 150}
+64429.84143294435 {'max_features': 5, 'n_estimators': 2}
+[REPAIR EXEC TIME]: 671.5203640460968['housing.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20640 entries, 0 to 20639
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   longitude           20640 non-null  float64
+ 1   latitude            20640 non-null  float64
+ 2   housing_median_age  20640 non-null  float64
+ 3   total_rooms         20640 non-null  float64
+ 4   total_bedrooms      20433 non-null  float64
+ 5   population          20640 non-null  float64
+ 6   households          20640 non-null  float64
+ 7   median_income       20640 non-null  float64
+ 8   median_house_value  20640 non-null  float64
+ 9   ocean_proximity     20640 non-null  object 
+dtypes: float64(9), object(1)
+memory usage: 1.6+ MB
+
+Traceback (most recent call last):
+  File "end-to-end-ml-project.py", line 161, in <module>
+    from pandas.tools.plotting import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.tools'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.plotting'), ('line_no', 161)])['housing.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20640 entries, 0 to 20639
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   longitude           20640 non-null  float64
+ 1   latitude            20640 non-null  float64
+ 2   housing_median_age  20640 non-null  float64
+ 3   total_rooms         20640 non-null  float64
+ 4   total_bedrooms      20433 non-null  float64
+ 5   population          20640 non-null  float64
+ 6   households          20640 non-null  float64
+ 7   median_income       20640 non-null  float64
+ 8   median_house_value  20640 non-null  float64
+ 9   ocean_proximity     20640 non-null  object 
+dtypes: float64(9), object(1)
+memory usage: 1.6+ MB
+
+Scores: [69034.60839208 66921.47321514 71292.71418325 68644.9108616
+ 71973.75177328 73443.95808509 70385.63246041 71112.46079952
+ 76704.51487115 69505.140813  ]
+Mean: 70901.91654545252
+Standard Deviation: 2609.988125577844
+Scores: [66782.73843989 66960.118071   70347.95244419 74739.57052552
+ 68031.13388938 71193.84183426 64969.63056405 68281.61137997
+ 71552.91566558 67665.10082067]
+Mean: 69052.46136345083
+Standard Deviation: 2731.674001798349
+Scores: [49644.05559649 47739.58098274 49692.0298398  52392.60101192
+ 49721.87092577 53460.7194229  48698.03479042 47760.94290048
+ 53129.354858   50478.06832996]
+Mean: 50271.72586584909
+Standard Deviation: 1977.3988539339102
+63897.36863291765 {'max_features': 2, 'n_estimators': 3}
+56154.16690753995 {'max_features': 2, 'n_estimators': 10}
+53022.34368947582 {'max_features': 2, 'n_estimators': 30}
+60843.44906283846 {'max_features': 4, 'n_estimators': 3}
+52862.181078001515 {'max_features': 4, 'n_estimators': 10}
+50576.56028189771 {'max_features': 4, 'n_estimators': 30}
+59193.02164416066 {'max_features': 6, 'n_estimators': 3}
+52187.95822628717 {'max_features': 6, 'n_estimators': 10}
+50058.532237563 {'max_features': 6, 'n_estimators': 30}
+58074.44400953426 {'max_features': 8, 'n_estimators': 3}
+52114.76822025775 {'max_features': 8, 'n_estimators': 10}
+50229.34912653853 {'max_features': 8, 'n_estimators': 30}
+63152.48479139376 {'bootstrap': False, 'max_features': 2, 'n_estimators': 3}
+54124.4780472286 {'bootstrap': False, 'max_features': 2, 'n_estimators': 10}
+59541.81773575826 {'bootstrap': False, 'max_features': 3, 'n_estimators': 3}
+52676.9396299427 {'bootstrap': False, 'max_features': 3, 'n_estimators': 10}
+59203.97951211012 {'bootstrap': False, 'max_features': 4, 'n_estimators': 3}
+51705.26550453893 {'bootstrap': False, 'max_features': 4, 'n_estimators': 10}
+49150.70756927707 {'max_features': 7, 'n_estimators': 180}
+51389.889203389284 {'max_features': 5, 'n_estimators': 15}
+50796.155224308866 {'max_features': 3, 'n_estimators': 72}
+50835.13360315349 {'max_features': 5, 'n_estimators': 21}
+49280.9449827171 {'max_features': 7, 'n_estimators': 122}
+50774.90662363929 {'max_features': 3, 'n_estimators': 75}
+50682.78888164288 {'max_features': 3, 'n_estimators': 88}
+49608.99608105296 {'max_features': 5, 'n_estimators': 100}
+50473.61930350219 {'max_features': 3, 'n_estimators': 150}
+64429.84143294435 {'max_features': 5, 'n_estimators': 2}
+Traceback (most recent call last):
+  File "end-to-end-ml-project.py", line 705, in <module>
+    from sklearn.externals import joblib
+ImportError: cannot import name 'joblib'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.joblib'), ('new_fqn', 'joblib'), ('line_no', 705)])['housing.csv']
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20640 entries, 0 to 20639
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   longitude           20640 non-null  float64
+ 1   latitude            20640 non-null  float64
+ 2   housing_median_age  20640 non-null  float64
+ 3   total_rooms         20640 non-null  float64
+ 4   total_bedrooms      20433 non-null  float64
+ 5   population          20640 non-null  float64
+ 6   households          20640 non-null  float64
+ 7   median_income       20640 non-null  float64
+ 8   median_house_value  20640 non-null  float64
+ 9   ocean_proximity     20640 non-null  object 
+dtypes: float64(9), object(1)
+memory usage: 1.6+ MB
+
+Scores: [69780.31719327 66952.50097983 72003.54776264 69215.24263046
+ 71546.42202842 76037.30462989 71092.44324664 71691.18808038
+ 75674.93557354 70913.93097084]
+Mean: 71490.78330959048
+Standard Deviation: 2601.449423991481
+Scores: [66782.73843989 66960.118071   70347.95244419 74739.57052552
+ 68031.13388938 71193.84183426 64969.63056405 68281.61137997
+ 71552.91566558 67665.10082067]
+Mean: 69052.46136345083
+Standard Deviation: 2731.674001798349
+Scores: [49320.83755848 47451.48302033 50123.96594763 52339.45391134
+ 49689.1619114  53276.87468335 48760.53937396 47949.11165185
+ 53237.82854509 50402.31812242]
+Mean: 50255.157472585626
+Standard Deviation: 1975.243945586748
+64741.11504310749 {'max_features': 2, 'n_estimators': 3}
+55512.03962773347 {'max_features': 2, 'n_estimators': 10}
+53039.11220465177 {'max_features': 2, 'n_estimators': 30}
+60657.3956747569 {'max_features': 4, 'n_estimators': 3}
+52598.28770462768 {'max_features': 4, 'n_estimators': 10}
+50340.285962302 {'max_features': 4, 'n_estimators': 30}
+59081.365306885935 {'max_features': 6, 'n_estimators': 3}
+52067.19414787006 {'max_features': 6, 'n_estimators': 10}
+50375.67139536822 {'max_features': 6, 'n_estimators': 30}
+58844.46448371944 {'max_features': 8, 'n_estimators': 3}
+52043.112898998974 {'max_features': 8, 'n_estimators': 10}
+50115.2746569272 {'max_features': 8, 'n_estimators': 30}
+62163.98993718284 {'bootstrap': False, 'max_features': 2, 'n_estimators': 3}
+54187.03708251772 {'bootstrap': False, 'max_features': 2, 'n_estimators': 10}
+59899.26193632564 {'bootstrap': False, 'max_features': 3, 'n_estimators': 3}
+52824.6558408649 {'bootstrap': False, 'max_features': 3, 'n_estimators': 10}
+58883.007992149076 {'bootstrap': False, 'max_features': 4, 'n_estimators': 3}
+52205.05209627719 {'bootstrap': False, 'max_features': 4, 'n_estimators': 10}
+49150.70756927707 {'max_features': 7, 'n_estimators': 180}
+51389.889203389284 {'max_features': 5, 'n_estimators': 15}
+50796.155224308866 {'max_features': 3, 'n_estimators': 72}
+50835.13360315349 {'max_features': 5, 'n_estimators': 21}
+49280.9449827171 {'max_features': 7, 'n_estimators': 122}
+50774.90662363929 {'max_features': 3, 'n_estimators': 75}
+50682.78888164288 {'max_features': 3, 'n_estimators': 88}
+49608.99608105296 {'max_features': 5, 'n_estimators': 100}
+50473.61930350219 {'max_features': 3, 'n_estimators': 150}
+64429.84143294435 {'max_features': 5, 'n_estimators': 2}
+[REPAIR EXEC TIME]: 689.2650353908539

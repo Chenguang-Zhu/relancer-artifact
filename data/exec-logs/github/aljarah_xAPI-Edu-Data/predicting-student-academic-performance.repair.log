@@ -1,0 +1,64 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "predicting-student-academic-performance.py", line 336, in <module>
+    perc = Perceptron(n_iter=100, eta0=0.1, random_state=15)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_iter'
+[REPAIR EXEC TIME]: 4.463266134262085
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "predicting-student-academic-performance.py", line 336, in <module>
+    perc = Perceptron(n_iter=100, eta0=0.1, random_state=15)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_iter'
+[REPAIR EXEC TIME]: 4.6610517501831055
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "predicting-student-academic-performance.py", line 336, in <module>
+    perc = Perceptron(n_iter=100, eta0=0.1, random_state=15)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'n_iter'
+[REPAIR EXEC TIME]: 4.4847252368927

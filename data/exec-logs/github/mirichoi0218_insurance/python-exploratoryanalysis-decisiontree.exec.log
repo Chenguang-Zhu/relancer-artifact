@@ -1,0 +1,27 @@
+   age     sex     bmi  children smoker     region      charges
+0   19  female  27.900         0    yes  southwest  16884.92400
+1   18    male  33.770         1     no  southeast   1725.55230
+2   28    male  33.000         3     no  southeast   4449.46200
+3   33    male  22.705         0     no  northwest  21984.47061
+4   32    male  28.880         0     no  northwest   3866.85520
+5   31  female  25.740         0     no  southeast   3756.62160
+6   46  female  33.440         1     no  southeast   8240.58960
+   age  sex     bmi  children  smoker     region      charges
+0   19    1  27.900         0       1  southwest  16884.92400
+1   18    0  33.770         1       0  southeast   1725.55230
+2   28    0  33.000         3       0  southeast   4449.46200
+3   33    0  22.705         0       0  northwest  21984.47061
+4   32    0  28.880         0       0  northwest   3866.85520
+0.8572849503425108
+          Gini-importance
+smoker           0.719529
+bmi              0.169619
+age              0.110852
+children         0.000000
+
+          Gini-importance
+smoker           0.677991
+bmi              0.180544
+age              0.118693
+children         0.022772
+

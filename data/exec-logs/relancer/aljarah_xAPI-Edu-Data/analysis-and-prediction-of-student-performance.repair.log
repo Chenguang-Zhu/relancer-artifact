@@ -1,0 +1,85 @@
+Traceback (most recent call last):
+  File "analysis-and-prediction-of-student-performance.py", line 26, in <module>
+    from sklearn.cross_validation import train_test_split #deprecated, should find another method
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 26)])xAPI-Edu-Data.csv
+
+A    283
+B    167
+C     30
+Name: SectionID, dtype: int64
+KuwaIT         180
+Jordan         176
+Iraq            22
+lebanon         19
+SaudiArabia     16
+USA             16
+Palestine       10
+Egypt            9
+Tunis            9
+Iran             6
+Lybia            6
+Syria            6
+Morocco          4
+venzuela         1
+Name: PlaceofBirth, dtype: int64
+
+(384, 34)
+(96, 34)
+[REPAIR EXEC TIME]: 3.9242312908172607Traceback (most recent call last):
+  File "analysis-and-prediction-of-student-performance.py", line 26, in <module>
+    from sklearn.cross_validation import train_test_split #deprecated, should find another method
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 26)])xAPI-Edu-Data.csv
+
+A    283
+B    167
+C     30
+Name: SectionID, dtype: int64
+KuwaIT         180
+Jordan         176
+Iraq            22
+lebanon         19
+SaudiArabia     16
+USA             16
+Palestine       10
+Egypt            9
+Tunis            9
+Syria            6
+Lybia            6
+Iran             6
+Morocco          4
+venzuela         1
+Name: PlaceofBirth, dtype: int64
+
+(384, 34)
+(96, 34)
+[REPAIR EXEC TIME]: 3.9403746128082275Traceback (most recent call last):
+  File "analysis-and-prediction-of-student-performance.py", line 26, in <module>
+    from sklearn.cross_validation import train_test_split #deprecated, should find another method
+ModuleNotFoundError: No module named 'sklearn.cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.model_selection'), ('line_no', 26)])xAPI-Edu-Data.csv
+
+A    283
+B    167
+C     30
+Name: SectionID, dtype: int64
+KuwaIT         180
+Jordan         176
+Iraq            22
+lebanon         19
+USA             16
+SaudiArabia     16
+Palestine       10
+Tunis            9
+Egypt            9
+Iran             6
+Lybia            6
+Syria            6
+Morocco          4
+venzuela         1
+Name: PlaceofBirth, dtype: int64
+
+(384, 34)
+(96, 34)
+[REPAIR EXEC TIME]: 3.8486576080322266

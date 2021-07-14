@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "single-convolution-layer.py", line 31, in <module>
+    K.set_image_dim_ordering('th')
+AttributeError: module 'keras.backend' has no attribute 'set_image_dim_ordering'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'keras.backend.set_image_dim_ordering'), ('new_fqn', 'keras.backend.set_image_data_format'), ('line_no', 31)])Traceback (most recent call last):
+  File "single-convolution-layer.py", line 32, in <module>
+    keras.backend.set_image_data_format('th')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/keras/backend_config.py", line 146, in set_image_data_format
+    raise ValueError('Unknown data_format: ' + str(data_format))
+ValueError: Unknown data_format: th
+[REPAIR EXEC TIME]: 6.081222772598267Traceback (most recent call last):
+  File "single-convolution-layer.py", line 31, in <module>
+    K.set_image_dim_ordering('th')
+AttributeError: module 'keras.backend' has no attribute 'set_image_dim_ordering'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'keras.backend.set_image_dim_ordering'), ('new_fqn', 'keras.backend.set_image_data_format'), ('line_no', 31)])Traceback (most recent call last):
+  File "single-convolution-layer.py", line 32, in <module>
+    keras.backend.set_image_data_format('th')
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/tensorflow/python/keras/backend_config.py", line 146, in set_image_data_format
+    raise ValueError('Unknown data_format: ' + str(data_format))
+ValueError: Unknown data_format: th
+[REPAIR EXEC TIME]: 6.358865976333618Traceback (most recent call last):
+  File "single-convolution-layer.py", line 31, in <module>
+    K.set_image_dim_ordering('th')
+AttributeError: module 'keras.backend' has no attribute 'set_image_dim_ordering'
+[REPAIR EXEC TIME]: 3.191868782043457

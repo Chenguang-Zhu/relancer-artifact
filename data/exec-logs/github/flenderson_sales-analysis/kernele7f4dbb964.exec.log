@@ -1,0 +1,36 @@
+['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  70
+Class 1 numbers:  29
+Traceback (most recent call last):
+  File "kernele7f4dbb964.py", line 299, in <module>
+    sm = SMOTE(random_state=12, ratio = 1.0)
+  File "/home/cgzhu/anaconda3/envs/migration-plus/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 640, in inner_f
+    return f(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ratio'

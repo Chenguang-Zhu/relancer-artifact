@@ -1,0 +1,36 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 569 entries, 0 to 568
+Data columns (total 6 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   mean_radius      569 non-null    float64
+ 1   mean_texture     569 non-null    float64
+ 2   mean_perimeter   569 non-null    float64
+ 3   mean_area        569 non-null    float64
+ 4   mean_smoothness  569 non-null    float64
+ 5   diagnosis        569 non-null    int64  
+dtypes: float64(5), int64(1)
+memory usage: 26.8 KB
+
+
+
+best depth =  {'max_depth': 100, 'min_samples_split': 50}
+AUC value on train data =  94.24462299849846
+
+
+
+
+Accuracy=90.350877%
+
+precision=91.139241%
+
+recall=94.736842%
+
+F1-Score=92.903226%
+
+
+Feature: 0, Score: 0.00000
+Feature: 1, Score: 0.03678
+Feature: 2, Score: 0.05364
+Feature: 3, Score: 0.90958
+Feature: 4, Score: 0.00000

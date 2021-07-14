@@ -1,0 +1,11 @@
+Percentage M    0.635417
+F    0.364583
+Name: gender, dtype: float64
+
+
+
+
+Traceback (most recent call last):
+  File "exploratory-data-analysis-logistic-and-xgboost.py", line 164, in <module>
+    g = networkx.Graph.add_nodes_from(data,source='gender',target='PlaceofBirth')
+TypeError: add_nodes_from() missing 1 required positional argument: 'nodes_for_adding'

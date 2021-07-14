@@ -1,0 +1,49 @@
+
+
+
+
+Traceback (most recent call last):
+  File "fifa-2019-regression-model.py", line 355, in <module>
+    regressor_OLS=sm.OLS(endog=y,exog=x).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'statsmodels.formula.api.OLS'), ('new_fqn', 'statsmodels.formula.api.gls'), ('line_no', 355)])
+
+
+
+Traceback (most recent call last):
+  File "fifa-2019-regression-model.py", line 356, in <module>
+    regressor_OLS=statsmodels.formula.api.gls(endog=y,exog=x).fit()
+TypeError: from_formula() missing 2 required positional arguments: 'formula' and 'data'
+
+
+
+
+Traceback (most recent call last):
+  File "fifa-2019-regression-model.py", line 355, in <module>
+    regressor_OLS=sm.OLS(endog=y,exog=x).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'statsmodels.formula.api.OLS'), ('new_fqn', 'statsmodels.formula.api.gls'), ('line_no', 355)])
+
+
+
+Traceback (most recent call last):
+  File "fifa-2019-regression-model.py", line 356, in <module>
+    regressor_OLS=statsmodels.formula.api.gls(endog=y,exog=x).fit()
+TypeError: from_formula() missing 2 required positional arguments: 'formula' and 'data'
+
+
+
+
+Traceback (most recent call last):
+  File "fifa-2019-regression-model.py", line 355, in <module>
+    regressor_OLS=sm.OLS(endog=y,exog=x).fit()
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'statsmodels.formula.api.OLS'), ('new_fqn', 'statsmodels.formula.api.gls'), ('line_no', 355)])
+
+
+
+Traceback (most recent call last):
+  File "fifa-2019-regression-model.py", line 356, in <module>
+    regressor_OLS=statsmodels.formula.api.gls(endog=y,exog=x).fit()
+TypeError: from_formula() missing 2 required positional arguments: 'formula' and 'data'
+[REPAIR EXEC TIME]: 27.383606910705566

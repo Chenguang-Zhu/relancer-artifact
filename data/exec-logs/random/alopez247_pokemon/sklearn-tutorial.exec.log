@@ -1,0 +1,2 @@
+Best params: {'logisticregression__C': 0.1, 'logisticregression__class_weight': 'balanced'}
+Best AUC: 0.980

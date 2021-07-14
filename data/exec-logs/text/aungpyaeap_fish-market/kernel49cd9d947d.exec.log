@@ -1,0 +1,6 @@
+
+89.08778355829942 %
+Traceback (most recent call last):
+  File "kernel49cd9d947d.py", line 122, in <module>
+    sklearn.experimental.dump(model,'predicted_fish.pkl')
+AttributeError: module 'sklearn' has no attribute 'experimental'

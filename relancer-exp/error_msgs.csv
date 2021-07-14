@@ -1,0 +1,276 @@
+error_message,repair_action
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS',FQN_RENAME
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS',FQN_RENAME
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS',FQN_RENAME
+AttributeError: module 'tensorflow.keras.initializers' has no attribute 'HeUniform',FQN_RENAME
+AttributeError: module 'tensorflow._api.v2.train' has no attribute 'RMSPropOptimizer',FQN_RENAME
+AttributeError: module 'tensorflow._api.v2.train' has no attribute 'AdamOptimizer',FQN_RENAME
+AttributeError: module 'seaborn' has no attribute 'tsplot',FQN_RENAME
+AttributeError: module 'keras.backend' has no attribute 'tensorflow_backend',FQN_RENAME
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS',FQN_RENAME
+AttributeError: module 'pandas' has no attribute 'TimeGrouper',FQN_RENAME
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS',FQN_RENAME
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS',FQN_RENAME
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS',FQN_RENAME
+AttributeError: module 'seaborn' has no attribute 'tsplot',FQN_RENAME
+AttributeError: module 'tensorflow_estimator.python.estimator.api._v2.estimator' has no attribute 'inputs',FQN_RENAME
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS',FQN_RENAME
+AttributeError: module 'tensorflow' has no attribute 'set_random_seed',FQN_RENAME
+AttributeError: 'Series' object has no attribute 'reshape',FQN_RENAME
+AttributeError: module 'keras.backend' has no attribute 'set_image_dim_ordering',FQN_RENAME
+AttributeError: module 'keras.backend' has no attribute 'set_image_dim_ordering',FQN_RENAME
+AttributeError: module 'keras.backend' has no attribute 'set_image_dim_ordering',FQN_RENAME
+AttributeError: module 'keras.backend' has no attribute 'set_image_dim_ordering',FQN_RENAME
+AttributeError: module 'keras.backend' has no attribute 'set_image_dim_ordering',FQN_RENAME
+AttributeError: module 'keras.backend' has no attribute 'set_image_dim_ordering',FQN_RENAME
+AttributeError: module 'keras.utils' has no attribute 'generic_utils',FQN_RENAME
+AttributeError: module 'keras.utils' has no attribute 'generic_utils',FQN_RENAME
+AttributeError: module 'scipy.misc' has no attribute 'toimage',FQN_RENAME
+AttributeError: module 'tensorflow' has no attribute 'logging',FQN_RENAME
+AttributeError: 'Series' object has no attribute 'as_matrix',FQN_RENAME
+AttributeError: module 'tensorflow' has no attribute 'set_random_seed',FQN_RENAME
+AttributeError: module 'seaborn' has no attribute 'histplot',FQN_RENAME
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS',FQN_RENAME
+AttributeError: module 'statsmodels.formula.api' has no attribute 'Logit',FQN_RENAME
+AttributeError: 'Index' object has no attribute 'get_values',FQN_RENAME
+AttributeError: module 'pandas' has no attribute 'scatter_matrix',FQN_RENAME
+AttributeError: 'Series' object has no attribute 'as_matrix',FQN_RENAME
+AttributeError: module 'tensorflow._api.v2.train' has no attribute 'RMSPropOptimizer',FQN_RENAME
+AttributeError: module 'networkx' has no attribute 'from_pandas_dataframe',FQN_RENAME
+AttributeError: module 'statsmodels.formula.api' has no attribute 'OLS',FQN_RENAME
+AttributeError: module 'seaborn' has no attribute 'displot',FQN_RENAME
+AttributeError: module 'tensorflow' has no attribute 'logging',FQN_RENAME
+ImportError: cannot import name 'RandomizedLasso',FQN_RENAME
+ImportError: cannot import name 'joblib',FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+ImportError: cannot import name 'joblib',FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+ImportError: cannot import name 'cross_validation',FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+ImportError: cannot import name 'set_random_seed',FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+ImportError: cannot import name 'joblib',FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+ImportError: cannot import name 'joblib',FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+ImportError: cannot import name 'jaccard_similarity_score',FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+ImportError: cannot import name 'joblib',FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+ImportError: cannot import name 'cross_validation',FQN_RENAME
+ImportError: cannot import name 'joblib',FQN_RENAME
+ImportError: cannot import name 'jaccard_similarity_score',FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+ImportError: cannot import name 'jaccard_similarity_score',FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+ImportError: cannot import name 'grid_search',FQN_RENAME
+ImportError: cannot import name 'cross_validation',FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+ImportError: cannot import name 'jaccard_similarity_score',FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+ImportError: cannot import name 'set_random_seed',FQN_RENAME
+ImportError: cannot import name 'set_random_seed',FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+ImportError: cannot import name 'jaccard_similarity_score',FQN_RENAME
+ImportError: cannot import name 'jaccard_similarity_score',FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+ImportError: cannot import name 'cross_validation',FQN_RENAME
+ImportError: cannot import name 'jaccard_similarity_score',FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+ImportError: cannot import name 'cross_validation',FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+"ImportError: The plotly.plotly module is deprecated, please install the chart-studio package and use the chart_studio.plotly module instead. ",FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+ImportError: cannot import name 'Imputer',FQN_RENAME
+ImportError: cannot import name 'set_random_seed',FQN_RENAME
+ImportError: cannot import name 'grid_search',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.grid_search',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.six',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.six',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.six',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.grid_search',FQN_RENAME
+ModuleNotFoundError: No module named 'pandas.tools',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.six',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'pandas.tools',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.grid_search',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.six',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.grid_search',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.six',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.six',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.grid_search',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.six',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.grid_search',FQN_RENAME
+ModuleNotFoundError: No module named 'keras.backend.tensorflow_backend'; 'keras.backend' is not a package,FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'pandas.tools',FQN_RENAME
+ModuleNotFoundError: No module named 'tensorflow.contrib',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.grid_search',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'pandas.tools',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.grid_search',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.six',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.grid_search',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.six',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.six',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.six',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.six',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.six',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.six',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.joblib',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.six',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.joblib',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.six',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.six',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.externals.six',FQN_RENAME
+ModuleNotFoundError: No module named 'pandas.tools',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.cross_validation',FQN_RENAME
+ModuleNotFoundError: No module named 'pandas.tools',FQN_RENAME
+ModuleNotFoundError: No module named 'sklearn.grid_search',FQN_RENAME
+TypeError: fit() got an unexpected keyword argument 'nb_epoch',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'kind',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'categorical_features',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'ratio',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'categorical_features',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'ratio',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'categorical_features',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'categorical_features',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'categorical_features',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'categorical_features',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'ratio',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'ratio',ARG_RENAME_DELETE
+TypeError: fit() got an unexpected keyword argument 'nb_epoch',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'categorical_features',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'ratio',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'ratio',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'categorical_features',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'categorical_features',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'ratio',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'ratio',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'categorical_features',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'n_iter',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'n_iter',ARG_RENAME_DELETE
+TypeError: __init__() got an unexpected keyword argument 'n_topics',ARG_RENAME_DELETE
+TypeError: astype() got an unexpected keyword argument 'ordered',ARG_RENAME_DELETE
+TypeError: __init__() missing 1 required positional argument: 'units',ARG_RENAME_DELETE
+TypeError: __init__() missing 1 required positional argument: 'units',ARG_RENAME_DELETE
+TypeError: __init__() missing 1 required positional argument: 'units',ARG_RENAME_DELETE
+TypeError: __init__() missing 1 required positional argument: 'units',ARG_RENAME_DELETE
+TypeError: __init__() missing 1 required positional argument: 'units',ARG_RENAME_DELETE
+TypeError: __init__() missing 1 required positional argument: 'units',ARG_RENAME_DELETE
+TypeError: __init__() missing 1 required positional argument: 'units',ARG_RENAME_DELETE
+TypeError: __init__() missing 1 required positional argument: 'units',ARG_RENAME_DELETE
+TypeError: __init__() missing 1 required positional argument: 'units',ARG_RENAME_DELETE
+TypeError: __init__() missing 1 required positional argument: 'units',ARG_RENAME_DELETE
+TypeError: __init__() missing 1 required positional argument: 'units',ARG_RENAME_DELETE
+TypeError: __init__() missing 1 required positional argument: 'units',ARG_RENAME_DELETE
+TypeError: __init__() missing 1 required positional argument: 'units',ARG_RENAME_DELETE
+TypeError: __init__() missing 1 required positional argument: 'units',ARG_RENAME_DELETE
+TypeError: __init__() missing 1 required positional argument: 'units',ARG_RENAME_DELETE
+"ValueError: Invalid value for max_features. Allowed string values are 'auto', 'sqrt' or 'log2'.",ARG_VALUE_UPDATE
+"ValueError: Config parameter ""style"" does not exist.",ARG_RENAME_DELETE
+"ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.",ARG_VALUE_UPDATE
+"ValueError: Invalid value for max_features. Allowed string values are 'auto', 'sqrt' or 'log2'.",ARG_VALUE_UPDATE
+"ValueError: Solver newton-cg supports only 'l2' or 'none' penalties, got l1 penalty.",ARG_VALUE_UPDATE
+"ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.",ARG_VALUE_UPDATE
+"ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.",ARG_VALUE_UPDATE
+"ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.",ARG_VALUE_UPDATE
+"ValueError: Layer sequential expects 1 inputs, but it received 2 input tensors. Inputs received: [<tf.Tensor 'IteratorGetNext:0' shape=(None, 24, 13) dtype=float32>, <tf.Tensor 'ExpandDims:0' shape=(None, 1) dtype=float32>]",ARG_VALUE_UPDATE
+"ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.",ARG_VALUE_UPDATE
+"ValueError: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].",ARG_VALUE_UPDATE
+"TypeError: __init__() got an unexpected keyword argument 'n_folds'",ARG_RENAME_DELETE
+"TypeError: __init__() got an unexpected keyword argument 'positive'",ARG_RENAME_DELETE
+"TypeError: __init__() got an unexpected keyword argument 'n'",ARG_RENAME_DELETE
+"TypeError: __init__() got an unexpected keyword argument 'axis'",ARG_RENAME_DELETE
+"ValueError: 'X' and 'missing_values' types are expected to be both numerical. Got X.dtype=float64 and  type(missing_values)=<class 'str'>.",ARG_VALUE_UPDATE
+"ModuleNotFoundError: No module named 'sklearn.learning_curve'",FQN_RENAME
+"TypeError: epsilon() takes 0 positional arguments but 1 was given",ARG_RENAME_DELETE
+"ValueError: Unknown data_format: th",ARG_VALUE_UPDATE
+"ValueError: Input contains NaN, infinity or a value too large for dtype('float64').",ARG_VALUE_UPDATE
+"TypeError: ('Keyword argument not understood:', 'init')",ARG_RENAME_DELETE
+"TypeError: ('Keyword argument not understood:', 'output_dim')",ARG_RENAME_DELETE
+"ValueError: The number of folds must be of Integral type.",ARG_VALUE_UPDATE
+"ModuleNotFoundError: No module named 'pandas.Series'",FQN_RENAME
+"TypeError: scale() got an unexpected keyword argument 'strategy'",ARG_RENAME_DELETE
+"ImportError: PLACEHOLDER",FQN_RENAME
+"ModuleNotFoundError: PLACEHOLDER",FQN_RENAME
+"AttributeError: PLACEHOLDER",FQN_RENAME
+"TypeError: PLACEHOLDER",ARG_RENAME_DELETE
+"ValueError: PLACEHOLDER",ARG_VALUE_UPDATE

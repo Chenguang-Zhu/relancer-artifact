@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "single-convolution-layer.py", line 31, in <module>
+    K.set_image_dim_ordering('th')
+AttributeError: module 'keras.backend' has no attribute 'set_image_dim_ordering'

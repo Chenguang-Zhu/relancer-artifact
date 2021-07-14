@@ -1,0 +1,243 @@
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 12, in <module>
+    from pandas.tools.plotting import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.tools'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Series.rolling'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Series.rolling import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Series'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Series.combine'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Series.combine import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Series'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Timestamp.time'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Timestamp.time import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Timestamp'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.to_timedelta'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.to_timedelta import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.to_timedelta'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.BooleanDtype'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.BooleanDtype import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.BooleanDtype'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Timestamp.min'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Timestamp.min import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Timestamp'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Index.identical'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Index.identical import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Index'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.timedelta_range'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.timedelta_range import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.timedelta_range'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.plotting.table'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.plotting.table import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.plotting.table'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Series.to_list'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Series.to_list import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Series'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Series.notna'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Series.notna import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Series'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Series.to_dict'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Series.to_dict import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Series'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.to_datetime'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.to_datetime import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.to_datetime'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Series.loc'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Series.loc import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Series'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Series.dot'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Series.dot import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Series'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Period.month'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Period.month import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Period'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Series.dt.time'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Series.dt.time import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Series'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.option_context'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.option_context import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.option_context'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Series.last'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Series.last import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Series'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Index.dropna'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Index.dropna import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Index'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Series.cummin'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Series.cummin import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Series'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Series.idxmin'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Series.idxmin import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Series'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Series.argmin'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Series.argmin import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Series'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.DataFrame.min'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.DataFrame.min import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.DataFrame'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Timedelta.min'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Timedelta.min import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Timedelta'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Index.putmask'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Index.putmask import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Index'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Series.at_time'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Series.at_time import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Series'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.crosstab'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.crosstab import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.crosstab'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.json_normalize'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.json_normalize import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.json_normalize'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Index.all'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Index.all import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Index'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.to_numeric'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.to_numeric import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.to_numeric'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Index.drop'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Index.drop import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Index'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Index.asof'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Index.asof import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Index'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Timestamp.tz'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Timestamp.tz import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Timestamp'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.read_sql_table'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.read_sql_table import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.read_sql_table'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Index.empty'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Index.empty import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Index'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Index.shift'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Index.shift import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Index'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Index.nbytes'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Index.nbytes import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Index'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Index.delete'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Index.delete import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Index'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.IntervalDtype'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.IntervalDtype import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.IntervalDtype'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Timestamp.minute'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Timestamp.minute import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Timestamp'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Timestamp.timetz'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Timestamp.timetz import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Timestamp'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Timestamp.tzname'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Timestamp.tzname import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Timestamp'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Timestamp.today'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Timestamp.today import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Timestamp'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Index.asof_locs'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Index.asof_locs import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Index'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Timestamp.month'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Timestamp.month import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Timestamp'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Index.factorize'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Index.factorize import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Index'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Index.droplevel'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Index.droplevel import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Index'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Index.is_unique'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Index.is_unique import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Index'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Series.to_pickle'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Series.to_pickle import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Series'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.DataFrame.to_gbq'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.DataFrame.to_gbq import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.DataFrame'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Timestamp.tzinfo'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Timestamp.tzinfo import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Timestamp'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Index.slice_locs'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Index.slice_locs import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Index'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Series.dt.timetz'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Series.dt.timetz import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Series'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Series.dt.minute'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Series.dt.minute import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Series'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Series.str.index'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Series.str.index import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Series'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.Index.is_integer'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 13, in <module>
+    from pandas.Index.is_integer import scatter_matrix
+ModuleNotFoundError: No module named 'pandas.Index'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'pandas.tools.plotting'), ('new_fqn', 'pandas.plotting'), ('line_no', 12)])Traceback (most recent call last):
+  File "haberman-s-survival.py", line 15, in <module>
+    from sklearn import cross_validation
+ImportError: cannot import name 'cross_validation'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.cross_validation'), ('new_fqn', 'sklearn.utils.validation'), ('line_no', 15)])
+
+Traceback (most recent call last):
+  File "haberman-s-survival.py", line 149, in <module>
+    X_train, X_validation, Y_train, Y_validation = validation.train_test_split(X, Y, test_size=validation_size, random_state=seed) 
+AttributeError: module 'sklearn.utils.validation' has no attribute 'train_test_split'
+[REPAIR EXEC TIME]: 50.68338203430176

@@ -1,0 +1,63 @@
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:    0.0s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:    0.0s finished
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 115 entries, 0 to 114
+Data columns (total 14 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   PatientId       115 non-null    float64
+ 1   AppointmentID   115 non-null    int64  
+ 2   Gender          115 non-null    object 
+ 3   ScheduledDay    115 non-null    object 
+ 4   AppointmentDay  115 non-null    object 
+ 5   Age             115 non-null    int64  
+ 6   Neighbourhood   115 non-null    object 
+ 7   Scholarship     115 non-null    int64  
+ 8   Hipertension    115 non-null    int64  
+ 9   Diabetes        115 non-null    int64  
+ 10  Alcoholism      115 non-null    int64  
+ 11  Handcap         115 non-null    int64  
+ 12  SMS_received    115 non-null    int64  
+ 13  No-show         115 non-null    object 
+dtypes: float64(1), int64(8), object(5)
+memory usage: 12.7+ KB
+
+Accuracy: 77.27%
+Feature ranking:
+1. feature 4 (0.334615)
+2. feature 9 (0.173584)
+3. feature 8 (0.146203)
+4. feature 0 (0.145382)
+5. feature 10 (0.068270)
+6. feature 1 (0.052345)
+7. feature 6 (0.033368)
+8. feature 5 (0.017658)
+9. feature 2 (0.015435)
+10. feature 7 (0.009791)
+11. feature 3 (0.003351)
+
+Accuracy: 84.85%
+Feature ranking:
+1. feature 8 (0.219649)
+2. feature 9 (0.199473)
+3. feature 4 (0.196746)
+4. feature 10 (0.104004)
+5. feature 0 (0.085452)
+6. feature 1 (0.082003)
+7. feature 2 (0.049738)
+8. feature 6 (0.025677)
+9. feature 5 (0.019970)
+10. feature 7 (0.017288)
+11. feature 3 (0.000000)
+
+Confusion matrix, without normalization
+[[28  1]
+ [ 4  0]]
+
+Normalized confusion matrix
+[[0.97 0.03]
+ [1.   0.  ]]
+
+

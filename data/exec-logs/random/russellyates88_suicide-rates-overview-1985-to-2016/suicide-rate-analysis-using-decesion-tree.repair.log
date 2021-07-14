@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "suicide-rate-analysis-using-decesion-tree.py", line 18, in <module>
+    from sklearn.externals.six import StringIO
+ModuleNotFoundError: No module named 'sklearn.externals.six'
+[Try Solution]: OrderedDict([('action', 'fqn'), ('old_fqn', 'sklearn.externals.six'), ('new_fqn', 'six'), ('line_no', 18)])['master.csv']
+   year  population  suicides/100k pop  gdp_per_capita ($)
+0  1987      312900               6.71                 796
+1  1987      308000               5.19                 796
+2  1987      289700               4.83                 796
+3  1987       21800               4.59                 796
+4  1987      274300               3.28                 796
+0    21
+1    16
+2    14
+3     1
+4     9
+Name: suicides_no, dtype: int64
+(22256, 4) (22256,)
+(5564,) (5564, 4)
+       year  population  suicides/100k pop  gdp_per_capita ($)
+25898  2001      567589               0.53                 863
+25135  2002      613130              16.15                2305
+8945   2004      325806              36.52               39793
+16628  1990     9501000               4.97                3595
+21612  2013       16184              12.36                9041
+[REPAIR EXEC TIME]: 3.075327157974243

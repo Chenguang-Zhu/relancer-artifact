@@ -1,0 +1,10 @@
+../../../input/fayomi_advertising/advertising.csv
+(700, 5)
+(700,)
+(300, 5)
+(300,)
+0.8733333333333333
+Traceback (most recent call last):
+  File "ad-click-prediction-using-logistic-regression.py", line 98, in <module>
+    from sklearn.metrics import jaccard_similarity_score
+ImportError: cannot import name 'jaccard_similarity_score'

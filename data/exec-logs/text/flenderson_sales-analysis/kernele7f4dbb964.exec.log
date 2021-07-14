@@ -1,0 +1,52 @@
+['SalesKaggle3.csv']
+(146, 14)
+*****************
+Order               146
+File_Type             2
+SKU_number          146
+SoldFlag              2
+SoldCount             6
+MarketingType         2
+ReleaseNumber        71
+New_Release_Flag      2
+StrengthFactor      146
+PriceReg            105
+ReleaseYear          85
+ItemCount            60
+LowUserPrice        118
+LowNetPrice         136
+dtype: int64
+*****************
+124
+22
+
+
+
+
+
+(99, 8) (99,)
+(25, 8) (25,)
+Class 0 numbers:  76
+Class 1 numbers:  23
+Class 0 numbers:  70
+Class 1 numbers:  70
+Validation Results
+0.5
+0.25
+
+Test Results
+0.64
+0.5
+
+ROC AUC score
+0.6029411764705881
+Confusion matrix, without normalization
+[[12  5]
+ [ 4  4]]
+
+Normalized confusion matrix
+[[0.71 0.29]
+ [0.5  0.5 ]]
+
+
+

@@ -1,0 +1,19 @@
+['bigml_59c28831336c6604c800002a.csv']
+['bigml_59c28831336c6604c800002a.csv']
+Traceback (most recent call last):
+  File "telecom-customer-churn.py", line 89, in <module>
+    classifier.add(Dense(output_dim = 10, kernel_initializer = 'uniform', activation = 'relu' , input_dim = 19))
+TypeError: __init__() missing 1 required positional argument: 'units'
+[REPAIR EXEC TIME]: 2.945819139480591['bigml_59c28831336c6604c800002a.csv']
+['bigml_59c28831336c6604c800002a.csv']
+Traceback (most recent call last):
+  File "telecom-customer-churn.py", line 89, in <module>
+    classifier.add(Dense(output_dim = 10, kernel_initializer = 'uniform', activation = 'relu' , input_dim = 19))
+TypeError: __init__() missing 1 required positional argument: 'units'
+[REPAIR EXEC TIME]: 2.96720552444458['bigml_59c28831336c6604c800002a.csv']
+['bigml_59c28831336c6604c800002a.csv']
+Traceback (most recent call last):
+  File "telecom-customer-churn.py", line 89, in <module>
+    classifier.add(Dense(output_dim = 10, kernel_initializer = 'uniform', activation = 'relu' , input_dim = 19))
+TypeError: __init__() missing 1 required positional argument: 'units'
+[REPAIR EXEC TIME]: 2.8903400897979736

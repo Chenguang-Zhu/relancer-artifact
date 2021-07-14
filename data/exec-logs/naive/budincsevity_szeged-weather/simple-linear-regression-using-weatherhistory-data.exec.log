@@ -1,0 +1,4 @@
+  File "simple-linear-regression-using-weatherhistory-data.py", line 111
+    imputerHumidity=scale(missing_values='NaN',strategy='mean',X=0,with_std=True,with_std=True,copy=True,axis=True)
+                                                                                ^
+SyntaxError: keyword argument repeated

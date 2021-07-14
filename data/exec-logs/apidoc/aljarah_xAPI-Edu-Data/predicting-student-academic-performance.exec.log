@@ -1,0 +1,48 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Minimum Accuracy Score:   0.46527778
+Maximum Accuracy Score:   0.76388889
+Average Accuracy Score:   0.64629861
+Minimum Prediction Misses:   34
+Maximum Prediction Misses:   77
+Average Prediction Misses:   50.93
+RBF Minimum Accuracy Score:   0.63194444
+RBF Maximum Accuracy Score:   0.84027778
+RBF Average Accuracy Score:   0.74295833
+------------------------------------------------
+Linear Minimum Accuracy Score:   0.65277778
+Linear Maximum Accuracy Score:   0.84722222
+Linear Average Accuracy Score:   0.75606250
+------------------------------------------------
+Polynomial Minimum Accuracy Score:   0.30555556
+Polynomial Maximum Accuracy Score:   0.54166667
+Polynomial Average Accuracy Score:   0.43991667
+------------------------------------------------
+Sigmoid Minimum Accuracy Score:   0.61111111
+Sigmoid Maximum Accuracy Score:   0.84027778
+Sigmoid Average Accuracy Score:   0.72650000
+================================================
+RBF Average Prediction Misses:   37.01
+Linear Average Prediction Misses:   35.13
+Polynomial Average Prediction Misses:   80.65
+Sigmoid Average Prediction Misses:   39.38
+3-depth Tree Minimum Accuracy Score:   0.53472222
+3-depth Tree Maximum Accuracy Score:   0.79861111
+3-depth Tree Average Accuracy Score:   0.68240278
+------------------------------------------------
+5-depth Tree Minimum Accuracy Score:   0.57638889
+5-depth Tree Maximum Accuracy Score:   0.84722222
+5-depth Tree Average Accuracy Score:   0.71843056

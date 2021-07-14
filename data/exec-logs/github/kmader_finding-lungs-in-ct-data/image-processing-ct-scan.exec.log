@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "image-processing-ct-scan.py", line 31, in <module>
+    K.set_image_dim_ordering('th')
+AttributeError: module 'keras.backend' has no attribute 'set_image_dim_ordering'
