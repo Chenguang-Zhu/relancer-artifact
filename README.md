@@ -1,5 +1,7 @@
 # Relancer
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5104925.svg)](https://doi.org/10.5281/zenodo.5104925)
+
 **Relancer** is an automatic technique that restores the executability of broken Jupyter Notebooks by upgrading deprecated APIs.
 
 ## Prerequisites
