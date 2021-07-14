@@ -27,7 +27,7 @@ If the installation is successful, the end of the command line output should be 
 [1. Run demo cases (~15 mins)](https://github.com/Chenguang-Zhu/relancer-ase21-artifact/blob/main/README.md#1-run-demo-cases)  
 [2. Run Relancer on all the subjects (~6 hrs)](https://github.com/Chenguang-Zhu/relancer-ase21-artifact/blob/main/README.md#2-run-relancer-on-all-the-subjects)  
 [3. Run the baselines on all the subjects (~78 hrs)](https://github.com/Chenguang-Zhu/relancer-ase21-artifact/blob/main/README.md#3-run-the-baselines-on-all-the-subjects-if-one-wants-to-replicate-the-results-of-the-baselines)  
-[4. Reproduce charts in the paper](https://github.com/Chenguang-Zhu/relancer-ase21-artifact/blob/main/README.md#4-reproduce-charts-in-the-paper)  
+[4. Reproduce charts in the paper without running the full experiment](https://github.com/Chenguang-Zhu/relancer-ase21-artifact/blob/main/README.md#4-reproduce-charts-in-the-paper-without-running-the-full-experiment)  
 
 ### 1. Run demo cases
 
@@ -147,7 +147,7 @@ One can also manually walk through the execution log files to check the results.
 ```bash
 find relancer-exp/exec-logs/relancer/ -name "*.exec.log"
 ```
-will print the pathes of all execution log files. Each file stores the final execution log of a notebook fixed by Relancer. Therefore, no errors should exist in any of these log files. One can manually check if the logs are error-free. 
+will print the paths of all execution log files. Each file stores the final execution log of a notebook fixed by Relancer. Therefore, no errors should exist in any of these log files. One can manually check if the logs are error-free. 
 
 ---
 
@@ -182,7 +182,7 @@ Finally, run the full script:
 Time estimation: ~6 hours on an Intel Core i7-8650U CPU @ 1.90GHz × 8 machine with 16 GB RAM.
 
 This script executes Relancer on all the Jupyter Notebooks and stores each notebook's result in the same directory structure as the demo.  
-In the end of the run, all the notebooks should be fixed by Relancer. The output directories are as follows:
+At the end of the run, all the notebooks should be fixed by Relancer. The output directories are as follows:
 ```
 ├──📂 relancer  
    ├──📂 relancer-exp  
@@ -229,7 +229,7 @@ One can also manually walk through the execution log files to check the results.
 ```bash
 find relancer-exp/exec-logs/relancer/ -name "*.exec.log"
 ```
-will print the pathes of all execution log files. Each file stores the final execution log of a notebook fixed by Relancer. Therefore, no errors should exist in any of these log files. One can manually check if the logs are error-free. 
+will print the paths of all execution log files. Each file stores the final execution log of a notebook fixed by Relancer. Therefore, no errors should exist in any of these log files. One can manually check if the logs are error-free. 
 
 Note: Relancer's performance can be affected by the configuration of the computer. We have tested `run_full.sh` multiple times on an Intel Core i7-8650U CPU @ 1.90GHz × 8 machine with 16 GB RAM, in which Relancer can always fix all the 142 notebooks (as in Figure 5a) within the 30-min preset time limit (the same time limit as in the paper). However, running on a different machine may produce different results. If the machine specs are significantly lower than our machine, then Relancer may time out on several subjects, but most subjects should remain unaffected.
 
@@ -332,21 +332,21 @@ Relancer_random:
 ```bash
 grep -E '\[INFO\] This case is fully fixed!' relancer-exp/batch-log-random.txt | wc -l
 ```
-Due to the random nature of Relancer_random, the result is not predictable. However, we expect the number is around 100 if running on an Intel Core i7-8650U CPU @ 1.90GHz × 8 machine with 16 GB RAM.
+Due to the random nature of Relancer_random, the result is not predictable. However, we expect the number to be around 100 if running on an Intel Core i7-8650U CPU @ 1.90GHz × 8 machine with 16 GB RAM.
 
 Relancer_naive:
 ```bash
 grep -E '\[INFO\] This case is fully fixed!' relancer-exp/batch-log-naive.txt | wc -l
 ```
-Due to the random nature of Relancer_naive, the result is not predictable. However, we expect the number is around 80 if running on an Intel Core i7-8650U CPU @ 1.90GHz × 8 machine with 16 GB RAM.
+Due to the random nature of Relancer_naive, the result is not predictable. However, we expect the number to be around 80 if running on an Intel Core i7-8650U CPU @ 1.90GHz × 8 machine with 16 GB RAM.
 
 Note: All the baselines' performance can be affected by the configuration of the computer. We have tested `run_baseline.sh` on an Intel Core i7-8650U CPU @ 1.90GHz × 8 machine with 16 GB RAM, where the baselines can fix the number of notebooks as shown in Figure 5b and Figure 6 in the paper, within the 30-min preset time limit. However, running on a different machine may produce different results. If the machine specs are significantly lower than our machine, then the baselines may time out on some subjects. Furthermore, Relancer_random and Relancer_naive use a random choice generator to determine repair actions, which can make their results fluctuate across different runs. 
 
 ---
 
-### 4. Reproduce charts in the paper
+### 4. Reproduce charts in the paper without running the full experiment
 
-As running baseline can take substantial time, and the randomness of the baselines can affect the result, if one wants to reproduce the charts (Figure 5b, Figure 6) in the paper, we offer a script to generate these plots using the log files of our original experiment.
+As running baseline can take substantial time, and the randomness of the baselines can affect the result, if one wants to reproduce the charts (Figure 5b, Figure 6) in the paper, we offer a script to generate these plots using the log files of our original experiment. Please note that since we do not have access to GUI in Docker, we present the result in tabular form. 
 
 Launch a Docker container `relancer-charts` and activate the environment:
 ```bash
@@ -380,7 +380,7 @@ Time (min)
 30               142                  108                102                  78
 ----------------------------
 ```
-In addition, there will be two chart files generated in the current working directory: `fig5b.eps` and `fig6.eps`. They are the same as the figures in the paper.
+In addition, there will be two chart files generated in the current working directory: `fig5b.eps` and `fig6.eps`. They are the same as the figures in the [paper](https://github.com/Chenguang-Zhu/relancer-ase21-artifact/blob/main/paper.pdf).
 
 ---
 
