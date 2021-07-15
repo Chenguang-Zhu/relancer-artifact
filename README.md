@@ -382,7 +382,7 @@ Time (min)
 30               142                  108                102                  78
 ----------------------------
 ```
-In addition, there will be two chart files generated in the current working directory: `fig5b.eps` and `fig6.eps`. They are the same as the figures in the [paper](https://github.com/Chenguang-Zhu/relancer-ase21-artifact/blob/main/paper.pdf).
+In addition, there will be two chart files generated in the current working directory: `fig5b.eps` and `fig6.eps`. They are the same as the figures in the [paper](https://github.com/Chenguang-Zhu/relancer-artifact/blob/main/paper.pdf).
 
 ---
 
