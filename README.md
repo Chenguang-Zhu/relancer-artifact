@@ -26,10 +26,10 @@ If the installation is successful, the end of the command line output should be 
 
 ## Quick Start
 
-[1. Run demo cases (~15 mins)](https://github.com/Chenguang-Zhu/relancer-ase21-artifact/blob/main/README.md#1-run-demo-cases)  
-[2. Run Relancer on all the subjects (~6 hrs)](https://github.com/Chenguang-Zhu/relancer-ase21-artifact/blob/main/README.md#2-run-relancer-on-all-the-subjects)  
-[3. Run the baselines on all the subjects (~78 hrs)](https://github.com/Chenguang-Zhu/relancer-ase21-artifact/blob/main/README.md#3-run-the-baselines-on-all-the-subjects-if-one-wants-to-replicate-the-results-of-the-baselines)  
-[4. Reproduce charts in the paper without running the full experiment](https://github.com/Chenguang-Zhu/relancer-ase21-artifact/blob/main/README.md#4-reproduce-charts-in-the-paper-without-running-the-full-experiment)  
+[1. Run demo cases (~15 mins)](https://github.com/Chenguang-Zhu/relancer-artifact/blob/main/README.md#1-run-demo-cases)  
+[2. Run Relancer on all the subjects (~6 hrs)](https://github.com/Chenguang-Zhu/relancer-artifact/blob/main/README.md#2-run-relancer-on-all-the-subjects)  
+[3. Run the baselines on all the subjects (~78 hrs)](https://github.com/Chenguang-Zhu/relancer-artifact/blob/main/README.md#3-run-the-baselines-on-all-the-subjects-if-one-wants-to-replicate-the-results-of-the-baselines)  
+[4. Reproduce charts in the paper without running the full experiment](https://github.com/Chenguang-Zhu/relancer-artifact/blob/main/README.md#4-reproduce-charts-in-the-paper-without-running-the-full-experiment)  
 
 ### 1. Run demo cases
 
